@@ -1,6 +1,6 @@
 {
-  "version": "1.0.9",
-  "windows": "https://github.com/renatorocha0934/RAGridrelease/releases/download/v1.0.9/RAGrid-Windows.zip",
-  "mac": "https://github.com/renatorocha0934/RAGridrelease/releases/download/v1.0.9/RAGrid-Mac.dmg",
+  "version": "1.1.1",
+  "windows": "https://github.com/renatorocha0934/RAGridrelease/releases/download/v1.1.1/RAGrid-Windows.zip",
+  "mac": "https://github.com/renatorocha0934/RAGridrelease/releases/download/v1.1.1/RAGrid-Mac.dmg",
   "notes": "Melhorias gerais"
 }
