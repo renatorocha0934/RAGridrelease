@@ -1,6 +1,6 @@
 {
-  "version": "1.3.19",
-  "windows": "https://github.com/renatorocha0934/RAGridrelease/releases/download/v1.3.19/RAGrid-Windows.zip",
-  "mac": "https://github.com/renatorocha0934/RAGridrelease/releases/download/v1.3.19/RAGrid-Mac.dmg",
-  "notes": "Ícone do R-A Grid volta para a área de trabalho depois da migração"
+  "version": "1.3.20",
+  "windows": "https://github.com/renatorocha0934/RAGridrelease/releases/download/v1.3.20/RAGrid-Windows.zip",
+  "mac": "https://github.com/renatorocha0934/RAGridrelease/releases/download/v1.3.20/RAGrid-Mac.dmg",
+  "notes": "Installer in English and R-A Grid reopens automatically after the update"
 }
