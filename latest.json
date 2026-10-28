@@ -1,6 +1,6 @@
 {
-  "version": "1.3.16",
-  "windows": "https://github.com/renatorocha0934/RAGridrelease/releases/download/v1.3.16/RAGrid-Windows.zip",
-  "mac": "https://github.com/renatorocha0934/RAGridrelease/releases/download/v1.3.16/RAGrid-Mac.dmg",
-  "notes": "CI: compila e publica sozinho a cada push, com trava contra rebaixar a versão"
+  "version": "1.3.17",
+  "windows": "https://github.com/renatorocha0934/RAGridrelease/releases/download/v1.3.17/RAGrid-Windows.zip",
+  "mac": "https://github.com/renatorocha0934/RAGridrelease/releases/download/v1.3.17/RAGrid-Mac.dmg",
+  "notes": "Instalador novo: move de Program Files (x86) para Program Files\\RA Grid, ícone novo e correção do looping"
 }
