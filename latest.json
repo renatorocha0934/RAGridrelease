@@ -1,6 +1,6 @@
 {
-  "version": "1.3.25",
-  "windows": "https://github.com/renatorocha0934/RAGridrelease/releases/download/v1.3.25/RAGrid-Windows.zip",
-  "mac": "https://github.com/renatorocha0934/RAGridrelease/releases/download/v1.3.25/RAGrid-Mac.dmg",
-  "notes": "Checks for updates every 5 minutes while R-A Grid is open"
+  "version": "1.3.26",
+  "windows": "https://github.com/renatorocha0934/RAGridrelease/releases/download/v1.3.26/RAGrid-Windows.zip",
+  "mac": "https://github.com/renatorocha0934/RAGridrelease/releases/download/v1.3.26/RAGrid-Mac.dmg",
+  "notes": "Test"
 }
