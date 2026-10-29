@@ -1,6 +1,6 @@
 {
-  "version": "1.3.33",
-  "windows": "https://github.com/renatorocha0934/RAGridrelease/releases/download/v1.3.33/RAGrid-Windows.zip",
-  "mac": "https://github.com/renatorocha0934/RAGridrelease/releases/download/v1.3.33/RAGrid-Mac.dmg",
-  "notes": "2.0 layouts: new left panel (Canvas, Screens, Display) in 2D and 3D; Canvas by Cabinets or by Resolution (preset list, always rounded up to whole cabinets), cabinets and resolution boxes, Enter creates the canvas; info box always open and showing exact project data; panel popup (live colors, 50x50/50x1, Insert on empty space); 3D floor at the canvas bottom; brightness 50%; Portuguese (Brazil/Portugal) and Hungarian"
+  "version": "1.3.36",
+  "windows": "https://github.com/renatorocha0934/RAGridrelease/releases/download/v1.3.36/RAGrid-Windows.zip",
+  "mac": "https://github.com/renatorocha0934/RAGridrelease/releases/download/v1.3.36/RAGrid-Mac.dmg",
+  "notes": "Feedback is sent through EmailJS (contatoratools@gmail.com); clear message when internet sending is not set up"
 }
