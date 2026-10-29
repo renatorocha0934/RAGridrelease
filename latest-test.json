@@ -1,6 +1,6 @@
 {
-  "version": "1.3.41",
-  "windows": "https://github.com/renatorocha0934/RAGridrelease/releases/download/v1.3.41/RAGrid-Windows.zip",
-  "mac": "https://github.com/renatorocha0934/RAGridrelease/releases/download/v1.3.41/RAGrid-Mac.dmg",
-  "notes": "3D: the back of each screen shows the data cable following the wiring, with arrows and port numbers, and stays sharp at any zoom; Curve button opens the curve panel right away when screens are selected; curve panel docked in the top-right corner of the Top view; after Apply the tool goes back to Select; Top view starts with Select"
+  "version": "1.3.42",
+  "windows": "https://github.com/renatorocha0934/RAGridrelease/releases/download/v1.3.42/RAGrid-Windows.zip",
+  "mac": "https://github.com/renatorocha0934/RAGridrelease/releases/download/v1.3.42/RAGrid-Mac.dmg",
+  "notes": "Scenes box in the top bar (Multiview, Perspective + Top, Perspective + panels; save, rename and delete your own scenes); stages listed in the Screens list with hide and lock; Curve button opens the curve panel even when the Curve tool is already on, and explains when the screens are locked; Shortcuts window opens much faster"
 }
