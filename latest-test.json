@@ -1,0 +1,6 @@
+{
+  "version": "1.3.29",
+  "windows": "https://github.com/renatorocha0934/RAGridrelease/releases/download/v1.3.29/RAGrid-Windows.zip",
+  "mac": "https://github.com/renatorocha0934/RAGridrelease/releases/download/v1.3.29/RAGrid-Mac.dmg",
+  "notes": "2.0 step 1: source code split into files by section (same program) and test channel for 2.0 builds"
+}
