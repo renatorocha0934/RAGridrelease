@@ -1,6 +1,6 @@
 {
-  "version": "1.3.42",
-  "windows": "https://github.com/renatorocha0934/RAGridrelease/releases/download/v1.3.42/RAGrid-Windows.zip",
-  "mac": "https://github.com/renatorocha0934/RAGridrelease/releases/download/v1.3.42/RAGrid-Mac.dmg",
-  "notes": "Scenes box in the top bar (Multiview, Perspective + Top, Perspective + panels; save, rename and delete your own scenes); stages listed in the Screens list with hide and lock; Curve button opens the curve panel even when the Curve tool is already on, and explains when the screens are locked; Shortcuts window opens much faster"
+  "version": "1.3.43",
+  "windows": "https://github.com/renatorocha0934/RAGridrelease/releases/download/v1.3.43/RAGrid-Windows.zip",
+  "mac": "https://github.com/renatorocha0934/RAGridrelease/releases/download/v1.3.43/RAGrid-Mac.dmg",
+  "notes": "Stages in the Screens list get the wireframe icon, and the All row (hide, wireframe, lock) now applies to stages too"
 }
