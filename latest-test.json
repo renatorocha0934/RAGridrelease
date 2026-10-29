@@ -1,6 +1,6 @@
 {
-  "version": "1.3.38",
-  "windows": "https://github.com/renatorocha0934/RAGridrelease/releases/download/v1.3.38/RAGrid-Windows.zip",
-  "mac": "https://github.com/renatorocha0934/RAGridrelease/releases/download/v1.3.38/RAGrid-Mac.dmg",
-  "notes": "General software improvements"
+  "version": "1.3.39",
+  "windows": "https://github.com/renatorocha0934/RAGridrelease/releases/download/v1.3.39/RAGrid-Windows.zip",
+  "mac": "https://github.com/renatorocha0934/RAGridrelease/releases/download/v1.3.39/RAGrid-Mac.dmg",
+  "notes": "Mapping: the drawn cabinets become a screen (name, resolution and X) when you click somewhere else, press Enter or click outside the grid; 3D: blank cabinets are holes that show what is behind; screen circle always fits inside the screen (also portrait); info box in the top-right corner with the info button inside it; Screens folder button and new groups in the program's dark blue"
 }
