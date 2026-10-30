@@ -1,6 +1,6 @@
 {
-  "version": "1.3.44",
-  "windows": "https://github.com/renatorocha0934/RAGridrelease/releases/download/v1.3.44/RAGrid-Windows.zip",
-  "mac": "https://github.com/renatorocha0934/RAGridrelease/releases/download/v1.3.44/RAGrid-Mac.dmg",
-  "notes": "File > Import: 3D models (FBX, OBJ, DAE, glTF/GLB, STL, 3DS, PLY, 3MF, DXF, older Blender files and the .zip from 3D Warehouse) enter the 3D Stage at real size, listed in Screens with hide, lock and wireframe, moved and stretched with the stage arrows, and saved in the project; SketchUp (.skp) is read when the SketchUp SDK is installed next to the program, otherwise SketchUp, Maya, Cinema 4D and DWG files explain how to export; Open project... (Ctrl+O) replaces the old Import"
+  "version": "1.3.45",
+  "windows": "https://github.com/renatorocha0934/RAGridrelease/releases/download/v1.3.45/RAGrid-Windows.zip",
+  "mac": "https://github.com/renatorocha0934/RAGridrelease/releases/download/v1.3.45/RAGrid-Mac.dmg",
+  "notes": "Imported 3D models: proportional scale button (keeps the aspect ratio) and red, green and blue rings to rotate in X, Y and Z (Shift: 15 degree steps); the model always rests on the floor, and scale and rotation are saved in the project and undoable"
 }
