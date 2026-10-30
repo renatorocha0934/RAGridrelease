@@ -1,6 +1,6 @@
 {
-  "version": "1.3.47",
-  "windows": "https://github.com/renatorocha0934/RAGridrelease/releases/download/v1.3.47/RAGrid-Windows.zip",
-  "mac": "https://github.com/renatorocha0934/RAGridrelease/releases/download/v1.3.47/RAGrid-Mac.dmg",
-  "notes": "Continuity report (v1.3.46) added to Docs"
+  "version": "1.3.57",
+  "windows": "https://github.com/renatorocha0934/RAGridrelease/releases/download/v1.3.57/RAGrid-Windows.zip",
+  "mac": "https://github.com/renatorocha0934/RAGridrelease/releases/download/v1.3.57/RAGrid-Mac.dmg",
+  "notes": "Version update (same program as 1.3.53)"
 }
