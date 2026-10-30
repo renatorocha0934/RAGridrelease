@@ -1,6 +1,6 @@
 {
-  "version": "1.3.57",
-  "windows": "https://github.com/renatorocha0934/RAGridrelease/releases/download/v1.3.57/RAGrid-Windows.zip",
-  "mac": "https://github.com/renatorocha0934/RAGridrelease/releases/download/v1.3.57/RAGrid-Mac.dmg",
-  "notes": "Version update (same program as 1.3.53)"
+  "version": "1.3.60",
+  "windows": "https://github.com/renatorocha0934/RAGridrelease/releases/download/v1.3.60/RAGrid-Windows.zip",
+  "mac": "https://github.com/renatorocha0934/RAGridrelease/releases/download/v1.3.60/RAGrid-Mac.dmg",
+  "notes": "General review: Center view centers all views, 2D redraws on 3D changes, CI checkout v5"
 }
