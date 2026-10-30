@@ -1,6 +1,6 @@
 {
-  "version": "1.3.61",
-  "windows": "https://github.com/renatorocha0934/RAGridrelease/releases/download/v1.3.61/RAGrid-Windows.zip",
-  "mac": "https://github.com/renatorocha0934/RAGridrelease/releases/download/v1.3.61/RAGrid-Mac.dmg",
-  "notes": "Hidden screens no longer count in Status, ports, power and PDF"
+  "version": "1.3.62",
+  "windows": "https://github.com/renatorocha0934/RAGridrelease/releases/download/v1.3.62/RAGrid-Windows.zip",
+  "mac": "https://github.com/renatorocha0934/RAGridrelease/releases/download/v1.3.62/RAGrid-Mac.dmg",
+  "notes": "New left panel, 3D floor and view cube, Drawing info panel, Signal calculator, UI polish"
 }
