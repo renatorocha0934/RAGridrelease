@@ -1,6 +1,6 @@
 {
-  "version": "1.3.45",
-  "windows": "https://github.com/renatorocha0934/RAGridrelease/releases/download/v1.3.45/RAGrid-Windows.zip",
-  "mac": "https://github.com/renatorocha0934/RAGridrelease/releases/download/v1.3.45/RAGrid-Mac.dmg",
-  "notes": "Imported 3D models: proportional scale button (keeps the aspect ratio) and red, green and blue rings to rotate in X, Y and Z (Shift: 15 degree steps); the model always rests on the floor, and scale and rotation are saved in the project and undoable"
+  "version": "1.3.46",
+  "windows": "https://github.com/renatorocha0934/RAGridrelease/releases/download/v1.3.46/RAGrid-Windows.zip",
+  "mac": "https://github.com/renatorocha0934/RAGridrelease/releases/download/v1.3.46/RAGrid-Mac.dmg",
+  "notes": "Stages: proportional scale button and green ring to turn them left and right (Shift: 15 degree steps); Top view: double-click a stage or imported model to show the length and depth arrows, the green turn ring and a scale button that changes width and depth together (height stays)"
 }
