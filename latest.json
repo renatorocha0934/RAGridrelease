@@ -1,6 +1,6 @@
 {
-  "version": "1.3.28",
-  "windows": "https://github.com/renatorocha0934/RAGridrelease/releases/download/v1.3.28/RAGrid-Windows.zip",
-  "mac": "https://github.com/renatorocha0934/RAGridrelease/releases/download/v1.3.28/RAGrid-Mac.dmg",
-  "notes": "New setup wizard (Welcome, Installation Folder, progress) and single-file installer for the website"
+  "version": "2.0.0",
+  "windows": "https://github.com/renatorocha0934/RAGridrelease/releases/download/v2.0.0/RAGrid-Windows.zip",
+  "mac": "https://github.com/renatorocha0934/RAGridrelease/releases/download/v2.0.0/RAGrid-Mac.dmg",
+  "notes": "Truss tools, light 3D rendering, technical drawing PDF in Export"
 }
