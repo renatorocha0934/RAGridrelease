@@ -1,6 +1,6 @@
 {
-  "version": "2.0.0",
-  "windows": "https://github.com/renatorocha0934/RAGridrelease/releases/download/v2.0.0/RAGrid-Windows.zip",
-  "mac": "https://github.com/renatorocha0934/RAGridrelease/releases/download/v2.0.0/RAGrid-Mac.dmg",
-  "notes": "Truss tools, light 3D rendering, technical drawing PDF in Export"
+  "version": "2.0.3",
+  "windows": "https://github.com/renatorocha0934/RAGridrelease/releases/download/v2.0.3/RAGrid-Windows.zip",
+  "mac": "https://github.com/renatorocha0934/RAGridrelease/releases/download/v2.0.3/RAGrid-Mac.dmg",
+  "notes": "Project file icon and double-click open, auto Center view (2D and 3D), last project on start, measures saved in the project"
 }
