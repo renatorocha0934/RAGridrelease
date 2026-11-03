@@ -1,6 +1,6 @@
 {
-  "version": "2.0.4",
-  "windows": "https://github.com/renatorocha0934/RAGridrelease/releases/download/v2.0.4/RAGrid-Windows.zip",
-  "mac": "https://github.com/renatorocha0934/RAGridrelease/releases/download/v2.0.4/RAGrid-Mac.dmg",
-  "notes": "Swahili language, X/Y/Z rotation boxes in the 3D Perspective and Top bars, screen tilt saved in the project"
+  "version": "2.0.5",
+  "windows": "https://github.com/renatorocha0934/RAGridrelease/releases/download/v2.0.5/RAGrid-Windows.zip",
+  "mac": "https://github.com/renatorocha0934/RAGridrelease/releases/download/v2.0.5/RAGrid-Mac.dmg",
+  "notes": "Installer shows the version, even icon grid, device pictures in Drawing, drag to change X/Y/Z angles"
 }
