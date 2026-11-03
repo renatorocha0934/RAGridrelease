@@ -1,6 +1,6 @@
 {
-  "version": "2.0.10",
-  "windows": "https://github.com/renatorocha0934/RAGridrelease/releases/download/v2.0.10/RAGrid-Windows.zip",
-  "mac": "https://github.com/renatorocha0934/RAGridrelease/releases/download/v2.0.10/RAGrid-Mac.dmg",
-  "notes": "Addressing presets redrawn with the full path (NovaStar set, our design) in 4 groups"
+  "version": "2.0.11",
+  "windows": "https://github.com/renatorocha0934/RAGridrelease/releases/download/v2.0.11/RAGrid-Windows.zip",
+  "mac": "https://github.com/renatorocha0934/RAGridrelease/releases/download/v2.0.11/RAGrid-Mac.dmg",
+  "notes": "Connection: info panel, top bar (zoom/PNG/PDF/full screen), dotted cable gaps, delete a port's cable line"
 }
