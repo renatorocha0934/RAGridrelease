@@ -1,6 +1,6 @@
 {
-  "version": "2.0.9",
-  "windows": "https://github.com/renatorocha0934/RAGridrelease/releases/download/v2.0.9/RAGrid-Windows.zip",
-  "mac": "https://github.com/renatorocha0934/RAGridrelease/releases/download/v2.0.9/RAGrid-Mac.dmg",
-  "notes": "Connection addressing: Addressing panel, ports chosen on the strip, preset by region, NovaLCT port rule, new screens unaddressed, no cables in 2D"
+  "version": "2.0.10",
+  "windows": "https://github.com/renatorocha0934/RAGridrelease/releases/download/v2.0.10/RAGrid-Windows.zip",
+  "mac": "https://github.com/renatorocha0934/RAGridrelease/releases/download/v2.0.10/RAGrid-Mac.dmg",
+  "notes": "Addressing presets redrawn with the full path (NovaStar set, our design) in 4 groups"
 }
