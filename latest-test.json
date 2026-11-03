@@ -1,6 +1,6 @@
 {
-  "version": "2.0.12",
-  "windows": "https://github.com/renatorocha0934/RAGridrelease/releases/download/v2.0.12/RAGrid-Windows.zip",
-  "mac": "https://github.com/renatorocha0934/RAGridrelease/releases/download/v2.0.12/RAGrid-Mac.dmg",
-  "notes": "Connection: port-colored cables, ghost cabinets, sweep tool, rulers, center-to-center arrows, limit warning, full-screen header"
+  "version": "2.0.13",
+  "windows": "https://github.com/renatorocha0934/RAGridrelease/releases/download/v2.0.13/RAGrid-Windows.zip",
+  "mac": "https://github.com/renatorocha0934/RAGridrelease/releases/download/v2.0.13/RAGrid-Mac.dmg",
+  "notes": "Connection: own Center view (keeps grid centered), Limit exceeded list in Wiring, drag-select after a click"
 }
