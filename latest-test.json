@@ -1,6 +1,6 @@
 {
-  "version": "2.0.7",
-  "windows": "https://github.com/renatorocha0934/RAGridrelease/releases/download/v2.0.7/RAGrid-Windows.zip",
-  "mac": "https://github.com/renatorocha0934/RAGridrelease/releases/download/v2.0.7/RAGrid-Mac.dmg",
-  "notes": "Connection tab: same canvas as 2D drawn in lines, one Device at a time, Ethernet port load, Wiring moved to the bottom bar"
+  "version": "2.0.8",
+  "windows": "https://github.com/renatorocha0934/RAGridrelease/releases/download/v2.0.8/RAGrid-Windows.zip",
+  "mac": "https://github.com/renatorocha0934/RAGridrelease/releases/download/v2.0.8/RAGrid-Mac.dmg",
+  "notes": "Connection: straight cabinet grid, cable drawing tool with arrow keys, no info box, Connection export (also in All Files)"
 }
