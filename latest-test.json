@@ -1,6 +1,6 @@
 {
-  "version": "2.0.20",
-  "windows": "https://github.com/renatorocha0934/RAGridrelease/releases/download/v2.0.20/RAGrid-Windows.zip",
-  "mac": "https://github.com/renatorocha0934/RAGridrelease/releases/download/v2.0.20/RAGrid-Mac.dmg",
-  "notes": "3D back shows Connection cables, cards match 2D, truss end boxes, 3D Library, cable resolution box, truss curve with corner cubes"
+  "version": "2.0.21",
+  "windows": "https://github.com/renatorocha0934/RAGridrelease/releases/download/v2.0.21/RAGrid-Windows.zip",
+  "mac": "https://github.com/renatorocha0934/RAGridrelease/releases/download/v2.0.21/RAGrid-Mac.dmg",
+  "notes": "Save prompt on close, safe Mac updater, Mac app icon and video export, trackpad zoom and pinch, 3D back cache, missing translations"
 }
