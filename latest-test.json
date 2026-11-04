@@ -1,6 +1,6 @@
 {
-  "version": "2.0.21",
-  "windows": "https://github.com/renatorocha0934/RAGridrelease/releases/download/v2.0.21/RAGrid-Windows.zip",
-  "mac": "https://github.com/renatorocha0934/RAGridrelease/releases/download/v2.0.21/RAGrid-Mac.dmg",
-  "notes": "Save prompt on close, safe Mac updater, Mac app icon and video export, trackpad zoom and pinch, 3D back cache, missing translations"
+  "version": "2.0.22",
+  "windows": "https://github.com/renatorocha0934/RAGridrelease/releases/download/v2.0.22/RAGrid-Windows.zip",
+  "mac": "https://github.com/renatorocha0934/RAGridrelease/releases/download/v2.0.22/RAGrid-Mac.dmg",
+  "notes": "3D bars no longer overlap, full tab names and minimum window width, copy a whole curved truss, same sending card count everywhere"
 }
