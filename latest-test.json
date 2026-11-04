@@ -1,6 +1,6 @@
 {
-  "version": "2.0.22",
-  "windows": "https://github.com/renatorocha0934/RAGridrelease/releases/download/v2.0.22/RAGrid-Windows.zip",
-  "mac": "https://github.com/renatorocha0934/RAGridrelease/releases/download/v2.0.22/RAGrid-Mac.dmg",
-  "notes": "3D bars no longer overlap, full tab names and minimum window width, copy a whole curved truss, same sending card count everywhere"
+  "version": "2.1.0",
+  "windows": "https://github.com/renatorocha0934/RAGridrelease/releases/download/v2.1.0/RAGrid-Windows.zip",
+  "mac": "https://github.com/renatorocha0934/RAGridrelease/releases/download/v2.1.0/RAGrid-Mac.dmg",
+  "notes": "Connection tab with cable addressing, Measure tool, 3D Library and truss curve, 26 languages, save prompt on close, Mac video export and safer updates"
 }
