@@ -1,6 +1,6 @@
 {
-  "version": "2.4.4",
-  "windows": "https://github.com/renatorocha0934/RAGridrelease/releases/download/v2.4.4/RAGrid-Windows.zip",
-  "mac": "https://github.com/renatorocha0934/RAGridrelease/releases/download/v2.4.4/RAGrid-Mac.dmg",
+  "version": "2.4.5",
+  "windows": "https://github.com/renatorocha0934/RAGridrelease/releases/download/v2.4.5/RAGrid-Windows.zip",
+  "mac": "https://github.com/renatorocha0934/RAGridrelease/releases/download/v2.4.5/RAGrid-Mac.dmg",
   "notes": "System and performance improvements."
 }
