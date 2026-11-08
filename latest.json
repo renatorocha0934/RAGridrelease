@@ -1,11 +1,102 @@
 {
-  "version": "2.5.6",
-  "windows": "https://github.com/renatorocha0934/RAGridrelease/releases/download/v2.5.6/RAGrid-Windows.zip",
-  "mac": "https://github.com/renatorocha0934/RAGridrelease/releases/download/v2.5.6/RAGrid-Mac.dmg",
+  "version": "2.5.7",
+  "windows": "https://github.com/renatorocha0934/RAGridrelease/releases/download/v2.5.7/RAGrid-Windows.zip",
+  "mac": "https://github.com/renatorocha0934/RAGridrelease/releases/download/v2.5.7/RAGrid-Mac.dmg",
   "notes": "System and performance improvements.",
   "changes": {
+    "2.5.7": {
+      "en": [
+        "**New languages:** Hebrew, Latvian, Persian, Polish and Ukrainian. R-A Grid now has 31 languages."
+      ],
+      "pt": [
+        "**Novos idiomas:** hebraico, letão, persa, polonês e ucraniano. O R-A Grid agora tem 31 idiomas."
+      ],
+      "es": [
+        "**Nuevos idiomas:** hebreo, letón, persa, polaco y ucraniano. R-A Grid ahora tiene 31 idiomas."
+      ],
+      "fr": [
+        "**Nouvelles langues :** hébreu, letton, persan, polonais et ukrainien. R-A Grid est désormais disponible en 31 langues."
+      ],
+      "de": [
+        "**Neue Sprachen:** Hebräisch, Lettisch, Persisch, Polnisch und Ukrainisch. R-A Grid gibt es jetzt in 31 Sprachen."
+      ],
+      "it": [
+        "**Nuove lingue:** ebraico, lettone, persiano, polacco e ucraino. R-A Grid ora è disponibile in 31 lingue."
+      ],
+      "nl": [
+        "**Nieuwe talen:** Hebreeuws, Lets, Perzisch, Pools en Oekraïens. R-A Grid is nu beschikbaar in 31 talen."
+      ],
+      "ru": [
+        "**Новые языки:** иврит, латышский, персидский, польский и украинский. Теперь R-A Grid доступен на 31 языке."
+      ],
+      "tr": [
+        "**Yeni diller:** İbranice, Letonca, Farsça, Lehçe ve Ukraynaca. R-A Grid artık 31 dilde."
+      ],
+      "id": [
+        "**Bahasa baru:** Ibrani, Latvia, Persia, Polandia, dan Ukraina. R-A Grid kini tersedia dalam 31 bahasa."
+      ],
+      "hu": [
+        "**Új nyelvek:** héber, lett, perzsa, lengyel és ukrán. Az R-A Grid mostantól 31 nyelven érhető el."
+      ],
+      "zh-Hans": [
+        "**新增语言：**希伯来语、拉脱维亚语、波斯语、波兰语和乌克兰语。R-A Grid 现已支持 31 种语言。"
+      ],
+      "zh-Hant": [
+        "**新增語言：**希伯來語、拉脫維亞語、波斯語、波蘭語和烏克蘭語。R-A Grid 現已支援 31 種語言。"
+      ],
+      "ja": [
+        "**新しい言語：**ヘブライ語、ラトビア語、ペルシャ語、ポーランド語、ウクライナ語。R-A Grid は 31 言語に対応しました。"
+      ],
+      "ko": [
+        "**새 언어:** 히브리어, 라트비아어, 페르시아어, 폴란드어, 우크라이나어. 이제 R-A Grid는 31개 언어를 지원합니다."
+      ],
+      "ar": [
+        "**لغات جديدة:** العبرية واللاتفية والفارسية والبولندية والأوكرانية. أصبح R-A Grid متاحًا الآن بـ 31 لغة."
+      ],
+      "th": [
+        "**ภาษาใหม่:** ฮีบรู ลัตเวีย เปอร์เซีย โปแลนด์ และยูเครน ตอนนี้ R-A Grid มี 31 ภาษา"
+      ],
+      "hi": [
+        "**नई भाषाएँ:** हिब्रू, लातवियाई, फ़ारसी, पोलिश और यूक्रेनी। अब R-A Grid 31 भाषाओं में उपलब्ध है।"
+      ],
+      "vi": [
+        "**Ngôn ngữ mới:** tiếng Do Thái, tiếng Latvia, tiếng Ba Tư, tiếng Ba Lan và tiếng Ukraina. R-A Grid nay có 31 ngôn ngữ."
+      ],
+      "bn": [
+        "**নতুন ভাষা:** হিব্রু, লাটভিয়ান, ফারসি, পোলিশ ও ইউক্রেনীয়। R-A Grid এখন 31টি ভাষায় পাওয়া যায়।"
+      ],
+      "ms": [
+        "**Bahasa baharu:** Ibrani, Latvia, Parsi, Poland dan Ukraine. R-A Grid kini tersedia dalam 31 bahasa."
+      ],
+      "sv": [
+        "**Nya språk:** hebreiska, lettiska, persiska, polska och ukrainska. R-A Grid finns nu på 31 språk."
+      ],
+      "ur": [
+        "**نئی زبانیں:** عبرانی، لیٹوین، فارسی، پولش اور یوکرینی۔ R-A Grid اب 31 زبانوں میں دستیاب ہے۔"
+      ],
+      "sw": [
+        "**Lugha mpya:** Kiebrania, Kilatvia, Kiajemi, Kipolandi na Kiukreni. R-A Grid sasa inapatikana kwa lugha 31."
+      ],
+      "gn": [
+        "**Ñe'ẽ pyahu:** hebreo, letón, persa, polaco ha ucraniano. R-A Grid oguereko ko'ág̃a 31 ñe'ẽ."
+      ],
+      "he": [
+        "**שפות חדשות:** עברית, לטבית, פרסית, פולנית ואוקראינית. R-A Grid זמין עכשיו ב-31 שפות."
+      ],
+      "lv": [
+        "**Jaunas valodas:** ivrits, latviešu, persiešu, poļu un ukraiņu. R-A Grid tagad ir pieejams 31 valodā."
+      ],
+      "fa": [
+        "**زبان‌های جدید:** عبری، لتونیایی، فارسی، لهستانی و اوکراینی. R-A Grid اکنون به 31 زبان در دسترس است."
+      ],
+      "pl": [
+        "**Nowe języki:** hebrajski, łotewski, perski, polski i ukraiński. R-A Grid jest teraz dostępny w 31 językach."
+      ],
+      "uk": [
+        "**Нові мови:** іврит, латиська, перська, польська та українська. Тепер R-A Grid доступний 31 мовою."
+      ]
+    },
     "2.5.6": {},
-    "2.5.5": {},
-    "2.5.4": {}
+    "2.5.5": {}
   }
 }
