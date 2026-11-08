@@ -1,9 +1,111 @@
 {
-  "version": "2.5.2",
-  "windows": "https://github.com/renatorocha0934/RAGridrelease/releases/download/v2.5.2/RAGrid-Windows.zip",
-  "mac": "https://github.com/renatorocha0934/RAGridrelease/releases/download/v2.5.2/RAGrid-Mac.dmg",
+  "version": "2.5.3",
+  "windows": "https://github.com/renatorocha0934/RAGridrelease/releases/download/v2.5.3/RAGrid-Windows.zip",
+  "mac": "https://github.com/renatorocha0934/RAGridrelease/releases/download/v2.5.3/RAGrid-Mac.dmg",
   "notes": "System and performance improvements.",
   "changes": {
+    "2.5.3": {
+      "en": [
+        "**Files between Windows and Mac:** a .ragrid project saved on Windows opens on the Mac, and one saved on the Mac opens on Windows.",
+        "**Update notice in the program's language:** the new-version message now appears in the language chosen in R-A Grid, no longer in the Windows or Mac language."
+      ],
+      "pt": [
+        "**Arquivos entre Windows e Mac:** o projeto .ragrid salvo no Windows abre no Mac, e o salvo no Mac abre no Windows.",
+        "**Aviso de atualização no idioma do programa:** a mensagem de nova versão aparece no idioma escolhido no R-A Grid, e não mais no idioma do Windows ou do Mac."
+      ],
+      "es": [
+        "**Archivos entre Windows y Mac:** el proyecto .ragrid guardado en Windows se abre en Mac, y el guardado en Mac se abre en Windows.",
+        "**Aviso de actualización en el idioma del programa:** el mensaje de nueva versión aparece en el idioma elegido en R-A Grid, y ya no en el idioma de Windows o de Mac."
+      ],
+      "fr": [
+        "**Fichiers entre Windows et Mac :** un projet .ragrid enregistré sous Windows s'ouvre sur Mac, et un projet enregistré sur Mac s'ouvre sous Windows.",
+        "**Avis de mise à jour dans la langue du logiciel :** le message de nouvelle version s'affiche dans la langue choisie dans R-A Grid, et non plus dans celle de Windows ou du Mac."
+      ],
+      "de": [
+        "**Dateien zwischen Windows und Mac:** Ein unter Windows gespeichertes .ragrid-Projekt öffnet sich auf dem Mac, und ein auf dem Mac gespeichertes öffnet sich unter Windows.",
+        "**Update-Hinweis in der Programmsprache:** Die Meldung zur neuen Version erscheint in der in R-A Grid gewählten Sprache und nicht mehr in der Sprache von Windows oder Mac."
+      ],
+      "it": [
+        "**File tra Windows e Mac:** un progetto .ragrid salvato su Windows si apre su Mac, e uno salvato su Mac si apre su Windows.",
+        "**Avviso di aggiornamento nella lingua del programma:** il messaggio di nuova versione appare nella lingua scelta in R-A Grid e non più nella lingua di Windows o del Mac."
+      ],
+      "nl": [
+        "**Bestanden tussen Windows en Mac:** een .ragrid-project dat op Windows is opgeslagen, opent op de Mac, en een project dat op de Mac is opgeslagen, opent op Windows.",
+        "**Updatemelding in de taal van het programma:** het bericht over een nieuwe versie verschijnt in de taal die in R-A Grid is gekozen, niet meer in de taal van Windows of Mac."
+      ],
+      "ru": [
+        "**Файлы между Windows и Mac:** проект .ragrid, сохранённый в Windows, открывается на Mac, а сохранённый на Mac — в Windows.",
+        "**Уведомление об обновлении на языке программы:** сообщение о новой версии показывается на языке, выбранном в R-A Grid, а не на языке Windows или Mac."
+      ],
+      "tr": [
+        "**Windows ve Mac arasında dosyalar:** Windows'ta kaydedilen .ragrid projesi Mac'te, Mac'te kaydedilen ise Windows'ta açılır.",
+        "**Program dilinde güncelleme bildirimi:** yeni sürüm mesajı artık Windows veya Mac dilinde değil, R-A Grid'de seçilen dilde görünür."
+      ],
+      "id": [
+        "**File antara Windows dan Mac:** proyek .ragrid yang disimpan di Windows terbuka di Mac, dan yang disimpan di Mac terbuka di Windows.",
+        "**Pemberitahuan pembaruan dalam bahasa program:** pesan versi baru muncul dalam bahasa yang dipilih di R-A Grid, bukan lagi dalam bahasa Windows atau Mac."
+      ],
+      "hu": [
+        "**Fájlok Windows és Mac között:** a Windowson mentett .ragrid projekt megnyílik Macen, a Macen mentett pedig Windowson.",
+        "**Frissítési értesítés a program nyelvén:** az új verzióról szóló üzenet az R-A Gridben kiválasztott nyelven jelenik meg, már nem a Windows vagy a Mac nyelvén."
+      ],
+      "zh-Hans": [
+        "**Windows 与 Mac 之间的文件：**在 Windows 上保存的 .ragrid 项目可以在 Mac 上打开，在 Mac 上保存的也可以在 Windows 上打开。",
+        "**更新提示使用软件语言：**新版本提示现在以 R-A Grid 中选择的语言显示，不再使用 Windows 或 Mac 的语言。"
+      ],
+      "zh-Hant": [
+        "**Windows 與 Mac 之間的檔案：**在 Windows 上儲存的 .ragrid 專案可以在 Mac 上開啟，在 Mac 上儲存的也可以在 Windows 上開啟。",
+        "**更新提示使用軟體語言：**新版本提示現在以 R-A Grid 中選擇的語言顯示，不再使用 Windows 或 Mac 的語言。"
+      ],
+      "ja": [
+        "**Windows と Mac 間のファイル：**Windows で保存した .ragrid プロジェクトは Mac で開き、Mac で保存したものは Windows で開きます。",
+        "**更新のお知らせをソフトの言語で表示：**新しいバージョンのメッセージは、Windows や Mac の言語ではなく、R-A Grid で選んだ言語で表示されます。"
+      ],
+      "ko": [
+        "**Windows와 Mac 간 파일:** Windows에서 저장한 .ragrid 프로젝트는 Mac에서 열리고, Mac에서 저장한 프로젝트는 Windows에서 열립니다.",
+        "**프로그램 언어로 표시되는 업데이트 알림:** 새 버전 메시지가 이제 Windows나 Mac 언어가 아니라 R-A Grid에서 선택한 언어로 표시됩니다."
+      ],
+      "ar": [
+        "**الملفات بين Windows وMac:** مشروع .ragrid المحفوظ على Windows يُفتح على Mac، والمحفوظ على Mac يُفتح على Windows.",
+        "**إشعار التحديث بلغة البرنامج:** تظهر رسالة الإصدار الجديد الآن باللغة المختارة في R-A Grid، وليس بلغة Windows أو Mac."
+      ],
+      "th": [
+        "**ไฟล์ระหว่าง Windows และ Mac:** โปรเจกต์ .ragrid ที่บันทึกบน Windows เปิดบน Mac ได้ และที่บันทึกบน Mac ก็เปิดบน Windows ได้",
+        "**แจ้งเตือนอัปเดตเป็นภาษาของโปรแกรม:** ข้อความเวอร์ชันใหม่จะแสดงเป็นภาษาที่เลือกใน R-A Grid ไม่ใช่ภาษาของ Windows หรือ Mac อีกต่อไป"
+      ],
+      "hi": [
+        "**Windows और Mac के बीच फ़ाइलें:** Windows पर सहेजा गया .ragrid प्रोजेक्ट Mac पर खुलता है, और Mac पर सहेजा गया Windows पर खुलता है।",
+        "**प्रोग्राम की भाषा में अपडेट सूचना:** नए संस्करण का संदेश अब Windows या Mac की भाषा में नहीं, बल्कि R-A Grid में चुनी गई भाषा में दिखता है।"
+      ],
+      "vi": [
+        "**Tệp giữa Windows và Mac:** dự án .ragrid lưu trên Windows mở được trên Mac, và dự án lưu trên Mac mở được trên Windows.",
+        "**Thông báo cập nhật theo ngôn ngữ của chương trình:** thông báo phiên bản mới hiển thị bằng ngôn ngữ đã chọn trong R-A Grid, không còn theo ngôn ngữ của Windows hay Mac."
+      ],
+      "bn": [
+        "**Windows ও Mac-এর মধ্যে ফাইল:** Windows-এ সেভ করা .ragrid প্রজেক্ট Mac-এ খোলে, আর Mac-এ সেভ করা প্রজেক্ট Windows-এ খোলে।",
+        "**প্রোগ্রামের ভাষায় আপডেটের বার্তা:** নতুন সংস্করণের বার্তা এখন Windows বা Mac-এর ভাষায় নয়, R-A Grid-এ বেছে নেওয়া ভাষায় দেখায়।"
+      ],
+      "ms": [
+        "**Fail antara Windows dan Mac:** projek .ragrid yang disimpan di Windows dibuka di Mac, dan yang disimpan di Mac dibuka di Windows.",
+        "**Notis kemas kini dalam bahasa program:** mesej versi baharu kini dipaparkan dalam bahasa yang dipilih dalam R-A Grid, bukan lagi dalam bahasa Windows atau Mac."
+      ],
+      "sv": [
+        "**Filer mellan Windows och Mac:** ett .ragrid-projekt som sparats i Windows öppnas på Mac, och ett som sparats på Mac öppnas i Windows.",
+        "**Uppdateringsmeddelande på programmets språk:** meddelandet om ny version visas nu på det språk som valts i R-A Grid, inte längre på Windows- eller Mac-språket."
+      ],
+      "ur": [
+        "**Windows اور Mac کے درمیان فائلیں:** Windows پر محفوظ کیا گیا .ragrid پروجیکٹ Mac پر کھلتا ہے، اور Mac پر محفوظ کیا گیا Windows پر کھلتا ہے۔",
+        "**پروگرام کی زبان میں اپ ڈیٹ کا پیغام:** نئے ورژن کا پیغام اب Windows یا Mac کی زبان میں نہیں بلکہ R-A Grid میں منتخب کی گئی زبان میں دکھائی دیتا ہے۔"
+      ],
+      "sw": [
+        "**Faili kati ya Windows na Mac:** mradi wa .ragrid uliohifadhiwa kwenye Windows unafunguka kwenye Mac, na uliohifadhiwa kwenye Mac unafunguka kwenye Windows.",
+        "**Taarifa ya sasisho kwa lugha ya programu:** ujumbe wa toleo jipya sasa unaonekana kwa lugha uliyochagua katika R-A Grid, si tena kwa lugha ya Windows au Mac."
+      ],
+      "gn": [
+        "**Archivo Windows ha Mac pa'ũme:** proyecto .ragrid oñeñongatúva Windows-pe ojepe'a Mac-pe, ha oñeñongatúva Mac-pe ojepe'a Windows-pe.",
+        "**Ñembopyahu marandu programa ñe'ẽme:** marandu versión pyahu rehegua ojehechauka ko'ág̃a ñe'ẽ eiporavóvape R-A Grid-pe, ha ndaha'evéima Windows térã Mac ñe'ẽme."
+      ]
+    },
     "2.5.2": {
       "en": [
         "**Files between Windows and Mac:** a .ragrid project saved on Windows opens on the Mac, and one saved on the Mac opens on Windows."
@@ -76,6 +178,9 @@
       ],
       "sw": [
         "**Faili kati ya Windows na Mac:** mradi wa .ragrid uliohifadhiwa kwenye Windows unafunguka kwenye Mac, na uliohifadhiwa kwenye Mac unafunguka kwenye Windows."
+      ],
+      "gn": [
+        "**Archivo Windows ha Mac pa'ũme:** proyecto .ragrid oñeñongatúva Windows-pe ojepe'a Mac-pe, ha oñeñongatúva Mac-pe ojepe'a Windows-pe."
       ]
     }
   }
