@@ -1,6 +1,87 @@
 {
-  "version": "2.5.2",
-  "windows": "https://github.com/renatorocha0934/RAGridrelease/releases/download/v2.5.2/RAGrid-Windows.zip",
-  "mac": "https://github.com/renatorocha0934/RAGridrelease/releases/download/v2.5.2/RAGrid-Mac.dmg",
-  "notes": "System and performance improvements."
+  "version": "2.5.5",
+  "windows": "https://github.com/renatorocha0934/RAGridrelease/releases/download/v2.5.5/RAGrid-Windows.zip",
+  "mac": "https://github.com/renatorocha0934/RAGridrelease/releases/download/v2.5.5/RAGrid-Mac.dmg",
+  "notes": "System and performance improvements.",
+  "changes": {
+    "2.5.5": {},
+    "2.5.4": {},
+    "2.5.3": {
+      "en": [
+        "**Files between Windows and Mac:** a .ragrid project saved on Windows opens on the Mac, and one saved on the Mac opens on Windows."
+      ],
+      "pt": [
+        "**Arquivos entre Windows e Mac:** o projeto .ragrid salvo no Windows abre no Mac, e o salvo no Mac abre no Windows."
+      ],
+      "es": [
+        "**Archivos entre Windows y Mac:** el proyecto .ragrid guardado en Windows se abre en Mac, y el guardado en Mac se abre en Windows."
+      ],
+      "fr": [
+        "**Fichiers entre Windows et Mac :** un projet .ragrid enregistré sous Windows s'ouvre sur Mac, et un projet enregistré sur Mac s'ouvre sous Windows."
+      ],
+      "de": [
+        "**Dateien zwischen Windows und Mac:** Ein unter Windows gespeichertes .ragrid-Projekt öffnet sich auf dem Mac, und ein auf dem Mac gespeichertes öffnet sich unter Windows."
+      ],
+      "it": [
+        "**File tra Windows e Mac:** un progetto .ragrid salvato su Windows si apre su Mac, e uno salvato su Mac si apre su Windows."
+      ],
+      "nl": [
+        "**Bestanden tussen Windows en Mac:** een .ragrid-project dat op Windows is opgeslagen, opent op de Mac, en een project dat op de Mac is opgeslagen, opent op Windows."
+      ],
+      "ru": [
+        "**Файлы между Windows и Mac:** проект .ragrid, сохранённый в Windows, открывается на Mac, а сохранённый на Mac — в Windows."
+      ],
+      "tr": [
+        "**Windows ve Mac arasında dosyalar:** Windows'ta kaydedilen .ragrid projesi Mac'te, Mac'te kaydedilen ise Windows'ta açılır."
+      ],
+      "id": [
+        "**File antara Windows dan Mac:** proyek .ragrid yang disimpan di Windows terbuka di Mac, dan yang disimpan di Mac terbuka di Windows."
+      ],
+      "hu": [
+        "**Fájlok Windows és Mac között:** a Windowson mentett .ragrid projekt megnyílik Macen, a Macen mentett pedig Windowson."
+      ],
+      "zh-Hans": [
+        "**Windows 与 Mac 之间的文件：**在 Windows 上保存的 .ragrid 项目可以在 Mac 上打开，在 Mac 上保存的也可以在 Windows 上打开。"
+      ],
+      "zh-Hant": [
+        "**Windows 與 Mac 之間的檔案：**在 Windows 上儲存的 .ragrid 專案可以在 Mac 上開啟，在 Mac 上儲存的也可以在 Windows 上開啟。"
+      ],
+      "ja": [
+        "**Windows と Mac 間のファイル：**Windows で保存した .ragrid プロジェクトは Mac で開き、Mac で保存したものは Windows で開きます。"
+      ],
+      "ko": [
+        "**Windows와 Mac 간 파일:** Windows에서 저장한 .ragrid 프로젝트는 Mac에서 열리고, Mac에서 저장한 프로젝트는 Windows에서 열립니다."
+      ],
+      "ar": [
+        "**الملفات بين Windows وMac:** مشروع .ragrid المحفوظ على Windows يُفتح على Mac، والمحفوظ على Mac يُفتح على Windows."
+      ],
+      "th": [
+        "**ไฟล์ระหว่าง Windows และ Mac:** โปรเจกต์ .ragrid ที่บันทึกบน Windows เปิดบน Mac ได้ และที่บันทึกบน Mac ก็เปิดบน Windows ได้"
+      ],
+      "hi": [
+        "**Windows और Mac के बीच फ़ाइलें:** Windows पर सहेजा गया .ragrid प्रोजेक्ट Mac पर खुलता है, और Mac पर सहेजा गया Windows पर खुलता है।"
+      ],
+      "vi": [
+        "**Tệp giữa Windows và Mac:** dự án .ragrid lưu trên Windows mở được trên Mac, và dự án lưu trên Mac mở được trên Windows."
+      ],
+      "bn": [
+        "**Windows ও Mac-এর মধ্যে ফাইল:** Windows-এ সেভ করা .ragrid প্রজেক্ট Mac-এ খোলে, আর Mac-এ সেভ করা প্রজেক্ট Windows-এ খোলে।"
+      ],
+      "ms": [
+        "**Fail antara Windows dan Mac:** projek .ragrid yang disimpan di Windows dibuka di Mac, dan yang disimpan di Mac dibuka di Windows."
+      ],
+      "sv": [
+        "**Filer mellan Windows och Mac:** ett .ragrid-projekt som sparats i Windows öppnas på Mac, och ett som sparats på Mac öppnas i Windows."
+      ],
+      "ur": [
+        "**Windows اور Mac کے درمیان فائلیں:** Windows پر محفوظ کیا گیا .ragrid پروجیکٹ Mac پر کھلتا ہے، اور Mac پر محفوظ کیا گیا Windows پر کھلتا ہے۔"
+      ],
+      "sw": [
+        "**Faili kati ya Windows na Mac:** mradi wa .ragrid uliohifadhiwa kwenye Windows unafunguka kwenye Mac, na uliohifadhiwa kwenye Mac unafunguka kwenye Windows."
+      ],
+      "gn": [
+        "**Archivo Windows ha Mac pa'ũme:** proyecto .ragrid oñeñongatúva Windows-pe ojepe'a Mac-pe, ha oñeñongatúva Mac-pe ojepe'a Windows-pe."
+      ]
+    }
+  }
 }
