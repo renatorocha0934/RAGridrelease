@@ -1,9 +1,131 @@
 {
-  "version": "2.5.7",
-  "windows": "https://github.com/renatorocha0934/RAGridrelease/releases/download/v2.5.7/RAGrid-Windows.zip",
-  "mac": "https://github.com/renatorocha0934/RAGridrelease/releases/download/v2.5.7/RAGrid-Mac.dmg",
+  "version": "2.6.0",
+  "windows": "https://github.com/renatorocha0934/RAGridrelease/releases/download/v2.6.0/RAGrid-Windows.zip",
+  "mac": "https://github.com/renatorocha0934/RAGridrelease/releases/download/v2.6.0/RAGrid-Mac.dmg",
   "notes": "System and performance improvements.",
   "changes": {
+    "2.6.0": {
+      "en": [
+        "**New languages:** 29 more, including Catalan, Czech, Greek, Romanian, Danish, Tamil, Kazakh and Amharic. R-A Grid now has 60 languages, in alphabetical order with a scroll bar in the globe menu.",
+        "**Remove:** the button now checks the panel's cabinet and pixel pitch (for example P3.91) and trims the excess canvas exactly to the screens' cabinets."
+      ],
+      "pt": [
+        "**Novos idiomas:** mais 29, entre eles catalão, tcheco, grego, romeno, dinamarquês, tâmil, cazaque e amárico. O R-A Grid agora tem 60 idiomas, em ordem alfabética e com barra de rolagem no menu do globo.",
+        "**Remove:** o botão agora confere o gabinete e o pitch do painel (por exemplo P3.91) e remove o excesso de canvas exatamente até os gabinetes das telas."
+      ],
+      "es": [
+        "**Nuevos idiomas:** 29 más, entre ellos catalán, checo, griego, rumano, danés, tamil, kazajo y amárico. R-A Grid ahora tiene 60 idiomas, en orden alfabético y con barra de desplazamiento en el menú del globo.",
+        "**Remove:** el botón ahora comprueba el gabinete y el pitch del panel (por ejemplo P3.91) y recorta el lienzo sobrante exactamente hasta los gabinetes de las pantallas."
+      ],
+      "fr": [
+        "**Nouvelles langues :** 29 de plus, dont le catalan, le tchèque, le grec, le roumain, le danois, le tamoul, le kazakh et l'amharique. R-A Grid propose désormais 60 langues, par ordre alphabétique avec une barre de défilement dans le menu du globe.",
+        "**Remove :** le bouton vérifie maintenant le caisson et le pas du panneau (par exemple P3.91) et retire l'excédent de canevas exactement jusqu'aux caissons des écrans."
+      ],
+      "de": [
+        "**Neue Sprachen:** 29 weitere, darunter Katalanisch, Tschechisch, Griechisch, Rumänisch, Dänisch, Tamil, Kasachisch und Amharisch. R-A Grid hat jetzt 60 Sprachen, alphabetisch sortiert und mit Bildlaufleiste im Globus-Menü.",
+        "**Remove:** Die Schaltfläche prüft jetzt Kabinett und Pixelabstand des Panels (zum Beispiel P3.91) und schneidet die überschüssige Leinwand genau bis zu den Kabinetten der Bildschirme ab."
+      ],
+      "it": [
+        "**Nuove lingue:** altre 29, tra cui catalano, ceco, greco, rumeno, danese, tamil, kazako e amarico. R-A Grid ora ha 60 lingue, in ordine alfabetico e con barra di scorrimento nel menu del globo.",
+        "**Remove:** il pulsante ora controlla il cabinet e il passo del pannello (ad esempio P3.91) e taglia la tela in eccesso esattamente fino ai cabinet degli schermi."
+      ],
+      "nl": [
+        "**Nieuwe talen:** nog 29, waaronder Catalaans, Tsjechisch, Grieks, Roemeens, Deens, Tamil, Kazachs en Amhaars. R-A Grid heeft nu 60 talen, alfabetisch en met een schuifbalk in het wereldbolmenu.",
+        "**Remove:** de knop controleert nu de cabinet en de pixelafstand van het paneel (bijvoorbeeld P3.91) en snijdt het overtollige canvas precies tot de cabinets van de schermen af."
+      ],
+      "ru": [
+        "**Новые языки:** ещё 29, среди них каталанский, чешский, греческий, румынский, датский, тамильский, казахский и амхарский. Теперь в R-A Grid 60 языков, по алфавиту и с полосой прокрутки в меню глобуса.",
+        "**Remove:** кнопка теперь проверяет кабинет и шаг пикселя панели (например, P3.91) и обрезает лишний холст точно по кабинетам экранов."
+      ],
+      "tr": [
+        "**Yeni diller:** aralarında Katalanca, Çekçe, Yunanca, Rumence, Danca, Tamilce, Kazakça ve Amharca'nın da olduğu 29 dil daha. R-A Grid artık 60 dilde; dünya menüsünde alfabetik sırada ve kaydırma çubuğuyla.",
+        "**Remove:** düğme artık panelin kabinini ve piksel aralığını (örneğin P3.91) kontrol ediyor ve fazla tuvali tam olarak ekranların kabinlerine kadar kesiyor."
+      ],
+      "id": [
+        "**Bahasa baru:** 29 lagi, termasuk Katalan, Ceko, Yunani, Rumania, Denmark, Tamil, Kazakh, dan Amharik. R-A Grid kini memiliki 60 bahasa, berurutan menurut abjad dengan bilah gulir di menu globe.",
+        "**Remove:** tombol ini kini memeriksa kabinet dan pitch panel (misalnya P3.91) dan memangkas kanvas berlebih tepat sampai kabinet layar."
+      ],
+      "hu": [
+        "**Új nyelvek:** további 29, köztük katalán, cseh, görög, román, dán, tamil, kazah és amhara. Az R-A Grid most 60 nyelven érhető el, ábécérendben, görgetősávval a földgömb menüben.",
+        "**Remove:** a gomb most ellenőrzi a panel kabinetjét és pixeltávolságát (például P3.91), és a felesleges vásznat pontosan a képernyők kabinetjeiig vágja le."
+      ],
+      "zh-Hans": [
+        "**新语言：**新增 29 种，包括加泰罗尼亚语、捷克语、希腊语、罗马尼亚语、丹麦语、泰米尔语、哈萨克语和阿姆哈拉语。R-A Grid 现在支持 60 种语言，在地球菜单中按字母顺序排列并带有滚动条。",
+        "**Remove：**该按钮现在会检查面板的箱体和像素间距（例如 P3.91），并将多余的画布精确裁剪到屏幕的箱体为止。"
+      ],
+      "zh-Hant": [
+        "**新語言：**新增 29 種，包括加泰隆尼亞語、捷克語、希臘語、羅馬尼亞語、丹麥語、坦米爾語、哈薩克語和阿姆哈拉語。R-A Grid 現在支援 60 種語言，在地球選單中依字母順序排列並附有捲軸。",
+        "**Remove：**此按鈕現在會檢查面板的箱體和像素間距（例如 P3.91），並將多餘的畫布精確裁切到螢幕的箱體為止。"
+      ],
+      "ja": [
+        "**新しい言語：**カタルーニャ語、チェコ語、ギリシャ語、ルーマニア語、デンマーク語、タミル語、カザフ語、アムハラ語など 29 言語を追加。R-A Grid は 60 言語に対応し、地球儀メニューではアルファベット順にスクロールバー付きで表示されます。",
+        "**Remove：**このボタンはパネルのキャビネットとピクセルピッチ（例：P3.91）を確認し、余分なキャンバスをスクリーンのキャビネットに合わせて正確に削除するようになりました。"
+      ],
+      "ko": [
+        "**새 언어:** 카탈로니아어, 체코어, 그리스어, 루마니아어, 덴마크어, 타밀어, 카자흐어, 암하라어 등 29개 추가. 이제 R-A Grid는 60개 언어를 지원하며, 지구본 메뉴에서 알파벳순으로 스크롤바와 함께 표시됩니다.",
+        "**Remove:** 이제 이 버튼은 패널의 캐비닛과 픽셀 피치(예: P3.91)를 확인하고 남는 캔버스를 화면의 캐비닛에 정확히 맞춰 잘라냅니다."
+      ],
+      "ar": [
+        "**لغات جديدة:** 29 لغة أخرى، منها الكتالونية والتشيكية واليونانية والرومانية والدنماركية والتاميلية والكازاخية والأمهرية. أصبح R-A Grid يدعم 60 لغة، مرتبة أبجديًا مع شريط تمرير في قائمة الكرة الأرضية.",
+        "**Remove:** يتحقق الزر الآن من خزانة اللوحة ودرجة البكسل (مثل P3.91) ويقص اللوحة الزائدة بدقة حتى خزانات الشاشات."
+      ],
+      "th": [
+        "**ภาษาใหม่:** เพิ่มอีก 29 ภาษา รวมถึงคาตาลัน เช็ก กรีก โรมาเนีย เดนมาร์ก ทมิฬ คาซัค และอัมฮาริก ตอนนี้ R-A Grid มี 60 ภาษา เรียงตามตัวอักษรพร้อมแถบเลื่อนในเมนูลูกโลก",
+        "**Remove:** ปุ่มนี้จะตรวจสอบตู้และระยะพิกเซลของแผง (เช่น P3.91) แล้วตัดแคนวาสส่วนเกินให้พอดีกับตู้ของหน้าจอ"
+      ],
+      "hi": [
+        "**नई भाषाएँ:** 29 और, जिनमें कैटलन, चेक, ग्रीक, रोमानियाई, डेनिश, तमिल, कज़ाख़ और अम्हारिक शामिल हैं। R-A Grid अब 60 भाषाओं में है, ग्लोब मेनू में वर्णानुक्रम में और स्क्रॉल बार के साथ।",
+        "**Remove:** यह बटन अब पैनल का कैबिनेट और पिक्सेल पिच (जैसे P3.91) जाँचता है और अतिरिक्त कैनवास को ठीक स्क्रीन के कैबिनेट तक काटता है।"
+      ],
+      "vi": [
+        "**Ngôn ngữ mới:** thêm 29 ngôn ngữ, gồm tiếng Catalan, Séc, Hy Lạp, Romania, Đan Mạch, Tamil, Kazakh và Amharic. R-A Grid nay có 60 ngôn ngữ, sắp xếp theo bảng chữ cái với thanh cuộn trong menu quả địa cầu.",
+        "**Remove:** nút này giờ kiểm tra cabinet và pixel pitch của tấm (ví dụ P3.91) và cắt phần canvas thừa đúng đến cabinet của các màn hình."
+      ],
+      "bn": [
+        "**নতুন ভাষা:** আরও ২৯টি, যার মধ্যে কাতালান, চেক, গ্রিক, রোমানিয়ান, ড্যানিশ, তামিল, কাজাখ ও আমহারিক। R-A Grid-এ এখন ৬০টি ভাষা, গ্লোব মেনুতে বর্ণানুক্রমে ও স্ক্রল বারসহ।",
+        "**Remove:** বোতামটি এখন প্যানেলের ক্যাবিনেট ও পিক্সেল পিচ (যেমন P3.91) যাচাই করে এবং অতিরিক্ত ক্যানভাস ঠিক স্ক্রিনের ক্যাবিনেট পর্যন্ত কেটে দেয়।"
+      ],
+      "ms": [
+        "**Bahasa baharu:** 29 lagi, termasuk Catalan, Czech, Greek, Romania, Denmark, Tamil, Kazakh dan Amharic. R-A Grid kini mempunyai 60 bahasa, mengikut abjad dengan bar tatal dalam menu glob.",
+        "**Remove:** butang ini kini menyemak kabinet dan pic piksel panel (contohnya P3.91) dan memangkas kanvas berlebihan tepat hingga kabinet skrin."
+      ],
+      "sv": [
+        "**Nya språk:** 29 till, bland annat katalanska, tjeckiska, grekiska, rumänska, danska, tamil, kazakiska och amhariska. R-A Grid har nu 60 språk, i alfabetisk ordning med rullningslist i jordglobsmenyn.",
+        "**Remove:** knappen kontrollerar nu panelens kabinett och pixelavstånd (till exempel P3.91) och beskär överflödig duk exakt till skärmarnas kabinett."
+      ],
+      "ur": [
+        "**نئی زبانیں:** مزید 29، جن میں کاتالان، چیک، یونانی، رومانیائی، ڈینش، تمل، قازق اور امہری شامل ہیں۔ R-A Grid میں اب 60 زبانیں ہیں، گلوب مینو میں حروفِ تہجی کی ترتیب سے اور اسکرول بار کے ساتھ۔",
+        "**Remove:** یہ بٹن اب پینل کا کیبنٹ اور پکسل پچ (مثلاً P3.91) جانچتا ہے اور اضافی کینوس کو ٹھیک اسکرینوں کے کیبنٹ تک کاٹ دیتا ہے۔"
+      ],
+      "sw": [
+        "**Lugha mpya:** 29 zaidi, zikiwemo Kikatalani, Kicheki, Kigiriki, Kiromania, Kidenmaki, Kitamil, Kikazakh na Kiamhari. R-A Grid sasa ina lugha 60, kwa mpangilio wa alfabeti na upau wa kusogeza kwenye menyu ya dunia.",
+        "**Remove:** kitufe sasa kinakagua kabati na pitch ya pikseli ya paneli (kwa mfano P3.91) na kukata turubai ya ziada hasa hadi kwenye kabati za skrini."
+      ],
+      "gn": [
+        "**Ñe'ẽ pyahu:** 29 hetave, umíva apytépe catalán, checo, griego, rumano, danés, tamil, kazajo ha amhárico. R-A Grid oguereko ko'ágã 60 ñe'ẽ, abecedario rupi ha barra de desplazamiento ndive yvy menúpe.",
+        "**Remove:** botón ohecha ko'ágã panel gabinete ha pitch (techapyrã P3.91) ha oikytĩ lienzo hembýva gabinete pantalla-kuéra peve."
+      ],
+      "he": [
+        "**שפות חדשות:** עוד 29, ביניהן קטלאנית, צ'כית, יוונית, רומנית, דנית, טמילית, קזחית ואמהרית. ל-R-A Grid יש כעת 60 שפות, בסדר אלפביתי ועם פס גלילה בתפריט הגלובוס.",
+        "**Remove:** הכפתור בודק כעת את הקבינט ואת מרווח הפיקסלים של הפאנל (למשל P3.91) וחותך את הקנבס העודף בדיוק עד הקבינטים של המסכים."
+      ],
+      "lv": [
+        "**Jaunas valodas:** vēl 29, tostarp katalāņu, čehu, grieķu, rumāņu, dāņu, tamilu, kazahu un amharu. R-A Grid tagad ir 60 valodās, alfabēta secībā un ar ritjoslu globusa izvēlnē.",
+        "**Remove:** poga tagad pārbauda paneļa kabinetu un pikseļu soli (piemēram, P3.91) un nogriež lieko audeklu tieši līdz ekrānu kabinetiem."
+      ],
+      "fa": [
+        "**زبان‌های جدید:** ۲۹ زبان دیگر، از جمله کاتالان، چکی، یونانی، رومانیایی، دانمارکی، تامیلی، قزاقی و امهری. R-A Grid اکنون ۶۰ زبان دارد، به ترتیب الفبا و با نوار پیمایش در منوی کره زمین.",
+        "**Remove:** این دکمه اکنون کابینت و گام پیکسل پنل (مثلاً P3.91) را بررسی می‌کند و بوم اضافی را دقیقاً تا کابینت‌های صفحه‌ها برش می‌دهد."
+      ],
+      "pl": [
+        "**Nowe języki:** 29 kolejnych, m.in. kataloński, czeski, grecki, rumuński, duński, tamilski, kazachski i amharski. R-A Grid ma teraz 60 języków, w kolejności alfabetycznej i z paskiem przewijania w menu globusa.",
+        "**Remove:** przycisk sprawdza teraz kabinet i rozstaw pikseli panelu (na przykład P3.91) i przycina nadmiar płótna dokładnie do kabinetów ekranów."
+      ],
+      "uk": [
+        "**Нові мови:** ще 29, серед них каталонська, чеська, грецька, румунська, данська, тамільська, казахська й амхарська. Тепер R-A Grid має 60 мов, за абеткою та зі смугою прокрутки в меню глобуса.",
+        "**Remove:** кнопка тепер перевіряє кабінет і крок пікселя панелі (наприклад, P3.91) і обрізає зайве полотно точно до кабінетів екранів."
+      ]
+    },
     "2.5.7": {
       "en": [
         "**New languages:** Hebrew, Latvian, Persian, Polish and Ukrainian. R-A Grid now has 31 languages."
@@ -96,7 +218,6 @@
         "**Нові мови:** іврит, латиська, перська, польська та українська. Тепер R-A Grid доступний 31 мовою."
       ]
     },
-    "2.5.6": {},
-    "2.5.5": {}
+    "2.5.6": {}
   }
 }
