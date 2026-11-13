@@ -1,9 +1,365 @@
 {
-  "version": "2.7.0",
-  "windows": "https://github.com/renatorocha0934/RAGridrelease/releases/download/v2.7.0/RAGrid-Windows.zip",
-  "mac": "https://github.com/renatorocha0934/RAGridrelease/releases/download/v2.7.0/RAGrid-Mac.dmg",
+  "version": "2.7.1",
+  "windows": "https://github.com/renatorocha0934/RAGridrelease/releases/download/v2.7.1/RAGrid-Windows.zip",
+  "mac": "https://github.com/renatorocha0934/RAGridrelease/releases/download/v2.7.1/RAGrid-Mac.dmg",
   "notes": "System and performance improvements.",
   "changes": {
+    "2.7.1": {
+      "en": [
+        "**Grid tab:** saved grids no longer show thick vertical lines, and the diagonals are brighter and a little thicker.",
+        "**PDF report:** the electrical results now include the total consumption in kVA.",
+        "**LED screen:** an additional text line under the screen name, a color picker button (also in the double-click menu) and a Pixel pitch label.",
+        "**Cabinet presets:** save the cabinet resolution and size as a preset with a name and delete it with the trash button; presets are saved inside the project."
+      ],
+      "pt": [
+        "**Aba Grid:** os grids salvos não mostram mais linhas verticais grossas, e as diagonais ficaram mais claras e um pouco mais grossas.",
+        "**Relatório em PDF:** os resultados elétricos agora mostram o consumo total em kVA.",
+        "**LED screen:** uma linha de texto adicional embaixo do nome da tela, um botão de escolher a cor (também no menu de dois cliques) e o rótulo Pixel pitch.",
+        "**Presets de gabinete:** salve a resolução e o tamanho do gabinete como preset, com um nome, e apague com a lixeira; os presets vão junto no projeto."
+      ],
+      "es": [
+        "**Pestaña Grid:** las cuadrículas guardadas ya no muestran líneas verticales gruesas, y las diagonales son más claras y un poco más gruesas.",
+        "**Informe PDF:** los resultados eléctricos ahora incluyen el consumo total en kVA.",
+        "**LED screen:** una línea de texto adicional bajo el nombre de la pantalla, un botón para elegir el color (también en el menú de doble clic) y la etiqueta Pixel pitch.",
+        "**Preajustes de gabinete:** guarde la resolución y el tamaño del gabinete como preajuste con un nombre y elimínelo con la papelera; los preajustes se guardan en el proyecto."
+      ],
+      "fr": [
+        "**Onglet Grid :** les mires enregistrées n'affichent plus de grosses lignes verticales, et les diagonales sont plus claires et un peu plus épaisses.",
+        "**Rapport PDF :** les résultats électriques indiquent désormais la consommation totale en kVA.",
+        "**LED screen :** une ligne de texte supplémentaire sous le nom de l'écran, un bouton de choix de couleur (aussi dans le menu du double-clic) et l'étiquette Pixel pitch.",
+        "**Préréglages de caisson :** enregistrez la résolution et la taille du caisson comme préréglage nommé, supprimez-le avec la corbeille ; les préréglages sont enregistrés dans le projet."
+      ],
+      "de": [
+        "**Grid-Tab:** gespeicherte Raster zeigen keine dicken senkrechten Linien mehr, und die Diagonalen sind heller und etwas dicker.",
+        "**PDF-Bericht:** die elektrischen Ergebnisse enthalten jetzt den Gesamtverbrauch in kVA.",
+        "**LED screen:** eine zusätzliche Textzeile unter dem Bildschirmnamen, eine Farbauswahl-Schaltfläche (auch im Doppelklick-Menü) und die Beschriftung Pixel pitch.",
+        "**Kabinett-Voreinstellungen:** Auflösung und Größe des Kabinetts als benannte Voreinstellung speichern und mit dem Papierkorb löschen; die Voreinstellungen werden im Projekt gespeichert."
+      ],
+      "it": [
+        "**Scheda Grid:** le griglie salvate non mostrano più linee verticali spesse, e le diagonali sono più chiare e un po' più spesse.",
+        "**Report PDF:** i risultati elettrici ora includono il consumo totale in kVA.",
+        "**LED screen:** una riga di testo aggiuntivo sotto il nome dello schermo, un pulsante per scegliere il colore (anche nel menu del doppio clic) e l'etichetta Pixel pitch.",
+        "**Preimpostazioni del cabinet:** salva risoluzione e dimensioni del cabinet come preimpostazione con un nome ed eliminala con il cestino; le preimpostazioni vengono salvate nel progetto."
+      ],
+      "nl": [
+        "**Tabblad Grid:** opgeslagen rasters tonen geen dikke verticale lijnen meer, en de diagonalen zijn helderder en iets dikker.",
+        "**PDF-rapport:** de elektrische resultaten tonen nu het totale verbruik in kVA.",
+        "**LED screen:** een extra tekstregel onder de schermnaam, een kleurkiezerknop (ook in het dubbelklikmenu) en het label Pixel pitch.",
+        "**Cabinet-voorinstellingen:** sla de resolutie en grootte van de cabinet op als voorinstelling met een naam en verwijder die met de prullenbak; voorinstellingen worden in het project opgeslagen."
+      ],
+      "ru": [
+        "**Вкладка Grid:** в сохранённых сетках больше нет толстых вертикальных линий, а диагонали стали светлее и немного толще.",
+        "**PDF-отчёт:** электрические результаты теперь показывают общее потребление в кВА.",
+        "**LED screen:** дополнительная строка текста под названием экрана, кнопка выбора цвета (также в меню двойного щелчка) и подпись Pixel pitch.",
+        "**Пресеты кабинета:** сохраняйте разрешение и размер кабинета как пресет с именем и удаляйте его корзиной; пресеты сохраняются в проекте."
+      ],
+      "tr": [
+        "**Grid sekmesi:** kaydedilen ızgaralarda artık kalın dikey çizgiler görünmüyor; köşegenler daha açık ve biraz daha kalın.",
+        "**PDF raporu:** elektrik sonuçları artık toplam tüketimi kVA olarak gösteriyor.",
+        "**LED screen:** ekran adının altında ek bir metin satırı, renk seçme düğmesi (çift tıklama menüsünde de) ve Pixel pitch etiketi.",
+        "**Kabin ön ayarları:** kabin çözünürlüğünü ve boyutunu adlı bir ön ayar olarak kaydedin, çöp kutusuyla silin; ön ayarlar projeye kaydedilir."
+      ],
+      "id": [
+        "**Tab Grid:** grid yang disimpan tidak lagi menampilkan garis vertikal tebal, dan garis diagonal lebih terang serta sedikit lebih tebal.",
+        "**Laporan PDF:** hasil kelistrikan kini menampilkan total konsumsi dalam kVA.",
+        "**LED screen:** baris teks tambahan di bawah nama layar, tombol pemilih warna (juga di menu klik ganda), dan label Pixel pitch.",
+        "**Preset kabinet:** simpan resolusi dan ukuran kabinet sebagai preset bernama dan hapus dengan tombol tempat sampah; preset disimpan di dalam proyek."
+      ],
+      "hu": [
+        "**Grid fül:** a mentett rácsokon már nem jelennek meg vastag függőleges vonalak, az átlók pedig világosabbak és kicsit vastagabbak.",
+        "**PDF-jelentés:** az elektromos eredmények most a teljes fogyasztást is mutatják kVA-ban.",
+        "**LED screen:** egy további szövegsor a képernyő neve alatt, színválasztó gomb (a dupla kattintásos menüben is) és a Pixel pitch felirat.",
+        "**Kabinet-előbeállítások:** mentse a kabinet felbontását és méretét névvel ellátott előbeállításként, és törölje a kukával; az előbeállítások a projektbe is mentődnek."
+      ],
+      "zh-Hans": [
+        "**Grid 选项卡：** 保存的网格不再出现粗竖线，对角线也更亮、稍粗。",
+        "**PDF 报告：** 电气结果现在包含以 kVA 计的总功耗。",
+        "**LED screen：** 屏幕名称下方新增一行附加文本、颜色选择按钮（双击菜单中也有）以及 Pixel pitch 标签。",
+        "**箱体预设：** 可将箱体分辨率和尺寸保存为带名称的预设，并用垃圾桶按钮删除；预设会保存在项目中。"
+      ],
+      "zh-Hant": [
+        "**Grid 分頁：** 儲存的網格不再出現粗直線，對角線也更亮、稍粗。",
+        "**PDF 報告：** 電氣結果現在包含以 kVA 計的總耗電量。",
+        "**LED screen：** 螢幕名稱下方新增一行附加文字、顏色選擇按鈕（雙擊選單中也有）以及 Pixel pitch 標籤。",
+        "**箱體預設：** 可將箱體解析度和尺寸儲存為具名稱的預設，並以垃圾桶按鈕刪除；預設會儲存在專案中。"
+      ],
+      "ja": [
+        "**Grid タブ：** 保存したグリッドに太い縦線が出なくなり、対角線がより明るく少し太くなりました。",
+        "**PDF レポート：** 電気の結果に総消費電力（kVA）が表示されるようになりました。",
+        "**LED screen：** 画面名の下に追加テキスト行、色選択ボタン（ダブルクリックメニューにも）と Pixel pitch ラベルを追加しました。",
+        "**キャビネットプリセット：** キャビネットの解像度とサイズを名前付きプリセットとして保存し、ゴミ箱ボタンで削除できます。プリセットはプロジェクトにも保存されます。"
+      ],
+      "ko": [
+        "**Grid 탭:** 저장한 그리드에 더 이상 굵은 세로선이 나타나지 않으며, 대각선이 더 밝고 약간 굵어졌습니다.",
+        "**PDF 보고서:** 전기 결과에 이제 총 소비 전력(kVA)이 표시됩니다.",
+        "**LED screen:** 화면 이름 아래의 추가 텍스트 줄, 색상 선택 버튼(더블 클릭 메뉴에도 있음), Pixel pitch 라벨이 추가되었습니다.",
+        "**캐비닛 프리셋:** 캐비닛 해상도와 크기를 이름이 있는 프리셋으로 저장하고 휴지통 버튼으로 삭제할 수 있으며, 프리셋은 프로젝트에도 저장됩니다."
+      ],
+      "ar": [
+        "**تبويب Grid:** لم تعد الشبكات المحفوظة تُظهر خطوطًا عمودية سميكة، وأصبحت الأقطار أفتح وأسمك قليلًا.",
+        "**تقرير PDF:** تتضمن النتائج الكهربائية الآن إجمالي الاستهلاك بوحدة kVA.",
+        "**LED screen:** سطر نص إضافي أسفل اسم الشاشة، وزر لاختيار اللون (وأيضًا في قائمة النقر المزدوج)، وتسمية Pixel pitch.",
+        "**إعدادات الخزانة المسبقة:** احفظ دقة الخزانة وحجمها كإعداد مسبق باسم واحذفه بزر سلة المهملات؛ تُحفظ الإعدادات المسبقة داخل المشروع."
+      ],
+      "th": [
+        "**แท็บ Grid:** กริดที่บันทึกไม่มีเส้นแนวตั้งหนาอีกต่อไป และเส้นทแยงสว่างขึ้นและหนาขึ้นเล็กน้อย",
+        "**รายงาน PDF:** ผลลัพธ์ไฟฟ้าแสดงการใช้พลังงานรวมเป็น kVA แล้ว",
+        "**LED screen:** มีบรรทัดข้อความเพิ่มเติมใต้ชื่อจอ ปุ่มเลือกสี (มีในเมนูดับเบิลคลิกด้วย) และป้าย Pixel pitch",
+        "**พรีเซ็ตตู้:** บันทึกความละเอียดและขนาดตู้เป็นพรีเซ็ตพร้อมชื่อ และลบด้วยปุ่มถังขยะ พรีเซ็ตจะถูกบันทึกในโปรเจกต์ด้วย"
+      ],
+      "hi": [
+        "**Grid टैब:** सेव किए गए ग्रिड में अब मोटी खड़ी रेखाएँ नहीं दिखतीं, और विकर्ण अधिक चमकीले और थोड़े मोटे हैं।",
+        "**PDF रिपोर्ट:** विद्युत परिणामों में अब कुल खपत kVA में दिखती है।",
+        "**LED screen:** स्क्रीन के नाम के नीचे अतिरिक्त टेक्स्ट की एक पंक्ति, रंग चुनने का बटन (डबल-क्लिक मेनू में भी) और Pixel pitch लेबल।",
+        "**कैबिनेट प्रीसेट:** कैबिनेट का रिज़ॉल्यूशन और आकार नाम के साथ प्रीसेट के रूप में सेव करें और ट्रैश बटन से हटाएँ; प्रीसेट प्रोजेक्ट में भी सेव होते हैं।"
+      ],
+      "vi": [
+        "**Thẻ Grid:** lưới đã lưu không còn hiện đường dọc dày, và đường chéo sáng hơn, dày hơn một chút.",
+        "**Báo cáo PDF:** kết quả điện giờ hiển thị tổng công suất tiêu thụ theo kVA.",
+        "**LED screen:** thêm một dòng văn bản dưới tên màn hình, nút chọn màu (cũng có trong menu nhấp đúp) và nhãn Pixel pitch.",
+        "**Thiết lập sẵn của cabinet:** lưu độ phân giải và kích thước cabinet thành thiết lập sẵn có tên và xóa bằng nút thùng rác; các thiết lập sẵn được lưu trong dự án."
+      ],
+      "bn": [
+        "**Grid ট্যাব:** সংরক্ষিত গ্রিডে আর মোটা খাড়া রেখা দেখা যায় না, আর কর্ণরেখাগুলো আরও উজ্জ্বল ও একটু মোটা।",
+        "**PDF রিপোর্ট:** বৈদ্যুতিক ফলাফলে এখন মোট খরচ kVA-তে দেখায়।",
+        "**LED screen:** স্ক্রিনের নামের নিচে অতিরিক্ত লেখার একটি লাইন, রং বাছাইয়ের বোতাম (ডাবল-ক্লিক মেনুতেও) এবং Pixel pitch লেবেল।",
+        "**ক্যাবিনেট প্রিসেট:** ক্যাবিনেটের রেজোলিউশন ও আকার নামসহ প্রিসেট হিসেবে সংরক্ষণ করুন এবং ট্র্যাশ বোতাম দিয়ে মুছুন; প্রিসেট প্রকল্পের ভেতরেও সংরক্ষিত হয়।"
+      ],
+      "ms": [
+        "**Tab Grid:** grid yang disimpan tidak lagi menunjukkan garisan menegak tebal, dan garisan pepenjuru lebih cerah serta sedikit lebih tebal.",
+        "**Laporan PDF:** keputusan elektrik kini menunjukkan jumlah penggunaan dalam kVA.",
+        "**LED screen:** satu baris teks tambahan di bawah nama skrin, butang pemilih warna (juga dalam menu klik dua kali) dan label Pixel pitch.",
+        "**Pratetap kabinet:** simpan resolusi dan saiz kabinet sebagai pratetap bernama dan padam dengan butang tong sampah; pratetap disimpan dalam projek."
+      ],
+      "sv": [
+        "**Fliken Grid:** sparade rutnät visar inte längre tjocka lodräta linjer, och diagonalerna är ljusare och lite tjockare.",
+        "**PDF-rapport:** de elektriska resultaten visar nu den totala förbrukningen i kVA.",
+        "**LED screen:** en extra textrad under skärmnamnet, en färgväljarknapp (även i dubbelklicksmenyn) och etiketten Pixel pitch.",
+        "**Kabinettförinställningar:** spara kabinettets upplösning och storlek som en namngiven förinställning och ta bort den med papperskorgen; förinställningarna sparas i projektet."
+      ],
+      "ur": [
+        "**Grid ٹیب:** محفوظ کیے گئے گرڈ میں اب موٹی عمودی لکیریں نظر نہیں آتیں، اور ترچھی لکیریں زیادہ روشن اور قدرے موٹی ہیں۔",
+        "**PDF رپورٹ:** برقی نتائج میں اب کل کھپت kVA میں دکھائی جاتی ہے۔",
+        "**LED screen:** اسکرین کے نام کے نیچے اضافی متن کی ایک لائن، رنگ منتخب کرنے کا بٹن (ڈبل کلک مینو میں بھی) اور Pixel pitch لیبل۔",
+        "**کیبنٹ پری سیٹ:** کیبنٹ کی ریزولوشن اور سائز کو نام کے ساتھ پری سیٹ کے طور پر محفوظ کریں اور ردی کی ٹوکری والے بٹن سے حذف کریں؛ پری سیٹ پروجیکٹ میں بھی محفوظ ہوتے ہیں۔"
+      ],
+      "sw": [
+        "**Kichupo cha Grid:** gridi zilizohifadhiwa hazionyeshi tena mistari minene ya wima, na mistari ya mshazari ni angavu zaidi na minene kidogo.",
+        "**Ripoti ya PDF:** matokeo ya umeme sasa yanaonyesha jumla ya matumizi kwa kVA.",
+        "**LED screen:** mstari wa maandishi ya ziada chini ya jina la skrini, kitufe cha kuchagua rangi (pia kwenye menyu ya kubofya mara mbili) na lebo ya Pixel pitch.",
+        "**Mipangilio ya awali ya kabati:** hifadhi ubora na ukubwa wa kabati kama mpangilio wa awali wenye jina na uufute kwa kitufe cha tupio; mipangilio huhifadhiwa ndani ya mradi."
+      ],
+      "gn": [
+        "**Grid:** umi grid oñeñongatúva ndohechaukavéima línea pyrusu ojyvapáva, ha umi diagonal hesakãve ha ipyrusuve michĩmi.",
+        "**PDF marandu:** umi tembiapo electricidad rehegua ohechauka ko'ág̃a mboy kVA oipuruha.",
+        "**LED screen:** peteĩ línea moñe'ẽrã ojoapy pantalla réra guýpe, votõ ojeiporavo hag̃ua sa'y (avei menú mokõi jejopy rehegua) ha etiqueta Pixel pitch.",
+        "**Gabinete preset:** eñongatu gabinete resolución ha tamaño peteĩ preset réra reheve, ha embogue votõ yty rehe; umi preset oñeñongatu avei proyecto ryepýpe."
+      ],
+      "he": [
+        "**לשונית Grid:** רשתות שנשמרו כבר לא מציגות קווים אנכיים עבים, והאלכסונים בהירים יותר ומעט עבים יותר.",
+        "**דוח PDF:** התוצאות החשמליות כוללות כעת את הצריכה הכוללת ב-kVA.",
+        "**LED screen:** שורת טקסט נוספת מתחת לשם המסך, כפתור לבחירת צבע (גם בתפריט הלחיצה הכפולה) והתווית Pixel pitch.",
+        "**הגדרות מוכנות לארון:** שמירת הרזולוציה והגודל של הארון כהגדרה מוכנה עם שם ומחיקה בכפתור הפח; ההגדרות נשמרות בתוך הפרויקט."
+      ],
+      "lv": [
+        "**Cilne Grid:** saglabātajos režģos vairs nav biezu vertikālu līniju, un diagonāles ir gaišākas un nedaudz biezākas.",
+        "**PDF atskaite:** elektriskajos rezultātos tagad redzams kopējais patēriņš kVA.",
+        "**LED screen:** papildu teksta rinda zem ekrāna nosaukuma, krāsas izvēles poga (arī dubultklikšķa izvēlnē) un uzraksts Pixel pitch.",
+        "**Kabineta sagataves:** saglabājiet kabineta izšķirtspēju un izmēru kā nosauktu sagatavi un dzēsiet to ar miskastes pogu; sagataves tiek saglabātas projektā."
+      ],
+      "fa": [
+        "**زبانه Grid:** شبکه‌های ذخیره‌شده دیگر خطوط عمودی ضخیم نشان نمی‌دهند و قطرها روشن‌تر و کمی ضخیم‌تر شده‌اند.",
+        "**گزارش PDF:** نتایج برقی اکنون مصرف کل را بر حسب kVA نشان می‌دهد.",
+        "**LED screen:** یک خط متن اضافی زیر نام صفحه، دکمه انتخاب رنگ (در منوی دوبار کلیک هم) و برچسب Pixel pitch.",
+        "**پیش‌تنظیم‌های کابینت:** وضوح و اندازه کابینت را به‌صورت پیش‌تنظیم با نام ذخیره کنید و با دکمه سطل زباله حذف کنید؛ پیش‌تنظیم‌ها درون پروژه ذخیره می‌شوند."
+      ],
+      "pl": [
+        "**Karta Grid:** zapisane siatki nie pokazują już grubych pionowych linii, a przekątne są jaśniejsze i nieco grubsze.",
+        "**Raport PDF:** wyniki elektryczne pokazują teraz całkowity pobór w kVA.",
+        "**LED screen:** dodatkowy wiersz tekstu pod nazwą ekranu, przycisk wyboru koloru (także w menu podwójnego kliknięcia) i etykieta Pixel pitch.",
+        "**Ustawienia wstępne kabinetu:** zapisz rozdzielczość i rozmiar kabinetu jako nazwane ustawienie wstępne i usuń je przyciskiem kosza; ustawienia są zapisywane w projekcie."
+      ],
+      "uk": [
+        "**Вкладка Grid:** у збережених сітках більше немає товстих вертикальних ліній, а діагоналі стали світлішими й трохи товщими.",
+        "**PDF-звіт:** електричні результати тепер показують загальне споживання в кВА.",
+        "**LED screen:** додатковий рядок тексту під назвою екрана, кнопка вибору кольору (також у меню подвійного клацання) і підпис Pixel pitch.",
+        "**Пресети кабінету:** зберігайте роздільність і розмір кабінету як пресет із назвою та видаляйте його кошиком; пресети зберігаються в проєкті."
+      ],
+      "ca": [
+        "**Pestanya Grid:** les graelles desades ja no mostren línies verticals gruixudes, i les diagonals són més clares i una mica més gruixudes.",
+        "**Informe PDF:** els resultats elèctrics ara inclouen el consum total en kVA.",
+        "**LED screen:** una línia de text addicional sota el nom de la pantalla, un botó per triar el color (també al menú de doble clic) i l'etiqueta Pixel pitch.",
+        "**Predefinits de mòdul:** deseu la resolució i la mida del mòdul com a predefinit amb un nom i suprimiu-lo amb la paperera; els predefinits es desen dins del projecte."
+      ],
+      "cs": [
+        "**Karta Grid:** uložené mřížky už neukazují silné svislé čáry a úhlopříčky jsou světlejší a o něco silnější.",
+        "**Zpráva PDF:** elektrické výsledky nyní uvádějí celkovou spotřebu v kVA.",
+        "**LED screen:** další řádek textu pod názvem obrazovky, tlačítko pro výběr barvy (také v nabídce dvojkliku) a popisek Pixel pitch.",
+        "**Předvolby kabinetu:** uložte rozlišení a velikost kabinetu jako pojmenovanou předvolbu a smažte ji tlačítkem koše; předvolby se ukládají do projektu."
+      ],
+      "fi": [
+        "**Grid-välilehti:** tallennetuissa ruudukoissa ei enää näy paksuja pystyviivoja, ja lävistäjät ovat kirkkaampia ja hieman paksumpia.",
+        "**PDF-raportti:** sähköiset tulokset näyttävät nyt kokonaiskulutuksen kVA:na.",
+        "**LED screen:** lisätekstirivi näytön nimen alla, värinvalintapainike (myös kaksoisnapsautusvalikossa) ja Pixel pitch -otsikko.",
+        "**Kaapin esiasetukset:** tallenna kaapin resoluutio ja koko nimettynä esiasetuksena ja poista se roskakoripainikkeella; esiasetukset tallentuvat projektiin."
+      ],
+      "el": [
+        "**Καρτέλα Grid:** τα αποθηκευμένα πλέγματα δεν δείχνουν πια χοντρές κάθετες γραμμές, και οι διαγώνιες είναι πιο φωτεινές και λίγο πιο χοντρές.",
+        "**Αναφορά PDF:** τα ηλεκτρικά αποτελέσματα δείχνουν πλέον τη συνολική κατανάλωση σε kVA.",
+        "**LED screen:** μια επιπλέον γραμμή κειμένου κάτω από το όνομα της οθόνης, κουμπί επιλογής χρώματος (και στο μενού διπλού κλικ) και η ετικέτα Pixel pitch.",
+        "**Προκαθορισμένα καμπίνας:** αποθηκεύστε την ανάλυση και το μέγεθος της καμπίνας ως προκαθορισμένο με όνομα και διαγράψτε το με τον κάδο· τα προκαθορισμένα αποθηκεύονται στο έργο."
+      ],
+      "ha": [
+        "**Shafin Grid:** grid da aka ajiye ba sa nuna kauri layukan tsaye kuma, kuma layukan karkata sun fi haske da ɗan kauri.",
+        "**Rahoton PDF:** sakamakon wutar lantarki yanzu yana nuna jimillar amfani a kVA.",
+        "**LED screen:** ƙarin layin rubutu ƙarƙashin sunan allo, maɓallin zaɓar launi (har ma a menu na danna sau biyu) da alamar Pixel pitch.",
+        "**Saitin kabad:** ajiye ƙuduri da girman kabad a matsayin saiti mai suna kuma share shi da maɓallin shara; ana ajiye saitunan cikin aikin."
+      ],
+      "ro": [
+        "**Fila Grid:** grilele salvate nu mai afișează linii verticale groase, iar diagonalele sunt mai luminoase și puțin mai groase.",
+        "**Raport PDF:** rezultatele electrice includ acum consumul total în kVA.",
+        "**LED screen:** un rând de text suplimentar sub numele ecranului, un buton de alegere a culorii (și în meniul de dublu clic) și eticheta Pixel pitch.",
+        "**Presetări de cabinet:** salvați rezoluția și dimensiunea cabinetului ca presetare cu nume și ștergeți-o cu coșul; presetările se salvează în proiect."
+      ],
+      "yo": [
+        "**Táàbù Grid:** àwọn grid tí a fi pamọ́ kò ní fi ìlà inaro tó nípọn hàn mọ́, àwọn ìlà oníròó sì tàn ju ti tẹ́lẹ̀ lọ, wọ́n sì nípọn díẹ̀.",
+        "**Ìròyìn PDF:** àwọn àbájáde iná mànàmáná ń fi gbogbo ìlò hàn ní kVA báyìí.",
+        "**LED screen:** ìlà ọ̀rọ̀ àfikún kan lábẹ́ orúkọ ojú-ìbojú, bọ́tìnnì yíyan àwọ̀ (ó tún wà nínú àkójọ títẹ̀ lẹ́ẹ̀mejì) àti àmì Pixel pitch.",
+        "**Ètò kábíńẹ́ẹ̀tì:** fi ìpinnu àti ìwọ̀n kábíńẹ́ẹ̀tì pamọ́ bí ètò tó ní orúkọ, kí o sì pa á rẹ́ pẹ̀lú bọ́tìnnì ìdọ̀tí; a máa ń fi àwọn ètò pamọ́ sínú iṣẹ́ náà."
+      ],
+      "zu": [
+        "**Ithebhu ye-Grid:** amagridi alondoloziwe awasabonisi imigqa eqondile ewugqinsi, futhi imigqa eqondiswe ngokutshekile ikhanya kakhulu futhi iwugqinsi kancane.",
+        "**Umbiko we-PDF:** imiphumela kagesi manje ibonisa ukusetshenziswa okuphelele ku-kVA.",
+        "**LED screen:** umugqa wombhalo owengeziwe ngaphansi kwegama lesikrini, inkinobho yokukhetha umbala (nakwimenyu yokuchofoza kabili) nelebula ethi Pixel pitch.",
+        "**Okusethwe ngaphambili kwekhabhinethi:** londoloza ukucaca nosayizi wekhabhinethi njengokusethwe ngaphambili okunegama bese ukususa ngenkinobho yomgqomo; kulondolozwa ngaphakathi kwephrojekthi."
+      ],
+      "fil": [
+        "**Tab na Grid:** wala nang makakapal na patayong linya sa mga na-save na grid, at mas maliwanag at bahagyang mas makapal ang mga diagonal.",
+        "**Ulat na PDF:** ipinapakita na ng mga resulta ng kuryente ang kabuuang konsumo sa kVA.",
+        "**LED screen:** dagdag na linya ng teksto sa ilalim ng pangalan ng screen, button para pumili ng kulay (nasa double-click menu rin) at ang label na Pixel pitch.",
+        "**Mga preset ng cabinet:** i-save ang resolution at laki ng cabinet bilang preset na may pangalan at burahin gamit ang trash button; nakasave ang mga preset sa loob ng proyekto."
+      ],
+      "ta": [
+        "**Grid தாவல்:** சேமித்த கிரிடுகளில் இனி தடித்த செங்குத்துக் கோடுகள் தெரியாது; மூலைவிட்டங்கள் பிரகாசமாகவும் சற்று தடிமனாகவும் உள்ளன.",
+        "**PDF அறிக்கை:** மின் முடிவுகள் இப்போது மொத்த நுகர்வை kVA-வில் காட்டுகின்றன.",
+        "**LED screen:** திரைப் பெயருக்குக் கீழே கூடுதல் உரை வரி, நிறம் தேர்வு பொத்தான் (இருமுறை சொடுக்கு மெனுவிலும்) மற்றும் Pixel pitch லேபிள்.",
+        "**கேபினெட் முன்னமைவுகள்:** கேபினெட்டின் தெளிவுத்திறனையும் அளவையும் பெயருடன் முன்னமைவாகச் சேமித்து, குப்பைத் தொட்டி பொத்தானால் நீக்கலாம்; முன்னமைவுகள் திட்டத்திலும் சேமிக்கப்படும்."
+      ],
+      "te": [
+        "**Grid ట్యాబ్:** సేవ్ చేసిన గ్రిడ్‌లలో ఇక మందపాటి నిలువు గీతలు కనిపించవు, వికర్ణాలు మరింత ప్రకాశవంతంగా కొంచెం మందంగా ఉన్నాయి.",
+        "**PDF నివేదిక:** విద్యుత్ ఫలితాలు ఇప్పుడు మొత్తం వినియోగాన్ని kVAలో చూపుతాయి.",
+        "**LED screen:** స్క్రీన్ పేరు కింద అదనపు వచన పంక్తి, రంగు ఎంపిక బటన్ (డబుల్-క్లిక్ మెనూలో కూడా) మరియు Pixel pitch లేబుల్.",
+        "**క్యాబినెట్ ప్రీసెట్‌లు:** క్యాబినెట్ రిజల్యూషన్, పరిమాణాన్ని పేరుతో ప్రీసెట్‌గా సేవ్ చేసి, ట్రాష్ బటన్‌తో తొలగించండి; ప్రీసెట్‌లు ప్రాజెక్ట్‌లో కూడా సేవ్ అవుతాయి."
+      ],
+      "mr": [
+        "**Grid टॅब:** जतन केलेल्या ग्रिडमध्ये आता जाड उभ्या रेषा दिसत नाहीत, आणि कर्ण अधिक उजळ व थोडे जाड आहेत.",
+        "**PDF अहवाल:** विद्युत निकालांमध्ये आता एकूण वापर kVA मध्ये दिसतो.",
+        "**LED screen:** स्क्रीनच्या नावाखाली अतिरिक्त मजकुराची एक ओळ, रंग निवडण्याचे बटण (डबल-क्लिक मेनूतही) आणि Pixel pitch लेबल.",
+        "**कॅबिनेट प्रीसेट:** कॅबिनेटचे रिझोल्यूशन व आकार नावासह प्रीसेट म्हणून जतन करा आणि कचरापेटी बटणाने हटवा; प्रीसेट प्रकल्पातही जतन होतात."
+      ],
+      "da": [
+        "**Fanen Grid:** gemte gitre viser ikke længere tykke lodrette linjer, og diagonalerne er lysere og lidt tykkere.",
+        "**PDF-rapport:** de elektriske resultater viser nu det samlede forbrug i kVA.",
+        "**LED screen:** en ekstra tekstlinje under skærmnavnet, en farvevælgerknap (også i dobbeltklikmenuen) og etiketten Pixel pitch.",
+        "**Kabinetforudindstillinger:** gem kabinettets opløsning og størrelse som en navngivet forudindstilling og slet den med skraldespanden; forudindstillingerne gemmes i projektet."
+      ],
+      "nb": [
+        "**Fanen Grid:** lagrede rutenett viser ikke lenger tykke loddrette linjer, og diagonalene er lysere og litt tykkere.",
+        "**PDF-rapport:** de elektriske resultatene viser nå totalt forbruk i kVA.",
+        "**LED screen:** en ekstra tekstlinje under skjermnavnet, en fargevelgerknapp (også i dobbeltklikkmenyen) og etiketten Pixel pitch.",
+        "**Kabinettforhåndsinnstillinger:** lagre kabinettets oppløsning og størrelse som en navngitt forhåndsinnstilling og slett den med søppelbøtten; forhåndsinnstillingene lagres i prosjektet."
+      ],
+      "lt": [
+        "**Skirtukas Grid:** išsaugotuose tinkleliuose nebėra storų vertikalių linijų, o įstrižainės šviesesnės ir šiek tiek storesnės.",
+        "**PDF ataskaita:** elektriniai rezultatai dabar rodo bendrą suvartojimą kVA.",
+        "**LED screen:** papildoma teksto eilutė po ekrano pavadinimu, spalvos parinkimo mygtukas (ir dukart spustelėjimo meniu) bei užrašas Pixel pitch.",
+        "**Kabineto išankstinės nuostatos:** įrašykite kabineto raišką ir dydį kaip pavadintą nuostatą ir ištrinkite šiukšliadėžės mygtuku; nuostatos įrašomos projekte."
+      ],
+      "et": [
+        "**Vahekaart Grid:** salvestatud võrgustikes pole enam paksu püstjooni ning diagonaalid on heledamad ja veidi paksemad.",
+        "**PDF-aruanne:** elektrilised tulemused näitavad nüüd koguvõimsust kVA-des.",
+        "**LED screen:** lisatekstirida ekraani nime all, värvivaliku nupp (ka topeltklõpsu menüüs) ja silt Pixel pitch.",
+        "**Kabineti eelseadistused:** salvestage kabineti eraldusvõime ja suurus nimega eelseadistusena ja kustutage prügikasti nupuga; eelseadistused salvestatakse projekti."
+      ],
+      "sk": [
+        "**Karta Grid:** uložené mriežky už nezobrazujú hrubé zvislé čiary a uhlopriečky sú svetlejšie a o niečo hrubšie.",
+        "**Správa PDF:** elektrické výsledky teraz uvádzajú celkovú spotrebu v kVA.",
+        "**LED screen:** ďalší riadok textu pod názvom obrazovky, tlačidlo na výber farby (aj v ponuke dvojkliku) a popis Pixel pitch.",
+        "**Predvoľby kabinetu:** uložte rozlíšenie a veľkosť kabinetu ako pomenovanú predvoľbu a odstráňte ju tlačidlom koša; predvoľby sa ukladajú do projektu."
+      ],
+      "bg": [
+        "**Раздел Grid:** запазените мрежи вече не показват дебели вертикални линии, а диагоналите са по-светли и малко по-дебели.",
+        "**PDF отчет:** електрическите резултати вече показват общата консумация в kVA.",
+        "**LED screen:** допълнителен ред текст под името на екрана, бутон за избор на цвят (и в менюто при двоен клик) и надпис Pixel pitch.",
+        "**Предварителни настройки на кабинета:** запазете резолюцията и размера на кабинета като именувана настройка и я изтрийте с кошчето; настройките се запазват в проекта."
+      ],
+      "sr": [
+        "**Картица Grid:** сачуване мреже више не приказују дебеле усправне линије, а дијагонале су светлије и мало дебље.",
+        "**PDF извештај:** електрични резултати сада приказују укупну потрошњу у kVA.",
+        "**LED screen:** додатни ред текста испод назива екрана, дугме за избор боје (и у менију двоструког клика) и натпис Pixel pitch.",
+        "**Унапред подешени кабинети:** сачувајте резолуцију и величину кабинета као именовано подешавање и обришите га дугметом корпе; подешавања се чувају у пројекту."
+      ],
+      "hr": [
+        "**Kartica Grid:** spremljene mreže više ne prikazuju debele okomite linije, a dijagonale su svjetlije i malo deblje.",
+        "**PDF izvješće:** električni rezultati sada prikazuju ukupnu potrošnju u kVA.",
+        "**LED screen:** dodatni redak teksta ispod naziva zaslona, gumb za odabir boje (i u izborniku dvostrukog klika) i natpis Pixel pitch.",
+        "**Unaprijed postavljeni kabineti:** spremite razlučivost i veličinu kabineta kao imenovanu postavku i izbrišite je gumbom koša; postavke se spremaju u projekt."
+      ],
+      "gu": [
+        "**Grid ટેબ:** સાચવેલા ગ્રિડમાં હવે જાડી ઊભી રેખાઓ દેખાતી નથી, અને કર્ણ વધુ તેજસ્વી અને થોડા જાડા છે.",
+        "**PDF અહેવાલ:** વિદ્યુત પરિણામોમાં હવે કુલ વપરાશ kVA માં દેખાય છે.",
+        "**LED screen:** સ્ક્રીનના નામ નીચે વધારાની ટેક્સ્ટ લાઇન, રંગ પસંદ કરવાનું બટન (ડબલ-ક્લિક મેનૂમાં પણ) અને Pixel pitch લેબલ.",
+        "**કેબિનેટ પ્રીસેટ:** કેબિનેટનું રિઝોલ્યુશન અને કદ નામ સાથે પ્રીસેટ તરીકે સાચવો અને કચરાપેટી બટનથી કાઢી નાખો; પ્રીસેટ પ્રોજેક્ટમાં પણ સચવાય છે."
+      ],
+      "pa": [
+        "**Grid ਟੈਬ:** ਸੇਵ ਕੀਤੇ ਗ੍ਰਿਡਾਂ ਵਿੱਚ ਹੁਣ ਮੋਟੀਆਂ ਖੜ੍ਹੀਆਂ ਲਾਈਨਾਂ ਨਹੀਂ ਦਿਸਦੀਆਂ, ਅਤੇ ਵਿਕਰਣ ਹੋਰ ਚਮਕਦਾਰ ਤੇ ਥੋੜ੍ਹੇ ਮੋਟੇ ਹਨ।",
+        "**PDF ਰਿਪੋਰਟ:** ਬਿਜਲਈ ਨਤੀਜਿਆਂ ਵਿੱਚ ਹੁਣ ਕੁੱਲ ਖਪਤ kVA ਵਿੱਚ ਦਿਸਦੀ ਹੈ।",
+        "**LED screen:** ਸਕ੍ਰੀਨ ਦੇ ਨਾਮ ਹੇਠਾਂ ਵਾਧੂ ਲਿਖਤ ਦੀ ਇੱਕ ਲਾਈਨ, ਰੰਗ ਚੁਣਨ ਦਾ ਬਟਨ (ਡਬਲ-ਕਲਿੱਕ ਮੀਨੂ ਵਿੱਚ ਵੀ) ਅਤੇ Pixel pitch ਲੇਬਲ।",
+        "**ਕੈਬਨਿਟ ਪ੍ਰੀਸੈੱਟ:** ਕੈਬਨਿਟ ਦਾ ਰੈਜ਼ੋਲਿਊਸ਼ਨ ਅਤੇ ਆਕਾਰ ਨਾਮ ਨਾਲ ਪ੍ਰੀਸੈੱਟ ਵਜੋਂ ਸੇਵ ਕਰੋ ਅਤੇ ਰੱਦੀ ਬਟਨ ਨਾਲ ਮਿਟਾਓ; ਪ੍ਰੀਸੈੱਟ ਪ੍ਰੋਜੈਕਟ ਵਿੱਚ ਵੀ ਸੇਵ ਹੁੰਦੇ ਹਨ।"
+      ],
+      "kn": [
+        "**Grid ಟ್ಯಾಬ್:** ಉಳಿಸಿದ ಗ್ರಿಡ್‌ಗಳಲ್ಲಿ ಈಗ ದಪ್ಪ ಲಂಬ ಗೆರೆಗಳು ಕಾಣುವುದಿಲ್ಲ, ಮತ್ತು ಕರ್ಣಗಳು ಹೆಚ್ಚು ಪ್ರಕಾಶಮಾನ ಹಾಗೂ ಸ್ವಲ್ಪ ದಪ್ಪವಾಗಿವೆ.",
+        "**PDF ವರದಿ:** ವಿದ್ಯುತ್ ಫಲಿತಾಂಶಗಳು ಈಗ ಒಟ್ಟು ಬಳಕೆಯನ್ನು kVA ನಲ್ಲಿ ತೋರಿಸುತ್ತವೆ.",
+        "**LED screen:** ಪರದೆಯ ಹೆಸರಿನ ಕೆಳಗೆ ಹೆಚ್ಚುವರಿ ಪಠ್ಯದ ಸಾಲು, ಬಣ್ಣ ಆಯ್ಕೆ ಬಟನ್ (ಡಬಲ್-ಕ್ಲಿಕ್ ಮೆನುವಿನಲ್ಲೂ) ಮತ್ತು Pixel pitch ಲೇಬಲ್.",
+        "**ಕ್ಯಾಬಿನೆಟ್ ಪ್ರೀಸೆಟ್‌ಗಳು:** ಕ್ಯಾಬಿನೆಟ್ ರೆಸಲ್ಯೂಶನ್ ಮತ್ತು ಗಾತ್ರವನ್ನು ಹೆಸರಿನೊಂದಿಗೆ ಪ್ರೀಸೆಟ್ ಆಗಿ ಉಳಿಸಿ ಮತ್ತು ಕಸದಬುಟ್ಟಿ ಬಟನ್‌ನಿಂದ ಅಳಿಸಿ; ಪ್ರೀಸೆಟ್‌ಗಳು ಪ್ರಾಜೆಕ್ಟ್‌ನಲ್ಲೂ ಉಳಿಯುತ್ತವೆ."
+      ],
+      "ne": [
+        "**Grid ट्याब:** सेभ गरिएका ग्रिडमा अब बाक्ला ठाडा रेखा देखिँदैनन्, र विकर्णहरू अझ उज्यालो र अलि बाक्ला छन्।",
+        "**PDF प्रतिवेदन:** विद्युत नतिजाले अब कुल खपत kVA मा देखाउँछ।",
+        "**LED screen:** स्क्रिनको नामतल थप पाठको एउटा लाइन, रङ छान्ने बटन (डबल-क्लिक मेनुमा पनि) र Pixel pitch लेबल।",
+        "**क्याबिनेट प्रिसेट:** क्याबिनेटको रिजोल्युसन र आकारलाई नामसहित प्रिसेटका रूपमा सेभ गर्नुहोस् र रद्दीटोकरी बटनले मेटाउनुहोस्; प्रिसेटहरू परियोजनामा पनि सेभ हुन्छन्।"
+      ],
+      "km": [
+        "**ផ្ទាំង Grid៖** ក្រឡាដែលបានរក្សាទុកលែងបង្ហាញបន្ទាត់បញ្ឈរក្រាស់ទៀតហើយ ហើយបន្ទាត់ទ្រេតភ្លឺជាងមុន និងក្រាស់បន្តិច។",
+        "**របាយការណ៍ PDF៖** លទ្ធផលអគ្គិសនីឥឡូវបង្ហាញការប្រើប្រាស់សរុបជា kVA។",
+        "**LED screen៖** បន្ទាត់អត្ថបទបន្ថែមនៅក្រោមឈ្មោះអេក្រង់ ប៊ូតុងជ្រើសពណ៌ (មាននៅក្នុងម៉ឺនុយចុចពីរដងផងដែរ) និងស្លាក Pixel pitch។",
+        "**ការកំណត់ជាមុនរបស់ទូ៖** រក្សាទុកគុណភាពបង្ហាញ និងទំហំទូជាការកំណត់ជាមុនដែលមានឈ្មោះ ហើយលុបដោយប៊ូតុងធុងសំរាម។ ការកំណត់ជាមុនត្រូវបានរក្សាទុកក្នុងគម្រោង។"
+      ],
+      "kk": [
+        "**Grid қойындысы:** сақталған торларда енді жуан тік сызықтар көрінбейді, ал диагональдар жарығырақ әрі сәл жуанырақ.",
+        "**PDF есебі:** электр нәтижелері енді жалпы тұтынуды кВА-мен көрсетеді.",
+        "**LED screen:** экран атауының астында қосымша мәтін жолы, түс таңдау түймесі (екі рет басу мәзірінде де) және Pixel pitch белгісі.",
+        "**Кабинет алдын ала орнатулары:** кабинеттің ажыратымдылығы мен өлшемін атаулы орнату ретінде сақтап, қоқыс түймесімен жойыңыз; орнатулар жобада да сақталады."
+      ],
+      "uz": [
+        "**Grid yorlig'i:** saqlangan to'rlarda endi qalin vertikal chiziqlar ko'rinmaydi, diagonallar esa yorqinroq va biroz qalinroq.",
+        "**PDF hisobot:** elektr natijalari endi umumiy iste'molni kVA da ko'rsatadi.",
+        "**LED screen:** ekran nomi ostida qo'shimcha matn qatori, rang tanlash tugmasi (ikki marta bosish menyusida ham) va Pixel pitch yorlig'i.",
+        "**Kabinet oldindan sozlamalari:** kabinet o'lchami va ruxsatini nomli sozlama sifatida saqlang va axlat tugmasi bilan o'chiring; sozlamalar loyiha ichida ham saqlanadi."
+      ],
+      "am": [
+        "**Grid ትር፦** የተቀመጡ ፍርግርጎች ከእንግዲህ ወፍራም ቋሚ መስመሮችን አያሳዩም፣ ሰያፍ መስመሮቹም ይበልጥ ደማቅ እና ትንሽ ወፍራም ሆነዋል።",
+        "**የPDF ሪፖርት፦** የኤሌክትሪክ ውጤቶች አሁን አጠቃላይ ፍጆታን በkVA ያሳያሉ።",
+        "**LED screen፦** ከማያ ገጹ ስም በታች ተጨማሪ የጽሑፍ መስመር፣ ቀለም መምረጫ አዝራር (በሁለቴ ጠቅታ ምናሌ ውስጥም) እና Pixel pitch መለያ።",
+        "**የካቢኔ ቅድመ-ቅንብሮች፦** የካቢኔውን ጥራት እና መጠን በስም እንደ ቅድመ-ቅንብር ያስቀምጡ እና በቆሻሻ አዝራር ይሰርዙ፤ ቅድመ-ቅንብሮቹ በፕሮጀክቱ ውስጥም ይቀመጣሉ።"
+      ],
+      "sl": [
+        "**Zavihek Grid:** shranjene mreže ne prikazujejo več debelih navpičnih črt, diagonale pa so svetlejše in malo debelejše.",
+        "**Poročilo PDF:** električni rezultati zdaj prikazujejo skupno porabo v kVA.",
+        "**LED screen:** dodatna vrstica besedila pod imenom zaslona, gumb za izbiro barve (tudi v meniju dvojnega klika) in oznaka Pixel pitch.",
+        "**Prednastavitve kabineta:** shranite ločljivost in velikost kabineta kot poimenovano prednastavitev in jo izbrišite z gumbom koša; prednastavitve se shranijo v projekt."
+      ]
+    },
     "2.7.0": {
       "en": [
         "**New Grid tab:** a test grid generator for LED and projection, any resolution up to 100,000 × 100,000 px, with resolution presets, patterns (Grid, Spyder and Alignment), backgrounds, display options and red or blue lines.",
@@ -421,98 +777,6 @@
       "uk": [
         "**Нові мови:** ще 29, серед них каталонська, чеська, грецька, румунська, данська, тамільська, казахська й амхарська. Тепер R-A Grid має 60 мов, за абеткою та зі смугою прокрутки в меню глобуса.",
         "**Remove:** кнопка тепер перевіряє кабінет і крок пікселя панелі (наприклад, P3.91) і обрізає зайве полотно точно до кабінетів екранів."
-      ]
-    },
-    "2.5.7": {
-      "en": [
-        "**New languages:** Hebrew, Latvian, Persian, Polish and Ukrainian. R-A Grid now has 31 languages."
-      ],
-      "pt": [
-        "**Novos idiomas:** hebraico, letão, persa, polonês e ucraniano. O R-A Grid agora tem 31 idiomas."
-      ],
-      "es": [
-        "**Nuevos idiomas:** hebreo, letón, persa, polaco y ucraniano. R-A Grid ahora tiene 31 idiomas."
-      ],
-      "fr": [
-        "**Nouvelles langues :** hébreu, letton, persan, polonais et ukrainien. R-A Grid est désormais disponible en 31 langues."
-      ],
-      "de": [
-        "**Neue Sprachen:** Hebräisch, Lettisch, Persisch, Polnisch und Ukrainisch. R-A Grid gibt es jetzt in 31 Sprachen."
-      ],
-      "it": [
-        "**Nuove lingue:** ebraico, lettone, persiano, polacco e ucraino. R-A Grid ora è disponibile in 31 lingue."
-      ],
-      "nl": [
-        "**Nieuwe talen:** Hebreeuws, Lets, Perzisch, Pools en Oekraïens. R-A Grid is nu beschikbaar in 31 talen."
-      ],
-      "ru": [
-        "**Новые языки:** иврит, латышский, персидский, польский и украинский. Теперь R-A Grid доступен на 31 языке."
-      ],
-      "tr": [
-        "**Yeni diller:** İbranice, Letonca, Farsça, Lehçe ve Ukraynaca. R-A Grid artık 31 dilde."
-      ],
-      "id": [
-        "**Bahasa baru:** Ibrani, Latvia, Persia, Polandia, dan Ukraina. R-A Grid kini tersedia dalam 31 bahasa."
-      ],
-      "hu": [
-        "**Új nyelvek:** héber, lett, perzsa, lengyel és ukrán. Az R-A Grid mostantól 31 nyelven érhető el."
-      ],
-      "zh-Hans": [
-        "**新增语言：**希伯来语、拉脱维亚语、波斯语、波兰语和乌克兰语。R-A Grid 现已支持 31 种语言。"
-      ],
-      "zh-Hant": [
-        "**新增語言：**希伯來語、拉脫維亞語、波斯語、波蘭語和烏克蘭語。R-A Grid 現已支援 31 種語言。"
-      ],
-      "ja": [
-        "**新しい言語：**ヘブライ語、ラトビア語、ペルシャ語、ポーランド語、ウクライナ語。R-A Grid は 31 言語に対応しました。"
-      ],
-      "ko": [
-        "**새 언어:** 히브리어, 라트비아어, 페르시아어, 폴란드어, 우크라이나어. 이제 R-A Grid는 31개 언어를 지원합니다."
-      ],
-      "ar": [
-        "**لغات جديدة:** العبرية واللاتفية والفارسية والبولندية والأوكرانية. أصبح R-A Grid متاحًا الآن بـ 31 لغة."
-      ],
-      "th": [
-        "**ภาษาใหม่:** ฮีบรู ลัตเวีย เปอร์เซีย โปแลนด์ และยูเครน ตอนนี้ R-A Grid มี 31 ภาษา"
-      ],
-      "hi": [
-        "**नई भाषाएँ:** हिब्रू, लातवियाई, फ़ारसी, पोलिश और यूक्रेनी। अब R-A Grid 31 भाषाओं में उपलब्ध है।"
-      ],
-      "vi": [
-        "**Ngôn ngữ mới:** tiếng Do Thái, tiếng Latvia, tiếng Ba Tư, tiếng Ba Lan và tiếng Ukraina. R-A Grid nay có 31 ngôn ngữ."
-      ],
-      "bn": [
-        "**নতুন ভাষা:** হিব্রু, লাটভিয়ান, ফারসি, পোলিশ ও ইউক্রেনীয়। R-A Grid এখন 31টি ভাষায় পাওয়া যায়।"
-      ],
-      "ms": [
-        "**Bahasa baharu:** Ibrani, Latvia, Parsi, Poland dan Ukraine. R-A Grid kini tersedia dalam 31 bahasa."
-      ],
-      "sv": [
-        "**Nya språk:** hebreiska, lettiska, persiska, polska och ukrainska. R-A Grid finns nu på 31 språk."
-      ],
-      "ur": [
-        "**نئی زبانیں:** عبرانی، لیٹوین، فارسی، پولش اور یوکرینی۔ R-A Grid اب 31 زبانوں میں دستیاب ہے۔"
-      ],
-      "sw": [
-        "**Lugha mpya:** Kiebrania, Kilatvia, Kiajemi, Kipolandi na Kiukreni. R-A Grid sasa inapatikana kwa lugha 31."
-      ],
-      "gn": [
-        "**Ñe'ẽ pyahu:** hebreo, letón, persa, polaco ha ucraniano. R-A Grid oguereko ko'ág̃a 31 ñe'ẽ."
-      ],
-      "he": [
-        "**שפות חדשות:** עברית, לטבית, פרסית, פולנית ואוקראינית. R-A Grid זמין עכשיו ב-31 שפות."
-      ],
-      "lv": [
-        "**Jaunas valodas:** ivrits, latviešu, persiešu, poļu un ukraiņu. R-A Grid tagad ir pieejams 31 valodā."
-      ],
-      "fa": [
-        "**زبان‌های جدید:** عبری، لتونیایی، فارسی، لهستانی و اوکراینی. R-A Grid اکنون به 31 زبان در دسترس است."
-      ],
-      "pl": [
-        "**Nowe języki:** hebrajski, łotewski, perski, polski i ukraiński. R-A Grid jest teraz dostępny w 31 językach."
-      ],
-      "uk": [
-        "**Нові мови:** іврит, латиська, перська, польська та українська. Тепер R-A Grid доступний 31 мовою."
       ]
     }
   }
