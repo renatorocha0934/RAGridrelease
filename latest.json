@@ -1,9 +1,306 @@
 {
-  "version": "2.6.0",
-  "windows": "https://github.com/renatorocha0934/RAGridrelease/releases/download/v2.6.0/RAGrid-Windows.zip",
-  "mac": "https://github.com/renatorocha0934/RAGridrelease/releases/download/v2.6.0/RAGrid-Mac.dmg",
+  "version": "2.7.0",
+  "windows": "https://github.com/renatorocha0934/RAGridrelease/releases/download/v2.7.0/RAGrid-Windows.zip",
+  "mac": "https://github.com/renatorocha0934/RAGridrelease/releases/download/v2.7.0/RAGrid-Mac.dmg",
   "notes": "System and performance improvements.",
   "changes": {
+    "2.7.0": {
+      "en": [
+        "**New Grid tab:** a test grid generator for LED and projection, any resolution up to 100,000 × 100,000 px, with resolution presets, patterns (Grid, Spyder and Alignment), backgrounds, display options and red or blue lines.",
+        "**Save the grid as PNG, JPEG, PSD or PDF:** pixel-exact files, with an optional transparent background (Alpha).",
+        "**Zoom and move:** mouse-wheel zoom down to a single pixel, drag with the right mouse button, Center view or Esc to center it again."
+      ],
+      "pt": [
+        "**Nova aba Grid:** gerador de grid de teste para LED e projeção, em qualquer resolução até 100.000 × 100.000 px, com resoluções prontas, desenhos (Grid, Spyder e Alinhamento), fundos, opções de exibição e linhas vermelhas ou azuis.",
+        "**Salve o grid em PNG, JPEG, PSD ou PDF:** arquivos fiéis pixel a pixel, com fundo transparente opcional (Alpha).",
+        "**Zoom e arraste:** zoom na roda do mouse até um único pixel, arraste com o botão direito, Centralizar vista ou Esc para centralizar de novo."
+      ],
+      "es": [
+        "**Nueva pestaña Grid:** generador de cuadrícula de prueba para LED y proyección, en cualquier resolución hasta 100.000 × 100.000 px, con resoluciones predefinidas, patrones (Grid, Spyder y Alineación), fondos, opciones de visualización y líneas rojas o azules.",
+        "**Guarde la cuadrícula en PNG, JPEG, PSD o PDF:** archivos exactos píxel a píxel, con fondo transparente opcional (Alpha).",
+        "**Zoom y arrastre:** zoom con la rueda del ratón hasta un solo píxel, arrastre con el botón derecho, Centrar vista o Esc para volver a centrar."
+      ],
+      "fr": [
+        "**Nouvel onglet Grid :** générateur de mire de test pour LED et projection, dans toute résolution jusqu'à 100 000 × 100 000 px, avec des résolutions prédéfinies, des motifs (Grid, Spyder et Alignement), des fonds, des options d'affichage et des lignes rouges ou bleues.",
+        "**Enregistrez la mire en PNG, JPEG, PSD ou PDF :** fichiers exacts au pixel près, avec fond transparent en option (Alpha).",
+        "**Zoom et déplacement :** zoom à la molette jusqu'à un seul pixel, déplacement avec le bouton droit, Centrer la vue ou Échap pour recentrer."
+      ],
+      "de": [
+        "**Neuer Grid-Tab:** Testraster-Generator für LED und Projektion, in jeder Auflösung bis 100.000 × 100.000 px, mit Auflösungsvorlagen, Mustern (Grid, Spyder und Ausrichtung), Hintergründen, Anzeigeoptionen und roten oder blauen Linien.",
+        "**Raster als PNG, JPEG, PSD oder PDF speichern:** pixelgenaue Dateien, optional mit transparentem Hintergrund (Alpha).",
+        "**Zoomen und verschieben:** Zoom mit dem Mausrad bis zu einem einzelnen Pixel, Verschieben mit der rechten Maustaste, Ansicht zentrieren oder Esc zum erneuten Zentrieren."
+      ],
+      "it": [
+        "**Nuova scheda Grid:** generatore di griglie di prova per LED e proiezione, in qualsiasi risoluzione fino a 100.000 × 100.000 px, con risoluzioni predefinite, motivi (Grid, Spyder e Allineamento), sfondi, opzioni di visualizzazione e linee rosse o blu.",
+        "**Salva la griglia in PNG, JPEG, PSD o PDF:** file esatti al pixel, con sfondo trasparente opzionale (Alpha).",
+        "**Zoom e trascinamento:** zoom con la rotellina fino a un singolo pixel, trascinamento con il tasto destro, Centra vista o Esc per ricentrare."
+      ],
+      "nl": [
+        "**Nieuw tabblad Grid:** testrastergenerator voor LED en projectie, in elke resolutie tot 100.000 × 100.000 px, met vooraf ingestelde resoluties, patronen (Grid, Spyder en Uitlijning), achtergronden, weergaveopties en rode of blauwe lijnen.",
+        "**Sla het raster op als PNG, JPEG, PSD of PDF:** pixelexacte bestanden, met optioneel een transparante achtergrond (Alpha).",
+        "**Zoomen en slepen:** zoomen met het muiswiel tot op één pixel, slepen met de rechtermuisknop, Weergave centreren of Esc om opnieuw te centreren."
+      ],
+      "ru": [
+        "**Новая вкладка Grid:** генератор тестовой сетки для LED и проекции, любое разрешение до 100 000 × 100 000 пикс., готовые разрешения, шаблоны (Grid, Spyder и Выравнивание), фоны, параметры отображения и красные или синие линии.",
+        "**Сохранение сетки в PNG, JPEG, PSD или PDF:** файлы с точностью до пикселя, по желанию с прозрачным фоном (Alpha).",
+        "**Масштаб и перемещение:** масштаб колесом мыши вплоть до одного пикселя, перемещение правой кнопкой, Центрировать вид или Esc для центрирования."
+      ],
+      "tr": [
+        "**Yeni Grid sekmesi:** LED ve projeksiyon için test ızgarası üreticisi; 100.000 × 100.000 piksele kadar her çözünürlükte, hazır çözünürlükler, desenler (Grid, Spyder ve Hizalama), arka planlar, görünüm seçenekleri ve kırmızı ya da mavi çizgilerle.",
+        "**Izgarayı PNG, JPEG, PSD veya PDF olarak kaydedin:** piksel piksel birebir dosyalar, isteğe bağlı saydam arka plan (Alpha).",
+        "**Yakınlaştırma ve sürükleme:** fare tekerleğiyle tek bir piksele kadar yakınlaştırma, sağ tuşla sürükleme, yeniden ortalamak için Görünümü ortala veya Esc."
+      ],
+      "id": [
+        "**Tab Grid baru:** pembuat grid uji untuk LED dan proyeksi, dalam resolusi apa pun hingga 100.000 × 100.000 px, dengan preset resolusi, pola (Grid, Spyder, dan Penyelarasan), latar belakang, opsi tampilan, serta garis merah atau biru.",
+        "**Simpan grid sebagai PNG, JPEG, PSD, atau PDF:** file yang tepat hingga tiap piksel, dengan latar transparan opsional (Alpha).",
+        "**Zoom dan geser:** zoom dengan roda mouse hingga satu piksel, geser dengan tombol kanan, Tengahkan tampilan atau Esc untuk memusatkan lagi."
+      ],
+      "hu": [
+        "**Új Grid fül:** tesztrács-generátor LED-hez és vetítéshez, bármilyen felbontásban 100 000 × 100 000 képpontig, előre beállított felbontásokkal, mintákkal (Grid, Spyder és Igazítás), hátterekkel, megjelenítési beállításokkal és piros vagy kék vonalakkal.",
+        "**Mentse a rácsot PNG, JPEG, PSD vagy PDF formátumban:** képpontra pontos fájlok, választható átlátszó háttérrel (Alpha).",
+        "**Nagyítás és mozgatás:** nagyítás az egérgörgővel egyetlen képpontig, mozgatás a jobb egérgombbal, Nézet középre vagy Esc az újbóli középre igazításhoz."
+      ],
+      "zh-Hans": [
+        "**新的 Grid 选项卡：** 用于 LED 和投影的测试网格生成器，支持最高 100,000 × 100,000 像素的任意分辨率，提供预设分辨率、图案（Grid、Spyder 和 对齐）、背景、显示选项以及红色或蓝色线条。",
+        "**将网格保存为 PNG、JPEG、PSD 或 PDF：** 逐像素精确的文件，可选透明背景（Alpha）。",
+        "**缩放和拖动：** 用鼠标滚轮缩放到单个像素，按住右键拖动，按 居中视图 或 Esc 重新居中。"
+      ],
+      "zh-Hant": [
+        "**新的 Grid 分頁：** 用於 LED 與投影的測試網格產生器，支援最高 100,000 × 100,000 像素的任意解析度，提供預設解析度、圖樣（Grid、Spyder 和 對齊）、背景、顯示選項以及紅色或藍色線條。",
+        "**將網格儲存為 PNG、JPEG、PSD 或 PDF：** 逐像素精確的檔案，可選透明背景（Alpha）。",
+        "**縮放與拖曳：** 以滑鼠滾輪縮放到單一像素，按住右鍵拖曳，按 置中檢視 或 Esc 重新置中。"
+      ],
+      "ja": [
+        "**新しい Grid タブ：** LED とプロジェクション用のテストグリッド生成ツール。最大 100,000 × 100,000 px まで任意の解像度に対応し、解像度プリセット、パターン（Grid、Spyder、アライメント）、背景、表示オプション、赤または青のラインを選べます。",
+        "**グリッドを PNG、JPEG、PSD、PDF で保存：** ピクセル単位で正確なファイル。透明な背景（Alpha）も選べます。",
+        "**ズームと移動：** マウスホイールで 1 ピクセル単位までズーム、右ボタンでドラッグ、ビューを中央へ または Esc で中央に戻します。"
+      ],
+      "ko": [
+        "**새 Grid 탭:** LED와 프로젝션용 테스트 그리드 생성기로, 최대 100,000 × 100,000 px까지 모든 해상도를 지원하며 해상도 프리셋, 패턴(Grid, Spyder, 정렬), 배경, 표시 옵션, 빨간색 또는 파란색 선을 제공합니다.",
+        "**그리드를 PNG, JPEG, PSD 또는 PDF로 저장:** 픽셀 단위까지 정확한 파일이며, 투명 배경(Alpha)을 선택할 수 있습니다.",
+        "**확대/축소와 이동:** 마우스 휠로 픽셀 하나까지 확대하고, 오른쪽 버튼으로 끌어 이동하며, 뷰 가운데 맞춤 또는 Esc로 다시 가운데에 맞춥니다."
+      ],
+      "ar": [
+        "**تبويب Grid جديد:** مولّد شبكة اختبار لشاشات LED والإسقاط، بأي دقة حتى 100,000 × 100,000 بكسل، مع دقات جاهزة وأنماط (Grid وSpyder ومحاذاة) وخلفيات وخيارات عرض وخطوط حمراء أو زرقاء.",
+        "**احفظ الشبكة بصيغة PNG أو JPEG أو PSD أو PDF:** ملفات دقيقة بكسلًا ببكسل، مع خلفية شفافة اختيارية (Alpha).",
+        "**التكبير والسحب:** تكبير بعجلة الفأرة حتى بكسل واحد، وسحب بالزر الأيمن، وتوسيط العرض أو Esc لإعادة التوسيط."
+      ],
+      "th": [
+        "**แท็บ Grid ใหม่:** ตัวสร้างกริดทดสอบสำหรับ LED และโปรเจกเตอร์ ทุกความละเอียดสูงสุด 100,000 × 100,000 พิกเซล พร้อมความละเอียดสำเร็จรูป ลวดลาย (Grid, Spyder และ การจัดแนว) พื้นหลัง ตัวเลือกการแสดงผล และเส้นสีแดงหรือสีน้ำเงิน",
+        "**บันทึกกริดเป็น PNG, JPEG, PSD หรือ PDF:** ไฟล์ตรงทุกพิกเซล เลือกพื้นหลังโปร่งใสได้ (Alpha)",
+        "**ซูมและลาก:** ซูมด้วยล้อเมาส์จนถึงพิกเซลเดียว ลากด้วยปุ่มขวา และใช้ จัดมุมมองกึ่งกลาง หรือ Esc เพื่อจัดกลางอีกครั้ง"
+      ],
+      "hi": [
+        "**नया Grid टैब:** LED और प्रोजेक्शन के लिए टेस्ट ग्रिड जनरेटर, 100,000 × 100,000 px तक किसी भी रिज़ॉल्यूशन में, तैयार रिज़ॉल्यूशन, पैटर्न (Grid, Spyder और संरेखण), बैकग्राउंड, डिस्प्ले विकल्प और लाल या नीली रेखाओं के साथ।",
+        "**ग्रिड को PNG, JPEG, PSD या PDF में सेव करें:** हर पिक्सेल तक सटीक फ़ाइलें, वैकल्पिक पारदर्शी बैकग्राउंड (Alpha) के साथ।",
+        "**ज़ूम और खिसकाना:** माउस व्हील से एक पिक्सेल तक ज़ूम, दाएँ बटन से खिसकाएँ, फिर से बीच में लाने के लिए व्यू बीच में करें या Esc।"
+      ],
+      "vi": [
+        "**Thẻ Grid mới:** công cụ tạo lưới kiểm tra cho LED và máy chiếu, mọi độ phân giải đến 100.000 × 100.000 px, có độ phân giải dựng sẵn, mẫu (Grid, Spyder và Căn chỉnh), nền, tùy chọn hiển thị và đường kẻ đỏ hoặc xanh.",
+        "**Lưu lưới thành PNG, JPEG, PSD hoặc PDF:** tệp chính xác đến từng pixel, có thể chọn nền trong suốt (Alpha).",
+        "**Thu phóng và kéo:** thu phóng bằng con lăn chuột đến từng pixel, kéo bằng nút phải, Căn giữa hoặc Esc để căn giữa lại."
+      ],
+      "bn": [
+        "**নতুন Grid ট্যাব:** LED ও প্রজেকশনের জন্য টেস্ট গ্রিড জেনারেটর, 100,000 × 100,000 px পর্যন্ত যেকোনো রেজোলিউশনে, প্রস্তুত রেজোলিউশন, প্যাটার্ন (Grid, Spyder ও সারিবদ্ধকরণ), ব্যাকগ্রাউন্ড, প্রদর্শন বিকল্প এবং লাল বা নীল রেখাসহ।",
+        "**গ্রিড PNG, JPEG, PSD বা PDF হিসেবে সংরক্ষণ করুন:** প্রতিটি পিক্সেল পর্যন্ত নির্ভুল ফাইল, ঐচ্ছিক স্বচ্ছ ব্যাকগ্রাউন্ড (Alpha) সহ।",
+        "**জুম ও টেনে সরানো:** মাউস হুইলে একটি পিক্সেল পর্যন্ত জুম, ডান বোতামে টেনে সরানো, আবার মাঝখানে আনতে ভিউ সেন্টার করুন বা Esc।"
+      ],
+      "ms": [
+        "**Tab Grid baharu:** penjana grid ujian untuk LED dan unjuran, dalam sebarang resolusi hingga 100,000 × 100,000 px, dengan pratetap resolusi, corak (Grid, Spyder dan Penjajaran), latar belakang, pilihan paparan dan garisan merah atau biru.",
+        "**Simpan grid sebagai PNG, JPEG, PSD atau PDF:** fail tepat hingga setiap piksel, dengan latar belakang lutsinar pilihan (Alpha).",
+        "**Zum dan seret:** zum dengan roda tetikus hingga satu piksel, seret dengan butang kanan, Pusatkan paparan atau Esc untuk memusatkan semula."
+      ],
+      "sv": [
+        "**Ny Grid-flik:** generator för testrutnät för LED och projektion, i valfri upplösning upp till 100 000 × 100 000 px, med förinställda upplösningar, mönster (Grid, Spyder och Justering), bakgrunder, visningsalternativ och röda eller blå linjer.",
+        "**Spara rutnätet som PNG, JPEG, PSD eller PDF:** pixelexakta filer, med valfri genomskinlig bakgrund (Alpha).",
+        "**Zooma och dra:** zooma med mushjulet ända ner till en enskild pixel, dra med höger musknapp, Centrera vyn eller Esc för att centrera igen."
+      ],
+      "ur": [
+        "**نیا Grid ٹیب:** LED اور پروجیکشن کے لیے ٹیسٹ گرڈ جنریٹر، 100,000 × 100,000 px تک کسی بھی ریزولوشن میں، تیار ریزولوشنز، پیٹرن (Grid، Spyder اور سیدھ)، پس منظر، ڈسپلے کے اختیارات اور سرخ یا نیلی لائنوں کے ساتھ۔",
+        "**گرڈ کو PNG، JPEG، PSD یا PDF میں محفوظ کریں:** ہر پکسل تک درست فائلیں، اختیاری شفاف پس منظر (Alpha) کے ساتھ۔",
+        "**زوم اور گھسیٹنا:** ماؤس وہیل سے ایک پکسل تک زوم، دائیں بٹن سے گھسیٹیں، دوبارہ درمیان میں لانے کے لیے ویو سینٹر کریں یا Esc۔"
+      ],
+      "sw": [
+        "**Kichupo kipya cha Grid:** kiunda gridi ya majaribio kwa LED na projekta, katika ubora wowote hadi pikseli 100,000 × 100,000, chenye maazimio yaliyotayarishwa, mifumo (Grid, Spyder na Upangaji), mandharinyuma, chaguo za onyesho na mistari myekundu au ya bluu.",
+        "**Hifadhi gridi kama PNG, JPEG, PSD au PDF:** faili sahihi hadi kila pikseli, na mandharinyuma ya uwazi kwa hiari (Alpha).",
+        "**Kukuza na kuburuta:** kuza kwa gurudumu la kipanya hadi pikseli moja, buruta kwa kitufe cha kulia, Katikati au Esc kuweka katikati tena."
+      ],
+      "gn": [
+        "**Grid pyahu:** grid ñeha'ã moheñoiha LED ha proyección-pe guarã, oimeraẽ resolución 100.000 × 100.000 px peve, resolución oĩmbáva, ta'anga (Grid, Spyder ha Jojaha), hapykuegua, jehechaukarã ha líneas pytã térã hovy.",
+        "**Eñongatu grid PNG, JPEG, PSD térã PDF-pe:** archivo hekopete píxel ha píxel, ikatúva hapykuegua hesakãva (Alpha).",
+        "**Zoom ha mosyryry:** zoom mouse rueda reheve peteĩ píxel peve, emosyryry botón akatúa reheve, Jehecha mbyte térã Esc emombyte jey hag̃ua."
+      ],
+      "he": [
+        "**לשונית Grid חדשה:** מחולל רשת בדיקה ל-LED ולהקרנה, בכל רזולוציה עד 100,000 × 100,000 פיקסלים, עם רזולוציות מוכנות, תבניות (Grid, Spyder ו-יישור), רקעים, אפשרויות תצוגה וקווים אדומים או כחולים.",
+        "**שמירת הרשת כ-PNG, JPEG, PSD או PDF:** קבצים מדויקים עד הפיקסל, עם רקע שקוף לבחירה (Alpha).",
+        "**זום וגרירה:** זום בגלגלת העכבר עד פיקסל בודד, גרירה בלחצן הימני, מרכז את התצוגה או Esc כדי למרכז שוב."
+      ],
+      "lv": [
+        "**Jauna cilne Grid:** testa režģa ģenerators LED un projekcijai jebkurā izšķirtspējā līdz 100 000 × 100 000 px, ar gatavām izšķirtspējām, rakstiem (Grid, Spyder un Līdzināšana), foniem, attēlošanas iespējām un sarkanām vai zilām līnijām.",
+        "**Saglabājiet režģi kā PNG, JPEG, PSD vai PDF:** pikseļprecīzi faili ar izvēles caurspīdīgu fonu (Alpha).",
+        "**Tālummaiņa un vilkšana:** tālummaiņa ar peles ritenīti līdz vienam pikselim, vilkšana ar labo pogu, Centrēt skatu vai Esc, lai atkal centrētu."
+      ],
+      "fa": [
+        "**زبانه جدید Grid:** سازنده شبکه آزمایشی برای LED و پروجکشن، با هر وضوحی تا 100,000 × 100,000 پیکسل، همراه با وضوح‌های آماده، الگوها (Grid، Spyder و تراز)، پس‌زمینه‌ها، گزینه‌های نمایش و خطوط قرمز یا آبی.",
+        "**ذخیره شبکه به‌صورت PNG، JPEG، PSD یا PDF:** فایل‌های دقیق تا سطح پیکسل، با پس‌زمینه شفاف اختیاری (Alpha).",
+        "**بزرگ‌نمایی و کشیدن:** بزرگ‌نمایی با چرخ ماوس تا یک پیکسل، کشیدن با دکمه راست، مرکز کردن نما یا Esc برای وسط‌چین کردن دوباره."
+      ],
+      "pl": [
+        "**Nowa karta Grid:** generator siatki testowej dla LED i projekcji, w dowolnej rozdzielczości do 100 000 × 100 000 px, z gotowymi rozdzielczościami, wzorami (Grid, Spyder i Wyrównanie), tłami, opcjami wyświetlania oraz czerwonymi lub niebieskimi liniami.",
+        "**Zapisz siatkę jako PNG, JPEG, PSD lub PDF:** pliki dokładne co do piksela, z opcjonalnym przezroczystym tłem (Alpha).",
+        "**Powiększanie i przesuwanie:** powiększanie kółkiem myszy aż do pojedynczego piksela, przesuwanie prawym przyciskiem, Wyśrodkuj widok lub Esc, aby znów wyśrodkować."
+      ],
+      "uk": [
+        "**Нова вкладка Grid:** генератор тестової сітки для LED і проєкції, будь-яка роздільність до 100 000 × 100 000 пікс., готові роздільності, шаблони (Grid, Spyder і Вирівнювання), фони, параметри відображення та червоні або сині лінії.",
+        "**Збереження сітки в PNG, JPEG, PSD або PDF:** файли з точністю до пікселя, за бажанням із прозорим тлом (Alpha).",
+        "**Масштаб і переміщення:** масштаб коліщатком миші аж до одного пікселя, переміщення правою кнопкою, Центрувати вигляд або Esc для центрування."
+      ],
+      "ca": [
+        "**Nova pestanya Grid:** generador de graella de prova per a LED i projecció, en qualsevol resolució fins a 100.000 × 100.000 px, amb resolucions predefinides, patrons (Grid, Spyder i Alineació), fons, opcions de visualització i línies vermelles o blaves.",
+        "**Deseu la graella en PNG, JPEG, PSD o PDF:** fitxers exactes píxel a píxel, amb fons transparent opcional (Alpha).",
+        "**Zoom i desplaçament:** zoom amb la roda del ratolí fins a un sol píxel, arrossegament amb el botó dret, Centra la vista o Esc per tornar a centrar."
+      ],
+      "cs": [
+        "**Nová karta Grid:** generátor testovací mřížky pro LED a projekci v libovolném rozlišení až 100 000 × 100 000 px, s předvolbami rozlišení, vzory (Grid, Spyder a Zarovnání), pozadími, možnostmi zobrazení a červenými nebo modrými čarami.",
+        "**Uložení mřížky do PNG, JPEG, PSD nebo PDF:** soubory přesné na pixel, volitelně s průhledným pozadím (Alpha).",
+        "**Přiblížení a posun:** přiblížení kolečkem myši až na jediný pixel, posun pravým tlačítkem, Vycentrovat pohled nebo Esc pro opětovné vystředění."
+      ],
+      "fi": [
+        "**Uusi Grid-välilehti:** testiruudukon generaattori LED-näytöille ja projisointiin millä tahansa resoluutiolla 100 000 × 100 000 px asti, valmiilla resoluutioilla, kuvioilla (Grid, Spyder ja Kohdistus), taustoilla, näyttöasetuksilla sekä punaisilla tai sinisillä viivoilla.",
+        "**Tallenna ruudukko PNG-, JPEG-, PSD- tai PDF-muodossa:** pikselintarkat tiedostot, valinnaisesti läpinäkyvällä taustalla (Alpha).",
+        "**Zoomaus ja siirto:** zoomaa hiiren rullalla yksittäiseen pikseliin asti, siirrä hiiren oikealla painikkeella, keskitä uudelleen painikkeella Keskitä näkymä tai Esc-näppäimellä."
+      ],
+      "el": [
+        "**Νέα καρτέλα Grid:** γεννήτρια πλέγματος δοκιμής για LED και προβολή, σε οποιαδήποτε ανάλυση έως 100.000 × 100.000 px, με προκαθορισμένες αναλύσεις, μοτίβα (Grid, Spyder και Ευθυγράμμιση), φόντα, επιλογές εμφάνισης και κόκκινες ή μπλε γραμμές.",
+        "**Αποθήκευση του πλέγματος σε PNG, JPEG, PSD ή PDF:** αρχεία ακριβή ως το pixel, με προαιρετικό διαφανές φόντο (Alpha).",
+        "**Ζουμ και μετακίνηση:** ζουμ με τη ροδέλα του ποντικιού ως ένα μόνο pixel, μετακίνηση με το δεξί κουμπί, Κεντράρισμα προβολής ή Esc για νέο κεντράρισμα."
+      ],
+      "ha": [
+        "**Sabon shafin Grid:** mai ƙirƙirar grid na gwaji don LED da majigi, a kowane ƙuduri har zuwa pixel 100,000 × 100,000, tare da ƙudurori da aka shirya, zane-zane (Grid, Spyder da Daidaitawa), bango, zaɓuɓɓukan nuni da layuka ja ko shuɗi.",
+        "**Ajiye grid a matsayin PNG, JPEG, PSD ko PDF:** fayiloli daidai har zuwa kowane pixel, tare da bango mai haske idan an so (Alpha).",
+        "**Zuƙowa da jawo:** zuƙowa da ƙafafun linzamin kwamfuta har zuwa pixel ɗaya, jawo da maɓallin dama, Tsakaita gani ko Esc don sake sanyawa a tsakiya."
+      ],
+      "ro": [
+        "**Fila nouă Grid:** generator de grilă de test pentru LED și proiecție, în orice rezoluție până la 100.000 × 100.000 px, cu rezoluții presetate, modele (Grid, Spyder și Aliniere), fundaluri, opțiuni de afișare și linii roșii sau albastre.",
+        "**Salvați grila ca PNG, JPEG, PSD sau PDF:** fișiere exacte la pixel, cu fundal transparent opțional (Alpha).",
+        "**Zoom și deplasare:** zoom cu rotița mouse-ului până la un singur pixel, deplasare cu butonul drept, Centrează vederea sau Esc pentru recentrare."
+      ],
+      "yo": [
+        "**Táàbù Grid tuntun:** ẹ̀rọ tí ń ṣẹ̀dá grid ìdánwò fún LED àti iṣẹ́ àfihàn, ní ìpinnu èyíkéyìí títí dé 100,000 × 100,000 px, pẹ̀lú àwọn ìpinnu tí a ti ṣètò, àwọn àpẹẹrẹ (Grid, Spyder àti Ìtòlẹ́sẹẹsẹ), àwọn ẹ̀yìn, àwọn àṣàyàn ìfihàn àti àwọn ìlà pupa tàbí búlù.",
+        "**Fi grid pamọ́ bí PNG, JPEG, PSD tàbí PDF:** àwọn fáìlì tó péye dé píkísẹ́lì kọ̀ọ̀kan, pẹ̀lú ẹ̀yìn tí kò ní àwọ̀ bí o bá fẹ́ (Alpha).",
+        "**Sún-mọ́ àti fífà:** sún-mọ́ pẹ̀lú kẹ̀kẹ́ eku títí dé píkísẹ́lì kan, fà pẹ̀lú bọ́tìnnì ọ̀tún, Mú ìwò wá sí àárín tàbí Esc láti tún gbé e sí àárín."
+      ],
+      "zu": [
+        "**Ithebhu entsha ye-Grid:** isakhi segridi yokuhlola se-LED nokuqondisa, kunoma yikuphi ukucaca kuze kufike ku-100,000 × 100,000 px, kanye nokucaca okusethwe ngaphambili, amaphethini (Grid, Spyder ne-Ukuqondanisa), izizinda, izinketho zokubonisa nemigqa ebomvu noma eluhlaza okwesibhakabhaka.",
+        "**Londoloza igridi njenge-PNG, JPEG, PSD noma PDF:** amafayela anembe kuze kube yiphikseli ngayinye, nesizinda esibonisa ngale uma uthanda (Alpha).",
+        "**Ukusondeza nokuhudula:** sondeza ngesondo lemawusi kuze kube yiphikseli eyodwa, hudula ngenkinobho yesokudla, Maphakathi ukubuka noma Esc ukuze uphinde umise maphakathi."
+      ],
+      "fil": [
+        "**Bagong tab na Grid:** generator ng test grid para sa LED at projection, sa anumang resolution hanggang 100,000 × 100,000 px, may mga preset na resolution, pattern (Grid, Spyder at Pag-align), background, opsyon sa display at pula o asul na linya.",
+        "**I-save ang grid bilang PNG, JPEG, PSD o PDF:** mga file na eksakto hanggang sa bawat pixel, may opsyonal na transparent na background (Alpha).",
+        "**Zoom at paggalaw:** mag-zoom gamit ang mouse wheel hanggang sa iisang pixel, i-drag gamit ang kanang button, Igitna ang tanaw o Esc para igitna ulit."
+      ],
+      "ta": [
+        "**புதிய Grid தாவல்:** LED மற்றும் ப்ரொஜெக்ஷனுக்கான சோதனை கிரிட் உருவாக்கி; 100,000 × 100,000 px வரை எந்தத் தெளிவுத்திறனிலும், தயார் தெளிவுத்திறன்கள், வடிவங்கள் (Grid, Spyder, சீரமைப்பு), பின்னணிகள், காட்சி விருப்பங்கள் மற்றும் சிவப்பு அல்லது நீலக் கோடுகளுடன்.",
+        "**கிரிடை PNG, JPEG, PSD அல்லது PDF ஆகச் சேமிக்கவும்:** ஒவ்வொரு பிக்சலும் துல்லியமான கோப்புகள், விருப்பத்தேர்வாக வெளிப்படையான பின்னணியுடன் (Alpha).",
+        "**பெரிதாக்கல் மற்றும் இழுத்தல்:** மவுஸ் சக்கரத்தால் ஒரு பிக்சல் வரை பெரிதாக்கலாம், வலது பொத்தானால் இழுக்கலாம், மீண்டும் மையப்படுத்த காட்சியை மையப்படுத்து அல்லது Esc."
+      ],
+      "te": [
+        "**కొత్త Grid ట్యాబ్:** LED మరియు ప్రొజెక్షన్ కోసం టెస్ట్ గ్రిడ్ జనరేటర్; 100,000 × 100,000 px వరకు ఏ రిజల్యూషన్‌లోనైనా, సిద్ధంగా ఉన్న రిజల్యూషన్‌లు, నమూనాలు (Grid, Spyder, అమరిక), నేపథ్యాలు, ప్రదర్శన ఎంపికలు మరియు ఎరుపు లేదా నీలం గీతలతో.",
+        "**గ్రిడ్‌ను PNG, JPEG, PSD లేదా PDFగా సేవ్ చేయండి:** ప్రతి పిక్సెల్ వరకు ఖచ్చితమైన ఫైళ్లు, ఐచ్ఛికంగా పారదర్శక నేపథ్యంతో (Alpha).",
+        "**జూమ్ మరియు లాగడం:** మౌస్ వీల్‌తో ఒక్క పిక్సెల్ వరకు జూమ్, కుడి బటన్‌తో లాగడం, మళ్లీ మధ్యలో ఉంచడానికి వీక్షణను మధ్యలో ఉంచు లేదా Esc."
+      ],
+      "mr": [
+        "**नवीन Grid टॅब:** LED आणि प्रोजेक्शनसाठी टेस्ट ग्रिड जनरेटर, 100,000 × 100,000 px पर्यंत कोणत्याही रिझोल्यूशनमध्ये, तयार रिझोल्यूशन, पॅटर्न (Grid, Spyder आणि संरेखन), पार्श्वभूमी, प्रदर्शन पर्याय आणि लाल किंवा निळ्या रेषांसह.",
+        "**ग्रिड PNG, JPEG, PSD किंवा PDF म्हणून जतन करा:** प्रत्येक पिक्सेलपर्यंत अचूक फायली, पर्यायी पारदर्शक पार्श्वभूमीसह (Alpha).",
+        "**झूम आणि ओढणे:** माउस व्हीलने एका पिक्सेलपर्यंत झूम, उजव्या बटणाने ओढा, पुन्हा मध्यभागी आणण्यासाठी दृश्य मध्यभागी आणा किंवा Esc."
+      ],
+      "da": [
+        "**Ny Grid-fane:** generator af testgitter til LED og projektion i enhver opløsning op til 100.000 × 100.000 px, med forudindstillede opløsninger, mønstre (Grid, Spyder og Justering), baggrunde, visningsindstillinger og røde eller blå linjer.",
+        "**Gem gitteret som PNG, JPEG, PSD eller PDF:** pixelnøjagtige filer, med valgfri gennemsigtig baggrund (Alpha).",
+        "**Zoom og flyt:** zoom med musehjulet helt ned til en enkelt pixel, træk med højre museknap, Centrer visningen eller Esc for at centrere igen."
+      ],
+      "nb": [
+        "**Ny Grid-fane:** generator for testrutenett til LED og projeksjon i hvilken som helst oppløsning opptil 100 000 × 100 000 px, med forhåndsinnstilte oppløsninger, mønstre (Grid, Spyder og Justering), bakgrunner, visningsvalg og røde eller blå linjer.",
+        "**Lagre rutenettet som PNG, JPEG, PSD eller PDF:** pikselnøyaktige filer, med valgfri gjennomsiktig bakgrunn (Alpha).",
+        "**Zoom og flytt:** zoom med musehjulet helt ned til én piksel, dra med høyre museknapp, Sentrer visningen eller Esc for å sentrere igjen."
+      ],
+      "lt": [
+        "**Naujas skirtukas Grid:** bandomojo tinklelio generatorius LED ir projekcijai, bet kokios raiškos iki 100 000 × 100 000 px, su paruoštomis raiškomis, raštais (Grid, Spyder ir Lygiavimas), fonais, rodymo parinktimis ir raudonomis ar mėlynomis linijomis.",
+        "**Išsaugokite tinklelį PNG, JPEG, PSD arba PDF formatu:** tikslūs iki pikselio failai, pasirinktinai su permatomu fonu (Alpha).",
+        "**Mastelis ir tempimas:** mastelis pelės ratuku iki vieno pikselio, tempimas dešiniuoju mygtuku, Centruoti vaizdą arba Esc, kad vėl sucentruotumėte."
+      ],
+      "et": [
+        "**Uus vahekaart Grid:** testvõrgustiku generaator LED-ekraanidele ja projektsioonile mis tahes eraldusvõimes kuni 100 000 × 100 000 px, valmis eraldusvõimete, mustrite (Grid, Spyder ja Joondus), taustade, kuvavalikute ning punaste või siniste joontega.",
+        "**Salvestage võrgustik PNG-, JPEG-, PSD- või PDF-failina:** piksli täpsusega failid, soovi korral läbipaistva taustaga (Alpha).",
+        "**Suumimine ja liigutamine:** suumige hiireratta abil kuni ühe pikslini, lohistage parema hiirenupuga, uuesti keskele toomiseks Tsentreeri vaade või Esc."
+      ],
+      "sk": [
+        "**Nová karta Grid:** generátor testovacej mriežky pre LED a projekciu v ľubovoľnom rozlíšení až do 100 000 × 100 000 px, s predvoľbami rozlíšenia, vzormi (Grid, Spyder a Zarovnanie), pozadiami, možnosťami zobrazenia a červenými alebo modrými čiarami.",
+        "**Uloženie mriežky do PNG, JPEG, PSD alebo PDF:** súbory presné na pixel, voliteľne s priehľadným pozadím (Alpha).",
+        "**Priblíženie a posun:** priblíženie kolieskom myši až na jediný pixel, posun pravým tlačidlom, Vycentrovať pohľad alebo Esc na opätovné vycentrovanie."
+      ],
+      "bg": [
+        "**Нов раздел Grid:** генератор на тестова мрежа за LED и проекция, във всякаква резолюция до 100 000 × 100 000 px, с готови резолюции, шаблони (Grid, Spyder и Подравняване), фонове, опции за показване и червени или сини линии.",
+        "**Запазване на мрежата като PNG, JPEG, PSD или PDF:** файлове, точни до пиксел, по желание с прозрачен фон (Alpha).",
+        "**Мащабиране и преместване:** мащабиране с колелцето на мишката до един пиксел, преместване с десния бутон, Центриране на изгледа или Esc за повторно центриране."
+      ],
+      "sr": [
+        "**Нова картица Grid:** генератор тест мреже за LED и пројекцију, у било којој резолуцији до 100.000 × 100.000 px, са унапред подешеним резолуцијама, шаблонима (Grid, Spyder и Поравнање), позадинама, опцијама приказа и црвеним или плавим линијама.",
+        "**Сачувајте мрежу као PNG, JPEG, PSD или PDF:** датотеке тачне до пиксела, са опционом провидном позадином (Alpha).",
+        "**Зумирање и померање:** зумирање точкићем миша до једног пиксела, померање десним тастером, Центрирај приказ или Esc за поновно центрирање."
+      ],
+      "hr": [
+        "**Nova kartica Grid:** generator testne mreže za LED i projekciju, u bilo kojoj rezoluciji do 100.000 × 100.000 px, s unaprijed postavljenim rezolucijama, uzorcima (Grid, Spyder i Poravnanje), pozadinama, mogućnostima prikaza te crvenim ili plavim linijama.",
+        "**Spremite mrežu kao PNG, JPEG, PSD ili PDF:** datoteke točne do piksela, s neobaveznom prozirnom pozadinom (Alpha).",
+        "**Zumiranje i pomicanje:** zumiranje kotačićem miša do jednog piksela, pomicanje desnom tipkom, Centriraj prikaz ili Esc za ponovno centriranje."
+      ],
+      "gu": [
+        "**નવું Grid ટેબ:** LED અને પ્રોજેક્શન માટે ટેસ્ટ ગ્રિડ જનરેટર, 100,000 × 100,000 px સુધીના કોઈપણ રિઝોલ્યુશનમાં, તૈયાર રિઝોલ્યુશન, પેટર્ન (Grid, Spyder અને સંરેખણ), પૃષ્ઠભૂમિ, પ્રદર્શન વિકલ્પો અને લાલ અથવા વાદળી રેખાઓ સાથે.",
+        "**ગ્રિડને PNG, JPEG, PSD અથવા PDF તરીકે સાચવો:** દરેક પિક્સેલ સુધી ચોક્કસ ફાઇલો, વૈકલ્પિક પારદર્શક પૃષ્ઠભૂમિ સાથે (Alpha).",
+        "**ઝૂમ અને ખેંચવું:** માઉસ વ્હીલથી એક પિક્સેલ સુધી ઝૂમ, જમણા બટનથી ખેંચો, ફરી કેન્દ્રમાં લાવવા દૃશ્ય કેન્દ્રમાં લાવો અથવા Esc."
+      ],
+      "pa": [
+        "**ਨਵਾਂ Grid ਟੈਬ:** LED ਅਤੇ ਪ੍ਰੋਜੈਕਸ਼ਨ ਲਈ ਟੈਸਟ ਗ੍ਰਿਡ ਜਨਰੇਟਰ, 100,000 × 100,000 px ਤੱਕ ਕਿਸੇ ਵੀ ਰੈਜ਼ੋਲਿਊਸ਼ਨ ਵਿੱਚ, ਤਿਆਰ ਰੈਜ਼ੋਲਿਊਸ਼ਨ, ਪੈਟਰਨ (Grid, Spyder ਅਤੇ ਸੰਰੇਖਣ), ਪਿਛੋਕੜ, ਡਿਸਪਲੇ ਵਿਕਲਪ ਅਤੇ ਲਾਲ ਜਾਂ ਨੀਲੀਆਂ ਲਾਈਨਾਂ ਨਾਲ।",
+        "**ਗ੍ਰਿਡ ਨੂੰ PNG, JPEG, PSD ਜਾਂ PDF ਵਜੋਂ ਸੇਵ ਕਰੋ:** ਹਰ ਪਿਕਸਲ ਤੱਕ ਸਹੀ ਫ਼ਾਈਲਾਂ, ਚੋਣਵੇਂ ਪਾਰਦਰਸ਼ੀ ਪਿਛੋਕੜ ਨਾਲ (Alpha)।",
+        "**ਜ਼ੂਮ ਅਤੇ ਖਿੱਚਣਾ:** ਮਾਊਸ ਵ੍ਹੀਲ ਨਾਲ ਇੱਕ ਪਿਕਸਲ ਤੱਕ ਜ਼ੂਮ, ਸੱਜੇ ਬਟਨ ਨਾਲ ਖਿੱਚੋ, ਮੁੜ ਵਿਚਕਾਰ ਲਿਆਉਣ ਲਈ ਦ੍ਰਿਸ਼ ਕੇਂਦਰ ਵਿੱਚ ਕਰੋ ਜਾਂ Esc।"
+      ],
+      "kn": [
+        "**ಹೊಸ Grid ಟ್ಯಾಬ್:** LED ಮತ್ತು ಪ್ರೊಜೆಕ್ಷನ್‌ಗಾಗಿ ಪರೀಕ್ಷಾ ಗ್ರಿಡ್ ಜನರೇಟರ್, 100,000 × 100,000 px ವರೆಗಿನ ಯಾವುದೇ ರೆಸಲ್ಯೂಶನ್‌ನಲ್ಲಿ, ಸಿದ್ಧ ರೆಸಲ್ಯೂಶನ್‌ಗಳು, ಮಾದರಿಗಳು (Grid, Spyder ಮತ್ತು ಜೋಡಣೆ), ಹಿನ್ನೆಲೆಗಳು, ಪ್ರದರ್ಶನ ಆಯ್ಕೆಗಳು ಮತ್ತು ಕೆಂಪು ಅಥವಾ ನೀಲಿ ಗೆರೆಗಳೊಂದಿಗೆ.",
+        "**ಗ್ರಿಡ್ ಅನ್ನು PNG, JPEG, PSD ಅಥವಾ PDF ಆಗಿ ಉಳಿಸಿ:** ಪ್ರತಿ ಪಿಕ್ಸೆಲ್‌ವರೆಗೂ ನಿಖರವಾದ ಫೈಲ್‌ಗಳು, ಐಚ್ಛಿಕ ಪಾರದರ್ಶಕ ಹಿನ್ನೆಲೆಯೊಂದಿಗೆ (Alpha).",
+        "**ಜೂಮ್ ಮತ್ತು ಎಳೆಯುವುದು:** ಮೌಸ್ ಚಕ್ರದಿಂದ ಒಂದು ಪಿಕ್ಸೆಲ್‌ವರೆಗೆ ಜೂಮ್, ಬಲ ಗುಂಡಿಯಿಂದ ಎಳೆಯಿರಿ, ಮತ್ತೆ ಮಧ್ಯಕ್ಕೆ ತರಲು ನೋಟವನ್ನು ಮಧ್ಯಕ್ಕೆ ತನ್ನಿ ಅಥವಾ Esc."
+      ],
+      "ne": [
+        "**नयाँ Grid ट्याब:** LED र प्रोजेक्सनका लागि परीक्षण ग्रिड जेनेरेटर, 100,000 × 100,000 px सम्मको कुनै पनि रिजोल्युसनमा, तयार रिजोल्युसन, ढाँचा (Grid, Spyder र पङ्क्तिबद्धता), पृष्ठभूमि, प्रदर्शन विकल्प र रातो वा निलो रेखासहित।",
+        "**ग्रिडलाई PNG, JPEG, PSD वा PDF मा सेभ गर्नुहोस्:** प्रत्येक पिक्सेलसम्म सही फाइलहरू, ऐच्छिक पारदर्शी पृष्ठभूमिसहित (Alpha)।",
+        "**जुम र तान्ने:** माउस ह्वीलले एउटै पिक्सेलसम्म जुम, दायाँ बटनले तान्नुहोस्, फेरि बीचमा ल्याउन दृश्य बीचमा ल्याउनुहोस् वा Esc।"
+      ],
+      "km": [
+        "**ផ្ទាំង Grid ថ្មី៖** កម្មវិធីបង្កើតក្រឡាសាកល្បងសម្រាប់ LED និងការបញ្ចាំង គ្រប់គុណភាពបង្ហាញរហូតដល់ 100,000 × 100,000 px មានគុណភាពបង្ហាញស្រាប់ លំនាំ (Grid, Spyder និង ការតម្រឹម) ផ្ទៃខាងក្រោយ ជម្រើសបង្ហាញ និងបន្ទាត់ពណ៌ក្រហម ឬខៀវ។",
+        "**រក្សាទុកក្រឡាជា PNG, JPEG, PSD ឬ PDF៖** ឯកសារត្រឹមត្រូវដល់គ្រប់ភីកសែល ជាមួយផ្ទៃខាងក្រោយថ្លាតាមជម្រើស (Alpha)។",
+        "**ពង្រីក និងអូស៖** ពង្រីកដោយកង់កណ្ដុររហូតដល់ភីកសែលតែមួយ អូសដោយប៊ូតុងស្ដាំ ចុច ដាក់ទិដ្ឋភាពចំកណ្តាល ឬ Esc ដើម្បីដាក់កណ្ដាលវិញ។"
+      ],
+      "kk": [
+        "**Жаңа Grid қойындысы:** LED және проекцияға арналған сынақ торының генераторы, 100 000 × 100 000 px-ке дейінгі кез келген ажыратымдылықта, дайын ажыратымдылықтар, үлгілер (Grid, Spyder және Туралау), фондар, көрсету параметрлері және қызыл не көк сызықтармен.",
+        "**Торды PNG, JPEG, PSD немесе PDF ретінде сақтаңыз:** пиксельге дейін дәл файлдар, қалауыңызша мөлдір фонмен (Alpha).",
+        "**Масштабтау және жылжыту:** тышқан дөңгелегімен бір пиксельге дейін масштабтау, оң жақ батырмамен жылжыту, қайта ортаға келтіру үшін Көріністі ортаға келтіру немесе Esc."
+      ],
+      "uz": [
+        "**Yangi Grid yorlig'i:** LED va proyeksiya uchun sinov to'ri generatori, 100 000 × 100 000 px gacha istalgan o'lchamda, tayyor o'lchamlar, naqshlar (Grid, Spyder va Tekislash), fonlar, ko'rsatish sozlamalari hamda qizil yoki ko'k chiziqlar bilan.",
+        "**To'rni PNG, JPEG, PSD yoki PDF sifatida saqlang:** pikselgacha aniq fayllar, ixtiyoriy shaffof fon bilan (Alpha).",
+        "**Kattalashtirish va surish:** sichqoncha g'ildiragi bilan bitta pikselgacha kattalashtirish, o'ng tugma bilan surish, qayta markazlash uchun Koʻrinishni markazlash yoki Esc."
+      ],
+      "am": [
+        "**አዲስ Grid ትር፦** ለLED እና ለፕሮጀክሽን የሙከራ ፍርግርግ አመንጪ፣ እስከ 100,000 × 100,000 px ድረስ በማንኛውም ጥራት፣ ከተዘጋጁ ጥራቶች፣ ንድፎች (Grid፣ Spyder እና አሰላለፍ)፣ ዳራዎች፣ የማሳያ አማራጮች እና ቀይ ወይም ሰማያዊ መስመሮች ጋር።",
+        "**ፍርግርጉን እንደ PNG፣ JPEG፣ PSD ወይም PDF ያስቀምጡ፦** እስከ እያንዳንዱ ፒክሰል ትክክለኛ ፋይሎች፣ ከአማራጭ ግልጽ ዳራ ጋር (Alpha)።",
+        "**ማጉላት እና መጎተት፦** በመዳፊት መሽከርከሪያ እስከ አንድ ፒክሰል ማጉላት፣ በቀኝ አዝራር መጎተት፣ እንደገና ወደ መሃል ለማምጣት እይታን መሃል አድርግ ወይም Esc።"
+      ],
+      "sl": [
+        "**Nov zavihek Grid:** generator preizkusne mreže za LED in projekcijo v poljubni ločljivosti do 100.000 × 100.000 px, s prednastavljenimi ločljivostmi, vzorci (Grid, Spyder in Poravnava), ozadji, možnostmi prikaza ter rdečimi ali modrimi črtami.",
+        "**Shranite mrežo kot PNG, JPEG, PSD ali PDF:** datoteke, natančne do slikovne pike, z neobveznim prosojnim ozadjem (Alpha).",
+        "**Povečava in premikanje:** povečava s kolescem miške do ene same slikovne pike, premikanje z desnim gumbom, Centriraj pogled ali Esc za ponovno sredinjenje."
+      ]
+    },
     "2.6.0": {
       "en": [
         "**New languages:** 29 more, including Catalan, Czech, Greek, Romanian, Danish, Tamil, Kazakh and Amharic. R-A Grid now has 60 languages, in alphabetical order with a scroll bar in the globe menu.",
@@ -217,7 +514,6 @@
       "uk": [
         "**Нові мови:** іврит, латиська, перська, польська та українська. Тепер R-A Grid доступний 31 мовою."
       ]
-    },
-    "2.5.6": {}
+    }
   }
 }
