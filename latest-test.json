@@ -1,7 +1,7 @@
 {
-  "version": "2.6.2",
-  "windows": "https://github.com/renatorocha0934/RAGridrelease/releases/download/v2.6.2/RAGrid-Windows.zip",
-  "mac": "https://github.com/renatorocha0934/RAGridrelease/releases/download/v2.6.2/RAGrid-Mac.dmg",
+  "version": "2.6.3",
+  "windows": "https://github.com/renatorocha0934/RAGridrelease/releases/download/v2.6.3/RAGrid-Windows.zip",
+  "mac": "https://github.com/renatorocha0934/RAGridrelease/releases/download/v2.6.3/RAGrid-Mac.dmg",
   "notes": "System and performance improvements.",
   "changes": {
     "2.6.0": {
