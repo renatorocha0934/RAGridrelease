@@ -1,9 +1,188 @@
 {
-  "version": "2.8.3",
-  "windows": "https://github.com/renatorocha0934/RAGridrelease/releases/download/v2.8.3/RAGrid-Windows.zip",
-  "mac": "https://github.com/renatorocha0934/RAGridrelease/releases/download/v2.8.3/RAGrid-Mac.dmg",
+  "version": "2.8.4",
+  "windows": "https://github.com/renatorocha0934/RAGridrelease/releases/download/v2.8.4/RAGrid-Windows.zip",
+  "mac": "https://github.com/renatorocha0934/RAGridrelease/releases/download/v2.8.4/RAGrid-Mac.dmg",
   "notes": "System and performance improvements.",
   "changes": {
+    "2.8.4": {
+      "en": [
+        "**Adjustments:** in the Connection tab, the Wiring section buttons are aligned again: Clear and Clear all have the same width, one above the other."
+      ],
+      "pt": [
+        "**Ajustes:** na aba Conexão, os botões da seção Cabeamento voltaram a ficar alinhados: Limpar e Limpar tudo têm a mesma largura, um em cima do outro."
+      ],
+      "es": [
+        "**Ajustes:** en la pestaña Conexión, los botones de la sección Cableado vuelven a estar alineados: Borrar y Borrar todo tienen el mismo ancho, uno encima del otro."
+      ],
+      "fr": [
+        "**Ajustements :** dans l'onglet Connexion, les boutons de la section Câblage sont de nouveau alignés : Effacer et Tout effacer ont la même largeur, l'un au-dessus de l'autre."
+      ],
+      "de": [
+        "**Anpassungen:** im Tab Verbindung sind die Schaltflächen des Bereichs Verkabelung wieder ausgerichtet: Löschen und Alle löschen sind gleich breit und stehen übereinander."
+      ],
+      "it": [
+        "**Ritocchi:** nella scheda Connessione i pulsanti della sezione Cablaggio sono di nuovo allineati: Pulisci e Pulisci tutto hanno la stessa larghezza, uno sopra l'altro."
+      ],
+      "nl": [
+        "**Aanpassingen:** op het tabblad Verbinding staan de knoppen van de sectie Bekabeling weer uitgelijnd: Wissen en Alles wissen zijn even breed en staan onder elkaar."
+      ],
+      "ru": [
+        "**Доработки:** на вкладке «Подключение» кнопки раздела «Разводка» снова выровнены: «Очистить» и «Очистить всё» одной ширины и стоят друг над другом."
+      ],
+      "tr": [
+        "**Ayarlar:** Bağlantı sekmesinde Kablolama bölümünün düğmeleri yeniden hizalandı: Temizle ve Tümünü temizle aynı genişlikte, biri diğerinin üstünde."
+      ],
+      "id": [
+        "**Penyesuaian:** di tab Koneksi, tombol bagian Pengkabelan kembali sejajar: Bersihkan dan Bersihkan semua sama lebarnya, satu di atas yang lain."
+      ],
+      "hu": [
+        "**Finomítások:** a Kapcsolat fülön a Kábelezés rész gombjai ismét egy vonalban vannak: a Törlés és az Összes törlése egyforma széles, egymás alatt."
+      ],
+      "zh-Hans": [
+        "**调整：** 在连接选项卡中，布线部分的按钮重新对齐：清除和全部清除宽度相同，上下排列。"
+      ],
+      "zh-Hant": [
+        "**調整：** 在連接分頁中，佈線區段的按鈕重新對齊：清除和全部清除寬度相同，上下排列。"
+      ],
+      "ja": [
+        "**調整：** 接続タブの配線セクションのボタンが再び揃いました。「クリア」と「すべてクリア」は同じ幅で上下に並びます。"
+      ],
+      "ko": [
+        "**조정:** 연결 탭의 배선 섹션 버튼이 다시 정렬되었습니다. 지우기와 모두 지우기가 같은 너비로 위아래에 놓입니다."
+      ],
+      "ar": [
+        "**تحسينات:** في تبويب الاتصال عادت أزرار قسم التوصيل إلى المحاذاة: مسح ومسح الكل بنفس العرض، أحدهما فوق الآخر."
+      ],
+      "th": [
+        "**ปรับแต่ง:** ในแท็บการเชื่อมต่อ ปุ่มของส่วนการเดินสายกลับมาเรียงตรงกันแล้ว: ล้าง และ ล้างทั้งหมด กว้างเท่ากัน อยู่บนล่างกัน"
+      ],
+      "hi": [
+        "**सुधार:** कनेक्शन टैब में वायरिंग भाग के बटन फिर से एक सीध में हैं: साफ़ करें और सब साफ़ करें की चौड़ाई बराबर है, एक के ऊपर एक।"
+      ],
+      "vi": [
+        "**Điều chỉnh:** trong thẻ Kết nối, các nút của mục Đi dây đã thẳng hàng trở lại: Xóa và Xóa tất cả có cùng độ rộng, nút này trên nút kia."
+      ],
+      "bn": [
+        "**সমন্বয়:** কানেকশন ট্যাবে ওয়্যারিং অংশের বোতামগুলো আবার সারিবদ্ধ: মুছুন ও সব মুছুন একই চওড়া, একটির ওপরে অন্যটি।"
+      ],
+      "ms": [
+        "**Pelarasan:** dalam tab Sambungan, butang bahagian Pendawaian kembali sejajar: Kosongkan dan Kosongkan semua sama lebar, satu di atas yang lain."
+      ],
+      "sv": [
+        "**Justeringar:** på fliken Anslutning är knapparna i avsnittet Kabeldragning justerade igen: Rensa och Rensa allt är lika breda och står ovanför varandra."
+      ],
+      "ur": [
+        "**بہتریاں:** کنکشن ٹیب میں وائرنگ حصے کے بٹن دوبارہ سیدھ میں ہیں: صاف کریں اور سب صاف کریں کی چوڑائی برابر ہے، ایک دوسرے کے اوپر۔"
+      ],
+      "sw": [
+        "**Marekebisho:** katika kichupo cha Muunganisho, vitufe vya sehemu ya Nyaya vimepangwa tena: Safisha na Safisha zote vina upana sawa, kimoja juu ya kingine."
+      ],
+      "gn": [
+        "**Ñemoĩporã:** Joaju rendápe, votõ Cable pehẽ-pegua oĩ jey peteĩ rapére: Embogue ha Embogue opaite ipe peteĩcha, peteĩ ambue ári."
+      ],
+      "he": [
+        "**התאמות:** בלשונית חיבור, כפתורי מקטע החיווט מיושרים שוב: נקה ונקה הכול באותו רוחב, אחד מעל השני."
+      ],
+      "lv": [
+        "**Pielāgojumi:** cilnē Savienojums sadaļas Vadojums pogas atkal ir izlīdzinātas: Notīrīt un Notīrīt visu ir vienā platumā, viena virs otras."
+      ],
+      "fa": [
+        "**تنظیمات:** در زبانه اتصال، دکمه‌های بخش سیم‌کشی دوباره هم‌تراز شدند: پاک کردن و پاک کردن همه هم‌عرض‌اند و یکی بالای دیگری است."
+      ],
+      "pl": [
+        "**Poprawki:** na karcie Połączenie przyciski sekcji Okablowanie są znów wyrównane: Wyczyść i Wyczyść wszystko mają tę samą szerokość, jeden nad drugim."
+      ],
+      "uk": [
+        "**Доопрацювання:** на вкладці «Підключення» кнопки розділу «Розведення» знову вирівняні: «Очистити» і «Очистити все» однакової ширини й стоять одна над одною."
+      ],
+      "ca": [
+        "**Ajustos:** a la pestanya Connexió, els botons de la secció Cablejat tornen a estar alineats: Neteja i Neteja-ho tot tenen la mateixa amplada, un sobre l'altre."
+      ],
+      "cs": [
+        "**Úpravy:** na kartě Připojení jsou tlačítka sekce Kabeláž opět zarovnaná: Vymazat a Vymazat vše mají stejnou šířku, jedno nad druhým."
+      ],
+      "fi": [
+        "**Säädöt:** Yhteys-välilehdellä Kaapelointi-osion painikkeet ovat taas linjassa: Tyhjennä ja Tyhjennä kaikki ovat yhtä leveitä, päällekkäin."
+      ],
+      "el": [
+        "**Ρυθμίσεις:** στην καρτέλα Σύνδεση τα κουμπιά της ενότητας Καλωδίωση είναι ξανά ευθυγραμμισμένα: Καθαρισμός και Καθαρισμός όλων έχουν το ίδιο πλάτος, το ένα πάνω από το άλλο."
+      ],
+      "ha": [
+        "**Gyare-gyare:** a shafin Haɗi, maɓallan sashen Wayoyi sun sake daidaita: Share da Share duka suna da faɗi ɗaya, ɗaya a saman ɗayan."
+      ],
+      "ro": [
+        "**Ajustări:** în fila Conexiune, butoanele secțiunii Cablare sunt din nou aliniate: Golește și Golește tot au aceeași lățime, unul deasupra celuilalt."
+      ],
+      "yo": [
+        "**Àtúnṣe:** nínú táàbù Ìsopọ̀, àwọn bọ́tìnnì abala Wáyà tún wà ní ìlà kan: Mọ́ àti Mọ́ gbogbo rẹ̀ ní fífẹ̀ kan náà, ọ̀kan lórí èkejì."
+      ],
+      "zu": [
+        "**Ukulungiswa:** kuthebhu Yokuxhuma, izinkinobho zesigaba Sezintambo ziphinde zaqondaniswa: Sula no-Sula konke banobubanzi obulinganayo, enye ngaphezu kwenye."
+      ],
+      "fil": [
+        "**Mga ayos:** sa tab na Koneksyon, nakahanay na ulit ang mga button ng seksyong Wiring: pareho ang lapad ng Burahin at Burahin lahat, magkapatong."
+      ],
+      "ta": [
+        "**சீரமைப்புகள்:** இணைப்பு தாவலில் வயரிங் பகுதியின் பொத்தான்கள் மீண்டும் ஒழுங்காக உள்ளன: அழி, அனைத்தையும் அழி இரண்டும் ஒரே அகலம், ஒன்றின் மேல் ஒன்று."
+      ],
+      "te": [
+        "**సర్దుబాట్లు:** కనెక్షన్ ట్యాబ్‌లో వైరింగ్ విభాగం బటన్‌లు మళ్లీ వరుసలో ఉన్నాయి: క్లియర్ చేయి, అన్నీ క్లియర్ చేయి ఒకే వెడల్పు, ఒకదానిపై ఒకటి."
+      ],
+      "mr": [
+        "**सुधारणा:** कनेक्शन टॅबमध्ये वायरिंग विभागातील बटणे पुन्हा एका रेषेत आहेत: साफ करा आणि सर्व साफ करा यांची रुंदी सारखी, एकावर एक."
+      ],
+      "da": [
+        "**Justeringer:** på fanen Forbindelse står knapperne i afsnittet Kabelføring på linje igen: Ryd og Ryd alt er lige brede og står over hinanden."
+      ],
+      "nb": [
+        "**Justeringer:** i fanen Tilkobling står knappene i delen Kabling på linje igjen: Tøm og Tøm alt er like brede og står over hverandre."
+      ],
+      "lt": [
+        "**Patobulinimai:** skirtuke Ryšys skyriaus Laidai mygtukai vėl sulygiuoti: Išvalyti ir Išvalyti viską yra vienodo pločio, vienas virš kito."
+      ],
+      "et": [
+        "**Kohandused:** vahekaardil Ühendus on jaotise Juhtmestik nupud jälle joondatud: Tühjenda ja Tühjenda kõik on sama laiad, üksteise kohal."
+      ],
+      "sk": [
+        "**Úpravy:** na karte Pripojenie sú tlačidlá sekcie Kabeláž opäť zarovnané: Vymazať a Vymazať všetko majú rovnakú šírku, jedno nad druhým."
+      ],
+      "bg": [
+        "**Корекции:** в раздела Връзка бутоните на секцията Окабеляване отново са подравнени: Изчисти и Изчисти всичко са с еднаква ширина, един над друг."
+      ],
+      "sr": [
+        "**Подешавања:** на картици Веза дугмад одељка Каблирање су поново поравната: Обриши и Обриши све имају исту ширину, једно изнад другог."
+      ],
+      "hr": [
+        "**Prilagodbe:** na kartici Veza gumbi odjeljka Kabliranje ponovno su poravnati: Očisti i Očisti sve iste su širine, jedan iznad drugoga."
+      ],
+      "gu": [
+        "**સુધારા:** કનેક્શન ટૅબમાં વાયરિંગ વિભાગનાં બટન ફરી એક લાઇનમાં છે: સાફ કરો અને બધું સાફ કરો સરખી પહોળાઈનાં, એક ઉપર બીજું."
+      ],
+      "pa": [
+        "**ਸੁਧਾਰ:** ਕਨੈਕਸ਼ਨ ਟੈਬ ਵਿੱਚ ਵਾਇਰਿੰਗ ਭਾਗ ਦੇ ਬਟਨ ਫਿਰ ਇੱਕ ਸੇਧ ਵਿੱਚ ਹਨ: ਸਾਫ਼ ਕਰੋ ਅਤੇ ਸਭ ਸਾਫ਼ ਕਰੋ ਦੀ ਚੌੜਾਈ ਇੱਕੋ ਹੈ, ਇੱਕ ਦੇ ਉੱਪਰ ਇੱਕ।"
+      ],
+      "kn": [
+        "**ಸರಿಹೊಂದಿಕೆಗಳು:** ಸಂಪರ್ಕ ಟ್ಯಾಬ್‌ನಲ್ಲಿ ವೈರಿಂಗ್ ವಿಭಾಗದ ಬಟನ್‌ಗಳು ಮತ್ತೆ ಸಾಲಿನಲ್ಲಿವೆ: ತೆರವುಗೊಳಿಸಿ ಮತ್ತು ಎಲ್ಲವನ್ನೂ ತೆರವುಗೊಳಿಸಿ ಒಂದೇ ಅಗಲ, ಒಂದರ ಮೇಲೊಂದು."
+      ],
+      "ne": [
+        "**मिलानहरू:** कनेक्सन ट्याबमा वायरिङ खण्डका बटनहरू फेरि एउटै रेखामा छन्: खाली गर्नुहोस् र सबै खाली गर्नुहोस् उत्तिकै चौडा, एकमाथि अर्को।"
+      ],
+      "km": [
+        "**ការកែសម្រួល៖** នៅក្នុងផ្ទាំងការតភ្ជាប់ ប៊ូតុងនៃផ្នែកខ្សែភ្លើងតម្រង់ជួរវិញហើយ៖ សម្អាត និង សម្អាតទាំងអស់ មានទទឹងស្មើគ្នា មួយនៅលើមួយទៀត។"
+      ],
+      "kk": [
+        "**Түзетулер:** Қосылым қойындысында Сымдау бөлімінің батырмалары қайта тураланды: Тазалау және Барлығын тазалау бірдей енде, бірінің үстінде бірі."
+      ],
+      "uz": [
+        "**Sozlamalar:** Ulanish yorlig'ida Simlash bo'limi tugmalari yana tekislandi: Tozalash va Hammasini tozalash bir xil kenglikda, biri ikkinchisining ustida."
+      ],
+      "am": [
+        "**ማስተካከያዎች፦** በግንኙነት ትር የገመድ ዝርጋታ ክፍል አዝራሮች እንደገና ተሰልፈዋል፦ አጽዳ እና ሁሉንም አጽዳ እኩል ስፋት አላቸው፣ አንዱ በሌላው ላይ።"
+      ],
+      "sl": [
+        "**Prilagoditve:** na zavihku Povezava so gumbi razdelka Ožičenje spet poravnani: Počisti in Počisti vse sta enako široka, eden nad drugim."
+      ]
+    },
     "2.8.3": {
       "en": [
         "**Drawing:** Center view now has ON / OFF: with ON the zoom adjusts by itself when boxes go out of the view. The Device ports window has two columns, IN and OUT, with the cable color of each port.",
@@ -714,362 +893,6 @@
         "**Besedilo in barve:** novi gumbi A+, A- in B v orodni vrstici risbe spremenijo velikost in krepkost izbranega polja ali besedilnega polja. DisplayPort in DVI imata svoje barve.",
         "**Postavitev:** levi pano se prilega zaslonu 1080p brez drsenja; gumba Odstrani presežek in Naloži logotip; Pomoč > Doniraj; Import XML odpre mapo Resolume.",
         "**Popravki:** gumbi plošče Povezava niso več odrezani, na zavihku Grid pa je Alignment zdaj takoj za Transparent."
-      ]
-    },
-    "2.7.2": {
-      "en": [
-        "**Connection:** the cable can go from one screen to the next, even across empty gaps, on the same port until it is full, and the link also shows in the 3D. New Clear all button.",
-        "**Import XML:** File > Import XML... turns each slice of a Resolume Advanced Output preset into an LED screen, with the canvas exactly at the output resolution.",
-        "**Weight:** weight per cabinet (default 8.5 kg), with the weight per panel and the total in the Info box, Status, 3D Stage and PDF report. Choose the weight unit in Settings; cabinet presets keep the weight.",
-        "**Colors and menu:** black and white option in the panel color menu (double-click), and File now has Import 3D... and Import XML... separately."
-      ],
-      "pt": [
-        "**Connection:** o cabo passa de uma placa para a outra, mesmo com vão vazio entre elas, na mesma porta até ela encher, e a ligação aparece também no 3D. Novo botão Clear all.",
-        "**Importar XML:** File > Import XML... transforma cada slice de um preset do Advanced Output do Resolume numa tela de LED, com o canvas exatamente na resolução da saída.",
-        "**Peso:** peso por gabinete (padrão 8,5 kg), com o peso por placa e o total na caixa Info, no Status, no 3D Stage e no relatório PDF. A unidade de peso fica nas Settings; os presets de gabinete guardam o peso.",
-        "**Cores e menu:** opção preto e branco no menu de cores da placa (clique duplo), e o File agora tem Import 3D... e Import XML... separados."
-      ],
-      "es": [
-        "**Connection:** el cable puede pasar de una pantalla a otra, incluso con huecos vacíos, en el mismo puerto hasta llenarlo, y la unión también se ve en el 3D. Nuevo botón Clear all.",
-        "**Importar XML:** File > Import XML... convierte cada slice de un preset de Advanced Output de Resolume en una pantalla LED, con el lienzo exactamente a la resolución de salida.",
-        "**Peso:** peso por gabinete (8,5 kg por defecto), con el peso por panel y el total en la caja Info, Status, 3D Stage y el informe PDF. La unidad de peso se elige en Settings; los presets de gabinete guardan el peso.",
-        "**Colores y menú:** opción blanco y negro en el menú de color del panel (doble clic), y File ahora tiene Import 3D... e Import XML... por separado."
-      ],
-      "fr": [
-        "**Connection :** le câble peut passer d'un écran à l'autre, même à travers des espaces vides, sur le même port jusqu'à ce qu'il soit plein, et la liaison apparaît aussi en 3D. Nouveau bouton Clear all.",
-        "**Importer XML :** File > Import XML... transforme chaque slice d'un preset Advanced Output de Resolume en écran LED, avec le canevas exactement à la résolution de sortie.",
-        "**Poids :** poids par caisson (8,5 kg par défaut), avec le poids par panneau et le total dans la boîte Info, Status, 3D Stage et le rapport PDF. L'unité de poids se choisit dans Settings ; les presets de caisson gardent le poids.",
-        "**Couleurs et menu :** option noir et blanc dans le menu de couleur du panneau (double-clic), et File propose maintenant Import 3D... et Import XML... séparément."
-      ],
-      "de": [
-        "**Connection:** Das Kabel kann von einem Bildschirm zum nächsten gehen, auch über leere Lücken, auf demselben Port, bis er voll ist; die Verbindung erscheint auch im 3D. Neue Schaltfläche Clear all.",
-        "**XML importieren:** File > Import XML... macht aus jedem Slice eines Resolume-Advanced-Output-Presets einen LED-Bildschirm, mit der Leinwand genau in der Ausgangsauflösung.",
-        "**Gewicht:** Gewicht pro Kabinett (Standard 8,5 kg), mit Gewicht pro Panel und Gesamtgewicht in der Info-Box, Status, 3D Stage und im PDF-Bericht. Die Gewichtseinheit wird in den Settings gewählt; Kabinett-Presets speichern das Gewicht.",
-        "**Farben und Menü:** Schwarz-Weiß-Option im Farbmenü des Panels (Doppelklick), und File hat jetzt Import 3D... und Import XML... getrennt."
-      ],
-      "it": [
-        "**Connection:** il cavo può passare da uno schermo all'altro, anche attraverso spazi vuoti, sulla stessa porta finché non è piena, e il collegamento si vede anche in 3D. Nuovo pulsante Clear all.",
-        "**Importa XML:** File > Import XML... trasforma ogni slice di un preset Advanced Output di Resolume in uno schermo LED, con la tela esattamente alla risoluzione di uscita.",
-        "**Peso:** peso per cabinet (predefinito 8,5 kg), con il peso per pannello e il totale nel riquadro Info, Status, 3D Stage e nel report PDF. L'unità di peso si sceglie in Settings; i preset di cabinet conservano il peso.",
-        "**Colori e menu:** opzione bianco e nero nel menu colori del pannello (doppio clic), e File ora ha Import 3D... e Import XML... separati."
-      ],
-      "nl": [
-        "**Connection:** de kabel kan van het ene scherm naar het volgende, ook over lege tussenruimtes, op dezelfde poort tot die vol is, en de verbinding is ook in 3D te zien. Nieuwe knop Clear all.",
-        "**XML importeren:** File > Import XML... maakt van elke slice van een Resolume Advanced Output-preset een LED-scherm, met het canvas precies op de uitvoerresolutie.",
-        "**Gewicht:** gewicht per cabinet (standaard 8,5 kg), met het gewicht per paneel en het totaal in het Info-vak, Status, 3D Stage en het PDF-rapport. De gewichtseenheid kies je in Settings; cabinet-presets bewaren het gewicht.",
-        "**Kleuren en menu:** zwart-witoptie in het kleurmenu van het paneel (dubbelklik), en File heeft nu Import 3D... en Import XML... apart."
-      ],
-      "ru": [
-        "**Connection:** кабель может переходить с одного экрана на другой, даже через пустые промежутки, на том же порту, пока он не заполнится; связь видна и в 3D. Новая кнопка Clear all.",
-        "**Импорт XML:** File > Import XML... превращает каждый слайс пресета Advanced Output Resolume в LED-экран, а холст получает точное разрешение выхода.",
-        "**Вес:** вес кабинета (по умолчанию 8,5 кг), вес одной панели и общий вес в окне Info, Status, 3D Stage и PDF-отчёте. Единица веса выбирается в Settings; пресеты кабинета сохраняют вес.",
-        "**Цвета и меню:** чёрно-белый вариант в меню цвета панели (двойной щелчок), а в File теперь отдельно Import 3D... и Import XML...."
-      ],
-      "tr": [
-        "**Connection:** kablo, boş aralıklar olsa bile bir ekrandan diğerine, dolana kadar aynı portta geçebilir ve bağlantı 3D'de de görünür. Yeni Clear all düğmesi.",
-        "**XML içe aktar:** File > Import XML..., bir Resolume Advanced Output ön ayarındaki her slice'ı bir LED ekrana dönüştürür; tuval tam çıkış çözünürlüğünde olur.",
-        "**Ağırlık:** kabin başına ağırlık (varsayılan 8,5 kg); panel başına ağırlık ve toplam Info kutusu, Status, 3D Stage ve PDF raporunda. Ağırlık birimi Settings'ten seçilir; kabin ön ayarları ağırlığı saklar.",
-        "**Renkler ve menü:** panel renk menüsünde siyah-beyaz seçeneği (çift tıklama); File artık Import 3D... ve Import XML... seçeneklerini ayrı sunar."
-      ],
-      "id": [
-        "**Connection:** kabel bisa berpindah dari satu layar ke layar berikutnya, bahkan melewati celah kosong, pada port yang sama sampai penuh, dan sambungannya juga terlihat di 3D. Tombol baru Clear all.",
-        "**Impor XML:** File > Import XML... mengubah setiap slice dari preset Advanced Output Resolume menjadi layar LED, dengan kanvas tepat pada resolusi output.",
-        "**Berat:** berat per kabinet (bawaan 8,5 kg), dengan berat per panel dan total di kotak Info, Status, 3D Stage, dan laporan PDF. Satuan berat dipilih di Settings; preset kabinet menyimpan beratnya.",
-        "**Warna dan menu:** opsi hitam putih di menu warna panel (klik ganda), dan File kini punya Import 3D... dan Import XML... secara terpisah."
-      ],
-      "hu": [
-        "**Connection:** a kábel átmehet egyik képernyőről a másikra, üres réseken át is, ugyanazon a porton, amíg az meg nem telik, és a kapcsolat a 3D-ben is látszik. Új Clear all gomb.",
-        "**XML importálása:** a File > Import XML... egy Resolume Advanced Output előbeállítás minden slice-ából LED-képernyőt készít, a vászon pontosan a kimeneti felbontású lesz.",
-        "**Tömeg:** kabinetenkénti tömeg (alapértelmezés 8,5 kg), a panelenkénti és a teljes tömeg az Info dobozban, a Status, a 3D Stage oldalon és a PDF-jelentésben. A mértékegység a Settings-ben választható; a kabinet-előbeállítások megőrzik a tömeget.",
-        "**Színek és menü:** fekete-fehér lehetőség a panel színmenüjében (dupla kattintás), a File menüben pedig külön Import 3D... és Import XML... van."
-      ],
-      "zh-Hans": [
-        "**Connection：**线缆可以从一块屏幕走到下一块，即使中间有空隙，也会在同一端口上直到端口满载，连接在 3D 中也会显示。新增 Clear all 按钮。",
-        "**导入 XML：**File > Import XML... 会把 Resolume Advanced Output 预设中的每个 slice 变成一块 LED 屏幕，画布正好等于输出分辨率。",
-        "**重量：**每个箱体的重量（默认 8.5 kg），在 Info 框、Status、3D Stage 和 PDF 报告中显示每块面板重量和总重量。重量单位在 Settings 中选择；箱体预设会保存重量。",
-        "**颜色和菜单：**面板颜色菜单（双击）中新增黑白选项，File 菜单现在分别提供 Import 3D... 和 Import XML...。"
-      ],
-      "zh-Hant": [
-        "**Connection：**線材可以從一塊螢幕走到下一塊，即使中間有空隙，也會在同一連接埠上直到滿載，連接在 3D 中也會顯示。新增 Clear all 按鈕。",
-        "**匯入 XML：**File > Import XML... 會把 Resolume Advanced Output 預設中的每個 slice 變成一塊 LED 螢幕，畫布正好等於輸出解析度。",
-        "**重量：**每個箱體的重量（預設 8.5 kg），在 Info 方塊、Status、3D Stage 和 PDF 報告中顯示每塊面板重量和總重量。重量單位在 Settings 中選擇；箱體預設會保存重量。",
-        "**顏色和選單：**面板顏色選單（雙擊）中新增黑白選項，File 選單現在分別提供 Import 3D... 和 Import XML...。"
-      ],
-      "ja": [
-        "**Connection：**ケーブルは空きスペースをはさんでも、ポートがいっぱいになるまで同じポートのまま次のスクリーンへ進めます。接続は 3D にも表示されます。新しい Clear all ボタン。",
-        "**XML の読み込み：**File > Import XML... で Resolume の Advanced Output プリセットの各 slice が LED スクリーンになり、キャンバスは出力解像度ちょうどになります。",
-        "**重量：**キャビネットごとの重量（既定 8.5 kg）。パネルあたりの重量と合計を Info ボックス、Status、3D Stage、PDF レポートに表示。重量の単位は Settings で選択でき、キャビネットのプリセットも重量を保存します。",
-        "**色とメニュー：**パネルの色メニュー（ダブルクリック）に白黒を追加し、File に Import 3D... と Import XML... を別々に用意しました。"
-      ],
-      "ko": [
-        "**Connection:** 케이블이 빈 공간이 있어도 한 화면에서 다음 화면으로 이어지며, 포트가 가득 찰 때까지 같은 포트를 사용하고 연결은 3D에도 표시됩니다. 새 Clear all 버튼.",
-        "**XML 가져오기:** File > Import XML...은 Resolume Advanced Output 프리셋의 각 slice를 LED 화면으로 만들고, 캔버스는 출력 해상도와 정확히 같아집니다.",
-        "**무게:** 캐비닛당 무게(기본 8.5 kg)와 패널당 무게, 총 무게를 Info 상자, Status, 3D Stage, PDF 보고서에 표시합니다. 무게 단위는 Settings에서 선택하며, 캐비닛 프리셋도 무게를 저장합니다.",
-        "**색상과 메뉴:** 패널 색상 메뉴(더블 클릭)에 흑백 옵션이 추가되었고, File에 Import 3D...와 Import XML...이 따로 있습니다."
-      ],
-      "ar": [
-        "**Connection:** يمكن للكابل الانتقال من شاشة إلى أخرى، حتى عبر الفراغات، على المنفذ نفسه حتى يمتلئ، ويظهر الاتصال أيضًا في العرض ثلاثي الأبعاد. زر جديد Clear all.",
-        "**استيراد XML:** يحوّل File > Import XML... كل شريحة من إعداد Advanced Output في Resolume إلى شاشة LED، مع لوحة بدقة الإخراج تمامًا.",
-        "**الوزن:** وزن لكل خزانة (الافتراضي 8.5 كغ)، مع الوزن لكل لوحة والإجمالي في مربع Info وStatus و3D Stage وتقرير PDF. تُختار وحدة الوزن في Settings، وتحفظ إعدادات الخزانة المسبقة الوزن.",
-        "**الألوان والقائمة:** خيار أبيض وأسود في قائمة ألوان اللوحة (نقر مزدوج)، وأصبح في File خياران منفصلان Import 3D... وImport XML...."
-      ],
-      "th": [
-        "**Connection:** สายสามารถต่อจากหน้าจอหนึ่งไปอีกหน้าจอหนึ่งได้ แม้มีช่องว่าง โดยใช้พอร์ตเดิมจนเต็ม และการเชื่อมต่อแสดงใน 3D ด้วย ปุ่มใหม่ Clear all",
-        "**นำเข้า XML:** File > Import XML... เปลี่ยนแต่ละ slice ของพรีเซ็ต Advanced Output ของ Resolume เป็นจอ LED และแคนวาสมีขนาดเท่าความละเอียดเอาต์พุตพอดี",
-        "**น้ำหนัก:** น้ำหนักต่อตู้ (ค่าเริ่มต้น 8.5 kg) พร้อมน้ำหนักต่อแผงและน้ำหนักรวมในกล่อง Info, Status, 3D Stage และรายงาน PDF เลือกหน่วยน้ำหนักใน Settings และพรีเซ็ตตู้จะเก็บน้ำหนักไว้",
-        "**สีและเมนู:** ตัวเลือกขาวดำในเมนูสีของแผง (ดับเบิลคลิก) และเมนู File มี Import 3D... กับ Import XML... แยกกันแล้ว"
-      ],
-      "hi": [
-        "**Connection:** केबल एक स्क्रीन से दूसरी स्क्रीन तक जा सकती है, बीच में खाली जगह हो तब भी, पोर्ट भरने तक उसी पोर्ट पर, और जुड़ाव 3D में भी दिखता है। नया Clear all बटन।",
-        "**XML इंपोर्ट:** File > Import XML... Resolume Advanced Output प्रीसेट के हर slice को LED स्क्रीन बनाता है, और कैनवास ठीक आउटपुट रिज़ॉल्यूशन पर होता है।",
-        "**वज़न:** प्रति कैबिनेट वज़न (डिफ़ॉल्ट 8.5 kg), Info बॉक्स, Status, 3D Stage और PDF रिपोर्ट में प्रति पैनल वज़न और कुल वज़न। वज़न की इकाई Settings में चुनें; कैबिनेट प्रीसेट वज़न भी रखते हैं।",
-        "**रंग और मेन्यू:** पैनल के रंग मेन्यू (डबल-क्लिक) में ब्लैक एंड व्हाइट विकल्प, और File में अब Import 3D... और Import XML... अलग-अलग हैं।"
-      ],
-      "vi": [
-        "**Connection:** cáp có thể đi từ màn hình này sang màn hình khác, kể cả qua khoảng trống, trên cùng một cổng cho đến khi đầy, và đường nối cũng hiện trong 3D. Nút mới Clear all.",
-        "**Nhập XML:** File > Import XML... biến mỗi slice của preset Advanced Output trong Resolume thành một màn hình LED, với canvas đúng bằng độ phân giải đầu ra.",
-        "**Trọng lượng:** trọng lượng mỗi cabinet (mặc định 8,5 kg), cùng trọng lượng mỗi tấm và tổng trong hộp Info, Status, 3D Stage và báo cáo PDF. Chọn đơn vị trọng lượng trong Settings; preset cabinet giữ cả trọng lượng.",
-        "**Màu và menu:** tùy chọn đen trắng trong menu màu của tấm (nhấp đúp), và File giờ có Import 3D... và Import XML... riêng."
-      ],
-      "bn": [
-        "**Connection:** কেবল এক স্ক্রিন থেকে পরের স্ক্রিনে যেতে পারে, ফাঁকা জায়গা থাকলেও, পোর্ট ভরা পর্যন্ত একই পোর্টে, আর সংযোগ 3D-তেও দেখা যায়। নতুন Clear all বোতাম।",
-        "**XML ইমপোর্ট:** File > Import XML... Resolume Advanced Output প্রিসেটের প্রতিটি slice-কে একটি LED স্ক্রিনে পরিণত করে, ক্যানভাস ঠিক আউটপুট রেজোলিউশনে থাকে।",
-        "**ওজন:** প্রতি ক্যাবিনেটের ওজন (ডিফল্ট 8.5 kg), Info বক্স, Status, 3D Stage ও PDF রিপোর্টে প্রতি প্যানেলের ওজন ও মোট ওজন। ওজনের একক Settings-এ বেছে নিন; ক্যাবিনেট প্রিসেট ওজনও রাখে।",
-        "**রং ও মেনু:** প্যানেলের রঙের মেনুতে (ডাবল-ক্লিক) সাদা-কালো বিকল্প, আর File-এ এখন Import 3D... ও Import XML... আলাদা।"
-      ],
-      "ms": [
-        "**Connection:** kabel boleh pergi dari satu skrin ke skrin seterusnya, walaupun melalui ruang kosong, pada port yang sama sehingga penuh, dan sambungan juga kelihatan dalam 3D. Butang baharu Clear all.",
-        "**Import XML:** File > Import XML... menjadikan setiap slice pratetap Advanced Output Resolume sebuah skrin LED, dengan kanvas tepat pada resolusi output.",
-        "**Berat:** berat setiap kabinet (lalai 8.5 kg), dengan berat setiap panel dan jumlah dalam kotak Info, Status, 3D Stage dan laporan PDF. Pilih unit berat dalam Settings; pratetap kabinet menyimpan berat.",
-        "**Warna dan menu:** pilihan hitam putih dalam menu warna panel (klik dua kali), dan File kini ada Import 3D... dan Import XML... secara berasingan."
-      ],
-      "sv": [
-        "**Connection:** kabeln kan gå från en skärm till nästa, även över tomma mellanrum, på samma port tills den är full, och kopplingen syns också i 3D. Ny knapp Clear all.",
-        "**Importera XML:** File > Import XML... gör varje slice i en Resolume Advanced Output-förinställning till en LED-skärm, med duken exakt i utgångsupplösningen.",
-        "**Vikt:** vikt per kabinett (standard 8,5 kg), med vikt per panel och total i Info-rutan, Status, 3D Stage och PDF-rapporten. Viktenheten väljs i Settings; kabinettförinställningar sparar vikten.",
-        "**Färger och meny:** svartvitt alternativ i panelens färgmeny (dubbelklick), och File har nu Import 3D... och Import XML... separat."
-      ],
-      "ur": [
-        "**Connection:** کیبل ایک اسکرین سے اگلی تک جا سکتی ہے، خالی جگہ کے باوجود، پورٹ بھرنے تک اسی پورٹ پر، اور کنکشن 3D میں بھی دکھتا ہے۔ نیا Clear all بٹن۔",
-        "**XML امپورٹ:** File > Import XML... ‏Resolume Advanced Output پری سیٹ کے ہر slice کو LED اسکرین بناتا ہے، اور کینوس بالکل آؤٹ پٹ ریزولیوشن پر ہوتا ہے۔",
-        "**وزن:** فی کیبنٹ وزن (ڈیفالٹ 8.5 kg)، Info باکس، Status، 3D Stage اور PDF رپورٹ میں فی پینل وزن اور کل وزن۔ وزن کی اکائی Settings میں منتخب کریں؛ کیبنٹ پری سیٹ وزن بھی رکھتے ہیں۔",
-        "**رنگ اور مینو:** پینل کے رنگ مینو (ڈبل کلک) میں بلیک اینڈ وائٹ آپشن، اور File میں اب Import 3D... اور Import XML... الگ الگ ہیں۔"
-      ],
-      "sw": [
-        "**Connection:** kebo inaweza kutoka skrini moja hadi nyingine, hata kupitia nafasi tupu, kwenye mlango uleule hadi ujae, na muunganisho unaonekana pia kwenye 3D. Kitufe kipya Clear all.",
-        "**Leta XML:** File > Import XML... hugeuza kila slice ya mpangilio wa Advanced Output wa Resolume kuwa skrini ya LED, na turubai inakuwa sawasawa na azimio la matokeo.",
-        "**Uzito:** uzito wa kila kabati (chaguo-msingi 8.5 kg), pamoja na uzito wa kila paneli na jumla kwenye kisanduku cha Info, Status, 3D Stage na ripoti ya PDF. Chagua kipimo cha uzito katika Settings; mipangilio ya kabati huhifadhi uzito.",
-        "**Rangi na menyu:** chaguo la nyeusi na nyeupe kwenye menyu ya rangi ya paneli (bofya mara mbili), na File sasa ina Import 3D... na Import XML... tofauti."
-      ],
-      "gn": [
-        "**Connection:** cable ikatu ohasa peteĩ pantalla-gui ambuépe, jepe oĩ pa'ũ nandi, peteĩchaite puerto-pe henyhẽ peve, ha ojoaju ojehecha avei 3D-pe. Botón pyahu Clear all.",
-        "**Eguerú XML:** File > Import XML... omoambue opaite slice Resolume Advanced Output preset-pegua LED pantallápe, ha lienzo oguereko salida resolución tee.",
-        "**Pohýi:** gabinete pohýi (ojeporu'ypýva 8,5 kg), panel pohýi ha opaitéva Info ryru, Status, 3D Stage ha PDF marandúpe. Pohýi unidad eiporavo Settings-pe; gabinete preset oñongatu avei pohýi.",
-        "**Sa'y ha menú:** morotĩ ha hũ opción panel sa'y menúpe (mokõi jekutu), ha File oguereko ko'ágã Import 3D... ha Import XML... ojeiko'ýva."
-      ],
-      "he": [
-        "**Connection:** הכבל יכול לעבור ממסך אחד לבא, גם דרך רווחים ריקים, באותה יציאה עד שהיא מתמלאת, והחיבור מוצג גם בתלת־ממד. כפתור חדש Clear all.",
-        "**ייבוא XML:** ‏File > Import XML... הופך כל slice בהגדרה של Advanced Output ב-Resolume למסך LED, והקנבס מקבל בדיוק את רזולוציית הפלט.",
-        "**משקל:** משקל לכל קבינט (ברירת מחדל 8.5 ק״ג), עם המשקל לכל פאנל והמשקל הכולל בתיבת Info, ב-Status, ב-3D Stage ובדוח ה-PDF. יחידת המשקל נבחרת ב-Settings; הגדרות הקבינט שומרות גם את המשקל.",
-        "**צבעים ותפריט:** אפשרות שחור-לבן בתפריט הצבעים של הפאנל (לחיצה כפולה), וב-File יש עכשיו Import 3D... ו-Import XML... בנפרד."
-      ],
-      "lv": [
-        "**Connection:** kabelis var iet no viena ekrāna uz nākamo, arī pāri tukšām spraugām, pa to pašu portu, līdz tas ir pilns, un savienojums redzams arī 3D. Jauna poga Clear all.",
-        "**Importēt XML:** File > Import XML... katru Resolume Advanced Output sagataves slice pārvērš LED ekrānā, un audekls ir tieši izejas izšķirtspējā.",
-        "**Svars:** kabineta svars (noklusējumā 8,5 kg), ar paneļa svaru un kopējo svaru Info lodziņā, Status, 3D Stage un PDF pārskatā. Svara mērvienību izvēlas Settings; kabineta sagataves saglabā svaru.",
-        "**Krāsas un izvēlne:** melnbalta iespēja paneļa krāsu izvēlnē (dubultklikšķis), un File tagad ir atsevišķi Import 3D... un Import XML...."
-      ],
-      "fa": [
-        "**Connection:** کابل می‌تواند از یک صفحه به صفحه بعد برود، حتی از روی فاصله‌های خالی، روی همان پورت تا وقتی پر شود، و اتصال در سه‌بعدی هم دیده می‌شود. دکمه جدید Clear all.",
-        "**وارد کردن XML:** ‏File > Import XML... هر slice از پیش‌تنظیم Advanced Output در Resolume را به یک صفحه LED تبدیل می‌کند و بوم دقیقاً به رزولوشن خروجی می‌رسد.",
-        "**وزن:** وزن هر کابینت (پیش‌فرض 8.5 کیلوگرم)، همراه با وزن هر پنل و وزن کل در کادر Info، ‏Status، ‏3D Stage و گزارش PDF. واحد وزن در Settings انتخاب می‌شود؛ پیش‌تنظیم‌های کابینت وزن را هم نگه می‌دارند.",
-        "**رنگ‌ها و منو:** گزینه سیاه‌وسفید در منوی رنگ پنل (دوبار کلیک)، و File اکنون Import 3D... و Import XML... را جداگانه دارد."
-      ],
-      "pl": [
-        "**Connection:** kabel może przechodzić z jednego ekranu na następny, także przez puste przerwy, na tym samym porcie, aż się zapełni, a połączenie widać też w 3D. Nowy przycisk Clear all.",
-        "**Import XML:** File > Import XML... zamienia każdy slice z presetu Advanced Output programu Resolume w ekran LED, a płótno ma dokładnie rozdzielczość wyjścia.",
-        "**Waga:** waga kabinetu (domyślnie 8,5 kg), z wagą na panel i wagą całkowitą w oknie Info, Status, 3D Stage i raporcie PDF. Jednostkę wagi wybiera się w Settings; presety kabinetu zapamiętują wagę.",
-        "**Kolory i menu:** opcja czarno-biała w menu kolorów panelu (dwuklik), a File ma teraz osobno Import 3D... i Import XML...."
-      ],
-      "uk": [
-        "**Connection:** кабель може переходити з одного екрана на наступний, навіть через порожні проміжки, на тому самому порту, доки він не заповниться; з'єднання видно і в 3D. Нова кнопка Clear all.",
-        "**Імпорт XML:** File > Import XML... перетворює кожен слайс пресета Advanced Output Resolume на LED-екран, а полотно має точну роздільну здатність виходу.",
-        "**Вага:** вага кабінету (за замовчуванням 8,5 кг), вага однієї панелі та загальна вага у вікні Info, Status, 3D Stage і PDF-звіті. Одиницю ваги вибирають у Settings; пресети кабінету зберігають вагу.",
-        "**Кольори й меню:** чорно-білий варіант у меню кольорів панелі (подвійне клацання), а File тепер має окремо Import 3D... та Import XML...."
-      ],
-      "ca": [
-        "**Connection:** el cable pot passar d'una pantalla a la següent, fins i tot per buits, pel mateix port fins que és ple, i l'enllaç també es veu en 3D. Nou botó Clear all.",
-        "**Importar XML:** File > Import XML... converteix cada slice d'un preset d'Advanced Output de Resolume en una pantalla LED, amb el llenç exactament a la resolució de sortida.",
-        "**Pes:** pes per mòdul (8,5 kg per defecte), amb el pes per panell i el total al quadre Info, Status, 3D Stage i l'informe PDF. La unitat de pes es tria a Settings; els presets de mòdul guarden el pes.",
-        "**Colors i menú:** opció blanc i negre al menú de color del panell (doble clic), i File ara té Import 3D... i Import XML... per separat."
-      ],
-      "cs": [
-        "**Connection:** kabel může přecházet z jedné obrazovky na další, i přes prázdné mezery, na stejném portu, dokud se nezaplní, a propojení je vidět i ve 3D. Nové tlačítko Clear all.",
-        "**Import XML:** File > Import XML... udělá z každého slice předvolby Advanced Output z Resolume LED obrazovku a plátno má přesně výstupní rozlišení.",
-        "**Hmotnost:** hmotnost kabinetu (výchozí 8,5 kg), hmotnost na panel a celková hmotnost v okně Info, Status, 3D Stage a PDF zprávě. Jednotka hmotnosti se volí v Settings; předvolby kabinetu ukládají i hmotnost.",
-        "**Barvy a menu:** černobílá možnost v nabídce barev panelu (dvojklik) a File má nyní zvlášť Import 3D... a Import XML...."
-      ],
-      "fi": [
-        "**Connection:** kaapeli voi kulkea näytöltä toiselle, myös tyhjien välien yli, samassa portissa kunnes se on täynnä, ja yhteys näkyy myös 3D:ssä. Uusi Clear all -painike.",
-        "**XML-tuonti:** File > Import XML... tekee jokaisesta Resolumen Advanced Output -esiasetuksen slicestä LED-näytön, ja kangas on tarkalleen ulostulon resoluutiossa.",
-        "**Paino:** kaapin paino (oletus 8,5 kg), paneelikohtainen ja kokonaispaino Info-ruudussa, Statuksessa, 3D Stagessa ja PDF-raportissa. Painoyksikkö valitaan Settingsissä; kaappien esiasetukset tallentavat painon.",
-        "**Värit ja valikko:** mustavalkoinen vaihtoehto paneelin värivalikossa (kaksoisnapsautus), ja Filessa on nyt erikseen Import 3D... ja Import XML...."
-      ],
-      "el": [
-        "**Connection:** το καλώδιο μπορεί να περνά από μια οθόνη στην επόμενη, ακόμη και πάνω από κενά, στην ίδια θύρα μέχρι να γεμίσει, και η σύνδεση φαίνεται και στο 3D. Νέο κουμπί Clear all.",
-        "**Εισαγωγή XML:** το File > Import XML... μετατρέπει κάθε slice μιας προεπιλογής Advanced Output του Resolume σε οθόνη LED, με τον καμβά ακριβώς στην ανάλυση εξόδου.",
-        "**Βάρος:** βάρος ανά καμπινέ (προεπιλογή 8,5 kg), με βάρος ανά πάνελ και συνολικό βάρος στο πλαίσιο Info, στο Status, στο 3D Stage και στην αναφορά PDF. Η μονάδα βάρους επιλέγεται στο Settings· οι προεπιλογές καμπινέ κρατούν και το βάρος.",
-        "**Χρώματα και μενού:** επιλογή ασπρόμαυρο στο μενού χρωμάτων του πάνελ (διπλό κλικ), και το File έχει πλέον χωριστά Import 3D... και Import XML...."
-      ],
-      "ha": [
-        "**Connection:** kebul na iya tafiya daga wannan allo zuwa na gaba, ko da akwai gibi, a tashar guda har ta cika, kuma haɗin yana bayyana a 3D ma. Sabon maɓalli Clear all.",
-        "**Shigo da XML:** File > Import XML... yana mayar da kowane slice na saitin Advanced Output na Resolume zuwa allon LED, kuma zane yana daidai da ƙudurin fitarwa.",
-        "**Nauyi:** nauyin kowane kabad (tsoho 8.5 kg), tare da nauyin kowane fanel da jimilla a akwatin Info, Status, 3D Stage da rahoton PDF. Zaɓi ma'aunin nauyi a Settings; saitin kabad yana adana nauyi.",
-        "**Launuka da menu:** zaɓin baƙi da fari a menu na launin fanel (danna sau biyu), kuma File yanzu yana da Import 3D... da Import XML... daban."
-      ],
-      "ro": [
-        "**Connection:** cablul poate trece de la un ecran la următorul, chiar și peste goluri, pe același port până se umple, iar legătura se vede și în 3D. Buton nou Clear all.",
-        "**Import XML:** File > Import XML... transformă fiecare slice dintr-un preset Advanced Output din Resolume într-un ecran LED, cu pânza exact la rezoluția de ieșire.",
-        "**Greutate:** greutate pe cabinet (implicit 8,5 kg), cu greutatea pe panou și totalul în caseta Info, Status, 3D Stage și raportul PDF. Unitatea de greutate se alege în Settings; preseturile de cabinet păstrează greutatea.",
-        "**Culori și meniu:** opțiune alb-negru în meniul de culori al panoului (dublu clic), iar File are acum separat Import 3D... și Import XML...."
-      ],
-      "yo": [
-        "**Connection:** kébù lè lọ láti ojú-ìbojú kan sí èkejì, kódà láàárín àlàfo òfo, lórí ibudo kan náà títí yóò fi kún, àsopọ̀ sì ń hàn nínú 3D pẹ̀lú. Bọ́tìnnì tuntun Clear all.",
-        "**Gbé XML wọlé:** File > Import XML... ń sọ slice kọ̀ọ̀kan ti ètò Advanced Output Resolume di ojú-ìbojú LED, kánfásì sì bá ìpinnu ìjáde mu gẹ́lẹ́.",
-        "**Ìwúwo:** ìwúwo kábínẹ́ẹ̀tì kọ̀ọ̀kan (àyípadà 8.5 kg), pẹ̀lú ìwúwo pánẹ́ẹ̀lì kọ̀ọ̀kan àti àpapọ̀ nínú àpótí Info, Status, 3D Stage àti ìròyìn PDF. Yan ẹ̀yọ ìwọ̀n nínú Settings; àwọn ètò kábínẹ́ẹ̀tì ń pa ìwúwo mọ́.",
-        "**Àwọ̀ àti àkójọ:** àṣàyàn dúdú àti funfun nínú àkójọ àwọ̀ pánẹ́ẹ̀lì (tẹ lẹ́ẹ̀mejì), File sì ní Import 3D... àti Import XML... lọ́tọ̀ báyìí."
-      ],
-      "zu": [
-        "**Connection:** ikhebula lingadlula esikrinini esisodwa liye kwesilandelayo, ngisho nasezikhaleni, ngembobo efanayo ize igcwale, futhi ukuxhumana kubonakala naku-3D. Inkinobho entsha Clear all.",
-        "**Ngenisa i-XML:** i-File > Import XML... iguqula i-slice ngayinye yesethingi se-Advanced Output se-Resolume ibe yisikrini se-LED, nekhanvasi ilingana ncamashi nokucaca kokuphumayo.",
-        "**Isisindo:** isisindo sekhabethe ngalinye (okuzenzakalelayo 8.5 kg), nesisindo sephaneli ngalinye nesisindo esiphelele ebhokisini le-Info, ku-Status, ku-3D Stage nasembikweni we-PDF. Khetha iyunithi yesisindo ku-Settings; amasethingi ekhabethe agcina isisindo.",
-        "**Imibala nemenyu:** inketho emnyama nomhlophe kumenyu yemibala yephaneli (chofoza kabili), futhi i-File manje ine-Import 3D... ne-Import XML... ngokwehlukana."
-      ],
-      "fil": [
-        "**Connection:** puwedeng tumawid ang cable mula sa isang screen papunta sa susunod, kahit may bakanteng puwang, sa parehong port hanggang mapuno, at makikita rin ang dugtong sa 3D. Bagong button na Clear all.",
-        "**Mag-import ng XML:** ginagawang LED screen ng File > Import XML... ang bawat slice ng preset ng Advanced Output ng Resolume, at eksaktong kasinlaki ng output resolution ang canvas.",
-        "**Timbang:** timbang bawat cabinet (default 8.5 kg), kasama ang timbang bawat panel at kabuuan sa Info box, Status, 3D Stage at PDF report. Piliin ang unit ng timbang sa Settings; itinatabi rin ng mga cabinet preset ang timbang.",
-        "**Kulay at menu:** opsiyong itim at puti sa menu ng kulay ng panel (double-click), at may hiwalay na Import 3D... at Import XML... na ngayon ang File."
-      ],
-      "ta": [
-        "**Connection:** கேபிள் ஒரு திரையிலிருந்து அடுத்த திரைக்குச் செல்லலாம், இடையில் வெற்று இடம் இருந்தாலும், போர்ட் நிரம்பும் வரை அதே போர்ட்டில்; இணைப்பு 3D-யிலும் தெரியும். புதிய Clear all பொத்தான்.",
-        "**XML இறக்குமதி:** File > Import XML... Resolume Advanced Output முன்னமைவின் ஒவ்வொரு slice-ஐயும் ஒரு LED திரையாக்கும்; கேன்வாஸ் சரியாக வெளியீட்டுத் தெளிவுத்திறனில் இருக்கும்.",
-        "**எடை:** ஒவ்வொரு கேபினட்டின் எடை (இயல்பு 8.5 kg), ஒரு பேனலுக்கான எடையும் மொத்த எடையும் Info பெட்டி, Status, 3D Stage மற்றும் PDF அறிக்கையில். எடை அலகை Settings-இல் தேர்ந்தெடுக்கவும்; கேபினட் முன்னமைவுகளும் எடையைச் சேமிக்கும்.",
-        "**நிறங்களும் மெனுவும்:** பேனல் நிற மெனுவில் (இருமுறை கிளிக்) கருப்பு-வெள்ளை விருப்பம்; File-இல் இப்போது Import 3D... மற்றும் Import XML... தனித்தனியாக உள்ளன."
-      ],
-      "te": [
-        "**Connection:** కేబుల్ ఒక స్క్రీన్ నుండి తదుపరి స్క్రీన్‌కు వెళ్లగలదు, మధ్యలో ఖాళీ ఉన్నా, పోర్ట్ నిండే వరకు అదే పోర్ట్‌లో; కనెక్షన్ 3D‌లోనూ కనిపిస్తుంది. కొత్త Clear all బటన్.",
-        "**XML దిగుమతి:** File > Import XML... Resolume Advanced Output ప్రీసెట్‌లోని ప్రతి slice‌ను LED స్క్రీన్‌గా మారుస్తుంది; కాన్వాస్ సరిగ్గా అవుట్‌పుట్ రిజల్యూషన్‌లో ఉంటుంది.",
-        "**బరువు:** ఒక్కో క్యాబినెట్ బరువు (డిఫాల్ట్ 8.5 kg), ఒక్కో ప్యానెల్ బరువు మరియు మొత్తం బరువు Info బాక్స్, Status, 3D Stage మరియు PDF నివేదికలో. బరువు యూనిట్‌ను Settings‌లో ఎంచుకోండి; క్యాబినెట్ ప్రీసెట్‌లు బరువును కూడా ఉంచుతాయి.",
-        "**రంగులు మరియు మెనూ:** ప్యానెల్ రంగు మెనూలో (డబుల్ క్లిక్) నలుపు-తెలుపు ఎంపిక, File‌లో ఇప్పుడు Import 3D... మరియు Import XML... వేర్వేరుగా ఉన్నాయి."
-      ],
-      "mr": [
-        "**Connection:** केबल एका स्क्रीनवरून पुढच्या स्क्रीनवर जाऊ शकते, मध्ये रिकामी जागा असली तरी, पोर्ट भरेपर्यंत त्याच पोर्टवर; जोडणी 3D मध्येही दिसते. नवे Clear all बटण.",
-        "**XML आयात:** File > Import XML... Resolume Advanced Output प्रीसेटमधील प्रत्येक slice ला LED स्क्रीन बनवते, आणि कॅनव्हास नेमका आउटपुट रिझोल्यूशनवर असतो.",
-        "**वजन:** प्रति कॅबिनेट वजन (डीफॉल्ट 8.5 kg), Info बॉक्स, Status, 3D Stage आणि PDF अहवालात प्रति पॅनेल वजन आणि एकूण वजन. वजनाचे एकक Settings मध्ये निवडा; कॅबिनेट प्रीसेट वजनही जतन करतात.",
-        "**रंग आणि मेनू:** पॅनेलच्या रंग मेनूमध्ये (डबल-क्लिक) कृष्णधवल पर्याय, आणि File मध्ये आता Import 3D... आणि Import XML... वेगवेगळे आहेत."
-      ],
-      "da": [
-        "**Connection:** kablet kan gå fra én skærm til den næste, også over tomme mellemrum, på samme port, indtil den er fuld, og forbindelsen vises også i 3D. Ny knap Clear all.",
-        "**Importér XML:** File > Import XML... gør hver slice i en Resolume Advanced Output-forudindstilling til en LED-skærm, med lærredet præcis i udgangsopløsningen.",
-        "**Vægt:** vægt pr. kabinet (standard 8,5 kg), med vægt pr. panel og samlet vægt i Info-boksen, Status, 3D Stage og PDF-rapporten. Vægtenheden vælges i Settings; kabinet-forudindstillinger gemmer vægten.",
-        "**Farver og menu:** sort-hvid-mulighed i panelets farvemenu (dobbeltklik), og File har nu Import 3D... og Import XML... hver for sig."
-      ],
-      "nb": [
-        "**Connection:** kabelen kan gå fra én skjerm til den neste, også over tomme mellomrom, på samme port til den er full, og koblingen vises også i 3D. Ny knapp Clear all.",
-        "**Importer XML:** File > Import XML... gjør hver slice i en Resolume Advanced Output-forhåndsinnstilling til en LED-skjerm, med lerretet nøyaktig i utgangsoppløsningen.",
-        "**Vekt:** vekt per kabinett (standard 8,5 kg), med vekt per panel og total i Info-boksen, Status, 3D Stage og PDF-rapporten. Vektenheten velges i Settings; kabinett-forhåndsinnstillinger lagrer vekten.",
-        "**Farger og meny:** svart-hvitt-valg i panelets fargemeny (dobbeltklikk), og File har nå Import 3D... og Import XML... hver for seg."
-      ],
-      "lt": [
-        "**Connection:** kabelis gali eiti iš vieno ekrano į kitą, net per tuščius tarpus, tuo pačiu prievadu, kol šis prisipildo, o jungtis matoma ir 3D. Naujas mygtukas Clear all.",
-        "**Importuoti XML:** File > Import XML... kiekvieną Resolume Advanced Output išankstinio nustatymo slice paverčia LED ekranu, o drobė būna tiksliai išvesties raiškos.",
-        "**Svoris:** kabineto svoris (numatytasis 8,5 kg), vieno skydo svoris ir bendras svoris Info lange, Status, 3D Stage ir PDF ataskaitoje. Svorio vienetas pasirenkamas Settings; kabineto nustatymai išsaugo ir svorį.",
-        "**Spalvos ir meniu:** nespalvota parinktis skydo spalvų meniu (dukart spustelėjus), o File dabar turi atskirus Import 3D... ir Import XML...."
-      ],
-      "et": [
-        "**Connection:** kaabel saab minna ühelt ekraanilt järgmisele, ka üle tühjade vahede, samas pordis kuni see täitub, ja ühendus on näha ka 3D-s. Uus nupp Clear all.",
-        "**XML-i import:** File > Import XML... teeb Resolume'i Advanced Output eelseadistuse igast slice'ist LED-ekraani ja lõuend on täpselt väljundi eraldusvõimes.",
-        "**Kaal:** kabineti kaal (vaikimisi 8,5 kg), paneeli kaal ja kogukaal Info kastis, Statuses, 3D Stage'is ja PDF-aruandes. Kaaluühik valitakse Settingsis; kabineti eelseadistused salvestavad ka kaalu.",
-        "**Värvid ja menüü:** must-valge valik paneeli värvimenüüs (topeltklõps) ning File'is on nüüd eraldi Import 3D... ja Import XML...."
-      ],
-      "sk": [
-        "**Connection:** kábel môže prechádzať z jednej obrazovky na ďalšiu, aj cez prázdne medzery, na tom istom porte, kým sa nenaplní, a prepojenie vidno aj v 3D. Nové tlačidlo Clear all.",
-        "**Import XML:** File > Import XML... urobí z každého slice predvoľby Advanced Output z Resolume LED obrazovku a plátno má presne výstupné rozlíšenie.",
-        "**Hmotnosť:** hmotnosť kabinetu (predvolene 8,5 kg), hmotnosť na panel a celková hmotnosť v okne Info, Status, 3D Stage a PDF správe. Jednotka hmotnosti sa volí v Settings; predvoľby kabinetu ukladajú aj hmotnosť.",
-        "**Farby a menu:** čiernobiela možnosť v ponuke farieb panela (dvojklik) a File má teraz zvlášť Import 3D... a Import XML...."
-      ],
-      "bg": [
-        "**Connection:** кабелът може да минава от един екран към следващия, дори през празни разстояния, по същия порт, докато се запълни, а връзката се вижда и в 3D. Нов бутон Clear all.",
-        "**Импорт на XML:** File > Import XML... превръща всеки слайс от предварителна настройка на Advanced Output на Resolume в LED екран, а платното е точно с изходната резолюция.",
-        "**Тегло:** тегло на кабинет (по подразбиране 8,5 kg), с тегло на панел и общо тегло в полето Info, Status, 3D Stage и PDF отчета. Единицата за тегло се избира в Settings; предварителните настройки на кабинета пазят теглото.",
-        "**Цветове и меню:** черно-бяла опция в менюто за цвят на панела (двойно щракване), а File вече има отделно Import 3D... и Import XML...."
-      ],
-      "sr": [
-        "**Connection:** кабл може да прелази са једног екрана на следећи, чак и преко празних размака, на истом порту док се не попуни, а веза се види и у 3D. Ново дугме Clear all.",
-        "**Увоз XML:** File > Import XML... претвара сваки слајс из Advanced Output подешавања у Resolume-у у LED екран, а платно има тачно излазну резолуцију.",
-        "**Тежина:** тежина по кабинету (подразумевано 8,5 kg), са тежином по панелу и укупном тежином у пољу Info, Status, 3D Stage и PDF извештају. Јединица тежине бира се у Settings; подешавања кабинета чувају и тежину.",
-        "**Боје и мени:** црно-бела опција у менију боја панела (двоклик), а File сада има засебно Import 3D... и Import XML...."
-      ],
-      "hr": [
-        "**Connection:** kabel može prelaziti s jednog zaslona na sljedeći, čak i preko praznih razmaka, na istom priključku dok se ne popuni, a veza se vidi i u 3D-u. Novi gumb Clear all.",
-        "**Uvoz XML-a:** File > Import XML... pretvara svaki slice iz predloška Advanced Output u Resolumeu u LED zaslon, a platno ima točno izlaznu razlučivost.",
-        "**Težina:** težina po kabinetu (zadano 8,5 kg), s težinom po panelu i ukupnom težinom u okviru Info, Status, 3D Stage i PDF izvješću. Jedinica težine bira se u Settings; predlošci kabineta čuvaju i težinu.",
-        "**Boje i izbornik:** crno-bijela opcija u izborniku boja panela (dvoklik), a File sada ima zasebno Import 3D... i Import XML...."
-      ],
-      "gu": [
-        "**Connection:** કેબલ એક સ્ક્રીનથી બીજી સ્ક્રીન સુધી જઈ શકે છે, વચ્ચે ખાલી જગ્યા હોય તો પણ, પોર્ટ ભરાય ત્યાં સુધી એ જ પોર્ટ પર; જોડાણ 3D માં પણ દેખાય છે. નવું Clear all બટન.",
-        "**XML આયાત:** File > Import XML... Resolume Advanced Output પ્રીસેટની દરેક slice ને LED સ્ક્રીન બનાવે છે, અને કેનવાસ બરાબર આઉટપુટ રિઝોલ્યુશનમાં હોય છે.",
-        "**વજન:** દરેક કેબિનેટનું વજન (ડિફોલ્ટ 8.5 kg), Info બોક્સ, Status, 3D Stage અને PDF અહેવાલમાં પ્રતિ પેનલ વજન અને કુલ વજન. વજનનો એકમ Settings માં પસંદ કરો; કેબિનેટ પ્રીસેટ વજન પણ સાચવે છે.",
-        "**રંગો અને મેનુ:** પેનલના રંગ મેનુમાં (ડબલ-ક્લિક) કાળો-સફેદ વિકલ્પ, અને File માં હવે Import 3D... અને Import XML... અલગ છે."
-      ],
-      "pa": [
-        "**Connection:** ਕੇਬਲ ਇੱਕ ਸਕ੍ਰੀਨ ਤੋਂ ਅਗਲੀ ਤੱਕ ਜਾ ਸਕਦੀ ਹੈ, ਵਿਚਕਾਰ ਖਾਲੀ ਥਾਂ ਹੋਵੇ ਤਾਂ ਵੀ, ਪੋਰਟ ਭਰਨ ਤੱਕ ਉਸੇ ਪੋਰਟ ਉੱਤੇ; ਜੋੜ 3D ਵਿੱਚ ਵੀ ਦਿਸਦਾ ਹੈ। ਨਵਾਂ Clear all ਬਟਨ।",
-        "**XML ਆਯਾਤ:** File > Import XML... Resolume Advanced Output ਪ੍ਰੀਸੈੱਟ ਦੀ ਹਰ slice ਨੂੰ LED ਸਕ੍ਰੀਨ ਬਣਾਉਂਦਾ ਹੈ, ਅਤੇ ਕੈਨਵਸ ਬਿਲਕੁਲ ਆਊਟਪੁੱਟ ਰੈਜ਼ੋਲਿਊਸ਼ਨ ਉੱਤੇ ਹੁੰਦਾ ਹੈ।",
-        "**ਭਾਰ:** ਹਰ ਕੈਬਿਨੇਟ ਦਾ ਭਾਰ (ਡਿਫਾਲਟ 8.5 kg), Info ਬਾਕਸ, Status, 3D Stage ਅਤੇ PDF ਰਿਪੋਰਟ ਵਿੱਚ ਪ੍ਰਤੀ ਪੈਨਲ ਭਾਰ ਅਤੇ ਕੁੱਲ ਭਾਰ। ਭਾਰ ਦੀ ਇਕਾਈ Settings ਵਿੱਚ ਚੁਣੋ; ਕੈਬਿਨੇਟ ਪ੍ਰੀਸੈੱਟ ਭਾਰ ਵੀ ਰੱਖਦੇ ਹਨ।",
-        "**ਰੰਗ ਅਤੇ ਮੀਨੂ:** ਪੈਨਲ ਦੇ ਰੰਗ ਮੀਨੂ (ਡਬਲ-ਕਲਿੱਕ) ਵਿੱਚ ਕਾਲਾ-ਚਿੱਟਾ ਵਿਕਲਪ, ਅਤੇ File ਵਿੱਚ ਹੁਣ Import 3D... ਅਤੇ Import XML... ਵੱਖਰੇ ਹਨ।"
-      ],
-      "kn": [
-        "**Connection:** ಕೇಬಲ್ ಒಂದು ಪರದೆಯಿಂದ ಮುಂದಿನದಕ್ಕೆ ಹೋಗಬಹುದು, ನಡುವೆ ಖಾಲಿ ಜಾಗವಿದ್ದರೂ, ಪೋರ್ಟ್ ತುಂಬುವವರೆಗೆ ಅದೇ ಪೋರ್ಟ್‌ನಲ್ಲಿ; ಸಂಪರ್ಕ 3D ಯಲ್ಲೂ ಕಾಣುತ್ತದೆ. ಹೊಸ Clear all ಬಟನ್.",
-        "**XML ಆಮದು:** File > Import XML... Resolume Advanced Output ಪ್ರೀಸೆಟ್‌ನ ಪ್ರತಿ slice ಅನ್ನು LED ಪರದೆಯಾಗಿಸುತ್ತದೆ; ಕ್ಯಾನ್ವಾಸ್ ನಿಖರವಾಗಿ ಔಟ್‌ಪುಟ್ ರೆಸಲ್ಯೂಶನ್‌ನಲ್ಲಿರುತ್ತದೆ.",
-        "**ತೂಕ:** ಪ್ರತಿ ಕ್ಯಾಬಿನೆಟ್ ತೂಕ (ಡೀಫಾಲ್ಟ್ 8.5 kg), Info ಪೆಟ್ಟಿಗೆ, Status, 3D Stage ಮತ್ತು PDF ವರದಿಯಲ್ಲಿ ಪ್ರತಿ ಪ್ಯಾನೆಲ್ ತೂಕ ಮತ್ತು ಒಟ್ಟು ತೂಕ. ತೂಕದ ಘಟಕವನ್ನು Settings ನಲ್ಲಿ ಆರಿಸಿ; ಕ್ಯಾಬಿನೆಟ್ ಪ್ರೀಸೆಟ್‌ಗಳು ತೂಕವನ್ನೂ ಉಳಿಸುತ್ತವೆ.",
-        "**ಬಣ್ಣಗಳು ಮತ್ತು ಮೆನು:** ಪ್ಯಾನೆಲ್ ಬಣ್ಣದ ಮೆನುವಿನಲ್ಲಿ (ಡಬಲ್ ಕ್ಲಿಕ್) ಕಪ್ಪು-ಬಿಳುಪು ಆಯ್ಕೆ, ಮತ್ತು File ನಲ್ಲಿ ಈಗ Import 3D... ಮತ್ತು Import XML... ಪ್ರತ್ಯೇಕವಾಗಿವೆ."
-      ],
-      "ne": [
-        "**Connection:** केबल एउटा स्क्रिनबाट अर्कोमा जान सक्छ, बीचमा खाली ठाउँ भए पनि, पोर्ट नभरिएसम्म उही पोर्टमा; जडान 3D मा पनि देखिन्छ। नयाँ Clear all बटन।",
-        "**XML आयात:** File > Import XML... ले Resolume Advanced Output प्रिसेटको हरेक slice लाई LED स्क्रिन बनाउँछ, र क्यानभास ठीक आउटपुट रिजोलुसनमा हुन्छ।",
-        "**तौल:** प्रति क्याबिनेट तौल (पूर्वनिर्धारित 8.5 kg), Info बाकस, Status, 3D Stage र PDF प्रतिवेदनमा प्रति प्यानल तौल र कुल तौल। तौलको एकाइ Settings मा छान्नुहोस्; क्याबिनेट प्रिसेटले तौल पनि राख्छ।",
-        "**रङ र मेनु:** प्यानलको रङ मेनुमा (डबल-क्लिक) कालो-सेतो विकल्प, र File मा अब Import 3D... र Import XML... छुट्टाछुट्टै छन्।"
-      ],
-      "km": [
-        "**Connection:** ខ្សែអាចឆ្លងពីអេក្រង់មួយទៅអេក្រង់បន្ទាប់ ទោះមានចន្លោះទំនេរក៏ដោយ នៅលើច្រកដដែលរហូតដល់ពេញ ហើយការតភ្ជាប់ក៏បង្ហាញក្នុង 3D ដែរ។ ប៊ូតុងថ្មី Clear all។",
-        "**នាំចូល XML៖** File > Import XML... បំប្លែង slice នីមួយៗនៃការកំណត់ជាមុន Advanced Output របស់ Resolume ទៅជាអេក្រង់ LED ហើយផ្ទាំងក្រណាត់មានទំហំត្រឹមត្រូវតាមគុណភាពបង្ហាញលទ្ធផល។",
-        "**ទម្ងន់៖** ទម្ងន់ក្នុងមួយទូ (លំនាំដើម 8.5 kg) ព្រមទាំងទម្ងន់ក្នុងមួយផ្ទាំង និងទម្ងន់សរុបក្នុងប្រអប់ Info, Status, 3D Stage និងរបាយការណ៍ PDF។ ជ្រើសឯកតាទម្ងន់ក្នុង Settings ហើយការកំណត់ជាមុនរបស់ទូរក្សាទម្ងន់ផងដែរ។",
-        "**ពណ៌ និងម៉ឺនុយ៖** ជម្រើសសខ្មៅក្នុងម៉ឺនុយពណ៌នៃផ្ទាំង (ចុចពីរដង) ហើយ File ឥឡូវមាន Import 3D... និង Import XML... ដាច់ពីគ្នា។"
-      ],
-      "kk": [
-        "**Connection:** кабель бос аралықтар болса да бір экраннан келесісіне өте алады, порт толғанша сол портта қалады, ал байланыс 3D-де де көрінеді. Жаңа Clear all түймесі.",
-        "**XML импорттау:** File > Import XML... Resolume Advanced Output алдын ала баптауындағы әр slice-ты LED экранға айналдырады, кенеп дәл шығыс ажыратымдылығында болады.",
-        "**Салмақ:** әр кабинеттің салмағы (әдепкі 8,5 кг), бір панельдің салмағы мен жалпы салмақ Info терезесінде, Status, 3D Stage және PDF есебінде. Салмақ бірлігі Settings-те таңдалады; кабинет баптаулары салмақты да сақтайды.",
-        "**Түстер мен мәзір:** панельдің түс мәзірінде (екі рет басу) ақ-қара нұсқасы, ал File-да енді Import 3D... және Import XML... бөлек."
-      ],
-      "uz": [
-        "**Connection:** kabel bitta ekrandan keyingisiga, oradagi boʻsh joylar orqali ham, port toʻlguncha shu portda oʻta oladi, ulanish 3D da ham koʻrinadi. Yangi Clear all tugmasi.",
-        "**XML import:** File > Import XML... Resolume Advanced Output presetidagi har bir slice ni LED ekranga aylantiradi, tuval aynan chiqish ruxsatida boʻladi.",
-        "**Ogʻirlik:** har bir kabinet ogʻirligi (standart 8,5 kg), Info oynasi, Status, 3D Stage va PDF hisobotida bir panel ogʻirligi va umumiy ogʻirlik. Ogʻirlik birligi Settings da tanlanadi; kabinet presetlari ogʻirlikni ham saqlaydi.",
-        "**Ranglar va menyu:** panel rang menyusida (ikki marta bosish) oq-qora variant, File da esa endi Import 3D... va Import XML... alohida."
-      ],
-      "am": [
-        "**Connection:** ገመዱ ባዶ ክፍተት ቢኖርም ከአንድ ስክሪን ወደ ቀጣዩ መሄድ ይችላል፣ ፖርቱ እስኪሞላ በዚያው ፖርት፤ ግንኙነቱ በ3D ውስጥም ይታያል። አዲስ Clear all ቁልፍ።",
-        "**XML አስገባ፦** File > Import XML... የResolume Advanced Output ቅድመ-ቅንብር እያንዳንዱን slice ወደ LED ስክሪን ይቀይራል፤ ሸራው በትክክል የውጽዓቱን ጥራት ይይዛል።",
-        "**ክብደት፦** የእያንዳንዱ ካቢኔት ክብደት (ነባሪ 8.5 kg)፣ የአንድ ፓነል ክብደትና ጠቅላላ ክብደት በInfo ሳጥን፣ Status፣ 3D Stage እና PDF ሪፖርት ውስጥ። የክብደት መለኪያውን በSettings ይምረጡ፤ የካቢኔት ቅድመ-ቅንብሮች ክብደቱንም ያስቀምጣሉ።",
-        "**ቀለሞችና ምናሌ፦** በፓነሉ የቀለም ምናሌ (ሁለቴ ጠቅ) ጥቁርና ነጭ አማራጭ፣ File ደግሞ አሁን Import 3D... እና Import XML... ለየብቻ አለው።"
-      ],
-      "sl": [
-        "**Connection:** kabel lahko gre z enega zaslona na naslednjega, tudi čez prazne vrzeli, na istih vratih, dokler se ne zapolnijo, povezava pa se vidi tudi v 3D. Nov gumb Clear all.",
-        "**Uvoz XML:** File > Import XML... iz vsakega slice prednastavitve Advanced Output programa Resolume naredi zaslon LED, platno pa ima natančno izhodno ločljivost.",
-        "**Teža:** teža ohišja (privzeto 8,5 kg), s težo na ploščo in skupno težo v polju Info, Status, 3D Stage in poročilu PDF. Enoto teže izberete v Settings; prednastavitve ohišja shranijo tudi težo.",
-        "**Barve in meni:** črno-bela možnost v meniju barv plošče (dvoklik), File pa ima zdaj ločeno Import 3D... in Import XML...."
       ]
     }
   }
