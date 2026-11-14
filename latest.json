@@ -1,9 +1,721 @@
 {
-  "version": "2.7.1",
-  "windows": "https://github.com/renatorocha0934/RAGridrelease/releases/download/v2.7.1/RAGrid-Windows.zip",
-  "mac": "https://github.com/renatorocha0934/RAGridrelease/releases/download/v2.7.1/RAGrid-Mac.dmg",
+  "version": "2.7.5",
+  "windows": "https://github.com/renatorocha0934/RAGridrelease/releases/download/v2.7.5/RAGrid-Windows.zip",
+  "mac": "https://github.com/renatorocha0934/RAGridrelease/releases/download/v2.7.5/RAGrid-Mac.dmg",
   "notes": "System and performance improvements.",
   "changes": {
+    "2.7.5": {
+      "en": [
+        "**Drawing:** cables start plain. Double-click a cable to add as many resolution boxes, splitters and move handles as you want; drag a handle to route the cable. Click a box, splitter or handle and press Delete to remove only it.",
+        "**Text and colors:** new A+, A- and B buttons in the Drawing toolbar change the size and bold of the selected box or text box. DisplayPort and DVI have their own colors.",
+        "**Layout:** the left panel fits a 1080p screen without scrolling; Remove excess and Upload logo buttons; Help > Donate; Import XML opens the Resolume folder.",
+        "**Fixes:** the Connection panel buttons are no longer cut off, and in the Grid tab Alignment now comes right after Transparent."
+      ],
+      "pt": [
+        "**Desenho:** os cabos começam lisos. Dois cliques num cabo põem quantas caixas de resolução, splitters e puxadores você quiser; arraste um puxador para levar o cabo. Clique numa caixa, splitter ou puxador e aperte Delete para tirar só ele.",
+        "**Texto e cores:** novos botões A+, A- e B na barra do Desenho mudam o tamanho e o negrito da caixa ou caixa de texto selecionada. DisplayPort e DVI ganharam cores próprias.",
+        "**Layout:** o painel esquerdo cabe numa tela 1080p sem rolagem; botões Remover sobras e Carregar logo; Ajuda > Doar; o Importar XML abre a pasta do Resolume.",
+        "**Correções:** os botões do painel Conexão não ficam mais cortados, e na aba Grid o Alignment vem logo depois do Transparent."
+      ],
+      "es": [
+        "**Dibujo:** los cables empiezan lisos. Doble clic en un cable para añadir tantas cajas de resolución, splitters y asas como quieras; arrastra un asa para mover el cable. Haz clic en una caja, splitter o asa y pulsa Supr para quitar solo eso.",
+        "**Texto y colores:** nuevos botones A+, A- y B en la barra del Dibujo cambian el tamaño y la negrita del cuadro o cuadro de texto seleccionado. DisplayPort y DVI tienen colores propios.",
+        "**Diseño:** el panel izquierdo cabe en una pantalla 1080p sin desplazarse; botones Quitar sobrante y Subir logo; Ayuda > Donar; Importar XML abre la carpeta de Resolume.",
+        "**Correcciones:** los botones del panel Conexión ya no se cortan, y en la pestaña Grid Alignment va justo después de Transparent."
+      ],
+      "fr": [
+        "**Dessin :** les câbles partent lisses. Double-cliquez sur un câble pour ajouter autant de boîtes de résolution, splitters et poignées que vous voulez ; faites glisser une poignée pour déplacer le câble. Cliquez sur une boîte, un splitter ou une poignée et appuyez sur Suppr pour retirer seulement celui-ci.",
+        "**Texte et couleurs :** nouveaux boutons A+, A- et B dans la barre du Dessin pour la taille et le gras de la boîte ou zone de texte sélectionnée. DisplayPort et DVI ont leurs propres couleurs.",
+        "**Disposition :** le panneau de gauche tient sur un écran 1080p sans défilement ; boutons Retirer le surplus et Charger le logo ; Aide > Faire un don ; Importer XML ouvre le dossier de Resolume.",
+        "**Corrections :** les boutons du panneau Connexion ne sont plus coupés, et dans l'onglet Grid, Alignment vient juste après Transparent."
+      ],
+      "de": [
+        "**Zeichnung:** Kabel beginnen glatt. Doppelklick auf ein Kabel fügt beliebig viele Auflösungsfelder, Splitter und Verschiebegriffe hinzu; einen Griff ziehen, um das Kabel zu führen. Feld, Splitter oder Griff anklicken und Entf drücken entfernt nur dieses.",
+        "**Text und Farben:** neue Schaltflächen A+, A- und B in der Zeichnungsleiste ändern Größe und Fettdruck des gewählten Felds oder Textfelds. DisplayPort und DVI haben eigene Farben.",
+        "**Layout:** das linke Panel passt ohne Scrollen auf einen 1080p-Bildschirm; Schaltflächen Überschuss entfernen und Logo hochladen; Hilfe > Spenden; Import XML öffnet den Resolume-Ordner.",
+        "**Korrekturen:** die Schaltflächen im Verbindungsbereich werden nicht mehr abgeschnitten, und im Grid-Tab steht Alignment direkt nach Transparent."
+      ],
+      "it": [
+        "**Disegno:** i cavi partono lisci. Doppio clic su un cavo per aggiungere quanti riquadri di risoluzione, splitter e maniglie vuoi; trascina una maniglia per spostare il cavo. Clic su riquadro, splitter o maniglia e Canc per togliere solo quello.",
+        "**Testo e colori:** nuovi pulsanti A+, A- e B nella barra del Disegno cambiano dimensione e grassetto del riquadro o casella di testo selezionati. DisplayPort e DVI hanno colori propri.",
+        "**Layout:** il pannello sinistro sta in uno schermo 1080p senza scorrere; pulsanti Rimuovi eccesso e Carica logo; Aiuto > Dona; Importa XML apre la cartella di Resolume.",
+        "**Correzioni:** i pulsanti del pannello Connessione non sono più tagliati e nella scheda Grid Alignment viene subito dopo Transparent."
+      ],
+      "nl": [
+        "**Tekening:** kabels beginnen glad. Dubbelklik op een kabel om zoveel resolutievakken, splitters en verplaatsgrepen toe te voegen als je wilt; sleep een greep om de kabel te leiden. Klik op een vak, splitter of greep en druk op Delete om alleen dat te verwijderen.",
+        "**Tekst en kleuren:** nieuwe knoppen A+, A- en B in de tekenbalk wijzigen grootte en vet van het geselecteerde vak of tekstvak. DisplayPort en DVI hebben eigen kleuren.",
+        "**Indeling:** het linkerpaneel past zonder scrollen op een 1080p-scherm; knoppen Overschot verwijderen en Logo uploaden; Help > Doneren; Import XML opent de Resolume-map.",
+        "**Oplossingen:** de knoppen van het verbindingspaneel worden niet meer afgesneden en op het tabblad Grid staat Alignment direct na Transparent."
+      ],
+      "ru": [
+        "**Схема:** кабели начинаются без вставок. Двойной щелчок по кабелю добавляет сколько угодно полей разрешения, сплиттеров и маркеров перемещения; перетащите маркер, чтобы проложить кабель. Щелчок по полю, сплиттеру или маркеру и Delete удаляют только его.",
+        "**Текст и цвета:** новые кнопки A+, A- и B на панели схемы меняют размер и жирность выбранного блока или текстового поля. У DisplayPort и DVI свои цвета.",
+        "**Интерфейс:** левая панель помещается на экране 1080p без прокрутки; кнопки «Убрать лишнее» и «Загрузить логотип»; Справка > Пожертвовать; Import XML открывает папку Resolume.",
+        "**Исправления:** кнопки панели подключения больше не обрезаются, а на вкладке Grid пункт Alignment стоит сразу после Transparent."
+      ],
+      "tr": [
+        "**Çizim:** kablolar düz başlar. Bir kabloya çift tıklayarak istediğiniz kadar çözünürlük kutusu, splitter ve taşıma tutamacı ekleyin; kabloyu yönlendirmek için tutamacı sürükleyin. Kutu, splitter veya tutamaca tıklayıp Delete'e basmak yalnızca onu siler.",
+        "**Yazı ve renkler:** Çizim çubuğundaki yeni A+, A- ve B düğmeleri seçili kutunun veya metin kutusunun boyutunu ve kalınlığını değiştirir. DisplayPort ve DVI'nin kendi renkleri var.",
+        "**Düzen:** sol panel 1080p ekrana kaydırmadan sığar; Fazlayı kaldır ve Logo yükle düğmeleri; Yardım > Bağış yap; Import XML Resolume klasörünü açar.",
+        "**Düzeltmeler:** Bağlantı panelindeki düğmeler artık kesilmiyor; Grid sekmesinde Alignment, Transparent'ın hemen ardından geliyor."
+      ],
+      "id": [
+        "**Gambar:** kabel dimulai polos. Klik dua kali pada kabel untuk menambah kotak resolusi, splitter, dan pegangan geser sebanyak yang diinginkan; seret pegangan untuk mengarahkan kabel. Klik kotak, splitter, atau pegangan lalu tekan Delete untuk menghapus itu saja.",
+        "**Teks dan warna:** tombol baru A+, A- dan B di bilah Gambar mengubah ukuran dan huruf tebal kotak atau kotak teks yang dipilih. DisplayPort dan DVI punya warna sendiri.",
+        "**Tata letak:** panel kiri muat di layar 1080p tanpa gulir; tombol Hapus kelebihan dan Unggah logo; Bantuan > Donasi; Import XML membuka folder Resolume.",
+        "**Perbaikan:** tombol panel Koneksi tidak lagi terpotong, dan di tab Grid Alignment kini tepat setelah Transparent."
+      ],
+      "hu": [
+        "**Rajz:** a kábelek simán indulnak. Dupla kattintás egy kábelen annyi felbontásmezőt, splittert és mozgató fogantyút ad hozzá, amennyit szeretne; húzza a fogantyút a kábel vezetéséhez. Kattintson egy mezőre, splitterre vagy fogantyúra, és a Delete csak azt törli.",
+        "**Szöveg és színek:** új A+, A- és B gombok a Rajz sávjában a kijelölt doboz vagy szövegdoboz méretét és félkövérségét állítják. A DisplayPort és a DVI saját színt kapott.",
+        "**Elrendezés:** a bal panel görgetés nélkül elfér egy 1080p képernyőn; Többlet eltávolítása és Logó feltöltése gombok; Súgó > Adományozás; az Import XML a Resolume mappáját nyitja meg.",
+        "**Javítások:** a Kapcsolat panel gombjai már nem vágódnak le, és a Grid fülön az Alignment közvetlenül a Transparent után jön."
+      ],
+      "zh-Hans": [
+        "**绘图：** 线缆默认无附加件。双击线缆可添加任意数量的分辨率框、分配器和移动手柄；拖动手柄即可调整线缆走向。单击框、分配器或手柄后按 Delete 只删除它。",
+        "**文字和颜色：** 绘图工具栏新增 A+、A- 和 B 按钮，可调整所选框或文本框的字号和粗体。DisplayPort 和 DVI 有了各自的颜色。",
+        "**布局：** 左侧面板在 1080p 屏幕上无需滚动；新增“移除多余”和“上传标志”按钮；帮助 > 捐赠；导入 XML 会打开 Resolume 文件夹。",
+        "**修复：** 连接面板的按钮不再被截断；Grid 选项卡中 Alignment 现在紧跟在 Transparent 之后。"
+      ],
+      "zh-Hant": [
+        "**繪圖：** 線材預設無附加件。雙擊線材可加入任意數量的解析度框、分配器和移動控點；拖曳控點即可調整線材走向。點選框、分配器或控點後按 Delete 只刪除它。",
+        "**文字和顏色：** 繪圖工具列新增 A+、A- 和 B 按鈕，可調整所選方塊或文字方塊的字級和粗體。DisplayPort 和 DVI 有了各自的顏色。",
+        "**版面：** 左側面板在 1080p 螢幕上不需捲動；新增「移除多餘」和「上傳標誌」按鈕；說明 > 捐款；匯入 XML 會開啟 Resolume 資料夾。",
+        "**修正：** 連接面板的按鈕不再被截斷；Grid 分頁中 Alignment 現在緊接在 Transparent 之後。"
+      ],
+      "ja": [
+        "**図面：** ケーブルは最初は何も付いていません。ケーブルをダブルクリックすると、解像度ボックス、スプリッター、移動ハンドルを好きなだけ追加できます。ハンドルをドラッグしてケーブルを配線します。ボックス、スプリッター、ハンドルをクリックして Delete を押すと、それだけが削除されます。",
+        "**文字と色：** 図面ツールバーの新しい A+、A-、B ボタンで、選択したボックスやテキストボックスの文字サイズと太字を変更できます。DisplayPort と DVI に専用の色が付きました。",
+        "**レイアウト：** 左パネルが 1080p 画面にスクロールなしで収まります。「余分を削除」と「ロゴをアップロード」ボタン、ヘルプ > 寄付、Import XML は Resolume フォルダーを開きます。",
+        "**修正：** 接続パネルのボタンが切れなくなりました。Grid タブでは Alignment が Transparent のすぐ後になりました。"
+      ],
+      "ko": [
+        "**도면:** 케이블은 처음에 아무것도 없이 시작합니다. 케이블을 두 번 클릭하면 해상도 상자, 분배기, 이동 핸들을 원하는 만큼 추가할 수 있고, 핸들을 끌어 케이블 경로를 바꿉니다. 상자, 분배기 또는 핸들을 클릭하고 Delete를 누르면 그것만 지워집니다.",
+        "**글자와 색:** 도면 도구 모음의 새 A+, A-, B 버튼으로 선택한 상자 또는 텍스트 상자의 글자 크기와 굵게를 바꿉니다. DisplayPort와 DVI에 고유 색이 생겼습니다.",
+        "**레이아웃:** 왼쪽 패널이 1080p 화면에 스크롤 없이 들어갑니다. 여분 제거와 로고 업로드 버튼, 도움말 > 후원하기, Import XML은 Resolume 폴더를 엽니다.",
+        "**수정:** 연결 패널 버튼이 더 이상 잘리지 않으며, Grid 탭에서 Alignment가 Transparent 바로 뒤에 옵니다."
+      ],
+      "ar": [
+        "**الرسم:** تبدأ الكابلات بلا إضافات. انقر نقرًا مزدوجًا على كابل لإضافة ما تشاء من مربعات الدقة والموزعات ومقابض التحريك؛ اسحب المقبض لتوجيه الكابل. انقر على مربع أو موزع أو مقبض واضغط Delete لحذفه وحده.",
+        "**النص والألوان:** أزرار جديدة A+ وA- وB في شريط الرسم تغيّر حجم وسُمك خط المربع أو مربع النص المحدد. أصبح لـ DisplayPort وDVI ألوان خاصة.",
+        "**التخطيط:** اللوحة اليسرى تتسع لشاشة 1080p دون تمرير؛ زرّا إزالة الزائد ورفع الشعار؛ تعليمات > تبرّع؛ استيراد XML يفتح مجلد Resolume.",
+        "**إصلاحات:** لم تعد أزرار لوحة الاتصال مقطوعة، وفي تبويب Grid أصبح Alignment بعد Transparent مباشرة."
+      ],
+      "th": [
+        "**แผนผัง:** สายเริ่มต้นแบบเรียบ ดับเบิลคลิกที่สายเพื่อเพิ่มกล่องความละเอียด สปลิตเตอร์ และจุดจับย้ายได้มากเท่าที่ต้องการ ลากจุดจับเพื่อเดินสาย คลิกกล่อง สปลิตเตอร์ หรือจุดจับ แล้วกด Delete เพื่อลบเฉพาะชิ้นนั้น",
+        "**ข้อความและสี:** ปุ่มใหม่ A+, A- และ B ในแถบแผนผังเปลี่ยนขนาดและตัวหนาของกล่องหรือกล่องข้อความที่เลือก DisplayPort และ DVI มีสีของตัวเอง",
+        "**เลย์เอาต์:** แผงซ้ายพอดีกับจอ 1080p โดยไม่ต้องเลื่อน ปุ่มลบส่วนเกินและอัปโหลดโลโก้ วิธีใช้ > บริจาค และ Import XML เปิดโฟลเดอร์ Resolume",
+        "**แก้ไข:** ปุ่มในแผงการเชื่อมต่อไม่ถูกตัดอีกต่อไป และในแท็บ Grid ตอนนี้ Alignment อยู่ถัดจาก Transparent"
+      ],
+      "hi": [
+        "**ड्रॉइंग:** केबल सादे शुरू होते हैं। केबल पर डबल-क्लिक करके जितने चाहें रिज़ॉल्यूशन बॉक्स, स्प्लिटर और मूव हैंडल जोड़ें; केबल का रास्ता बदलने के लिए हैंडल खींचें। बॉक्स, स्प्लिटर या हैंडल पर क्लिक करके Delete दबाने से सिर्फ़ वही हटता है।",
+        "**टेक्स्ट और रंग:** ड्रॉइंग टूलबार के नए A+, A- और B बटन चुने गए बॉक्स या टेक्स्ट बॉक्स का आकार और बोल्ड बदलते हैं। DisplayPort और DVI के अपने रंग हैं।",
+        "**लेआउट:** बायाँ पैनल 1080p स्क्रीन पर बिना स्क्रॉल के आ जाता है; अतिरिक्त हटाएँ और लोगो अपलोड बटन; सहायता > दान करें; Import XML Resolume फ़ोल्डर खोलता है।",
+        "**सुधार:** कनेक्शन पैनल के बटन अब कटते नहीं हैं, और Grid टैब में Alignment अब Transparent के ठीक बाद आता है।"
+      ],
+      "vi": [
+        "**Bản vẽ:** cáp bắt đầu trơn. Nhấp đúp vào cáp để thêm bao nhiêu hộp độ phân giải, bộ chia và tay nắm di chuyển tùy ý; kéo tay nắm để đi cáp. Nhấp vào hộp, bộ chia hoặc tay nắm rồi nhấn Delete để chỉ xóa nó.",
+        "**Chữ và màu:** nút mới A+, A- và B trên thanh Bản vẽ đổi cỡ chữ và in đậm của hộp hoặc hộp văn bản đã chọn. DisplayPort và DVI có màu riêng.",
+        "**Bố cục:** bảng bên trái vừa màn hình 1080p không cần cuộn; nút Xóa phần thừa và Tải logo lên; Trợ giúp > Quyên góp; Import XML mở thư mục Resolume.",
+        "**Sửa lỗi:** các nút của bảng Kết nối không còn bị cắt, và trong thẻ Grid, Alignment giờ nằm ngay sau Transparent."
+      ],
+      "bn": [
+        "**ড্রয়িং:** কেবল শুরুতে খালি থাকে। কেবলে ডাবল-ক্লিক করে যত খুশি রেজোলিউশন বক্স, স্প্লিটার আর সরানোর হ্যান্ডেল যোগ করুন; কেবলের পথ বদলাতে হ্যান্ডেল টানুন। বক্স, স্প্লিটার বা হ্যান্ডেলে ক্লিক করে Delete চাপলে শুধু সেটাই মুছে যায়।",
+        "**লেখা ও রং:** ড্রয়িং টুলবারের নতুন A+, A- ও B বোতাম নির্বাচিত বক্স বা টেক্সট বক্সের আকার ও বোল্ড বদলায়। DisplayPort ও DVI-এর নিজস্ব রং আছে।",
+        "**লেআউট:** বাঁ প্যানেল 1080p স্ক্রিনে স্ক্রল ছাড়াই আঁটে; অতিরিক্ত সরান ও লোগো আপলোড বোতাম; সহায়তা > দান করুন; Import XML Resolume ফোল্ডার খোলে।",
+        "**সংশোধন:** সংযোগ প্যানেলের বোতাম আর কাটা পড়ে না, আর Grid ট্যাবে Alignment এখন Transparent-এর ঠিক পরে।"
+      ],
+      "ms": [
+        "**Lukisan:** kabel bermula kosong. Klik dua kali pada kabel untuk menambah seberapa banyak kotak resolusi, splitter dan pemegang alih yang anda mahu; seret pemegang untuk mengatur kabel. Klik kotak, splitter atau pemegang dan tekan Delete untuk membuang itu sahaja.",
+        "**Teks dan warna:** butang baharu A+, A- dan B dalam bar Lukisan menukar saiz dan huruf tebal kotak atau kotak teks yang dipilih. DisplayPort dan DVI ada warna sendiri.",
+        "**Susun atur:** panel kiri muat pada skrin 1080p tanpa menatal; butang Buang lebihan dan Muat naik logo; Bantuan > Derma; Import XML membuka folder Resolume.",
+        "**Pembetulan:** butang panel Sambungan tidak lagi terpotong, dan dalam tab Grid Alignment kini terus selepas Transparent."
+      ],
+      "sv": [
+        "**Ritning:** kablar börjar släta. Dubbelklicka på en kabel för att lägga till så många upplösningsrutor, splitters och flytthandtag du vill; dra ett handtag för att dra om kabeln. Klicka på en ruta, splitter eller ett handtag och tryck Delete för att bara ta bort det.",
+        "**Text och färger:** nya knappar A+, A- och B i ritningsfältet ändrar storlek och fetstil för den markerade rutan eller textrutan. DisplayPort och DVI har egna färger.",
+        "**Layout:** vänsterpanelen ryms på en 1080p-skärm utan rullning; knapparna Ta bort överskott och Ladda upp logotyp; Hjälp > Donera; Import XML öppnar Resolume-mappen.",
+        "**Rättelser:** knapparna i anslutningspanelen kapas inte längre, och på fliken Grid kommer Alignment direkt efter Transparent."
+      ],
+      "ur": [
+        "**ڈرائنگ:** کیبل شروع میں سادہ ہوتے ہیں۔ کیبل پر ڈبل کلک کر کے جتنے چاہیں ریزولوشن باکس، اسپلٹر اور منتقلی ہینڈل شامل کریں؛ کیبل کا راستہ بدلنے کے لیے ہینڈل گھسیٹیں۔ باکس، اسپلٹر یا ہینڈل پر کلک کر کے Delete دبانے سے صرف وہی ہٹتا ہے۔",
+        "**متن اور رنگ:** ڈرائنگ ٹول بار کے نئے A+، A- اور B بٹن منتخب باکس یا ٹیکسٹ باکس کا سائز اور بولڈ بدلتے ہیں۔ DisplayPort اور DVI کے اپنے رنگ ہیں۔",
+        "**لے آؤٹ:** بایاں پینل 1080p اسکرین پر بغیر اسکرول کے سما جاتا ہے؛ اضافی ہٹائیں اور لوگو اپ لوڈ بٹن؛ مدد > عطیہ کریں؛ Import XML ریزولوم فولڈر کھولتا ہے۔",
+        "**درستیاں:** کنکشن پینل کے بٹن اب کٹتے نہیں، اور Grid ٹیب میں Alignment اب Transparent کے فوراً بعد آتا ہے۔"
+      ],
+      "sw": [
+        "**Mchoro:** kebo zinaanza bila kitu. Bofya mara mbili kebo ili kuongeza visanduku vya azimio, vigawanyaji na vishikio vya kusogeza kadiri unavyotaka; buruta kishikio kuelekeza kebo. Bofya kisanduku, kigawanyaji au kishikio na ubonyeze Delete kuondoa hicho tu.",
+        "**Maandishi na rangi:** vitufe vipya A+, A- na B kwenye upau wa Mchoro hubadilisha ukubwa na herufi nzito za kisanduku au kisanduku cha maandishi kilichochaguliwa. DisplayPort na DVI zina rangi zao.",
+        "**Mpangilio:** paneli ya kushoto inatosha skrini ya 1080p bila kusogeza; vitufe Ondoa ziada na Pakia nembo; Msaada > Changia; Import XML hufungua folda ya Resolume.",
+        "**Marekebisho:** vitufe vya paneli ya Muunganisho havikatiki tena, na kwenye kichupo cha Grid Alignment sasa inafuata Transparent."
+      ],
+      "gn": [
+        "**Ta'ãnga:** cable-kuéra oñepyrũ hesakã. Ejapo mokõi click peteĩ cable-pe emoĩ hag̃ua resolución ryru, splitter ha jepokóha mongu'e hag̃ua ndegustaháicha; egueraha jepokóha emongu'e hag̃ua cable. Ejapo click ryru, splitter térã jepokóhare ha ejopy Delete embogue hag̃ua upévante.",
+        "**Haipy ha sa'y:** votõ pyahu A+, A- ha B Ta'ãnga rembiapópe omoambue tuichakue ha haipy hũ ryru térã haipy ryru ojeporavóvape. DisplayPort ha DVI oguereko isa'y tee.",
+        "**Ñemoĩ:** panel asu ohupyty pantalla 1080p ndojeguerovái'ỹre; votõ Embogue hembýva ha Ehupi logo; Pytyvõ > Eme'ẽ pytyvõ; Import XML oipe'a Resolume ryru.",
+        "**Ñemyatyrõ:** votõ panel Conexión-pegua ndoñekytĩvéima, ha Grid-pe Alignment oĩma Transparent rire voi."
+      ],
+      "he": [
+        "**שרטוט:** הכבלים מתחילים חלקים. לחיצה כפולה על כבל מוסיפה כמה תיבות רזולוציה, מפצלים וידיות הזזה שתרצו; גררו ידית כדי לנתב את הכבל. לחצו על תיבה, מפצל או ידית והקישו Delete כדי למחוק רק אותם.",
+        "**טקסט וצבעים:** כפתורים חדשים A+‏, A- ו-B בסרגל השרטוט משנים גודל והדגשה של התיבה או תיבת הטקסט שנבחרה. ל-DisplayPort ול-DVI צבעים משלהם.",
+        "**פריסה:** הלוח השמאלי נכנס במסך 1080p בלי גלילה; כפתורי הסרת עודף והעלאת לוגו; עזרה > תרומה; ייבוא XML פותח את תיקיית Resolume.",
+        "**תיקונים:** כפתורי לוח החיבור כבר לא נחתכים, ובכרטיסייה Grid‏ Alignment מופיע מיד אחרי Transparent."
+      ],
+      "lv": [
+        "**Zīmējums:** kabeļi sākas tukši. Veiciet dubultklikšķi uz kabeļa, lai pievienotu tik daudz izšķirtspējas lodziņu, sadalītāju un pārvietošanas rokturu, cik vēlaties; velciet rokturi, lai virzītu kabeli. Noklikšķiniet uz lodziņa, sadalītāja vai roktura un nospiediet Delete, lai noņemtu tikai to.",
+        "**Teksts un krāsas:** jaunās pogas A+, A- un B zīmējuma joslā maina atlasītā lodziņa vai teksta lodziņa izmēru un treknrakstu. DisplayPort un DVI ir savas krāsas.",
+        "**Izkārtojums:** kreisais panelis ietilpst 1080p ekrānā bez ritināšanas; pogas Noņemt lieko un Augšupielādēt logotipu; Palīdzība > Ziedot; Import XML atver Resolume mapi.",
+        "**Labojumi:** savienojuma paneļa pogas vairs netiek nogrieztas, un cilnē Grid Alignment tagad ir uzreiz aiz Transparent."
+      ],
+      "fa": [
+        "**نقشه:** کابل‌ها ساده شروع می‌شوند. با دوبار کلیک روی کابل هر تعداد کادر رزولوشن، اسپلیتر و دستگیره جابه‌جایی که بخواهید اضافه کنید؛ دستگیره را بکشید تا مسیر کابل عوض شود. روی کادر، اسپلیتر یا دستگیره کلیک کنید و Delete را بزنید تا فقط همان حذف شود.",
+        "**متن و رنگ‌ها:** دکمه‌های جدید A+‎، A- و B در نوار نقشه اندازه و پررنگی کادر یا کادر متن انتخاب‌شده را تغییر می‌دهند. DisplayPort و DVI رنگ‌های خود را دارند.",
+        "**چیدمان:** پنل چپ بدون پیمایش در صفحه 1080p جا می‌شود؛ دکمه‌های حذف اضافی و بارگذاری لوگو؛ راهنما > کمک مالی؛ Import XML پوشه Resolume را باز می‌کند.",
+        "**اصلاحات:** دکمه‌های پنل اتصال دیگر بریده نمی‌شوند و در زبانه Grid گزینه Alignment حالا درست بعد از Transparent است."
+      ],
+      "pl": [
+        "**Rysunek:** kable zaczynają się gładkie. Kliknij dwukrotnie kabel, aby dodać dowolną liczbę pól rozdzielczości, splitterów i uchwytów przesuwania; przeciągnij uchwyt, aby poprowadzić kabel. Kliknij pole, splitter lub uchwyt i naciśnij Delete, aby usunąć tylko je.",
+        "**Tekst i kolory:** nowe przyciski A+, A- i B na pasku rysunku zmieniają rozmiar i pogrubienie zaznaczonego pola lub pola tekstowego. DisplayPort i DVI mają własne kolory.",
+        "**Układ:** lewy panel mieści się na ekranie 1080p bez przewijania; przyciski Usuń nadmiar i Prześlij logo; Pomoc > Wesprzyj; Import XML otwiera folder Resolume.",
+        "**Poprawki:** przyciski panelu Połączenie nie są już ucinane, a na karcie Grid Alignment jest zaraz po Transparent."
+      ],
+      "uk": [
+        "**Схема:** кабелі починаються без вставок. Подвійне клацання по кабелю додає скільки завгодно полів роздільної здатності, сплітерів і маркерів переміщення; перетягніть маркер, щоб прокласти кабель. Клацніть поле, сплітер чи маркер і натисніть Delete, щоб видалити лише його.",
+        "**Текст і кольори:** нові кнопки A+, A- і B на панелі схеми змінюють розмір і жирність вибраного блока чи текстового поля. DisplayPort і DVI мають власні кольори.",
+        "**Інтерфейс:** ліва панель вміщується на екрані 1080p без прокручування; кнопки «Прибрати зайве» і «Завантажити логотип»; Довідка > Пожертвувати; Import XML відкриває папку Resolume.",
+        "**Виправлення:** кнопки панелі підключення більше не обрізаються, а на вкладці Grid пункт Alignment стоїть одразу після Transparent."
+      ],
+      "ca": [
+        "**Dibuix:** els cables comencen llisos. Feu doble clic en un cable per afegir tants quadres de resolució, splitters i anses com vulgueu; arrossegueu una ansa per guiar el cable. Feu clic en un quadre, splitter o ansa i premeu Supr per treure només això.",
+        "**Text i colors:** nous botons A+, A- i B a la barra del Dibuix canvien la mida i la negreta del quadre o quadre de text seleccionat. DisplayPort i DVI tenen colors propis.",
+        "**Disposició:** el tauler esquerre cap en una pantalla 1080p sense desplaçar-se; botons Treu l'excés i Puja el logotip; Ajuda > Fes un donatiu; Import XML obre la carpeta de Resolume.",
+        "**Correccions:** els botons del tauler Connexió ja no es tallen, i a la pestanya Grid Alignment va just després de Transparent."
+      ],
+      "cs": [
+        "**Výkres:** kabely začínají hladké. Dvojklikem na kabel přidáte libovolný počet polí rozlišení, splitterů a úchytů pro přesun; tažením úchytu vedete kabel. Klikněte na pole, splitter nebo úchyt a stiskněte Delete, smaže se jen to.",
+        "**Text a barvy:** nová tlačítka A+, A- a B na liště výkresu mění velikost a tučnost vybraného pole nebo textového pole. DisplayPort a DVI mají vlastní barvy.",
+        "**Rozvržení:** levý panel se vejde na obrazovku 1080p bez posouvání; tlačítka Odebrat přebytek a Nahrát logo; Nápověda > Přispět; Import XML otevře složku Resolume.",
+        "**Opravy:** tlačítka panelu Připojení už nejsou useknutá a na kartě Grid je Alignment hned za Transparent."
+      ],
+      "fi": [
+        "**Piirros:** kaapelit alkavat sileinä. Kaksoisnapsauta kaapelia lisätäksesi niin monta resoluutioruutua, jakajaa ja siirtokahvaa kuin haluat; vedä kahvaa ohjataksesi kaapelia. Napsauta ruutua, jakajaa tai kahvaa ja paina Delete poistaaksesi vain sen.",
+        "**Teksti ja värit:** piirroksen työkalurivin uudet A+-, A-- ja B-painikkeet muuttavat valitun ruudun tai tekstiruudun kokoa ja lihavointia. DisplayPortilla ja DVI:llä on omat värit.",
+        "**Asettelu:** vasen paneeli mahtuu 1080p-näytölle ilman vieritystä; painikkeet Poista ylimäärä ja Lataa logo; Ohje > Lahjoita; Import XML avaa Resolume-kansion.",
+        "**Korjaukset:** Yhteys-paneelin painikkeet eivät enää leikkaudu, ja Grid-välilehdellä Alignment tulee heti Transparentin jälkeen."
+      ],
+      "el": [
+        "**Σχέδιο:** τα καλώδια ξεκινούν απλά. Διπλό κλικ σε καλώδιο προσθέτει όσα πλαίσια ανάλυσης, διαχωριστές και λαβές μετακίνησης θέλετε· σύρετε μια λαβή για να οδηγήσετε το καλώδιο. Κλικ σε πλαίσιο, διαχωριστή ή λαβή και Delete αφαιρεί μόνο αυτό.",
+        "**Κείμενο και χρώματα:** νέα κουμπιά A+, A- και B στη γραμμή του σχεδίου αλλάζουν μέγεθος και έντονα του επιλεγμένου πλαισίου ή πλαισίου κειμένου. Τα DisplayPort και DVI έχουν δικά τους χρώματα.",
+        "**Διάταξη:** ο αριστερός πίνακας χωράει σε οθόνη 1080p χωρίς κύλιση· κουμπιά Αφαίρεση περίσσειας και Μεταφόρτωση λογότυπου· Βοήθεια > Δωρεά· το Import XML ανοίγει τον φάκελο του Resolume.",
+        "**Διορθώσεις:** τα κουμπιά του πίνακα Σύνδεσης δεν κόβονται πια, και στην καρτέλα Grid το Alignment έρχεται αμέσως μετά το Transparent."
+      ],
+      "ha": [
+        "**Zane:** kebul suna farawa a fili. Danna kebul sau biyu don ƙara akwatunan ƙuduri, splitter da maƙallan motsawa yadda kake so; ja maƙalli don jagorantar kebul. Danna akwati, splitter ko maƙalli ka danna Delete don cire shi kaɗai.",
+        "**Rubutu da launuka:** sababbin maɓallai A+, A- da B a sandar Zane suna canza girma da kaurin rubutun akwatin ko akwatin rubutu da aka zaɓa. DisplayPort da DVI suna da launukansu.",
+        "**Tsari:** faifan hagu ya isa allon 1080p ba tare da gungurawa ba; maɓallan Cire ragowar da Loda tambari; Taimako > Ba da gudummawa; Import XML yana buɗe babban fayil na Resolume.",
+        "**Gyare-gyare:** maɓallan faifan Haɗi ba sa yankewa yanzu, kuma a shafin Grid Alignment yana zuwa nan da nan bayan Transparent."
+      ],
+      "ro": [
+        "**Desen:** cablurile pornesc simple. Dublu clic pe un cablu adaugă oricâte casete de rezoluție, splittere și mânere de mutare doriți; trageți un mâner pentru a ghida cablul. Clic pe casetă, splitter sau mâner și Delete elimină doar acel element.",
+        "**Text și culori:** butoanele noi A+, A- și B din bara Desenului schimbă mărimea și aldinul casetei sau casetei de text selectate. DisplayPort și DVI au culori proprii.",
+        "**Aspect:** panoul din stânga încape pe un ecran 1080p fără derulare; butoanele Elimină surplusul și Încarcă logo; Ajutor > Donează; Import XML deschide folderul Resolume.",
+        "**Corecturi:** butoanele panoului Conexiune nu mai sunt tăiate, iar în fila Grid Alignment vine imediat după Transparent."
+      ],
+      "yo": [
+        "**Àwòrán:** àwọn kébù bẹ̀rẹ̀ láìní nǹkan. Tẹ kébù lẹ́ẹ̀mejì láti fi àpótí ìpinnu, splitter àti ìdìmú ìgbésẹ̀ kún bí o ṣe fẹ́; fa ìdìmú láti darí kébù. Tẹ àpótí, splitter tàbí ìdìmú kí o tẹ Delete láti yọ ọ̀kan yẹn nìkan.",
+        "**Ọ̀rọ̀ àti àwọ̀:** àwọn bọ́tìnnì tuntun A+, A- àti B nínú ọ̀pá Àwòrán ń yí ìtóbi àti ọ̀rọ̀ dúdú àpótí tàbí àpótí ọ̀rọ̀ tí a yàn padà. DisplayPort àti DVI ní àwọ̀ tiwọn.",
+        "**Ìṣètò:** pánẹ́ẹ̀lì òsì bá ojú-ìbojú 1080p mu láìsí yíyí; bọ́tìnnì Yọ àṣẹ́kù àti Gbé àmì sókè; Ìrànlọ́wọ́ > Ṣe ìtọrẹ; Import XML ń ṣí fódà Resolume.",
+        "**Àtúnṣe:** àwọn bọ́tìnnì pánẹ́ẹ̀lì Ìsopọ̀ kò gé mọ́, àti nínú táàbù Grid, Alignment ti wá tẹ̀lé Transparent tààrà."
+      ],
+      "zu": [
+        "**Umdwebo:** amakhebula aqala engenalutho. Chofoza kabili ikhebula ukuze wengeze amabhokisi okucaca, ama-splitter nezibambo zokuhambisa ngendlela ofuna ngayo; hudula isibambo ukuze uqondise ikhebula. Chofoza ibhokisi, i-splitter noma isibambo bese ucindezela u-Delete ukuze ususe lokho kuphela.",
+        "**Umbhalo nemibala:** izinkinobho ezintsha u-A+, A- no-B ebhawa yoMdwebo zishintsha usayizi nokugqama kwebhokisi noma ibhokisi lombhalo elikhethiwe. I-DisplayPort ne-DVI zinemibala yazo.",
+        "**Isakhiwo:** iphaneli yesobunxele ilingana nesikrini se-1080p ngaphandle kokuskrola; izinkinobho Susa okweqile nokuthi Layisha ilogo; Usizo > Nikela; i-Import XML ivula ifolda ye-Resolume.",
+        "**Ukulungiswa:** izinkinobho zephaneli yoXhumano azisanqamuki, futhi kuthebhu ye-Grid i-Alignment manje iza ngemuva kwe-Transparent."
+      ],
+      "fil": [
+        "**Drawing:** plain ang simula ng mga cable. I-double-click ang cable para magdagdag ng kahit ilang resolution box, splitter at move handle; i-drag ang handle para ilipat ang daan ng cable. I-click ang box, splitter o handle at pindutin ang Delete para alisin iyon lang.",
+        "**Teksto at kulay:** binabago ng bagong A+, A- at B na button sa toolbar ng Drawing ang laki at bold ng napiling kahon o text box. May sariling kulay na ang DisplayPort at DVI.",
+        "**Layout:** kasya ang kaliwang panel sa 1080p na screen nang walang scroll; mga button na Alisin ang sobra at Mag-upload ng logo; Help > Mag-donate; binubuksan ng Import XML ang folder ng Resolume.",
+        "**Mga ayos:** hindi na naputol ang mga button ng Connection panel, at sa tab na Grid ay sumusunod na ang Alignment sa Transparent."
+      ],
+      "ta": [
+        "**வரைபடம்:** கேபிள்கள் வெறுமையாகத் தொடங்கும். கேபிளில் இருமுறை கிளிக் செய்து தேவையான அளவு தெளிவுத்திறன் பெட்டிகள், ஸ்ப்ளிட்டர்கள், நகர்த்தும் கைப்பிடிகளைச் சேர்க்கலாம்; கேபிளை வழிநடத்த கைப்பிடியை இழுக்கவும். பெட்டி, ஸ்ப்ளிட்டர் அல்லது கைப்பிடியைக் கிளிக் செய்து Delete அழுத்தினால் அது மட்டும் நீங்கும்.",
+        "**எழுத்தும் நிறமும்:** வரைபடக் கருவிப்பட்டியின் புதிய A+, A-, B பொத்தான்கள் தேர்ந்தெடுத்த பெட்டி அல்லது உரைப் பெட்டியின் அளவையும் தடிப்பையும் மாற்றும். DisplayPort, DVI-க்கு தனி நிறங்கள்.",
+        "**அமைப்பு:** இடது பலகம் 1080p திரையில் உருட்டாமல் பொருந்தும்; மிகுதியை அகற்று, லோகோ பதிவேற்று பொத்தான்கள்; உதவி > நன்கொடை; Import XML Resolume கோப்புறையைத் திறக்கும்.",
+        "**திருத்தங்கள்:** இணைப்புப் பலகப் பொத்தான்கள் இனி வெட்டப்படாது; Grid தாவலில் Alignment இப்போது Transparent-க்கு உடனே பின் வரும்."
+      ],
+      "te": [
+        "**డ్రాయింగ్:** కేబుల్స్ ఖాళీగా మొదలవుతాయి. కేబుల్‌పై డబుల్-క్లిక్ చేసి కావలసినన్ని రిజల్యూషన్ బాక్స్‌లు, స్ప్లిటర్లు, కదిలించే హ్యాండిల్స్ జోడించండి; కేబుల్ దారి మార్చడానికి హ్యాండిల్‌ను లాగండి. బాక్స్, స్ప్లిటర్ లేదా హ్యాండిల్‌పై క్లిక్ చేసి Delete నొక్కితే అదొక్కటే తొలగుతుంది.",
+        "**అక్షరాలు, రంగులు:** డ్రాయింగ్ టూల్‌బార్‌లోని కొత్త A+, A-, B బటన్లు ఎంచుకున్న బాక్స్ లేదా టెక్స్ట్ బాక్స్ పరిమాణం, బోల్డ్‌ను మారుస్తాయి. DisplayPort, DVIలకు సొంత రంగులు.",
+        "**లేఅవుట్:** ఎడమ ప్యానెల్ 1080p స్క్రీన్‌లో స్క్రోల్ లేకుండా పడుతుంది; అదనపు భాగం తీసివేయి, లోగో అప్‌లోడ్ బటన్లు; సహాయం > విరాళం; Import XML Resolume ఫోల్డర్‌ను తెరుస్తుంది.",
+        "**సవరణలు:** కనెక్షన్ ప్యానెల్ బటన్లు ఇక కత్తిరించబడవు, Grid ట్యాబ్‌లో Alignment ఇప్పుడు Transparent తర్వాతే వస్తుంది."
+      ],
+      "mr": [
+        "**ड्रॉइंग:** केबल साध्या सुरू होतात. केबलवर डबल-क्लिक करून हवे तितके रिझोल्यूशन बॉक्स, स्प्लिटर आणि हलवण्याचे हँडल जोडा; केबलचा मार्ग बदलण्यासाठी हँडल ओढा. बॉक्स, स्प्लिटर किंवा हँडलवर क्लिक करून Delete दाबल्यास फक्त तेच काढले जाते.",
+        "**मजकूर आणि रंग:** ड्रॉइंग टूलबारमधील नवीन A+, A- आणि B बटणे निवडलेल्या बॉक्स किंवा मजकूर बॉक्सचा आकार आणि ठळकपणा बदलतात. DisplayPort आणि DVI ला स्वतःचे रंग आहेत.",
+        "**मांडणी:** डावा पॅनेल 1080p स्क्रीनवर स्क्रोलशिवाय बसतो; अतिरिक्त काढा आणि लोगो अपलोड बटणे; मदत > देणगी द्या; Import XML Resolume फोल्डर उघडते.",
+        "**दुरुस्त्या:** कनेक्शन पॅनेलची बटणे आता कापली जात नाहीत, आणि Grid टॅबमध्ये Alignment आता Transparent नंतर लगेच येते."
+      ],
+      "da": [
+        "**Tegning:** kabler starter glatte. Dobbeltklik på et kabel for at tilføje så mange opløsningsfelter, splittere og flyttehåndtag, du vil; træk et håndtag for at føre kablet. Klik på et felt, en splitter eller et håndtag og tryk Delete for kun at fjerne det.",
+        "**Tekst og farver:** nye knapper A+, A- og B i tegnelinjen ændrer størrelse og fed for det markerede felt eller tekstfelt. DisplayPort og DVI har egne farver.",
+        "**Layout:** venstre panel passer til en 1080p-skærm uden rulning; knapperne Fjern overskud og Upload logo; Hjælp > Donér; Import XML åbner Resolume-mappen.",
+        "**Rettelser:** knapperne i forbindelsespanelet bliver ikke længere skåret af, og på fanen Grid kommer Alignment lige efter Transparent."
+      ],
+      "nb": [
+        "**Tegning:** kabler starter glatte. Dobbeltklikk på en kabel for å legge til så mange oppløsningsbokser, splittere og flyttehåndtak du vil; dra et håndtak for å føre kabelen. Klikk på en boks, splitter eller et håndtak og trykk Delete for å fjerne bare det.",
+        "**Tekst og farger:** nye knapper A+, A- og B i tegnelinjen endrer størrelse og fet skrift for den valgte boksen eller tekstboksen. DisplayPort og DVI har egne farger.",
+        "**Oppsett:** venstre panel får plass på en 1080p-skjerm uten rulling; knappene Fjern overskudd og Last opp logo; Hjelp > Doner; Import XML åpner Resolume-mappen.",
+        "**Rettelser:** knappene i tilkoblingspanelet blir ikke lenger kuttet, og i Grid-fanen kommer Alignment rett etter Transparent."
+      ],
+      "lt": [
+        "**Brėžinys:** kabeliai prasideda tušti. Dukart spustelėkite kabelį, kad pridėtumėte kiek norite raiškos langelių, skirstytuvų ir perkėlimo rankenėlių; vilkite rankenėlę, kad nukreiptumėte kabelį. Spustelėkite langelį, skirstytuvą ar rankenėlę ir paspauskite Delete, kad pašalintumėte tik jį.",
+        "**Tekstas ir spalvos:** nauji mygtukai A+, A- ir B brėžinio juostoje keičia pasirinkto langelio ar teksto langelio dydį ir paryškinimą. DisplayPort ir DVI turi savo spalvas.",
+        "**Išdėstymas:** kairysis skydelis telpa 1080p ekrane be slinkimo; mygtukai Pašalinti perteklių ir Įkelti logotipą; Pagalba > Paaukoti; Import XML atveria Resolume aplanką.",
+        "**Pataisymai:** ryšio skydelio mygtukai nebėra nukerpami, o skirtuke Grid Alignment dabar eina iškart po Transparent."
+      ],
+      "et": [
+        "**Joonis:** kaablid algavad tühjana. Topeltklõpsake kaablit, et lisada nii palju eraldusvõime kaste, jaotureid ja liigutamise pidemeid kui soovite; lohistage pidet kaabli suunamiseks. Klõpsake kasti, jaoturit või pidet ja vajutage Delete, et eemaldada ainult see.",
+        "**Tekst ja värvid:** joonise tööriistariba uued nupud A+, A- ja B muudavad valitud kasti või tekstikasti suurust ja paksust. DisplayPortil ja DVI-l on oma värvid.",
+        "**Paigutus:** vasak paneel mahub 1080p ekraanile ilma kerimiseta; nupud Eemalda liig ja Laadi logo üles; Abi > Anneta; Import XML avab Resolume'i kausta.",
+        "**Parandused:** ühenduse paneeli nupud ei lõigu enam ära ja Grid vahekaardil on Alignment kohe Transparenti järel."
+      ],
+      "sk": [
+        "**Výkres:** káble začínajú hladké. Dvojklikom na kábel pridáte ľubovoľný počet polí rozlíšenia, splitterov a úchytov na presun; ťahaním úchytu vediete kábel. Kliknite na pole, splitter alebo úchyt a stlačte Delete, odstráni sa len to.",
+        "**Text a farby:** nové tlačidlá A+, A- a B na lište výkresu menia veľkosť a tučnosť vybraného poľa alebo textového poľa. DisplayPort a DVI majú vlastné farby.",
+        "**Rozloženie:** ľavý panel sa zmestí na obrazovku 1080p bez posúvania; tlačidlá Odstrániť prebytok a Nahrať logo; Pomocník > Prispieť; Import XML otvorí priečinok Resolume.",
+        "**Opravy:** tlačidlá panela Pripojenie už nie sú odrezané a na karte Grid je Alignment hneď za Transparent."
+      ],
+      "bg": [
+        "**Чертеж:** кабелите започват гладки. Двоен клик върху кабел добавя колкото искате полета за резолюция, сплитери и манипулатори за преместване; плъзнете манипулатор, за да прекарате кабела. Кликнете поле, сплитер или манипулатор и натиснете Delete, за да премахнете само него.",
+        "**Текст и цветове:** новите бутони A+, A- и B в лентата на чертежа променят размера и удебеляването на избраното поле или текстово поле. DisplayPort и DVI имат свои цветове.",
+        "**Оформление:** левият панел се побира на екран 1080p без превъртане; бутони Премахни излишъка и Качи лого; Помощ > Дарете; Import XML отваря папката на Resolume.",
+        "**Поправки:** бутоните на панела за връзка вече не се изрязват, а в раздела Grid Alignment е веднага след Transparent."
+      ],
+      "sr": [
+        "**Цртеж:** каблови почињу глатки. Двоструки клик на кабл додаје колико желите поља резолуције, сплитера и ручица за померање; превуците ручицу да водите кабл. Кликните поље, сплитер или ручицу и притисните Delete да уклоните само то.",
+        "**Текст и боје:** нова дугмад A+, A- и B на траци цртежа мењају величину и подебљање изабраног оквира или оквира за текст. DisplayPort и DVI имају своје боје.",
+        "**Распоред:** леви панел стаје на екран 1080p без помицања; дугмад Уклони вишак и Отпреми лого; Помоћ > Донирај; Import XML отвара Resolume фасциклу.",
+        "**Исправке:** дугмад панела Веза више нису одсечена, а на картици Grid Alignment сада долази одмах после Transparent."
+      ],
+      "hr": [
+        "**Crtež:** kabeli počinju glatki. Dvostruki klik na kabel dodaje koliko želite okvira razlučivosti, razdjelnika i ručica za pomicanje; povucite ručicu za vođenje kabela. Kliknite okvir, razdjelnik ili ručicu i pritisnite Delete da uklonite samo to.",
+        "**Tekst i boje:** novi gumbi A+, A- i B na traci crteža mijenjaju veličinu i podebljanje odabranog okvira ili tekstnog okvira. DisplayPort i DVI imaju svoje boje.",
+        "**Raspored:** lijeva ploča stane na zaslon 1080p bez pomicanja; gumbi Ukloni višak i Učitaj logotip; Pomoć > Doniraj; Import XML otvara mapu Resolume.",
+        "**Ispravci:** gumbi ploče Veza više nisu odrezani, a na kartici Grid Alignment sada dolazi odmah nakon Transparent."
+      ],
+      "gu": [
+        "**ડ્રોઇંગ:** કેબલ સાદા શરૂ થાય છે. કેબલ પર ડબલ-ક્લિક કરી જોઈએ તેટલા રિઝોલ્યુશન બૉક્સ, સ્પ્લિટર અને ખસેડવાના હેન્ડલ ઉમેરો; કેબલનો માર્ગ બદલવા હેન્ડલ ખેંચો. બૉક્સ, સ્પ્લિટર કે હેન્ડલ પર ક્લિક કરી Delete દબાવવાથી માત્ર તે જ દૂર થાય છે.",
+        "**લખાણ અને રંગ:** ડ્રોઇંગ ટૂલબારના નવા A+, A- અને B બટન પસંદ કરેલા બૉક્સ કે ટેક્સ્ટ બૉક્સનું કદ અને બોલ્ડ બદલે છે. DisplayPort અને DVI ના પોતાના રંગ છે.",
+        "**લેઆઉટ:** ડાબી પેનલ 1080p સ્ક્રીન પર સ્ક્રોલ વિના સમાય છે; વધારાનું દૂર કરો અને લોગો અપલોડ બટન; મદદ > દાન કરો; Import XML Resolume ફોલ્ડર ખોલે છે.",
+        "**સુધારા:** કનેક્શન પેનલના બટન હવે કપાતા નથી, અને Grid ટૅબમાં Alignment હવે Transparent પછી તરત આવે છે."
+      ],
+      "pa": [
+        "**ਡਰਾਇੰਗ:** ਕੇਬਲ ਸਾਦੇ ਸ਼ੁਰੂ ਹੁੰਦੇ ਹਨ। ਕੇਬਲ 'ਤੇ ਡਬਲ-ਕਲਿੱਕ ਕਰਕੇ ਜਿੰਨੇ ਚਾਹੋ ਰੈਜ਼ੋਲਿਊਸ਼ਨ ਬਾਕਸ, ਸਪਲਿਟਰ ਅਤੇ ਹਿਲਾਉਣ ਵਾਲੇ ਹੈਂਡਲ ਜੋੜੋ; ਕੇਬਲ ਦਾ ਰਾਹ ਬਦਲਣ ਲਈ ਹੈਂਡਲ ਖਿੱਚੋ। ਬਾਕਸ, ਸਪਲਿਟਰ ਜਾਂ ਹੈਂਡਲ 'ਤੇ ਕਲਿੱਕ ਕਰਕੇ Delete ਦਬਾਉਣ ਨਾਲ ਸਿਰਫ਼ ਉਹੀ ਹਟਦਾ ਹੈ।",
+        "**ਟੈਕਸਟ ਅਤੇ ਰੰਗ:** ਡਰਾਇੰਗ ਟੂਲਬਾਰ ਦੇ ਨਵੇਂ A+, A- ਅਤੇ B ਬਟਨ ਚੁਣੇ ਬਾਕਸ ਜਾਂ ਟੈਕਸਟ ਬਾਕਸ ਦਾ ਆਕਾਰ ਅਤੇ ਬੋਲਡ ਬਦਲਦੇ ਹਨ। DisplayPort ਅਤੇ DVI ਦੇ ਆਪਣੇ ਰੰਗ ਹਨ।",
+        "**ਲੇਆਉਟ:** ਖੱਬਾ ਪੈਨਲ 1080p ਸਕ੍ਰੀਨ 'ਤੇ ਬਿਨਾਂ ਸਕ੍ਰੋਲ ਦੇ ਆ ਜਾਂਦਾ ਹੈ; ਵਾਧੂ ਹਟਾਓ ਅਤੇ ਲੋਗੋ ਅੱਪਲੋਡ ਬਟਨ; ਮਦਦ > ਦਾਨ ਕਰੋ; Import XML Resolume ਫੋਲਡਰ ਖੋਲ੍ਹਦਾ ਹੈ।",
+        "**ਸੁਧਾਰ:** ਕਨੈਕਸ਼ਨ ਪੈਨਲ ਦੇ ਬਟਨ ਹੁਣ ਕੱਟੇ ਨਹੀਂ ਜਾਂਦੇ, ਅਤੇ Grid ਟੈਬ ਵਿੱਚ Alignment ਹੁਣ Transparent ਤੋਂ ਤੁਰੰਤ ਬਾਅਦ ਆਉਂਦਾ ਹੈ।"
+      ],
+      "kn": [
+        "**ಡ್ರಾಯಿಂಗ್:** ಕೇಬಲ್‌ಗಳು ಖಾಲಿಯಾಗಿ ಆರಂಭವಾಗುತ್ತವೆ. ಕೇಬಲ್ ಮೇಲೆ ಡಬಲ್-ಕ್ಲಿಕ್ ಮಾಡಿ ಬೇಕಾದಷ್ಟು ರೆಸಲ್ಯೂಶನ್ ಬಾಕ್ಸ್, ಸ್ಪ್ಲಿಟರ್ ಮತ್ತು ಸರಿಸುವ ಹಿಡಿಕೆಗಳನ್ನು ಸೇರಿಸಿ; ಕೇಬಲ್ ದಾರಿ ಬದಲಿಸಲು ಹಿಡಿಕೆಯನ್ನು ಎಳೆಯಿರಿ. ಬಾಕ್ಸ್, ಸ್ಪ್ಲಿಟರ್ ಅಥವಾ ಹಿಡಿಕೆ ಕ್ಲಿಕ್ ಮಾಡಿ Delete ಒತ್ತಿದರೆ ಅದೊಂದೇ ಅಳಿಯುತ್ತದೆ.",
+        "**ಪಠ್ಯ ಮತ್ತು ಬಣ್ಣಗಳು:** ಡ್ರಾಯಿಂಗ್ ಟೂಲ್‌ಬಾರ್‌ನ ಹೊಸ A+, A- ಮತ್ತು B ಬಟನ್‌ಗಳು ಆಯ್ಕೆ ಮಾಡಿದ ಬಾಕ್ಸ್ ಅಥವಾ ಪಠ್ಯ ಬಾಕ್ಸ್‌ನ ಗಾತ್ರ ಮತ್ತು ದಪ್ಪವನ್ನು ಬದಲಿಸುತ್ತವೆ. DisplayPort ಮತ್ತು DVIಗೆ ತಮ್ಮದೇ ಬಣ್ಣಗಳಿವೆ.",
+        "**ವಿನ್ಯಾಸ:** ಎಡ ಫಲಕ 1080p ಪರದೆಯಲ್ಲಿ ಸ್ಕ್ರೋಲ್ ಇಲ್ಲದೆ ಹಿಡಿಸುತ್ತದೆ; ಹೆಚ್ಚುವರಿ ತೆಗೆದುಹಾಕಿ ಮತ್ತು ಲೋಗೋ ಅಪ್‌ಲೋಡ್ ಬಟನ್‌ಗಳು; ಸಹಾಯ > ದೇಣಿಗೆ ನೀಡಿ; Import XML Resolume ಫೋಲ್ಡರ್ ತೆರೆಯುತ್ತದೆ.",
+        "**ಸರಿಪಡಿಕೆಗಳು:** ಸಂಪರ್ಕ ಫಲಕದ ಬಟನ್‌ಗಳು ಇನ್ನು ಕತ್ತರಿಸುವುದಿಲ್ಲ, ಮತ್ತು Grid ಟ್ಯಾಬ್‌ನಲ್ಲಿ Alignment ಈಗ Transparent ನಂತರವೇ ಬರುತ್ತದೆ."
+      ],
+      "ne": [
+        "**ड्रइङ:** केबलहरू सादा सुरु हुन्छन्। केबलमा डबल-क्लिक गरेर चाहे जति रिजोल्युसन बक्स, स्प्लिटर र सार्ने ह्यान्डल थप्नुहोस्; केबलको बाटो बदल्न ह्यान्डल तान्नुहोस्। बक्स, स्प्लिटर वा ह्यान्डलमा क्लिक गरी Delete थिच्दा त्यो मात्र हट्छ।",
+        "**पाठ र रङ:** ड्रइङ टुलबारका नयाँ A+, A- र B बटनले छानिएको बक्स वा पाठ बक्सको आकार र बोल्ड बदल्छन्। DisplayPort र DVI का आफ्नै रङ छन्।",
+        "**लेआउट:** बायाँ प्यानल 1080p स्क्रिनमा स्क्रोल बिना अटाउँछ; अतिरिक्त हटाउनुहोस् र लोगो अपलोड बटन; मद्दत > दान गर्नुहोस्; Import XML ले Resolume फोल्डर खोल्छ।",
+        "**सुधारहरू:** जडान प्यानलका बटनहरू अब काटिँदैनन्, र Grid ट्याबमा Alignment अब Transparent पछि तुरुन्तै आउँछ।"
+      ],
+      "km": [
+        "**គំនូរ៖** ខ្សែចាប់ផ្ដើមទទេ។ ចុចពីរដងលើខ្សែ ដើម្បីបន្ថែមប្រអប់គុណភាពបង្ហាញ ឧបករណ៍បំបែក និងដងសម្រាប់ផ្លាស់ទីបានច្រើនតាមចិត្ត អូសដងដើម្បីដឹកខ្សែ។ ចុចលើប្រអប់ ឧបករណ៍បំបែក ឬដង ហើយចុច Delete ដើម្បីលុបតែវាប៉ុណ្ណោះ។",
+        "**អក្សរ និងពណ៌៖** ប៊ូតុងថ្មី A+, A- និង B នៅលើរបារគំនូរ ប្ដូរទំហំ និងអក្សរដិតនៃប្រអប់ ឬប្រអប់អត្ថបទដែលបានជ្រើស។ DisplayPort និង DVI មានពណ៌ផ្ទាល់ខ្លួន។",
+        "**ប្លង់៖** ផ្ទាំងខាងឆ្វេងសមនឹងអេក្រង់ 1080p ដោយមិនបាច់រំកិល ប៊ូតុងដកផ្នែកលើស និងផ្ទុកឡូហ្គោ ជំនួយ > បរិច្ចាគ ហើយ Import XML បើកថត Resolume។",
+        "**ការកែ៖** ប៊ូតុងនៃផ្ទាំងការតភ្ជាប់ មិនត្រូវកាត់ទៀតទេ ហើយនៅផ្ទាំង Grid Alignment ឥឡូវមកភ្លាមក្រោយ Transparent។"
+      ],
+      "kk": [
+        "**Сызба:** кабельдер бос басталады. Кабельді екі рет басып, қалағаныңызша ажыратымдылық өрістерін, сплиттерлерді және жылжыту тұтқаларын қосыңыз; кабельді бағыттау үшін тұтқаны сүйреңіз. Өрісті, сплиттерді не тұтқаны басып, Delete пернесін бассаңыз, тек сол жойылады.",
+        "**Мәтін мен түстер:** сызба құралдар тақтасындағы жаңа A+, A- және B батырмалары таңдалған өрістің не мәтін өрісінің өлшемі мен жуандығын өзгертеді. DisplayPort пен DVI-дің өз түстері бар.",
+        "**Орналасу:** сол жақ панель 1080p экранға айналдырусыз сыяды; Артығын алып тастау және Логотип жүктеу батырмалары; Анықтама > Қайырымдылық; Import XML Resolume қалтасын ашады.",
+        "**Түзетулер:** қосылым панелінің батырмалары енді кесілмейді, ал Grid қойындысында Alignment енді Transparent-тен кейін бірден тұр."
+      ],
+      "uz": [
+        "**Chizma:** kabellar bo'sh boshlanadi. Kabelni ikki marta bosib, xohlagancha ruxsat oynasi, splitter va siljitish dastaklarini qo'shing; kabelni yo'naltirish uchun dastakni torting. Oyna, splitter yoki dastakni bosib Delete'ni bossangiz, faqat o'sha o'chadi.",
+        "**Matn va ranglar:** chizma panelidagi yangi A+, A- va B tugmalari tanlangan quti yoki matn qutisining o'lchami va qalinligini o'zgartiradi. DisplayPort va DVI o'z ranglariga ega.",
+        "**Joylashuv:** chap panel 1080p ekranga aylantirmasdan sig'adi; Ortiqchasini olib tashlash va Logotip yuklash tugmalari; Yordam > Xayriya qilish; Import XML Resolume jildini ochadi.",
+        "**Tuzatishlar:** ulanish paneli tugmalari endi kesilmaydi, Grid yorlig'ida esa Alignment endi Transparent'dan keyin keladi."
+      ],
+      "am": [
+        "**ስዕል፦** ገመዶች ባዶ ሆነው ይጀምራሉ። ገመዱን ሁለቴ ጠቅ በማድረግ የፈለጉትን ያህል የጥራት ሳጥን፣ ስፕሊተር እና የማንቀሳቀሻ መያዣ ያክሉ፤ ገመዱን ለመምራት መያዣውን ይጎትቱ። ሳጥን፣ ስፕሊተር ወይም መያዣ ጠቅ አድርገው Delete ቢጫኑ ያንን ብቻ ያስወግዳል።",
+        "**ጽሑፍና ቀለሞች፦** በስዕል የመሣሪያ አሞሌ ያሉት አዲሶቹ A+፣ A- እና B አዝራሮች የተመረጠውን ሳጥን ወይም የጽሑፍ ሳጥን መጠንና ድምቀት ይቀይራሉ። DisplayPort እና DVI የራሳቸው ቀለም አላቸው።",
+        "**አቀማመጥ፦** የግራ ፓነሉ በ1080p ማያ ገጽ ያለ ማሸብለል ይበቃል፤ ትርፉን አስወግድ እና አርማ ስቀል አዝራሮች፤ እገዛ > ይለግሱ፤ Import XML የResolume አቃፊን ይከፍታል።",
+        "**ማስተካከያዎች፦** የግንኙነት ፓነል አዝራሮች ከእንግዲህ አይቆረጡም፤ በGrid ትር Alignment አሁን ከTransparent ወዲያው በኋላ ይመጣል።"
+      ],
+      "sl": [
+        "**Risba:** kabli se začnejo gladki. Dvoklik na kabel doda poljubno število polj ločljivosti, razdelilnikov in ročic za premikanje; povlecite ročico, da vodite kabel. Kliknite polje, razdelilnik ali ročico in pritisnite Delete, da odstranite samo to.",
+        "**Besedilo in barve:** novi gumbi A+, A- in B v orodni vrstici risbe spremenijo velikost in krepkost izbranega polja ali besedilnega polja. DisplayPort in DVI imata svoje barve.",
+        "**Postavitev:** levi pano se prilega zaslonu 1080p brez drsenja; gumba Odstrani presežek in Naloži logotip; Pomoč > Doniraj; Import XML odpre mapo Resolume.",
+        "**Popravki:** gumbi plošče Povezava niso več odrezani, na zavihku Grid pa je Alignment zdaj takoj za Transparent."
+      ]
+    },
+    "2.7.2": {
+      "en": [
+        "**Connection:** the cable can go from one screen to the next, even across empty gaps, on the same port until it is full, and the link also shows in the 3D. New Clear all button.",
+        "**Import XML:** File > Import XML... turns each slice of a Resolume Advanced Output preset into an LED screen, with the canvas exactly at the output resolution.",
+        "**Weight:** weight per cabinet (default 8.5 kg), with the weight per panel and the total in the Info box, Status, 3D Stage and PDF report. Choose the weight unit in Settings; cabinet presets keep the weight.",
+        "**Colors and menu:** black and white option in the panel color menu (double-click), and File now has Import 3D... and Import XML... separately."
+      ],
+      "pt": [
+        "**Connection:** o cabo passa de uma placa para a outra, mesmo com vão vazio entre elas, na mesma porta até ela encher, e a ligação aparece também no 3D. Novo botão Clear all.",
+        "**Importar XML:** File > Import XML... transforma cada slice de um preset do Advanced Output do Resolume numa tela de LED, com o canvas exatamente na resolução da saída.",
+        "**Peso:** peso por gabinete (padrão 8,5 kg), com o peso por placa e o total na caixa Info, no Status, no 3D Stage e no relatório PDF. A unidade de peso fica nas Settings; os presets de gabinete guardam o peso.",
+        "**Cores e menu:** opção preto e branco no menu de cores da placa (clique duplo), e o File agora tem Import 3D... e Import XML... separados."
+      ],
+      "es": [
+        "**Connection:** el cable puede pasar de una pantalla a otra, incluso con huecos vacíos, en el mismo puerto hasta llenarlo, y la unión también se ve en el 3D. Nuevo botón Clear all.",
+        "**Importar XML:** File > Import XML... convierte cada slice de un preset de Advanced Output de Resolume en una pantalla LED, con el lienzo exactamente a la resolución de salida.",
+        "**Peso:** peso por gabinete (8,5 kg por defecto), con el peso por panel y el total en la caja Info, Status, 3D Stage y el informe PDF. La unidad de peso se elige en Settings; los presets de gabinete guardan el peso.",
+        "**Colores y menú:** opción blanco y negro en el menú de color del panel (doble clic), y File ahora tiene Import 3D... e Import XML... por separado."
+      ],
+      "fr": [
+        "**Connection :** le câble peut passer d'un écran à l'autre, même à travers des espaces vides, sur le même port jusqu'à ce qu'il soit plein, et la liaison apparaît aussi en 3D. Nouveau bouton Clear all.",
+        "**Importer XML :** File > Import XML... transforme chaque slice d'un preset Advanced Output de Resolume en écran LED, avec le canevas exactement à la résolution de sortie.",
+        "**Poids :** poids par caisson (8,5 kg par défaut), avec le poids par panneau et le total dans la boîte Info, Status, 3D Stage et le rapport PDF. L'unité de poids se choisit dans Settings ; les presets de caisson gardent le poids.",
+        "**Couleurs et menu :** option noir et blanc dans le menu de couleur du panneau (double-clic), et File propose maintenant Import 3D... et Import XML... séparément."
+      ],
+      "de": [
+        "**Connection:** Das Kabel kann von einem Bildschirm zum nächsten gehen, auch über leere Lücken, auf demselben Port, bis er voll ist; die Verbindung erscheint auch im 3D. Neue Schaltfläche Clear all.",
+        "**XML importieren:** File > Import XML... macht aus jedem Slice eines Resolume-Advanced-Output-Presets einen LED-Bildschirm, mit der Leinwand genau in der Ausgangsauflösung.",
+        "**Gewicht:** Gewicht pro Kabinett (Standard 8,5 kg), mit Gewicht pro Panel und Gesamtgewicht in der Info-Box, Status, 3D Stage und im PDF-Bericht. Die Gewichtseinheit wird in den Settings gewählt; Kabinett-Presets speichern das Gewicht.",
+        "**Farben und Menü:** Schwarz-Weiß-Option im Farbmenü des Panels (Doppelklick), und File hat jetzt Import 3D... und Import XML... getrennt."
+      ],
+      "it": [
+        "**Connection:** il cavo può passare da uno schermo all'altro, anche attraverso spazi vuoti, sulla stessa porta finché non è piena, e il collegamento si vede anche in 3D. Nuovo pulsante Clear all.",
+        "**Importa XML:** File > Import XML... trasforma ogni slice di un preset Advanced Output di Resolume in uno schermo LED, con la tela esattamente alla risoluzione di uscita.",
+        "**Peso:** peso per cabinet (predefinito 8,5 kg), con il peso per pannello e il totale nel riquadro Info, Status, 3D Stage e nel report PDF. L'unità di peso si sceglie in Settings; i preset di cabinet conservano il peso.",
+        "**Colori e menu:** opzione bianco e nero nel menu colori del pannello (doppio clic), e File ora ha Import 3D... e Import XML... separati."
+      ],
+      "nl": [
+        "**Connection:** de kabel kan van het ene scherm naar het volgende, ook over lege tussenruimtes, op dezelfde poort tot die vol is, en de verbinding is ook in 3D te zien. Nieuwe knop Clear all.",
+        "**XML importeren:** File > Import XML... maakt van elke slice van een Resolume Advanced Output-preset een LED-scherm, met het canvas precies op de uitvoerresolutie.",
+        "**Gewicht:** gewicht per cabinet (standaard 8,5 kg), met het gewicht per paneel en het totaal in het Info-vak, Status, 3D Stage en het PDF-rapport. De gewichtseenheid kies je in Settings; cabinet-presets bewaren het gewicht.",
+        "**Kleuren en menu:** zwart-witoptie in het kleurmenu van het paneel (dubbelklik), en File heeft nu Import 3D... en Import XML... apart."
+      ],
+      "ru": [
+        "**Connection:** кабель может переходить с одного экрана на другой, даже через пустые промежутки, на том же порту, пока он не заполнится; связь видна и в 3D. Новая кнопка Clear all.",
+        "**Импорт XML:** File > Import XML... превращает каждый слайс пресета Advanced Output Resolume в LED-экран, а холст получает точное разрешение выхода.",
+        "**Вес:** вес кабинета (по умолчанию 8,5 кг), вес одной панели и общий вес в окне Info, Status, 3D Stage и PDF-отчёте. Единица веса выбирается в Settings; пресеты кабинета сохраняют вес.",
+        "**Цвета и меню:** чёрно-белый вариант в меню цвета панели (двойной щелчок), а в File теперь отдельно Import 3D... и Import XML...."
+      ],
+      "tr": [
+        "**Connection:** kablo, boş aralıklar olsa bile bir ekrandan diğerine, dolana kadar aynı portta geçebilir ve bağlantı 3D'de de görünür. Yeni Clear all düğmesi.",
+        "**XML içe aktar:** File > Import XML..., bir Resolume Advanced Output ön ayarındaki her slice'ı bir LED ekrana dönüştürür; tuval tam çıkış çözünürlüğünde olur.",
+        "**Ağırlık:** kabin başına ağırlık (varsayılan 8,5 kg); panel başına ağırlık ve toplam Info kutusu, Status, 3D Stage ve PDF raporunda. Ağırlık birimi Settings'ten seçilir; kabin ön ayarları ağırlığı saklar.",
+        "**Renkler ve menü:** panel renk menüsünde siyah-beyaz seçeneği (çift tıklama); File artık Import 3D... ve Import XML... seçeneklerini ayrı sunar."
+      ],
+      "id": [
+        "**Connection:** kabel bisa berpindah dari satu layar ke layar berikutnya, bahkan melewati celah kosong, pada port yang sama sampai penuh, dan sambungannya juga terlihat di 3D. Tombol baru Clear all.",
+        "**Impor XML:** File > Import XML... mengubah setiap slice dari preset Advanced Output Resolume menjadi layar LED, dengan kanvas tepat pada resolusi output.",
+        "**Berat:** berat per kabinet (bawaan 8,5 kg), dengan berat per panel dan total di kotak Info, Status, 3D Stage, dan laporan PDF. Satuan berat dipilih di Settings; preset kabinet menyimpan beratnya.",
+        "**Warna dan menu:** opsi hitam putih di menu warna panel (klik ganda), dan File kini punya Import 3D... dan Import XML... secara terpisah."
+      ],
+      "hu": [
+        "**Connection:** a kábel átmehet egyik képernyőről a másikra, üres réseken át is, ugyanazon a porton, amíg az meg nem telik, és a kapcsolat a 3D-ben is látszik. Új Clear all gomb.",
+        "**XML importálása:** a File > Import XML... egy Resolume Advanced Output előbeállítás minden slice-ából LED-képernyőt készít, a vászon pontosan a kimeneti felbontású lesz.",
+        "**Tömeg:** kabinetenkénti tömeg (alapértelmezés 8,5 kg), a panelenkénti és a teljes tömeg az Info dobozban, a Status, a 3D Stage oldalon és a PDF-jelentésben. A mértékegység a Settings-ben választható; a kabinet-előbeállítások megőrzik a tömeget.",
+        "**Színek és menü:** fekete-fehér lehetőség a panel színmenüjében (dupla kattintás), a File menüben pedig külön Import 3D... és Import XML... van."
+      ],
+      "zh-Hans": [
+        "**Connection：**线缆可以从一块屏幕走到下一块，即使中间有空隙，也会在同一端口上直到端口满载，连接在 3D 中也会显示。新增 Clear all 按钮。",
+        "**导入 XML：**File > Import XML... 会把 Resolume Advanced Output 预设中的每个 slice 变成一块 LED 屏幕，画布正好等于输出分辨率。",
+        "**重量：**每个箱体的重量（默认 8.5 kg），在 Info 框、Status、3D Stage 和 PDF 报告中显示每块面板重量和总重量。重量单位在 Settings 中选择；箱体预设会保存重量。",
+        "**颜色和菜单：**面板颜色菜单（双击）中新增黑白选项，File 菜单现在分别提供 Import 3D... 和 Import XML...。"
+      ],
+      "zh-Hant": [
+        "**Connection：**線材可以從一塊螢幕走到下一塊，即使中間有空隙，也會在同一連接埠上直到滿載，連接在 3D 中也會顯示。新增 Clear all 按鈕。",
+        "**匯入 XML：**File > Import XML... 會把 Resolume Advanced Output 預設中的每個 slice 變成一塊 LED 螢幕，畫布正好等於輸出解析度。",
+        "**重量：**每個箱體的重量（預設 8.5 kg），在 Info 方塊、Status、3D Stage 和 PDF 報告中顯示每塊面板重量和總重量。重量單位在 Settings 中選擇；箱體預設會保存重量。",
+        "**顏色和選單：**面板顏色選單（雙擊）中新增黑白選項，File 選單現在分別提供 Import 3D... 和 Import XML...。"
+      ],
+      "ja": [
+        "**Connection：**ケーブルは空きスペースをはさんでも、ポートがいっぱいになるまで同じポートのまま次のスクリーンへ進めます。接続は 3D にも表示されます。新しい Clear all ボタン。",
+        "**XML の読み込み：**File > Import XML... で Resolume の Advanced Output プリセットの各 slice が LED スクリーンになり、キャンバスは出力解像度ちょうどになります。",
+        "**重量：**キャビネットごとの重量（既定 8.5 kg）。パネルあたりの重量と合計を Info ボックス、Status、3D Stage、PDF レポートに表示。重量の単位は Settings で選択でき、キャビネットのプリセットも重量を保存します。",
+        "**色とメニュー：**パネルの色メニュー（ダブルクリック）に白黒を追加し、File に Import 3D... と Import XML... を別々に用意しました。"
+      ],
+      "ko": [
+        "**Connection:** 케이블이 빈 공간이 있어도 한 화면에서 다음 화면으로 이어지며, 포트가 가득 찰 때까지 같은 포트를 사용하고 연결은 3D에도 표시됩니다. 새 Clear all 버튼.",
+        "**XML 가져오기:** File > Import XML...은 Resolume Advanced Output 프리셋의 각 slice를 LED 화면으로 만들고, 캔버스는 출력 해상도와 정확히 같아집니다.",
+        "**무게:** 캐비닛당 무게(기본 8.5 kg)와 패널당 무게, 총 무게를 Info 상자, Status, 3D Stage, PDF 보고서에 표시합니다. 무게 단위는 Settings에서 선택하며, 캐비닛 프리셋도 무게를 저장합니다.",
+        "**색상과 메뉴:** 패널 색상 메뉴(더블 클릭)에 흑백 옵션이 추가되었고, File에 Import 3D...와 Import XML...이 따로 있습니다."
+      ],
+      "ar": [
+        "**Connection:** يمكن للكابل الانتقال من شاشة إلى أخرى، حتى عبر الفراغات، على المنفذ نفسه حتى يمتلئ، ويظهر الاتصال أيضًا في العرض ثلاثي الأبعاد. زر جديد Clear all.",
+        "**استيراد XML:** يحوّل File > Import XML... كل شريحة من إعداد Advanced Output في Resolume إلى شاشة LED، مع لوحة بدقة الإخراج تمامًا.",
+        "**الوزن:** وزن لكل خزانة (الافتراضي 8.5 كغ)، مع الوزن لكل لوحة والإجمالي في مربع Info وStatus و3D Stage وتقرير PDF. تُختار وحدة الوزن في Settings، وتحفظ إعدادات الخزانة المسبقة الوزن.",
+        "**الألوان والقائمة:** خيار أبيض وأسود في قائمة ألوان اللوحة (نقر مزدوج)، وأصبح في File خياران منفصلان Import 3D... وImport XML...."
+      ],
+      "th": [
+        "**Connection:** สายสามารถต่อจากหน้าจอหนึ่งไปอีกหน้าจอหนึ่งได้ แม้มีช่องว่าง โดยใช้พอร์ตเดิมจนเต็ม และการเชื่อมต่อแสดงใน 3D ด้วย ปุ่มใหม่ Clear all",
+        "**นำเข้า XML:** File > Import XML... เปลี่ยนแต่ละ slice ของพรีเซ็ต Advanced Output ของ Resolume เป็นจอ LED และแคนวาสมีขนาดเท่าความละเอียดเอาต์พุตพอดี",
+        "**น้ำหนัก:** น้ำหนักต่อตู้ (ค่าเริ่มต้น 8.5 kg) พร้อมน้ำหนักต่อแผงและน้ำหนักรวมในกล่อง Info, Status, 3D Stage และรายงาน PDF เลือกหน่วยน้ำหนักใน Settings และพรีเซ็ตตู้จะเก็บน้ำหนักไว้",
+        "**สีและเมนู:** ตัวเลือกขาวดำในเมนูสีของแผง (ดับเบิลคลิก) และเมนู File มี Import 3D... กับ Import XML... แยกกันแล้ว"
+      ],
+      "hi": [
+        "**Connection:** केबल एक स्क्रीन से दूसरी स्क्रीन तक जा सकती है, बीच में खाली जगह हो तब भी, पोर्ट भरने तक उसी पोर्ट पर, और जुड़ाव 3D में भी दिखता है। नया Clear all बटन।",
+        "**XML इंपोर्ट:** File > Import XML... Resolume Advanced Output प्रीसेट के हर slice को LED स्क्रीन बनाता है, और कैनवास ठीक आउटपुट रिज़ॉल्यूशन पर होता है।",
+        "**वज़न:** प्रति कैबिनेट वज़न (डिफ़ॉल्ट 8.5 kg), Info बॉक्स, Status, 3D Stage और PDF रिपोर्ट में प्रति पैनल वज़न और कुल वज़न। वज़न की इकाई Settings में चुनें; कैबिनेट प्रीसेट वज़न भी रखते हैं।",
+        "**रंग और मेन्यू:** पैनल के रंग मेन्यू (डबल-क्लिक) में ब्लैक एंड व्हाइट विकल्प, और File में अब Import 3D... और Import XML... अलग-अलग हैं।"
+      ],
+      "vi": [
+        "**Connection:** cáp có thể đi từ màn hình này sang màn hình khác, kể cả qua khoảng trống, trên cùng một cổng cho đến khi đầy, và đường nối cũng hiện trong 3D. Nút mới Clear all.",
+        "**Nhập XML:** File > Import XML... biến mỗi slice của preset Advanced Output trong Resolume thành một màn hình LED, với canvas đúng bằng độ phân giải đầu ra.",
+        "**Trọng lượng:** trọng lượng mỗi cabinet (mặc định 8,5 kg), cùng trọng lượng mỗi tấm và tổng trong hộp Info, Status, 3D Stage và báo cáo PDF. Chọn đơn vị trọng lượng trong Settings; preset cabinet giữ cả trọng lượng.",
+        "**Màu và menu:** tùy chọn đen trắng trong menu màu của tấm (nhấp đúp), và File giờ có Import 3D... và Import XML... riêng."
+      ],
+      "bn": [
+        "**Connection:** কেবল এক স্ক্রিন থেকে পরের স্ক্রিনে যেতে পারে, ফাঁকা জায়গা থাকলেও, পোর্ট ভরা পর্যন্ত একই পোর্টে, আর সংযোগ 3D-তেও দেখা যায়। নতুন Clear all বোতাম।",
+        "**XML ইমপোর্ট:** File > Import XML... Resolume Advanced Output প্রিসেটের প্রতিটি slice-কে একটি LED স্ক্রিনে পরিণত করে, ক্যানভাস ঠিক আউটপুট রেজোলিউশনে থাকে।",
+        "**ওজন:** প্রতি ক্যাবিনেটের ওজন (ডিফল্ট 8.5 kg), Info বক্স, Status, 3D Stage ও PDF রিপোর্টে প্রতি প্যানেলের ওজন ও মোট ওজন। ওজনের একক Settings-এ বেছে নিন; ক্যাবিনেট প্রিসেট ওজনও রাখে।",
+        "**রং ও মেনু:** প্যানেলের রঙের মেনুতে (ডাবল-ক্লিক) সাদা-কালো বিকল্প, আর File-এ এখন Import 3D... ও Import XML... আলাদা।"
+      ],
+      "ms": [
+        "**Connection:** kabel boleh pergi dari satu skrin ke skrin seterusnya, walaupun melalui ruang kosong, pada port yang sama sehingga penuh, dan sambungan juga kelihatan dalam 3D. Butang baharu Clear all.",
+        "**Import XML:** File > Import XML... menjadikan setiap slice pratetap Advanced Output Resolume sebuah skrin LED, dengan kanvas tepat pada resolusi output.",
+        "**Berat:** berat setiap kabinet (lalai 8.5 kg), dengan berat setiap panel dan jumlah dalam kotak Info, Status, 3D Stage dan laporan PDF. Pilih unit berat dalam Settings; pratetap kabinet menyimpan berat.",
+        "**Warna dan menu:** pilihan hitam putih dalam menu warna panel (klik dua kali), dan File kini ada Import 3D... dan Import XML... secara berasingan."
+      ],
+      "sv": [
+        "**Connection:** kabeln kan gå från en skärm till nästa, även över tomma mellanrum, på samma port tills den är full, och kopplingen syns också i 3D. Ny knapp Clear all.",
+        "**Importera XML:** File > Import XML... gör varje slice i en Resolume Advanced Output-förinställning till en LED-skärm, med duken exakt i utgångsupplösningen.",
+        "**Vikt:** vikt per kabinett (standard 8,5 kg), med vikt per panel och total i Info-rutan, Status, 3D Stage och PDF-rapporten. Viktenheten väljs i Settings; kabinettförinställningar sparar vikten.",
+        "**Färger och meny:** svartvitt alternativ i panelens färgmeny (dubbelklick), och File har nu Import 3D... och Import XML... separat."
+      ],
+      "ur": [
+        "**Connection:** کیبل ایک اسکرین سے اگلی تک جا سکتی ہے، خالی جگہ کے باوجود، پورٹ بھرنے تک اسی پورٹ پر، اور کنکشن 3D میں بھی دکھتا ہے۔ نیا Clear all بٹن۔",
+        "**XML امپورٹ:** File > Import XML... ‏Resolume Advanced Output پری سیٹ کے ہر slice کو LED اسکرین بناتا ہے، اور کینوس بالکل آؤٹ پٹ ریزولیوشن پر ہوتا ہے۔",
+        "**وزن:** فی کیبنٹ وزن (ڈیفالٹ 8.5 kg)، Info باکس، Status، 3D Stage اور PDF رپورٹ میں فی پینل وزن اور کل وزن۔ وزن کی اکائی Settings میں منتخب کریں؛ کیبنٹ پری سیٹ وزن بھی رکھتے ہیں۔",
+        "**رنگ اور مینو:** پینل کے رنگ مینو (ڈبل کلک) میں بلیک اینڈ وائٹ آپشن، اور File میں اب Import 3D... اور Import XML... الگ الگ ہیں۔"
+      ],
+      "sw": [
+        "**Connection:** kebo inaweza kutoka skrini moja hadi nyingine, hata kupitia nafasi tupu, kwenye mlango uleule hadi ujae, na muunganisho unaonekana pia kwenye 3D. Kitufe kipya Clear all.",
+        "**Leta XML:** File > Import XML... hugeuza kila slice ya mpangilio wa Advanced Output wa Resolume kuwa skrini ya LED, na turubai inakuwa sawasawa na azimio la matokeo.",
+        "**Uzito:** uzito wa kila kabati (chaguo-msingi 8.5 kg), pamoja na uzito wa kila paneli na jumla kwenye kisanduku cha Info, Status, 3D Stage na ripoti ya PDF. Chagua kipimo cha uzito katika Settings; mipangilio ya kabati huhifadhi uzito.",
+        "**Rangi na menyu:** chaguo la nyeusi na nyeupe kwenye menyu ya rangi ya paneli (bofya mara mbili), na File sasa ina Import 3D... na Import XML... tofauti."
+      ],
+      "gn": [
+        "**Connection:** cable ikatu ohasa peteĩ pantalla-gui ambuépe, jepe oĩ pa'ũ nandi, peteĩchaite puerto-pe henyhẽ peve, ha ojoaju ojehecha avei 3D-pe. Botón pyahu Clear all.",
+        "**Eguerú XML:** File > Import XML... omoambue opaite slice Resolume Advanced Output preset-pegua LED pantallápe, ha lienzo oguereko salida resolución tee.",
+        "**Pohýi:** gabinete pohýi (ojeporu'ypýva 8,5 kg), panel pohýi ha opaitéva Info ryru, Status, 3D Stage ha PDF marandúpe. Pohýi unidad eiporavo Settings-pe; gabinete preset oñongatu avei pohýi.",
+        "**Sa'y ha menú:** morotĩ ha hũ opción panel sa'y menúpe (mokõi jekutu), ha File oguereko ko'ágã Import 3D... ha Import XML... ojeiko'ýva."
+      ],
+      "he": [
+        "**Connection:** הכבל יכול לעבור ממסך אחד לבא, גם דרך רווחים ריקים, באותה יציאה עד שהיא מתמלאת, והחיבור מוצג גם בתלת־ממד. כפתור חדש Clear all.",
+        "**ייבוא XML:** ‏File > Import XML... הופך כל slice בהגדרה של Advanced Output ב-Resolume למסך LED, והקנבס מקבל בדיוק את רזולוציית הפלט.",
+        "**משקל:** משקל לכל קבינט (ברירת מחדל 8.5 ק״ג), עם המשקל לכל פאנל והמשקל הכולל בתיבת Info, ב-Status, ב-3D Stage ובדוח ה-PDF. יחידת המשקל נבחרת ב-Settings; הגדרות הקבינט שומרות גם את המשקל.",
+        "**צבעים ותפריט:** אפשרות שחור-לבן בתפריט הצבעים של הפאנל (לחיצה כפולה), וב-File יש עכשיו Import 3D... ו-Import XML... בנפרד."
+      ],
+      "lv": [
+        "**Connection:** kabelis var iet no viena ekrāna uz nākamo, arī pāri tukšām spraugām, pa to pašu portu, līdz tas ir pilns, un savienojums redzams arī 3D. Jauna poga Clear all.",
+        "**Importēt XML:** File > Import XML... katru Resolume Advanced Output sagataves slice pārvērš LED ekrānā, un audekls ir tieši izejas izšķirtspējā.",
+        "**Svars:** kabineta svars (noklusējumā 8,5 kg), ar paneļa svaru un kopējo svaru Info lodziņā, Status, 3D Stage un PDF pārskatā. Svara mērvienību izvēlas Settings; kabineta sagataves saglabā svaru.",
+        "**Krāsas un izvēlne:** melnbalta iespēja paneļa krāsu izvēlnē (dubultklikšķis), un File tagad ir atsevišķi Import 3D... un Import XML...."
+      ],
+      "fa": [
+        "**Connection:** کابل می‌تواند از یک صفحه به صفحه بعد برود، حتی از روی فاصله‌های خالی، روی همان پورت تا وقتی پر شود، و اتصال در سه‌بعدی هم دیده می‌شود. دکمه جدید Clear all.",
+        "**وارد کردن XML:** ‏File > Import XML... هر slice از پیش‌تنظیم Advanced Output در Resolume را به یک صفحه LED تبدیل می‌کند و بوم دقیقاً به رزولوشن خروجی می‌رسد.",
+        "**وزن:** وزن هر کابینت (پیش‌فرض 8.5 کیلوگرم)، همراه با وزن هر پنل و وزن کل در کادر Info، ‏Status، ‏3D Stage و گزارش PDF. واحد وزن در Settings انتخاب می‌شود؛ پیش‌تنظیم‌های کابینت وزن را هم نگه می‌دارند.",
+        "**رنگ‌ها و منو:** گزینه سیاه‌وسفید در منوی رنگ پنل (دوبار کلیک)، و File اکنون Import 3D... و Import XML... را جداگانه دارد."
+      ],
+      "pl": [
+        "**Connection:** kabel może przechodzić z jednego ekranu na następny, także przez puste przerwy, na tym samym porcie, aż się zapełni, a połączenie widać też w 3D. Nowy przycisk Clear all.",
+        "**Import XML:** File > Import XML... zamienia każdy slice z presetu Advanced Output programu Resolume w ekran LED, a płótno ma dokładnie rozdzielczość wyjścia.",
+        "**Waga:** waga kabinetu (domyślnie 8,5 kg), z wagą na panel i wagą całkowitą w oknie Info, Status, 3D Stage i raporcie PDF. Jednostkę wagi wybiera się w Settings; presety kabinetu zapamiętują wagę.",
+        "**Kolory i menu:** opcja czarno-biała w menu kolorów panelu (dwuklik), a File ma teraz osobno Import 3D... i Import XML...."
+      ],
+      "uk": [
+        "**Connection:** кабель може переходити з одного екрана на наступний, навіть через порожні проміжки, на тому самому порту, доки він не заповниться; з'єднання видно і в 3D. Нова кнопка Clear all.",
+        "**Імпорт XML:** File > Import XML... перетворює кожен слайс пресета Advanced Output Resolume на LED-екран, а полотно має точну роздільну здатність виходу.",
+        "**Вага:** вага кабінету (за замовчуванням 8,5 кг), вага однієї панелі та загальна вага у вікні Info, Status, 3D Stage і PDF-звіті. Одиницю ваги вибирають у Settings; пресети кабінету зберігають вагу.",
+        "**Кольори й меню:** чорно-білий варіант у меню кольорів панелі (подвійне клацання), а File тепер має окремо Import 3D... та Import XML...."
+      ],
+      "ca": [
+        "**Connection:** el cable pot passar d'una pantalla a la següent, fins i tot per buits, pel mateix port fins que és ple, i l'enllaç també es veu en 3D. Nou botó Clear all.",
+        "**Importar XML:** File > Import XML... converteix cada slice d'un preset d'Advanced Output de Resolume en una pantalla LED, amb el llenç exactament a la resolució de sortida.",
+        "**Pes:** pes per mòdul (8,5 kg per defecte), amb el pes per panell i el total al quadre Info, Status, 3D Stage i l'informe PDF. La unitat de pes es tria a Settings; els presets de mòdul guarden el pes.",
+        "**Colors i menú:** opció blanc i negre al menú de color del panell (doble clic), i File ara té Import 3D... i Import XML... per separat."
+      ],
+      "cs": [
+        "**Connection:** kabel může přecházet z jedné obrazovky na další, i přes prázdné mezery, na stejném portu, dokud se nezaplní, a propojení je vidět i ve 3D. Nové tlačítko Clear all.",
+        "**Import XML:** File > Import XML... udělá z každého slice předvolby Advanced Output z Resolume LED obrazovku a plátno má přesně výstupní rozlišení.",
+        "**Hmotnost:** hmotnost kabinetu (výchozí 8,5 kg), hmotnost na panel a celková hmotnost v okně Info, Status, 3D Stage a PDF zprávě. Jednotka hmotnosti se volí v Settings; předvolby kabinetu ukládají i hmotnost.",
+        "**Barvy a menu:** černobílá možnost v nabídce barev panelu (dvojklik) a File má nyní zvlášť Import 3D... a Import XML...."
+      ],
+      "fi": [
+        "**Connection:** kaapeli voi kulkea näytöltä toiselle, myös tyhjien välien yli, samassa portissa kunnes se on täynnä, ja yhteys näkyy myös 3D:ssä. Uusi Clear all -painike.",
+        "**XML-tuonti:** File > Import XML... tekee jokaisesta Resolumen Advanced Output -esiasetuksen slicestä LED-näytön, ja kangas on tarkalleen ulostulon resoluutiossa.",
+        "**Paino:** kaapin paino (oletus 8,5 kg), paneelikohtainen ja kokonaispaino Info-ruudussa, Statuksessa, 3D Stagessa ja PDF-raportissa. Painoyksikkö valitaan Settingsissä; kaappien esiasetukset tallentavat painon.",
+        "**Värit ja valikko:** mustavalkoinen vaihtoehto paneelin värivalikossa (kaksoisnapsautus), ja Filessa on nyt erikseen Import 3D... ja Import XML...."
+      ],
+      "el": [
+        "**Connection:** το καλώδιο μπορεί να περνά από μια οθόνη στην επόμενη, ακόμη και πάνω από κενά, στην ίδια θύρα μέχρι να γεμίσει, και η σύνδεση φαίνεται και στο 3D. Νέο κουμπί Clear all.",
+        "**Εισαγωγή XML:** το File > Import XML... μετατρέπει κάθε slice μιας προεπιλογής Advanced Output του Resolume σε οθόνη LED, με τον καμβά ακριβώς στην ανάλυση εξόδου.",
+        "**Βάρος:** βάρος ανά καμπινέ (προεπιλογή 8,5 kg), με βάρος ανά πάνελ και συνολικό βάρος στο πλαίσιο Info, στο Status, στο 3D Stage και στην αναφορά PDF. Η μονάδα βάρους επιλέγεται στο Settings· οι προεπιλογές καμπινέ κρατούν και το βάρος.",
+        "**Χρώματα και μενού:** επιλογή ασπρόμαυρο στο μενού χρωμάτων του πάνελ (διπλό κλικ), και το File έχει πλέον χωριστά Import 3D... και Import XML...."
+      ],
+      "ha": [
+        "**Connection:** kebul na iya tafiya daga wannan allo zuwa na gaba, ko da akwai gibi, a tashar guda har ta cika, kuma haɗin yana bayyana a 3D ma. Sabon maɓalli Clear all.",
+        "**Shigo da XML:** File > Import XML... yana mayar da kowane slice na saitin Advanced Output na Resolume zuwa allon LED, kuma zane yana daidai da ƙudurin fitarwa.",
+        "**Nauyi:** nauyin kowane kabad (tsoho 8.5 kg), tare da nauyin kowane fanel da jimilla a akwatin Info, Status, 3D Stage da rahoton PDF. Zaɓi ma'aunin nauyi a Settings; saitin kabad yana adana nauyi.",
+        "**Launuka da menu:** zaɓin baƙi da fari a menu na launin fanel (danna sau biyu), kuma File yanzu yana da Import 3D... da Import XML... daban."
+      ],
+      "ro": [
+        "**Connection:** cablul poate trece de la un ecran la următorul, chiar și peste goluri, pe același port până se umple, iar legătura se vede și în 3D. Buton nou Clear all.",
+        "**Import XML:** File > Import XML... transformă fiecare slice dintr-un preset Advanced Output din Resolume într-un ecran LED, cu pânza exact la rezoluția de ieșire.",
+        "**Greutate:** greutate pe cabinet (implicit 8,5 kg), cu greutatea pe panou și totalul în caseta Info, Status, 3D Stage și raportul PDF. Unitatea de greutate se alege în Settings; preseturile de cabinet păstrează greutatea.",
+        "**Culori și meniu:** opțiune alb-negru în meniul de culori al panoului (dublu clic), iar File are acum separat Import 3D... și Import XML...."
+      ],
+      "yo": [
+        "**Connection:** kébù lè lọ láti ojú-ìbojú kan sí èkejì, kódà láàárín àlàfo òfo, lórí ibudo kan náà títí yóò fi kún, àsopọ̀ sì ń hàn nínú 3D pẹ̀lú. Bọ́tìnnì tuntun Clear all.",
+        "**Gbé XML wọlé:** File > Import XML... ń sọ slice kọ̀ọ̀kan ti ètò Advanced Output Resolume di ojú-ìbojú LED, kánfásì sì bá ìpinnu ìjáde mu gẹ́lẹ́.",
+        "**Ìwúwo:** ìwúwo kábínẹ́ẹ̀tì kọ̀ọ̀kan (àyípadà 8.5 kg), pẹ̀lú ìwúwo pánẹ́ẹ̀lì kọ̀ọ̀kan àti àpapọ̀ nínú àpótí Info, Status, 3D Stage àti ìròyìn PDF. Yan ẹ̀yọ ìwọ̀n nínú Settings; àwọn ètò kábínẹ́ẹ̀tì ń pa ìwúwo mọ́.",
+        "**Àwọ̀ àti àkójọ:** àṣàyàn dúdú àti funfun nínú àkójọ àwọ̀ pánẹ́ẹ̀lì (tẹ lẹ́ẹ̀mejì), File sì ní Import 3D... àti Import XML... lọ́tọ̀ báyìí."
+      ],
+      "zu": [
+        "**Connection:** ikhebula lingadlula esikrinini esisodwa liye kwesilandelayo, ngisho nasezikhaleni, ngembobo efanayo ize igcwale, futhi ukuxhumana kubonakala naku-3D. Inkinobho entsha Clear all.",
+        "**Ngenisa i-XML:** i-File > Import XML... iguqula i-slice ngayinye yesethingi se-Advanced Output se-Resolume ibe yisikrini se-LED, nekhanvasi ilingana ncamashi nokucaca kokuphumayo.",
+        "**Isisindo:** isisindo sekhabethe ngalinye (okuzenzakalelayo 8.5 kg), nesisindo sephaneli ngalinye nesisindo esiphelele ebhokisini le-Info, ku-Status, ku-3D Stage nasembikweni we-PDF. Khetha iyunithi yesisindo ku-Settings; amasethingi ekhabethe agcina isisindo.",
+        "**Imibala nemenyu:** inketho emnyama nomhlophe kumenyu yemibala yephaneli (chofoza kabili), futhi i-File manje ine-Import 3D... ne-Import XML... ngokwehlukana."
+      ],
+      "fil": [
+        "**Connection:** puwedeng tumawid ang cable mula sa isang screen papunta sa susunod, kahit may bakanteng puwang, sa parehong port hanggang mapuno, at makikita rin ang dugtong sa 3D. Bagong button na Clear all.",
+        "**Mag-import ng XML:** ginagawang LED screen ng File > Import XML... ang bawat slice ng preset ng Advanced Output ng Resolume, at eksaktong kasinlaki ng output resolution ang canvas.",
+        "**Timbang:** timbang bawat cabinet (default 8.5 kg), kasama ang timbang bawat panel at kabuuan sa Info box, Status, 3D Stage at PDF report. Piliin ang unit ng timbang sa Settings; itinatabi rin ng mga cabinet preset ang timbang.",
+        "**Kulay at menu:** opsiyong itim at puti sa menu ng kulay ng panel (double-click), at may hiwalay na Import 3D... at Import XML... na ngayon ang File."
+      ],
+      "ta": [
+        "**Connection:** கேபிள் ஒரு திரையிலிருந்து அடுத்த திரைக்குச் செல்லலாம், இடையில் வெற்று இடம் இருந்தாலும், போர்ட் நிரம்பும் வரை அதே போர்ட்டில்; இணைப்பு 3D-யிலும் தெரியும். புதிய Clear all பொத்தான்.",
+        "**XML இறக்குமதி:** File > Import XML... Resolume Advanced Output முன்னமைவின் ஒவ்வொரு slice-ஐயும் ஒரு LED திரையாக்கும்; கேன்வாஸ் சரியாக வெளியீட்டுத் தெளிவுத்திறனில் இருக்கும்.",
+        "**எடை:** ஒவ்வொரு கேபினட்டின் எடை (இயல்பு 8.5 kg), ஒரு பேனலுக்கான எடையும் மொத்த எடையும் Info பெட்டி, Status, 3D Stage மற்றும் PDF அறிக்கையில். எடை அலகை Settings-இல் தேர்ந்தெடுக்கவும்; கேபினட் முன்னமைவுகளும் எடையைச் சேமிக்கும்.",
+        "**நிறங்களும் மெனுவும்:** பேனல் நிற மெனுவில் (இருமுறை கிளிக்) கருப்பு-வெள்ளை விருப்பம்; File-இல் இப்போது Import 3D... மற்றும் Import XML... தனித்தனியாக உள்ளன."
+      ],
+      "te": [
+        "**Connection:** కేబుల్ ఒక స్క్రీన్ నుండి తదుపరి స్క్రీన్‌కు వెళ్లగలదు, మధ్యలో ఖాళీ ఉన్నా, పోర్ట్ నిండే వరకు అదే పోర్ట్‌లో; కనెక్షన్ 3D‌లోనూ కనిపిస్తుంది. కొత్త Clear all బటన్.",
+        "**XML దిగుమతి:** File > Import XML... Resolume Advanced Output ప్రీసెట్‌లోని ప్రతి slice‌ను LED స్క్రీన్‌గా మారుస్తుంది; కాన్వాస్ సరిగ్గా అవుట్‌పుట్ రిజల్యూషన్‌లో ఉంటుంది.",
+        "**బరువు:** ఒక్కో క్యాబినెట్ బరువు (డిఫాల్ట్ 8.5 kg), ఒక్కో ప్యానెల్ బరువు మరియు మొత్తం బరువు Info బాక్స్, Status, 3D Stage మరియు PDF నివేదికలో. బరువు యూనిట్‌ను Settings‌లో ఎంచుకోండి; క్యాబినెట్ ప్రీసెట్‌లు బరువును కూడా ఉంచుతాయి.",
+        "**రంగులు మరియు మెనూ:** ప్యానెల్ రంగు మెనూలో (డబుల్ క్లిక్) నలుపు-తెలుపు ఎంపిక, File‌లో ఇప్పుడు Import 3D... మరియు Import XML... వేర్వేరుగా ఉన్నాయి."
+      ],
+      "mr": [
+        "**Connection:** केबल एका स्क्रीनवरून पुढच्या स्क्रीनवर जाऊ शकते, मध्ये रिकामी जागा असली तरी, पोर्ट भरेपर्यंत त्याच पोर्टवर; जोडणी 3D मध्येही दिसते. नवे Clear all बटण.",
+        "**XML आयात:** File > Import XML... Resolume Advanced Output प्रीसेटमधील प्रत्येक slice ला LED स्क्रीन बनवते, आणि कॅनव्हास नेमका आउटपुट रिझोल्यूशनवर असतो.",
+        "**वजन:** प्रति कॅबिनेट वजन (डीफॉल्ट 8.5 kg), Info बॉक्स, Status, 3D Stage आणि PDF अहवालात प्रति पॅनेल वजन आणि एकूण वजन. वजनाचे एकक Settings मध्ये निवडा; कॅबिनेट प्रीसेट वजनही जतन करतात.",
+        "**रंग आणि मेनू:** पॅनेलच्या रंग मेनूमध्ये (डबल-क्लिक) कृष्णधवल पर्याय, आणि File मध्ये आता Import 3D... आणि Import XML... वेगवेगळे आहेत."
+      ],
+      "da": [
+        "**Connection:** kablet kan gå fra én skærm til den næste, også over tomme mellemrum, på samme port, indtil den er fuld, og forbindelsen vises også i 3D. Ny knap Clear all.",
+        "**Importér XML:** File > Import XML... gør hver slice i en Resolume Advanced Output-forudindstilling til en LED-skærm, med lærredet præcis i udgangsopløsningen.",
+        "**Vægt:** vægt pr. kabinet (standard 8,5 kg), med vægt pr. panel og samlet vægt i Info-boksen, Status, 3D Stage og PDF-rapporten. Vægtenheden vælges i Settings; kabinet-forudindstillinger gemmer vægten.",
+        "**Farver og menu:** sort-hvid-mulighed i panelets farvemenu (dobbeltklik), og File har nu Import 3D... og Import XML... hver for sig."
+      ],
+      "nb": [
+        "**Connection:** kabelen kan gå fra én skjerm til den neste, også over tomme mellomrom, på samme port til den er full, og koblingen vises også i 3D. Ny knapp Clear all.",
+        "**Importer XML:** File > Import XML... gjør hver slice i en Resolume Advanced Output-forhåndsinnstilling til en LED-skjerm, med lerretet nøyaktig i utgangsoppløsningen.",
+        "**Vekt:** vekt per kabinett (standard 8,5 kg), med vekt per panel og total i Info-boksen, Status, 3D Stage og PDF-rapporten. Vektenheten velges i Settings; kabinett-forhåndsinnstillinger lagrer vekten.",
+        "**Farger og meny:** svart-hvitt-valg i panelets fargemeny (dobbeltklikk), og File har nå Import 3D... og Import XML... hver for seg."
+      ],
+      "lt": [
+        "**Connection:** kabelis gali eiti iš vieno ekrano į kitą, net per tuščius tarpus, tuo pačiu prievadu, kol šis prisipildo, o jungtis matoma ir 3D. Naujas mygtukas Clear all.",
+        "**Importuoti XML:** File > Import XML... kiekvieną Resolume Advanced Output išankstinio nustatymo slice paverčia LED ekranu, o drobė būna tiksliai išvesties raiškos.",
+        "**Svoris:** kabineto svoris (numatytasis 8,5 kg), vieno skydo svoris ir bendras svoris Info lange, Status, 3D Stage ir PDF ataskaitoje. Svorio vienetas pasirenkamas Settings; kabineto nustatymai išsaugo ir svorį.",
+        "**Spalvos ir meniu:** nespalvota parinktis skydo spalvų meniu (dukart spustelėjus), o File dabar turi atskirus Import 3D... ir Import XML...."
+      ],
+      "et": [
+        "**Connection:** kaabel saab minna ühelt ekraanilt järgmisele, ka üle tühjade vahede, samas pordis kuni see täitub, ja ühendus on näha ka 3D-s. Uus nupp Clear all.",
+        "**XML-i import:** File > Import XML... teeb Resolume'i Advanced Output eelseadistuse igast slice'ist LED-ekraani ja lõuend on täpselt väljundi eraldusvõimes.",
+        "**Kaal:** kabineti kaal (vaikimisi 8,5 kg), paneeli kaal ja kogukaal Info kastis, Statuses, 3D Stage'is ja PDF-aruandes. Kaaluühik valitakse Settingsis; kabineti eelseadistused salvestavad ka kaalu.",
+        "**Värvid ja menüü:** must-valge valik paneeli värvimenüüs (topeltklõps) ning File'is on nüüd eraldi Import 3D... ja Import XML...."
+      ],
+      "sk": [
+        "**Connection:** kábel môže prechádzať z jednej obrazovky na ďalšiu, aj cez prázdne medzery, na tom istom porte, kým sa nenaplní, a prepojenie vidno aj v 3D. Nové tlačidlo Clear all.",
+        "**Import XML:** File > Import XML... urobí z každého slice predvoľby Advanced Output z Resolume LED obrazovku a plátno má presne výstupné rozlíšenie.",
+        "**Hmotnosť:** hmotnosť kabinetu (predvolene 8,5 kg), hmotnosť na panel a celková hmotnosť v okne Info, Status, 3D Stage a PDF správe. Jednotka hmotnosti sa volí v Settings; predvoľby kabinetu ukladajú aj hmotnosť.",
+        "**Farby a menu:** čiernobiela možnosť v ponuke farieb panela (dvojklik) a File má teraz zvlášť Import 3D... a Import XML...."
+      ],
+      "bg": [
+        "**Connection:** кабелът може да минава от един екран към следващия, дори през празни разстояния, по същия порт, докато се запълни, а връзката се вижда и в 3D. Нов бутон Clear all.",
+        "**Импорт на XML:** File > Import XML... превръща всеки слайс от предварителна настройка на Advanced Output на Resolume в LED екран, а платното е точно с изходната резолюция.",
+        "**Тегло:** тегло на кабинет (по подразбиране 8,5 kg), с тегло на панел и общо тегло в полето Info, Status, 3D Stage и PDF отчета. Единицата за тегло се избира в Settings; предварителните настройки на кабинета пазят теглото.",
+        "**Цветове и меню:** черно-бяла опция в менюто за цвят на панела (двойно щракване), а File вече има отделно Import 3D... и Import XML...."
+      ],
+      "sr": [
+        "**Connection:** кабл може да прелази са једног екрана на следећи, чак и преко празних размака, на истом порту док се не попуни, а веза се види и у 3D. Ново дугме Clear all.",
+        "**Увоз XML:** File > Import XML... претвара сваки слајс из Advanced Output подешавања у Resolume-у у LED екран, а платно има тачно излазну резолуцију.",
+        "**Тежина:** тежина по кабинету (подразумевано 8,5 kg), са тежином по панелу и укупном тежином у пољу Info, Status, 3D Stage и PDF извештају. Јединица тежине бира се у Settings; подешавања кабинета чувају и тежину.",
+        "**Боје и мени:** црно-бела опција у менију боја панела (двоклик), а File сада има засебно Import 3D... и Import XML...."
+      ],
+      "hr": [
+        "**Connection:** kabel može prelaziti s jednog zaslona na sljedeći, čak i preko praznih razmaka, na istom priključku dok se ne popuni, a veza se vidi i u 3D-u. Novi gumb Clear all.",
+        "**Uvoz XML-a:** File > Import XML... pretvara svaki slice iz predloška Advanced Output u Resolumeu u LED zaslon, a platno ima točno izlaznu razlučivost.",
+        "**Težina:** težina po kabinetu (zadano 8,5 kg), s težinom po panelu i ukupnom težinom u okviru Info, Status, 3D Stage i PDF izvješću. Jedinica težine bira se u Settings; predlošci kabineta čuvaju i težinu.",
+        "**Boje i izbornik:** crno-bijela opcija u izborniku boja panela (dvoklik), a File sada ima zasebno Import 3D... i Import XML...."
+      ],
+      "gu": [
+        "**Connection:** કેબલ એક સ્ક્રીનથી બીજી સ્ક્રીન સુધી જઈ શકે છે, વચ્ચે ખાલી જગ્યા હોય તો પણ, પોર્ટ ભરાય ત્યાં સુધી એ જ પોર્ટ પર; જોડાણ 3D માં પણ દેખાય છે. નવું Clear all બટન.",
+        "**XML આયાત:** File > Import XML... Resolume Advanced Output પ્રીસેટની દરેક slice ને LED સ્ક્રીન બનાવે છે, અને કેનવાસ બરાબર આઉટપુટ રિઝોલ્યુશનમાં હોય છે.",
+        "**વજન:** દરેક કેબિનેટનું વજન (ડિફોલ્ટ 8.5 kg), Info બોક્સ, Status, 3D Stage અને PDF અહેવાલમાં પ્રતિ પેનલ વજન અને કુલ વજન. વજનનો એકમ Settings માં પસંદ કરો; કેબિનેટ પ્રીસેટ વજન પણ સાચવે છે.",
+        "**રંગો અને મેનુ:** પેનલના રંગ મેનુમાં (ડબલ-ક્લિક) કાળો-સફેદ વિકલ્પ, અને File માં હવે Import 3D... અને Import XML... અલગ છે."
+      ],
+      "pa": [
+        "**Connection:** ਕੇਬਲ ਇੱਕ ਸਕ੍ਰੀਨ ਤੋਂ ਅਗਲੀ ਤੱਕ ਜਾ ਸਕਦੀ ਹੈ, ਵਿਚਕਾਰ ਖਾਲੀ ਥਾਂ ਹੋਵੇ ਤਾਂ ਵੀ, ਪੋਰਟ ਭਰਨ ਤੱਕ ਉਸੇ ਪੋਰਟ ਉੱਤੇ; ਜੋੜ 3D ਵਿੱਚ ਵੀ ਦਿਸਦਾ ਹੈ। ਨਵਾਂ Clear all ਬਟਨ।",
+        "**XML ਆਯਾਤ:** File > Import XML... Resolume Advanced Output ਪ੍ਰੀਸੈੱਟ ਦੀ ਹਰ slice ਨੂੰ LED ਸਕ੍ਰੀਨ ਬਣਾਉਂਦਾ ਹੈ, ਅਤੇ ਕੈਨਵਸ ਬਿਲਕੁਲ ਆਊਟਪੁੱਟ ਰੈਜ਼ੋਲਿਊਸ਼ਨ ਉੱਤੇ ਹੁੰਦਾ ਹੈ।",
+        "**ਭਾਰ:** ਹਰ ਕੈਬਿਨੇਟ ਦਾ ਭਾਰ (ਡਿਫਾਲਟ 8.5 kg), Info ਬਾਕਸ, Status, 3D Stage ਅਤੇ PDF ਰਿਪੋਰਟ ਵਿੱਚ ਪ੍ਰਤੀ ਪੈਨਲ ਭਾਰ ਅਤੇ ਕੁੱਲ ਭਾਰ। ਭਾਰ ਦੀ ਇਕਾਈ Settings ਵਿੱਚ ਚੁਣੋ; ਕੈਬਿਨੇਟ ਪ੍ਰੀਸੈੱਟ ਭਾਰ ਵੀ ਰੱਖਦੇ ਹਨ।",
+        "**ਰੰਗ ਅਤੇ ਮੀਨੂ:** ਪੈਨਲ ਦੇ ਰੰਗ ਮੀਨੂ (ਡਬਲ-ਕਲਿੱਕ) ਵਿੱਚ ਕਾਲਾ-ਚਿੱਟਾ ਵਿਕਲਪ, ਅਤੇ File ਵਿੱਚ ਹੁਣ Import 3D... ਅਤੇ Import XML... ਵੱਖਰੇ ਹਨ।"
+      ],
+      "kn": [
+        "**Connection:** ಕೇಬಲ್ ಒಂದು ಪರದೆಯಿಂದ ಮುಂದಿನದಕ್ಕೆ ಹೋಗಬಹುದು, ನಡುವೆ ಖಾಲಿ ಜಾಗವಿದ್ದರೂ, ಪೋರ್ಟ್ ತುಂಬುವವರೆಗೆ ಅದೇ ಪೋರ್ಟ್‌ನಲ್ಲಿ; ಸಂಪರ್ಕ 3D ಯಲ್ಲೂ ಕಾಣುತ್ತದೆ. ಹೊಸ Clear all ಬಟನ್.",
+        "**XML ಆಮದು:** File > Import XML... Resolume Advanced Output ಪ್ರೀಸೆಟ್‌ನ ಪ್ರತಿ slice ಅನ್ನು LED ಪರದೆಯಾಗಿಸುತ್ತದೆ; ಕ್ಯಾನ್ವಾಸ್ ನಿಖರವಾಗಿ ಔಟ್‌ಪುಟ್ ರೆಸಲ್ಯೂಶನ್‌ನಲ್ಲಿರುತ್ತದೆ.",
+        "**ತೂಕ:** ಪ್ರತಿ ಕ್ಯಾಬಿನೆಟ್ ತೂಕ (ಡೀಫಾಲ್ಟ್ 8.5 kg), Info ಪೆಟ್ಟಿಗೆ, Status, 3D Stage ಮತ್ತು PDF ವರದಿಯಲ್ಲಿ ಪ್ರತಿ ಪ್ಯಾನೆಲ್ ತೂಕ ಮತ್ತು ಒಟ್ಟು ತೂಕ. ತೂಕದ ಘಟಕವನ್ನು Settings ನಲ್ಲಿ ಆರಿಸಿ; ಕ್ಯಾಬಿನೆಟ್ ಪ್ರೀಸೆಟ್‌ಗಳು ತೂಕವನ್ನೂ ಉಳಿಸುತ್ತವೆ.",
+        "**ಬಣ್ಣಗಳು ಮತ್ತು ಮೆನು:** ಪ್ಯಾನೆಲ್ ಬಣ್ಣದ ಮೆನುವಿನಲ್ಲಿ (ಡಬಲ್ ಕ್ಲಿಕ್) ಕಪ್ಪು-ಬಿಳುಪು ಆಯ್ಕೆ, ಮತ್ತು File ನಲ್ಲಿ ಈಗ Import 3D... ಮತ್ತು Import XML... ಪ್ರತ್ಯೇಕವಾಗಿವೆ."
+      ],
+      "ne": [
+        "**Connection:** केबल एउटा स्क्रिनबाट अर्कोमा जान सक्छ, बीचमा खाली ठाउँ भए पनि, पोर्ट नभरिएसम्म उही पोर्टमा; जडान 3D मा पनि देखिन्छ। नयाँ Clear all बटन।",
+        "**XML आयात:** File > Import XML... ले Resolume Advanced Output प्रिसेटको हरेक slice लाई LED स्क्रिन बनाउँछ, र क्यानभास ठीक आउटपुट रिजोलुसनमा हुन्छ।",
+        "**तौल:** प्रति क्याबिनेट तौल (पूर्वनिर्धारित 8.5 kg), Info बाकस, Status, 3D Stage र PDF प्रतिवेदनमा प्रति प्यानल तौल र कुल तौल। तौलको एकाइ Settings मा छान्नुहोस्; क्याबिनेट प्रिसेटले तौल पनि राख्छ।",
+        "**रङ र मेनु:** प्यानलको रङ मेनुमा (डबल-क्लिक) कालो-सेतो विकल्प, र File मा अब Import 3D... र Import XML... छुट्टाछुट्टै छन्।"
+      ],
+      "km": [
+        "**Connection:** ខ្សែអាចឆ្លងពីអេក្រង់មួយទៅអេក្រង់បន្ទាប់ ទោះមានចន្លោះទំនេរក៏ដោយ នៅលើច្រកដដែលរហូតដល់ពេញ ហើយការតភ្ជាប់ក៏បង្ហាញក្នុង 3D ដែរ។ ប៊ូតុងថ្មី Clear all។",
+        "**នាំចូល XML៖** File > Import XML... បំប្លែង slice នីមួយៗនៃការកំណត់ជាមុន Advanced Output របស់ Resolume ទៅជាអេក្រង់ LED ហើយផ្ទាំងក្រណាត់មានទំហំត្រឹមត្រូវតាមគុណភាពបង្ហាញលទ្ធផល។",
+        "**ទម្ងន់៖** ទម្ងន់ក្នុងមួយទូ (លំនាំដើម 8.5 kg) ព្រមទាំងទម្ងន់ក្នុងមួយផ្ទាំង និងទម្ងន់សរុបក្នុងប្រអប់ Info, Status, 3D Stage និងរបាយការណ៍ PDF។ ជ្រើសឯកតាទម្ងន់ក្នុង Settings ហើយការកំណត់ជាមុនរបស់ទូរក្សាទម្ងន់ផងដែរ។",
+        "**ពណ៌ និងម៉ឺនុយ៖** ជម្រើសសខ្មៅក្នុងម៉ឺនុយពណ៌នៃផ្ទាំង (ចុចពីរដង) ហើយ File ឥឡូវមាន Import 3D... និង Import XML... ដាច់ពីគ្នា។"
+      ],
+      "kk": [
+        "**Connection:** кабель бос аралықтар болса да бір экраннан келесісіне өте алады, порт толғанша сол портта қалады, ал байланыс 3D-де де көрінеді. Жаңа Clear all түймесі.",
+        "**XML импорттау:** File > Import XML... Resolume Advanced Output алдын ала баптауындағы әр slice-ты LED экранға айналдырады, кенеп дәл шығыс ажыратымдылығында болады.",
+        "**Салмақ:** әр кабинеттің салмағы (әдепкі 8,5 кг), бір панельдің салмағы мен жалпы салмақ Info терезесінде, Status, 3D Stage және PDF есебінде. Салмақ бірлігі Settings-те таңдалады; кабинет баптаулары салмақты да сақтайды.",
+        "**Түстер мен мәзір:** панельдің түс мәзірінде (екі рет басу) ақ-қара нұсқасы, ал File-да енді Import 3D... және Import XML... бөлек."
+      ],
+      "uz": [
+        "**Connection:** kabel bitta ekrandan keyingisiga, oradagi boʻsh joylar orqali ham, port toʻlguncha shu portda oʻta oladi, ulanish 3D da ham koʻrinadi. Yangi Clear all tugmasi.",
+        "**XML import:** File > Import XML... Resolume Advanced Output presetidagi har bir slice ni LED ekranga aylantiradi, tuval aynan chiqish ruxsatida boʻladi.",
+        "**Ogʻirlik:** har bir kabinet ogʻirligi (standart 8,5 kg), Info oynasi, Status, 3D Stage va PDF hisobotida bir panel ogʻirligi va umumiy ogʻirlik. Ogʻirlik birligi Settings da tanlanadi; kabinet presetlari ogʻirlikni ham saqlaydi.",
+        "**Ranglar va menyu:** panel rang menyusida (ikki marta bosish) oq-qora variant, File da esa endi Import 3D... va Import XML... alohida."
+      ],
+      "am": [
+        "**Connection:** ገመዱ ባዶ ክፍተት ቢኖርም ከአንድ ስክሪን ወደ ቀጣዩ መሄድ ይችላል፣ ፖርቱ እስኪሞላ በዚያው ፖርት፤ ግንኙነቱ በ3D ውስጥም ይታያል። አዲስ Clear all ቁልፍ።",
+        "**XML አስገባ፦** File > Import XML... የResolume Advanced Output ቅድመ-ቅንብር እያንዳንዱን slice ወደ LED ስክሪን ይቀይራል፤ ሸራው በትክክል የውጽዓቱን ጥራት ይይዛል።",
+        "**ክብደት፦** የእያንዳንዱ ካቢኔት ክብደት (ነባሪ 8.5 kg)፣ የአንድ ፓነል ክብደትና ጠቅላላ ክብደት በInfo ሳጥን፣ Status፣ 3D Stage እና PDF ሪፖርት ውስጥ። የክብደት መለኪያውን በSettings ይምረጡ፤ የካቢኔት ቅድመ-ቅንብሮች ክብደቱንም ያስቀምጣሉ።",
+        "**ቀለሞችና ምናሌ፦** በፓነሉ የቀለም ምናሌ (ሁለቴ ጠቅ) ጥቁርና ነጭ አማራጭ፣ File ደግሞ አሁን Import 3D... እና Import XML... ለየብቻ አለው።"
+      ],
+      "sl": [
+        "**Connection:** kabel lahko gre z enega zaslona na naslednjega, tudi čez prazne vrzeli, na istih vratih, dokler se ne zapolnijo, povezava pa se vidi tudi v 3D. Nov gumb Clear all.",
+        "**Uvoz XML:** File > Import XML... iz vsakega slice prednastavitve Advanced Output programa Resolume naredi zaslon LED, platno pa ima natančno izhodno ločljivost.",
+        "**Teža:** teža ohišja (privzeto 8,5 kg), s težo na ploščo in skupno težo v polju Info, Status, 3D Stage in poročilu PDF. Enoto teže izberete v Settings; prednastavitve ohišja shranijo tudi težo.",
+        "**Barve in meni:** črno-bela možnost v meniju barv plošče (dvoklik), File pa ima zdaj ločeno Import 3D... in Import XML...."
+      ]
+    },
     "2.7.1": {
       "en": [
         "**Grid tab:** saved grids no longer show thick vertical lines, and the diagonals are brighter and a little thicker.",
@@ -358,425 +1070,6 @@
         "**Poročilo PDF:** električni rezultati zdaj prikazujejo skupno porabo v kVA.",
         "**LED screen:** dodatna vrstica besedila pod imenom zaslona, gumb za izbiro barve (tudi v meniju dvojnega klika) in oznaka Pixel pitch.",
         "**Prednastavitve kabineta:** shranite ločljivost in velikost kabineta kot poimenovano prednastavitev in jo izbrišite z gumbom koša; prednastavitve se shranijo v projekt."
-      ]
-    },
-    "2.7.0": {
-      "en": [
-        "**New Grid tab:** a test grid generator for LED and projection, any resolution up to 100,000 × 100,000 px, with resolution presets, patterns (Grid, Spyder and Alignment), backgrounds, display options and red or blue lines.",
-        "**Save the grid as PNG, JPEG, PSD or PDF:** pixel-exact files, with an optional transparent background (Alpha).",
-        "**Zoom and move:** mouse-wheel zoom down to a single pixel, drag with the right mouse button, Center view or Esc to center it again."
-      ],
-      "pt": [
-        "**Nova aba Grid:** gerador de grid de teste para LED e projeção, em qualquer resolução até 100.000 × 100.000 px, com resoluções prontas, desenhos (Grid, Spyder e Alinhamento), fundos, opções de exibição e linhas vermelhas ou azuis.",
-        "**Salve o grid em PNG, JPEG, PSD ou PDF:** arquivos fiéis pixel a pixel, com fundo transparente opcional (Alpha).",
-        "**Zoom e arraste:** zoom na roda do mouse até um único pixel, arraste com o botão direito, Centralizar vista ou Esc para centralizar de novo."
-      ],
-      "es": [
-        "**Nueva pestaña Grid:** generador de cuadrícula de prueba para LED y proyección, en cualquier resolución hasta 100.000 × 100.000 px, con resoluciones predefinidas, patrones (Grid, Spyder y Alineación), fondos, opciones de visualización y líneas rojas o azules.",
-        "**Guarde la cuadrícula en PNG, JPEG, PSD o PDF:** archivos exactos píxel a píxel, con fondo transparente opcional (Alpha).",
-        "**Zoom y arrastre:** zoom con la rueda del ratón hasta un solo píxel, arrastre con el botón derecho, Centrar vista o Esc para volver a centrar."
-      ],
-      "fr": [
-        "**Nouvel onglet Grid :** générateur de mire de test pour LED et projection, dans toute résolution jusqu'à 100 000 × 100 000 px, avec des résolutions prédéfinies, des motifs (Grid, Spyder et Alignement), des fonds, des options d'affichage et des lignes rouges ou bleues.",
-        "**Enregistrez la mire en PNG, JPEG, PSD ou PDF :** fichiers exacts au pixel près, avec fond transparent en option (Alpha).",
-        "**Zoom et déplacement :** zoom à la molette jusqu'à un seul pixel, déplacement avec le bouton droit, Centrer la vue ou Échap pour recentrer."
-      ],
-      "de": [
-        "**Neuer Grid-Tab:** Testraster-Generator für LED und Projektion, in jeder Auflösung bis 100.000 × 100.000 px, mit Auflösungsvorlagen, Mustern (Grid, Spyder und Ausrichtung), Hintergründen, Anzeigeoptionen und roten oder blauen Linien.",
-        "**Raster als PNG, JPEG, PSD oder PDF speichern:** pixelgenaue Dateien, optional mit transparentem Hintergrund (Alpha).",
-        "**Zoomen und verschieben:** Zoom mit dem Mausrad bis zu einem einzelnen Pixel, Verschieben mit der rechten Maustaste, Ansicht zentrieren oder Esc zum erneuten Zentrieren."
-      ],
-      "it": [
-        "**Nuova scheda Grid:** generatore di griglie di prova per LED e proiezione, in qualsiasi risoluzione fino a 100.000 × 100.000 px, con risoluzioni predefinite, motivi (Grid, Spyder e Allineamento), sfondi, opzioni di visualizzazione e linee rosse o blu.",
-        "**Salva la griglia in PNG, JPEG, PSD o PDF:** file esatti al pixel, con sfondo trasparente opzionale (Alpha).",
-        "**Zoom e trascinamento:** zoom con la rotellina fino a un singolo pixel, trascinamento con il tasto destro, Centra vista o Esc per ricentrare."
-      ],
-      "nl": [
-        "**Nieuw tabblad Grid:** testrastergenerator voor LED en projectie, in elke resolutie tot 100.000 × 100.000 px, met vooraf ingestelde resoluties, patronen (Grid, Spyder en Uitlijning), achtergronden, weergaveopties en rode of blauwe lijnen.",
-        "**Sla het raster op als PNG, JPEG, PSD of PDF:** pixelexacte bestanden, met optioneel een transparante achtergrond (Alpha).",
-        "**Zoomen en slepen:** zoomen met het muiswiel tot op één pixel, slepen met de rechtermuisknop, Weergave centreren of Esc om opnieuw te centreren."
-      ],
-      "ru": [
-        "**Новая вкладка Grid:** генератор тестовой сетки для LED и проекции, любое разрешение до 100 000 × 100 000 пикс., готовые разрешения, шаблоны (Grid, Spyder и Выравнивание), фоны, параметры отображения и красные или синие линии.",
-        "**Сохранение сетки в PNG, JPEG, PSD или PDF:** файлы с точностью до пикселя, по желанию с прозрачным фоном (Alpha).",
-        "**Масштаб и перемещение:** масштаб колесом мыши вплоть до одного пикселя, перемещение правой кнопкой, Центрировать вид или Esc для центрирования."
-      ],
-      "tr": [
-        "**Yeni Grid sekmesi:** LED ve projeksiyon için test ızgarası üreticisi; 100.000 × 100.000 piksele kadar her çözünürlükte, hazır çözünürlükler, desenler (Grid, Spyder ve Hizalama), arka planlar, görünüm seçenekleri ve kırmızı ya da mavi çizgilerle.",
-        "**Izgarayı PNG, JPEG, PSD veya PDF olarak kaydedin:** piksel piksel birebir dosyalar, isteğe bağlı saydam arka plan (Alpha).",
-        "**Yakınlaştırma ve sürükleme:** fare tekerleğiyle tek bir piksele kadar yakınlaştırma, sağ tuşla sürükleme, yeniden ortalamak için Görünümü ortala veya Esc."
-      ],
-      "id": [
-        "**Tab Grid baru:** pembuat grid uji untuk LED dan proyeksi, dalam resolusi apa pun hingga 100.000 × 100.000 px, dengan preset resolusi, pola (Grid, Spyder, dan Penyelarasan), latar belakang, opsi tampilan, serta garis merah atau biru.",
-        "**Simpan grid sebagai PNG, JPEG, PSD, atau PDF:** file yang tepat hingga tiap piksel, dengan latar transparan opsional (Alpha).",
-        "**Zoom dan geser:** zoom dengan roda mouse hingga satu piksel, geser dengan tombol kanan, Tengahkan tampilan atau Esc untuk memusatkan lagi."
-      ],
-      "hu": [
-        "**Új Grid fül:** tesztrács-generátor LED-hez és vetítéshez, bármilyen felbontásban 100 000 × 100 000 képpontig, előre beállított felbontásokkal, mintákkal (Grid, Spyder és Igazítás), hátterekkel, megjelenítési beállításokkal és piros vagy kék vonalakkal.",
-        "**Mentse a rácsot PNG, JPEG, PSD vagy PDF formátumban:** képpontra pontos fájlok, választható átlátszó háttérrel (Alpha).",
-        "**Nagyítás és mozgatás:** nagyítás az egérgörgővel egyetlen képpontig, mozgatás a jobb egérgombbal, Nézet középre vagy Esc az újbóli középre igazításhoz."
-      ],
-      "zh-Hans": [
-        "**新的 Grid 选项卡：** 用于 LED 和投影的测试网格生成器，支持最高 100,000 × 100,000 像素的任意分辨率，提供预设分辨率、图案（Grid、Spyder 和 对齐）、背景、显示选项以及红色或蓝色线条。",
-        "**将网格保存为 PNG、JPEG、PSD 或 PDF：** 逐像素精确的文件，可选透明背景（Alpha）。",
-        "**缩放和拖动：** 用鼠标滚轮缩放到单个像素，按住右键拖动，按 居中视图 或 Esc 重新居中。"
-      ],
-      "zh-Hant": [
-        "**新的 Grid 分頁：** 用於 LED 與投影的測試網格產生器，支援最高 100,000 × 100,000 像素的任意解析度，提供預設解析度、圖樣（Grid、Spyder 和 對齊）、背景、顯示選項以及紅色或藍色線條。",
-        "**將網格儲存為 PNG、JPEG、PSD 或 PDF：** 逐像素精確的檔案，可選透明背景（Alpha）。",
-        "**縮放與拖曳：** 以滑鼠滾輪縮放到單一像素，按住右鍵拖曳，按 置中檢視 或 Esc 重新置中。"
-      ],
-      "ja": [
-        "**新しい Grid タブ：** LED とプロジェクション用のテストグリッド生成ツール。最大 100,000 × 100,000 px まで任意の解像度に対応し、解像度プリセット、パターン（Grid、Spyder、アライメント）、背景、表示オプション、赤または青のラインを選べます。",
-        "**グリッドを PNG、JPEG、PSD、PDF で保存：** ピクセル単位で正確なファイル。透明な背景（Alpha）も選べます。",
-        "**ズームと移動：** マウスホイールで 1 ピクセル単位までズーム、右ボタンでドラッグ、ビューを中央へ または Esc で中央に戻します。"
-      ],
-      "ko": [
-        "**새 Grid 탭:** LED와 프로젝션용 테스트 그리드 생성기로, 최대 100,000 × 100,000 px까지 모든 해상도를 지원하며 해상도 프리셋, 패턴(Grid, Spyder, 정렬), 배경, 표시 옵션, 빨간색 또는 파란색 선을 제공합니다.",
-        "**그리드를 PNG, JPEG, PSD 또는 PDF로 저장:** 픽셀 단위까지 정확한 파일이며, 투명 배경(Alpha)을 선택할 수 있습니다.",
-        "**확대/축소와 이동:** 마우스 휠로 픽셀 하나까지 확대하고, 오른쪽 버튼으로 끌어 이동하며, 뷰 가운데 맞춤 또는 Esc로 다시 가운데에 맞춥니다."
-      ],
-      "ar": [
-        "**تبويب Grid جديد:** مولّد شبكة اختبار لشاشات LED والإسقاط، بأي دقة حتى 100,000 × 100,000 بكسل، مع دقات جاهزة وأنماط (Grid وSpyder ومحاذاة) وخلفيات وخيارات عرض وخطوط حمراء أو زرقاء.",
-        "**احفظ الشبكة بصيغة PNG أو JPEG أو PSD أو PDF:** ملفات دقيقة بكسلًا ببكسل، مع خلفية شفافة اختيارية (Alpha).",
-        "**التكبير والسحب:** تكبير بعجلة الفأرة حتى بكسل واحد، وسحب بالزر الأيمن، وتوسيط العرض أو Esc لإعادة التوسيط."
-      ],
-      "th": [
-        "**แท็บ Grid ใหม่:** ตัวสร้างกริดทดสอบสำหรับ LED และโปรเจกเตอร์ ทุกความละเอียดสูงสุด 100,000 × 100,000 พิกเซล พร้อมความละเอียดสำเร็จรูป ลวดลาย (Grid, Spyder และ การจัดแนว) พื้นหลัง ตัวเลือกการแสดงผล และเส้นสีแดงหรือสีน้ำเงิน",
-        "**บันทึกกริดเป็น PNG, JPEG, PSD หรือ PDF:** ไฟล์ตรงทุกพิกเซล เลือกพื้นหลังโปร่งใสได้ (Alpha)",
-        "**ซูมและลาก:** ซูมด้วยล้อเมาส์จนถึงพิกเซลเดียว ลากด้วยปุ่มขวา และใช้ จัดมุมมองกึ่งกลาง หรือ Esc เพื่อจัดกลางอีกครั้ง"
-      ],
-      "hi": [
-        "**नया Grid टैब:** LED और प्रोजेक्शन के लिए टेस्ट ग्रिड जनरेटर, 100,000 × 100,000 px तक किसी भी रिज़ॉल्यूशन में, तैयार रिज़ॉल्यूशन, पैटर्न (Grid, Spyder और संरेखण), बैकग्राउंड, डिस्प्ले विकल्प और लाल या नीली रेखाओं के साथ।",
-        "**ग्रिड को PNG, JPEG, PSD या PDF में सेव करें:** हर पिक्सेल तक सटीक फ़ाइलें, वैकल्पिक पारदर्शी बैकग्राउंड (Alpha) के साथ।",
-        "**ज़ूम और खिसकाना:** माउस व्हील से एक पिक्सेल तक ज़ूम, दाएँ बटन से खिसकाएँ, फिर से बीच में लाने के लिए व्यू बीच में करें या Esc।"
-      ],
-      "vi": [
-        "**Thẻ Grid mới:** công cụ tạo lưới kiểm tra cho LED và máy chiếu, mọi độ phân giải đến 100.000 × 100.000 px, có độ phân giải dựng sẵn, mẫu (Grid, Spyder và Căn chỉnh), nền, tùy chọn hiển thị và đường kẻ đỏ hoặc xanh.",
-        "**Lưu lưới thành PNG, JPEG, PSD hoặc PDF:** tệp chính xác đến từng pixel, có thể chọn nền trong suốt (Alpha).",
-        "**Thu phóng và kéo:** thu phóng bằng con lăn chuột đến từng pixel, kéo bằng nút phải, Căn giữa hoặc Esc để căn giữa lại."
-      ],
-      "bn": [
-        "**নতুন Grid ট্যাব:** LED ও প্রজেকশনের জন্য টেস্ট গ্রিড জেনারেটর, 100,000 × 100,000 px পর্যন্ত যেকোনো রেজোলিউশনে, প্রস্তুত রেজোলিউশন, প্যাটার্ন (Grid, Spyder ও সারিবদ্ধকরণ), ব্যাকগ্রাউন্ড, প্রদর্শন বিকল্প এবং লাল বা নীল রেখাসহ।",
-        "**গ্রিড PNG, JPEG, PSD বা PDF হিসেবে সংরক্ষণ করুন:** প্রতিটি পিক্সেল পর্যন্ত নির্ভুল ফাইল, ঐচ্ছিক স্বচ্ছ ব্যাকগ্রাউন্ড (Alpha) সহ।",
-        "**জুম ও টেনে সরানো:** মাউস হুইলে একটি পিক্সেল পর্যন্ত জুম, ডান বোতামে টেনে সরানো, আবার মাঝখানে আনতে ভিউ সেন্টার করুন বা Esc।"
-      ],
-      "ms": [
-        "**Tab Grid baharu:** penjana grid ujian untuk LED dan unjuran, dalam sebarang resolusi hingga 100,000 × 100,000 px, dengan pratetap resolusi, corak (Grid, Spyder dan Penjajaran), latar belakang, pilihan paparan dan garisan merah atau biru.",
-        "**Simpan grid sebagai PNG, JPEG, PSD atau PDF:** fail tepat hingga setiap piksel, dengan latar belakang lutsinar pilihan (Alpha).",
-        "**Zum dan seret:** zum dengan roda tetikus hingga satu piksel, seret dengan butang kanan, Pusatkan paparan atau Esc untuk memusatkan semula."
-      ],
-      "sv": [
-        "**Ny Grid-flik:** generator för testrutnät för LED och projektion, i valfri upplösning upp till 100 000 × 100 000 px, med förinställda upplösningar, mönster (Grid, Spyder och Justering), bakgrunder, visningsalternativ och röda eller blå linjer.",
-        "**Spara rutnätet som PNG, JPEG, PSD eller PDF:** pixelexakta filer, med valfri genomskinlig bakgrund (Alpha).",
-        "**Zooma och dra:** zooma med mushjulet ända ner till en enskild pixel, dra med höger musknapp, Centrera vyn eller Esc för att centrera igen."
-      ],
-      "ur": [
-        "**نیا Grid ٹیب:** LED اور پروجیکشن کے لیے ٹیسٹ گرڈ جنریٹر، 100,000 × 100,000 px تک کسی بھی ریزولوشن میں، تیار ریزولوشنز، پیٹرن (Grid، Spyder اور سیدھ)، پس منظر، ڈسپلے کے اختیارات اور سرخ یا نیلی لائنوں کے ساتھ۔",
-        "**گرڈ کو PNG، JPEG، PSD یا PDF میں محفوظ کریں:** ہر پکسل تک درست فائلیں، اختیاری شفاف پس منظر (Alpha) کے ساتھ۔",
-        "**زوم اور گھسیٹنا:** ماؤس وہیل سے ایک پکسل تک زوم، دائیں بٹن سے گھسیٹیں، دوبارہ درمیان میں لانے کے لیے ویو سینٹر کریں یا Esc۔"
-      ],
-      "sw": [
-        "**Kichupo kipya cha Grid:** kiunda gridi ya majaribio kwa LED na projekta, katika ubora wowote hadi pikseli 100,000 × 100,000, chenye maazimio yaliyotayarishwa, mifumo (Grid, Spyder na Upangaji), mandharinyuma, chaguo za onyesho na mistari myekundu au ya bluu.",
-        "**Hifadhi gridi kama PNG, JPEG, PSD au PDF:** faili sahihi hadi kila pikseli, na mandharinyuma ya uwazi kwa hiari (Alpha).",
-        "**Kukuza na kuburuta:** kuza kwa gurudumu la kipanya hadi pikseli moja, buruta kwa kitufe cha kulia, Katikati au Esc kuweka katikati tena."
-      ],
-      "gn": [
-        "**Grid pyahu:** grid ñeha'ã moheñoiha LED ha proyección-pe guarã, oimeraẽ resolución 100.000 × 100.000 px peve, resolución oĩmbáva, ta'anga (Grid, Spyder ha Jojaha), hapykuegua, jehechaukarã ha líneas pytã térã hovy.",
-        "**Eñongatu grid PNG, JPEG, PSD térã PDF-pe:** archivo hekopete píxel ha píxel, ikatúva hapykuegua hesakãva (Alpha).",
-        "**Zoom ha mosyryry:** zoom mouse rueda reheve peteĩ píxel peve, emosyryry botón akatúa reheve, Jehecha mbyte térã Esc emombyte jey hag̃ua."
-      ],
-      "he": [
-        "**לשונית Grid חדשה:** מחולל רשת בדיקה ל-LED ולהקרנה, בכל רזולוציה עד 100,000 × 100,000 פיקסלים, עם רזולוציות מוכנות, תבניות (Grid, Spyder ו-יישור), רקעים, אפשרויות תצוגה וקווים אדומים או כחולים.",
-        "**שמירת הרשת כ-PNG, JPEG, PSD או PDF:** קבצים מדויקים עד הפיקסל, עם רקע שקוף לבחירה (Alpha).",
-        "**זום וגרירה:** זום בגלגלת העכבר עד פיקסל בודד, גרירה בלחצן הימני, מרכז את התצוגה או Esc כדי למרכז שוב."
-      ],
-      "lv": [
-        "**Jauna cilne Grid:** testa režģa ģenerators LED un projekcijai jebkurā izšķirtspējā līdz 100 000 × 100 000 px, ar gatavām izšķirtspējām, rakstiem (Grid, Spyder un Līdzināšana), foniem, attēlošanas iespējām un sarkanām vai zilām līnijām.",
-        "**Saglabājiet režģi kā PNG, JPEG, PSD vai PDF:** pikseļprecīzi faili ar izvēles caurspīdīgu fonu (Alpha).",
-        "**Tālummaiņa un vilkšana:** tālummaiņa ar peles ritenīti līdz vienam pikselim, vilkšana ar labo pogu, Centrēt skatu vai Esc, lai atkal centrētu."
-      ],
-      "fa": [
-        "**زبانه جدید Grid:** سازنده شبکه آزمایشی برای LED و پروجکشن، با هر وضوحی تا 100,000 × 100,000 پیکسل، همراه با وضوح‌های آماده، الگوها (Grid، Spyder و تراز)، پس‌زمینه‌ها، گزینه‌های نمایش و خطوط قرمز یا آبی.",
-        "**ذخیره شبکه به‌صورت PNG، JPEG، PSD یا PDF:** فایل‌های دقیق تا سطح پیکسل، با پس‌زمینه شفاف اختیاری (Alpha).",
-        "**بزرگ‌نمایی و کشیدن:** بزرگ‌نمایی با چرخ ماوس تا یک پیکسل، کشیدن با دکمه راست، مرکز کردن نما یا Esc برای وسط‌چین کردن دوباره."
-      ],
-      "pl": [
-        "**Nowa karta Grid:** generator siatki testowej dla LED i projekcji, w dowolnej rozdzielczości do 100 000 × 100 000 px, z gotowymi rozdzielczościami, wzorami (Grid, Spyder i Wyrównanie), tłami, opcjami wyświetlania oraz czerwonymi lub niebieskimi liniami.",
-        "**Zapisz siatkę jako PNG, JPEG, PSD lub PDF:** pliki dokładne co do piksela, z opcjonalnym przezroczystym tłem (Alpha).",
-        "**Powiększanie i przesuwanie:** powiększanie kółkiem myszy aż do pojedynczego piksela, przesuwanie prawym przyciskiem, Wyśrodkuj widok lub Esc, aby znów wyśrodkować."
-      ],
-      "uk": [
-        "**Нова вкладка Grid:** генератор тестової сітки для LED і проєкції, будь-яка роздільність до 100 000 × 100 000 пікс., готові роздільності, шаблони (Grid, Spyder і Вирівнювання), фони, параметри відображення та червоні або сині лінії.",
-        "**Збереження сітки в PNG, JPEG, PSD або PDF:** файли з точністю до пікселя, за бажанням із прозорим тлом (Alpha).",
-        "**Масштаб і переміщення:** масштаб коліщатком миші аж до одного пікселя, переміщення правою кнопкою, Центрувати вигляд або Esc для центрування."
-      ],
-      "ca": [
-        "**Nova pestanya Grid:** generador de graella de prova per a LED i projecció, en qualsevol resolució fins a 100.000 × 100.000 px, amb resolucions predefinides, patrons (Grid, Spyder i Alineació), fons, opcions de visualització i línies vermelles o blaves.",
-        "**Deseu la graella en PNG, JPEG, PSD o PDF:** fitxers exactes píxel a píxel, amb fons transparent opcional (Alpha).",
-        "**Zoom i desplaçament:** zoom amb la roda del ratolí fins a un sol píxel, arrossegament amb el botó dret, Centra la vista o Esc per tornar a centrar."
-      ],
-      "cs": [
-        "**Nová karta Grid:** generátor testovací mřížky pro LED a projekci v libovolném rozlišení až 100 000 × 100 000 px, s předvolbami rozlišení, vzory (Grid, Spyder a Zarovnání), pozadími, možnostmi zobrazení a červenými nebo modrými čarami.",
-        "**Uložení mřížky do PNG, JPEG, PSD nebo PDF:** soubory přesné na pixel, volitelně s průhledným pozadím (Alpha).",
-        "**Přiblížení a posun:** přiblížení kolečkem myši až na jediný pixel, posun pravým tlačítkem, Vycentrovat pohled nebo Esc pro opětovné vystředění."
-      ],
-      "fi": [
-        "**Uusi Grid-välilehti:** testiruudukon generaattori LED-näytöille ja projisointiin millä tahansa resoluutiolla 100 000 × 100 000 px asti, valmiilla resoluutioilla, kuvioilla (Grid, Spyder ja Kohdistus), taustoilla, näyttöasetuksilla sekä punaisilla tai sinisillä viivoilla.",
-        "**Tallenna ruudukko PNG-, JPEG-, PSD- tai PDF-muodossa:** pikselintarkat tiedostot, valinnaisesti läpinäkyvällä taustalla (Alpha).",
-        "**Zoomaus ja siirto:** zoomaa hiiren rullalla yksittäiseen pikseliin asti, siirrä hiiren oikealla painikkeella, keskitä uudelleen painikkeella Keskitä näkymä tai Esc-näppäimellä."
-      ],
-      "el": [
-        "**Νέα καρτέλα Grid:** γεννήτρια πλέγματος δοκιμής για LED και προβολή, σε οποιαδήποτε ανάλυση έως 100.000 × 100.000 px, με προκαθορισμένες αναλύσεις, μοτίβα (Grid, Spyder και Ευθυγράμμιση), φόντα, επιλογές εμφάνισης και κόκκινες ή μπλε γραμμές.",
-        "**Αποθήκευση του πλέγματος σε PNG, JPEG, PSD ή PDF:** αρχεία ακριβή ως το pixel, με προαιρετικό διαφανές φόντο (Alpha).",
-        "**Ζουμ και μετακίνηση:** ζουμ με τη ροδέλα του ποντικιού ως ένα μόνο pixel, μετακίνηση με το δεξί κουμπί, Κεντράρισμα προβολής ή Esc για νέο κεντράρισμα."
-      ],
-      "ha": [
-        "**Sabon shafin Grid:** mai ƙirƙirar grid na gwaji don LED da majigi, a kowane ƙuduri har zuwa pixel 100,000 × 100,000, tare da ƙudurori da aka shirya, zane-zane (Grid, Spyder da Daidaitawa), bango, zaɓuɓɓukan nuni da layuka ja ko shuɗi.",
-        "**Ajiye grid a matsayin PNG, JPEG, PSD ko PDF:** fayiloli daidai har zuwa kowane pixel, tare da bango mai haske idan an so (Alpha).",
-        "**Zuƙowa da jawo:** zuƙowa da ƙafafun linzamin kwamfuta har zuwa pixel ɗaya, jawo da maɓallin dama, Tsakaita gani ko Esc don sake sanyawa a tsakiya."
-      ],
-      "ro": [
-        "**Fila nouă Grid:** generator de grilă de test pentru LED și proiecție, în orice rezoluție până la 100.000 × 100.000 px, cu rezoluții presetate, modele (Grid, Spyder și Aliniere), fundaluri, opțiuni de afișare și linii roșii sau albastre.",
-        "**Salvați grila ca PNG, JPEG, PSD sau PDF:** fișiere exacte la pixel, cu fundal transparent opțional (Alpha).",
-        "**Zoom și deplasare:** zoom cu rotița mouse-ului până la un singur pixel, deplasare cu butonul drept, Centrează vederea sau Esc pentru recentrare."
-      ],
-      "yo": [
-        "**Táàbù Grid tuntun:** ẹ̀rọ tí ń ṣẹ̀dá grid ìdánwò fún LED àti iṣẹ́ àfihàn, ní ìpinnu èyíkéyìí títí dé 100,000 × 100,000 px, pẹ̀lú àwọn ìpinnu tí a ti ṣètò, àwọn àpẹẹrẹ (Grid, Spyder àti Ìtòlẹ́sẹẹsẹ), àwọn ẹ̀yìn, àwọn àṣàyàn ìfihàn àti àwọn ìlà pupa tàbí búlù.",
-        "**Fi grid pamọ́ bí PNG, JPEG, PSD tàbí PDF:** àwọn fáìlì tó péye dé píkísẹ́lì kọ̀ọ̀kan, pẹ̀lú ẹ̀yìn tí kò ní àwọ̀ bí o bá fẹ́ (Alpha).",
-        "**Sún-mọ́ àti fífà:** sún-mọ́ pẹ̀lú kẹ̀kẹ́ eku títí dé píkísẹ́lì kan, fà pẹ̀lú bọ́tìnnì ọ̀tún, Mú ìwò wá sí àárín tàbí Esc láti tún gbé e sí àárín."
-      ],
-      "zu": [
-        "**Ithebhu entsha ye-Grid:** isakhi segridi yokuhlola se-LED nokuqondisa, kunoma yikuphi ukucaca kuze kufike ku-100,000 × 100,000 px, kanye nokucaca okusethwe ngaphambili, amaphethini (Grid, Spyder ne-Ukuqondanisa), izizinda, izinketho zokubonisa nemigqa ebomvu noma eluhlaza okwesibhakabhaka.",
-        "**Londoloza igridi njenge-PNG, JPEG, PSD noma PDF:** amafayela anembe kuze kube yiphikseli ngayinye, nesizinda esibonisa ngale uma uthanda (Alpha).",
-        "**Ukusondeza nokuhudula:** sondeza ngesondo lemawusi kuze kube yiphikseli eyodwa, hudula ngenkinobho yesokudla, Maphakathi ukubuka noma Esc ukuze uphinde umise maphakathi."
-      ],
-      "fil": [
-        "**Bagong tab na Grid:** generator ng test grid para sa LED at projection, sa anumang resolution hanggang 100,000 × 100,000 px, may mga preset na resolution, pattern (Grid, Spyder at Pag-align), background, opsyon sa display at pula o asul na linya.",
-        "**I-save ang grid bilang PNG, JPEG, PSD o PDF:** mga file na eksakto hanggang sa bawat pixel, may opsyonal na transparent na background (Alpha).",
-        "**Zoom at paggalaw:** mag-zoom gamit ang mouse wheel hanggang sa iisang pixel, i-drag gamit ang kanang button, Igitna ang tanaw o Esc para igitna ulit."
-      ],
-      "ta": [
-        "**புதிய Grid தாவல்:** LED மற்றும் ப்ரொஜெக்ஷனுக்கான சோதனை கிரிட் உருவாக்கி; 100,000 × 100,000 px வரை எந்தத் தெளிவுத்திறனிலும், தயார் தெளிவுத்திறன்கள், வடிவங்கள் (Grid, Spyder, சீரமைப்பு), பின்னணிகள், காட்சி விருப்பங்கள் மற்றும் சிவப்பு அல்லது நீலக் கோடுகளுடன்.",
-        "**கிரிடை PNG, JPEG, PSD அல்லது PDF ஆகச் சேமிக்கவும்:** ஒவ்வொரு பிக்சலும் துல்லியமான கோப்புகள், விருப்பத்தேர்வாக வெளிப்படையான பின்னணியுடன் (Alpha).",
-        "**பெரிதாக்கல் மற்றும் இழுத்தல்:** மவுஸ் சக்கரத்தால் ஒரு பிக்சல் வரை பெரிதாக்கலாம், வலது பொத்தானால் இழுக்கலாம், மீண்டும் மையப்படுத்த காட்சியை மையப்படுத்து அல்லது Esc."
-      ],
-      "te": [
-        "**కొత్త Grid ట్యాబ్:** LED మరియు ప్రొజెక్షన్ కోసం టెస్ట్ గ్రిడ్ జనరేటర్; 100,000 × 100,000 px వరకు ఏ రిజల్యూషన్‌లోనైనా, సిద్ధంగా ఉన్న రిజల్యూషన్‌లు, నమూనాలు (Grid, Spyder, అమరిక), నేపథ్యాలు, ప్రదర్శన ఎంపికలు మరియు ఎరుపు లేదా నీలం గీతలతో.",
-        "**గ్రిడ్‌ను PNG, JPEG, PSD లేదా PDFగా సేవ్ చేయండి:** ప్రతి పిక్సెల్ వరకు ఖచ్చితమైన ఫైళ్లు, ఐచ్ఛికంగా పారదర్శక నేపథ్యంతో (Alpha).",
-        "**జూమ్ మరియు లాగడం:** మౌస్ వీల్‌తో ఒక్క పిక్సెల్ వరకు జూమ్, కుడి బటన్‌తో లాగడం, మళ్లీ మధ్యలో ఉంచడానికి వీక్షణను మధ్యలో ఉంచు లేదా Esc."
-      ],
-      "mr": [
-        "**नवीन Grid टॅब:** LED आणि प्रोजेक्शनसाठी टेस्ट ग्रिड जनरेटर, 100,000 × 100,000 px पर्यंत कोणत्याही रिझोल्यूशनमध्ये, तयार रिझोल्यूशन, पॅटर्न (Grid, Spyder आणि संरेखन), पार्श्वभूमी, प्रदर्शन पर्याय आणि लाल किंवा निळ्या रेषांसह.",
-        "**ग्रिड PNG, JPEG, PSD किंवा PDF म्हणून जतन करा:** प्रत्येक पिक्सेलपर्यंत अचूक फायली, पर्यायी पारदर्शक पार्श्वभूमीसह (Alpha).",
-        "**झूम आणि ओढणे:** माउस व्हीलने एका पिक्सेलपर्यंत झूम, उजव्या बटणाने ओढा, पुन्हा मध्यभागी आणण्यासाठी दृश्य मध्यभागी आणा किंवा Esc."
-      ],
-      "da": [
-        "**Ny Grid-fane:** generator af testgitter til LED og projektion i enhver opløsning op til 100.000 × 100.000 px, med forudindstillede opløsninger, mønstre (Grid, Spyder og Justering), baggrunde, visningsindstillinger og røde eller blå linjer.",
-        "**Gem gitteret som PNG, JPEG, PSD eller PDF:** pixelnøjagtige filer, med valgfri gennemsigtig baggrund (Alpha).",
-        "**Zoom og flyt:** zoom med musehjulet helt ned til en enkelt pixel, træk med højre museknap, Centrer visningen eller Esc for at centrere igen."
-      ],
-      "nb": [
-        "**Ny Grid-fane:** generator for testrutenett til LED og projeksjon i hvilken som helst oppløsning opptil 100 000 × 100 000 px, med forhåndsinnstilte oppløsninger, mønstre (Grid, Spyder og Justering), bakgrunner, visningsvalg og røde eller blå linjer.",
-        "**Lagre rutenettet som PNG, JPEG, PSD eller PDF:** pikselnøyaktige filer, med valgfri gjennomsiktig bakgrunn (Alpha).",
-        "**Zoom og flytt:** zoom med musehjulet helt ned til én piksel, dra med høyre museknapp, Sentrer visningen eller Esc for å sentrere igjen."
-      ],
-      "lt": [
-        "**Naujas skirtukas Grid:** bandomojo tinklelio generatorius LED ir projekcijai, bet kokios raiškos iki 100 000 × 100 000 px, su paruoštomis raiškomis, raštais (Grid, Spyder ir Lygiavimas), fonais, rodymo parinktimis ir raudonomis ar mėlynomis linijomis.",
-        "**Išsaugokite tinklelį PNG, JPEG, PSD arba PDF formatu:** tikslūs iki pikselio failai, pasirinktinai su permatomu fonu (Alpha).",
-        "**Mastelis ir tempimas:** mastelis pelės ratuku iki vieno pikselio, tempimas dešiniuoju mygtuku, Centruoti vaizdą arba Esc, kad vėl sucentruotumėte."
-      ],
-      "et": [
-        "**Uus vahekaart Grid:** testvõrgustiku generaator LED-ekraanidele ja projektsioonile mis tahes eraldusvõimes kuni 100 000 × 100 000 px, valmis eraldusvõimete, mustrite (Grid, Spyder ja Joondus), taustade, kuvavalikute ning punaste või siniste joontega.",
-        "**Salvestage võrgustik PNG-, JPEG-, PSD- või PDF-failina:** piksli täpsusega failid, soovi korral läbipaistva taustaga (Alpha).",
-        "**Suumimine ja liigutamine:** suumige hiireratta abil kuni ühe pikslini, lohistage parema hiirenupuga, uuesti keskele toomiseks Tsentreeri vaade või Esc."
-      ],
-      "sk": [
-        "**Nová karta Grid:** generátor testovacej mriežky pre LED a projekciu v ľubovoľnom rozlíšení až do 100 000 × 100 000 px, s predvoľbami rozlíšenia, vzormi (Grid, Spyder a Zarovnanie), pozadiami, možnosťami zobrazenia a červenými alebo modrými čiarami.",
-        "**Uloženie mriežky do PNG, JPEG, PSD alebo PDF:** súbory presné na pixel, voliteľne s priehľadným pozadím (Alpha).",
-        "**Priblíženie a posun:** priblíženie kolieskom myši až na jediný pixel, posun pravým tlačidlom, Vycentrovať pohľad alebo Esc na opätovné vycentrovanie."
-      ],
-      "bg": [
-        "**Нов раздел Grid:** генератор на тестова мрежа за LED и проекция, във всякаква резолюция до 100 000 × 100 000 px, с готови резолюции, шаблони (Grid, Spyder и Подравняване), фонове, опции за показване и червени или сини линии.",
-        "**Запазване на мрежата като PNG, JPEG, PSD или PDF:** файлове, точни до пиксел, по желание с прозрачен фон (Alpha).",
-        "**Мащабиране и преместване:** мащабиране с колелцето на мишката до един пиксел, преместване с десния бутон, Центриране на изгледа или Esc за повторно центриране."
-      ],
-      "sr": [
-        "**Нова картица Grid:** генератор тест мреже за LED и пројекцију, у било којој резолуцији до 100.000 × 100.000 px, са унапред подешеним резолуцијама, шаблонима (Grid, Spyder и Поравнање), позадинама, опцијама приказа и црвеним или плавим линијама.",
-        "**Сачувајте мрежу као PNG, JPEG, PSD или PDF:** датотеке тачне до пиксела, са опционом провидном позадином (Alpha).",
-        "**Зумирање и померање:** зумирање точкићем миша до једног пиксела, померање десним тастером, Центрирај приказ или Esc за поновно центрирање."
-      ],
-      "hr": [
-        "**Nova kartica Grid:** generator testne mreže za LED i projekciju, u bilo kojoj rezoluciji do 100.000 × 100.000 px, s unaprijed postavljenim rezolucijama, uzorcima (Grid, Spyder i Poravnanje), pozadinama, mogućnostima prikaza te crvenim ili plavim linijama.",
-        "**Spremite mrežu kao PNG, JPEG, PSD ili PDF:** datoteke točne do piksela, s neobaveznom prozirnom pozadinom (Alpha).",
-        "**Zumiranje i pomicanje:** zumiranje kotačićem miša do jednog piksela, pomicanje desnom tipkom, Centriraj prikaz ili Esc za ponovno centriranje."
-      ],
-      "gu": [
-        "**નવું Grid ટેબ:** LED અને પ્રોજેક્શન માટે ટેસ્ટ ગ્રિડ જનરેટર, 100,000 × 100,000 px સુધીના કોઈપણ રિઝોલ્યુશનમાં, તૈયાર રિઝોલ્યુશન, પેટર્ન (Grid, Spyder અને સંરેખણ), પૃષ્ઠભૂમિ, પ્રદર્શન વિકલ્પો અને લાલ અથવા વાદળી રેખાઓ સાથે.",
-        "**ગ્રિડને PNG, JPEG, PSD અથવા PDF તરીકે સાચવો:** દરેક પિક્સેલ સુધી ચોક્કસ ફાઇલો, વૈકલ્પિક પારદર્શક પૃષ્ઠભૂમિ સાથે (Alpha).",
-        "**ઝૂમ અને ખેંચવું:** માઉસ વ્હીલથી એક પિક્સેલ સુધી ઝૂમ, જમણા બટનથી ખેંચો, ફરી કેન્દ્રમાં લાવવા દૃશ્ય કેન્દ્રમાં લાવો અથવા Esc."
-      ],
-      "pa": [
-        "**ਨਵਾਂ Grid ਟੈਬ:** LED ਅਤੇ ਪ੍ਰੋਜੈਕਸ਼ਨ ਲਈ ਟੈਸਟ ਗ੍ਰਿਡ ਜਨਰੇਟਰ, 100,000 × 100,000 px ਤੱਕ ਕਿਸੇ ਵੀ ਰੈਜ਼ੋਲਿਊਸ਼ਨ ਵਿੱਚ, ਤਿਆਰ ਰੈਜ਼ੋਲਿਊਸ਼ਨ, ਪੈਟਰਨ (Grid, Spyder ਅਤੇ ਸੰਰੇਖਣ), ਪਿਛੋਕੜ, ਡਿਸਪਲੇ ਵਿਕਲਪ ਅਤੇ ਲਾਲ ਜਾਂ ਨੀਲੀਆਂ ਲਾਈਨਾਂ ਨਾਲ।",
-        "**ਗ੍ਰਿਡ ਨੂੰ PNG, JPEG, PSD ਜਾਂ PDF ਵਜੋਂ ਸੇਵ ਕਰੋ:** ਹਰ ਪਿਕਸਲ ਤੱਕ ਸਹੀ ਫ਼ਾਈਲਾਂ, ਚੋਣਵੇਂ ਪਾਰਦਰਸ਼ੀ ਪਿਛੋਕੜ ਨਾਲ (Alpha)।",
-        "**ਜ਼ੂਮ ਅਤੇ ਖਿੱਚਣਾ:** ਮਾਊਸ ਵ੍ਹੀਲ ਨਾਲ ਇੱਕ ਪਿਕਸਲ ਤੱਕ ਜ਼ੂਮ, ਸੱਜੇ ਬਟਨ ਨਾਲ ਖਿੱਚੋ, ਮੁੜ ਵਿਚਕਾਰ ਲਿਆਉਣ ਲਈ ਦ੍ਰਿਸ਼ ਕੇਂਦਰ ਵਿੱਚ ਕਰੋ ਜਾਂ Esc।"
-      ],
-      "kn": [
-        "**ಹೊಸ Grid ಟ್ಯಾಬ್:** LED ಮತ್ತು ಪ್ರೊಜೆಕ್ಷನ್‌ಗಾಗಿ ಪರೀಕ್ಷಾ ಗ್ರಿಡ್ ಜನರೇಟರ್, 100,000 × 100,000 px ವರೆಗಿನ ಯಾವುದೇ ರೆಸಲ್ಯೂಶನ್‌ನಲ್ಲಿ, ಸಿದ್ಧ ರೆಸಲ್ಯೂಶನ್‌ಗಳು, ಮಾದರಿಗಳು (Grid, Spyder ಮತ್ತು ಜೋಡಣೆ), ಹಿನ್ನೆಲೆಗಳು, ಪ್ರದರ್ಶನ ಆಯ್ಕೆಗಳು ಮತ್ತು ಕೆಂಪು ಅಥವಾ ನೀಲಿ ಗೆರೆಗಳೊಂದಿಗೆ.",
-        "**ಗ್ರಿಡ್ ಅನ್ನು PNG, JPEG, PSD ಅಥವಾ PDF ಆಗಿ ಉಳಿಸಿ:** ಪ್ರತಿ ಪಿಕ್ಸೆಲ್‌ವರೆಗೂ ನಿಖರವಾದ ಫೈಲ್‌ಗಳು, ಐಚ್ಛಿಕ ಪಾರದರ್ಶಕ ಹಿನ್ನೆಲೆಯೊಂದಿಗೆ (Alpha).",
-        "**ಜೂಮ್ ಮತ್ತು ಎಳೆಯುವುದು:** ಮೌಸ್ ಚಕ್ರದಿಂದ ಒಂದು ಪಿಕ್ಸೆಲ್‌ವರೆಗೆ ಜೂಮ್, ಬಲ ಗುಂಡಿಯಿಂದ ಎಳೆಯಿರಿ, ಮತ್ತೆ ಮಧ್ಯಕ್ಕೆ ತರಲು ನೋಟವನ್ನು ಮಧ್ಯಕ್ಕೆ ತನ್ನಿ ಅಥವಾ Esc."
-      ],
-      "ne": [
-        "**नयाँ Grid ट्याब:** LED र प्रोजेक्सनका लागि परीक्षण ग्रिड जेनेरेटर, 100,000 × 100,000 px सम्मको कुनै पनि रिजोल्युसनमा, तयार रिजोल्युसन, ढाँचा (Grid, Spyder र पङ्क्तिबद्धता), पृष्ठभूमि, प्रदर्शन विकल्प र रातो वा निलो रेखासहित।",
-        "**ग्रिडलाई PNG, JPEG, PSD वा PDF मा सेभ गर्नुहोस्:** प्रत्येक पिक्सेलसम्म सही फाइलहरू, ऐच्छिक पारदर्शी पृष्ठभूमिसहित (Alpha)।",
-        "**जुम र तान्ने:** माउस ह्वीलले एउटै पिक्सेलसम्म जुम, दायाँ बटनले तान्नुहोस्, फेरि बीचमा ल्याउन दृश्य बीचमा ल्याउनुहोस् वा Esc।"
-      ],
-      "km": [
-        "**ផ្ទាំង Grid ថ្មី៖** កម្មវិធីបង្កើតក្រឡាសាកល្បងសម្រាប់ LED និងការបញ្ចាំង គ្រប់គុណភាពបង្ហាញរហូតដល់ 100,000 × 100,000 px មានគុណភាពបង្ហាញស្រាប់ លំនាំ (Grid, Spyder និង ការតម្រឹម) ផ្ទៃខាងក្រោយ ជម្រើសបង្ហាញ និងបន្ទាត់ពណ៌ក្រហម ឬខៀវ។",
-        "**រក្សាទុកក្រឡាជា PNG, JPEG, PSD ឬ PDF៖** ឯកសារត្រឹមត្រូវដល់គ្រប់ភីកសែល ជាមួយផ្ទៃខាងក្រោយថ្លាតាមជម្រើស (Alpha)។",
-        "**ពង្រីក និងអូស៖** ពង្រីកដោយកង់កណ្ដុររហូតដល់ភីកសែលតែមួយ អូសដោយប៊ូតុងស្ដាំ ចុច ដាក់ទិដ្ឋភាពចំកណ្តាល ឬ Esc ដើម្បីដាក់កណ្ដាលវិញ។"
-      ],
-      "kk": [
-        "**Жаңа Grid қойындысы:** LED және проекцияға арналған сынақ торының генераторы, 100 000 × 100 000 px-ке дейінгі кез келген ажыратымдылықта, дайын ажыратымдылықтар, үлгілер (Grid, Spyder және Туралау), фондар, көрсету параметрлері және қызыл не көк сызықтармен.",
-        "**Торды PNG, JPEG, PSD немесе PDF ретінде сақтаңыз:** пиксельге дейін дәл файлдар, қалауыңызша мөлдір фонмен (Alpha).",
-        "**Масштабтау және жылжыту:** тышқан дөңгелегімен бір пиксельге дейін масштабтау, оң жақ батырмамен жылжыту, қайта ортаға келтіру үшін Көріністі ортаға келтіру немесе Esc."
-      ],
-      "uz": [
-        "**Yangi Grid yorlig'i:** LED va proyeksiya uchun sinov to'ri generatori, 100 000 × 100 000 px gacha istalgan o'lchamda, tayyor o'lchamlar, naqshlar (Grid, Spyder va Tekislash), fonlar, ko'rsatish sozlamalari hamda qizil yoki ko'k chiziqlar bilan.",
-        "**To'rni PNG, JPEG, PSD yoki PDF sifatida saqlang:** pikselgacha aniq fayllar, ixtiyoriy shaffof fon bilan (Alpha).",
-        "**Kattalashtirish va surish:** sichqoncha g'ildiragi bilan bitta pikselgacha kattalashtirish, o'ng tugma bilan surish, qayta markazlash uchun Koʻrinishni markazlash yoki Esc."
-      ],
-      "am": [
-        "**አዲስ Grid ትር፦** ለLED እና ለፕሮጀክሽን የሙከራ ፍርግርግ አመንጪ፣ እስከ 100,000 × 100,000 px ድረስ በማንኛውም ጥራት፣ ከተዘጋጁ ጥራቶች፣ ንድፎች (Grid፣ Spyder እና አሰላለፍ)፣ ዳራዎች፣ የማሳያ አማራጮች እና ቀይ ወይም ሰማያዊ መስመሮች ጋር።",
-        "**ፍርግርጉን እንደ PNG፣ JPEG፣ PSD ወይም PDF ያስቀምጡ፦** እስከ እያንዳንዱ ፒክሰል ትክክለኛ ፋይሎች፣ ከአማራጭ ግልጽ ዳራ ጋር (Alpha)።",
-        "**ማጉላት እና መጎተት፦** በመዳፊት መሽከርከሪያ እስከ አንድ ፒክሰል ማጉላት፣ በቀኝ አዝራር መጎተት፣ እንደገና ወደ መሃል ለማምጣት እይታን መሃል አድርግ ወይም Esc።"
-      ],
-      "sl": [
-        "**Nov zavihek Grid:** generator preizkusne mreže za LED in projekcijo v poljubni ločljivosti do 100.000 × 100.000 px, s prednastavljenimi ločljivostmi, vzorci (Grid, Spyder in Poravnava), ozadji, možnostmi prikaza ter rdečimi ali modrimi črtami.",
-        "**Shranite mrežo kot PNG, JPEG, PSD ali PDF:** datoteke, natančne do slikovne pike, z neobveznim prosojnim ozadjem (Alpha).",
-        "**Povečava in premikanje:** povečava s kolescem miške do ene same slikovne pike, premikanje z desnim gumbom, Centriraj pogled ali Esc za ponovno sredinjenje."
-      ]
-    },
-    "2.6.0": {
-      "en": [
-        "**New languages:** 29 more, including Catalan, Czech, Greek, Romanian, Danish, Tamil, Kazakh and Amharic. R-A Grid now has 60 languages, in alphabetical order with a scroll bar in the globe menu.",
-        "**Remove:** the button now checks the panel's cabinet and pixel pitch (for example P3.91) and trims the excess canvas exactly to the screens' cabinets."
-      ],
-      "pt": [
-        "**Novos idiomas:** mais 29, entre eles catalão, tcheco, grego, romeno, dinamarquês, tâmil, cazaque e amárico. O R-A Grid agora tem 60 idiomas, em ordem alfabética e com barra de rolagem no menu do globo.",
-        "**Remove:** o botão agora confere o gabinete e o pitch do painel (por exemplo P3.91) e remove o excesso de canvas exatamente até os gabinetes das telas."
-      ],
-      "es": [
-        "**Nuevos idiomas:** 29 más, entre ellos catalán, checo, griego, rumano, danés, tamil, kazajo y amárico. R-A Grid ahora tiene 60 idiomas, en orden alfabético y con barra de desplazamiento en el menú del globo.",
-        "**Remove:** el botón ahora comprueba el gabinete y el pitch del panel (por ejemplo P3.91) y recorta el lienzo sobrante exactamente hasta los gabinetes de las pantallas."
-      ],
-      "fr": [
-        "**Nouvelles langues :** 29 de plus, dont le catalan, le tchèque, le grec, le roumain, le danois, le tamoul, le kazakh et l'amharique. R-A Grid propose désormais 60 langues, par ordre alphabétique avec une barre de défilement dans le menu du globe.",
-        "**Remove :** le bouton vérifie maintenant le caisson et le pas du panneau (par exemple P3.91) et retire l'excédent de canevas exactement jusqu'aux caissons des écrans."
-      ],
-      "de": [
-        "**Neue Sprachen:** 29 weitere, darunter Katalanisch, Tschechisch, Griechisch, Rumänisch, Dänisch, Tamil, Kasachisch und Amharisch. R-A Grid hat jetzt 60 Sprachen, alphabetisch sortiert und mit Bildlaufleiste im Globus-Menü.",
-        "**Remove:** Die Schaltfläche prüft jetzt Kabinett und Pixelabstand des Panels (zum Beispiel P3.91) und schneidet die überschüssige Leinwand genau bis zu den Kabinetten der Bildschirme ab."
-      ],
-      "it": [
-        "**Nuove lingue:** altre 29, tra cui catalano, ceco, greco, rumeno, danese, tamil, kazako e amarico. R-A Grid ora ha 60 lingue, in ordine alfabetico e con barra di scorrimento nel menu del globo.",
-        "**Remove:** il pulsante ora controlla il cabinet e il passo del pannello (ad esempio P3.91) e taglia la tela in eccesso esattamente fino ai cabinet degli schermi."
-      ],
-      "nl": [
-        "**Nieuwe talen:** nog 29, waaronder Catalaans, Tsjechisch, Grieks, Roemeens, Deens, Tamil, Kazachs en Amhaars. R-A Grid heeft nu 60 talen, alfabetisch en met een schuifbalk in het wereldbolmenu.",
-        "**Remove:** de knop controleert nu de cabinet en de pixelafstand van het paneel (bijvoorbeeld P3.91) en snijdt het overtollige canvas precies tot de cabinets van de schermen af."
-      ],
-      "ru": [
-        "**Новые языки:** ещё 29, среди них каталанский, чешский, греческий, румынский, датский, тамильский, казахский и амхарский. Теперь в R-A Grid 60 языков, по алфавиту и с полосой прокрутки в меню глобуса.",
-        "**Remove:** кнопка теперь проверяет кабинет и шаг пикселя панели (например, P3.91) и обрезает лишний холст точно по кабинетам экранов."
-      ],
-      "tr": [
-        "**Yeni diller:** aralarında Katalanca, Çekçe, Yunanca, Rumence, Danca, Tamilce, Kazakça ve Amharca'nın da olduğu 29 dil daha. R-A Grid artık 60 dilde; dünya menüsünde alfabetik sırada ve kaydırma çubuğuyla.",
-        "**Remove:** düğme artık panelin kabinini ve piksel aralığını (örneğin P3.91) kontrol ediyor ve fazla tuvali tam olarak ekranların kabinlerine kadar kesiyor."
-      ],
-      "id": [
-        "**Bahasa baru:** 29 lagi, termasuk Katalan, Ceko, Yunani, Rumania, Denmark, Tamil, Kazakh, dan Amharik. R-A Grid kini memiliki 60 bahasa, berurutan menurut abjad dengan bilah gulir di menu globe.",
-        "**Remove:** tombol ini kini memeriksa kabinet dan pitch panel (misalnya P3.91) dan memangkas kanvas berlebih tepat sampai kabinet layar."
-      ],
-      "hu": [
-        "**Új nyelvek:** további 29, köztük katalán, cseh, görög, román, dán, tamil, kazah és amhara. Az R-A Grid most 60 nyelven érhető el, ábécérendben, görgetősávval a földgömb menüben.",
-        "**Remove:** a gomb most ellenőrzi a panel kabinetjét és pixeltávolságát (például P3.91), és a felesleges vásznat pontosan a képernyők kabinetjeiig vágja le."
-      ],
-      "zh-Hans": [
-        "**新语言：**新增 29 种，包括加泰罗尼亚语、捷克语、希腊语、罗马尼亚语、丹麦语、泰米尔语、哈萨克语和阿姆哈拉语。R-A Grid 现在支持 60 种语言，在地球菜单中按字母顺序排列并带有滚动条。",
-        "**Remove：**该按钮现在会检查面板的箱体和像素间距（例如 P3.91），并将多余的画布精确裁剪到屏幕的箱体为止。"
-      ],
-      "zh-Hant": [
-        "**新語言：**新增 29 種，包括加泰隆尼亞語、捷克語、希臘語、羅馬尼亞語、丹麥語、坦米爾語、哈薩克語和阿姆哈拉語。R-A Grid 現在支援 60 種語言，在地球選單中依字母順序排列並附有捲軸。",
-        "**Remove：**此按鈕現在會檢查面板的箱體和像素間距（例如 P3.91），並將多餘的畫布精確裁切到螢幕的箱體為止。"
-      ],
-      "ja": [
-        "**新しい言語：**カタルーニャ語、チェコ語、ギリシャ語、ルーマニア語、デンマーク語、タミル語、カザフ語、アムハラ語など 29 言語を追加。R-A Grid は 60 言語に対応し、地球儀メニューではアルファベット順にスクロールバー付きで表示されます。",
-        "**Remove：**このボタンはパネルのキャビネットとピクセルピッチ（例：P3.91）を確認し、余分なキャンバスをスクリーンのキャビネットに合わせて正確に削除するようになりました。"
-      ],
-      "ko": [
-        "**새 언어:** 카탈로니아어, 체코어, 그리스어, 루마니아어, 덴마크어, 타밀어, 카자흐어, 암하라어 등 29개 추가. 이제 R-A Grid는 60개 언어를 지원하며, 지구본 메뉴에서 알파벳순으로 스크롤바와 함께 표시됩니다.",
-        "**Remove:** 이제 이 버튼은 패널의 캐비닛과 픽셀 피치(예: P3.91)를 확인하고 남는 캔버스를 화면의 캐비닛에 정확히 맞춰 잘라냅니다."
-      ],
-      "ar": [
-        "**لغات جديدة:** 29 لغة أخرى، منها الكتالونية والتشيكية واليونانية والرومانية والدنماركية والتاميلية والكازاخية والأمهرية. أصبح R-A Grid يدعم 60 لغة، مرتبة أبجديًا مع شريط تمرير في قائمة الكرة الأرضية.",
-        "**Remove:** يتحقق الزر الآن من خزانة اللوحة ودرجة البكسل (مثل P3.91) ويقص اللوحة الزائدة بدقة حتى خزانات الشاشات."
-      ],
-      "th": [
-        "**ภาษาใหม่:** เพิ่มอีก 29 ภาษา รวมถึงคาตาลัน เช็ก กรีก โรมาเนีย เดนมาร์ก ทมิฬ คาซัค และอัมฮาริก ตอนนี้ R-A Grid มี 60 ภาษา เรียงตามตัวอักษรพร้อมแถบเลื่อนในเมนูลูกโลก",
-        "**Remove:** ปุ่มนี้จะตรวจสอบตู้และระยะพิกเซลของแผง (เช่น P3.91) แล้วตัดแคนวาสส่วนเกินให้พอดีกับตู้ของหน้าจอ"
-      ],
-      "hi": [
-        "**नई भाषाएँ:** 29 और, जिनमें कैटलन, चेक, ग्रीक, रोमानियाई, डेनिश, तमिल, कज़ाख़ और अम्हारिक शामिल हैं। R-A Grid अब 60 भाषाओं में है, ग्लोब मेनू में वर्णानुक्रम में और स्क्रॉल बार के साथ।",
-        "**Remove:** यह बटन अब पैनल का कैबिनेट और पिक्सेल पिच (जैसे P3.91) जाँचता है और अतिरिक्त कैनवास को ठीक स्क्रीन के कैबिनेट तक काटता है।"
-      ],
-      "vi": [
-        "**Ngôn ngữ mới:** thêm 29 ngôn ngữ, gồm tiếng Catalan, Séc, Hy Lạp, Romania, Đan Mạch, Tamil, Kazakh và Amharic. R-A Grid nay có 60 ngôn ngữ, sắp xếp theo bảng chữ cái với thanh cuộn trong menu quả địa cầu.",
-        "**Remove:** nút này giờ kiểm tra cabinet và pixel pitch của tấm (ví dụ P3.91) và cắt phần canvas thừa đúng đến cabinet của các màn hình."
-      ],
-      "bn": [
-        "**নতুন ভাষা:** আরও ২৯টি, যার মধ্যে কাতালান, চেক, গ্রিক, রোমানিয়ান, ড্যানিশ, তামিল, কাজাখ ও আমহারিক। R-A Grid-এ এখন ৬০টি ভাষা, গ্লোব মেনুতে বর্ণানুক্রমে ও স্ক্রল বারসহ।",
-        "**Remove:** বোতামটি এখন প্যানেলের ক্যাবিনেট ও পিক্সেল পিচ (যেমন P3.91) যাচাই করে এবং অতিরিক্ত ক্যানভাস ঠিক স্ক্রিনের ক্যাবিনেট পর্যন্ত কেটে দেয়।"
-      ],
-      "ms": [
-        "**Bahasa baharu:** 29 lagi, termasuk Catalan, Czech, Greek, Romania, Denmark, Tamil, Kazakh dan Amharic. R-A Grid kini mempunyai 60 bahasa, mengikut abjad dengan bar tatal dalam menu glob.",
-        "**Remove:** butang ini kini menyemak kabinet dan pic piksel panel (contohnya P3.91) dan memangkas kanvas berlebihan tepat hingga kabinet skrin."
-      ],
-      "sv": [
-        "**Nya språk:** 29 till, bland annat katalanska, tjeckiska, grekiska, rumänska, danska, tamil, kazakiska och amhariska. R-A Grid har nu 60 språk, i alfabetisk ordning med rullningslist i jordglobsmenyn.",
-        "**Remove:** knappen kontrollerar nu panelens kabinett och pixelavstånd (till exempel P3.91) och beskär överflödig duk exakt till skärmarnas kabinett."
-      ],
-      "ur": [
-        "**نئی زبانیں:** مزید 29، جن میں کاتالان، چیک، یونانی، رومانیائی، ڈینش، تمل، قازق اور امہری شامل ہیں۔ R-A Grid میں اب 60 زبانیں ہیں، گلوب مینو میں حروفِ تہجی کی ترتیب سے اور اسکرول بار کے ساتھ۔",
-        "**Remove:** یہ بٹن اب پینل کا کیبنٹ اور پکسل پچ (مثلاً P3.91) جانچتا ہے اور اضافی کینوس کو ٹھیک اسکرینوں کے کیبنٹ تک کاٹ دیتا ہے۔"
-      ],
-      "sw": [
-        "**Lugha mpya:** 29 zaidi, zikiwemo Kikatalani, Kicheki, Kigiriki, Kiromania, Kidenmaki, Kitamil, Kikazakh na Kiamhari. R-A Grid sasa ina lugha 60, kwa mpangilio wa alfabeti na upau wa kusogeza kwenye menyu ya dunia.",
-        "**Remove:** kitufe sasa kinakagua kabati na pitch ya pikseli ya paneli (kwa mfano P3.91) na kukata turubai ya ziada hasa hadi kwenye kabati za skrini."
-      ],
-      "gn": [
-        "**Ñe'ẽ pyahu:** 29 hetave, umíva apytépe catalán, checo, griego, rumano, danés, tamil, kazajo ha amhárico. R-A Grid oguereko ko'ágã 60 ñe'ẽ, abecedario rupi ha barra de desplazamiento ndive yvy menúpe.",
-        "**Remove:** botón ohecha ko'ágã panel gabinete ha pitch (techapyrã P3.91) ha oikytĩ lienzo hembýva gabinete pantalla-kuéra peve."
-      ],
-      "he": [
-        "**שפות חדשות:** עוד 29, ביניהן קטלאנית, צ'כית, יוונית, רומנית, דנית, טמילית, קזחית ואמהרית. ל-R-A Grid יש כעת 60 שפות, בסדר אלפביתי ועם פס גלילה בתפריט הגלובוס.",
-        "**Remove:** הכפתור בודק כעת את הקבינט ואת מרווח הפיקסלים של הפאנל (למשל P3.91) וחותך את הקנבס העודף בדיוק עד הקבינטים של המסכים."
-      ],
-      "lv": [
-        "**Jaunas valodas:** vēl 29, tostarp katalāņu, čehu, grieķu, rumāņu, dāņu, tamilu, kazahu un amharu. R-A Grid tagad ir 60 valodās, alfabēta secībā un ar ritjoslu globusa izvēlnē.",
-        "**Remove:** poga tagad pārbauda paneļa kabinetu un pikseļu soli (piemēram, P3.91) un nogriež lieko audeklu tieši līdz ekrānu kabinetiem."
-      ],
-      "fa": [
-        "**زبان‌های جدید:** ۲۹ زبان دیگر، از جمله کاتالان، چکی، یونانی، رومانیایی، دانمارکی، تامیلی، قزاقی و امهری. R-A Grid اکنون ۶۰ زبان دارد، به ترتیب الفبا و با نوار پیمایش در منوی کره زمین.",
-        "**Remove:** این دکمه اکنون کابینت و گام پیکسل پنل (مثلاً P3.91) را بررسی می‌کند و بوم اضافی را دقیقاً تا کابینت‌های صفحه‌ها برش می‌دهد."
-      ],
-      "pl": [
-        "**Nowe języki:** 29 kolejnych, m.in. kataloński, czeski, grecki, rumuński, duński, tamilski, kazachski i amharski. R-A Grid ma teraz 60 języków, w kolejności alfabetycznej i z paskiem przewijania w menu globusa.",
-        "**Remove:** przycisk sprawdza teraz kabinet i rozstaw pikseli panelu (na przykład P3.91) i przycina nadmiar płótna dokładnie do kabinetów ekranów."
-      ],
-      "uk": [
-        "**Нові мови:** ще 29, серед них каталонська, чеська, грецька, румунська, данська, тамільська, казахська й амхарська. Тепер R-A Grid має 60 мов, за абеткою та зі смугою прокрутки в меню глобуса.",
-        "**Remove:** кнопка тепер перевіряє кабінет і крок пікселя панелі (наприклад, P3.91) і обрізає зайве полотно точно до кабінетів екранів."
       ]
     }
   }
