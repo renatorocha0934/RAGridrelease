@@ -1,223 +1,1017 @@
 {
-  "version": "2.6.3",
-  "windows": "https://github.com/renatorocha0934/RAGridrelease/releases/download/v2.6.3/RAGrid-Windows.zip",
-  "mac": "https://github.com/renatorocha0934/RAGridrelease/releases/download/v2.6.3/RAGrid-Mac.dmg",
+  "version": "2.7.2",
+  "windows": "https://github.com/renatorocha0934/RAGridrelease/releases/download/v2.7.2/RAGrid-Windows.zip",
+  "mac": "https://github.com/renatorocha0934/RAGridrelease/releases/download/v2.7.2/RAGrid-Mac.dmg",
   "notes": "System and performance improvements.",
   "changes": {
-    "2.6.0": {
+    "2.7.2": {
       "en": [
-        "**New languages:** 29 more, including Catalan, Czech, Greek, Romanian, Danish, Tamil, Kazakh and Amharic. R-A Grid now has 60 languages, in alphabetical order with a scroll bar in the globe menu.",
-        "**Remove:** the button now checks the panel's cabinet and pixel pitch (for example P3.91) and trims the excess canvas exactly to the screens' cabinets."
+        "**Connection:** the cable can go from one screen to the next, even across empty gaps, on the same port until it is full, and the link also shows in the 3D. New Clear all button.",
+        "**Import XML:** File > Import XML... turns each slice of a Resolume Advanced Output preset into an LED screen, with the canvas exactly at the output resolution.",
+        "**Weight:** weight per cabinet (default 8.5 kg), with the weight per panel and the total in the Info box, Status, 3D Stage and PDF report. Choose the weight unit in Settings; cabinet presets keep the weight.",
+        "**Colors and menu:** black and white option in the panel color menu (double-click), and File now has Import 3D... and Import XML... separately."
       ],
       "pt": [
-        "**Novos idiomas:** mais 29, entre eles catalão, tcheco, grego, romeno, dinamarquês, tâmil, cazaque e amárico. O R-A Grid agora tem 60 idiomas, em ordem alfabética e com barra de rolagem no menu do globo.",
-        "**Remove:** o botão agora confere o gabinete e o pitch do painel (por exemplo P3.91) e remove o excesso de canvas exatamente até os gabinetes das telas."
+        "**Connection:** o cabo passa de uma placa para a outra, mesmo com vão vazio entre elas, na mesma porta até ela encher, e a ligação aparece também no 3D. Novo botão Clear all.",
+        "**Importar XML:** File > Import XML... transforma cada slice de um preset do Advanced Output do Resolume numa tela de LED, com o canvas exatamente na resolução da saída.",
+        "**Peso:** peso por gabinete (padrão 8,5 kg), com o peso por placa e o total na caixa Info, no Status, no 3D Stage e no relatório PDF. A unidade de peso fica nas Settings; os presets de gabinete guardam o peso.",
+        "**Cores e menu:** opção preto e branco no menu de cores da placa (clique duplo), e o File agora tem Import 3D... e Import XML... separados."
       ],
       "es": [
-        "**Nuevos idiomas:** 29 más, entre ellos catalán, checo, griego, rumano, danés, tamil, kazajo y amárico. R-A Grid ahora tiene 60 idiomas, en orden alfabético y con barra de desplazamiento en el menú del globo.",
-        "**Remove:** el botón ahora comprueba el gabinete y el pitch del panel (por ejemplo P3.91) y recorta el lienzo sobrante exactamente hasta los gabinetes de las pantallas."
+        "**Connection:** el cable puede pasar de una pantalla a otra, incluso con huecos vacíos, en el mismo puerto hasta llenarlo, y la unión también se ve en el 3D. Nuevo botón Clear all.",
+        "**Importar XML:** File > Import XML... convierte cada slice de un preset de Advanced Output de Resolume en una pantalla LED, con el lienzo exactamente a la resolución de salida.",
+        "**Peso:** peso por gabinete (8,5 kg por defecto), con el peso por panel y el total en la caja Info, Status, 3D Stage y el informe PDF. La unidad de peso se elige en Settings; los presets de gabinete guardan el peso.",
+        "**Colores y menú:** opción blanco y negro en el menú de color del panel (doble clic), y File ahora tiene Import 3D... e Import XML... por separado."
       ],
       "fr": [
-        "**Nouvelles langues :** 29 de plus, dont le catalan, le tchèque, le grec, le roumain, le danois, le tamoul, le kazakh et l'amharique. R-A Grid propose désormais 60 langues, par ordre alphabétique avec une barre de défilement dans le menu du globe.",
-        "**Remove :** le bouton vérifie maintenant le caisson et le pas du panneau (par exemple P3.91) et retire l'excédent de canevas exactement jusqu'aux caissons des écrans."
+        "**Connection :** le câble peut passer d'un écran à l'autre, même à travers des espaces vides, sur le même port jusqu'à ce qu'il soit plein, et la liaison apparaît aussi en 3D. Nouveau bouton Clear all.",
+        "**Importer XML :** File > Import XML... transforme chaque slice d'un preset Advanced Output de Resolume en écran LED, avec le canevas exactement à la résolution de sortie.",
+        "**Poids :** poids par caisson (8,5 kg par défaut), avec le poids par panneau et le total dans la boîte Info, Status, 3D Stage et le rapport PDF. L'unité de poids se choisit dans Settings ; les presets de caisson gardent le poids.",
+        "**Couleurs et menu :** option noir et blanc dans le menu de couleur du panneau (double-clic), et File propose maintenant Import 3D... et Import XML... séparément."
       ],
       "de": [
-        "**Neue Sprachen:** 29 weitere, darunter Katalanisch, Tschechisch, Griechisch, Rumänisch, Dänisch, Tamil, Kasachisch und Amharisch. R-A Grid hat jetzt 60 Sprachen, alphabetisch sortiert und mit Bildlaufleiste im Globus-Menü.",
-        "**Remove:** Die Schaltfläche prüft jetzt Kabinett und Pixelabstand des Panels (zum Beispiel P3.91) und schneidet die überschüssige Leinwand genau bis zu den Kabinetten der Bildschirme ab."
+        "**Connection:** Das Kabel kann von einem Bildschirm zum nächsten gehen, auch über leere Lücken, auf demselben Port, bis er voll ist; die Verbindung erscheint auch im 3D. Neue Schaltfläche Clear all.",
+        "**XML importieren:** File > Import XML... macht aus jedem Slice eines Resolume-Advanced-Output-Presets einen LED-Bildschirm, mit der Leinwand genau in der Ausgangsauflösung.",
+        "**Gewicht:** Gewicht pro Kabinett (Standard 8,5 kg), mit Gewicht pro Panel und Gesamtgewicht in der Info-Box, Status, 3D Stage und im PDF-Bericht. Die Gewichtseinheit wird in den Settings gewählt; Kabinett-Presets speichern das Gewicht.",
+        "**Farben und Menü:** Schwarz-Weiß-Option im Farbmenü des Panels (Doppelklick), und File hat jetzt Import 3D... und Import XML... getrennt."
       ],
       "it": [
-        "**Nuove lingue:** altre 29, tra cui catalano, ceco, greco, rumeno, danese, tamil, kazako e amarico. R-A Grid ora ha 60 lingue, in ordine alfabetico e con barra di scorrimento nel menu del globo.",
-        "**Remove:** il pulsante ora controlla il cabinet e il passo del pannello (ad esempio P3.91) e taglia la tela in eccesso esattamente fino ai cabinet degli schermi."
+        "**Connection:** il cavo può passare da uno schermo all'altro, anche attraverso spazi vuoti, sulla stessa porta finché non è piena, e il collegamento si vede anche in 3D. Nuovo pulsante Clear all.",
+        "**Importa XML:** File > Import XML... trasforma ogni slice di un preset Advanced Output di Resolume in uno schermo LED, con la tela esattamente alla risoluzione di uscita.",
+        "**Peso:** peso per cabinet (predefinito 8,5 kg), con il peso per pannello e il totale nel riquadro Info, Status, 3D Stage e nel report PDF. L'unità di peso si sceglie in Settings; i preset di cabinet conservano il peso.",
+        "**Colori e menu:** opzione bianco e nero nel menu colori del pannello (doppio clic), e File ora ha Import 3D... e Import XML... separati."
       ],
       "nl": [
-        "**Nieuwe talen:** nog 29, waaronder Catalaans, Tsjechisch, Grieks, Roemeens, Deens, Tamil, Kazachs en Amhaars. R-A Grid heeft nu 60 talen, alfabetisch en met een schuifbalk in het wereldbolmenu.",
-        "**Remove:** de knop controleert nu de cabinet en de pixelafstand van het paneel (bijvoorbeeld P3.91) en snijdt het overtollige canvas precies tot de cabinets van de schermen af."
+        "**Connection:** de kabel kan van het ene scherm naar het volgende, ook over lege tussenruimtes, op dezelfde poort tot die vol is, en de verbinding is ook in 3D te zien. Nieuwe knop Clear all.",
+        "**XML importeren:** File > Import XML... maakt van elke slice van een Resolume Advanced Output-preset een LED-scherm, met het canvas precies op de uitvoerresolutie.",
+        "**Gewicht:** gewicht per cabinet (standaard 8,5 kg), met het gewicht per paneel en het totaal in het Info-vak, Status, 3D Stage en het PDF-rapport. De gewichtseenheid kies je in Settings; cabinet-presets bewaren het gewicht.",
+        "**Kleuren en menu:** zwart-witoptie in het kleurmenu van het paneel (dubbelklik), en File heeft nu Import 3D... en Import XML... apart."
       ],
       "ru": [
-        "**Новые языки:** ещё 29, среди них каталанский, чешский, греческий, румынский, датский, тамильский, казахский и амхарский. Теперь в R-A Grid 60 языков, по алфавиту и с полосой прокрутки в меню глобуса.",
-        "**Remove:** кнопка теперь проверяет кабинет и шаг пикселя панели (например, P3.91) и обрезает лишний холст точно по кабинетам экранов."
+        "**Connection:** кабель может переходить с одного экрана на другой, даже через пустые промежутки, на том же порту, пока он не заполнится; связь видна и в 3D. Новая кнопка Clear all.",
+        "**Импорт XML:** File > Import XML... превращает каждый слайс пресета Advanced Output Resolume в LED-экран, а холст получает точное разрешение выхода.",
+        "**Вес:** вес кабинета (по умолчанию 8,5 кг), вес одной панели и общий вес в окне Info, Status, 3D Stage и PDF-отчёте. Единица веса выбирается в Settings; пресеты кабинета сохраняют вес.",
+        "**Цвета и меню:** чёрно-белый вариант в меню цвета панели (двойной щелчок), а в File теперь отдельно Import 3D... и Import XML...."
       ],
       "tr": [
-        "**Yeni diller:** aralarında Katalanca, Çekçe, Yunanca, Rumence, Danca, Tamilce, Kazakça ve Amharca'nın da olduğu 29 dil daha. R-A Grid artık 60 dilde; dünya menüsünde alfabetik sırada ve kaydırma çubuğuyla.",
-        "**Remove:** düğme artık panelin kabinini ve piksel aralığını (örneğin P3.91) kontrol ediyor ve fazla tuvali tam olarak ekranların kabinlerine kadar kesiyor."
+        "**Connection:** kablo, boş aralıklar olsa bile bir ekrandan diğerine, dolana kadar aynı portta geçebilir ve bağlantı 3D'de de görünür. Yeni Clear all düğmesi.",
+        "**XML içe aktar:** File > Import XML..., bir Resolume Advanced Output ön ayarındaki her slice'ı bir LED ekrana dönüştürür; tuval tam çıkış çözünürlüğünde olur.",
+        "**Ağırlık:** kabin başına ağırlık (varsayılan 8,5 kg); panel başına ağırlık ve toplam Info kutusu, Status, 3D Stage ve PDF raporunda. Ağırlık birimi Settings'ten seçilir; kabin ön ayarları ağırlığı saklar.",
+        "**Renkler ve menü:** panel renk menüsünde siyah-beyaz seçeneği (çift tıklama); File artık Import 3D... ve Import XML... seçeneklerini ayrı sunar."
       ],
       "id": [
-        "**Bahasa baru:** 29 lagi, termasuk Katalan, Ceko, Yunani, Rumania, Denmark, Tamil, Kazakh, dan Amharik. R-A Grid kini memiliki 60 bahasa, berurutan menurut abjad dengan bilah gulir di menu globe.",
-        "**Remove:** tombol ini kini memeriksa kabinet dan pitch panel (misalnya P3.91) dan memangkas kanvas berlebih tepat sampai kabinet layar."
+        "**Connection:** kabel bisa berpindah dari satu layar ke layar berikutnya, bahkan melewati celah kosong, pada port yang sama sampai penuh, dan sambungannya juga terlihat di 3D. Tombol baru Clear all.",
+        "**Impor XML:** File > Import XML... mengubah setiap slice dari preset Advanced Output Resolume menjadi layar LED, dengan kanvas tepat pada resolusi output.",
+        "**Berat:** berat per kabinet (bawaan 8,5 kg), dengan berat per panel dan total di kotak Info, Status, 3D Stage, dan laporan PDF. Satuan berat dipilih di Settings; preset kabinet menyimpan beratnya.",
+        "**Warna dan menu:** opsi hitam putih di menu warna panel (klik ganda), dan File kini punya Import 3D... dan Import XML... secara terpisah."
       ],
       "hu": [
-        "**Új nyelvek:** további 29, köztük katalán, cseh, görög, román, dán, tamil, kazah és amhara. Az R-A Grid most 60 nyelven érhető el, ábécérendben, görgetősávval a földgömb menüben.",
-        "**Remove:** a gomb most ellenőrzi a panel kabinetjét és pixeltávolságát (például P3.91), és a felesleges vásznat pontosan a képernyők kabinetjeiig vágja le."
+        "**Connection:** a kábel átmehet egyik képernyőről a másikra, üres réseken át is, ugyanazon a porton, amíg az meg nem telik, és a kapcsolat a 3D-ben is látszik. Új Clear all gomb.",
+        "**XML importálása:** a File > Import XML... egy Resolume Advanced Output előbeállítás minden slice-ából LED-képernyőt készít, a vászon pontosan a kimeneti felbontású lesz.",
+        "**Tömeg:** kabinetenkénti tömeg (alapértelmezés 8,5 kg), a panelenkénti és a teljes tömeg az Info dobozban, a Status, a 3D Stage oldalon és a PDF-jelentésben. A mértékegység a Settings-ben választható; a kabinet-előbeállítások megőrzik a tömeget.",
+        "**Színek és menü:** fekete-fehér lehetőség a panel színmenüjében (dupla kattintás), a File menüben pedig külön Import 3D... és Import XML... van."
       ],
       "zh-Hans": [
-        "**新语言：**新增 29 种，包括加泰罗尼亚语、捷克语、希腊语、罗马尼亚语、丹麦语、泰米尔语、哈萨克语和阿姆哈拉语。R-A Grid 现在支持 60 种语言，在地球菜单中按字母顺序排列并带有滚动条。",
-        "**Remove：**该按钮现在会检查面板的箱体和像素间距（例如 P3.91），并将多余的画布精确裁剪到屏幕的箱体为止。"
+        "**Connection：**线缆可以从一块屏幕走到下一块，即使中间有空隙，也会在同一端口上直到端口满载，连接在 3D 中也会显示。新增 Clear all 按钮。",
+        "**导入 XML：**File > Import XML... 会把 Resolume Advanced Output 预设中的每个 slice 变成一块 LED 屏幕，画布正好等于输出分辨率。",
+        "**重量：**每个箱体的重量（默认 8.5 kg），在 Info 框、Status、3D Stage 和 PDF 报告中显示每块面板重量和总重量。重量单位在 Settings 中选择；箱体预设会保存重量。",
+        "**颜色和菜单：**面板颜色菜单（双击）中新增黑白选项，File 菜单现在分别提供 Import 3D... 和 Import XML...。"
       ],
       "zh-Hant": [
-        "**新語言：**新增 29 種，包括加泰隆尼亞語、捷克語、希臘語、羅馬尼亞語、丹麥語、坦米爾語、哈薩克語和阿姆哈拉語。R-A Grid 現在支援 60 種語言，在地球選單中依字母順序排列並附有捲軸。",
-        "**Remove：**此按鈕現在會檢查面板的箱體和像素間距（例如 P3.91），並將多餘的畫布精確裁切到螢幕的箱體為止。"
+        "**Connection：**線材可以從一塊螢幕走到下一塊，即使中間有空隙，也會在同一連接埠上直到滿載，連接在 3D 中也會顯示。新增 Clear all 按鈕。",
+        "**匯入 XML：**File > Import XML... 會把 Resolume Advanced Output 預設中的每個 slice 變成一塊 LED 螢幕，畫布正好等於輸出解析度。",
+        "**重量：**每個箱體的重量（預設 8.5 kg），在 Info 方塊、Status、3D Stage 和 PDF 報告中顯示每塊面板重量和總重量。重量單位在 Settings 中選擇；箱體預設會保存重量。",
+        "**顏色和選單：**面板顏色選單（雙擊）中新增黑白選項，File 選單現在分別提供 Import 3D... 和 Import XML...。"
       ],
       "ja": [
-        "**新しい言語：**カタルーニャ語、チェコ語、ギリシャ語、ルーマニア語、デンマーク語、タミル語、カザフ語、アムハラ語など 29 言語を追加。R-A Grid は 60 言語に対応し、地球儀メニューではアルファベット順にスクロールバー付きで表示されます。",
-        "**Remove：**このボタンはパネルのキャビネットとピクセルピッチ（例：P3.91）を確認し、余分なキャンバスをスクリーンのキャビネットに合わせて正確に削除するようになりました。"
+        "**Connection：**ケーブルは空きスペースをはさんでも、ポートがいっぱいになるまで同じポートのまま次のスクリーンへ進めます。接続は 3D にも表示されます。新しい Clear all ボタン。",
+        "**XML の読み込み：**File > Import XML... で Resolume の Advanced Output プリセットの各 slice が LED スクリーンになり、キャンバスは出力解像度ちょうどになります。",
+        "**重量：**キャビネットごとの重量（既定 8.5 kg）。パネルあたりの重量と合計を Info ボックス、Status、3D Stage、PDF レポートに表示。重量の単位は Settings で選択でき、キャビネットのプリセットも重量を保存します。",
+        "**色とメニュー：**パネルの色メニュー（ダブルクリック）に白黒を追加し、File に Import 3D... と Import XML... を別々に用意しました。"
       ],
       "ko": [
-        "**새 언어:** 카탈로니아어, 체코어, 그리스어, 루마니아어, 덴마크어, 타밀어, 카자흐어, 암하라어 등 29개 추가. 이제 R-A Grid는 60개 언어를 지원하며, 지구본 메뉴에서 알파벳순으로 스크롤바와 함께 표시됩니다.",
-        "**Remove:** 이제 이 버튼은 패널의 캐비닛과 픽셀 피치(예: P3.91)를 확인하고 남는 캔버스를 화면의 캐비닛에 정확히 맞춰 잘라냅니다."
+        "**Connection:** 케이블이 빈 공간이 있어도 한 화면에서 다음 화면으로 이어지며, 포트가 가득 찰 때까지 같은 포트를 사용하고 연결은 3D에도 표시됩니다. 새 Clear all 버튼.",
+        "**XML 가져오기:** File > Import XML...은 Resolume Advanced Output 프리셋의 각 slice를 LED 화면으로 만들고, 캔버스는 출력 해상도와 정확히 같아집니다.",
+        "**무게:** 캐비닛당 무게(기본 8.5 kg)와 패널당 무게, 총 무게를 Info 상자, Status, 3D Stage, PDF 보고서에 표시합니다. 무게 단위는 Settings에서 선택하며, 캐비닛 프리셋도 무게를 저장합니다.",
+        "**색상과 메뉴:** 패널 색상 메뉴(더블 클릭)에 흑백 옵션이 추가되었고, File에 Import 3D...와 Import XML...이 따로 있습니다."
       ],
       "ar": [
-        "**لغات جديدة:** 29 لغة أخرى، منها الكتالونية والتشيكية واليونانية والرومانية والدنماركية والتاميلية والكازاخية والأمهرية. أصبح R-A Grid يدعم 60 لغة، مرتبة أبجديًا مع شريط تمرير في قائمة الكرة الأرضية.",
-        "**Remove:** يتحقق الزر الآن من خزانة اللوحة ودرجة البكسل (مثل P3.91) ويقص اللوحة الزائدة بدقة حتى خزانات الشاشات."
+        "**Connection:** يمكن للكابل الانتقال من شاشة إلى أخرى، حتى عبر الفراغات، على المنفذ نفسه حتى يمتلئ، ويظهر الاتصال أيضًا في العرض ثلاثي الأبعاد. زر جديد Clear all.",
+        "**استيراد XML:** يحوّل File > Import XML... كل شريحة من إعداد Advanced Output في Resolume إلى شاشة LED، مع لوحة بدقة الإخراج تمامًا.",
+        "**الوزن:** وزن لكل خزانة (الافتراضي 8.5 كغ)، مع الوزن لكل لوحة والإجمالي في مربع Info وStatus و3D Stage وتقرير PDF. تُختار وحدة الوزن في Settings، وتحفظ إعدادات الخزانة المسبقة الوزن.",
+        "**الألوان والقائمة:** خيار أبيض وأسود في قائمة ألوان اللوحة (نقر مزدوج)، وأصبح في File خياران منفصلان Import 3D... وImport XML...."
       ],
       "th": [
-        "**ภาษาใหม่:** เพิ่มอีก 29 ภาษา รวมถึงคาตาลัน เช็ก กรีก โรมาเนีย เดนมาร์ก ทมิฬ คาซัค และอัมฮาริก ตอนนี้ R-A Grid มี 60 ภาษา เรียงตามตัวอักษรพร้อมแถบเลื่อนในเมนูลูกโลก",
-        "**Remove:** ปุ่มนี้จะตรวจสอบตู้และระยะพิกเซลของแผง (เช่น P3.91) แล้วตัดแคนวาสส่วนเกินให้พอดีกับตู้ของหน้าจอ"
+        "**Connection:** สายสามารถต่อจากหน้าจอหนึ่งไปอีกหน้าจอหนึ่งได้ แม้มีช่องว่าง โดยใช้พอร์ตเดิมจนเต็ม และการเชื่อมต่อแสดงใน 3D ด้วย ปุ่มใหม่ Clear all",
+        "**นำเข้า XML:** File > Import XML... เปลี่ยนแต่ละ slice ของพรีเซ็ต Advanced Output ของ Resolume เป็นจอ LED และแคนวาสมีขนาดเท่าความละเอียดเอาต์พุตพอดี",
+        "**น้ำหนัก:** น้ำหนักต่อตู้ (ค่าเริ่มต้น 8.5 kg) พร้อมน้ำหนักต่อแผงและน้ำหนักรวมในกล่อง Info, Status, 3D Stage และรายงาน PDF เลือกหน่วยน้ำหนักใน Settings และพรีเซ็ตตู้จะเก็บน้ำหนักไว้",
+        "**สีและเมนู:** ตัวเลือกขาวดำในเมนูสีของแผง (ดับเบิลคลิก) และเมนู File มี Import 3D... กับ Import XML... แยกกันแล้ว"
       ],
       "hi": [
-        "**नई भाषाएँ:** 29 और, जिनमें कैटलन, चेक, ग्रीक, रोमानियाई, डेनिश, तमिल, कज़ाख़ और अम्हारिक शामिल हैं। R-A Grid अब 60 भाषाओं में है, ग्लोब मेनू में वर्णानुक्रम में और स्क्रॉल बार के साथ।",
-        "**Remove:** यह बटन अब पैनल का कैबिनेट और पिक्सेल पिच (जैसे P3.91) जाँचता है और अतिरिक्त कैनवास को ठीक स्क्रीन के कैबिनेट तक काटता है।"
+        "**Connection:** केबल एक स्क्रीन से दूसरी स्क्रीन तक जा सकती है, बीच में खाली जगह हो तब भी, पोर्ट भरने तक उसी पोर्ट पर, और जुड़ाव 3D में भी दिखता है। नया Clear all बटन।",
+        "**XML इंपोर्ट:** File > Import XML... Resolume Advanced Output प्रीसेट के हर slice को LED स्क्रीन बनाता है, और कैनवास ठीक आउटपुट रिज़ॉल्यूशन पर होता है।",
+        "**वज़न:** प्रति कैबिनेट वज़न (डिफ़ॉल्ट 8.5 kg), Info बॉक्स, Status, 3D Stage और PDF रिपोर्ट में प्रति पैनल वज़न और कुल वज़न। वज़न की इकाई Settings में चुनें; कैबिनेट प्रीसेट वज़न भी रखते हैं।",
+        "**रंग और मेन्यू:** पैनल के रंग मेन्यू (डबल-क्लिक) में ब्लैक एंड व्हाइट विकल्प, और File में अब Import 3D... और Import XML... अलग-अलग हैं।"
       ],
       "vi": [
-        "**Ngôn ngữ mới:** thêm 29 ngôn ngữ, gồm tiếng Catalan, Séc, Hy Lạp, Romania, Đan Mạch, Tamil, Kazakh và Amharic. R-A Grid nay có 60 ngôn ngữ, sắp xếp theo bảng chữ cái với thanh cuộn trong menu quả địa cầu.",
-        "**Remove:** nút này giờ kiểm tra cabinet và pixel pitch của tấm (ví dụ P3.91) và cắt phần canvas thừa đúng đến cabinet của các màn hình."
+        "**Connection:** cáp có thể đi từ màn hình này sang màn hình khác, kể cả qua khoảng trống, trên cùng một cổng cho đến khi đầy, và đường nối cũng hiện trong 3D. Nút mới Clear all.",
+        "**Nhập XML:** File > Import XML... biến mỗi slice của preset Advanced Output trong Resolume thành một màn hình LED, với canvas đúng bằng độ phân giải đầu ra.",
+        "**Trọng lượng:** trọng lượng mỗi cabinet (mặc định 8,5 kg), cùng trọng lượng mỗi tấm và tổng trong hộp Info, Status, 3D Stage và báo cáo PDF. Chọn đơn vị trọng lượng trong Settings; preset cabinet giữ cả trọng lượng.",
+        "**Màu và menu:** tùy chọn đen trắng trong menu màu của tấm (nhấp đúp), và File giờ có Import 3D... và Import XML... riêng."
       ],
       "bn": [
-        "**নতুন ভাষা:** আরও ২৯টি, যার মধ্যে কাতালান, চেক, গ্রিক, রোমানিয়ান, ড্যানিশ, তামিল, কাজাখ ও আমহারিক। R-A Grid-এ এখন ৬০টি ভাষা, গ্লোব মেনুতে বর্ণানুক্রমে ও স্ক্রল বারসহ।",
-        "**Remove:** বোতামটি এখন প্যানেলের ক্যাবিনেট ও পিক্সেল পিচ (যেমন P3.91) যাচাই করে এবং অতিরিক্ত ক্যানভাস ঠিক স্ক্রিনের ক্যাবিনেট পর্যন্ত কেটে দেয়।"
+        "**Connection:** কেবল এক স্ক্রিন থেকে পরের স্ক্রিনে যেতে পারে, ফাঁকা জায়গা থাকলেও, পোর্ট ভরা পর্যন্ত একই পোর্টে, আর সংযোগ 3D-তেও দেখা যায়। নতুন Clear all বোতাম।",
+        "**XML ইমপোর্ট:** File > Import XML... Resolume Advanced Output প্রিসেটের প্রতিটি slice-কে একটি LED স্ক্রিনে পরিণত করে, ক্যানভাস ঠিক আউটপুট রেজোলিউশনে থাকে।",
+        "**ওজন:** প্রতি ক্যাবিনেটের ওজন (ডিফল্ট 8.5 kg), Info বক্স, Status, 3D Stage ও PDF রিপোর্টে প্রতি প্যানেলের ওজন ও মোট ওজন। ওজনের একক Settings-এ বেছে নিন; ক্যাবিনেট প্রিসেট ওজনও রাখে।",
+        "**রং ও মেনু:** প্যানেলের রঙের মেনুতে (ডাবল-ক্লিক) সাদা-কালো বিকল্প, আর File-এ এখন Import 3D... ও Import XML... আলাদা।"
       ],
       "ms": [
-        "**Bahasa baharu:** 29 lagi, termasuk Catalan, Czech, Greek, Romania, Denmark, Tamil, Kazakh dan Amharic. R-A Grid kini mempunyai 60 bahasa, mengikut abjad dengan bar tatal dalam menu glob.",
-        "**Remove:** butang ini kini menyemak kabinet dan pic piksel panel (contohnya P3.91) dan memangkas kanvas berlebihan tepat hingga kabinet skrin."
+        "**Connection:** kabel boleh pergi dari satu skrin ke skrin seterusnya, walaupun melalui ruang kosong, pada port yang sama sehingga penuh, dan sambungan juga kelihatan dalam 3D. Butang baharu Clear all.",
+        "**Import XML:** File > Import XML... menjadikan setiap slice pratetap Advanced Output Resolume sebuah skrin LED, dengan kanvas tepat pada resolusi output.",
+        "**Berat:** berat setiap kabinet (lalai 8.5 kg), dengan berat setiap panel dan jumlah dalam kotak Info, Status, 3D Stage dan laporan PDF. Pilih unit berat dalam Settings; pratetap kabinet menyimpan berat.",
+        "**Warna dan menu:** pilihan hitam putih dalam menu warna panel (klik dua kali), dan File kini ada Import 3D... dan Import XML... secara berasingan."
       ],
       "sv": [
-        "**Nya språk:** 29 till, bland annat katalanska, tjeckiska, grekiska, rumänska, danska, tamil, kazakiska och amhariska. R-A Grid har nu 60 språk, i alfabetisk ordning med rullningslist i jordglobsmenyn.",
-        "**Remove:** knappen kontrollerar nu panelens kabinett och pixelavstånd (till exempel P3.91) och beskär överflödig duk exakt till skärmarnas kabinett."
+        "**Connection:** kabeln kan gå från en skärm till nästa, även över tomma mellanrum, på samma port tills den är full, och kopplingen syns också i 3D. Ny knapp Clear all.",
+        "**Importera XML:** File > Import XML... gör varje slice i en Resolume Advanced Output-förinställning till en LED-skärm, med duken exakt i utgångsupplösningen.",
+        "**Vikt:** vikt per kabinett (standard 8,5 kg), med vikt per panel och total i Info-rutan, Status, 3D Stage och PDF-rapporten. Viktenheten väljs i Settings; kabinettförinställningar sparar vikten.",
+        "**Färger och meny:** svartvitt alternativ i panelens färgmeny (dubbelklick), och File har nu Import 3D... och Import XML... separat."
       ],
       "ur": [
-        "**نئی زبانیں:** مزید 29، جن میں کاتالان، چیک، یونانی، رومانیائی، ڈینش، تمل، قازق اور امہری شامل ہیں۔ R-A Grid میں اب 60 زبانیں ہیں، گلوب مینو میں حروفِ تہجی کی ترتیب سے اور اسکرول بار کے ساتھ۔",
-        "**Remove:** یہ بٹن اب پینل کا کیبنٹ اور پکسل پچ (مثلاً P3.91) جانچتا ہے اور اضافی کینوس کو ٹھیک اسکرینوں کے کیبنٹ تک کاٹ دیتا ہے۔"
+        "**Connection:** کیبل ایک اسکرین سے اگلی تک جا سکتی ہے، خالی جگہ کے باوجود، پورٹ بھرنے تک اسی پورٹ پر، اور کنکشن 3D میں بھی دکھتا ہے۔ نیا Clear all بٹن۔",
+        "**XML امپورٹ:** File > Import XML... ‏Resolume Advanced Output پری سیٹ کے ہر slice کو LED اسکرین بناتا ہے، اور کینوس بالکل آؤٹ پٹ ریزولیوشن پر ہوتا ہے۔",
+        "**وزن:** فی کیبنٹ وزن (ڈیفالٹ 8.5 kg)، Info باکس، Status، 3D Stage اور PDF رپورٹ میں فی پینل وزن اور کل وزن۔ وزن کی اکائی Settings میں منتخب کریں؛ کیبنٹ پری سیٹ وزن بھی رکھتے ہیں۔",
+        "**رنگ اور مینو:** پینل کے رنگ مینو (ڈبل کلک) میں بلیک اینڈ وائٹ آپشن، اور File میں اب Import 3D... اور Import XML... الگ الگ ہیں۔"
       ],
       "sw": [
-        "**Lugha mpya:** 29 zaidi, zikiwemo Kikatalani, Kicheki, Kigiriki, Kiromania, Kidenmaki, Kitamil, Kikazakh na Kiamhari. R-A Grid sasa ina lugha 60, kwa mpangilio wa alfabeti na upau wa kusogeza kwenye menyu ya dunia.",
-        "**Remove:** kitufe sasa kinakagua kabati na pitch ya pikseli ya paneli (kwa mfano P3.91) na kukata turubai ya ziada hasa hadi kwenye kabati za skrini."
+        "**Connection:** kebo inaweza kutoka skrini moja hadi nyingine, hata kupitia nafasi tupu, kwenye mlango uleule hadi ujae, na muunganisho unaonekana pia kwenye 3D. Kitufe kipya Clear all.",
+        "**Leta XML:** File > Import XML... hugeuza kila slice ya mpangilio wa Advanced Output wa Resolume kuwa skrini ya LED, na turubai inakuwa sawasawa na azimio la matokeo.",
+        "**Uzito:** uzito wa kila kabati (chaguo-msingi 8.5 kg), pamoja na uzito wa kila paneli na jumla kwenye kisanduku cha Info, Status, 3D Stage na ripoti ya PDF. Chagua kipimo cha uzito katika Settings; mipangilio ya kabati huhifadhi uzito.",
+        "**Rangi na menyu:** chaguo la nyeusi na nyeupe kwenye menyu ya rangi ya paneli (bofya mara mbili), na File sasa ina Import 3D... na Import XML... tofauti."
       ],
       "gn": [
-        "**Ñe'ẽ pyahu:** 29 hetave, umíva apytépe catalán, checo, griego, rumano, danés, tamil, kazajo ha amhárico. R-A Grid oguereko ko'ágã 60 ñe'ẽ, abecedario rupi ha barra de desplazamiento ndive yvy menúpe.",
-        "**Remove:** botón ohecha ko'ágã panel gabinete ha pitch (techapyrã P3.91) ha oikytĩ lienzo hembýva gabinete pantalla-kuéra peve."
+        "**Connection:** cable ikatu ohasa peteĩ pantalla-gui ambuépe, jepe oĩ pa'ũ nandi, peteĩchaite puerto-pe henyhẽ peve, ha ojoaju ojehecha avei 3D-pe. Botón pyahu Clear all.",
+        "**Eguerú XML:** File > Import XML... omoambue opaite slice Resolume Advanced Output preset-pegua LED pantallápe, ha lienzo oguereko salida resolución tee.",
+        "**Pohýi:** gabinete pohýi (ojeporu'ypýva 8,5 kg), panel pohýi ha opaitéva Info ryru, Status, 3D Stage ha PDF marandúpe. Pohýi unidad eiporavo Settings-pe; gabinete preset oñongatu avei pohýi.",
+        "**Sa'y ha menú:** morotĩ ha hũ opción panel sa'y menúpe (mokõi jekutu), ha File oguereko ko'ágã Import 3D... ha Import XML... ojeiko'ýva."
       ],
       "he": [
-        "**שפות חדשות:** עוד 29, ביניהן קטלאנית, צ'כית, יוונית, רומנית, דנית, טמילית, קזחית ואמהרית. ל-R-A Grid יש כעת 60 שפות, בסדר אלפביתי ועם פס גלילה בתפריט הגלובוס.",
-        "**Remove:** הכפתור בודק כעת את הקבינט ואת מרווח הפיקסלים של הפאנל (למשל P3.91) וחותך את הקנבס העודף בדיוק עד הקבינטים של המסכים."
+        "**Connection:** הכבל יכול לעבור ממסך אחד לבא, גם דרך רווחים ריקים, באותה יציאה עד שהיא מתמלאת, והחיבור מוצג גם בתלת־ממד. כפתור חדש Clear all.",
+        "**ייבוא XML:** ‏File > Import XML... הופך כל slice בהגדרה של Advanced Output ב-Resolume למסך LED, והקנבס מקבל בדיוק את רזולוציית הפלט.",
+        "**משקל:** משקל לכל קבינט (ברירת מחדל 8.5 ק״ג), עם המשקל לכל פאנל והמשקל הכולל בתיבת Info, ב-Status, ב-3D Stage ובדוח ה-PDF. יחידת המשקל נבחרת ב-Settings; הגדרות הקבינט שומרות גם את המשקל.",
+        "**צבעים ותפריט:** אפשרות שחור-לבן בתפריט הצבעים של הפאנל (לחיצה כפולה), וב-File יש עכשיו Import 3D... ו-Import XML... בנפרד."
       ],
       "lv": [
-        "**Jaunas valodas:** vēl 29, tostarp katalāņu, čehu, grieķu, rumāņu, dāņu, tamilu, kazahu un amharu. R-A Grid tagad ir 60 valodās, alfabēta secībā un ar ritjoslu globusa izvēlnē.",
-        "**Remove:** poga tagad pārbauda paneļa kabinetu un pikseļu soli (piemēram, P3.91) un nogriež lieko audeklu tieši līdz ekrānu kabinetiem."
+        "**Connection:** kabelis var iet no viena ekrāna uz nākamo, arī pāri tukšām spraugām, pa to pašu portu, līdz tas ir pilns, un savienojums redzams arī 3D. Jauna poga Clear all.",
+        "**Importēt XML:** File > Import XML... katru Resolume Advanced Output sagataves slice pārvērš LED ekrānā, un audekls ir tieši izejas izšķirtspējā.",
+        "**Svars:** kabineta svars (noklusējumā 8,5 kg), ar paneļa svaru un kopējo svaru Info lodziņā, Status, 3D Stage un PDF pārskatā. Svara mērvienību izvēlas Settings; kabineta sagataves saglabā svaru.",
+        "**Krāsas un izvēlne:** melnbalta iespēja paneļa krāsu izvēlnē (dubultklikšķis), un File tagad ir atsevišķi Import 3D... un Import XML...."
       ],
       "fa": [
-        "**زبان‌های جدید:** ۲۹ زبان دیگر، از جمله کاتالان، چکی، یونانی، رومانیایی، دانمارکی، تامیلی، قزاقی و امهری. R-A Grid اکنون ۶۰ زبان دارد، به ترتیب الفبا و با نوار پیمایش در منوی کره زمین.",
-        "**Remove:** این دکمه اکنون کابینت و گام پیکسل پنل (مثلاً P3.91) را بررسی می‌کند و بوم اضافی را دقیقاً تا کابینت‌های صفحه‌ها برش می‌دهد."
+        "**Connection:** کابل می‌تواند از یک صفحه به صفحه بعد برود، حتی از روی فاصله‌های خالی، روی همان پورت تا وقتی پر شود، و اتصال در سه‌بعدی هم دیده می‌شود. دکمه جدید Clear all.",
+        "**وارد کردن XML:** ‏File > Import XML... هر slice از پیش‌تنظیم Advanced Output در Resolume را به یک صفحه LED تبدیل می‌کند و بوم دقیقاً به رزولوشن خروجی می‌رسد.",
+        "**وزن:** وزن هر کابینت (پیش‌فرض 8.5 کیلوگرم)، همراه با وزن هر پنل و وزن کل در کادر Info، ‏Status، ‏3D Stage و گزارش PDF. واحد وزن در Settings انتخاب می‌شود؛ پیش‌تنظیم‌های کابینت وزن را هم نگه می‌دارند.",
+        "**رنگ‌ها و منو:** گزینه سیاه‌وسفید در منوی رنگ پنل (دوبار کلیک)، و File اکنون Import 3D... و Import XML... را جداگانه دارد."
       ],
       "pl": [
-        "**Nowe języki:** 29 kolejnych, m.in. kataloński, czeski, grecki, rumuński, duński, tamilski, kazachski i amharski. R-A Grid ma teraz 60 języków, w kolejności alfabetycznej i z paskiem przewijania w menu globusa.",
-        "**Remove:** przycisk sprawdza teraz kabinet i rozstaw pikseli panelu (na przykład P3.91) i przycina nadmiar płótna dokładnie do kabinetów ekranów."
+        "**Connection:** kabel może przechodzić z jednego ekranu na następny, także przez puste przerwy, na tym samym porcie, aż się zapełni, a połączenie widać też w 3D. Nowy przycisk Clear all.",
+        "**Import XML:** File > Import XML... zamienia każdy slice z presetu Advanced Output programu Resolume w ekran LED, a płótno ma dokładnie rozdzielczość wyjścia.",
+        "**Waga:** waga kabinetu (domyślnie 8,5 kg), z wagą na panel i wagą całkowitą w oknie Info, Status, 3D Stage i raporcie PDF. Jednostkę wagi wybiera się w Settings; presety kabinetu zapamiętują wagę.",
+        "**Kolory i menu:** opcja czarno-biała w menu kolorów panelu (dwuklik), a File ma teraz osobno Import 3D... i Import XML...."
       ],
       "uk": [
-        "**Нові мови:** ще 29, серед них каталонська, чеська, грецька, румунська, данська, тамільська, казахська й амхарська. Тепер R-A Grid має 60 мов, за абеткою та зі смугою прокрутки в меню глобуса.",
-        "**Remove:** кнопка тепер перевіряє кабінет і крок пікселя панелі (наприклад, P3.91) і обрізає зайве полотно точно до кабінетів екранів."
+        "**Connection:** кабель може переходити з одного екрана на наступний, навіть через порожні проміжки, на тому самому порту, доки він не заповниться; з'єднання видно і в 3D. Нова кнопка Clear all.",
+        "**Імпорт XML:** File > Import XML... перетворює кожен слайс пресета Advanced Output Resolume на LED-екран, а полотно має точну роздільну здатність виходу.",
+        "**Вага:** вага кабінету (за замовчуванням 8,5 кг), вага однієї панелі та загальна вага у вікні Info, Status, 3D Stage і PDF-звіті. Одиницю ваги вибирають у Settings; пресети кабінету зберігають вагу.",
+        "**Кольори й меню:** чорно-білий варіант у меню кольорів панелі (подвійне клацання), а File тепер має окремо Import 3D... та Import XML...."
+      ],
+      "ca": [
+        "**Connection:** el cable pot passar d'una pantalla a la següent, fins i tot per buits, pel mateix port fins que és ple, i l'enllaç també es veu en 3D. Nou botó Clear all.",
+        "**Importar XML:** File > Import XML... converteix cada slice d'un preset d'Advanced Output de Resolume en una pantalla LED, amb el llenç exactament a la resolució de sortida.",
+        "**Pes:** pes per mòdul (8,5 kg per defecte), amb el pes per panell i el total al quadre Info, Status, 3D Stage i l'informe PDF. La unitat de pes es tria a Settings; els presets de mòdul guarden el pes.",
+        "**Colors i menú:** opció blanc i negre al menú de color del panell (doble clic), i File ara té Import 3D... i Import XML... per separat."
+      ],
+      "cs": [
+        "**Connection:** kabel může přecházet z jedné obrazovky na další, i přes prázdné mezery, na stejném portu, dokud se nezaplní, a propojení je vidět i ve 3D. Nové tlačítko Clear all.",
+        "**Import XML:** File > Import XML... udělá z každého slice předvolby Advanced Output z Resolume LED obrazovku a plátno má přesně výstupní rozlišení.",
+        "**Hmotnost:** hmotnost kabinetu (výchozí 8,5 kg), hmotnost na panel a celková hmotnost v okně Info, Status, 3D Stage a PDF zprávě. Jednotka hmotnosti se volí v Settings; předvolby kabinetu ukládají i hmotnost.",
+        "**Barvy a menu:** černobílá možnost v nabídce barev panelu (dvojklik) a File má nyní zvlášť Import 3D... a Import XML...."
+      ],
+      "fi": [
+        "**Connection:** kaapeli voi kulkea näytöltä toiselle, myös tyhjien välien yli, samassa portissa kunnes se on täynnä, ja yhteys näkyy myös 3D:ssä. Uusi Clear all -painike.",
+        "**XML-tuonti:** File > Import XML... tekee jokaisesta Resolumen Advanced Output -esiasetuksen slicestä LED-näytön, ja kangas on tarkalleen ulostulon resoluutiossa.",
+        "**Paino:** kaapin paino (oletus 8,5 kg), paneelikohtainen ja kokonaispaino Info-ruudussa, Statuksessa, 3D Stagessa ja PDF-raportissa. Painoyksikkö valitaan Settingsissä; kaappien esiasetukset tallentavat painon.",
+        "**Värit ja valikko:** mustavalkoinen vaihtoehto paneelin värivalikossa (kaksoisnapsautus), ja Filessa on nyt erikseen Import 3D... ja Import XML...."
+      ],
+      "el": [
+        "**Connection:** το καλώδιο μπορεί να περνά από μια οθόνη στην επόμενη, ακόμη και πάνω από κενά, στην ίδια θύρα μέχρι να γεμίσει, και η σύνδεση φαίνεται και στο 3D. Νέο κουμπί Clear all.",
+        "**Εισαγωγή XML:** το File > Import XML... μετατρέπει κάθε slice μιας προεπιλογής Advanced Output του Resolume σε οθόνη LED, με τον καμβά ακριβώς στην ανάλυση εξόδου.",
+        "**Βάρος:** βάρος ανά καμπινέ (προεπιλογή 8,5 kg), με βάρος ανά πάνελ και συνολικό βάρος στο πλαίσιο Info, στο Status, στο 3D Stage και στην αναφορά PDF. Η μονάδα βάρους επιλέγεται στο Settings· οι προεπιλογές καμπινέ κρατούν και το βάρος.",
+        "**Χρώματα και μενού:** επιλογή ασπρόμαυρο στο μενού χρωμάτων του πάνελ (διπλό κλικ), και το File έχει πλέον χωριστά Import 3D... και Import XML...."
+      ],
+      "ha": [
+        "**Connection:** kebul na iya tafiya daga wannan allo zuwa na gaba, ko da akwai gibi, a tashar guda har ta cika, kuma haɗin yana bayyana a 3D ma. Sabon maɓalli Clear all.",
+        "**Shigo da XML:** File > Import XML... yana mayar da kowane slice na saitin Advanced Output na Resolume zuwa allon LED, kuma zane yana daidai da ƙudurin fitarwa.",
+        "**Nauyi:** nauyin kowane kabad (tsoho 8.5 kg), tare da nauyin kowane fanel da jimilla a akwatin Info, Status, 3D Stage da rahoton PDF. Zaɓi ma'aunin nauyi a Settings; saitin kabad yana adana nauyi.",
+        "**Launuka da menu:** zaɓin baƙi da fari a menu na launin fanel (danna sau biyu), kuma File yanzu yana da Import 3D... da Import XML... daban."
+      ],
+      "ro": [
+        "**Connection:** cablul poate trece de la un ecran la următorul, chiar și peste goluri, pe același port până se umple, iar legătura se vede și în 3D. Buton nou Clear all.",
+        "**Import XML:** File > Import XML... transformă fiecare slice dintr-un preset Advanced Output din Resolume într-un ecran LED, cu pânza exact la rezoluția de ieșire.",
+        "**Greutate:** greutate pe cabinet (implicit 8,5 kg), cu greutatea pe panou și totalul în caseta Info, Status, 3D Stage și raportul PDF. Unitatea de greutate se alege în Settings; preseturile de cabinet păstrează greutatea.",
+        "**Culori și meniu:** opțiune alb-negru în meniul de culori al panoului (dublu clic), iar File are acum separat Import 3D... și Import XML...."
+      ],
+      "yo": [
+        "**Connection:** kébù lè lọ láti ojú-ìbojú kan sí èkejì, kódà láàárín àlàfo òfo, lórí ibudo kan náà títí yóò fi kún, àsopọ̀ sì ń hàn nínú 3D pẹ̀lú. Bọ́tìnnì tuntun Clear all.",
+        "**Gbé XML wọlé:** File > Import XML... ń sọ slice kọ̀ọ̀kan ti ètò Advanced Output Resolume di ojú-ìbojú LED, kánfásì sì bá ìpinnu ìjáde mu gẹ́lẹ́.",
+        "**Ìwúwo:** ìwúwo kábínẹ́ẹ̀tì kọ̀ọ̀kan (àyípadà 8.5 kg), pẹ̀lú ìwúwo pánẹ́ẹ̀lì kọ̀ọ̀kan àti àpapọ̀ nínú àpótí Info, Status, 3D Stage àti ìròyìn PDF. Yan ẹ̀yọ ìwọ̀n nínú Settings; àwọn ètò kábínẹ́ẹ̀tì ń pa ìwúwo mọ́.",
+        "**Àwọ̀ àti àkójọ:** àṣàyàn dúdú àti funfun nínú àkójọ àwọ̀ pánẹ́ẹ̀lì (tẹ lẹ́ẹ̀mejì), File sì ní Import 3D... àti Import XML... lọ́tọ̀ báyìí."
+      ],
+      "zu": [
+        "**Connection:** ikhebula lingadlula esikrinini esisodwa liye kwesilandelayo, ngisho nasezikhaleni, ngembobo efanayo ize igcwale, futhi ukuxhumana kubonakala naku-3D. Inkinobho entsha Clear all.",
+        "**Ngenisa i-XML:** i-File > Import XML... iguqula i-slice ngayinye yesethingi se-Advanced Output se-Resolume ibe yisikrini se-LED, nekhanvasi ilingana ncamashi nokucaca kokuphumayo.",
+        "**Isisindo:** isisindo sekhabethe ngalinye (okuzenzakalelayo 8.5 kg), nesisindo sephaneli ngalinye nesisindo esiphelele ebhokisini le-Info, ku-Status, ku-3D Stage nasembikweni we-PDF. Khetha iyunithi yesisindo ku-Settings; amasethingi ekhabethe agcina isisindo.",
+        "**Imibala nemenyu:** inketho emnyama nomhlophe kumenyu yemibala yephaneli (chofoza kabili), futhi i-File manje ine-Import 3D... ne-Import XML... ngokwehlukana."
+      ],
+      "fil": [
+        "**Connection:** puwedeng tumawid ang cable mula sa isang screen papunta sa susunod, kahit may bakanteng puwang, sa parehong port hanggang mapuno, at makikita rin ang dugtong sa 3D. Bagong button na Clear all.",
+        "**Mag-import ng XML:** ginagawang LED screen ng File > Import XML... ang bawat slice ng preset ng Advanced Output ng Resolume, at eksaktong kasinlaki ng output resolution ang canvas.",
+        "**Timbang:** timbang bawat cabinet (default 8.5 kg), kasama ang timbang bawat panel at kabuuan sa Info box, Status, 3D Stage at PDF report. Piliin ang unit ng timbang sa Settings; itinatabi rin ng mga cabinet preset ang timbang.",
+        "**Kulay at menu:** opsiyong itim at puti sa menu ng kulay ng panel (double-click), at may hiwalay na Import 3D... at Import XML... na ngayon ang File."
+      ],
+      "ta": [
+        "**Connection:** கேபிள் ஒரு திரையிலிருந்து அடுத்த திரைக்குச் செல்லலாம், இடையில் வெற்று இடம் இருந்தாலும், போர்ட் நிரம்பும் வரை அதே போர்ட்டில்; இணைப்பு 3D-யிலும் தெரியும். புதிய Clear all பொத்தான்.",
+        "**XML இறக்குமதி:** File > Import XML... Resolume Advanced Output முன்னமைவின் ஒவ்வொரு slice-ஐயும் ஒரு LED திரையாக்கும்; கேன்வாஸ் சரியாக வெளியீட்டுத் தெளிவுத்திறனில் இருக்கும்.",
+        "**எடை:** ஒவ்வொரு கேபினட்டின் எடை (இயல்பு 8.5 kg), ஒரு பேனலுக்கான எடையும் மொத்த எடையும் Info பெட்டி, Status, 3D Stage மற்றும் PDF அறிக்கையில். எடை அலகை Settings-இல் தேர்ந்தெடுக்கவும்; கேபினட் முன்னமைவுகளும் எடையைச் சேமிக்கும்.",
+        "**நிறங்களும் மெனுவும்:** பேனல் நிற மெனுவில் (இருமுறை கிளிக்) கருப்பு-வெள்ளை விருப்பம்; File-இல் இப்போது Import 3D... மற்றும் Import XML... தனித்தனியாக உள்ளன."
+      ],
+      "te": [
+        "**Connection:** కేబుల్ ఒక స్క్రీన్ నుండి తదుపరి స్క్రీన్‌కు వెళ్లగలదు, మధ్యలో ఖాళీ ఉన్నా, పోర్ట్ నిండే వరకు అదే పోర్ట్‌లో; కనెక్షన్ 3D‌లోనూ కనిపిస్తుంది. కొత్త Clear all బటన్.",
+        "**XML దిగుమతి:** File > Import XML... Resolume Advanced Output ప్రీసెట్‌లోని ప్రతి slice‌ను LED స్క్రీన్‌గా మారుస్తుంది; కాన్వాస్ సరిగ్గా అవుట్‌పుట్ రిజల్యూషన్‌లో ఉంటుంది.",
+        "**బరువు:** ఒక్కో క్యాబినెట్ బరువు (డిఫాల్ట్ 8.5 kg), ఒక్కో ప్యానెల్ బరువు మరియు మొత్తం బరువు Info బాక్స్, Status, 3D Stage మరియు PDF నివేదికలో. బరువు యూనిట్‌ను Settings‌లో ఎంచుకోండి; క్యాబినెట్ ప్రీసెట్‌లు బరువును కూడా ఉంచుతాయి.",
+        "**రంగులు మరియు మెనూ:** ప్యానెల్ రంగు మెనూలో (డబుల్ క్లిక్) నలుపు-తెలుపు ఎంపిక, File‌లో ఇప్పుడు Import 3D... మరియు Import XML... వేర్వేరుగా ఉన్నాయి."
+      ],
+      "mr": [
+        "**Connection:** केबल एका स्क्रीनवरून पुढच्या स्क्रीनवर जाऊ शकते, मध्ये रिकामी जागा असली तरी, पोर्ट भरेपर्यंत त्याच पोर्टवर; जोडणी 3D मध्येही दिसते. नवे Clear all बटण.",
+        "**XML आयात:** File > Import XML... Resolume Advanced Output प्रीसेटमधील प्रत्येक slice ला LED स्क्रीन बनवते, आणि कॅनव्हास नेमका आउटपुट रिझोल्यूशनवर असतो.",
+        "**वजन:** प्रति कॅबिनेट वजन (डीफॉल्ट 8.5 kg), Info बॉक्स, Status, 3D Stage आणि PDF अहवालात प्रति पॅनेल वजन आणि एकूण वजन. वजनाचे एकक Settings मध्ये निवडा; कॅबिनेट प्रीसेट वजनही जतन करतात.",
+        "**रंग आणि मेनू:** पॅनेलच्या रंग मेनूमध्ये (डबल-क्लिक) कृष्णधवल पर्याय, आणि File मध्ये आता Import 3D... आणि Import XML... वेगवेगळे आहेत."
+      ],
+      "da": [
+        "**Connection:** kablet kan gå fra én skærm til den næste, også over tomme mellemrum, på samme port, indtil den er fuld, og forbindelsen vises også i 3D. Ny knap Clear all.",
+        "**Importér XML:** File > Import XML... gør hver slice i en Resolume Advanced Output-forudindstilling til en LED-skærm, med lærredet præcis i udgangsopløsningen.",
+        "**Vægt:** vægt pr. kabinet (standard 8,5 kg), med vægt pr. panel og samlet vægt i Info-boksen, Status, 3D Stage og PDF-rapporten. Vægtenheden vælges i Settings; kabinet-forudindstillinger gemmer vægten.",
+        "**Farver og menu:** sort-hvid-mulighed i panelets farvemenu (dobbeltklik), og File har nu Import 3D... og Import XML... hver for sig."
+      ],
+      "nb": [
+        "**Connection:** kabelen kan gå fra én skjerm til den neste, også over tomme mellomrom, på samme port til den er full, og koblingen vises også i 3D. Ny knapp Clear all.",
+        "**Importer XML:** File > Import XML... gjør hver slice i en Resolume Advanced Output-forhåndsinnstilling til en LED-skjerm, med lerretet nøyaktig i utgangsoppløsningen.",
+        "**Vekt:** vekt per kabinett (standard 8,5 kg), med vekt per panel og total i Info-boksen, Status, 3D Stage og PDF-rapporten. Vektenheten velges i Settings; kabinett-forhåndsinnstillinger lagrer vekten.",
+        "**Farger og meny:** svart-hvitt-valg i panelets fargemeny (dobbeltklikk), og File har nå Import 3D... og Import XML... hver for seg."
+      ],
+      "lt": [
+        "**Connection:** kabelis gali eiti iš vieno ekrano į kitą, net per tuščius tarpus, tuo pačiu prievadu, kol šis prisipildo, o jungtis matoma ir 3D. Naujas mygtukas Clear all.",
+        "**Importuoti XML:** File > Import XML... kiekvieną Resolume Advanced Output išankstinio nustatymo slice paverčia LED ekranu, o drobė būna tiksliai išvesties raiškos.",
+        "**Svoris:** kabineto svoris (numatytasis 8,5 kg), vieno skydo svoris ir bendras svoris Info lange, Status, 3D Stage ir PDF ataskaitoje. Svorio vienetas pasirenkamas Settings; kabineto nustatymai išsaugo ir svorį.",
+        "**Spalvos ir meniu:** nespalvota parinktis skydo spalvų meniu (dukart spustelėjus), o File dabar turi atskirus Import 3D... ir Import XML...."
+      ],
+      "et": [
+        "**Connection:** kaabel saab minna ühelt ekraanilt järgmisele, ka üle tühjade vahede, samas pordis kuni see täitub, ja ühendus on näha ka 3D-s. Uus nupp Clear all.",
+        "**XML-i import:** File > Import XML... teeb Resolume'i Advanced Output eelseadistuse igast slice'ist LED-ekraani ja lõuend on täpselt väljundi eraldusvõimes.",
+        "**Kaal:** kabineti kaal (vaikimisi 8,5 kg), paneeli kaal ja kogukaal Info kastis, Statuses, 3D Stage'is ja PDF-aruandes. Kaaluühik valitakse Settingsis; kabineti eelseadistused salvestavad ka kaalu.",
+        "**Värvid ja menüü:** must-valge valik paneeli värvimenüüs (topeltklõps) ning File'is on nüüd eraldi Import 3D... ja Import XML...."
+      ],
+      "sk": [
+        "**Connection:** kábel môže prechádzať z jednej obrazovky na ďalšiu, aj cez prázdne medzery, na tom istom porte, kým sa nenaplní, a prepojenie vidno aj v 3D. Nové tlačidlo Clear all.",
+        "**Import XML:** File > Import XML... urobí z každého slice predvoľby Advanced Output z Resolume LED obrazovku a plátno má presne výstupné rozlíšenie.",
+        "**Hmotnosť:** hmotnosť kabinetu (predvolene 8,5 kg), hmotnosť na panel a celková hmotnosť v okne Info, Status, 3D Stage a PDF správe. Jednotka hmotnosti sa volí v Settings; predvoľby kabinetu ukladajú aj hmotnosť.",
+        "**Farby a menu:** čiernobiela možnosť v ponuke farieb panela (dvojklik) a File má teraz zvlášť Import 3D... a Import XML...."
+      ],
+      "bg": [
+        "**Connection:** кабелът може да минава от един екран към следващия, дори през празни разстояния, по същия порт, докато се запълни, а връзката се вижда и в 3D. Нов бутон Clear all.",
+        "**Импорт на XML:** File > Import XML... превръща всеки слайс от предварителна настройка на Advanced Output на Resolume в LED екран, а платното е точно с изходната резолюция.",
+        "**Тегло:** тегло на кабинет (по подразбиране 8,5 kg), с тегло на панел и общо тегло в полето Info, Status, 3D Stage и PDF отчета. Единицата за тегло се избира в Settings; предварителните настройки на кабинета пазят теглото.",
+        "**Цветове и меню:** черно-бяла опция в менюто за цвят на панела (двойно щракване), а File вече има отделно Import 3D... и Import XML...."
+      ],
+      "sr": [
+        "**Connection:** кабл може да прелази са једног екрана на следећи, чак и преко празних размака, на истом порту док се не попуни, а веза се види и у 3D. Ново дугме Clear all.",
+        "**Увоз XML:** File > Import XML... претвара сваки слајс из Advanced Output подешавања у Resolume-у у LED екран, а платно има тачно излазну резолуцију.",
+        "**Тежина:** тежина по кабинету (подразумевано 8,5 kg), са тежином по панелу и укупном тежином у пољу Info, Status, 3D Stage и PDF извештају. Јединица тежине бира се у Settings; подешавања кабинета чувају и тежину.",
+        "**Боје и мени:** црно-бела опција у менију боја панела (двоклик), а File сада има засебно Import 3D... и Import XML...."
+      ],
+      "hr": [
+        "**Connection:** kabel može prelaziti s jednog zaslona na sljedeći, čak i preko praznih razmaka, na istom priključku dok se ne popuni, a veza se vidi i u 3D-u. Novi gumb Clear all.",
+        "**Uvoz XML-a:** File > Import XML... pretvara svaki slice iz predloška Advanced Output u Resolumeu u LED zaslon, a platno ima točno izlaznu razlučivost.",
+        "**Težina:** težina po kabinetu (zadano 8,5 kg), s težinom po panelu i ukupnom težinom u okviru Info, Status, 3D Stage i PDF izvješću. Jedinica težine bira se u Settings; predlošci kabineta čuvaju i težinu.",
+        "**Boje i izbornik:** crno-bijela opcija u izborniku boja panela (dvoklik), a File sada ima zasebno Import 3D... i Import XML...."
+      ],
+      "gu": [
+        "**Connection:** કેબલ એક સ્ક્રીનથી બીજી સ્ક્રીન સુધી જઈ શકે છે, વચ્ચે ખાલી જગ્યા હોય તો પણ, પોર્ટ ભરાય ત્યાં સુધી એ જ પોર્ટ પર; જોડાણ 3D માં પણ દેખાય છે. નવું Clear all બટન.",
+        "**XML આયાત:** File > Import XML... Resolume Advanced Output પ્રીસેટની દરેક slice ને LED સ્ક્રીન બનાવે છે, અને કેનવાસ બરાબર આઉટપુટ રિઝોલ્યુશનમાં હોય છે.",
+        "**વજન:** દરેક કેબિનેટનું વજન (ડિફોલ્ટ 8.5 kg), Info બોક્સ, Status, 3D Stage અને PDF અહેવાલમાં પ્રતિ પેનલ વજન અને કુલ વજન. વજનનો એકમ Settings માં પસંદ કરો; કેબિનેટ પ્રીસેટ વજન પણ સાચવે છે.",
+        "**રંગો અને મેનુ:** પેનલના રંગ મેનુમાં (ડબલ-ક્લિક) કાળો-સફેદ વિકલ્પ, અને File માં હવે Import 3D... અને Import XML... અલગ છે."
+      ],
+      "pa": [
+        "**Connection:** ਕੇਬਲ ਇੱਕ ਸਕ੍ਰੀਨ ਤੋਂ ਅਗਲੀ ਤੱਕ ਜਾ ਸਕਦੀ ਹੈ, ਵਿਚਕਾਰ ਖਾਲੀ ਥਾਂ ਹੋਵੇ ਤਾਂ ਵੀ, ਪੋਰਟ ਭਰਨ ਤੱਕ ਉਸੇ ਪੋਰਟ ਉੱਤੇ; ਜੋੜ 3D ਵਿੱਚ ਵੀ ਦਿਸਦਾ ਹੈ। ਨਵਾਂ Clear all ਬਟਨ।",
+        "**XML ਆਯਾਤ:** File > Import XML... Resolume Advanced Output ਪ੍ਰੀਸੈੱਟ ਦੀ ਹਰ slice ਨੂੰ LED ਸਕ੍ਰੀਨ ਬਣਾਉਂਦਾ ਹੈ, ਅਤੇ ਕੈਨਵਸ ਬਿਲਕੁਲ ਆਊਟਪੁੱਟ ਰੈਜ਼ੋਲਿਊਸ਼ਨ ਉੱਤੇ ਹੁੰਦਾ ਹੈ।",
+        "**ਭਾਰ:** ਹਰ ਕੈਬਿਨੇਟ ਦਾ ਭਾਰ (ਡਿਫਾਲਟ 8.5 kg), Info ਬਾਕਸ, Status, 3D Stage ਅਤੇ PDF ਰਿਪੋਰਟ ਵਿੱਚ ਪ੍ਰਤੀ ਪੈਨਲ ਭਾਰ ਅਤੇ ਕੁੱਲ ਭਾਰ। ਭਾਰ ਦੀ ਇਕਾਈ Settings ਵਿੱਚ ਚੁਣੋ; ਕੈਬਿਨੇਟ ਪ੍ਰੀਸੈੱਟ ਭਾਰ ਵੀ ਰੱਖਦੇ ਹਨ।",
+        "**ਰੰਗ ਅਤੇ ਮੀਨੂ:** ਪੈਨਲ ਦੇ ਰੰਗ ਮੀਨੂ (ਡਬਲ-ਕਲਿੱਕ) ਵਿੱਚ ਕਾਲਾ-ਚਿੱਟਾ ਵਿਕਲਪ, ਅਤੇ File ਵਿੱਚ ਹੁਣ Import 3D... ਅਤੇ Import XML... ਵੱਖਰੇ ਹਨ।"
+      ],
+      "kn": [
+        "**Connection:** ಕೇಬಲ್ ಒಂದು ಪರದೆಯಿಂದ ಮುಂದಿನದಕ್ಕೆ ಹೋಗಬಹುದು, ನಡುವೆ ಖಾಲಿ ಜಾಗವಿದ್ದರೂ, ಪೋರ್ಟ್ ತುಂಬುವವರೆಗೆ ಅದೇ ಪೋರ್ಟ್‌ನಲ್ಲಿ; ಸಂಪರ್ಕ 3D ಯಲ್ಲೂ ಕಾಣುತ್ತದೆ. ಹೊಸ Clear all ಬಟನ್.",
+        "**XML ಆಮದು:** File > Import XML... Resolume Advanced Output ಪ್ರೀಸೆಟ್‌ನ ಪ್ರತಿ slice ಅನ್ನು LED ಪರದೆಯಾಗಿಸುತ್ತದೆ; ಕ್ಯಾನ್ವಾಸ್ ನಿಖರವಾಗಿ ಔಟ್‌ಪುಟ್ ರೆಸಲ್ಯೂಶನ್‌ನಲ್ಲಿರುತ್ತದೆ.",
+        "**ತೂಕ:** ಪ್ರತಿ ಕ್ಯಾಬಿನೆಟ್ ತೂಕ (ಡೀಫಾಲ್ಟ್ 8.5 kg), Info ಪೆಟ್ಟಿಗೆ, Status, 3D Stage ಮತ್ತು PDF ವರದಿಯಲ್ಲಿ ಪ್ರತಿ ಪ್ಯಾನೆಲ್ ತೂಕ ಮತ್ತು ಒಟ್ಟು ತೂಕ. ತೂಕದ ಘಟಕವನ್ನು Settings ನಲ್ಲಿ ಆರಿಸಿ; ಕ್ಯಾಬಿನೆಟ್ ಪ್ರೀಸೆಟ್‌ಗಳು ತೂಕವನ್ನೂ ಉಳಿಸುತ್ತವೆ.",
+        "**ಬಣ್ಣಗಳು ಮತ್ತು ಮೆನು:** ಪ್ಯಾನೆಲ್ ಬಣ್ಣದ ಮೆನುವಿನಲ್ಲಿ (ಡಬಲ್ ಕ್ಲಿಕ್) ಕಪ್ಪು-ಬಿಳುಪು ಆಯ್ಕೆ, ಮತ್ತು File ನಲ್ಲಿ ಈಗ Import 3D... ಮತ್ತು Import XML... ಪ್ರತ್ಯೇಕವಾಗಿವೆ."
+      ],
+      "ne": [
+        "**Connection:** केबल एउटा स्क्रिनबाट अर्कोमा जान सक्छ, बीचमा खाली ठाउँ भए पनि, पोर्ट नभरिएसम्म उही पोर्टमा; जडान 3D मा पनि देखिन्छ। नयाँ Clear all बटन।",
+        "**XML आयात:** File > Import XML... ले Resolume Advanced Output प्रिसेटको हरेक slice लाई LED स्क्रिन बनाउँछ, र क्यानभास ठीक आउटपुट रिजोलुसनमा हुन्छ।",
+        "**तौल:** प्रति क्याबिनेट तौल (पूर्वनिर्धारित 8.5 kg), Info बाकस, Status, 3D Stage र PDF प्रतिवेदनमा प्रति प्यानल तौल र कुल तौल। तौलको एकाइ Settings मा छान्नुहोस्; क्याबिनेट प्रिसेटले तौल पनि राख्छ।",
+        "**रङ र मेनु:** प्यानलको रङ मेनुमा (डबल-क्लिक) कालो-सेतो विकल्प, र File मा अब Import 3D... र Import XML... छुट्टाछुट्टै छन्।"
+      ],
+      "km": [
+        "**Connection:** ខ្សែអាចឆ្លងពីអេក្រង់មួយទៅអេក្រង់បន្ទាប់ ទោះមានចន្លោះទំនេរក៏ដោយ នៅលើច្រកដដែលរហូតដល់ពេញ ហើយការតភ្ជាប់ក៏បង្ហាញក្នុង 3D ដែរ។ ប៊ូតុងថ្មី Clear all។",
+        "**នាំចូល XML៖** File > Import XML... បំប្លែង slice នីមួយៗនៃការកំណត់ជាមុន Advanced Output របស់ Resolume ទៅជាអេក្រង់ LED ហើយផ្ទាំងក្រណាត់មានទំហំត្រឹមត្រូវតាមគុណភាពបង្ហាញលទ្ធផល។",
+        "**ទម្ងន់៖** ទម្ងន់ក្នុងមួយទូ (លំនាំដើម 8.5 kg) ព្រមទាំងទម្ងន់ក្នុងមួយផ្ទាំង និងទម្ងន់សរុបក្នុងប្រអប់ Info, Status, 3D Stage និងរបាយការណ៍ PDF។ ជ្រើសឯកតាទម្ងន់ក្នុង Settings ហើយការកំណត់ជាមុនរបស់ទូរក្សាទម្ងន់ផងដែរ។",
+        "**ពណ៌ និងម៉ឺនុយ៖** ជម្រើសសខ្មៅក្នុងម៉ឺនុយពណ៌នៃផ្ទាំង (ចុចពីរដង) ហើយ File ឥឡូវមាន Import 3D... និង Import XML... ដាច់ពីគ្នា។"
+      ],
+      "kk": [
+        "**Connection:** кабель бос аралықтар болса да бір экраннан келесісіне өте алады, порт толғанша сол портта қалады, ал байланыс 3D-де де көрінеді. Жаңа Clear all түймесі.",
+        "**XML импорттау:** File > Import XML... Resolume Advanced Output алдын ала баптауындағы әр slice-ты LED экранға айналдырады, кенеп дәл шығыс ажыратымдылығында болады.",
+        "**Салмақ:** әр кабинеттің салмағы (әдепкі 8,5 кг), бір панельдің салмағы мен жалпы салмақ Info терезесінде, Status, 3D Stage және PDF есебінде. Салмақ бірлігі Settings-те таңдалады; кабинет баптаулары салмақты да сақтайды.",
+        "**Түстер мен мәзір:** панельдің түс мәзірінде (екі рет басу) ақ-қара нұсқасы, ал File-да енді Import 3D... және Import XML... бөлек."
+      ],
+      "uz": [
+        "**Connection:** kabel bitta ekrandan keyingisiga, oradagi boʻsh joylar orqali ham, port toʻlguncha shu portda oʻta oladi, ulanish 3D da ham koʻrinadi. Yangi Clear all tugmasi.",
+        "**XML import:** File > Import XML... Resolume Advanced Output presetidagi har bir slice ni LED ekranga aylantiradi, tuval aynan chiqish ruxsatida boʻladi.",
+        "**Ogʻirlik:** har bir kabinet ogʻirligi (standart 8,5 kg), Info oynasi, Status, 3D Stage va PDF hisobotida bir panel ogʻirligi va umumiy ogʻirlik. Ogʻirlik birligi Settings da tanlanadi; kabinet presetlari ogʻirlikni ham saqlaydi.",
+        "**Ranglar va menyu:** panel rang menyusida (ikki marta bosish) oq-qora variant, File da esa endi Import 3D... va Import XML... alohida."
+      ],
+      "am": [
+        "**Connection:** ገመዱ ባዶ ክፍተት ቢኖርም ከአንድ ስክሪን ወደ ቀጣዩ መሄድ ይችላል፣ ፖርቱ እስኪሞላ በዚያው ፖርት፤ ግንኙነቱ በ3D ውስጥም ይታያል። አዲስ Clear all ቁልፍ።",
+        "**XML አስገባ፦** File > Import XML... የResolume Advanced Output ቅድመ-ቅንብር እያንዳንዱን slice ወደ LED ስክሪን ይቀይራል፤ ሸራው በትክክል የውጽዓቱን ጥራት ይይዛል።",
+        "**ክብደት፦** የእያንዳንዱ ካቢኔት ክብደት (ነባሪ 8.5 kg)፣ የአንድ ፓነል ክብደትና ጠቅላላ ክብደት በInfo ሳጥን፣ Status፣ 3D Stage እና PDF ሪፖርት ውስጥ። የክብደት መለኪያውን በSettings ይምረጡ፤ የካቢኔት ቅድመ-ቅንብሮች ክብደቱንም ያስቀምጣሉ።",
+        "**ቀለሞችና ምናሌ፦** በፓነሉ የቀለም ምናሌ (ሁለቴ ጠቅ) ጥቁርና ነጭ አማራጭ፣ File ደግሞ አሁን Import 3D... እና Import XML... ለየብቻ አለው።"
+      ],
+      "sl": [
+        "**Connection:** kabel lahko gre z enega zaslona na naslednjega, tudi čez prazne vrzeli, na istih vratih, dokler se ne zapolnijo, povezava pa se vidi tudi v 3D. Nov gumb Clear all.",
+        "**Uvoz XML:** File > Import XML... iz vsakega slice prednastavitve Advanced Output programa Resolume naredi zaslon LED, platno pa ima natančno izhodno ločljivost.",
+        "**Teža:** teža ohišja (privzeto 8,5 kg), s težo na ploščo in skupno težo v polju Info, Status, 3D Stage in poročilu PDF. Enoto teže izberete v Settings; prednastavitve ohišja shranijo tudi težo.",
+        "**Barve in meni:** črno-bela možnost v meniju barv plošče (dvoklik), File pa ima zdaj ločeno Import 3D... in Import XML...."
       ]
     },
-    "2.5.7": {
+    "2.7.1": {
       "en": [
-        "**New languages:** Hebrew, Latvian, Persian, Polish and Ukrainian. R-A Grid now has 31 languages."
+        "**Grid tab:** saved grids no longer show thick vertical lines, and the diagonals are brighter and a little thicker.",
+        "**PDF report:** the electrical results now include the total consumption in kVA.",
+        "**LED screen:** an additional text line under the screen name, a color picker button (also in the double-click menu) and a Pixel pitch label.",
+        "**Cabinet presets:** save the cabinet resolution and size as a preset with a name and delete it with the trash button; presets are saved inside the project."
       ],
       "pt": [
-        "**Novos idiomas:** hebraico, letão, persa, polonês e ucraniano. O R-A Grid agora tem 31 idiomas."
+        "**Aba Grid:** os grids salvos não mostram mais linhas verticais grossas, e as diagonais ficaram mais claras e um pouco mais grossas.",
+        "**Relatório em PDF:** os resultados elétricos agora mostram o consumo total em kVA.",
+        "**LED screen:** uma linha de texto adicional embaixo do nome da tela, um botão de escolher a cor (também no menu de dois cliques) e o rótulo Pixel pitch.",
+        "**Presets de gabinete:** salve a resolução e o tamanho do gabinete como preset, com um nome, e apague com a lixeira; os presets vão junto no projeto."
       ],
       "es": [
-        "**Nuevos idiomas:** hebreo, letón, persa, polaco y ucraniano. R-A Grid ahora tiene 31 idiomas."
+        "**Pestaña Grid:** las cuadrículas guardadas ya no muestran líneas verticales gruesas, y las diagonales son más claras y un poco más gruesas.",
+        "**Informe PDF:** los resultados eléctricos ahora incluyen el consumo total en kVA.",
+        "**LED screen:** una línea de texto adicional bajo el nombre de la pantalla, un botón para elegir el color (también en el menú de doble clic) y la etiqueta Pixel pitch.",
+        "**Preajustes de gabinete:** guarde la resolución y el tamaño del gabinete como preajuste con un nombre y elimínelo con la papelera; los preajustes se guardan en el proyecto."
       ],
       "fr": [
-        "**Nouvelles langues :** hébreu, letton, persan, polonais et ukrainien. R-A Grid est désormais disponible en 31 langues."
+        "**Onglet Grid :** les mires enregistrées n'affichent plus de grosses lignes verticales, et les diagonales sont plus claires et un peu plus épaisses.",
+        "**Rapport PDF :** les résultats électriques indiquent désormais la consommation totale en kVA.",
+        "**LED screen :** une ligne de texte supplémentaire sous le nom de l'écran, un bouton de choix de couleur (aussi dans le menu du double-clic) et l'étiquette Pixel pitch.",
+        "**Préréglages de caisson :** enregistrez la résolution et la taille du caisson comme préréglage nommé, supprimez-le avec la corbeille ; les préréglages sont enregistrés dans le projet."
       ],
       "de": [
-        "**Neue Sprachen:** Hebräisch, Lettisch, Persisch, Polnisch und Ukrainisch. R-A Grid gibt es jetzt in 31 Sprachen."
+        "**Grid-Tab:** gespeicherte Raster zeigen keine dicken senkrechten Linien mehr, und die Diagonalen sind heller und etwas dicker.",
+        "**PDF-Bericht:** die elektrischen Ergebnisse enthalten jetzt den Gesamtverbrauch in kVA.",
+        "**LED screen:** eine zusätzliche Textzeile unter dem Bildschirmnamen, eine Farbauswahl-Schaltfläche (auch im Doppelklick-Menü) und die Beschriftung Pixel pitch.",
+        "**Kabinett-Voreinstellungen:** Auflösung und Größe des Kabinetts als benannte Voreinstellung speichern und mit dem Papierkorb löschen; die Voreinstellungen werden im Projekt gespeichert."
       ],
       "it": [
-        "**Nuove lingue:** ebraico, lettone, persiano, polacco e ucraino. R-A Grid ora è disponibile in 31 lingue."
+        "**Scheda Grid:** le griglie salvate non mostrano più linee verticali spesse, e le diagonali sono più chiare e un po' più spesse.",
+        "**Report PDF:** i risultati elettrici ora includono il consumo totale in kVA.",
+        "**LED screen:** una riga di testo aggiuntivo sotto il nome dello schermo, un pulsante per scegliere il colore (anche nel menu del doppio clic) e l'etichetta Pixel pitch.",
+        "**Preimpostazioni del cabinet:** salva risoluzione e dimensioni del cabinet come preimpostazione con un nome ed eliminala con il cestino; le preimpostazioni vengono salvate nel progetto."
       ],
       "nl": [
-        "**Nieuwe talen:** Hebreeuws, Lets, Perzisch, Pools en Oekraïens. R-A Grid is nu beschikbaar in 31 talen."
+        "**Tabblad Grid:** opgeslagen rasters tonen geen dikke verticale lijnen meer, en de diagonalen zijn helderder en iets dikker.",
+        "**PDF-rapport:** de elektrische resultaten tonen nu het totale verbruik in kVA.",
+        "**LED screen:** een extra tekstregel onder de schermnaam, een kleurkiezerknop (ook in het dubbelklikmenu) en het label Pixel pitch.",
+        "**Cabinet-voorinstellingen:** sla de resolutie en grootte van de cabinet op als voorinstelling met een naam en verwijder die met de prullenbak; voorinstellingen worden in het project opgeslagen."
       ],
       "ru": [
-        "**Новые языки:** иврит, латышский, персидский, польский и украинский. Теперь R-A Grid доступен на 31 языке."
+        "**Вкладка Grid:** в сохранённых сетках больше нет толстых вертикальных линий, а диагонали стали светлее и немного толще.",
+        "**PDF-отчёт:** электрические результаты теперь показывают общее потребление в кВА.",
+        "**LED screen:** дополнительная строка текста под названием экрана, кнопка выбора цвета (также в меню двойного щелчка) и подпись Pixel pitch.",
+        "**Пресеты кабинета:** сохраняйте разрешение и размер кабинета как пресет с именем и удаляйте его корзиной; пресеты сохраняются в проекте."
       ],
       "tr": [
-        "**Yeni diller:** İbranice, Letonca, Farsça, Lehçe ve Ukraynaca. R-A Grid artık 31 dilde."
+        "**Grid sekmesi:** kaydedilen ızgaralarda artık kalın dikey çizgiler görünmüyor; köşegenler daha açık ve biraz daha kalın.",
+        "**PDF raporu:** elektrik sonuçları artık toplam tüketimi kVA olarak gösteriyor.",
+        "**LED screen:** ekran adının altında ek bir metin satırı, renk seçme düğmesi (çift tıklama menüsünde de) ve Pixel pitch etiketi.",
+        "**Kabin ön ayarları:** kabin çözünürlüğünü ve boyutunu adlı bir ön ayar olarak kaydedin, çöp kutusuyla silin; ön ayarlar projeye kaydedilir."
       ],
       "id": [
-        "**Bahasa baru:** Ibrani, Latvia, Persia, Polandia, dan Ukraina. R-A Grid kini tersedia dalam 31 bahasa."
+        "**Tab Grid:** grid yang disimpan tidak lagi menampilkan garis vertikal tebal, dan garis diagonal lebih terang serta sedikit lebih tebal.",
+        "**Laporan PDF:** hasil kelistrikan kini menampilkan total konsumsi dalam kVA.",
+        "**LED screen:** baris teks tambahan di bawah nama layar, tombol pemilih warna (juga di menu klik ganda), dan label Pixel pitch.",
+        "**Preset kabinet:** simpan resolusi dan ukuran kabinet sebagai preset bernama dan hapus dengan tombol tempat sampah; preset disimpan di dalam proyek."
       ],
       "hu": [
-        "**Új nyelvek:** héber, lett, perzsa, lengyel és ukrán. Az R-A Grid mostantól 31 nyelven érhető el."
+        "**Grid fül:** a mentett rácsokon már nem jelennek meg vastag függőleges vonalak, az átlók pedig világosabbak és kicsit vastagabbak.",
+        "**PDF-jelentés:** az elektromos eredmények most a teljes fogyasztást is mutatják kVA-ban.",
+        "**LED screen:** egy további szövegsor a képernyő neve alatt, színválasztó gomb (a dupla kattintásos menüben is) és a Pixel pitch felirat.",
+        "**Kabinet-előbeállítások:** mentse a kabinet felbontását és méretét névvel ellátott előbeállításként, és törölje a kukával; az előbeállítások a projektbe is mentődnek."
       ],
       "zh-Hans": [
-        "**新增语言：**希伯来语、拉脱维亚语、波斯语、波兰语和乌克兰语。R-A Grid 现已支持 31 种语言。"
+        "**Grid 选项卡：** 保存的网格不再出现粗竖线，对角线也更亮、稍粗。",
+        "**PDF 报告：** 电气结果现在包含以 kVA 计的总功耗。",
+        "**LED screen：** 屏幕名称下方新增一行附加文本、颜色选择按钮（双击菜单中也有）以及 Pixel pitch 标签。",
+        "**箱体预设：** 可将箱体分辨率和尺寸保存为带名称的预设，并用垃圾桶按钮删除；预设会保存在项目中。"
       ],
       "zh-Hant": [
-        "**新增語言：**希伯來語、拉脫維亞語、波斯語、波蘭語和烏克蘭語。R-A Grid 現已支援 31 種語言。"
+        "**Grid 分頁：** 儲存的網格不再出現粗直線，對角線也更亮、稍粗。",
+        "**PDF 報告：** 電氣結果現在包含以 kVA 計的總耗電量。",
+        "**LED screen：** 螢幕名稱下方新增一行附加文字、顏色選擇按鈕（雙擊選單中也有）以及 Pixel pitch 標籤。",
+        "**箱體預設：** 可將箱體解析度和尺寸儲存為具名稱的預設，並以垃圾桶按鈕刪除；預設會儲存在專案中。"
       ],
       "ja": [
-        "**新しい言語：**ヘブライ語、ラトビア語、ペルシャ語、ポーランド語、ウクライナ語。R-A Grid は 31 言語に対応しました。"
+        "**Grid タブ：** 保存したグリッドに太い縦線が出なくなり、対角線がより明るく少し太くなりました。",
+        "**PDF レポート：** 電気の結果に総消費電力（kVA）が表示されるようになりました。",
+        "**LED screen：** 画面名の下に追加テキスト行、色選択ボタン（ダブルクリックメニューにも）と Pixel pitch ラベルを追加しました。",
+        "**キャビネットプリセット：** キャビネットの解像度とサイズを名前付きプリセットとして保存し、ゴミ箱ボタンで削除できます。プリセットはプロジェクトにも保存されます。"
       ],
       "ko": [
-        "**새 언어:** 히브리어, 라트비아어, 페르시아어, 폴란드어, 우크라이나어. 이제 R-A Grid는 31개 언어를 지원합니다."
+        "**Grid 탭:** 저장한 그리드에 더 이상 굵은 세로선이 나타나지 않으며, 대각선이 더 밝고 약간 굵어졌습니다.",
+        "**PDF 보고서:** 전기 결과에 이제 총 소비 전력(kVA)이 표시됩니다.",
+        "**LED screen:** 화면 이름 아래의 추가 텍스트 줄, 색상 선택 버튼(더블 클릭 메뉴에도 있음), Pixel pitch 라벨이 추가되었습니다.",
+        "**캐비닛 프리셋:** 캐비닛 해상도와 크기를 이름이 있는 프리셋으로 저장하고 휴지통 버튼으로 삭제할 수 있으며, 프리셋은 프로젝트에도 저장됩니다."
       ],
       "ar": [
-        "**لغات جديدة:** العبرية واللاتفية والفارسية والبولندية والأوكرانية. أصبح R-A Grid متاحًا الآن بـ 31 لغة."
+        "**تبويب Grid:** لم تعد الشبكات المحفوظة تُظهر خطوطًا عمودية سميكة، وأصبحت الأقطار أفتح وأسمك قليلًا.",
+        "**تقرير PDF:** تتضمن النتائج الكهربائية الآن إجمالي الاستهلاك بوحدة kVA.",
+        "**LED screen:** سطر نص إضافي أسفل اسم الشاشة، وزر لاختيار اللون (وأيضًا في قائمة النقر المزدوج)، وتسمية Pixel pitch.",
+        "**إعدادات الخزانة المسبقة:** احفظ دقة الخزانة وحجمها كإعداد مسبق باسم واحذفه بزر سلة المهملات؛ تُحفظ الإعدادات المسبقة داخل المشروع."
       ],
       "th": [
-        "**ภาษาใหม่:** ฮีบรู ลัตเวีย เปอร์เซีย โปแลนด์ และยูเครน ตอนนี้ R-A Grid มี 31 ภาษา"
+        "**แท็บ Grid:** กริดที่บันทึกไม่มีเส้นแนวตั้งหนาอีกต่อไป และเส้นทแยงสว่างขึ้นและหนาขึ้นเล็กน้อย",
+        "**รายงาน PDF:** ผลลัพธ์ไฟฟ้าแสดงการใช้พลังงานรวมเป็น kVA แล้ว",
+        "**LED screen:** มีบรรทัดข้อความเพิ่มเติมใต้ชื่อจอ ปุ่มเลือกสี (มีในเมนูดับเบิลคลิกด้วย) และป้าย Pixel pitch",
+        "**พรีเซ็ตตู้:** บันทึกความละเอียดและขนาดตู้เป็นพรีเซ็ตพร้อมชื่อ และลบด้วยปุ่มถังขยะ พรีเซ็ตจะถูกบันทึกในโปรเจกต์ด้วย"
       ],
       "hi": [
-        "**नई भाषाएँ:** हिब्रू, लातवियाई, फ़ारसी, पोलिश और यूक्रेनी। अब R-A Grid 31 भाषाओं में उपलब्ध है।"
+        "**Grid टैब:** सेव किए गए ग्रिड में अब मोटी खड़ी रेखाएँ नहीं दिखतीं, और विकर्ण अधिक चमकीले और थोड़े मोटे हैं।",
+        "**PDF रिपोर्ट:** विद्युत परिणामों में अब कुल खपत kVA में दिखती है।",
+        "**LED screen:** स्क्रीन के नाम के नीचे अतिरिक्त टेक्स्ट की एक पंक्ति, रंग चुनने का बटन (डबल-क्लिक मेनू में भी) और Pixel pitch लेबल।",
+        "**कैबिनेट प्रीसेट:** कैबिनेट का रिज़ॉल्यूशन और आकार नाम के साथ प्रीसेट के रूप में सेव करें और ट्रैश बटन से हटाएँ; प्रीसेट प्रोजेक्ट में भी सेव होते हैं।"
       ],
       "vi": [
-        "**Ngôn ngữ mới:** tiếng Do Thái, tiếng Latvia, tiếng Ba Tư, tiếng Ba Lan và tiếng Ukraina. R-A Grid nay có 31 ngôn ngữ."
+        "**Thẻ Grid:** lưới đã lưu không còn hiện đường dọc dày, và đường chéo sáng hơn, dày hơn một chút.",
+        "**Báo cáo PDF:** kết quả điện giờ hiển thị tổng công suất tiêu thụ theo kVA.",
+        "**LED screen:** thêm một dòng văn bản dưới tên màn hình, nút chọn màu (cũng có trong menu nhấp đúp) và nhãn Pixel pitch.",
+        "**Thiết lập sẵn của cabinet:** lưu độ phân giải và kích thước cabinet thành thiết lập sẵn có tên và xóa bằng nút thùng rác; các thiết lập sẵn được lưu trong dự án."
       ],
       "bn": [
-        "**নতুন ভাষা:** হিব্রু, লাটভিয়ান, ফারসি, পোলিশ ও ইউক্রেনীয়। R-A Grid এখন 31টি ভাষায় পাওয়া যায়।"
+        "**Grid ট্যাব:** সংরক্ষিত গ্রিডে আর মোটা খাড়া রেখা দেখা যায় না, আর কর্ণরেখাগুলো আরও উজ্জ্বল ও একটু মোটা।",
+        "**PDF রিপোর্ট:** বৈদ্যুতিক ফলাফলে এখন মোট খরচ kVA-তে দেখায়।",
+        "**LED screen:** স্ক্রিনের নামের নিচে অতিরিক্ত লেখার একটি লাইন, রং বাছাইয়ের বোতাম (ডাবল-ক্লিক মেনুতেও) এবং Pixel pitch লেবেল।",
+        "**ক্যাবিনেট প্রিসেট:** ক্যাবিনেটের রেজোলিউশন ও আকার নামসহ প্রিসেট হিসেবে সংরক্ষণ করুন এবং ট্র্যাশ বোতাম দিয়ে মুছুন; প্রিসেট প্রকল্পের ভেতরেও সংরক্ষিত হয়।"
       ],
       "ms": [
-        "**Bahasa baharu:** Ibrani, Latvia, Parsi, Poland dan Ukraine. R-A Grid kini tersedia dalam 31 bahasa."
+        "**Tab Grid:** grid yang disimpan tidak lagi menunjukkan garisan menegak tebal, dan garisan pepenjuru lebih cerah serta sedikit lebih tebal.",
+        "**Laporan PDF:** keputusan elektrik kini menunjukkan jumlah penggunaan dalam kVA.",
+        "**LED screen:** satu baris teks tambahan di bawah nama skrin, butang pemilih warna (juga dalam menu klik dua kali) dan label Pixel pitch.",
+        "**Pratetap kabinet:** simpan resolusi dan saiz kabinet sebagai pratetap bernama dan padam dengan butang tong sampah; pratetap disimpan dalam projek."
       ],
       "sv": [
-        "**Nya språk:** hebreiska, lettiska, persiska, polska och ukrainska. R-A Grid finns nu på 31 språk."
+        "**Fliken Grid:** sparade rutnät visar inte längre tjocka lodräta linjer, och diagonalerna är ljusare och lite tjockare.",
+        "**PDF-rapport:** de elektriska resultaten visar nu den totala förbrukningen i kVA.",
+        "**LED screen:** en extra textrad under skärmnamnet, en färgväljarknapp (även i dubbelklicksmenyn) och etiketten Pixel pitch.",
+        "**Kabinettförinställningar:** spara kabinettets upplösning och storlek som en namngiven förinställning och ta bort den med papperskorgen; förinställningarna sparas i projektet."
       ],
       "ur": [
-        "**نئی زبانیں:** عبرانی، لیٹوین، فارسی، پولش اور یوکرینی۔ R-A Grid اب 31 زبانوں میں دستیاب ہے۔"
+        "**Grid ٹیب:** محفوظ کیے گئے گرڈ میں اب موٹی عمودی لکیریں نظر نہیں آتیں، اور ترچھی لکیریں زیادہ روشن اور قدرے موٹی ہیں۔",
+        "**PDF رپورٹ:** برقی نتائج میں اب کل کھپت kVA میں دکھائی جاتی ہے۔",
+        "**LED screen:** اسکرین کے نام کے نیچے اضافی متن کی ایک لائن، رنگ منتخب کرنے کا بٹن (ڈبل کلک مینو میں بھی) اور Pixel pitch لیبل۔",
+        "**کیبنٹ پری سیٹ:** کیبنٹ کی ریزولوشن اور سائز کو نام کے ساتھ پری سیٹ کے طور پر محفوظ کریں اور ردی کی ٹوکری والے بٹن سے حذف کریں؛ پری سیٹ پروجیکٹ میں بھی محفوظ ہوتے ہیں۔"
       ],
       "sw": [
-        "**Lugha mpya:** Kiebrania, Kilatvia, Kiajemi, Kipolandi na Kiukreni. R-A Grid sasa inapatikana kwa lugha 31."
+        "**Kichupo cha Grid:** gridi zilizohifadhiwa hazionyeshi tena mistari minene ya wima, na mistari ya mshazari ni angavu zaidi na minene kidogo.",
+        "**Ripoti ya PDF:** matokeo ya umeme sasa yanaonyesha jumla ya matumizi kwa kVA.",
+        "**LED screen:** mstari wa maandishi ya ziada chini ya jina la skrini, kitufe cha kuchagua rangi (pia kwenye menyu ya kubofya mara mbili) na lebo ya Pixel pitch.",
+        "**Mipangilio ya awali ya kabati:** hifadhi ubora na ukubwa wa kabati kama mpangilio wa awali wenye jina na uufute kwa kitufe cha tupio; mipangilio huhifadhiwa ndani ya mradi."
       ],
       "gn": [
-        "**Ñe'ẽ pyahu:** hebreo, letón, persa, polaco ha ucraniano. R-A Grid oguereko ko'ág̃a 31 ñe'ẽ."
+        "**Grid:** umi grid oñeñongatúva ndohechaukavéima línea pyrusu ojyvapáva, ha umi diagonal hesakãve ha ipyrusuve michĩmi.",
+        "**PDF marandu:** umi tembiapo electricidad rehegua ohechauka ko'ág̃a mboy kVA oipuruha.",
+        "**LED screen:** peteĩ línea moñe'ẽrã ojoapy pantalla réra guýpe, votõ ojeiporavo hag̃ua sa'y (avei menú mokõi jejopy rehegua) ha etiqueta Pixel pitch.",
+        "**Gabinete preset:** eñongatu gabinete resolución ha tamaño peteĩ preset réra reheve, ha embogue votõ yty rehe; umi preset oñeñongatu avei proyecto ryepýpe."
       ],
       "he": [
-        "**שפות חדשות:** עברית, לטבית, פרסית, פולנית ואוקראינית. R-A Grid זמין עכשיו ב-31 שפות."
+        "**לשונית Grid:** רשתות שנשמרו כבר לא מציגות קווים אנכיים עבים, והאלכסונים בהירים יותר ומעט עבים יותר.",
+        "**דוח PDF:** התוצאות החשמליות כוללות כעת את הצריכה הכוללת ב-kVA.",
+        "**LED screen:** שורת טקסט נוספת מתחת לשם המסך, כפתור לבחירת צבע (גם בתפריט הלחיצה הכפולה) והתווית Pixel pitch.",
+        "**הגדרות מוכנות לארון:** שמירת הרזולוציה והגודל של הארון כהגדרה מוכנה עם שם ומחיקה בכפתור הפח; ההגדרות נשמרות בתוך הפרויקט."
       ],
       "lv": [
-        "**Jaunas valodas:** ivrits, latviešu, persiešu, poļu un ukraiņu. R-A Grid tagad ir pieejams 31 valodā."
+        "**Cilne Grid:** saglabātajos režģos vairs nav biezu vertikālu līniju, un diagonāles ir gaišākas un nedaudz biezākas.",
+        "**PDF atskaite:** elektriskajos rezultātos tagad redzams kopējais patēriņš kVA.",
+        "**LED screen:** papildu teksta rinda zem ekrāna nosaukuma, krāsas izvēles poga (arī dubultklikšķa izvēlnē) un uzraksts Pixel pitch.",
+        "**Kabineta sagataves:** saglabājiet kabineta izšķirtspēju un izmēru kā nosauktu sagatavi un dzēsiet to ar miskastes pogu; sagataves tiek saglabātas projektā."
       ],
       "fa": [
-        "**زبان‌های جدید:** عبری، لتونیایی، فارسی، لهستانی و اوکراینی. R-A Grid اکنون به 31 زبان در دسترس است."
+        "**زبانه Grid:** شبکه‌های ذخیره‌شده دیگر خطوط عمودی ضخیم نشان نمی‌دهند و قطرها روشن‌تر و کمی ضخیم‌تر شده‌اند.",
+        "**گزارش PDF:** نتایج برقی اکنون مصرف کل را بر حسب kVA نشان می‌دهد.",
+        "**LED screen:** یک خط متن اضافی زیر نام صفحه، دکمه انتخاب رنگ (در منوی دوبار کلیک هم) و برچسب Pixel pitch.",
+        "**پیش‌تنظیم‌های کابینت:** وضوح و اندازه کابینت را به‌صورت پیش‌تنظیم با نام ذخیره کنید و با دکمه سطل زباله حذف کنید؛ پیش‌تنظیم‌ها درون پروژه ذخیره می‌شوند."
       ],
       "pl": [
-        "**Nowe języki:** hebrajski, łotewski, perski, polski i ukraiński. R-A Grid jest teraz dostępny w 31 językach."
+        "**Karta Grid:** zapisane siatki nie pokazują już grubych pionowych linii, a przekątne są jaśniejsze i nieco grubsze.",
+        "**Raport PDF:** wyniki elektryczne pokazują teraz całkowity pobór w kVA.",
+        "**LED screen:** dodatkowy wiersz tekstu pod nazwą ekranu, przycisk wyboru koloru (także w menu podwójnego kliknięcia) i etykieta Pixel pitch.",
+        "**Ustawienia wstępne kabinetu:** zapisz rozdzielczość i rozmiar kabinetu jako nazwane ustawienie wstępne i usuń je przyciskiem kosza; ustawienia są zapisywane w projekcie."
       ],
       "uk": [
-        "**Нові мови:** іврит, латиська, перська, польська та українська. Тепер R-A Grid доступний 31 мовою."
+        "**Вкладка Grid:** у збережених сітках більше немає товстих вертикальних ліній, а діагоналі стали світлішими й трохи товщими.",
+        "**PDF-звіт:** електричні результати тепер показують загальне споживання в кВА.",
+        "**LED screen:** додатковий рядок тексту під назвою екрана, кнопка вибору кольору (також у меню подвійного клацання) і підпис Pixel pitch.",
+        "**Пресети кабінету:** зберігайте роздільність і розмір кабінету як пресет із назвою та видаляйте його кошиком; пресети зберігаються в проєкті."
+      ],
+      "ca": [
+        "**Pestanya Grid:** les graelles desades ja no mostren línies verticals gruixudes, i les diagonals són més clares i una mica més gruixudes.",
+        "**Informe PDF:** els resultats elèctrics ara inclouen el consum total en kVA.",
+        "**LED screen:** una línia de text addicional sota el nom de la pantalla, un botó per triar el color (també al menú de doble clic) i l'etiqueta Pixel pitch.",
+        "**Predefinits de mòdul:** deseu la resolució i la mida del mòdul com a predefinit amb un nom i suprimiu-lo amb la paperera; els predefinits es desen dins del projecte."
+      ],
+      "cs": [
+        "**Karta Grid:** uložené mřížky už neukazují silné svislé čáry a úhlopříčky jsou světlejší a o něco silnější.",
+        "**Zpráva PDF:** elektrické výsledky nyní uvádějí celkovou spotřebu v kVA.",
+        "**LED screen:** další řádek textu pod názvem obrazovky, tlačítko pro výběr barvy (také v nabídce dvojkliku) a popisek Pixel pitch.",
+        "**Předvolby kabinetu:** uložte rozlišení a velikost kabinetu jako pojmenovanou předvolbu a smažte ji tlačítkem koše; předvolby se ukládají do projektu."
+      ],
+      "fi": [
+        "**Grid-välilehti:** tallennetuissa ruudukoissa ei enää näy paksuja pystyviivoja, ja lävistäjät ovat kirkkaampia ja hieman paksumpia.",
+        "**PDF-raportti:** sähköiset tulokset näyttävät nyt kokonaiskulutuksen kVA:na.",
+        "**LED screen:** lisätekstirivi näytön nimen alla, värinvalintapainike (myös kaksoisnapsautusvalikossa) ja Pixel pitch -otsikko.",
+        "**Kaapin esiasetukset:** tallenna kaapin resoluutio ja koko nimettynä esiasetuksena ja poista se roskakoripainikkeella; esiasetukset tallentuvat projektiin."
+      ],
+      "el": [
+        "**Καρτέλα Grid:** τα αποθηκευμένα πλέγματα δεν δείχνουν πια χοντρές κάθετες γραμμές, και οι διαγώνιες είναι πιο φωτεινές και λίγο πιο χοντρές.",
+        "**Αναφορά PDF:** τα ηλεκτρικά αποτελέσματα δείχνουν πλέον τη συνολική κατανάλωση σε kVA.",
+        "**LED screen:** μια επιπλέον γραμμή κειμένου κάτω από το όνομα της οθόνης, κουμπί επιλογής χρώματος (και στο μενού διπλού κλικ) και η ετικέτα Pixel pitch.",
+        "**Προκαθορισμένα καμπίνας:** αποθηκεύστε την ανάλυση και το μέγεθος της καμπίνας ως προκαθορισμένο με όνομα και διαγράψτε το με τον κάδο· τα προκαθορισμένα αποθηκεύονται στο έργο."
+      ],
+      "ha": [
+        "**Shafin Grid:** grid da aka ajiye ba sa nuna kauri layukan tsaye kuma, kuma layukan karkata sun fi haske da ɗan kauri.",
+        "**Rahoton PDF:** sakamakon wutar lantarki yanzu yana nuna jimillar amfani a kVA.",
+        "**LED screen:** ƙarin layin rubutu ƙarƙashin sunan allo, maɓallin zaɓar launi (har ma a menu na danna sau biyu) da alamar Pixel pitch.",
+        "**Saitin kabad:** ajiye ƙuduri da girman kabad a matsayin saiti mai suna kuma share shi da maɓallin shara; ana ajiye saitunan cikin aikin."
+      ],
+      "ro": [
+        "**Fila Grid:** grilele salvate nu mai afișează linii verticale groase, iar diagonalele sunt mai luminoase și puțin mai groase.",
+        "**Raport PDF:** rezultatele electrice includ acum consumul total în kVA.",
+        "**LED screen:** un rând de text suplimentar sub numele ecranului, un buton de alegere a culorii (și în meniul de dublu clic) și eticheta Pixel pitch.",
+        "**Presetări de cabinet:** salvați rezoluția și dimensiunea cabinetului ca presetare cu nume și ștergeți-o cu coșul; presetările se salvează în proiect."
+      ],
+      "yo": [
+        "**Táàbù Grid:** àwọn grid tí a fi pamọ́ kò ní fi ìlà inaro tó nípọn hàn mọ́, àwọn ìlà oníròó sì tàn ju ti tẹ́lẹ̀ lọ, wọ́n sì nípọn díẹ̀.",
+        "**Ìròyìn PDF:** àwọn àbájáde iná mànàmáná ń fi gbogbo ìlò hàn ní kVA báyìí.",
+        "**LED screen:** ìlà ọ̀rọ̀ àfikún kan lábẹ́ orúkọ ojú-ìbojú, bọ́tìnnì yíyan àwọ̀ (ó tún wà nínú àkójọ títẹ̀ lẹ́ẹ̀mejì) àti àmì Pixel pitch.",
+        "**Ètò kábíńẹ́ẹ̀tì:** fi ìpinnu àti ìwọ̀n kábíńẹ́ẹ̀tì pamọ́ bí ètò tó ní orúkọ, kí o sì pa á rẹ́ pẹ̀lú bọ́tìnnì ìdọ̀tí; a máa ń fi àwọn ètò pamọ́ sínú iṣẹ́ náà."
+      ],
+      "zu": [
+        "**Ithebhu ye-Grid:** amagridi alondoloziwe awasabonisi imigqa eqondile ewugqinsi, futhi imigqa eqondiswe ngokutshekile ikhanya kakhulu futhi iwugqinsi kancane.",
+        "**Umbiko we-PDF:** imiphumela kagesi manje ibonisa ukusetshenziswa okuphelele ku-kVA.",
+        "**LED screen:** umugqa wombhalo owengeziwe ngaphansi kwegama lesikrini, inkinobho yokukhetha umbala (nakwimenyu yokuchofoza kabili) nelebula ethi Pixel pitch.",
+        "**Okusethwe ngaphambili kwekhabhinethi:** londoloza ukucaca nosayizi wekhabhinethi njengokusethwe ngaphambili okunegama bese ukususa ngenkinobho yomgqomo; kulondolozwa ngaphakathi kwephrojekthi."
+      ],
+      "fil": [
+        "**Tab na Grid:** wala nang makakapal na patayong linya sa mga na-save na grid, at mas maliwanag at bahagyang mas makapal ang mga diagonal.",
+        "**Ulat na PDF:** ipinapakita na ng mga resulta ng kuryente ang kabuuang konsumo sa kVA.",
+        "**LED screen:** dagdag na linya ng teksto sa ilalim ng pangalan ng screen, button para pumili ng kulay (nasa double-click menu rin) at ang label na Pixel pitch.",
+        "**Mga preset ng cabinet:** i-save ang resolution at laki ng cabinet bilang preset na may pangalan at burahin gamit ang trash button; nakasave ang mga preset sa loob ng proyekto."
+      ],
+      "ta": [
+        "**Grid தாவல்:** சேமித்த கிரிடுகளில் இனி தடித்த செங்குத்துக் கோடுகள் தெரியாது; மூலைவிட்டங்கள் பிரகாசமாகவும் சற்று தடிமனாகவும் உள்ளன.",
+        "**PDF அறிக்கை:** மின் முடிவுகள் இப்போது மொத்த நுகர்வை kVA-வில் காட்டுகின்றன.",
+        "**LED screen:** திரைப் பெயருக்குக் கீழே கூடுதல் உரை வரி, நிறம் தேர்வு பொத்தான் (இருமுறை சொடுக்கு மெனுவிலும்) மற்றும் Pixel pitch லேபிள்.",
+        "**கேபினெட் முன்னமைவுகள்:** கேபினெட்டின் தெளிவுத்திறனையும் அளவையும் பெயருடன் முன்னமைவாகச் சேமித்து, குப்பைத் தொட்டி பொத்தானால் நீக்கலாம்; முன்னமைவுகள் திட்டத்திலும் சேமிக்கப்படும்."
+      ],
+      "te": [
+        "**Grid ట్యాబ్:** సేవ్ చేసిన గ్రిడ్‌లలో ఇక మందపాటి నిలువు గీతలు కనిపించవు, వికర్ణాలు మరింత ప్రకాశవంతంగా కొంచెం మందంగా ఉన్నాయి.",
+        "**PDF నివేదిక:** విద్యుత్ ఫలితాలు ఇప్పుడు మొత్తం వినియోగాన్ని kVAలో చూపుతాయి.",
+        "**LED screen:** స్క్రీన్ పేరు కింద అదనపు వచన పంక్తి, రంగు ఎంపిక బటన్ (డబుల్-క్లిక్ మెనూలో కూడా) మరియు Pixel pitch లేబుల్.",
+        "**క్యాబినెట్ ప్రీసెట్‌లు:** క్యాబినెట్ రిజల్యూషన్, పరిమాణాన్ని పేరుతో ప్రీసెట్‌గా సేవ్ చేసి, ట్రాష్ బటన్‌తో తొలగించండి; ప్రీసెట్‌లు ప్రాజెక్ట్‌లో కూడా సేవ్ అవుతాయి."
+      ],
+      "mr": [
+        "**Grid टॅब:** जतन केलेल्या ग्रिडमध्ये आता जाड उभ्या रेषा दिसत नाहीत, आणि कर्ण अधिक उजळ व थोडे जाड आहेत.",
+        "**PDF अहवाल:** विद्युत निकालांमध्ये आता एकूण वापर kVA मध्ये दिसतो.",
+        "**LED screen:** स्क्रीनच्या नावाखाली अतिरिक्त मजकुराची एक ओळ, रंग निवडण्याचे बटण (डबल-क्लिक मेनूतही) आणि Pixel pitch लेबल.",
+        "**कॅबिनेट प्रीसेट:** कॅबिनेटचे रिझोल्यूशन व आकार नावासह प्रीसेट म्हणून जतन करा आणि कचरापेटी बटणाने हटवा; प्रीसेट प्रकल्पातही जतन होतात."
+      ],
+      "da": [
+        "**Fanen Grid:** gemte gitre viser ikke længere tykke lodrette linjer, og diagonalerne er lysere og lidt tykkere.",
+        "**PDF-rapport:** de elektriske resultater viser nu det samlede forbrug i kVA.",
+        "**LED screen:** en ekstra tekstlinje under skærmnavnet, en farvevælgerknap (også i dobbeltklikmenuen) og etiketten Pixel pitch.",
+        "**Kabinetforudindstillinger:** gem kabinettets opløsning og størrelse som en navngivet forudindstilling og slet den med skraldespanden; forudindstillingerne gemmes i projektet."
+      ],
+      "nb": [
+        "**Fanen Grid:** lagrede rutenett viser ikke lenger tykke loddrette linjer, og diagonalene er lysere og litt tykkere.",
+        "**PDF-rapport:** de elektriske resultatene viser nå totalt forbruk i kVA.",
+        "**LED screen:** en ekstra tekstlinje under skjermnavnet, en fargevelgerknapp (også i dobbeltklikkmenyen) og etiketten Pixel pitch.",
+        "**Kabinettforhåndsinnstillinger:** lagre kabinettets oppløsning og størrelse som en navngitt forhåndsinnstilling og slett den med søppelbøtten; forhåndsinnstillingene lagres i prosjektet."
+      ],
+      "lt": [
+        "**Skirtukas Grid:** išsaugotuose tinkleliuose nebėra storų vertikalių linijų, o įstrižainės šviesesnės ir šiek tiek storesnės.",
+        "**PDF ataskaita:** elektriniai rezultatai dabar rodo bendrą suvartojimą kVA.",
+        "**LED screen:** papildoma teksto eilutė po ekrano pavadinimu, spalvos parinkimo mygtukas (ir dukart spustelėjimo meniu) bei užrašas Pixel pitch.",
+        "**Kabineto išankstinės nuostatos:** įrašykite kabineto raišką ir dydį kaip pavadintą nuostatą ir ištrinkite šiukšliadėžės mygtuku; nuostatos įrašomos projekte."
+      ],
+      "et": [
+        "**Vahekaart Grid:** salvestatud võrgustikes pole enam paksu püstjooni ning diagonaalid on heledamad ja veidi paksemad.",
+        "**PDF-aruanne:** elektrilised tulemused näitavad nüüd koguvõimsust kVA-des.",
+        "**LED screen:** lisatekstirida ekraani nime all, värvivaliku nupp (ka topeltklõpsu menüüs) ja silt Pixel pitch.",
+        "**Kabineti eelseadistused:** salvestage kabineti eraldusvõime ja suurus nimega eelseadistusena ja kustutage prügikasti nupuga; eelseadistused salvestatakse projekti."
+      ],
+      "sk": [
+        "**Karta Grid:** uložené mriežky už nezobrazujú hrubé zvislé čiary a uhlopriečky sú svetlejšie a o niečo hrubšie.",
+        "**Správa PDF:** elektrické výsledky teraz uvádzajú celkovú spotrebu v kVA.",
+        "**LED screen:** ďalší riadok textu pod názvom obrazovky, tlačidlo na výber farby (aj v ponuke dvojkliku) a popis Pixel pitch.",
+        "**Predvoľby kabinetu:** uložte rozlíšenie a veľkosť kabinetu ako pomenovanú predvoľbu a odstráňte ju tlačidlom koša; predvoľby sa ukladajú do projektu."
+      ],
+      "bg": [
+        "**Раздел Grid:** запазените мрежи вече не показват дебели вертикални линии, а диагоналите са по-светли и малко по-дебели.",
+        "**PDF отчет:** електрическите резултати вече показват общата консумация в kVA.",
+        "**LED screen:** допълнителен ред текст под името на екрана, бутон за избор на цвят (и в менюто при двоен клик) и надпис Pixel pitch.",
+        "**Предварителни настройки на кабинета:** запазете резолюцията и размера на кабинета като именувана настройка и я изтрийте с кошчето; настройките се запазват в проекта."
+      ],
+      "sr": [
+        "**Картица Grid:** сачуване мреже више не приказују дебеле усправне линије, а дијагонале су светлије и мало дебље.",
+        "**PDF извештај:** електрични резултати сада приказују укупну потрошњу у kVA.",
+        "**LED screen:** додатни ред текста испод назива екрана, дугме за избор боје (и у менију двоструког клика) и натпис Pixel pitch.",
+        "**Унапред подешени кабинети:** сачувајте резолуцију и величину кабинета као именовано подешавање и обришите га дугметом корпе; подешавања се чувају у пројекту."
+      ],
+      "hr": [
+        "**Kartica Grid:** spremljene mreže više ne prikazuju debele okomite linije, a dijagonale su svjetlije i malo deblje.",
+        "**PDF izvješće:** električni rezultati sada prikazuju ukupnu potrošnju u kVA.",
+        "**LED screen:** dodatni redak teksta ispod naziva zaslona, gumb za odabir boje (i u izborniku dvostrukog klika) i natpis Pixel pitch.",
+        "**Unaprijed postavljeni kabineti:** spremite razlučivost i veličinu kabineta kao imenovanu postavku i izbrišite je gumbom koša; postavke se spremaju u projekt."
+      ],
+      "gu": [
+        "**Grid ટેબ:** સાચવેલા ગ્રિડમાં હવે જાડી ઊભી રેખાઓ દેખાતી નથી, અને કર્ણ વધુ તેજસ્વી અને થોડા જાડા છે.",
+        "**PDF અહેવાલ:** વિદ્યુત પરિણામોમાં હવે કુલ વપરાશ kVA માં દેખાય છે.",
+        "**LED screen:** સ્ક્રીનના નામ નીચે વધારાની ટેક્સ્ટ લાઇન, રંગ પસંદ કરવાનું બટન (ડબલ-ક્લિક મેનૂમાં પણ) અને Pixel pitch લેબલ.",
+        "**કેબિનેટ પ્રીસેટ:** કેબિનેટનું રિઝોલ્યુશન અને કદ નામ સાથે પ્રીસેટ તરીકે સાચવો અને કચરાપેટી બટનથી કાઢી નાખો; પ્રીસેટ પ્રોજેક્ટમાં પણ સચવાય છે."
+      ],
+      "pa": [
+        "**Grid ਟੈਬ:** ਸੇਵ ਕੀਤੇ ਗ੍ਰਿਡਾਂ ਵਿੱਚ ਹੁਣ ਮੋਟੀਆਂ ਖੜ੍ਹੀਆਂ ਲਾਈਨਾਂ ਨਹੀਂ ਦਿਸਦੀਆਂ, ਅਤੇ ਵਿਕਰਣ ਹੋਰ ਚਮਕਦਾਰ ਤੇ ਥੋੜ੍ਹੇ ਮੋਟੇ ਹਨ।",
+        "**PDF ਰਿਪੋਰਟ:** ਬਿਜਲਈ ਨਤੀਜਿਆਂ ਵਿੱਚ ਹੁਣ ਕੁੱਲ ਖਪਤ kVA ਵਿੱਚ ਦਿਸਦੀ ਹੈ।",
+        "**LED screen:** ਸਕ੍ਰੀਨ ਦੇ ਨਾਮ ਹੇਠਾਂ ਵਾਧੂ ਲਿਖਤ ਦੀ ਇੱਕ ਲਾਈਨ, ਰੰਗ ਚੁਣਨ ਦਾ ਬਟਨ (ਡਬਲ-ਕਲਿੱਕ ਮੀਨੂ ਵਿੱਚ ਵੀ) ਅਤੇ Pixel pitch ਲੇਬਲ।",
+        "**ਕੈਬਨਿਟ ਪ੍ਰੀਸੈੱਟ:** ਕੈਬਨਿਟ ਦਾ ਰੈਜ਼ੋਲਿਊਸ਼ਨ ਅਤੇ ਆਕਾਰ ਨਾਮ ਨਾਲ ਪ੍ਰੀਸੈੱਟ ਵਜੋਂ ਸੇਵ ਕਰੋ ਅਤੇ ਰੱਦੀ ਬਟਨ ਨਾਲ ਮਿਟਾਓ; ਪ੍ਰੀਸੈੱਟ ਪ੍ਰੋਜੈਕਟ ਵਿੱਚ ਵੀ ਸੇਵ ਹੁੰਦੇ ਹਨ।"
+      ],
+      "kn": [
+        "**Grid ಟ್ಯಾಬ್:** ಉಳಿಸಿದ ಗ್ರಿಡ್‌ಗಳಲ್ಲಿ ಈಗ ದಪ್ಪ ಲಂಬ ಗೆರೆಗಳು ಕಾಣುವುದಿಲ್ಲ, ಮತ್ತು ಕರ್ಣಗಳು ಹೆಚ್ಚು ಪ್ರಕಾಶಮಾನ ಹಾಗೂ ಸ್ವಲ್ಪ ದಪ್ಪವಾಗಿವೆ.",
+        "**PDF ವರದಿ:** ವಿದ್ಯುತ್ ಫಲಿತಾಂಶಗಳು ಈಗ ಒಟ್ಟು ಬಳಕೆಯನ್ನು kVA ನಲ್ಲಿ ತೋರಿಸುತ್ತವೆ.",
+        "**LED screen:** ಪರದೆಯ ಹೆಸರಿನ ಕೆಳಗೆ ಹೆಚ್ಚುವರಿ ಪಠ್ಯದ ಸಾಲು, ಬಣ್ಣ ಆಯ್ಕೆ ಬಟನ್ (ಡಬಲ್-ಕ್ಲಿಕ್ ಮೆನುವಿನಲ್ಲೂ) ಮತ್ತು Pixel pitch ಲೇಬಲ್.",
+        "**ಕ್ಯಾಬಿನೆಟ್ ಪ್ರೀಸೆಟ್‌ಗಳು:** ಕ್ಯಾಬಿನೆಟ್ ರೆಸಲ್ಯೂಶನ್ ಮತ್ತು ಗಾತ್ರವನ್ನು ಹೆಸರಿನೊಂದಿಗೆ ಪ್ರೀಸೆಟ್ ಆಗಿ ಉಳಿಸಿ ಮತ್ತು ಕಸದಬುಟ್ಟಿ ಬಟನ್‌ನಿಂದ ಅಳಿಸಿ; ಪ್ರೀಸೆಟ್‌ಗಳು ಪ್ರಾಜೆಕ್ಟ್‌ನಲ್ಲೂ ಉಳಿಯುತ್ತವೆ."
+      ],
+      "ne": [
+        "**Grid ट्याब:** सेभ गरिएका ग्रिडमा अब बाक्ला ठाडा रेखा देखिँदैनन्, र विकर्णहरू अझ उज्यालो र अलि बाक्ला छन्।",
+        "**PDF प्रतिवेदन:** विद्युत नतिजाले अब कुल खपत kVA मा देखाउँछ।",
+        "**LED screen:** स्क्रिनको नामतल थप पाठको एउटा लाइन, रङ छान्ने बटन (डबल-क्लिक मेनुमा पनि) र Pixel pitch लेबल।",
+        "**क्याबिनेट प्रिसेट:** क्याबिनेटको रिजोल्युसन र आकारलाई नामसहित प्रिसेटका रूपमा सेभ गर्नुहोस् र रद्दीटोकरी बटनले मेटाउनुहोस्; प्रिसेटहरू परियोजनामा पनि सेभ हुन्छन्।"
+      ],
+      "km": [
+        "**ផ្ទាំង Grid៖** ក្រឡាដែលបានរក្សាទុកលែងបង្ហាញបន្ទាត់បញ្ឈរក្រាស់ទៀតហើយ ហើយបន្ទាត់ទ្រេតភ្លឺជាងមុន និងក្រាស់បន្តិច។",
+        "**របាយការណ៍ PDF៖** លទ្ធផលអគ្គិសនីឥឡូវបង្ហាញការប្រើប្រាស់សរុបជា kVA។",
+        "**LED screen៖** បន្ទាត់អត្ថបទបន្ថែមនៅក្រោមឈ្មោះអេក្រង់ ប៊ូតុងជ្រើសពណ៌ (មាននៅក្នុងម៉ឺនុយចុចពីរដងផងដែរ) និងស្លាក Pixel pitch។",
+        "**ការកំណត់ជាមុនរបស់ទូ៖** រក្សាទុកគុណភាពបង្ហាញ និងទំហំទូជាការកំណត់ជាមុនដែលមានឈ្មោះ ហើយលុបដោយប៊ូតុងធុងសំរាម។ ការកំណត់ជាមុនត្រូវបានរក្សាទុកក្នុងគម្រោង។"
+      ],
+      "kk": [
+        "**Grid қойындысы:** сақталған торларда енді жуан тік сызықтар көрінбейді, ал диагональдар жарығырақ әрі сәл жуанырақ.",
+        "**PDF есебі:** электр нәтижелері енді жалпы тұтынуды кВА-мен көрсетеді.",
+        "**LED screen:** экран атауының астында қосымша мәтін жолы, түс таңдау түймесі (екі рет басу мәзірінде де) және Pixel pitch белгісі.",
+        "**Кабинет алдын ала орнатулары:** кабинеттің ажыратымдылығы мен өлшемін атаулы орнату ретінде сақтап, қоқыс түймесімен жойыңыз; орнатулар жобада да сақталады."
+      ],
+      "uz": [
+        "**Grid yorlig'i:** saqlangan to'rlarda endi qalin vertikal chiziqlar ko'rinmaydi, diagonallar esa yorqinroq va biroz qalinroq.",
+        "**PDF hisobot:** elektr natijalari endi umumiy iste'molni kVA da ko'rsatadi.",
+        "**LED screen:** ekran nomi ostida qo'shimcha matn qatori, rang tanlash tugmasi (ikki marta bosish menyusida ham) va Pixel pitch yorlig'i.",
+        "**Kabinet oldindan sozlamalari:** kabinet o'lchami va ruxsatini nomli sozlama sifatida saqlang va axlat tugmasi bilan o'chiring; sozlamalar loyiha ichida ham saqlanadi."
+      ],
+      "am": [
+        "**Grid ትር፦** የተቀመጡ ፍርግርጎች ከእንግዲህ ወፍራም ቋሚ መስመሮችን አያሳዩም፣ ሰያፍ መስመሮቹም ይበልጥ ደማቅ እና ትንሽ ወፍራም ሆነዋል።",
+        "**የPDF ሪፖርት፦** የኤሌክትሪክ ውጤቶች አሁን አጠቃላይ ፍጆታን በkVA ያሳያሉ።",
+        "**LED screen፦** ከማያ ገጹ ስም በታች ተጨማሪ የጽሑፍ መስመር፣ ቀለም መምረጫ አዝራር (በሁለቴ ጠቅታ ምናሌ ውስጥም) እና Pixel pitch መለያ።",
+        "**የካቢኔ ቅድመ-ቅንብሮች፦** የካቢኔውን ጥራት እና መጠን በስም እንደ ቅድመ-ቅንብር ያስቀምጡ እና በቆሻሻ አዝራር ይሰርዙ፤ ቅድመ-ቅንብሮቹ በፕሮጀክቱ ውስጥም ይቀመጣሉ።"
+      ],
+      "sl": [
+        "**Zavihek Grid:** shranjene mreže ne prikazujejo več debelih navpičnih črt, diagonale pa so svetlejše in malo debelejše.",
+        "**Poročilo PDF:** električni rezultati zdaj prikazujejo skupno porabo v kVA.",
+        "**LED screen:** dodatna vrstica besedila pod imenom zaslona, gumb za izbiro barve (tudi v meniju dvojnega klika) in oznaka Pixel pitch.",
+        "**Prednastavitve kabineta:** shranite ločljivost in velikost kabineta kot poimenovano prednastavitev in jo izbrišite z gumbom koša; prednastavitve se shranijo v projekt."
       ]
     },
-    "2.5.6": {}
+    "2.7.0": {
+      "en": [
+        "**New Grid tab:** a test grid generator for LED and projection, any resolution up to 100,000 × 100,000 px, with resolution presets, patterns (Grid, Spyder and Alignment), backgrounds, display options and red or blue lines.",
+        "**Save the grid as PNG, JPEG, PSD or PDF:** pixel-exact files, with an optional transparent background (Alpha).",
+        "**Zoom and move:** mouse-wheel zoom down to a single pixel, drag with the right mouse button, Center view or Esc to center it again."
+      ],
+      "pt": [
+        "**Nova aba Grid:** gerador de grid de teste para LED e projeção, em qualquer resolução até 100.000 × 100.000 px, com resoluções prontas, desenhos (Grid, Spyder e Alinhamento), fundos, opções de exibição e linhas vermelhas ou azuis.",
+        "**Salve o grid em PNG, JPEG, PSD ou PDF:** arquivos fiéis pixel a pixel, com fundo transparente opcional (Alpha).",
+        "**Zoom e arraste:** zoom na roda do mouse até um único pixel, arraste com o botão direito, Centralizar vista ou Esc para centralizar de novo."
+      ],
+      "es": [
+        "**Nueva pestaña Grid:** generador de cuadrícula de prueba para LED y proyección, en cualquier resolución hasta 100.000 × 100.000 px, con resoluciones predefinidas, patrones (Grid, Spyder y Alineación), fondos, opciones de visualización y líneas rojas o azules.",
+        "**Guarde la cuadrícula en PNG, JPEG, PSD o PDF:** archivos exactos píxel a píxel, con fondo transparente opcional (Alpha).",
+        "**Zoom y arrastre:** zoom con la rueda del ratón hasta un solo píxel, arrastre con el botón derecho, Centrar vista o Esc para volver a centrar."
+      ],
+      "fr": [
+        "**Nouvel onglet Grid :** générateur de mire de test pour LED et projection, dans toute résolution jusqu'à 100 000 × 100 000 px, avec des résolutions prédéfinies, des motifs (Grid, Spyder et Alignement), des fonds, des options d'affichage et des lignes rouges ou bleues.",
+        "**Enregistrez la mire en PNG, JPEG, PSD ou PDF :** fichiers exacts au pixel près, avec fond transparent en option (Alpha).",
+        "**Zoom et déplacement :** zoom à la molette jusqu'à un seul pixel, déplacement avec le bouton droit, Centrer la vue ou Échap pour recentrer."
+      ],
+      "de": [
+        "**Neuer Grid-Tab:** Testraster-Generator für LED und Projektion, in jeder Auflösung bis 100.000 × 100.000 px, mit Auflösungsvorlagen, Mustern (Grid, Spyder und Ausrichtung), Hintergründen, Anzeigeoptionen und roten oder blauen Linien.",
+        "**Raster als PNG, JPEG, PSD oder PDF speichern:** pixelgenaue Dateien, optional mit transparentem Hintergrund (Alpha).",
+        "**Zoomen und verschieben:** Zoom mit dem Mausrad bis zu einem einzelnen Pixel, Verschieben mit der rechten Maustaste, Ansicht zentrieren oder Esc zum erneuten Zentrieren."
+      ],
+      "it": [
+        "**Nuova scheda Grid:** generatore di griglie di prova per LED e proiezione, in qualsiasi risoluzione fino a 100.000 × 100.000 px, con risoluzioni predefinite, motivi (Grid, Spyder e Allineamento), sfondi, opzioni di visualizzazione e linee rosse o blu.",
+        "**Salva la griglia in PNG, JPEG, PSD o PDF:** file esatti al pixel, con sfondo trasparente opzionale (Alpha).",
+        "**Zoom e trascinamento:** zoom con la rotellina fino a un singolo pixel, trascinamento con il tasto destro, Centra vista o Esc per ricentrare."
+      ],
+      "nl": [
+        "**Nieuw tabblad Grid:** testrastergenerator voor LED en projectie, in elke resolutie tot 100.000 × 100.000 px, met vooraf ingestelde resoluties, patronen (Grid, Spyder en Uitlijning), achtergronden, weergaveopties en rode of blauwe lijnen.",
+        "**Sla het raster op als PNG, JPEG, PSD of PDF:** pixelexacte bestanden, met optioneel een transparante achtergrond (Alpha).",
+        "**Zoomen en slepen:** zoomen met het muiswiel tot op één pixel, slepen met de rechtermuisknop, Weergave centreren of Esc om opnieuw te centreren."
+      ],
+      "ru": [
+        "**Новая вкладка Grid:** генератор тестовой сетки для LED и проекции, любое разрешение до 100 000 × 100 000 пикс., готовые разрешения, шаблоны (Grid, Spyder и Выравнивание), фоны, параметры отображения и красные или синие линии.",
+        "**Сохранение сетки в PNG, JPEG, PSD или PDF:** файлы с точностью до пикселя, по желанию с прозрачным фоном (Alpha).",
+        "**Масштаб и перемещение:** масштаб колесом мыши вплоть до одного пикселя, перемещение правой кнопкой, Центрировать вид или Esc для центрирования."
+      ],
+      "tr": [
+        "**Yeni Grid sekmesi:** LED ve projeksiyon için test ızgarası üreticisi; 100.000 × 100.000 piksele kadar her çözünürlükte, hazır çözünürlükler, desenler (Grid, Spyder ve Hizalama), arka planlar, görünüm seçenekleri ve kırmızı ya da mavi çizgilerle.",
+        "**Izgarayı PNG, JPEG, PSD veya PDF olarak kaydedin:** piksel piksel birebir dosyalar, isteğe bağlı saydam arka plan (Alpha).",
+        "**Yakınlaştırma ve sürükleme:** fare tekerleğiyle tek bir piksele kadar yakınlaştırma, sağ tuşla sürükleme, yeniden ortalamak için Görünümü ortala veya Esc."
+      ],
+      "id": [
+        "**Tab Grid baru:** pembuat grid uji untuk LED dan proyeksi, dalam resolusi apa pun hingga 100.000 × 100.000 px, dengan preset resolusi, pola (Grid, Spyder, dan Penyelarasan), latar belakang, opsi tampilan, serta garis merah atau biru.",
+        "**Simpan grid sebagai PNG, JPEG, PSD, atau PDF:** file yang tepat hingga tiap piksel, dengan latar transparan opsional (Alpha).",
+        "**Zoom dan geser:** zoom dengan roda mouse hingga satu piksel, geser dengan tombol kanan, Tengahkan tampilan atau Esc untuk memusatkan lagi."
+      ],
+      "hu": [
+        "**Új Grid fül:** tesztrács-generátor LED-hez és vetítéshez, bármilyen felbontásban 100 000 × 100 000 képpontig, előre beállított felbontásokkal, mintákkal (Grid, Spyder és Igazítás), hátterekkel, megjelenítési beállításokkal és piros vagy kék vonalakkal.",
+        "**Mentse a rácsot PNG, JPEG, PSD vagy PDF formátumban:** képpontra pontos fájlok, választható átlátszó háttérrel (Alpha).",
+        "**Nagyítás és mozgatás:** nagyítás az egérgörgővel egyetlen képpontig, mozgatás a jobb egérgombbal, Nézet középre vagy Esc az újbóli középre igazításhoz."
+      ],
+      "zh-Hans": [
+        "**新的 Grid 选项卡：** 用于 LED 和投影的测试网格生成器，支持最高 100,000 × 100,000 像素的任意分辨率，提供预设分辨率、图案（Grid、Spyder 和 对齐）、背景、显示选项以及红色或蓝色线条。",
+        "**将网格保存为 PNG、JPEG、PSD 或 PDF：** 逐像素精确的文件，可选透明背景（Alpha）。",
+        "**缩放和拖动：** 用鼠标滚轮缩放到单个像素，按住右键拖动，按 居中视图 或 Esc 重新居中。"
+      ],
+      "zh-Hant": [
+        "**新的 Grid 分頁：** 用於 LED 與投影的測試網格產生器，支援最高 100,000 × 100,000 像素的任意解析度，提供預設解析度、圖樣（Grid、Spyder 和 對齊）、背景、顯示選項以及紅色或藍色線條。",
+        "**將網格儲存為 PNG、JPEG、PSD 或 PDF：** 逐像素精確的檔案，可選透明背景（Alpha）。",
+        "**縮放與拖曳：** 以滑鼠滾輪縮放到單一像素，按住右鍵拖曳，按 置中檢視 或 Esc 重新置中。"
+      ],
+      "ja": [
+        "**新しい Grid タブ：** LED とプロジェクション用のテストグリッド生成ツール。最大 100,000 × 100,000 px まで任意の解像度に対応し、解像度プリセット、パターン（Grid、Spyder、アライメント）、背景、表示オプション、赤または青のラインを選べます。",
+        "**グリッドを PNG、JPEG、PSD、PDF で保存：** ピクセル単位で正確なファイル。透明な背景（Alpha）も選べます。",
+        "**ズームと移動：** マウスホイールで 1 ピクセル単位までズーム、右ボタンでドラッグ、ビューを中央へ または Esc で中央に戻します。"
+      ],
+      "ko": [
+        "**새 Grid 탭:** LED와 프로젝션용 테스트 그리드 생성기로, 최대 100,000 × 100,000 px까지 모든 해상도를 지원하며 해상도 프리셋, 패턴(Grid, Spyder, 정렬), 배경, 표시 옵션, 빨간색 또는 파란색 선을 제공합니다.",
+        "**그리드를 PNG, JPEG, PSD 또는 PDF로 저장:** 픽셀 단위까지 정확한 파일이며, 투명 배경(Alpha)을 선택할 수 있습니다.",
+        "**확대/축소와 이동:** 마우스 휠로 픽셀 하나까지 확대하고, 오른쪽 버튼으로 끌어 이동하며, 뷰 가운데 맞춤 또는 Esc로 다시 가운데에 맞춥니다."
+      ],
+      "ar": [
+        "**تبويب Grid جديد:** مولّد شبكة اختبار لشاشات LED والإسقاط، بأي دقة حتى 100,000 × 100,000 بكسل، مع دقات جاهزة وأنماط (Grid وSpyder ومحاذاة) وخلفيات وخيارات عرض وخطوط حمراء أو زرقاء.",
+        "**احفظ الشبكة بصيغة PNG أو JPEG أو PSD أو PDF:** ملفات دقيقة بكسلًا ببكسل، مع خلفية شفافة اختيارية (Alpha).",
+        "**التكبير والسحب:** تكبير بعجلة الفأرة حتى بكسل واحد، وسحب بالزر الأيمن، وتوسيط العرض أو Esc لإعادة التوسيط."
+      ],
+      "th": [
+        "**แท็บ Grid ใหม่:** ตัวสร้างกริดทดสอบสำหรับ LED และโปรเจกเตอร์ ทุกความละเอียดสูงสุด 100,000 × 100,000 พิกเซล พร้อมความละเอียดสำเร็จรูป ลวดลาย (Grid, Spyder และ การจัดแนว) พื้นหลัง ตัวเลือกการแสดงผล และเส้นสีแดงหรือสีน้ำเงิน",
+        "**บันทึกกริดเป็น PNG, JPEG, PSD หรือ PDF:** ไฟล์ตรงทุกพิกเซล เลือกพื้นหลังโปร่งใสได้ (Alpha)",
+        "**ซูมและลาก:** ซูมด้วยล้อเมาส์จนถึงพิกเซลเดียว ลากด้วยปุ่มขวา และใช้ จัดมุมมองกึ่งกลาง หรือ Esc เพื่อจัดกลางอีกครั้ง"
+      ],
+      "hi": [
+        "**नया Grid टैब:** LED और प्रोजेक्शन के लिए टेस्ट ग्रिड जनरेटर, 100,000 × 100,000 px तक किसी भी रिज़ॉल्यूशन में, तैयार रिज़ॉल्यूशन, पैटर्न (Grid, Spyder और संरेखण), बैकग्राउंड, डिस्प्ले विकल्प और लाल या नीली रेखाओं के साथ।",
+        "**ग्रिड को PNG, JPEG, PSD या PDF में सेव करें:** हर पिक्सेल तक सटीक फ़ाइलें, वैकल्पिक पारदर्शी बैकग्राउंड (Alpha) के साथ।",
+        "**ज़ूम और खिसकाना:** माउस व्हील से एक पिक्सेल तक ज़ूम, दाएँ बटन से खिसकाएँ, फिर से बीच में लाने के लिए व्यू बीच में करें या Esc।"
+      ],
+      "vi": [
+        "**Thẻ Grid mới:** công cụ tạo lưới kiểm tra cho LED và máy chiếu, mọi độ phân giải đến 100.000 × 100.000 px, có độ phân giải dựng sẵn, mẫu (Grid, Spyder và Căn chỉnh), nền, tùy chọn hiển thị và đường kẻ đỏ hoặc xanh.",
+        "**Lưu lưới thành PNG, JPEG, PSD hoặc PDF:** tệp chính xác đến từng pixel, có thể chọn nền trong suốt (Alpha).",
+        "**Thu phóng và kéo:** thu phóng bằng con lăn chuột đến từng pixel, kéo bằng nút phải, Căn giữa hoặc Esc để căn giữa lại."
+      ],
+      "bn": [
+        "**নতুন Grid ট্যাব:** LED ও প্রজেকশনের জন্য টেস্ট গ্রিড জেনারেটর, 100,000 × 100,000 px পর্যন্ত যেকোনো রেজোলিউশনে, প্রস্তুত রেজোলিউশন, প্যাটার্ন (Grid, Spyder ও সারিবদ্ধকরণ), ব্যাকগ্রাউন্ড, প্রদর্শন বিকল্প এবং লাল বা নীল রেখাসহ।",
+        "**গ্রিড PNG, JPEG, PSD বা PDF হিসেবে সংরক্ষণ করুন:** প্রতিটি পিক্সেল পর্যন্ত নির্ভুল ফাইল, ঐচ্ছিক স্বচ্ছ ব্যাকগ্রাউন্ড (Alpha) সহ।",
+        "**জুম ও টেনে সরানো:** মাউস হুইলে একটি পিক্সেল পর্যন্ত জুম, ডান বোতামে টেনে সরানো, আবার মাঝখানে আনতে ভিউ সেন্টার করুন বা Esc।"
+      ],
+      "ms": [
+        "**Tab Grid baharu:** penjana grid ujian untuk LED dan unjuran, dalam sebarang resolusi hingga 100,000 × 100,000 px, dengan pratetap resolusi, corak (Grid, Spyder dan Penjajaran), latar belakang, pilihan paparan dan garisan merah atau biru.",
+        "**Simpan grid sebagai PNG, JPEG, PSD atau PDF:** fail tepat hingga setiap piksel, dengan latar belakang lutsinar pilihan (Alpha).",
+        "**Zum dan seret:** zum dengan roda tetikus hingga satu piksel, seret dengan butang kanan, Pusatkan paparan atau Esc untuk memusatkan semula."
+      ],
+      "sv": [
+        "**Ny Grid-flik:** generator för testrutnät för LED och projektion, i valfri upplösning upp till 100 000 × 100 000 px, med förinställda upplösningar, mönster (Grid, Spyder och Justering), bakgrunder, visningsalternativ och röda eller blå linjer.",
+        "**Spara rutnätet som PNG, JPEG, PSD eller PDF:** pixelexakta filer, med valfri genomskinlig bakgrund (Alpha).",
+        "**Zooma och dra:** zooma med mushjulet ända ner till en enskild pixel, dra med höger musknapp, Centrera vyn eller Esc för att centrera igen."
+      ],
+      "ur": [
+        "**نیا Grid ٹیب:** LED اور پروجیکشن کے لیے ٹیسٹ گرڈ جنریٹر، 100,000 × 100,000 px تک کسی بھی ریزولوشن میں، تیار ریزولوشنز، پیٹرن (Grid، Spyder اور سیدھ)، پس منظر، ڈسپلے کے اختیارات اور سرخ یا نیلی لائنوں کے ساتھ۔",
+        "**گرڈ کو PNG، JPEG، PSD یا PDF میں محفوظ کریں:** ہر پکسل تک درست فائلیں، اختیاری شفاف پس منظر (Alpha) کے ساتھ۔",
+        "**زوم اور گھسیٹنا:** ماؤس وہیل سے ایک پکسل تک زوم، دائیں بٹن سے گھسیٹیں، دوبارہ درمیان میں لانے کے لیے ویو سینٹر کریں یا Esc۔"
+      ],
+      "sw": [
+        "**Kichupo kipya cha Grid:** kiunda gridi ya majaribio kwa LED na projekta, katika ubora wowote hadi pikseli 100,000 × 100,000, chenye maazimio yaliyotayarishwa, mifumo (Grid, Spyder na Upangaji), mandharinyuma, chaguo za onyesho na mistari myekundu au ya bluu.",
+        "**Hifadhi gridi kama PNG, JPEG, PSD au PDF:** faili sahihi hadi kila pikseli, na mandharinyuma ya uwazi kwa hiari (Alpha).",
+        "**Kukuza na kuburuta:** kuza kwa gurudumu la kipanya hadi pikseli moja, buruta kwa kitufe cha kulia, Katikati au Esc kuweka katikati tena."
+      ],
+      "gn": [
+        "**Grid pyahu:** grid ñeha'ã moheñoiha LED ha proyección-pe guarã, oimeraẽ resolución 100.000 × 100.000 px peve, resolución oĩmbáva, ta'anga (Grid, Spyder ha Jojaha), hapykuegua, jehechaukarã ha líneas pytã térã hovy.",
+        "**Eñongatu grid PNG, JPEG, PSD térã PDF-pe:** archivo hekopete píxel ha píxel, ikatúva hapykuegua hesakãva (Alpha).",
+        "**Zoom ha mosyryry:** zoom mouse rueda reheve peteĩ píxel peve, emosyryry botón akatúa reheve, Jehecha mbyte térã Esc emombyte jey hag̃ua."
+      ],
+      "he": [
+        "**לשונית Grid חדשה:** מחולל רשת בדיקה ל-LED ולהקרנה, בכל רזולוציה עד 100,000 × 100,000 פיקסלים, עם רזולוציות מוכנות, תבניות (Grid, Spyder ו-יישור), רקעים, אפשרויות תצוגה וקווים אדומים או כחולים.",
+        "**שמירת הרשת כ-PNG, JPEG, PSD או PDF:** קבצים מדויקים עד הפיקסל, עם רקע שקוף לבחירה (Alpha).",
+        "**זום וגרירה:** זום בגלגלת העכבר עד פיקסל בודד, גרירה בלחצן הימני, מרכז את התצוגה או Esc כדי למרכז שוב."
+      ],
+      "lv": [
+        "**Jauna cilne Grid:** testa režģa ģenerators LED un projekcijai jebkurā izšķirtspējā līdz 100 000 × 100 000 px, ar gatavām izšķirtspējām, rakstiem (Grid, Spyder un Līdzināšana), foniem, attēlošanas iespējām un sarkanām vai zilām līnijām.",
+        "**Saglabājiet režģi kā PNG, JPEG, PSD vai PDF:** pikseļprecīzi faili ar izvēles caurspīdīgu fonu (Alpha).",
+        "**Tālummaiņa un vilkšana:** tālummaiņa ar peles ritenīti līdz vienam pikselim, vilkšana ar labo pogu, Centrēt skatu vai Esc, lai atkal centrētu."
+      ],
+      "fa": [
+        "**زبانه جدید Grid:** سازنده شبکه آزمایشی برای LED و پروجکشن، با هر وضوحی تا 100,000 × 100,000 پیکسل، همراه با وضوح‌های آماده، الگوها (Grid، Spyder و تراز)، پس‌زمینه‌ها، گزینه‌های نمایش و خطوط قرمز یا آبی.",
+        "**ذخیره شبکه به‌صورت PNG، JPEG، PSD یا PDF:** فایل‌های دقیق تا سطح پیکسل، با پس‌زمینه شفاف اختیاری (Alpha).",
+        "**بزرگ‌نمایی و کشیدن:** بزرگ‌نمایی با چرخ ماوس تا یک پیکسل، کشیدن با دکمه راست، مرکز کردن نما یا Esc برای وسط‌چین کردن دوباره."
+      ],
+      "pl": [
+        "**Nowa karta Grid:** generator siatki testowej dla LED i projekcji, w dowolnej rozdzielczości do 100 000 × 100 000 px, z gotowymi rozdzielczościami, wzorami (Grid, Spyder i Wyrównanie), tłami, opcjami wyświetlania oraz czerwonymi lub niebieskimi liniami.",
+        "**Zapisz siatkę jako PNG, JPEG, PSD lub PDF:** pliki dokładne co do piksela, z opcjonalnym przezroczystym tłem (Alpha).",
+        "**Powiększanie i przesuwanie:** powiększanie kółkiem myszy aż do pojedynczego piksela, przesuwanie prawym przyciskiem, Wyśrodkuj widok lub Esc, aby znów wyśrodkować."
+      ],
+      "uk": [
+        "**Нова вкладка Grid:** генератор тестової сітки для LED і проєкції, будь-яка роздільність до 100 000 × 100 000 пікс., готові роздільності, шаблони (Grid, Spyder і Вирівнювання), фони, параметри відображення та червоні або сині лінії.",
+        "**Збереження сітки в PNG, JPEG, PSD або PDF:** файли з точністю до пікселя, за бажанням із прозорим тлом (Alpha).",
+        "**Масштаб і переміщення:** масштаб коліщатком миші аж до одного пікселя, переміщення правою кнопкою, Центрувати вигляд або Esc для центрування."
+      ],
+      "ca": [
+        "**Nova pestanya Grid:** generador de graella de prova per a LED i projecció, en qualsevol resolució fins a 100.000 × 100.000 px, amb resolucions predefinides, patrons (Grid, Spyder i Alineació), fons, opcions de visualització i línies vermelles o blaves.",
+        "**Deseu la graella en PNG, JPEG, PSD o PDF:** fitxers exactes píxel a píxel, amb fons transparent opcional (Alpha).",
+        "**Zoom i desplaçament:** zoom amb la roda del ratolí fins a un sol píxel, arrossegament amb el botó dret, Centra la vista o Esc per tornar a centrar."
+      ],
+      "cs": [
+        "**Nová karta Grid:** generátor testovací mřížky pro LED a projekci v libovolném rozlišení až 100 000 × 100 000 px, s předvolbami rozlišení, vzory (Grid, Spyder a Zarovnání), pozadími, možnostmi zobrazení a červenými nebo modrými čarami.",
+        "**Uložení mřížky do PNG, JPEG, PSD nebo PDF:** soubory přesné na pixel, volitelně s průhledným pozadím (Alpha).",
+        "**Přiblížení a posun:** přiblížení kolečkem myši až na jediný pixel, posun pravým tlačítkem, Vycentrovat pohled nebo Esc pro opětovné vystředění."
+      ],
+      "fi": [
+        "**Uusi Grid-välilehti:** testiruudukon generaattori LED-näytöille ja projisointiin millä tahansa resoluutiolla 100 000 × 100 000 px asti, valmiilla resoluutioilla, kuvioilla (Grid, Spyder ja Kohdistus), taustoilla, näyttöasetuksilla sekä punaisilla tai sinisillä viivoilla.",
+        "**Tallenna ruudukko PNG-, JPEG-, PSD- tai PDF-muodossa:** pikselintarkat tiedostot, valinnaisesti läpinäkyvällä taustalla (Alpha).",
+        "**Zoomaus ja siirto:** zoomaa hiiren rullalla yksittäiseen pikseliin asti, siirrä hiiren oikealla painikkeella, keskitä uudelleen painikkeella Keskitä näkymä tai Esc-näppäimellä."
+      ],
+      "el": [
+        "**Νέα καρτέλα Grid:** γεννήτρια πλέγματος δοκιμής για LED και προβολή, σε οποιαδήποτε ανάλυση έως 100.000 × 100.000 px, με προκαθορισμένες αναλύσεις, μοτίβα (Grid, Spyder και Ευθυγράμμιση), φόντα, επιλογές εμφάνισης και κόκκινες ή μπλε γραμμές.",
+        "**Αποθήκευση του πλέγματος σε PNG, JPEG, PSD ή PDF:** αρχεία ακριβή ως το pixel, με προαιρετικό διαφανές φόντο (Alpha).",
+        "**Ζουμ και μετακίνηση:** ζουμ με τη ροδέλα του ποντικιού ως ένα μόνο pixel, μετακίνηση με το δεξί κουμπί, Κεντράρισμα προβολής ή Esc για νέο κεντράρισμα."
+      ],
+      "ha": [
+        "**Sabon shafin Grid:** mai ƙirƙirar grid na gwaji don LED da majigi, a kowane ƙuduri har zuwa pixel 100,000 × 100,000, tare da ƙudurori da aka shirya, zane-zane (Grid, Spyder da Daidaitawa), bango, zaɓuɓɓukan nuni da layuka ja ko shuɗi.",
+        "**Ajiye grid a matsayin PNG, JPEG, PSD ko PDF:** fayiloli daidai har zuwa kowane pixel, tare da bango mai haske idan an so (Alpha).",
+        "**Zuƙowa da jawo:** zuƙowa da ƙafafun linzamin kwamfuta har zuwa pixel ɗaya, jawo da maɓallin dama, Tsakaita gani ko Esc don sake sanyawa a tsakiya."
+      ],
+      "ro": [
+        "**Fila nouă Grid:** generator de grilă de test pentru LED și proiecție, în orice rezoluție până la 100.000 × 100.000 px, cu rezoluții presetate, modele (Grid, Spyder și Aliniere), fundaluri, opțiuni de afișare și linii roșii sau albastre.",
+        "**Salvați grila ca PNG, JPEG, PSD sau PDF:** fișiere exacte la pixel, cu fundal transparent opțional (Alpha).",
+        "**Zoom și deplasare:** zoom cu rotița mouse-ului până la un singur pixel, deplasare cu butonul drept, Centrează vederea sau Esc pentru recentrare."
+      ],
+      "yo": [
+        "**Táàbù Grid tuntun:** ẹ̀rọ tí ń ṣẹ̀dá grid ìdánwò fún LED àti iṣẹ́ àfihàn, ní ìpinnu èyíkéyìí títí dé 100,000 × 100,000 px, pẹ̀lú àwọn ìpinnu tí a ti ṣètò, àwọn àpẹẹrẹ (Grid, Spyder àti Ìtòlẹ́sẹẹsẹ), àwọn ẹ̀yìn, àwọn àṣàyàn ìfihàn àti àwọn ìlà pupa tàbí búlù.",
+        "**Fi grid pamọ́ bí PNG, JPEG, PSD tàbí PDF:** àwọn fáìlì tó péye dé píkísẹ́lì kọ̀ọ̀kan, pẹ̀lú ẹ̀yìn tí kò ní àwọ̀ bí o bá fẹ́ (Alpha).",
+        "**Sún-mọ́ àti fífà:** sún-mọ́ pẹ̀lú kẹ̀kẹ́ eku títí dé píkísẹ́lì kan, fà pẹ̀lú bọ́tìnnì ọ̀tún, Mú ìwò wá sí àárín tàbí Esc láti tún gbé e sí àárín."
+      ],
+      "zu": [
+        "**Ithebhu entsha ye-Grid:** isakhi segridi yokuhlola se-LED nokuqondisa, kunoma yikuphi ukucaca kuze kufike ku-100,000 × 100,000 px, kanye nokucaca okusethwe ngaphambili, amaphethini (Grid, Spyder ne-Ukuqondanisa), izizinda, izinketho zokubonisa nemigqa ebomvu noma eluhlaza okwesibhakabhaka.",
+        "**Londoloza igridi njenge-PNG, JPEG, PSD noma PDF:** amafayela anembe kuze kube yiphikseli ngayinye, nesizinda esibonisa ngale uma uthanda (Alpha).",
+        "**Ukusondeza nokuhudula:** sondeza ngesondo lemawusi kuze kube yiphikseli eyodwa, hudula ngenkinobho yesokudla, Maphakathi ukubuka noma Esc ukuze uphinde umise maphakathi."
+      ],
+      "fil": [
+        "**Bagong tab na Grid:** generator ng test grid para sa LED at projection, sa anumang resolution hanggang 100,000 × 100,000 px, may mga preset na resolution, pattern (Grid, Spyder at Pag-align), background, opsyon sa display at pula o asul na linya.",
+        "**I-save ang grid bilang PNG, JPEG, PSD o PDF:** mga file na eksakto hanggang sa bawat pixel, may opsyonal na transparent na background (Alpha).",
+        "**Zoom at paggalaw:** mag-zoom gamit ang mouse wheel hanggang sa iisang pixel, i-drag gamit ang kanang button, Igitna ang tanaw o Esc para igitna ulit."
+      ],
+      "ta": [
+        "**புதிய Grid தாவல்:** LED மற்றும் ப்ரொஜெக்ஷனுக்கான சோதனை கிரிட் உருவாக்கி; 100,000 × 100,000 px வரை எந்தத் தெளிவுத்திறனிலும், தயார் தெளிவுத்திறன்கள், வடிவங்கள் (Grid, Spyder, சீரமைப்பு), பின்னணிகள், காட்சி விருப்பங்கள் மற்றும் சிவப்பு அல்லது நீலக் கோடுகளுடன்.",
+        "**கிரிடை PNG, JPEG, PSD அல்லது PDF ஆகச் சேமிக்கவும்:** ஒவ்வொரு பிக்சலும் துல்லியமான கோப்புகள், விருப்பத்தேர்வாக வெளிப்படையான பின்னணியுடன் (Alpha).",
+        "**பெரிதாக்கல் மற்றும் இழுத்தல்:** மவுஸ் சக்கரத்தால் ஒரு பிக்சல் வரை பெரிதாக்கலாம், வலது பொத்தானால் இழுக்கலாம், மீண்டும் மையப்படுத்த காட்சியை மையப்படுத்து அல்லது Esc."
+      ],
+      "te": [
+        "**కొత్త Grid ట్యాబ్:** LED మరియు ప్రొజెక్షన్ కోసం టెస్ట్ గ్రిడ్ జనరేటర్; 100,000 × 100,000 px వరకు ఏ రిజల్యూషన్‌లోనైనా, సిద్ధంగా ఉన్న రిజల్యూషన్‌లు, నమూనాలు (Grid, Spyder, అమరిక), నేపథ్యాలు, ప్రదర్శన ఎంపికలు మరియు ఎరుపు లేదా నీలం గీతలతో.",
+        "**గ్రిడ్‌ను PNG, JPEG, PSD లేదా PDFగా సేవ్ చేయండి:** ప్రతి పిక్సెల్ వరకు ఖచ్చితమైన ఫైళ్లు, ఐచ్ఛికంగా పారదర్శక నేపథ్యంతో (Alpha).",
+        "**జూమ్ మరియు లాగడం:** మౌస్ వీల్‌తో ఒక్క పిక్సెల్ వరకు జూమ్, కుడి బటన్‌తో లాగడం, మళ్లీ మధ్యలో ఉంచడానికి వీక్షణను మధ్యలో ఉంచు లేదా Esc."
+      ],
+      "mr": [
+        "**नवीन Grid टॅब:** LED आणि प्रोजेक्शनसाठी टेस्ट ग्रिड जनरेटर, 100,000 × 100,000 px पर्यंत कोणत्याही रिझोल्यूशनमध्ये, तयार रिझोल्यूशन, पॅटर्न (Grid, Spyder आणि संरेखन), पार्श्वभूमी, प्रदर्शन पर्याय आणि लाल किंवा निळ्या रेषांसह.",
+        "**ग्रिड PNG, JPEG, PSD किंवा PDF म्हणून जतन करा:** प्रत्येक पिक्सेलपर्यंत अचूक फायली, पर्यायी पारदर्शक पार्श्वभूमीसह (Alpha).",
+        "**झूम आणि ओढणे:** माउस व्हीलने एका पिक्सेलपर्यंत झूम, उजव्या बटणाने ओढा, पुन्हा मध्यभागी आणण्यासाठी दृश्य मध्यभागी आणा किंवा Esc."
+      ],
+      "da": [
+        "**Ny Grid-fane:** generator af testgitter til LED og projektion i enhver opløsning op til 100.000 × 100.000 px, med forudindstillede opløsninger, mønstre (Grid, Spyder og Justering), baggrunde, visningsindstillinger og røde eller blå linjer.",
+        "**Gem gitteret som PNG, JPEG, PSD eller PDF:** pixelnøjagtige filer, med valgfri gennemsigtig baggrund (Alpha).",
+        "**Zoom og flyt:** zoom med musehjulet helt ned til en enkelt pixel, træk med højre museknap, Centrer visningen eller Esc for at centrere igen."
+      ],
+      "nb": [
+        "**Ny Grid-fane:** generator for testrutenett til LED og projeksjon i hvilken som helst oppløsning opptil 100 000 × 100 000 px, med forhåndsinnstilte oppløsninger, mønstre (Grid, Spyder og Justering), bakgrunner, visningsvalg og røde eller blå linjer.",
+        "**Lagre rutenettet som PNG, JPEG, PSD eller PDF:** pikselnøyaktige filer, med valgfri gjennomsiktig bakgrunn (Alpha).",
+        "**Zoom og flytt:** zoom med musehjulet helt ned til én piksel, dra med høyre museknapp, Sentrer visningen eller Esc for å sentrere igjen."
+      ],
+      "lt": [
+        "**Naujas skirtukas Grid:** bandomojo tinklelio generatorius LED ir projekcijai, bet kokios raiškos iki 100 000 × 100 000 px, su paruoštomis raiškomis, raštais (Grid, Spyder ir Lygiavimas), fonais, rodymo parinktimis ir raudonomis ar mėlynomis linijomis.",
+        "**Išsaugokite tinklelį PNG, JPEG, PSD arba PDF formatu:** tikslūs iki pikselio failai, pasirinktinai su permatomu fonu (Alpha).",
+        "**Mastelis ir tempimas:** mastelis pelės ratuku iki vieno pikselio, tempimas dešiniuoju mygtuku, Centruoti vaizdą arba Esc, kad vėl sucentruotumėte."
+      ],
+      "et": [
+        "**Uus vahekaart Grid:** testvõrgustiku generaator LED-ekraanidele ja projektsioonile mis tahes eraldusvõimes kuni 100 000 × 100 000 px, valmis eraldusvõimete, mustrite (Grid, Spyder ja Joondus), taustade, kuvavalikute ning punaste või siniste joontega.",
+        "**Salvestage võrgustik PNG-, JPEG-, PSD- või PDF-failina:** piksli täpsusega failid, soovi korral läbipaistva taustaga (Alpha).",
+        "**Suumimine ja liigutamine:** suumige hiireratta abil kuni ühe pikslini, lohistage parema hiirenupuga, uuesti keskele toomiseks Tsentreeri vaade või Esc."
+      ],
+      "sk": [
+        "**Nová karta Grid:** generátor testovacej mriežky pre LED a projekciu v ľubovoľnom rozlíšení až do 100 000 × 100 000 px, s predvoľbami rozlíšenia, vzormi (Grid, Spyder a Zarovnanie), pozadiami, možnosťami zobrazenia a červenými alebo modrými čiarami.",
+        "**Uloženie mriežky do PNG, JPEG, PSD alebo PDF:** súbory presné na pixel, voliteľne s priehľadným pozadím (Alpha).",
+        "**Priblíženie a posun:** priblíženie kolieskom myši až na jediný pixel, posun pravým tlačidlom, Vycentrovať pohľad alebo Esc na opätovné vycentrovanie."
+      ],
+      "bg": [
+        "**Нов раздел Grid:** генератор на тестова мрежа за LED и проекция, във всякаква резолюция до 100 000 × 100 000 px, с готови резолюции, шаблони (Grid, Spyder и Подравняване), фонове, опции за показване и червени или сини линии.",
+        "**Запазване на мрежата като PNG, JPEG, PSD или PDF:** файлове, точни до пиксел, по желание с прозрачен фон (Alpha).",
+        "**Мащабиране и преместване:** мащабиране с колелцето на мишката до един пиксел, преместване с десния бутон, Центриране на изгледа или Esc за повторно центриране."
+      ],
+      "sr": [
+        "**Нова картица Grid:** генератор тест мреже за LED и пројекцију, у било којој резолуцији до 100.000 × 100.000 px, са унапред подешеним резолуцијама, шаблонима (Grid, Spyder и Поравнање), позадинама, опцијама приказа и црвеним или плавим линијама.",
+        "**Сачувајте мрежу као PNG, JPEG, PSD или PDF:** датотеке тачне до пиксела, са опционом провидном позадином (Alpha).",
+        "**Зумирање и померање:** зумирање точкићем миша до једног пиксела, померање десним тастером, Центрирај приказ или Esc за поновно центрирање."
+      ],
+      "hr": [
+        "**Nova kartica Grid:** generator testne mreže za LED i projekciju, u bilo kojoj rezoluciji do 100.000 × 100.000 px, s unaprijed postavljenim rezolucijama, uzorcima (Grid, Spyder i Poravnanje), pozadinama, mogućnostima prikaza te crvenim ili plavim linijama.",
+        "**Spremite mrežu kao PNG, JPEG, PSD ili PDF:** datoteke točne do piksela, s neobaveznom prozirnom pozadinom (Alpha).",
+        "**Zumiranje i pomicanje:** zumiranje kotačićem miša do jednog piksela, pomicanje desnom tipkom, Centriraj prikaz ili Esc za ponovno centriranje."
+      ],
+      "gu": [
+        "**નવું Grid ટેબ:** LED અને પ્રોજેક્શન માટે ટેસ્ટ ગ્રિડ જનરેટર, 100,000 × 100,000 px સુધીના કોઈપણ રિઝોલ્યુશનમાં, તૈયાર રિઝોલ્યુશન, પેટર્ન (Grid, Spyder અને સંરેખણ), પૃષ્ઠભૂમિ, પ્રદર્શન વિકલ્પો અને લાલ અથવા વાદળી રેખાઓ સાથે.",
+        "**ગ્રિડને PNG, JPEG, PSD અથવા PDF તરીકે સાચવો:** દરેક પિક્સેલ સુધી ચોક્કસ ફાઇલો, વૈકલ્પિક પારદર્શક પૃષ્ઠભૂમિ સાથે (Alpha).",
+        "**ઝૂમ અને ખેંચવું:** માઉસ વ્હીલથી એક પિક્સેલ સુધી ઝૂમ, જમણા બટનથી ખેંચો, ફરી કેન્દ્રમાં લાવવા દૃશ્ય કેન્દ્રમાં લાવો અથવા Esc."
+      ],
+      "pa": [
+        "**ਨਵਾਂ Grid ਟੈਬ:** LED ਅਤੇ ਪ੍ਰੋਜੈਕਸ਼ਨ ਲਈ ਟੈਸਟ ਗ੍ਰਿਡ ਜਨਰੇਟਰ, 100,000 × 100,000 px ਤੱਕ ਕਿਸੇ ਵੀ ਰੈਜ਼ੋਲਿਊਸ਼ਨ ਵਿੱਚ, ਤਿਆਰ ਰੈਜ਼ੋਲਿਊਸ਼ਨ, ਪੈਟਰਨ (Grid, Spyder ਅਤੇ ਸੰਰੇਖਣ), ਪਿਛੋਕੜ, ਡਿਸਪਲੇ ਵਿਕਲਪ ਅਤੇ ਲਾਲ ਜਾਂ ਨੀਲੀਆਂ ਲਾਈਨਾਂ ਨਾਲ।",
+        "**ਗ੍ਰਿਡ ਨੂੰ PNG, JPEG, PSD ਜਾਂ PDF ਵਜੋਂ ਸੇਵ ਕਰੋ:** ਹਰ ਪਿਕਸਲ ਤੱਕ ਸਹੀ ਫ਼ਾਈਲਾਂ, ਚੋਣਵੇਂ ਪਾਰਦਰਸ਼ੀ ਪਿਛੋਕੜ ਨਾਲ (Alpha)।",
+        "**ਜ਼ੂਮ ਅਤੇ ਖਿੱਚਣਾ:** ਮਾਊਸ ਵ੍ਹੀਲ ਨਾਲ ਇੱਕ ਪਿਕਸਲ ਤੱਕ ਜ਼ੂਮ, ਸੱਜੇ ਬਟਨ ਨਾਲ ਖਿੱਚੋ, ਮੁੜ ਵਿਚਕਾਰ ਲਿਆਉਣ ਲਈ ਦ੍ਰਿਸ਼ ਕੇਂਦਰ ਵਿੱਚ ਕਰੋ ਜਾਂ Esc।"
+      ],
+      "kn": [
+        "**ಹೊಸ Grid ಟ್ಯಾಬ್:** LED ಮತ್ತು ಪ್ರೊಜೆಕ್ಷನ್‌ಗಾಗಿ ಪರೀಕ್ಷಾ ಗ್ರಿಡ್ ಜನರೇಟರ್, 100,000 × 100,000 px ವರೆಗಿನ ಯಾವುದೇ ರೆಸಲ್ಯೂಶನ್‌ನಲ್ಲಿ, ಸಿದ್ಧ ರೆಸಲ್ಯೂಶನ್‌ಗಳು, ಮಾದರಿಗಳು (Grid, Spyder ಮತ್ತು ಜೋಡಣೆ), ಹಿನ್ನೆಲೆಗಳು, ಪ್ರದರ್ಶನ ಆಯ್ಕೆಗಳು ಮತ್ತು ಕೆಂಪು ಅಥವಾ ನೀಲಿ ಗೆರೆಗಳೊಂದಿಗೆ.",
+        "**ಗ್ರಿಡ್ ಅನ್ನು PNG, JPEG, PSD ಅಥವಾ PDF ಆಗಿ ಉಳಿಸಿ:** ಪ್ರತಿ ಪಿಕ್ಸೆಲ್‌ವರೆಗೂ ನಿಖರವಾದ ಫೈಲ್‌ಗಳು, ಐಚ್ಛಿಕ ಪಾರದರ್ಶಕ ಹಿನ್ನೆಲೆಯೊಂದಿಗೆ (Alpha).",
+        "**ಜೂಮ್ ಮತ್ತು ಎಳೆಯುವುದು:** ಮೌಸ್ ಚಕ್ರದಿಂದ ಒಂದು ಪಿಕ್ಸೆಲ್‌ವರೆಗೆ ಜೂಮ್, ಬಲ ಗುಂಡಿಯಿಂದ ಎಳೆಯಿರಿ, ಮತ್ತೆ ಮಧ್ಯಕ್ಕೆ ತರಲು ನೋಟವನ್ನು ಮಧ್ಯಕ್ಕೆ ತನ್ನಿ ಅಥವಾ Esc."
+      ],
+      "ne": [
+        "**नयाँ Grid ट्याब:** LED र प्रोजेक्सनका लागि परीक्षण ग्रिड जेनेरेटर, 100,000 × 100,000 px सम्मको कुनै पनि रिजोल्युसनमा, तयार रिजोल्युसन, ढाँचा (Grid, Spyder र पङ्क्तिबद्धता), पृष्ठभूमि, प्रदर्शन विकल्प र रातो वा निलो रेखासहित।",
+        "**ग्रिडलाई PNG, JPEG, PSD वा PDF मा सेभ गर्नुहोस्:** प्रत्येक पिक्सेलसम्म सही फाइलहरू, ऐच्छिक पारदर्शी पृष्ठभूमिसहित (Alpha)।",
+        "**जुम र तान्ने:** माउस ह्वीलले एउटै पिक्सेलसम्म जुम, दायाँ बटनले तान्नुहोस्, फेरि बीचमा ल्याउन दृश्य बीचमा ल्याउनुहोस् वा Esc।"
+      ],
+      "km": [
+        "**ផ្ទាំង Grid ថ្មី៖** កម្មវិធីបង្កើតក្រឡាសាកល្បងសម្រាប់ LED និងការបញ្ចាំង គ្រប់គុណភាពបង្ហាញរហូតដល់ 100,000 × 100,000 px មានគុណភាពបង្ហាញស្រាប់ លំនាំ (Grid, Spyder និង ការតម្រឹម) ផ្ទៃខាងក្រោយ ជម្រើសបង្ហាញ និងបន្ទាត់ពណ៌ក្រហម ឬខៀវ។",
+        "**រក្សាទុកក្រឡាជា PNG, JPEG, PSD ឬ PDF៖** ឯកសារត្រឹមត្រូវដល់គ្រប់ភីកសែល ជាមួយផ្ទៃខាងក្រោយថ្លាតាមជម្រើស (Alpha)។",
+        "**ពង្រីក និងអូស៖** ពង្រីកដោយកង់កណ្ដុររហូតដល់ភីកសែលតែមួយ អូសដោយប៊ូតុងស្ដាំ ចុច ដាក់ទិដ្ឋភាពចំកណ្តាល ឬ Esc ដើម្បីដាក់កណ្ដាលវិញ។"
+      ],
+      "kk": [
+        "**Жаңа Grid қойындысы:** LED және проекцияға арналған сынақ торының генераторы, 100 000 × 100 000 px-ке дейінгі кез келген ажыратымдылықта, дайын ажыратымдылықтар, үлгілер (Grid, Spyder және Туралау), фондар, көрсету параметрлері және қызыл не көк сызықтармен.",
+        "**Торды PNG, JPEG, PSD немесе PDF ретінде сақтаңыз:** пиксельге дейін дәл файлдар, қалауыңызша мөлдір фонмен (Alpha).",
+        "**Масштабтау және жылжыту:** тышқан дөңгелегімен бір пиксельге дейін масштабтау, оң жақ батырмамен жылжыту, қайта ортаға келтіру үшін Көріністі ортаға келтіру немесе Esc."
+      ],
+      "uz": [
+        "**Yangi Grid yorlig'i:** LED va proyeksiya uchun sinov to'ri generatori, 100 000 × 100 000 px gacha istalgan o'lchamda, tayyor o'lchamlar, naqshlar (Grid, Spyder va Tekislash), fonlar, ko'rsatish sozlamalari hamda qizil yoki ko'k chiziqlar bilan.",
+        "**To'rni PNG, JPEG, PSD yoki PDF sifatida saqlang:** pikselgacha aniq fayllar, ixtiyoriy shaffof fon bilan (Alpha).",
+        "**Kattalashtirish va surish:** sichqoncha g'ildiragi bilan bitta pikselgacha kattalashtirish, o'ng tugma bilan surish, qayta markazlash uchun Koʻrinishni markazlash yoki Esc."
+      ],
+      "am": [
+        "**አዲስ Grid ትር፦** ለLED እና ለፕሮጀክሽን የሙከራ ፍርግርግ አመንጪ፣ እስከ 100,000 × 100,000 px ድረስ በማንኛውም ጥራት፣ ከተዘጋጁ ጥራቶች፣ ንድፎች (Grid፣ Spyder እና አሰላለፍ)፣ ዳራዎች፣ የማሳያ አማራጮች እና ቀይ ወይም ሰማያዊ መስመሮች ጋር።",
+        "**ፍርግርጉን እንደ PNG፣ JPEG፣ PSD ወይም PDF ያስቀምጡ፦** እስከ እያንዳንዱ ፒክሰል ትክክለኛ ፋይሎች፣ ከአማራጭ ግልጽ ዳራ ጋር (Alpha)።",
+        "**ማጉላት እና መጎተት፦** በመዳፊት መሽከርከሪያ እስከ አንድ ፒክሰል ማጉላት፣ በቀኝ አዝራር መጎተት፣ እንደገና ወደ መሃል ለማምጣት እይታን መሃል አድርግ ወይም Esc።"
+      ],
+      "sl": [
+        "**Nov zavihek Grid:** generator preizkusne mreže za LED in projekcijo v poljubni ločljivosti do 100.000 × 100.000 px, s prednastavljenimi ločljivostmi, vzorci (Grid, Spyder in Poravnava), ozadji, možnostmi prikaza ter rdečimi ali modrimi črtami.",
+        "**Shranite mrežo kot PNG, JPEG, PSD ali PDF:** datoteke, natančne do slikovne pike, z neobveznim prosojnim ozadjem (Alpha).",
+        "**Povečava in premikanje:** povečava s kolescem miške do ene same slikovne pike, premikanje z desnim gumbom, Centriraj pogled ali Esc za ponovno sredinjenje."
+      ]
+    }
   }
 }
