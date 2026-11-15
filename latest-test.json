@@ -1,1016 +1,780 @@
 {
-  "version": "2.7.2",
-  "windows": "https://github.com/renatorocha0934/RAGridrelease/releases/download/v2.7.2/RAGrid-Windows.zip",
-  "mac": "https://github.com/renatorocha0934/RAGridrelease/releases/download/v2.7.2/RAGrid-Mac.dmg",
+  "version": "2.9.4",
+  "windows": "https://github.com/renatorocha0934/RAGridrelease/releases/download/v2.9.4/RAGrid-Windows.zip",
+  "mac": "https://github.com/renatorocha0934/RAGridrelease/releases/download/v2.9.4/RAGrid-Mac.dmg",
   "notes": "System and performance improvements.",
   "changes": {
-    "2.7.2": {
+    "2.8.6": {
       "en": [
-        "**Connection:** the cable can go from one screen to the next, even across empty gaps, on the same port until it is full, and the link also shows in the 3D. New Clear all button.",
-        "**Import XML:** File > Import XML... turns each slice of a Resolume Advanced Output preset into an LED screen, with the canvas exactly at the output resolution.",
-        "**Weight:** weight per cabinet (default 8.5 kg), with the weight per panel and the total in the Info box, Status, 3D Stage and PDF report. Choose the weight unit in Settings; cabinet presets keep the weight.",
-        "**Colors and menu:** black and white option in the panel color menu (double-click), and File now has Import 3D... and Import XML... separately."
+        "**Animation:** new Animation view on the Extended screen, below Grid. Two technicians assemble the project's screens panel by panel, at real scale: panels within reach go by hand, the high ones with a lift. If the project has a logo, it appears on their shirts. At the end, the test image of each screen. It can also be saved as an MP4 video in the Export window.",
+        "**3D Stage:** the view buttons in the bottom corner line up with the toolbar again and no longer cover it."
       ],
       "pt": [
-        "**Connection:** o cabo passa de uma placa para a outra, mesmo com vão vazio entre elas, na mesma porta até ela encher, e a ligação aparece também no 3D. Novo botão Clear all.",
-        "**Importar XML:** File > Import XML... transforma cada slice de um preset do Advanced Output do Resolume numa tela de LED, com o canvas exatamente na resolução da saída.",
-        "**Peso:** peso por gabinete (padrão 8,5 kg), com o peso por placa e o total na caixa Info, no Status, no 3D Stage e no relatório PDF. A unidade de peso fica nas Settings; os presets de gabinete guardam o peso.",
-        "**Cores e menu:** opção preto e branco no menu de cores da placa (clique duplo), e o File agora tem Import 3D... e Import XML... separados."
+        "**Animação:** nova vista Animação na Tela estendida, embaixo de Grid. Dois técnicos montam as telas do projeto placa por placa, em escala real: as placas ao alcance vão na mão, as altas com a plataforma elevatória. Se o projeto tiver logo, ele aparece na camisa deles. No fim, a imagem de teste de cada tela. Também pode ser salva como vídeo MP4 na janela Exportar.",
+        "**3D Stage:** os botões das vistas no canto de baixo voltaram a ficar alinhados com a barra de ferramentas e não ficam mais por cima dela."
       ],
       "es": [
-        "**Connection:** el cable puede pasar de una pantalla a otra, incluso con huecos vacíos, en el mismo puerto hasta llenarlo, y la unión también se ve en el 3D. Nuevo botón Clear all.",
-        "**Importar XML:** File > Import XML... convierte cada slice de un preset de Advanced Output de Resolume en una pantalla LED, con el lienzo exactamente a la resolución de salida.",
-        "**Peso:** peso por gabinete (8,5 kg por defecto), con el peso por panel y el total en la caja Info, Status, 3D Stage y el informe PDF. La unidad de peso se elige en Settings; los presets de gabinete guardan el peso.",
-        "**Colores y menú:** opción blanco y negro en el menú de color del panel (doble clic), y File ahora tiene Import 3D... e Import XML... por separado."
+        "**Animación:** nueva vista Animación en la Pantalla extendida, debajo de Grid. Dos técnicos montan las pantallas del proyecto panel por panel, a escala real: los paneles al alcance van a mano y los altos con una plataforma elevadora. Si el proyecto tiene logotipo, aparece en su camiseta. Al final, la imagen de prueba de cada pantalla. También se puede guardar como vídeo MP4 en la ventana Exportar.",
+        "**3D Stage:** los botones de vista de la esquina inferior vuelven a alinearse con la barra de herramientas y ya no la tapan."
       ],
       "fr": [
-        "**Connection :** le câble peut passer d'un écran à l'autre, même à travers des espaces vides, sur le même port jusqu'à ce qu'il soit plein, et la liaison apparaît aussi en 3D. Nouveau bouton Clear all.",
-        "**Importer XML :** File > Import XML... transforme chaque slice d'un preset Advanced Output de Resolume en écran LED, avec le canevas exactement à la résolution de sortie.",
-        "**Poids :** poids par caisson (8,5 kg par défaut), avec le poids par panneau et le total dans la boîte Info, Status, 3D Stage et le rapport PDF. L'unité de poids se choisit dans Settings ; les presets de caisson gardent le poids.",
-        "**Couleurs et menu :** option noir et blanc dans le menu de couleur du panneau (double-clic), et File propose maintenant Import 3D... et Import XML... séparément."
+        "**Animation :** nouvelle vue Animation sur l'Écran étendu, sous Grid. Deux techniciens montent les écrans du projet dalle par dalle, à l'échelle réelle : les dalles à portée de main sont portées à la main, les plus hautes avec une nacelle. Si le projet a un logo, il apparaît sur leur t-shirt. À la fin, l'image de test de chaque écran. Elle peut aussi être enregistrée en vidéo MP4 dans la fenêtre Exporter.",
+        "**3D Stage :** les boutons de vue du coin inférieur sont de nouveau alignés avec la barre d'outils et ne la recouvrent plus."
       ],
       "de": [
-        "**Connection:** Das Kabel kann von einem Bildschirm zum nächsten gehen, auch über leere Lücken, auf demselben Port, bis er voll ist; die Verbindung erscheint auch im 3D. Neue Schaltfläche Clear all.",
-        "**XML importieren:** File > Import XML... macht aus jedem Slice eines Resolume-Advanced-Output-Presets einen LED-Bildschirm, mit der Leinwand genau in der Ausgangsauflösung.",
-        "**Gewicht:** Gewicht pro Kabinett (Standard 8,5 kg), mit Gewicht pro Panel und Gesamtgewicht in der Info-Box, Status, 3D Stage und im PDF-Bericht. Die Gewichtseinheit wird in den Settings gewählt; Kabinett-Presets speichern das Gewicht.",
-        "**Farben und Menü:** Schwarz-Weiß-Option im Farbmenü des Panels (Doppelklick), und File hat jetzt Import 3D... und Import XML... getrennt."
+        "**Animation:** neue Ansicht Animation im erweiterten Bildschirm, unter Grid. Zwei Techniker bauen die Screens des Projekts Panel für Panel im echten Maßstab auf: Panels in Reichweite werden von Hand getragen, hohe mit einer Hebebühne. Hat das Projekt ein Logo, erscheint es auf ihren Shirts. Am Ende das Testbild jedes Screens. Sie lässt sich auch im Fenster Exportieren als MP4-Video speichern.",
+        "**3D Stage:** Die Ansichtsschaltflächen in der unteren Ecke sind wieder an der Werkzeugleiste ausgerichtet und überdecken sie nicht mehr."
       ],
       "it": [
-        "**Connection:** il cavo può passare da uno schermo all'altro, anche attraverso spazi vuoti, sulla stessa porta finché non è piena, e il collegamento si vede anche in 3D. Nuovo pulsante Clear all.",
-        "**Importa XML:** File > Import XML... trasforma ogni slice di un preset Advanced Output di Resolume in uno schermo LED, con la tela esattamente alla risoluzione di uscita.",
-        "**Peso:** peso per cabinet (predefinito 8,5 kg), con il peso per pannello e il totale nel riquadro Info, Status, 3D Stage e nel report PDF. L'unità di peso si sceglie in Settings; i preset di cabinet conservano il peso.",
-        "**Colori e menu:** opzione bianco e nero nel menu colori del pannello (doppio clic), e File ora ha Import 3D... e Import XML... separati."
+        "**Animazione:** nuova vista Animazione nello Schermo esteso, sotto Grid. Due tecnici montano gli schermi del progetto pannello per pannello, in scala reale: i pannelli a portata di mano vanno a mano, quelli alti con una piattaforma elevatrice. Se il progetto ha un logo, compare sulla loro maglietta. Alla fine, l'immagine di test di ogni schermo. Si può anche salvare come video MP4 nella finestra Esporta.",
+        "**3D Stage:** i pulsanti delle viste nell'angolo in basso sono di nuovo allineati alla barra degli strumenti e non la coprono più."
       ],
       "nl": [
-        "**Connection:** de kabel kan van het ene scherm naar het volgende, ook over lege tussenruimtes, op dezelfde poort tot die vol is, en de verbinding is ook in 3D te zien. Nieuwe knop Clear all.",
-        "**XML importeren:** File > Import XML... maakt van elke slice van een Resolume Advanced Output-preset een LED-scherm, met het canvas precies op de uitvoerresolutie.",
-        "**Gewicht:** gewicht per cabinet (standaard 8,5 kg), met het gewicht per paneel en het totaal in het Info-vak, Status, 3D Stage en het PDF-rapport. De gewichtseenheid kies je in Settings; cabinet-presets bewaren het gewicht.",
-        "**Kleuren en menu:** zwart-witoptie in het kleurmenu van het paneel (dubbelklik), en File heeft nu Import 3D... en Import XML... apart."
+        "**Animatie:** nieuwe weergave Animatie op het uitgebreide scherm, onder Grid. Twee technici bouwen de schermen van het project paneel voor paneel op, op ware schaal: panelen binnen bereik gaan met de hand, hoge met een hoogwerker. Heeft het project een logo, dan staat het op hun shirt. Aan het eind het testbeeld van elk scherm. Ze kan ook als MP4-video worden opgeslagen in het venster Exporteren.",
+        "**3D Stage:** de weergaveknoppen in de onderhoek zijn weer uitgelijnd met de werkbalk en bedekken die niet meer."
       ],
       "ru": [
-        "**Connection:** кабель может переходить с одного экрана на другой, даже через пустые промежутки, на том же порту, пока он не заполнится; связь видна и в 3D. Новая кнопка Clear all.",
-        "**Импорт XML:** File > Import XML... превращает каждый слайс пресета Advanced Output Resolume в LED-экран, а холст получает точное разрешение выхода.",
-        "**Вес:** вес кабинета (по умолчанию 8,5 кг), вес одной панели и общий вес в окне Info, Status, 3D Stage и PDF-отчёте. Единица веса выбирается в Settings; пресеты кабинета сохраняют вес.",
-        "**Цвета и меню:** чёрно-белый вариант в меню цвета панели (двойной щелчок), а в File теперь отдельно Import 3D... и Import XML...."
+        "**Анимация:** новый вид «Анимация» на расширенном экране, под Grid. Два техника собирают экраны проекта панель за панелью в реальном масштабе: панели в пределах досягаемости несут в руках, высокие — на подъёмнике. Если в проекте есть логотип, он появляется на их футболках. В конце — тестовое изображение каждого экрана. Её также можно сохранить как видео MP4 в окне «Экспорт».",
+        "**3D Stage:** кнопки видов в нижнем углу снова выровнены с панелью инструментов и больше не перекрывают её."
       ],
       "tr": [
-        "**Connection:** kablo, boş aralıklar olsa bile bir ekrandan diğerine, dolana kadar aynı portta geçebilir ve bağlantı 3D'de de görünür. Yeni Clear all düğmesi.",
-        "**XML içe aktar:** File > Import XML..., bir Resolume Advanced Output ön ayarındaki her slice'ı bir LED ekrana dönüştürür; tuval tam çıkış çözünürlüğünde olur.",
-        "**Ağırlık:** kabin başına ağırlık (varsayılan 8,5 kg); panel başına ağırlık ve toplam Info kutusu, Status, 3D Stage ve PDF raporunda. Ağırlık birimi Settings'ten seçilir; kabin ön ayarları ağırlığı saklar.",
-        "**Renkler ve menü:** panel renk menüsünde siyah-beyaz seçeneği (çift tıklama); File artık Import 3D... ve Import XML... seçeneklerini ayrı sunar."
+        "**Animasyon:** Genişletilmiş ekranda, Grid'in altında yeni Animasyon görünümü. İki teknisyen projenin ekranlarını gerçek ölçekte panel panel kurar: uzanılabilen paneller elde, yüksektekiler platformla taşınır. Projede logo varsa tişörtlerinde görünür. Sonunda her ekranın test görüntüsü. Dışa Aktar penceresinde MP4 video olarak da kaydedilebilir.",
+        "**3D Stage:** alt köşedeki görünüm düğmeleri yeniden araç çubuğuyla hizalandı ve artık onu kapatmıyor."
       ],
       "id": [
-        "**Connection:** kabel bisa berpindah dari satu layar ke layar berikutnya, bahkan melewati celah kosong, pada port yang sama sampai penuh, dan sambungannya juga terlihat di 3D. Tombol baru Clear all.",
-        "**Impor XML:** File > Import XML... mengubah setiap slice dari preset Advanced Output Resolume menjadi layar LED, dengan kanvas tepat pada resolusi output.",
-        "**Berat:** berat per kabinet (bawaan 8,5 kg), dengan berat per panel dan total di kotak Info, Status, 3D Stage, dan laporan PDF. Satuan berat dipilih di Settings; preset kabinet menyimpan beratnya.",
-        "**Warna dan menu:** opsi hitam putih di menu warna panel (klik ganda), dan File kini punya Import 3D... dan Import XML... secara terpisah."
+        "**Animasi:** tampilan baru Animasi di Layar tambahan, di bawah Grid. Dua teknisi merakit layar proyek panel demi panel dalam skala nyata: panel yang terjangkau dibawa dengan tangan, yang tinggi dengan lift. Jika proyek punya logo, logo itu muncul di kaus mereka. Di akhir, gambar uji setiap layar. Juga dapat disimpan sebagai video MP4 di jendela Ekspor.",
+        "**3D Stage:** tombol tampilan di sudut bawah kembali sejajar dengan bilah alat dan tidak lagi menutupinya."
       ],
       "hu": [
-        "**Connection:** a kábel átmehet egyik képernyőről a másikra, üres réseken át is, ugyanazon a porton, amíg az meg nem telik, és a kapcsolat a 3D-ben is látszik. Új Clear all gomb.",
-        "**XML importálása:** a File > Import XML... egy Resolume Advanced Output előbeállítás minden slice-ából LED-képernyőt készít, a vászon pontosan a kimeneti felbontású lesz.",
-        "**Tömeg:** kabinetenkénti tömeg (alapértelmezés 8,5 kg), a panelenkénti és a teljes tömeg az Info dobozban, a Status, a 3D Stage oldalon és a PDF-jelentésben. A mértékegység a Settings-ben választható; a kabinet-előbeállítások megőrzik a tömeget.",
-        "**Színek és menü:** fekete-fehér lehetőség a panel színmenüjében (dupla kattintás), a File menüben pedig külön Import 3D... és Import XML... van."
+        "**Animáció:** új Animáció nézet a kiterjesztett képernyőn, a Grid alatt. Két technikus valós léptékben, panelenként szereli össze a projekt kijelzőit: az elérhető paneleket kézben viszik, a magasakat emelőkosárral. Ha a projektnek van logója, megjelenik a pólójukon. A végén minden kijelző tesztképe. Az Exportálás ablakban MP4-videóként is menthető.",
+        "**3D Stage:** az alsó sarokban lévő nézetgombok ismét egy vonalban vannak az eszköztárral, és már nem takarják el."
       ],
       "zh-Hans": [
-        "**Connection：**线缆可以从一块屏幕走到下一块，即使中间有空隙，也会在同一端口上直到端口满载，连接在 3D 中也会显示。新增 Clear all 按钮。",
-        "**导入 XML：**File > Import XML... 会把 Resolume Advanced Output 预设中的每个 slice 变成一块 LED 屏幕，画布正好等于输出分辨率。",
-        "**重量：**每个箱体的重量（默认 8.5 kg），在 Info 框、Status、3D Stage 和 PDF 报告中显示每块面板重量和总重量。重量单位在 Settings 中选择；箱体预设会保存重量。",
-        "**颜色和菜单：**面板颜色菜单（双击）中新增黑白选项，File 菜单现在分别提供 Import 3D... 和 Import XML...。"
+        "**动画：** 扩展屏幕新增“动画”视图，位于 Grid 下方。两名技术员按真实比例逐块安装项目中的屏幕：够得着的箱体用手搬，高处的用升降平台。如果项目有标志，会显示在他们的T恤上。最后显示每块屏幕的测试图。也可以在“导出”窗口中保存为 MP4 视频。",
+        "**3D Stage：** 底部角落的视图按钮重新与工具栏对齐，不再遮住工具栏。"
       ],
       "zh-Hant": [
-        "**Connection：**線材可以從一塊螢幕走到下一塊，即使中間有空隙，也會在同一連接埠上直到滿載，連接在 3D 中也會顯示。新增 Clear all 按鈕。",
-        "**匯入 XML：**File > Import XML... 會把 Resolume Advanced Output 預設中的每個 slice 變成一塊 LED 螢幕，畫布正好等於輸出解析度。",
-        "**重量：**每個箱體的重量（預設 8.5 kg），在 Info 方塊、Status、3D Stage 和 PDF 報告中顯示每塊面板重量和總重量。重量單位在 Settings 中選擇；箱體預設會保存重量。",
-        "**顏色和選單：**面板顏色選單（雙擊）中新增黑白選項，File 選單現在分別提供 Import 3D... 和 Import XML...。"
+        "**動畫：** 延伸螢幕新增「動畫」檢視，位於 Grid 下方。兩名技術人員依真實比例逐片安裝專案中的螢幕：搆得到的箱體用手搬，高處的用升降平台。如果專案有標誌，會顯示在他們的T恤上。最後顯示每個螢幕的測試圖。也可以在「匯出」視窗中儲存為 MP4 影片。",
+        "**3D Stage：** 底部角落的檢視按鈕重新與工具列對齊，不再遮住工具列。"
       ],
       "ja": [
-        "**Connection：**ケーブルは空きスペースをはさんでも、ポートがいっぱいになるまで同じポートのまま次のスクリーンへ進めます。接続は 3D にも表示されます。新しい Clear all ボタン。",
-        "**XML の読み込み：**File > Import XML... で Resolume の Advanced Output プリセットの各 slice が LED スクリーンになり、キャンバスは出力解像度ちょうどになります。",
-        "**重量：**キャビネットごとの重量（既定 8.5 kg）。パネルあたりの重量と合計を Info ボックス、Status、3D Stage、PDF レポートに表示。重量の単位は Settings で選択でき、キャビネットのプリセットも重量を保存します。",
-        "**色とメニュー：**パネルの色メニュー（ダブルクリック）に白黒を追加し、File に Import 3D... と Import XML... を別々に用意しました。"
+        "**アニメーション：** 拡張画面の Grid の下に新しい「アニメーション」ビュー。2人の技術者がプロジェクトのスクリーンを実寸でパネルごとに組み立てます。手の届くパネルは手で運び、高いものは高所作業台で。プロジェクトにロゴがあれば、シャツに表示されます。最後に各スクリーンのテスト画像。「エクスポート」ウィンドウで MP4 動画として保存することもできます。",
+        "**3D Stage：** 下隅のビューボタンが再びツールバーと揃い、ツールバーに重ならなくなりました。"
       ],
       "ko": [
-        "**Connection:** 케이블이 빈 공간이 있어도 한 화면에서 다음 화면으로 이어지며, 포트가 가득 찰 때까지 같은 포트를 사용하고 연결은 3D에도 표시됩니다. 새 Clear all 버튼.",
-        "**XML 가져오기:** File > Import XML...은 Resolume Advanced Output 프리셋의 각 slice를 LED 화면으로 만들고, 캔버스는 출력 해상도와 정확히 같아집니다.",
-        "**무게:** 캐비닛당 무게(기본 8.5 kg)와 패널당 무게, 총 무게를 Info 상자, Status, 3D Stage, PDF 보고서에 표시합니다. 무게 단위는 Settings에서 선택하며, 캐비닛 프리셋도 무게를 저장합니다.",
-        "**색상과 메뉴:** 패널 색상 메뉴(더블 클릭)에 흑백 옵션이 추가되었고, File에 Import 3D...와 Import XML...이 따로 있습니다."
+        "**애니메이션:** 확장 화면의 Grid 아래에 새 애니메이션 보기. 두 기술자가 프로젝트의 화면을 실제 비율로 패널 하나씩 조립합니다. 손이 닿는 패널은 손으로, 높은 패널은 리프트로 옮깁니다. 프로젝트에 로고가 있으면 셔츠에 표시됩니다. 마지막에 각 화면의 테스트 이미지. 내보내기 창에서 MP4 동영상으로 저장할 수도 있습니다.",
+        "**3D Stage:** 아래 모서리의 보기 버튼이 다시 도구 모음과 정렬되어 더 이상 도구 모음을 가리지 않습니다."
       ],
       "ar": [
-        "**Connection:** يمكن للكابل الانتقال من شاشة إلى أخرى، حتى عبر الفراغات، على المنفذ نفسه حتى يمتلئ، ويظهر الاتصال أيضًا في العرض ثلاثي الأبعاد. زر جديد Clear all.",
-        "**استيراد XML:** يحوّل File > Import XML... كل شريحة من إعداد Advanced Output في Resolume إلى شاشة LED، مع لوحة بدقة الإخراج تمامًا.",
-        "**الوزن:** وزن لكل خزانة (الافتراضي 8.5 كغ)، مع الوزن لكل لوحة والإجمالي في مربع Info وStatus و3D Stage وتقرير PDF. تُختار وحدة الوزن في Settings، وتحفظ إعدادات الخزانة المسبقة الوزن.",
-        "**الألوان والقائمة:** خيار أبيض وأسود في قائمة ألوان اللوحة (نقر مزدوج)، وأصبح في File خياران منفصلان Import 3D... وImport XML...."
+        "**حركة:** عرض جديد «حركة» في الشاشة الممتدة أسفل Grid. فنيّان يركّبان شاشات المشروع لوحةً لوحة بالمقياس الحقيقي: اللوحات التي في المتناول تُحمل باليد، والعالية بالرافعة. إذا كان للمشروع شعار فإنه يظهر على قمصانهم. وفي النهاية صورة الاختبار لكل شاشة. ويمكن أيضًا حفظها كفيديو MP4 من نافذة التصدير.",
+        "**3D Stage:** أزرار العروض في الزاوية السفلية عادت لتصطف مع شريط الأدوات ولم تعد تغطيه."
       ],
       "th": [
-        "**Connection:** สายสามารถต่อจากหน้าจอหนึ่งไปอีกหน้าจอหนึ่งได้ แม้มีช่องว่าง โดยใช้พอร์ตเดิมจนเต็ม และการเชื่อมต่อแสดงใน 3D ด้วย ปุ่มใหม่ Clear all",
-        "**นำเข้า XML:** File > Import XML... เปลี่ยนแต่ละ slice ของพรีเซ็ต Advanced Output ของ Resolume เป็นจอ LED และแคนวาสมีขนาดเท่าความละเอียดเอาต์พุตพอดี",
-        "**น้ำหนัก:** น้ำหนักต่อตู้ (ค่าเริ่มต้น 8.5 kg) พร้อมน้ำหนักต่อแผงและน้ำหนักรวมในกล่อง Info, Status, 3D Stage และรายงาน PDF เลือกหน่วยน้ำหนักใน Settings และพรีเซ็ตตู้จะเก็บน้ำหนักไว้",
-        "**สีและเมนู:** ตัวเลือกขาวดำในเมนูสีของแผง (ดับเบิลคลิก) และเมนู File มี Import 3D... กับ Import XML... แยกกันแล้ว"
+        "**แอนิเมชัน:** มุมมองใหม่ แอนิเมชัน ในหน้าจอขยาย ใต้ Grid ช่างสองคนประกอบจอของโปรเจกต์ทีละแผงตามขนาดจริง แผงที่เอื้อมถึงยกด้วยมือ แผงที่สูงใช้รถกระเช้า ถ้าโปรเจกต์มีโลโก้ จะปรากฏบนเสื้อของพวกเขา ตอนจบแสดงภาพทดสอบของแต่ละจอ ยังบันทึกเป็นวิดีโอ MP4 ได้ในหน้าต่างส่งออก",
+        "**3D Stage:** ปุ่มมุมมองที่มุมล่างกลับมาเรียงตรงกับแถบเครื่องมือและไม่บังแถบนั้นอีกแล้ว"
       ],
       "hi": [
-        "**Connection:** केबल एक स्क्रीन से दूसरी स्क्रीन तक जा सकती है, बीच में खाली जगह हो तब भी, पोर्ट भरने तक उसी पोर्ट पर, और जुड़ाव 3D में भी दिखता है। नया Clear all बटन।",
-        "**XML इंपोर्ट:** File > Import XML... Resolume Advanced Output प्रीसेट के हर slice को LED स्क्रीन बनाता है, और कैनवास ठीक आउटपुट रिज़ॉल्यूशन पर होता है।",
-        "**वज़न:** प्रति कैबिनेट वज़न (डिफ़ॉल्ट 8.5 kg), Info बॉक्स, Status, 3D Stage और PDF रिपोर्ट में प्रति पैनल वज़न और कुल वज़न। वज़न की इकाई Settings में चुनें; कैबिनेट प्रीसेट वज़न भी रखते हैं।",
-        "**रंग और मेन्यू:** पैनल के रंग मेन्यू (डबल-क्लिक) में ब्लैक एंड व्हाइट विकल्प, और File में अब Import 3D... और Import XML... अलग-अलग हैं।"
+        "**एनिमेशन:** एक्सटेंडेड स्क्रीन में Grid के नीचे नया एनिमेशन व्यू। दो तकनीशियन प्रोजेक्ट की स्क्रीनें असली पैमाने पर पैनल-दर-पैनल जोड़ते हैं: पहुँच वाले पैनल हाथ से, ऊँचे पैनल लिफ्ट से। अगर प्रोजेक्ट में लोगो है, तो वह उनकी टी-शर्ट पर दिखता है। अंत में हर स्क्रीन की टेस्ट इमेज। इसे एक्सपोर्ट विंडो में MP4 वीडियो के रूप में भी सहेजा जा सकता है।",
+        "**3D Stage:** नीचे कोने के व्यू बटन फिर से टूलबार के साथ एक सीध में हैं और अब उसे नहीं ढकते।"
       ],
       "vi": [
-        "**Connection:** cáp có thể đi từ màn hình này sang màn hình khác, kể cả qua khoảng trống, trên cùng một cổng cho đến khi đầy, và đường nối cũng hiện trong 3D. Nút mới Clear all.",
-        "**Nhập XML:** File > Import XML... biến mỗi slice của preset Advanced Output trong Resolume thành một màn hình LED, với canvas đúng bằng độ phân giải đầu ra.",
-        "**Trọng lượng:** trọng lượng mỗi cabinet (mặc định 8,5 kg), cùng trọng lượng mỗi tấm và tổng trong hộp Info, Status, 3D Stage và báo cáo PDF. Chọn đơn vị trọng lượng trong Settings; preset cabinet giữ cả trọng lượng.",
-        "**Màu và menu:** tùy chọn đen trắng trong menu màu của tấm (nhấp đúp), và File giờ có Import 3D... và Import XML... riêng."
+        "**Hoạt ảnh:** chế độ xem Hoạt ảnh mới trên Màn hình mở rộng, bên dưới Grid. Hai kỹ thuật viên lắp các màn hình của dự án từng tấm một, theo tỷ lệ thật: tấm trong tầm tay mang bằng tay, tấm cao dùng xe nâng. Nếu dự án có logo, logo sẽ hiện trên áo của họ. Cuối cùng là ảnh kiểm tra của từng màn hình. Cũng có thể lưu thành video MP4 trong cửa sổ Xuất.",
+        "**3D Stage:** các nút chế độ xem ở góc dưới đã thẳng hàng lại với thanh công cụ và không còn che nó."
       ],
       "bn": [
-        "**Connection:** কেবল এক স্ক্রিন থেকে পরের স্ক্রিনে যেতে পারে, ফাঁকা জায়গা থাকলেও, পোর্ট ভরা পর্যন্ত একই পোর্টে, আর সংযোগ 3D-তেও দেখা যায়। নতুন Clear all বোতাম।",
-        "**XML ইমপোর্ট:** File > Import XML... Resolume Advanced Output প্রিসেটের প্রতিটি slice-কে একটি LED স্ক্রিনে পরিণত করে, ক্যানভাস ঠিক আউটপুট রেজোলিউশনে থাকে।",
-        "**ওজন:** প্রতি ক্যাবিনেটের ওজন (ডিফল্ট 8.5 kg), Info বক্স, Status, 3D Stage ও PDF রিপোর্টে প্রতি প্যানেলের ওজন ও মোট ওজন। ওজনের একক Settings-এ বেছে নিন; ক্যাবিনেট প্রিসেট ওজনও রাখে।",
-        "**রং ও মেনু:** প্যানেলের রঙের মেনুতে (ডাবল-ক্লিক) সাদা-কালো বিকল্প, আর File-এ এখন Import 3D... ও Import XML... আলাদা।"
+        "**অ্যানিমেশন:** এক্সটেন্ডেড স্ক্রিনে Grid-এর নিচে নতুন অ্যানিমেশন ভিউ। দুজন টেকনিশিয়ান প্রকৃত মাপে একটি একটি প্যানেল করে প্রকল্পের স্ক্রিন জোড়া দেন: নাগালের প্যানেল হাতে, উঁচুগুলো লিফটে। প্রকল্পে লোগো থাকলে তাদের শার্টে দেখা যায়। শেষে প্রতিটি স্ক্রিনের টেস্ট ছবি। এক্সপোর্ট উইন্ডো থেকে MP4 ভিডিও হিসেবেও সংরক্ষণ করা যায়।",
+        "**3D Stage:** নিচের কোণের ভিউ বোতামগুলো আবার টুলবারের সাথে সারিবদ্ধ এবং আর সেটিকে ঢেকে দেয় না।"
       ],
       "ms": [
-        "**Connection:** kabel boleh pergi dari satu skrin ke skrin seterusnya, walaupun melalui ruang kosong, pada port yang sama sehingga penuh, dan sambungan juga kelihatan dalam 3D. Butang baharu Clear all.",
-        "**Import XML:** File > Import XML... menjadikan setiap slice pratetap Advanced Output Resolume sebuah skrin LED, dengan kanvas tepat pada resolusi output.",
-        "**Berat:** berat setiap kabinet (lalai 8.5 kg), dengan berat setiap panel dan jumlah dalam kotak Info, Status, 3D Stage dan laporan PDF. Pilih unit berat dalam Settings; pratetap kabinet menyimpan berat.",
-        "**Warna dan menu:** pilihan hitam putih dalam menu warna panel (klik dua kali), dan File kini ada Import 3D... dan Import XML... secara berasingan."
+        "**Animasi:** paparan baharu Animasi pada Skrin lanjutan, di bawah Grid. Dua juruteknik memasang skrin projek panel demi panel pada skala sebenar: panel yang boleh dicapai dibawa dengan tangan, yang tinggi dengan lif. Jika projek ada logo, ia muncul pada baju mereka. Di akhir, imej ujian setiap skrin. Ia juga boleh disimpan sebagai video MP4 dalam tetingkap Eksport.",
+        "**3D Stage:** butang paparan di sudut bawah kembali sejajar dengan bar alat dan tidak lagi menutupnya."
       ],
       "sv": [
-        "**Connection:** kabeln kan gå från en skärm till nästa, även över tomma mellanrum, på samma port tills den är full, och kopplingen syns också i 3D. Ny knapp Clear all.",
-        "**Importera XML:** File > Import XML... gör varje slice i en Resolume Advanced Output-förinställning till en LED-skärm, med duken exakt i utgångsupplösningen.",
-        "**Vikt:** vikt per kabinett (standard 8,5 kg), med vikt per panel och total i Info-rutan, Status, 3D Stage och PDF-rapporten. Viktenheten väljs i Settings; kabinettförinställningar sparar vikten.",
-        "**Färger och meny:** svartvitt alternativ i panelens färgmeny (dubbelklick), och File har nu Import 3D... och Import XML... separat."
+        "**Animering:** ny vy Animering på den utökade skärmen, under Grid. Två tekniker bygger projektets skärmar panel för panel i verklig skala: paneler inom räckhåll bärs för hand, höga med en skylift. Har projektet en logotyp syns den på deras tröjor. Till sist testbilden för varje skärm. Den kan också sparas som MP4-video i fönstret Exportera.",
+        "**3D Stage:** vyknapparna i nedre hörnet ligger åter i linje med verktygsfältet och täcker det inte längre."
       ],
       "ur": [
-        "**Connection:** کیبل ایک اسکرین سے اگلی تک جا سکتی ہے، خالی جگہ کے باوجود، پورٹ بھرنے تک اسی پورٹ پر، اور کنکشن 3D میں بھی دکھتا ہے۔ نیا Clear all بٹن۔",
-        "**XML امپورٹ:** File > Import XML... ‏Resolume Advanced Output پری سیٹ کے ہر slice کو LED اسکرین بناتا ہے، اور کینوس بالکل آؤٹ پٹ ریزولیوشن پر ہوتا ہے۔",
-        "**وزن:** فی کیبنٹ وزن (ڈیفالٹ 8.5 kg)، Info باکس، Status، 3D Stage اور PDF رپورٹ میں فی پینل وزن اور کل وزن۔ وزن کی اکائی Settings میں منتخب کریں؛ کیبنٹ پری سیٹ وزن بھی رکھتے ہیں۔",
-        "**رنگ اور مینو:** پینل کے رنگ مینو (ڈبل کلک) میں بلیک اینڈ وائٹ آپشن، اور File میں اب Import 3D... اور Import XML... الگ الگ ہیں۔"
+        "**اینیمیشن:** ایکسٹینڈڈ اسکرین میں Grid کے نیچے نیا اینیمیشن ویو۔ دو تکنیک کار پروجیکٹ کی اسکرینیں اصل پیمانے پر ایک ایک پینل جوڑتے ہیں: پہنچ والے پینل ہاتھ سے، اونچے لفٹ سے۔ اگر پروجیکٹ میں لوگو ہو تو وہ ان کی قمیص پر نظر آتا ہے۔ آخر میں ہر اسکرین کی ٹیسٹ تصویر۔ اسے ایکسپورٹ ونڈو میں MP4 ویڈیو کے طور پر بھی محفوظ کیا جا سکتا ہے۔",
+        "**3D Stage:** نیچے کونے کے ویو بٹن دوبارہ ٹول بار کی سیدھ میں ہیں اور اب اسے نہیں ڈھانپتے۔"
       ],
       "sw": [
-        "**Connection:** kebo inaweza kutoka skrini moja hadi nyingine, hata kupitia nafasi tupu, kwenye mlango uleule hadi ujae, na muunganisho unaonekana pia kwenye 3D. Kitufe kipya Clear all.",
-        "**Leta XML:** File > Import XML... hugeuza kila slice ya mpangilio wa Advanced Output wa Resolume kuwa skrini ya LED, na turubai inakuwa sawasawa na azimio la matokeo.",
-        "**Uzito:** uzito wa kila kabati (chaguo-msingi 8.5 kg), pamoja na uzito wa kila paneli na jumla kwenye kisanduku cha Info, Status, 3D Stage na ripoti ya PDF. Chagua kipimo cha uzito katika Settings; mipangilio ya kabati huhifadhi uzito.",
-        "**Rangi na menyu:** chaguo la nyeusi na nyeupe kwenye menyu ya rangi ya paneli (bofya mara mbili), na File sasa ina Import 3D... na Import XML... tofauti."
+        "**Uhuishaji:** mwonekano mpya wa Uhuishaji kwenye Skrini iliyopanuliwa, chini ya Grid. Mafundi wawili wanaunganisha skrini za mradi paneli kwa paneli kwa kipimo halisi: paneli zinazofikika hubebwa kwa mkono, za juu kwa lifti. Mradi ukiwa na nembo, inaonekana kwenye fulana zao. Mwishoni, picha ya majaribio ya kila skrini. Inaweza pia kuhifadhiwa kama video ya MP4 kwenye dirisha la Hamisha.",
+        "**3D Stage:** vitufe vya mionekano kwenye kona ya chini vimepangwa tena sambamba na upau wa zana na havifuniki tena."
       ],
       "gn": [
-        "**Connection:** cable ikatu ohasa peteĩ pantalla-gui ambuépe, jepe oĩ pa'ũ nandi, peteĩchaite puerto-pe henyhẽ peve, ha ojoaju ojehecha avei 3D-pe. Botón pyahu Clear all.",
-        "**Eguerú XML:** File > Import XML... omoambue opaite slice Resolume Advanced Output preset-pegua LED pantallápe, ha lienzo oguereko salida resolución tee.",
-        "**Pohýi:** gabinete pohýi (ojeporu'ypýva 8,5 kg), panel pohýi ha opaitéva Info ryru, Status, 3D Stage ha PDF marandúpe. Pohýi unidad eiporavo Settings-pe; gabinete preset oñongatu avei pohýi.",
-        "**Sa'y ha menú:** morotĩ ha hũ opción panel sa'y menúpe (mokõi jekutu), ha File oguereko ko'ágã Import 3D... ha Import XML... ojeiko'ýva."
+        "**Animación:** jehecha pyahu Animación Pantalla ipukúvape, Grid guýpe. Mokõi técnico omoĩ pantalla proyecto-pegua placa ha placa, tuichakue añetéva: placa ipo'ẽva ojegueraha po'ópe, ijyvatéva katu plataforma rupive. Proyecto oguerekóramo logo, ojehecha ikamisápe. Ipahápe, ta'anga ñeha'ã pantalla tenondegua. Ikatu avei oñeñongatu video MP4 ramo ventana Exportar-pe.",
+        "**3D Stage:** votõ jehecha-pegua ipype'ápe oĩ jey peteĩ rapére tembipuru barra ndive ha nomo'ãvéima."
       ],
       "he": [
-        "**Connection:** הכבל יכול לעבור ממסך אחד לבא, גם דרך רווחים ריקים, באותה יציאה עד שהיא מתמלאת, והחיבור מוצג גם בתלת־ממד. כפתור חדש Clear all.",
-        "**ייבוא XML:** ‏File > Import XML... הופך כל slice בהגדרה של Advanced Output ב-Resolume למסך LED, והקנבס מקבל בדיוק את רזולוציית הפלט.",
-        "**משקל:** משקל לכל קבינט (ברירת מחדל 8.5 ק״ג), עם המשקל לכל פאנל והמשקל הכולל בתיבת Info, ב-Status, ב-3D Stage ובדוח ה-PDF. יחידת המשקל נבחרת ב-Settings; הגדרות הקבינט שומרות גם את המשקל.",
-        "**צבעים ותפריט:** אפשרות שחור-לבן בתפריט הצבעים של הפאנל (לחיצה כפולה), וב-File יש עכשיו Import 3D... ו-Import XML... בנפרד."
+        "**אנימציה:** תצוגה חדשה אנימציה במסך המורחב, מתחת ל-Grid. שני טכנאים מרכיבים את מסכי הפרויקט פאנל אחר פאנל בקנה מידה אמיתי: פאנלים בהישג יד נישאים ביד, והגבוהים במתקן הרמה. אם לפרויקט יש לוגו, הוא מופיע על החולצות שלהם. בסוף, תמונת הבדיקה של כל מסך. אפשר גם לשמור אותה כסרטון MP4 בחלון הייצוא.",
+        "**3D Stage:** כפתורי התצוגות בפינה התחתונה שוב מיושרים עם סרגל הכלים ואינם מכסים אותו עוד."
       ],
       "lv": [
-        "**Connection:** kabelis var iet no viena ekrāna uz nākamo, arī pāri tukšām spraugām, pa to pašu portu, līdz tas ir pilns, un savienojums redzams arī 3D. Jauna poga Clear all.",
-        "**Importēt XML:** File > Import XML... katru Resolume Advanced Output sagataves slice pārvērš LED ekrānā, un audekls ir tieši izejas izšķirtspējā.",
-        "**Svars:** kabineta svars (noklusējumā 8,5 kg), ar paneļa svaru un kopējo svaru Info lodziņā, Status, 3D Stage un PDF pārskatā. Svara mērvienību izvēlas Settings; kabineta sagataves saglabā svaru.",
-        "**Krāsas un izvēlne:** melnbalta iespēja paneļa krāsu izvēlnē (dubultklikšķis), un File tagad ir atsevišķi Import 3D... un Import XML...."
+        "**Animācija:** jauns skats Animācija paplašinātajā ekrānā, zem Grid. Divi tehniķi reālā mērogā panelim pa panelim saliek projekta ekrānus: sasniedzamos paneļus nes rokās, augstos ar pacēlāju. Ja projektam ir logotips, tas redzams uz viņu krekliem. Beigās katra ekrāna testa attēls. To var arī saglabāt kā MP4 video logā Eksportēt.",
+        "**3D Stage:** skatu pogas apakšējā stūrī atkal ir vienā līnijā ar rīkjoslu un vairs to neaizsedz."
       ],
       "fa": [
-        "**Connection:** کابل می‌تواند از یک صفحه به صفحه بعد برود، حتی از روی فاصله‌های خالی، روی همان پورت تا وقتی پر شود، و اتصال در سه‌بعدی هم دیده می‌شود. دکمه جدید Clear all.",
-        "**وارد کردن XML:** ‏File > Import XML... هر slice از پیش‌تنظیم Advanced Output در Resolume را به یک صفحه LED تبدیل می‌کند و بوم دقیقاً به رزولوشن خروجی می‌رسد.",
-        "**وزن:** وزن هر کابینت (پیش‌فرض 8.5 کیلوگرم)، همراه با وزن هر پنل و وزن کل در کادر Info، ‏Status، ‏3D Stage و گزارش PDF. واحد وزن در Settings انتخاب می‌شود؛ پیش‌تنظیم‌های کابینت وزن را هم نگه می‌دارند.",
-        "**رنگ‌ها و منو:** گزینه سیاه‌وسفید در منوی رنگ پنل (دوبار کلیک)، و File اکنون Import 3D... و Import XML... را جداگانه دارد."
+        "**انیمیشن:** نمای جدید انیمیشن در صفحه گسترده، زیر Grid. دو تکنسین صفحه‌های پروژه را با مقیاس واقعی پنل به پنل نصب می‌کنند: پنل‌های در دسترس با دست و پنل‌های بلند با بالابر. اگر پروژه لوگو داشته باشد، روی پیراهن آن‌ها دیده می‌شود. در پایان، تصویر تست هر صفحه. همچنین می‌توان آن را در پنجره خروجی به‌صورت ویدیوی MP4 ذخیره کرد.",
+        "**3D Stage:** دکمه‌های نما در گوشه پایین دوباره با نوار ابزار هم‌تراز شده‌اند و دیگر آن را نمی‌پوشانند."
       ],
       "pl": [
-        "**Connection:** kabel może przechodzić z jednego ekranu na następny, także przez puste przerwy, na tym samym porcie, aż się zapełni, a połączenie widać też w 3D. Nowy przycisk Clear all.",
-        "**Import XML:** File > Import XML... zamienia każdy slice z presetu Advanced Output programu Resolume w ekran LED, a płótno ma dokładnie rozdzielczość wyjścia.",
-        "**Waga:** waga kabinetu (domyślnie 8,5 kg), z wagą na panel i wagą całkowitą w oknie Info, Status, 3D Stage i raporcie PDF. Jednostkę wagi wybiera się w Settings; presety kabinetu zapamiętują wagę.",
-        "**Kolory i menu:** opcja czarno-biała w menu kolorów panelu (dwuklik), a File ma teraz osobno Import 3D... i Import XML...."
+        "**Animacja:** nowy widok Animacja na ekranie rozszerzonym, pod Grid. Dwóch techników montuje ekrany projektu panel po panelu w rzeczywistej skali: panele w zasięgu ręki niosą w rękach, wysokie podnośnikiem. Jeśli projekt ma logo, widać je na ich koszulkach. Na końcu obraz testowy każdego ekranu. Można ją też zapisać jako wideo MP4 w oknie Eksportuj.",
+        "**3D Stage:** przyciski widoków w dolnym rogu znów są wyrównane z paskiem narzędzi i już go nie zasłaniają."
       ],
       "uk": [
-        "**Connection:** кабель може переходити з одного екрана на наступний, навіть через порожні проміжки, на тому самому порту, доки він не заповниться; з'єднання видно і в 3D. Нова кнопка Clear all.",
-        "**Імпорт XML:** File > Import XML... перетворює кожен слайс пресета Advanced Output Resolume на LED-екран, а полотно має точну роздільну здатність виходу.",
-        "**Вага:** вага кабінету (за замовчуванням 8,5 кг), вага однієї панелі та загальна вага у вікні Info, Status, 3D Stage і PDF-звіті. Одиницю ваги вибирають у Settings; пресети кабінету зберігають вагу.",
-        "**Кольори й меню:** чорно-білий варіант у меню кольорів панелі (подвійне клацання), а File тепер має окремо Import 3D... та Import XML...."
+        "**Анімація:** новий вигляд «Анімація» на розширеному екрані, під Grid. Два техніки збирають екрани проєкту панель за панеллю в реальному масштабі: панелі в межах досяжності несуть у руках, високі — підйомником. Якщо в проєкті є логотип, він з'являється на їхніх футболках. Наприкінці — тестове зображення кожного екрана. Її також можна зберегти як відео MP4 у вікні «Експорт».",
+        "**3D Stage:** кнопки виглядів у нижньому куті знову вирівняні з панеллю інструментів і більше її не перекривають."
       ],
       "ca": [
-        "**Connection:** el cable pot passar d'una pantalla a la següent, fins i tot per buits, pel mateix port fins que és ple, i l'enllaç també es veu en 3D. Nou botó Clear all.",
-        "**Importar XML:** File > Import XML... converteix cada slice d'un preset d'Advanced Output de Resolume en una pantalla LED, amb el llenç exactament a la resolució de sortida.",
-        "**Pes:** pes per mòdul (8,5 kg per defecte), amb el pes per panell i el total al quadre Info, Status, 3D Stage i l'informe PDF. La unitat de pes es tria a Settings; els presets de mòdul guarden el pes.",
-        "**Colors i menú:** opció blanc i negre al menú de color del panell (doble clic), i File ara té Import 3D... i Import XML... per separat."
+        "**Animació:** nova vista Animació a la Pantalla estesa, sota Grid. Dos tècnics munten les pantalles del projecte panell a panell, a escala real: els panells a l'abast van a mà i els alts amb una plataforma elevadora. Si el projecte té logotip, apareix a la seva samarreta. Al final, la imatge de prova de cada pantalla. També es pot desar com a vídeo MP4 a la finestra Exporta.",
+        "**3D Stage:** els botons de vista de la cantonada inferior tornen a estar alineats amb la barra d'eines i ja no la tapen."
       ],
       "cs": [
-        "**Connection:** kabel může přecházet z jedné obrazovky na další, i přes prázdné mezery, na stejném portu, dokud se nezaplní, a propojení je vidět i ve 3D. Nové tlačítko Clear all.",
-        "**Import XML:** File > Import XML... udělá z každého slice předvolby Advanced Output z Resolume LED obrazovku a plátno má přesně výstupní rozlišení.",
-        "**Hmotnost:** hmotnost kabinetu (výchozí 8,5 kg), hmotnost na panel a celková hmotnost v okně Info, Status, 3D Stage a PDF zprávě. Jednotka hmotnosti se volí v Settings; předvolby kabinetu ukládají i hmotnost.",
-        "**Barvy a menu:** černobílá možnost v nabídce barev panelu (dvojklik) a File má nyní zvlášť Import 3D... a Import XML...."
+        "**Animace:** nový pohled Animace na rozšířené obrazovce, pod Grid. Dva technici montují obrazovky projektu panel po panelu ve skutečném měřítku: panely na dosah nesou v rukou, vysoké pomocí plošiny. Pokud má projekt logo, objeví se na jejich tričkách. Na konci testovací obraz každé obrazovky. Lze ji také uložit jako video MP4 v okně Export.",
+        "**3D Stage:** tlačítka pohledů v dolním rohu jsou opět zarovnaná s panelem nástrojů a už ho nezakrývají."
       ],
       "fi": [
-        "**Connection:** kaapeli voi kulkea näytöltä toiselle, myös tyhjien välien yli, samassa portissa kunnes se on täynnä, ja yhteys näkyy myös 3D:ssä. Uusi Clear all -painike.",
-        "**XML-tuonti:** File > Import XML... tekee jokaisesta Resolumen Advanced Output -esiasetuksen slicestä LED-näytön, ja kangas on tarkalleen ulostulon resoluutiossa.",
-        "**Paino:** kaapin paino (oletus 8,5 kg), paneelikohtainen ja kokonaispaino Info-ruudussa, Statuksessa, 3D Stagessa ja PDF-raportissa. Painoyksikkö valitaan Settingsissä; kaappien esiasetukset tallentavat painon.",
-        "**Värit ja valikko:** mustavalkoinen vaihtoehto paneelin värivalikossa (kaksoisnapsautus), ja Filessa on nyt erikseen Import 3D... ja Import XML...."
+        "**Animaatio:** uusi Animaatio-näkymä laajennetulla näytöllä, Gridin alla. Kaksi teknikkoa kokoaa projektin näytöt paneeli kerrallaan todellisessa mittakaavassa: ulottuvilla olevat paneelit kannetaan käsin, korkeat nostimella. Jos projektissa on logo, se näkyy heidän paidoissaan. Lopuksi jokaisen näytön testikuva. Sen voi myös tallentaa MP4-videoksi Vie-ikkunassa.",
+        "**3D Stage:** alakulman näkymäpainikkeet ovat taas linjassa työkalurivin kanssa eivätkä enää peitä sitä."
       ],
       "el": [
-        "**Connection:** το καλώδιο μπορεί να περνά από μια οθόνη στην επόμενη, ακόμη και πάνω από κενά, στην ίδια θύρα μέχρι να γεμίσει, και η σύνδεση φαίνεται και στο 3D. Νέο κουμπί Clear all.",
-        "**Εισαγωγή XML:** το File > Import XML... μετατρέπει κάθε slice μιας προεπιλογής Advanced Output του Resolume σε οθόνη LED, με τον καμβά ακριβώς στην ανάλυση εξόδου.",
-        "**Βάρος:** βάρος ανά καμπινέ (προεπιλογή 8,5 kg), με βάρος ανά πάνελ και συνολικό βάρος στο πλαίσιο Info, στο Status, στο 3D Stage και στην αναφορά PDF. Η μονάδα βάρους επιλέγεται στο Settings· οι προεπιλογές καμπινέ κρατούν και το βάρος.",
-        "**Χρώματα και μενού:** επιλογή ασπρόμαυρο στο μενού χρωμάτων του πάνελ (διπλό κλικ), και το File έχει πλέον χωριστά Import 3D... και Import XML...."
+        "**Κίνηση:** νέα προβολή Κίνηση στην εκτεταμένη οθόνη, κάτω από το Grid. Δύο τεχνικοί συναρμολογούν τις οθόνες του έργου πάνελ πάνελ σε πραγματική κλίμακα: τα πάνελ που φτάνουν μεταφέρονται με το χέρι, τα ψηλά με ανυψωτικό. Αν το έργο έχει λογότυπο, εμφανίζεται στις μπλούζες τους. Στο τέλος, η εικόνα δοκιμής κάθε οθόνης. Μπορεί επίσης να αποθηκευτεί ως βίντεο MP4 από το παράθυρο Εξαγωγή.",
+        "**3D Stage:** τα κουμπιά προβολών στην κάτω γωνία είναι ξανά ευθυγραμμισμένα με τη γραμμή εργαλείων και δεν την καλύπτουν πια."
       ],
       "ha": [
-        "**Connection:** kebul na iya tafiya daga wannan allo zuwa na gaba, ko da akwai gibi, a tashar guda har ta cika, kuma haɗin yana bayyana a 3D ma. Sabon maɓalli Clear all.",
-        "**Shigo da XML:** File > Import XML... yana mayar da kowane slice na saitin Advanced Output na Resolume zuwa allon LED, kuma zane yana daidai da ƙudurin fitarwa.",
-        "**Nauyi:** nauyin kowane kabad (tsoho 8.5 kg), tare da nauyin kowane fanel da jimilla a akwatin Info, Status, 3D Stage da rahoton PDF. Zaɓi ma'aunin nauyi a Settings; saitin kabad yana adana nauyi.",
-        "**Launuka da menu:** zaɓin baƙi da fari a menu na launin fanel (danna sau biyu), kuma File yanzu yana da Import 3D... da Import XML... daban."
+        "**Motsi:** sabon kallon Motsi a allon da aka faɗaɗa, ƙarƙashin Grid. Ma'aikata biyu suna haɗa allunan aikin faranti bayan faranti a ainihin girma: faranti masu kusa ana ɗauka da hannu, na sama da lif. Idan aikin yana da tambari, yana bayyana a rigunansu. A ƙarshe, hoton gwaji na kowane allo. Ana iya adana shi a matsayin bidiyon MP4 a tagar Fitarwa.",
+        "**3D Stage:** maɓallan kallo a kusurwar ƙasa sun sake daidaita da sandar kayan aiki kuma ba sa rufe ta kuma."
       ],
       "ro": [
-        "**Connection:** cablul poate trece de la un ecran la următorul, chiar și peste goluri, pe același port până se umple, iar legătura se vede și în 3D. Buton nou Clear all.",
-        "**Import XML:** File > Import XML... transformă fiecare slice dintr-un preset Advanced Output din Resolume într-un ecran LED, cu pânza exact la rezoluția de ieșire.",
-        "**Greutate:** greutate pe cabinet (implicit 8,5 kg), cu greutatea pe panou și totalul în caseta Info, Status, 3D Stage și raportul PDF. Unitatea de greutate se alege în Settings; preseturile de cabinet păstrează greutatea.",
-        "**Culori și meniu:** opțiune alb-negru în meniul de culori al panoului (dublu clic), iar File are acum separat Import 3D... și Import XML...."
+        "**Animație:** vizualizare nouă Animație pe ecranul extins, sub Grid. Doi tehnicieni montează ecranele proiectului panou cu panou, la scară reală: panourile la îndemână sunt duse în mână, cele înalte cu o platformă de ridicare. Dacă proiectul are logo, acesta apare pe tricourile lor. La final, imaginea de test a fiecărui ecran. Poate fi salvată și ca videoclip MP4 din fereastra Export.",
+        "**3D Stage:** butoanele de vizualizare din colțul de jos sunt din nou aliniate cu bara de instrumente și nu o mai acoperă."
       ],
       "yo": [
-        "**Connection:** kébù lè lọ láti ojú-ìbojú kan sí èkejì, kódà láàárín àlàfo òfo, lórí ibudo kan náà títí yóò fi kún, àsopọ̀ sì ń hàn nínú 3D pẹ̀lú. Bọ́tìnnì tuntun Clear all.",
-        "**Gbé XML wọlé:** File > Import XML... ń sọ slice kọ̀ọ̀kan ti ètò Advanced Output Resolume di ojú-ìbojú LED, kánfásì sì bá ìpinnu ìjáde mu gẹ́lẹ́.",
-        "**Ìwúwo:** ìwúwo kábínẹ́ẹ̀tì kọ̀ọ̀kan (àyípadà 8.5 kg), pẹ̀lú ìwúwo pánẹ́ẹ̀lì kọ̀ọ̀kan àti àpapọ̀ nínú àpótí Info, Status, 3D Stage àti ìròyìn PDF. Yan ẹ̀yọ ìwọ̀n nínú Settings; àwọn ètò kábínẹ́ẹ̀tì ń pa ìwúwo mọ́.",
-        "**Àwọ̀ àti àkójọ:** àṣàyàn dúdú àti funfun nínú àkójọ àwọ̀ pánẹ́ẹ̀lì (tẹ lẹ́ẹ̀mejì), File sì ní Import 3D... àti Import XML... lọ́tọ̀ báyìí."
+        "**Eré ìdárayá:** ìwò tuntun Eré ìdárayá lórí ojú-iboju tí a fẹ̀, lábẹ́ Grid. Àwọn onímọ̀-ẹ̀rọ méjì ń kó àwọn ojú-iboju iṣẹ́ náà jọ ní pánẹ́ẹ̀lì kan lẹ́yìn òmíràn, ní ìwọ̀n gidi: àwọn tí ọwọ́ tó ni wọ́n gbé lọ́wọ́, àwọn gíga pẹ̀lú ẹ̀rọ agbéga. Tí iṣẹ́ náà bá ní àmì, ó máa hàn lórí aṣọ wọn. Ní ìparí, àwòrán ìdánwò ojú-iboju kọ̀ọ̀kan. A tún lè fi pamọ́ gẹ́gẹ́ bí fídíò MP4 nínú fèrèsé Gbé jáde.",
+        "**3D Stage:** àwọn bọ́tìnnì ìwò ní igun ìsàlẹ̀ tún wà ní ìlà kan pẹ̀lú ọ̀pá irinṣẹ́, wọn kò sì bò ó mọ́."
       ],
       "zu": [
-        "**Connection:** ikhebula lingadlula esikrinini esisodwa liye kwesilandelayo, ngisho nasezikhaleni, ngembobo efanayo ize igcwale, futhi ukuxhumana kubonakala naku-3D. Inkinobho entsha Clear all.",
-        "**Ngenisa i-XML:** i-File > Import XML... iguqula i-slice ngayinye yesethingi se-Advanced Output se-Resolume ibe yisikrini se-LED, nekhanvasi ilingana ncamashi nokucaca kokuphumayo.",
-        "**Isisindo:** isisindo sekhabethe ngalinye (okuzenzakalelayo 8.5 kg), nesisindo sephaneli ngalinye nesisindo esiphelele ebhokisini le-Info, ku-Status, ku-3D Stage nasembikweni we-PDF. Khetha iyunithi yesisindo ku-Settings; amasethingi ekhabethe agcina isisindo.",
-        "**Imibala nemenyu:** inketho emnyama nomhlophe kumenyu yemibala yephaneli (chofoza kabili), futhi i-File manje ine-Import 3D... ne-Import XML... ngokwehlukana."
+        "**Opopayi:** ukubuka okusha kwe-Opopayi esikrinini esinwetshiwe, ngaphansi kwe-Grid. Ochwepheshe ababili bahlanganisa izikrini zephrojekthi iphaneli ngephaneli ngesilinganiso sangempela: amaphaneli afinyelelekayo athwalwa ngesandla, aphezulu ngelifti. Uma iphrojekthi inelogo, ivela kumahembe abo. Ekugcineni, isithombe sokuhlola sesikrini ngasinye. Kungalondolozwa futhi njengevidiyo ye-MP4 efasiteleni lokuthekelisa.",
+        "**3D Stage:** izinkinobho zokubuka ekhoneni elingezansi ziphinde zaqondana nebha yamathuluzi futhi azisayimbozi."
       ],
       "fil": [
-        "**Connection:** puwedeng tumawid ang cable mula sa isang screen papunta sa susunod, kahit may bakanteng puwang, sa parehong port hanggang mapuno, at makikita rin ang dugtong sa 3D. Bagong button na Clear all.",
-        "**Mag-import ng XML:** ginagawang LED screen ng File > Import XML... ang bawat slice ng preset ng Advanced Output ng Resolume, at eksaktong kasinlaki ng output resolution ang canvas.",
-        "**Timbang:** timbang bawat cabinet (default 8.5 kg), kasama ang timbang bawat panel at kabuuan sa Info box, Status, 3D Stage at PDF report. Piliin ang unit ng timbang sa Settings; itinatabi rin ng mga cabinet preset ang timbang.",
-        "**Kulay at menu:** opsiyong itim at puti sa menu ng kulay ng panel (double-click), at may hiwalay na Import 3D... at Import XML... na ngayon ang File."
+        "**Animation:** bagong view na Animation sa Extended screen, sa ilalim ng Grid. Dalawang technician ang nagkakabit ng mga screen ng proyekto isa-isang panel sa totoong sukat: ang mga panel na abot-kamay ay dala sa kamay, ang matataas ay gamit ang lift. Kung may logo ang proyekto, lumalabas ito sa kanilang damit. Sa dulo, ang test image ng bawat screen. Maaari rin itong i-save bilang MP4 video sa window na Export.",
+        "**3D Stage:** nakahanay na ulit sa toolbar ang mga view button sa ibabang sulok at hindi na nila ito tinatakpan."
       ],
       "ta": [
-        "**Connection:** கேபிள் ஒரு திரையிலிருந்து அடுத்த திரைக்குச் செல்லலாம், இடையில் வெற்று இடம் இருந்தாலும், போர்ட் நிரம்பும் வரை அதே போர்ட்டில்; இணைப்பு 3D-யிலும் தெரியும். புதிய Clear all பொத்தான்.",
-        "**XML இறக்குமதி:** File > Import XML... Resolume Advanced Output முன்னமைவின் ஒவ்வொரு slice-ஐயும் ஒரு LED திரையாக்கும்; கேன்வாஸ் சரியாக வெளியீட்டுத் தெளிவுத்திறனில் இருக்கும்.",
-        "**எடை:** ஒவ்வொரு கேபினட்டின் எடை (இயல்பு 8.5 kg), ஒரு பேனலுக்கான எடையும் மொத்த எடையும் Info பெட்டி, Status, 3D Stage மற்றும் PDF அறிக்கையில். எடை அலகை Settings-இல் தேர்ந்தெடுக்கவும்; கேபினட் முன்னமைவுகளும் எடையைச் சேமிக்கும்.",
-        "**நிறங்களும் மெனுவும்:** பேனல் நிற மெனுவில் (இருமுறை கிளிக்) கருப்பு-வெள்ளை விருப்பம்; File-இல் இப்போது Import 3D... மற்றும் Import XML... தனித்தனியாக உள்ளன."
+        "**அசைவூட்டம்:** நீட்டிக்கப்பட்ட திரையில் Grid-க்கு கீழே புதிய அசைவூட்டம் காட்சி. இரண்டு தொழில்நுட்பர்கள் திட்டத்தின் திரைகளை உண்மையான அளவில் ஒவ்வொரு பேனலாகப் பொருத்துகிறார்கள்: எட்டும் பேனல்கள் கையால், உயரமானவை லிஃப்ட் மூலம். திட்டத்தில் லோகோ இருந்தால் அது அவர்களின் சட்டையில் தெரியும். இறுதியில் ஒவ்வொரு திரையின் சோதனைப் படம். ஏற்றுமதி சாளரத்தில் MP4 வீடியோவாகவும் சேமிக்கலாம்.",
+        "**3D Stage:** கீழ் மூலையில் உள்ள காட்சிப் பொத்தான்கள் மீண்டும் கருவிப்பட்டியுடன் வரிசையாக உள்ளன, இனி அதை மறைக்காது."
       ],
       "te": [
-        "**Connection:** కేబుల్ ఒక స్క్రీన్ నుండి తదుపరి స్క్రీన్‌కు వెళ్లగలదు, మధ్యలో ఖాళీ ఉన్నా, పోర్ట్ నిండే వరకు అదే పోర్ట్‌లో; కనెక్షన్ 3D‌లోనూ కనిపిస్తుంది. కొత్త Clear all బటన్.",
-        "**XML దిగుమతి:** File > Import XML... Resolume Advanced Output ప్రీసెట్‌లోని ప్రతి slice‌ను LED స్క్రీన్‌గా మారుస్తుంది; కాన్వాస్ సరిగ్గా అవుట్‌పుట్ రిజల్యూషన్‌లో ఉంటుంది.",
-        "**బరువు:** ఒక్కో క్యాబినెట్ బరువు (డిఫాల్ట్ 8.5 kg), ఒక్కో ప్యానెల్ బరువు మరియు మొత్తం బరువు Info బాక్స్, Status, 3D Stage మరియు PDF నివేదికలో. బరువు యూనిట్‌ను Settings‌లో ఎంచుకోండి; క్యాబినెట్ ప్రీసెట్‌లు బరువును కూడా ఉంచుతాయి.",
-        "**రంగులు మరియు మెనూ:** ప్యానెల్ రంగు మెనూలో (డబుల్ క్లిక్) నలుపు-తెలుపు ఎంపిక, File‌లో ఇప్పుడు Import 3D... మరియు Import XML... వేర్వేరుగా ఉన్నాయి."
+        "**యానిమేషన్:** ఎక్స్‌టెండెడ్ స్క్రీన్‌లో Grid కింద కొత్త యానిమేషన్ వ్యూ. ఇద్దరు టెక్నీషియన్లు ప్రాజెక్ట్ స్క్రీన్‌లను నిజమైన కొలతలో ఒక్కో ప్యానెల్‌గా అమరుస్తారు: అందే ప్యానెల్‌లు చేతితో, ఎత్తైనవి లిఫ్ట్‌తో. ప్రాజెక్ట్‌కు లోగో ఉంటే అది వారి చొక్కాలపై కనిపిస్తుంది. చివరగా ప్రతి స్క్రీన్ టెస్ట్ చిత్రం. ఎగుమతి విండోలో MP4 వీడియోగా కూడా సేవ్ చేయవచ్చు.",
+        "**3D Stage:** కింది మూలలోని వ్యూ బటన్‌లు మళ్లీ టూల్‌బార్‌తో వరుసలో ఉన్నాయి, ఇక దాన్ని కప్పవు."
       ],
       "mr": [
-        "**Connection:** केबल एका स्क्रीनवरून पुढच्या स्क्रीनवर जाऊ शकते, मध्ये रिकामी जागा असली तरी, पोर्ट भरेपर्यंत त्याच पोर्टवर; जोडणी 3D मध्येही दिसते. नवे Clear all बटण.",
-        "**XML आयात:** File > Import XML... Resolume Advanced Output प्रीसेटमधील प्रत्येक slice ला LED स्क्रीन बनवते, आणि कॅनव्हास नेमका आउटपुट रिझोल्यूशनवर असतो.",
-        "**वजन:** प्रति कॅबिनेट वजन (डीफॉल्ट 8.5 kg), Info बॉक्स, Status, 3D Stage आणि PDF अहवालात प्रति पॅनेल वजन आणि एकूण वजन. वजनाचे एकक Settings मध्ये निवडा; कॅबिनेट प्रीसेट वजनही जतन करतात.",
-        "**रंग आणि मेनू:** पॅनेलच्या रंग मेनूमध्ये (डबल-क्लिक) कृष्णधवल पर्याय, आणि File मध्ये आता Import 3D... आणि Import XML... वेगवेगळे आहेत."
+        "**अॅनिमेशन:** एक्सटेंडेड स्क्रीनवर Grid च्या खाली नवीन अॅनिमेशन व्ह्यू. दोन तंत्रज्ञ प्रकल्पाच्या स्क्रीन खऱ्या मापात एकेक पॅनेल जोडतात: हाताला येणारे पॅनेल हाताने, उंच पॅनेल लिफ्टने. प्रकल्पात लोगो असल्यास तो त्यांच्या शर्टवर दिसतो. शेवटी प्रत्येक स्क्रीनची टेस्ट इमेज. एक्सपोर्ट विंडोमध्ये MP4 व्हिडिओ म्हणूनही जतन करता येते.",
+        "**3D Stage:** खालच्या कोपऱ्यातील व्ह्यू बटणे पुन्हा टूलबारशी एका रेषेत आहेत आणि आता ती त्याला झाकत नाहीत."
       ],
       "da": [
-        "**Connection:** kablet kan gå fra én skærm til den næste, også over tomme mellemrum, på samme port, indtil den er fuld, og forbindelsen vises også i 3D. Ny knap Clear all.",
-        "**Importér XML:** File > Import XML... gør hver slice i en Resolume Advanced Output-forudindstilling til en LED-skærm, med lærredet præcis i udgangsopløsningen.",
-        "**Vægt:** vægt pr. kabinet (standard 8,5 kg), med vægt pr. panel og samlet vægt i Info-boksen, Status, 3D Stage og PDF-rapporten. Vægtenheden vælges i Settings; kabinet-forudindstillinger gemmer vægten.",
-        "**Farver og menu:** sort-hvid-mulighed i panelets farvemenu (dobbeltklik), og File har nu Import 3D... og Import XML... hver for sig."
+        "**Animation:** ny visning Animation på den udvidede skærm, under Grid. To teknikere samler projektets skærme panel for panel i virkelig skala: paneler inden for rækkevidde bæres i hånden, de høje med en lift. Har projektet et logo, vises det på deres trøjer. Til sidst testbilledet af hver skærm. Den kan også gemmes som MP4-video i vinduet Eksportér.",
+        "**3D Stage:** visningsknapperne i det nederste hjørne flugter igen med værktøjslinjen og dækker den ikke længere."
       ],
       "nb": [
-        "**Connection:** kabelen kan gå fra én skjerm til den neste, også over tomme mellomrom, på samme port til den er full, og koblingen vises også i 3D. Ny knapp Clear all.",
-        "**Importer XML:** File > Import XML... gjør hver slice i en Resolume Advanced Output-forhåndsinnstilling til en LED-skjerm, med lerretet nøyaktig i utgangsoppløsningen.",
-        "**Vekt:** vekt per kabinett (standard 8,5 kg), med vekt per panel og total i Info-boksen, Status, 3D Stage og PDF-rapporten. Vektenheten velges i Settings; kabinett-forhåndsinnstillinger lagrer vekten.",
-        "**Farger og meny:** svart-hvitt-valg i panelets fargemeny (dobbeltklikk), og File har nå Import 3D... og Import XML... hver for seg."
+        "**Animasjon:** ny visning Animasjon på den utvidede skjermen, under Grid. To teknikere monterer prosjektets skjermer panel for panel i ekte skala: paneler innen rekkevidde bæres for hånd, de høye med lift. Har prosjektet en logo, vises den på t-skjortene deres. Til slutt testbildet av hver skjerm. Den kan også lagres som MP4-video i vinduet Eksporter.",
+        "**3D Stage:** visningsknappene i nedre hjørne står igjen på linje med verktøylinjen og dekker den ikke lenger."
       ],
       "lt": [
-        "**Connection:** kabelis gali eiti iš vieno ekrano į kitą, net per tuščius tarpus, tuo pačiu prievadu, kol šis prisipildo, o jungtis matoma ir 3D. Naujas mygtukas Clear all.",
-        "**Importuoti XML:** File > Import XML... kiekvieną Resolume Advanced Output išankstinio nustatymo slice paverčia LED ekranu, o drobė būna tiksliai išvesties raiškos.",
-        "**Svoris:** kabineto svoris (numatytasis 8,5 kg), vieno skydo svoris ir bendras svoris Info lange, Status, 3D Stage ir PDF ataskaitoje. Svorio vienetas pasirenkamas Settings; kabineto nustatymai išsaugo ir svorį.",
-        "**Spalvos ir meniu:** nespalvota parinktis skydo spalvų meniu (dukart spustelėjus), o File dabar turi atskirus Import 3D... ir Import XML...."
+        "**Animacija:** naujas vaizdas Animacija išplėstiniame ekrane, po Grid. Du technikai realiu masteliu po vieną plokštę surenka projekto ekranus: pasiekiamas plokštes neša rankomis, aukštas – keltuvu. Jei projektas turi logotipą, jis matomas ant jų marškinėlių. Pabaigoje – kiekvieno ekrano bandomasis vaizdas. Ją taip pat galima išsaugoti kaip MP4 vaizdo įrašą lange Eksportuoti.",
+        "**3D Stage:** vaizdų mygtukai apatiniame kampe vėl sulygiuoti su įrankių juosta ir jos nebeuždengia."
       ],
       "et": [
-        "**Connection:** kaabel saab minna ühelt ekraanilt järgmisele, ka üle tühjade vahede, samas pordis kuni see täitub, ja ühendus on näha ka 3D-s. Uus nupp Clear all.",
-        "**XML-i import:** File > Import XML... teeb Resolume'i Advanced Output eelseadistuse igast slice'ist LED-ekraani ja lõuend on täpselt väljundi eraldusvõimes.",
-        "**Kaal:** kabineti kaal (vaikimisi 8,5 kg), paneeli kaal ja kogukaal Info kastis, Statuses, 3D Stage'is ja PDF-aruandes. Kaaluühik valitakse Settingsis; kabineti eelseadistused salvestavad ka kaalu.",
-        "**Värvid ja menüü:** must-valge valik paneeli värvimenüüs (topeltklõps) ning File'is on nüüd eraldi Import 3D... ja Import XML...."
+        "**Animatsioon:** uus vaade Animatsioon laiendatud ekraanil, Gridi all. Kaks tehnikut monteerivad projekti ekraanid paneel paneeli haaval tegelikus mõõtkavas: käeulatuses paneelid kantakse käes, kõrged tõstukiga. Kui projektil on logo, on see nende särkidel. Lõpus iga ekraani testpilt. Selle saab salvestada ka MP4-videona aknas Ekspordi.",
+        "**3D Stage:** alumise nurga vaatenupud on jälle tööriistaribaga joondatud ega kata seda enam."
       ],
       "sk": [
-        "**Connection:** kábel môže prechádzať z jednej obrazovky na ďalšiu, aj cez prázdne medzery, na tom istom porte, kým sa nenaplní, a prepojenie vidno aj v 3D. Nové tlačidlo Clear all.",
-        "**Import XML:** File > Import XML... urobí z každého slice predvoľby Advanced Output z Resolume LED obrazovku a plátno má presne výstupné rozlíšenie.",
-        "**Hmotnosť:** hmotnosť kabinetu (predvolene 8,5 kg), hmotnosť na panel a celková hmotnosť v okne Info, Status, 3D Stage a PDF správe. Jednotka hmotnosti sa volí v Settings; predvoľby kabinetu ukladajú aj hmotnosť.",
-        "**Farby a menu:** čiernobiela možnosť v ponuke farieb panela (dvojklik) a File má teraz zvlášť Import 3D... a Import XML...."
+        "**Animácia:** nové zobrazenie Animácia na rozšírenej obrazovke, pod Grid. Dvaja technici montujú obrazovky projektu panel po paneli v skutočnej mierke: panely na dosah nesú v rukách, vysoké pomocou plošiny. Ak má projekt logo, objaví sa na ich tričkách. Na konci testovací obraz každej obrazovky. Dá sa uložiť aj ako video MP4 v okne Export.",
+        "**3D Stage:** tlačidlá zobrazení v dolnom rohu sú opäť zarovnané s panelom nástrojov a už ho nezakrývajú."
       ],
       "bg": [
-        "**Connection:** кабелът може да минава от един екран към следващия, дори през празни разстояния, по същия порт, докато се запълни, а връзката се вижда и в 3D. Нов бутон Clear all.",
-        "**Импорт на XML:** File > Import XML... превръща всеки слайс от предварителна настройка на Advanced Output на Resolume в LED екран, а платното е точно с изходната резолюция.",
-        "**Тегло:** тегло на кабинет (по подразбиране 8,5 kg), с тегло на панел и общо тегло в полето Info, Status, 3D Stage и PDF отчета. Единицата за тегло се избира в Settings; предварителните настройки на кабинета пазят теглото.",
-        "**Цветове и меню:** черно-бяла опция в менюто за цвят на панела (двойно щракване), а File вече има отделно Import 3D... и Import XML...."
+        "**Анимация:** нов изглед „Анимация“ на разширения екран, под Grid. Двама техници монтират екраните на проекта панел по панел в реален мащаб: панелите на ръка разстояние се носят на ръце, високите – с подемник. Ако проектът има лого, то се вижда на тениските им. Накрая – тестовото изображение на всеки екран. Може да се запише и като MP4 видео в прозореца „Експорт“.",
+        "**3D Stage:** бутоните за изгледи в долния ъгъл отново са подравнени с лентата с инструменти и вече не я закриват."
       ],
       "sr": [
-        "**Connection:** кабл може да прелази са једног екрана на следећи, чак и преко празних размака, на истом порту док се не попуни, а веза се види и у 3D. Ново дугме Clear all.",
-        "**Увоз XML:** File > Import XML... претвара сваки слајс из Advanced Output подешавања у Resolume-у у LED екран, а платно има тачно излазну резолуцију.",
-        "**Тежина:** тежина по кабинету (подразумевано 8,5 kg), са тежином по панелу и укупном тежином у пољу Info, Status, 3D Stage и PDF извештају. Јединица тежине бира се у Settings; подешавања кабинета чувају и тежину.",
-        "**Боје и мени:** црно-бела опција у менију боја панела (двоклик), а File сада има засебно Import 3D... и Import XML...."
+        "**Анимација:** нови приказ „Анимација“ на проширеном екрану, испод Grid. Два техничара монтирају екране пројекта панел по панел у стварној размери: панеле на дохват руке носе у рукама, високе подизном платформом. Ако пројекат има лого, види се на њиховим мајицама. На крају – тест-слика сваког екрана. Може се сачувати и као MP4 видео у прозору „Извоз“.",
+        "**3D Stage:** дугмад приказа у доњем углу поново су поравната са траком алата и више је не прекривају."
       ],
       "hr": [
-        "**Connection:** kabel može prelaziti s jednog zaslona na sljedeći, čak i preko praznih razmaka, na istom priključku dok se ne popuni, a veza se vidi i u 3D-u. Novi gumb Clear all.",
-        "**Uvoz XML-a:** File > Import XML... pretvara svaki slice iz predloška Advanced Output u Resolumeu u LED zaslon, a platno ima točno izlaznu razlučivost.",
-        "**Težina:** težina po kabinetu (zadano 8,5 kg), s težinom po panelu i ukupnom težinom u okviru Info, Status, 3D Stage i PDF izvješću. Jedinica težine bira se u Settings; predlošci kabineta čuvaju i težinu.",
-        "**Boje i izbornik:** crno-bijela opcija u izborniku boja panela (dvoklik), a File sada ima zasebno Import 3D... i Import XML...."
+        "**Animacija:** novi prikaz Animacija na proširenom zaslonu, ispod Grid. Dva tehničara montiraju zaslone projekta panel po panel u stvarnom mjerilu: panele nadohvat ruke nose u rukama, visoke podiznom platformom. Ako projekt ima logotip, vidi se na njihovim majicama. Na kraju testna slika svakog zaslona. Može se spremiti i kao MP4 videozapis u prozoru Izvoz.",
+        "**3D Stage:** gumbi prikaza u donjem kutu ponovno su poravnati s alatnom trakom i više je ne prekrivaju."
       ],
       "gu": [
-        "**Connection:** કેબલ એક સ્ક્રીનથી બીજી સ્ક્રીન સુધી જઈ શકે છે, વચ્ચે ખાલી જગ્યા હોય તો પણ, પોર્ટ ભરાય ત્યાં સુધી એ જ પોર્ટ પર; જોડાણ 3D માં પણ દેખાય છે. નવું Clear all બટન.",
-        "**XML આયાત:** File > Import XML... Resolume Advanced Output પ્રીસેટની દરેક slice ને LED સ્ક્રીન બનાવે છે, અને કેનવાસ બરાબર આઉટપુટ રિઝોલ્યુશનમાં હોય છે.",
-        "**વજન:** દરેક કેબિનેટનું વજન (ડિફોલ્ટ 8.5 kg), Info બોક્સ, Status, 3D Stage અને PDF અહેવાલમાં પ્રતિ પેનલ વજન અને કુલ વજન. વજનનો એકમ Settings માં પસંદ કરો; કેબિનેટ પ્રીસેટ વજન પણ સાચવે છે.",
-        "**રંગો અને મેનુ:** પેનલના રંગ મેનુમાં (ડબલ-ક્લિક) કાળો-સફેદ વિકલ્પ, અને File માં હવે Import 3D... અને Import XML... અલગ છે."
+        "**એનિમેશન:** એક્સટેન્ડેડ સ્ક્રીનમાં Grid નીચે નવો એનિમેશન વ્યૂ. બે ટેકનિશિયન પ્રોજેક્ટની સ્ક્રીન સાચા માપમાં એક-એક પેનલ જોડે છે: હાથ પહોંચે તે પેનલ હાથથી, ઊંચી પેનલ લિફ્ટથી. પ્રોજેક્ટમાં લોગો હોય તો તે તેમના શર્ટ પર દેખાય છે. અંતે દરેક સ્ક્રીનની ટેસ્ટ ઇમેજ. એક્સપોર્ટ વિન્ડોમાં MP4 વિડિયો તરીકે પણ સાચવી શકાય છે.",
+        "**3D Stage:** નીચેના ખૂણાના વ્યૂ બટન ફરી ટૂલબાર સાથે એક લાઇનમાં છે અને હવે તેને ઢાંકતા નથી."
       ],
       "pa": [
-        "**Connection:** ਕੇਬਲ ਇੱਕ ਸਕ੍ਰੀਨ ਤੋਂ ਅਗਲੀ ਤੱਕ ਜਾ ਸਕਦੀ ਹੈ, ਵਿਚਕਾਰ ਖਾਲੀ ਥਾਂ ਹੋਵੇ ਤਾਂ ਵੀ, ਪੋਰਟ ਭਰਨ ਤੱਕ ਉਸੇ ਪੋਰਟ ਉੱਤੇ; ਜੋੜ 3D ਵਿੱਚ ਵੀ ਦਿਸਦਾ ਹੈ। ਨਵਾਂ Clear all ਬਟਨ।",
-        "**XML ਆਯਾਤ:** File > Import XML... Resolume Advanced Output ਪ੍ਰੀਸੈੱਟ ਦੀ ਹਰ slice ਨੂੰ LED ਸਕ੍ਰੀਨ ਬਣਾਉਂਦਾ ਹੈ, ਅਤੇ ਕੈਨਵਸ ਬਿਲਕੁਲ ਆਊਟਪੁੱਟ ਰੈਜ਼ੋਲਿਊਸ਼ਨ ਉੱਤੇ ਹੁੰਦਾ ਹੈ।",
-        "**ਭਾਰ:** ਹਰ ਕੈਬਿਨੇਟ ਦਾ ਭਾਰ (ਡਿਫਾਲਟ 8.5 kg), Info ਬਾਕਸ, Status, 3D Stage ਅਤੇ PDF ਰਿਪੋਰਟ ਵਿੱਚ ਪ੍ਰਤੀ ਪੈਨਲ ਭਾਰ ਅਤੇ ਕੁੱਲ ਭਾਰ। ਭਾਰ ਦੀ ਇਕਾਈ Settings ਵਿੱਚ ਚੁਣੋ; ਕੈਬਿਨੇਟ ਪ੍ਰੀਸੈੱਟ ਭਾਰ ਵੀ ਰੱਖਦੇ ਹਨ।",
-        "**ਰੰਗ ਅਤੇ ਮੀਨੂ:** ਪੈਨਲ ਦੇ ਰੰਗ ਮੀਨੂ (ਡਬਲ-ਕਲਿੱਕ) ਵਿੱਚ ਕਾਲਾ-ਚਿੱਟਾ ਵਿਕਲਪ, ਅਤੇ File ਵਿੱਚ ਹੁਣ Import 3D... ਅਤੇ Import XML... ਵੱਖਰੇ ਹਨ।"
+        "**ਐਨੀਮੇਸ਼ਨ:** ਐਕਸਟੈਂਡਡ ਸਕ੍ਰੀਨ ਵਿੱਚ Grid ਦੇ ਹੇਠਾਂ ਨਵਾਂ ਐਨੀਮੇਸ਼ਨ ਵਿਊ। ਦੋ ਤਕਨੀਸ਼ੀਅਨ ਪ੍ਰੋਜੈਕਟ ਦੀਆਂ ਸਕ੍ਰੀਨਾਂ ਅਸਲ ਪੈਮਾਨੇ 'ਤੇ ਇੱਕ-ਇੱਕ ਪੈਨਲ ਜੋੜਦੇ ਹਨ: ਪਹੁੰਚ ਵਾਲੇ ਪੈਨਲ ਹੱਥ ਨਾਲ, ਉੱਚੇ ਲਿਫਟ ਨਾਲ। ਜੇ ਪ੍ਰੋਜੈਕਟ ਵਿੱਚ ਲੋਗੋ ਹੈ ਤਾਂ ਉਹ ਉਨ੍ਹਾਂ ਦੀਆਂ ਕਮੀਜ਼ਾਂ 'ਤੇ ਦਿਸਦਾ ਹੈ। ਅੰਤ ਵਿੱਚ ਹਰ ਸਕ੍ਰੀਨ ਦੀ ਟੈਸਟ ਤਸਵੀਰ। ਇਸਨੂੰ ਐਕਸਪੋਰਟ ਵਿੰਡੋ ਵਿੱਚ MP4 ਵੀਡੀਓ ਵਜੋਂ ਵੀ ਸੰਭਾਲਿਆ ਜਾ ਸਕਦਾ ਹੈ।",
+        "**3D Stage:** ਹੇਠਲੇ ਕੋਨੇ ਦੇ ਵਿਊ ਬਟਨ ਫਿਰ ਟੂਲਬਾਰ ਨਾਲ ਇੱਕ ਸੇਧ ਵਿੱਚ ਹਨ ਅਤੇ ਹੁਣ ਉਸਨੂੰ ਨਹੀਂ ਢੱਕਦੇ।"
       ],
       "kn": [
-        "**Connection:** ಕೇಬಲ್ ಒಂದು ಪರದೆಯಿಂದ ಮುಂದಿನದಕ್ಕೆ ಹೋಗಬಹುದು, ನಡುವೆ ಖಾಲಿ ಜಾಗವಿದ್ದರೂ, ಪೋರ್ಟ್ ತುಂಬುವವರೆಗೆ ಅದೇ ಪೋರ್ಟ್‌ನಲ್ಲಿ; ಸಂಪರ್ಕ 3D ಯಲ್ಲೂ ಕಾಣುತ್ತದೆ. ಹೊಸ Clear all ಬಟನ್.",
-        "**XML ಆಮದು:** File > Import XML... Resolume Advanced Output ಪ್ರೀಸೆಟ್‌ನ ಪ್ರತಿ slice ಅನ್ನು LED ಪರದೆಯಾಗಿಸುತ್ತದೆ; ಕ್ಯಾನ್ವಾಸ್ ನಿಖರವಾಗಿ ಔಟ್‌ಪುಟ್ ರೆಸಲ್ಯೂಶನ್‌ನಲ್ಲಿರುತ್ತದೆ.",
-        "**ತೂಕ:** ಪ್ರತಿ ಕ್ಯಾಬಿನೆಟ್ ತೂಕ (ಡೀಫಾಲ್ಟ್ 8.5 kg), Info ಪೆಟ್ಟಿಗೆ, Status, 3D Stage ಮತ್ತು PDF ವರದಿಯಲ್ಲಿ ಪ್ರತಿ ಪ್ಯಾನೆಲ್ ತೂಕ ಮತ್ತು ಒಟ್ಟು ತೂಕ. ತೂಕದ ಘಟಕವನ್ನು Settings ನಲ್ಲಿ ಆರಿಸಿ; ಕ್ಯಾಬಿನೆಟ್ ಪ್ರೀಸೆಟ್‌ಗಳು ತೂಕವನ್ನೂ ಉಳಿಸುತ್ತವೆ.",
-        "**ಬಣ್ಣಗಳು ಮತ್ತು ಮೆನು:** ಪ್ಯಾನೆಲ್ ಬಣ್ಣದ ಮೆನುವಿನಲ್ಲಿ (ಡಬಲ್ ಕ್ಲಿಕ್) ಕಪ್ಪು-ಬಿಳುಪು ಆಯ್ಕೆ, ಮತ್ತು File ನಲ್ಲಿ ಈಗ Import 3D... ಮತ್ತು Import XML... ಪ್ರತ್ಯೇಕವಾಗಿವೆ."
+        "**ಅನಿಮೇಷನ್:** ಎಕ್ಸ್‌ಟೆಂಡೆಡ್ ಸ್ಕ್ರೀನ್‌ನಲ್ಲಿ Grid ಕೆಳಗೆ ಹೊಸ ಅನಿಮೇಷನ್ ವೀಕ್ಷಣೆ. ಇಬ್ಬರು ತಂತ್ರಜ್ಞರು ಯೋಜನೆಯ ಪರದೆಗಳನ್ನು ನಿಜವಾದ ಅಳತೆಯಲ್ಲಿ ಒಂದೊಂದೇ ಪ್ಯಾನೆಲ್ ಜೋಡಿಸುತ್ತಾರೆ: ಕೈಗೆಟುಕುವ ಪ್ಯಾನೆಲ್‌ಗಳು ಕೈಯಲ್ಲಿ, ಎತ್ತರದವು ಲಿಫ್ಟ್‌ನಲ್ಲಿ. ಯೋಜನೆಗೆ ಲೋಗೋ ಇದ್ದರೆ ಅದು ಅವರ ಅಂಗಿಗಳ ಮೇಲೆ ಕಾಣುತ್ತದೆ. ಕೊನೆಯಲ್ಲಿ ಪ್ರತಿ ಪರದೆಯ ಪರೀಕ್ಷಾ ಚಿತ್ರ. ರಫ್ತು ವಿಂಡೋದಲ್ಲಿ MP4 ವೀಡಿಯೊ ಆಗಿಯೂ ಉಳಿಸಬಹುದು.",
+        "**3D Stage:** ಕೆಳಗಿನ ಮೂಲೆಯ ವೀಕ್ಷಣೆ ಬಟನ್‌ಗಳು ಮತ್ತೆ ಟೂಲ್‌ಬಾರ್‌ನೊಂದಿಗೆ ಸಾಲಿನಲ್ಲಿವೆ ಮತ್ತು ಇನ್ನು ಅದನ್ನು ಮುಚ್ಚುವುದಿಲ್ಲ."
       ],
       "ne": [
-        "**Connection:** केबल एउटा स्क्रिनबाट अर्कोमा जान सक्छ, बीचमा खाली ठाउँ भए पनि, पोर्ट नभरिएसम्म उही पोर्टमा; जडान 3D मा पनि देखिन्छ। नयाँ Clear all बटन।",
-        "**XML आयात:** File > Import XML... ले Resolume Advanced Output प्रिसेटको हरेक slice लाई LED स्क्रिन बनाउँछ, र क्यानभास ठीक आउटपुट रिजोलुसनमा हुन्छ।",
-        "**तौल:** प्रति क्याबिनेट तौल (पूर्वनिर्धारित 8.5 kg), Info बाकस, Status, 3D Stage र PDF प्रतिवेदनमा प्रति प्यानल तौल र कुल तौल। तौलको एकाइ Settings मा छान्नुहोस्; क्याबिनेट प्रिसेटले तौल पनि राख्छ।",
-        "**रङ र मेनु:** प्यानलको रङ मेनुमा (डबल-क्लिक) कालो-सेतो विकल्प, र File मा अब Import 3D... र Import XML... छुट्टाछुट्टै छन्।"
+        "**एनिमेसन:** एक्सटेन्डेड स्क्रिनमा Grid मुनि नयाँ एनिमेसन दृश्य। दुई प्राविधिकले परियोजनाका स्क्रिनहरू वास्तविक नापमा एक-एक प्यानल जोड्छन्: पहुँचमा भएका प्यानल हातले, अग्ला लिफ्टले। परियोजनामा लोगो भए त्यो उनीहरूको सर्टमा देखिन्छ। अन्त्यमा हरेक स्क्रिनको परीक्षण चित्र। यसलाई निर्यात सञ्झ्यालमा MP4 भिडियोका रूपमा पनि सुरक्षित गर्न सकिन्छ।",
+        "**3D Stage:** तलको कुनाका दृश्य बटनहरू फेरि टुलबारसँग एउटै रेखामा छन् र अब त्यसलाई छोप्दैनन्।"
       ],
       "km": [
-        "**Connection:** ខ្សែអាចឆ្លងពីអេក្រង់មួយទៅអេក្រង់បន្ទាប់ ទោះមានចន្លោះទំនេរក៏ដោយ នៅលើច្រកដដែលរហូតដល់ពេញ ហើយការតភ្ជាប់ក៏បង្ហាញក្នុង 3D ដែរ។ ប៊ូតុងថ្មី Clear all។",
-        "**នាំចូល XML៖** File > Import XML... បំប្លែង slice នីមួយៗនៃការកំណត់ជាមុន Advanced Output របស់ Resolume ទៅជាអេក្រង់ LED ហើយផ្ទាំងក្រណាត់មានទំហំត្រឹមត្រូវតាមគុណភាពបង្ហាញលទ្ធផល។",
-        "**ទម្ងន់៖** ទម្ងន់ក្នុងមួយទូ (លំនាំដើម 8.5 kg) ព្រមទាំងទម្ងន់ក្នុងមួយផ្ទាំង និងទម្ងន់សរុបក្នុងប្រអប់ Info, Status, 3D Stage និងរបាយការណ៍ PDF។ ជ្រើសឯកតាទម្ងន់ក្នុង Settings ហើយការកំណត់ជាមុនរបស់ទូរក្សាទម្ងន់ផងដែរ។",
-        "**ពណ៌ និងម៉ឺនុយ៖** ជម្រើសសខ្មៅក្នុងម៉ឺនុយពណ៌នៃផ្ទាំង (ចុចពីរដង) ហើយ File ឥឡូវមាន Import 3D... និង Import XML... ដាច់ពីគ្នា។"
+        "**ចលនា:** ទិដ្ឋភាពថ្មី ចលនា នៅលើអេក្រង់បន្ថែម ខាងក្រោម Grid។ អ្នកបច្ចេកទេសពីរនាក់ដំឡើងអេក្រង់របស់គម្រោងម្តងមួយបន្ទះ តាមទំហំពិត៖ បន្ទះដែលឈោងដល់ យកដោយដៃ បន្ទះខ្ពស់ប្រើម៉ាស៊ីនលើក។ បើគម្រោងមានឡូហ្គោ វានឹងបង្ហាញលើអាវរបស់ពួកគេ។ ចុងក្រោយ រូបភាពសាកល្បងនៃអេក្រង់នីមួយៗ។ អាចរក្សាទុកជាវីដេអូ MP4 នៅក្នុងផ្ទាំងនាំចេញផងដែរ។",
+        "**3D Stage:** ប៊ូតុងទិដ្ឋភាពនៅជ្រុងខាងក្រោមតម្រង់ជួរជាមួយរបារឧបករណ៍វិញ ហើយលែងបាំងវាទៀតហើយ។"
       ],
       "kk": [
-        "**Connection:** кабель бос аралықтар болса да бір экраннан келесісіне өте алады, порт толғанша сол портта қалады, ал байланыс 3D-де де көрінеді. Жаңа Clear all түймесі.",
-        "**XML импорттау:** File > Import XML... Resolume Advanced Output алдын ала баптауындағы әр slice-ты LED экранға айналдырады, кенеп дәл шығыс ажыратымдылығында болады.",
-        "**Салмақ:** әр кабинеттің салмағы (әдепкі 8,5 кг), бір панельдің салмағы мен жалпы салмақ Info терезесінде, Status, 3D Stage және PDF есебінде. Салмақ бірлігі Settings-те таңдалады; кабинет баптаулары салмақты да сақтайды.",
-        "**Түстер мен мәзір:** панельдің түс мәзірінде (екі рет басу) ақ-қара нұсқасы, ал File-да енді Import 3D... және Import XML... бөлек."
+        "**Анимация:** кеңейтілген экранда Grid астында жаңа «Анимация» көрінісі. Екі техник жобаның экрандарын нақты масштабта панельден панельге құрастырады: қол жететін панельдерді қолмен, биіктерін көтергішпен. Жобада логотип болса, ол олардың футболкаларында көрінеді. Соңында әр экранның сынақ суреті. Оны «Экспорт» терезесінде MP4 бейнесі ретінде де сақтауға болады.",
+        "**3D Stage:** төменгі бұрыштағы көрініс түймелері қайтадан құралдар тақтасымен түзуленді және енді оны жаппайды."
       ],
       "uz": [
-        "**Connection:** kabel bitta ekrandan keyingisiga, oradagi boʻsh joylar orqali ham, port toʻlguncha shu portda oʻta oladi, ulanish 3D da ham koʻrinadi. Yangi Clear all tugmasi.",
-        "**XML import:** File > Import XML... Resolume Advanced Output presetidagi har bir slice ni LED ekranga aylantiradi, tuval aynan chiqish ruxsatida boʻladi.",
-        "**Ogʻirlik:** har bir kabinet ogʻirligi (standart 8,5 kg), Info oynasi, Status, 3D Stage va PDF hisobotida bir panel ogʻirligi va umumiy ogʻirlik. Ogʻirlik birligi Settings da tanlanadi; kabinet presetlari ogʻirlikni ham saqlaydi.",
-        "**Ranglar va menyu:** panel rang menyusida (ikki marta bosish) oq-qora variant, File da esa endi Import 3D... va Import XML... alohida."
+        "**Animatsiya:** kengaytirilgan ekranda Grid ostida yangi Animatsiya ko‘rinishi. Ikki texnik loyiha ekranlarini haqiqiy masshtabda panelma-panel yig‘adi: qo‘l yetadigan panellar qo‘lda, balandlari ko‘targich bilan. Loyihada logotip bo‘lsa, u ularning futbolkalarida ko‘rinadi. Oxirida har bir ekranning test tasviri. Uni Eksport oynasida MP4 video sifatida ham saqlash mumkin.",
+        "**3D Stage:** pastki burchakdagi ko‘rinish tugmalari yana asboblar paneli bilan bir chiziqda va endi uni yopmaydi."
       ],
       "am": [
-        "**Connection:** ገመዱ ባዶ ክፍተት ቢኖርም ከአንድ ስክሪን ወደ ቀጣዩ መሄድ ይችላል፣ ፖርቱ እስኪሞላ በዚያው ፖርት፤ ግንኙነቱ በ3D ውስጥም ይታያል። አዲስ Clear all ቁልፍ።",
-        "**XML አስገባ፦** File > Import XML... የResolume Advanced Output ቅድመ-ቅንብር እያንዳንዱን slice ወደ LED ስክሪን ይቀይራል፤ ሸራው በትክክል የውጽዓቱን ጥራት ይይዛል።",
-        "**ክብደት፦** የእያንዳንዱ ካቢኔት ክብደት (ነባሪ 8.5 kg)፣ የአንድ ፓነል ክብደትና ጠቅላላ ክብደት በInfo ሳጥን፣ Status፣ 3D Stage እና PDF ሪፖርት ውስጥ። የክብደት መለኪያውን በSettings ይምረጡ፤ የካቢኔት ቅድመ-ቅንብሮች ክብደቱንም ያስቀምጣሉ።",
-        "**ቀለሞችና ምናሌ፦** በፓነሉ የቀለም ምናሌ (ሁለቴ ጠቅ) ጥቁርና ነጭ አማራጭ፣ File ደግሞ አሁን Import 3D... እና Import XML... ለየብቻ አለው።"
+        "**እነማ:** በተዘረጋው ማያ ገጽ ላይ ከGrid በታች አዲስ የእነማ እይታ። ሁለት ቴክኒሻኖች የፕሮጀክቱን ማያ ገጾች በእውነተኛ መጠን ፓነል በፓነል ይገጥማሉ፤ የሚደረሱ ፓነሎች በእጅ፣ ከፍ ያሉት በማንሻ። ፕሮጀክቱ አርማ ካለው በሸሚዛቸው ላይ ይታያል። በመጨረሻ የእያንዳንዱ ማያ ገጽ የሙከራ ምስል። በመላኪያ መስኮት ውስጥ እንደ MP4 ቪዲዮም ማስቀመጥ ይቻላል።",
+        "**3D Stage:** ከታችኛው ጥግ ያሉት የእይታ አዝራሮች እንደገና ከመሳሪያ አሞሌው ጋር ተሰልፈዋል፤ ከአሁን በኋላ አይሸፍኑትም።"
       ],
       "sl": [
-        "**Connection:** kabel lahko gre z enega zaslona na naslednjega, tudi čez prazne vrzeli, na istih vratih, dokler se ne zapolnijo, povezava pa se vidi tudi v 3D. Nov gumb Clear all.",
-        "**Uvoz XML:** File > Import XML... iz vsakega slice prednastavitve Advanced Output programa Resolume naredi zaslon LED, platno pa ima natančno izhodno ločljivost.",
-        "**Teža:** teža ohišja (privzeto 8,5 kg), s težo na ploščo in skupno težo v polju Info, Status, 3D Stage in poročilu PDF. Enoto teže izberete v Settings; prednastavitve ohišja shranijo tudi težo.",
-        "**Barve in meni:** črno-bela možnost v meniju barv plošče (dvoklik), File pa ima zdaj ločeno Import 3D... in Import XML...."
+        "**Animacija:** nov pogled Animacija na razširjenem zaslonu, pod Grid. Dva tehnika v resničnem merilu ploščo za ploščo sestavita zaslone projekta: plošče na dosegu roke neseta v rokah, visoke z dvižno ploščadjo. Če ima projekt logotip, je viden na njunih majicah. Na koncu testna slika vsakega zaslona. Shranite jo lahko tudi kot video MP4 v oknu Izvozi.",
+        "**3D Stage:** gumbi pogledov v spodnjem kotu so znova poravnani z orodno vrstico in je ne prekrivajo več."
       ]
     },
-    "2.7.1": {
+    "2.8.4": {
       "en": [
-        "**Grid tab:** saved grids no longer show thick vertical lines, and the diagonals are brighter and a little thicker.",
-        "**PDF report:** the electrical results now include the total consumption in kVA.",
-        "**LED screen:** an additional text line under the screen name, a color picker button (also in the double-click menu) and a Pixel pitch label.",
-        "**Cabinet presets:** save the cabinet resolution and size as a preset with a name and delete it with the trash button; presets are saved inside the project."
+        "**Adjustments:** in the Connection tab, the Wiring section buttons are aligned again: Clear and Clear all have the same width, one above the other."
       ],
       "pt": [
-        "**Aba Grid:** os grids salvos não mostram mais linhas verticais grossas, e as diagonais ficaram mais claras e um pouco mais grossas.",
-        "**Relatório em PDF:** os resultados elétricos agora mostram o consumo total em kVA.",
-        "**LED screen:** uma linha de texto adicional embaixo do nome da tela, um botão de escolher a cor (também no menu de dois cliques) e o rótulo Pixel pitch.",
-        "**Presets de gabinete:** salve a resolução e o tamanho do gabinete como preset, com um nome, e apague com a lixeira; os presets vão junto no projeto."
+        "**Ajustes:** na aba Conexão, os botões da seção Cabeamento voltaram a ficar alinhados: Limpar e Limpar tudo têm a mesma largura, um em cima do outro."
       ],
       "es": [
-        "**Pestaña Grid:** las cuadrículas guardadas ya no muestran líneas verticales gruesas, y las diagonales son más claras y un poco más gruesas.",
-        "**Informe PDF:** los resultados eléctricos ahora incluyen el consumo total en kVA.",
-        "**LED screen:** una línea de texto adicional bajo el nombre de la pantalla, un botón para elegir el color (también en el menú de doble clic) y la etiqueta Pixel pitch.",
-        "**Preajustes de gabinete:** guarde la resolución y el tamaño del gabinete como preajuste con un nombre y elimínelo con la papelera; los preajustes se guardan en el proyecto."
+        "**Ajustes:** en la pestaña Conexión, los botones de la sección Cableado vuelven a estar alineados: Borrar y Borrar todo tienen el mismo ancho, uno encima del otro."
       ],
       "fr": [
-        "**Onglet Grid :** les mires enregistrées n'affichent plus de grosses lignes verticales, et les diagonales sont plus claires et un peu plus épaisses.",
-        "**Rapport PDF :** les résultats électriques indiquent désormais la consommation totale en kVA.",
-        "**LED screen :** une ligne de texte supplémentaire sous le nom de l'écran, un bouton de choix de couleur (aussi dans le menu du double-clic) et l'étiquette Pixel pitch.",
-        "**Préréglages de caisson :** enregistrez la résolution et la taille du caisson comme préréglage nommé, supprimez-le avec la corbeille ; les préréglages sont enregistrés dans le projet."
+        "**Ajustements :** dans l'onglet Connexion, les boutons de la section Câblage sont de nouveau alignés : Effacer et Tout effacer ont la même largeur, l'un au-dessus de l'autre."
       ],
       "de": [
-        "**Grid-Tab:** gespeicherte Raster zeigen keine dicken senkrechten Linien mehr, und die Diagonalen sind heller und etwas dicker.",
-        "**PDF-Bericht:** die elektrischen Ergebnisse enthalten jetzt den Gesamtverbrauch in kVA.",
-        "**LED screen:** eine zusätzliche Textzeile unter dem Bildschirmnamen, eine Farbauswahl-Schaltfläche (auch im Doppelklick-Menü) und die Beschriftung Pixel pitch.",
-        "**Kabinett-Voreinstellungen:** Auflösung und Größe des Kabinetts als benannte Voreinstellung speichern und mit dem Papierkorb löschen; die Voreinstellungen werden im Projekt gespeichert."
+        "**Anpassungen:** im Tab Verbindung sind die Schaltflächen des Bereichs Verkabelung wieder ausgerichtet: Löschen und Alle löschen sind gleich breit und stehen übereinander."
       ],
       "it": [
-        "**Scheda Grid:** le griglie salvate non mostrano più linee verticali spesse, e le diagonali sono più chiare e un po' più spesse.",
-        "**Report PDF:** i risultati elettrici ora includono il consumo totale in kVA.",
-        "**LED screen:** una riga di testo aggiuntivo sotto il nome dello schermo, un pulsante per scegliere il colore (anche nel menu del doppio clic) e l'etichetta Pixel pitch.",
-        "**Preimpostazioni del cabinet:** salva risoluzione e dimensioni del cabinet come preimpostazione con un nome ed eliminala con il cestino; le preimpostazioni vengono salvate nel progetto."
+        "**Ritocchi:** nella scheda Connessione i pulsanti della sezione Cablaggio sono di nuovo allineati: Pulisci e Pulisci tutto hanno la stessa larghezza, uno sopra l'altro."
       ],
       "nl": [
-        "**Tabblad Grid:** opgeslagen rasters tonen geen dikke verticale lijnen meer, en de diagonalen zijn helderder en iets dikker.",
-        "**PDF-rapport:** de elektrische resultaten tonen nu het totale verbruik in kVA.",
-        "**LED screen:** een extra tekstregel onder de schermnaam, een kleurkiezerknop (ook in het dubbelklikmenu) en het label Pixel pitch.",
-        "**Cabinet-voorinstellingen:** sla de resolutie en grootte van de cabinet op als voorinstelling met een naam en verwijder die met de prullenbak; voorinstellingen worden in het project opgeslagen."
+        "**Aanpassingen:** op het tabblad Verbinding staan de knoppen van de sectie Bekabeling weer uitgelijnd: Wissen en Alles wissen zijn even breed en staan onder elkaar."
       ],
       "ru": [
-        "**Вкладка Grid:** в сохранённых сетках больше нет толстых вертикальных линий, а диагонали стали светлее и немного толще.",
-        "**PDF-отчёт:** электрические результаты теперь показывают общее потребление в кВА.",
-        "**LED screen:** дополнительная строка текста под названием экрана, кнопка выбора цвета (также в меню двойного щелчка) и подпись Pixel pitch.",
-        "**Пресеты кабинета:** сохраняйте разрешение и размер кабинета как пресет с именем и удаляйте его корзиной; пресеты сохраняются в проекте."
+        "**Доработки:** на вкладке «Подключение» кнопки раздела «Разводка» снова выровнены: «Очистить» и «Очистить всё» одной ширины и стоят друг над другом."
       ],
       "tr": [
-        "**Grid sekmesi:** kaydedilen ızgaralarda artık kalın dikey çizgiler görünmüyor; köşegenler daha açık ve biraz daha kalın.",
-        "**PDF raporu:** elektrik sonuçları artık toplam tüketimi kVA olarak gösteriyor.",
-        "**LED screen:** ekran adının altında ek bir metin satırı, renk seçme düğmesi (çift tıklama menüsünde de) ve Pixel pitch etiketi.",
-        "**Kabin ön ayarları:** kabin çözünürlüğünü ve boyutunu adlı bir ön ayar olarak kaydedin, çöp kutusuyla silin; ön ayarlar projeye kaydedilir."
+        "**Ayarlar:** Bağlantı sekmesinde Kablolama bölümünün düğmeleri yeniden hizalandı: Temizle ve Tümünü temizle aynı genişlikte, biri diğerinin üstünde."
       ],
       "id": [
-        "**Tab Grid:** grid yang disimpan tidak lagi menampilkan garis vertikal tebal, dan garis diagonal lebih terang serta sedikit lebih tebal.",
-        "**Laporan PDF:** hasil kelistrikan kini menampilkan total konsumsi dalam kVA.",
-        "**LED screen:** baris teks tambahan di bawah nama layar, tombol pemilih warna (juga di menu klik ganda), dan label Pixel pitch.",
-        "**Preset kabinet:** simpan resolusi dan ukuran kabinet sebagai preset bernama dan hapus dengan tombol tempat sampah; preset disimpan di dalam proyek."
+        "**Penyesuaian:** di tab Koneksi, tombol bagian Pengkabelan kembali sejajar: Bersihkan dan Bersihkan semua sama lebarnya, satu di atas yang lain."
       ],
       "hu": [
-        "**Grid fül:** a mentett rácsokon már nem jelennek meg vastag függőleges vonalak, az átlók pedig világosabbak és kicsit vastagabbak.",
-        "**PDF-jelentés:** az elektromos eredmények most a teljes fogyasztást is mutatják kVA-ban.",
-        "**LED screen:** egy további szövegsor a képernyő neve alatt, színválasztó gomb (a dupla kattintásos menüben is) és a Pixel pitch felirat.",
-        "**Kabinet-előbeállítások:** mentse a kabinet felbontását és méretét névvel ellátott előbeállításként, és törölje a kukával; az előbeállítások a projektbe is mentődnek."
+        "**Finomítások:** a Kapcsolat fülön a Kábelezés rész gombjai ismét egy vonalban vannak: a Törlés és az Összes törlése egyforma széles, egymás alatt."
       ],
       "zh-Hans": [
-        "**Grid 选项卡：** 保存的网格不再出现粗竖线，对角线也更亮、稍粗。",
-        "**PDF 报告：** 电气结果现在包含以 kVA 计的总功耗。",
-        "**LED screen：** 屏幕名称下方新增一行附加文本、颜色选择按钮（双击菜单中也有）以及 Pixel pitch 标签。",
-        "**箱体预设：** 可将箱体分辨率和尺寸保存为带名称的预设，并用垃圾桶按钮删除；预设会保存在项目中。"
+        "**调整：** 在连接选项卡中，布线部分的按钮重新对齐：清除和全部清除宽度相同，上下排列。"
       ],
       "zh-Hant": [
-        "**Grid 分頁：** 儲存的網格不再出現粗直線，對角線也更亮、稍粗。",
-        "**PDF 報告：** 電氣結果現在包含以 kVA 計的總耗電量。",
-        "**LED screen：** 螢幕名稱下方新增一行附加文字、顏色選擇按鈕（雙擊選單中也有）以及 Pixel pitch 標籤。",
-        "**箱體預設：** 可將箱體解析度和尺寸儲存為具名稱的預設，並以垃圾桶按鈕刪除；預設會儲存在專案中。"
+        "**調整：** 在連接分頁中，佈線區段的按鈕重新對齊：清除和全部清除寬度相同，上下排列。"
       ],
       "ja": [
-        "**Grid タブ：** 保存したグリッドに太い縦線が出なくなり、対角線がより明るく少し太くなりました。",
-        "**PDF レポート：** 電気の結果に総消費電力（kVA）が表示されるようになりました。",
-        "**LED screen：** 画面名の下に追加テキスト行、色選択ボタン（ダブルクリックメニューにも）と Pixel pitch ラベルを追加しました。",
-        "**キャビネットプリセット：** キャビネットの解像度とサイズを名前付きプリセットとして保存し、ゴミ箱ボタンで削除できます。プリセットはプロジェクトにも保存されます。"
+        "**調整：** 接続タブの配線セクションのボタンが再び揃いました。「クリア」と「すべてクリア」は同じ幅で上下に並びます。"
       ],
       "ko": [
-        "**Grid 탭:** 저장한 그리드에 더 이상 굵은 세로선이 나타나지 않으며, 대각선이 더 밝고 약간 굵어졌습니다.",
-        "**PDF 보고서:** 전기 결과에 이제 총 소비 전력(kVA)이 표시됩니다.",
-        "**LED screen:** 화면 이름 아래의 추가 텍스트 줄, 색상 선택 버튼(더블 클릭 메뉴에도 있음), Pixel pitch 라벨이 추가되었습니다.",
-        "**캐비닛 프리셋:** 캐비닛 해상도와 크기를 이름이 있는 프리셋으로 저장하고 휴지통 버튼으로 삭제할 수 있으며, 프리셋은 프로젝트에도 저장됩니다."
+        "**조정:** 연결 탭의 배선 섹션 버튼이 다시 정렬되었습니다. 지우기와 모두 지우기가 같은 너비로 위아래에 놓입니다."
       ],
       "ar": [
-        "**تبويب Grid:** لم تعد الشبكات المحفوظة تُظهر خطوطًا عمودية سميكة، وأصبحت الأقطار أفتح وأسمك قليلًا.",
-        "**تقرير PDF:** تتضمن النتائج الكهربائية الآن إجمالي الاستهلاك بوحدة kVA.",
-        "**LED screen:** سطر نص إضافي أسفل اسم الشاشة، وزر لاختيار اللون (وأيضًا في قائمة النقر المزدوج)، وتسمية Pixel pitch.",
-        "**إعدادات الخزانة المسبقة:** احفظ دقة الخزانة وحجمها كإعداد مسبق باسم واحذفه بزر سلة المهملات؛ تُحفظ الإعدادات المسبقة داخل المشروع."
+        "**تحسينات:** في تبويب الاتصال عادت أزرار قسم التوصيل إلى المحاذاة: مسح ومسح الكل بنفس العرض، أحدهما فوق الآخر."
       ],
       "th": [
-        "**แท็บ Grid:** กริดที่บันทึกไม่มีเส้นแนวตั้งหนาอีกต่อไป และเส้นทแยงสว่างขึ้นและหนาขึ้นเล็กน้อย",
-        "**รายงาน PDF:** ผลลัพธ์ไฟฟ้าแสดงการใช้พลังงานรวมเป็น kVA แล้ว",
-        "**LED screen:** มีบรรทัดข้อความเพิ่มเติมใต้ชื่อจอ ปุ่มเลือกสี (มีในเมนูดับเบิลคลิกด้วย) และป้าย Pixel pitch",
-        "**พรีเซ็ตตู้:** บันทึกความละเอียดและขนาดตู้เป็นพรีเซ็ตพร้อมชื่อ และลบด้วยปุ่มถังขยะ พรีเซ็ตจะถูกบันทึกในโปรเจกต์ด้วย"
+        "**ปรับแต่ง:** ในแท็บการเชื่อมต่อ ปุ่มของส่วนการเดินสายกลับมาเรียงตรงกันแล้ว: ล้าง และ ล้างทั้งหมด กว้างเท่ากัน อยู่บนล่างกัน"
       ],
       "hi": [
-        "**Grid टैब:** सेव किए गए ग्रिड में अब मोटी खड़ी रेखाएँ नहीं दिखतीं, और विकर्ण अधिक चमकीले और थोड़े मोटे हैं।",
-        "**PDF रिपोर्ट:** विद्युत परिणामों में अब कुल खपत kVA में दिखती है।",
-        "**LED screen:** स्क्रीन के नाम के नीचे अतिरिक्त टेक्स्ट की एक पंक्ति, रंग चुनने का बटन (डबल-क्लिक मेनू में भी) और Pixel pitch लेबल।",
-        "**कैबिनेट प्रीसेट:** कैबिनेट का रिज़ॉल्यूशन और आकार नाम के साथ प्रीसेट के रूप में सेव करें और ट्रैश बटन से हटाएँ; प्रीसेट प्रोजेक्ट में भी सेव होते हैं।"
+        "**सुधार:** कनेक्शन टैब में वायरिंग भाग के बटन फिर से एक सीध में हैं: साफ़ करें और सब साफ़ करें की चौड़ाई बराबर है, एक के ऊपर एक।"
       ],
       "vi": [
-        "**Thẻ Grid:** lưới đã lưu không còn hiện đường dọc dày, và đường chéo sáng hơn, dày hơn một chút.",
-        "**Báo cáo PDF:** kết quả điện giờ hiển thị tổng công suất tiêu thụ theo kVA.",
-        "**LED screen:** thêm một dòng văn bản dưới tên màn hình, nút chọn màu (cũng có trong menu nhấp đúp) và nhãn Pixel pitch.",
-        "**Thiết lập sẵn của cabinet:** lưu độ phân giải và kích thước cabinet thành thiết lập sẵn có tên và xóa bằng nút thùng rác; các thiết lập sẵn được lưu trong dự án."
+        "**Điều chỉnh:** trong thẻ Kết nối, các nút của mục Đi dây đã thẳng hàng trở lại: Xóa và Xóa tất cả có cùng độ rộng, nút này trên nút kia."
       ],
       "bn": [
-        "**Grid ট্যাব:** সংরক্ষিত গ্রিডে আর মোটা খাড়া রেখা দেখা যায় না, আর কর্ণরেখাগুলো আরও উজ্জ্বল ও একটু মোটা।",
-        "**PDF রিপোর্ট:** বৈদ্যুতিক ফলাফলে এখন মোট খরচ kVA-তে দেখায়।",
-        "**LED screen:** স্ক্রিনের নামের নিচে অতিরিক্ত লেখার একটি লাইন, রং বাছাইয়ের বোতাম (ডাবল-ক্লিক মেনুতেও) এবং Pixel pitch লেবেল।",
-        "**ক্যাবিনেট প্রিসেট:** ক্যাবিনেটের রেজোলিউশন ও আকার নামসহ প্রিসেট হিসেবে সংরক্ষণ করুন এবং ট্র্যাশ বোতাম দিয়ে মুছুন; প্রিসেট প্রকল্পের ভেতরেও সংরক্ষিত হয়।"
+        "**সমন্বয়:** কানেকশন ট্যাবে ওয়্যারিং অংশের বোতামগুলো আবার সারিবদ্ধ: মুছুন ও সব মুছুন একই চওড়া, একটির ওপরে অন্যটি।"
       ],
       "ms": [
-        "**Tab Grid:** grid yang disimpan tidak lagi menunjukkan garisan menegak tebal, dan garisan pepenjuru lebih cerah serta sedikit lebih tebal.",
-        "**Laporan PDF:** keputusan elektrik kini menunjukkan jumlah penggunaan dalam kVA.",
-        "**LED screen:** satu baris teks tambahan di bawah nama skrin, butang pemilih warna (juga dalam menu klik dua kali) dan label Pixel pitch.",
-        "**Pratetap kabinet:** simpan resolusi dan saiz kabinet sebagai pratetap bernama dan padam dengan butang tong sampah; pratetap disimpan dalam projek."
+        "**Pelarasan:** dalam tab Sambungan, butang bahagian Pendawaian kembali sejajar: Kosongkan dan Kosongkan semua sama lebar, satu di atas yang lain."
       ],
       "sv": [
-        "**Fliken Grid:** sparade rutnät visar inte längre tjocka lodräta linjer, och diagonalerna är ljusare och lite tjockare.",
-        "**PDF-rapport:** de elektriska resultaten visar nu den totala förbrukningen i kVA.",
-        "**LED screen:** en extra textrad under skärmnamnet, en färgväljarknapp (även i dubbelklicksmenyn) och etiketten Pixel pitch.",
-        "**Kabinettförinställningar:** spara kabinettets upplösning och storlek som en namngiven förinställning och ta bort den med papperskorgen; förinställningarna sparas i projektet."
+        "**Justeringar:** på fliken Anslutning är knapparna i avsnittet Kabeldragning justerade igen: Rensa och Rensa allt är lika breda och står ovanför varandra."
       ],
       "ur": [
-        "**Grid ٹیب:** محفوظ کیے گئے گرڈ میں اب موٹی عمودی لکیریں نظر نہیں آتیں، اور ترچھی لکیریں زیادہ روشن اور قدرے موٹی ہیں۔",
-        "**PDF رپورٹ:** برقی نتائج میں اب کل کھپت kVA میں دکھائی جاتی ہے۔",
-        "**LED screen:** اسکرین کے نام کے نیچے اضافی متن کی ایک لائن، رنگ منتخب کرنے کا بٹن (ڈبل کلک مینو میں بھی) اور Pixel pitch لیبل۔",
-        "**کیبنٹ پری سیٹ:** کیبنٹ کی ریزولوشن اور سائز کو نام کے ساتھ پری سیٹ کے طور پر محفوظ کریں اور ردی کی ٹوکری والے بٹن سے حذف کریں؛ پری سیٹ پروجیکٹ میں بھی محفوظ ہوتے ہیں۔"
+        "**بہتریاں:** کنکشن ٹیب میں وائرنگ حصے کے بٹن دوبارہ سیدھ میں ہیں: صاف کریں اور سب صاف کریں کی چوڑائی برابر ہے، ایک دوسرے کے اوپر۔"
       ],
       "sw": [
-        "**Kichupo cha Grid:** gridi zilizohifadhiwa hazionyeshi tena mistari minene ya wima, na mistari ya mshazari ni angavu zaidi na minene kidogo.",
-        "**Ripoti ya PDF:** matokeo ya umeme sasa yanaonyesha jumla ya matumizi kwa kVA.",
-        "**LED screen:** mstari wa maandishi ya ziada chini ya jina la skrini, kitufe cha kuchagua rangi (pia kwenye menyu ya kubofya mara mbili) na lebo ya Pixel pitch.",
-        "**Mipangilio ya awali ya kabati:** hifadhi ubora na ukubwa wa kabati kama mpangilio wa awali wenye jina na uufute kwa kitufe cha tupio; mipangilio huhifadhiwa ndani ya mradi."
+        "**Marekebisho:** katika kichupo cha Muunganisho, vitufe vya sehemu ya Nyaya vimepangwa tena: Safisha na Safisha zote vina upana sawa, kimoja juu ya kingine."
       ],
       "gn": [
-        "**Grid:** umi grid oñeñongatúva ndohechaukavéima línea pyrusu ojyvapáva, ha umi diagonal hesakãve ha ipyrusuve michĩmi.",
-        "**PDF marandu:** umi tembiapo electricidad rehegua ohechauka ko'ág̃a mboy kVA oipuruha.",
-        "**LED screen:** peteĩ línea moñe'ẽrã ojoapy pantalla réra guýpe, votõ ojeiporavo hag̃ua sa'y (avei menú mokõi jejopy rehegua) ha etiqueta Pixel pitch.",
-        "**Gabinete preset:** eñongatu gabinete resolución ha tamaño peteĩ preset réra reheve, ha embogue votõ yty rehe; umi preset oñeñongatu avei proyecto ryepýpe."
+        "**Ñemoĩporã:** Joaju rendápe, votõ Cable pehẽ-pegua oĩ jey peteĩ rapére: Embogue ha Embogue opaite ipe peteĩcha, peteĩ ambue ári."
       ],
       "he": [
-        "**לשונית Grid:** רשתות שנשמרו כבר לא מציגות קווים אנכיים עבים, והאלכסונים בהירים יותר ומעט עבים יותר.",
-        "**דוח PDF:** התוצאות החשמליות כוללות כעת את הצריכה הכוללת ב-kVA.",
-        "**LED screen:** שורת טקסט נוספת מתחת לשם המסך, כפתור לבחירת צבע (גם בתפריט הלחיצה הכפולה) והתווית Pixel pitch.",
-        "**הגדרות מוכנות לארון:** שמירת הרזולוציה והגודל של הארון כהגדרה מוכנה עם שם ומחיקה בכפתור הפח; ההגדרות נשמרות בתוך הפרויקט."
+        "**התאמות:** בלשונית חיבור, כפתורי מקטע החיווט מיושרים שוב: נקה ונקה הכול באותו רוחב, אחד מעל השני."
       ],
       "lv": [
-        "**Cilne Grid:** saglabātajos režģos vairs nav biezu vertikālu līniju, un diagonāles ir gaišākas un nedaudz biezākas.",
-        "**PDF atskaite:** elektriskajos rezultātos tagad redzams kopējais patēriņš kVA.",
-        "**LED screen:** papildu teksta rinda zem ekrāna nosaukuma, krāsas izvēles poga (arī dubultklikšķa izvēlnē) un uzraksts Pixel pitch.",
-        "**Kabineta sagataves:** saglabājiet kabineta izšķirtspēju un izmēru kā nosauktu sagatavi un dzēsiet to ar miskastes pogu; sagataves tiek saglabātas projektā."
+        "**Pielāgojumi:** cilnē Savienojums sadaļas Vadojums pogas atkal ir izlīdzinātas: Notīrīt un Notīrīt visu ir vienā platumā, viena virs otras."
       ],
       "fa": [
-        "**زبانه Grid:** شبکه‌های ذخیره‌شده دیگر خطوط عمودی ضخیم نشان نمی‌دهند و قطرها روشن‌تر و کمی ضخیم‌تر شده‌اند.",
-        "**گزارش PDF:** نتایج برقی اکنون مصرف کل را بر حسب kVA نشان می‌دهد.",
-        "**LED screen:** یک خط متن اضافی زیر نام صفحه، دکمه انتخاب رنگ (در منوی دوبار کلیک هم) و برچسب Pixel pitch.",
-        "**پیش‌تنظیم‌های کابینت:** وضوح و اندازه کابینت را به‌صورت پیش‌تنظیم با نام ذخیره کنید و با دکمه سطل زباله حذف کنید؛ پیش‌تنظیم‌ها درون پروژه ذخیره می‌شوند."
+        "**تنظیمات:** در زبانه اتصال، دکمه‌های بخش سیم‌کشی دوباره هم‌تراز شدند: پاک کردن و پاک کردن همه هم‌عرض‌اند و یکی بالای دیگری است."
       ],
       "pl": [
-        "**Karta Grid:** zapisane siatki nie pokazują już grubych pionowych linii, a przekątne są jaśniejsze i nieco grubsze.",
-        "**Raport PDF:** wyniki elektryczne pokazują teraz całkowity pobór w kVA.",
-        "**LED screen:** dodatkowy wiersz tekstu pod nazwą ekranu, przycisk wyboru koloru (także w menu podwójnego kliknięcia) i etykieta Pixel pitch.",
-        "**Ustawienia wstępne kabinetu:** zapisz rozdzielczość i rozmiar kabinetu jako nazwane ustawienie wstępne i usuń je przyciskiem kosza; ustawienia są zapisywane w projekcie."
+        "**Poprawki:** na karcie Połączenie przyciski sekcji Okablowanie są znów wyrównane: Wyczyść i Wyczyść wszystko mają tę samą szerokość, jeden nad drugim."
       ],
       "uk": [
-        "**Вкладка Grid:** у збережених сітках більше немає товстих вертикальних ліній, а діагоналі стали світлішими й трохи товщими.",
-        "**PDF-звіт:** електричні результати тепер показують загальне споживання в кВА.",
-        "**LED screen:** додатковий рядок тексту під назвою екрана, кнопка вибору кольору (також у меню подвійного клацання) і підпис Pixel pitch.",
-        "**Пресети кабінету:** зберігайте роздільність і розмір кабінету як пресет із назвою та видаляйте його кошиком; пресети зберігаються в проєкті."
+        "**Доопрацювання:** на вкладці «Підключення» кнопки розділу «Розведення» знову вирівняні: «Очистити» і «Очистити все» однакової ширини й стоять одна над одною."
       ],
       "ca": [
-        "**Pestanya Grid:** les graelles desades ja no mostren línies verticals gruixudes, i les diagonals són més clares i una mica més gruixudes.",
-        "**Informe PDF:** els resultats elèctrics ara inclouen el consum total en kVA.",
-        "**LED screen:** una línia de text addicional sota el nom de la pantalla, un botó per triar el color (també al menú de doble clic) i l'etiqueta Pixel pitch.",
-        "**Predefinits de mòdul:** deseu la resolució i la mida del mòdul com a predefinit amb un nom i suprimiu-lo amb la paperera; els predefinits es desen dins del projecte."
+        "**Ajustos:** a la pestanya Connexió, els botons de la secció Cablejat tornen a estar alineats: Neteja i Neteja-ho tot tenen la mateixa amplada, un sobre l'altre."
       ],
       "cs": [
-        "**Karta Grid:** uložené mřížky už neukazují silné svislé čáry a úhlopříčky jsou světlejší a o něco silnější.",
-        "**Zpráva PDF:** elektrické výsledky nyní uvádějí celkovou spotřebu v kVA.",
-        "**LED screen:** další řádek textu pod názvem obrazovky, tlačítko pro výběr barvy (také v nabídce dvojkliku) a popisek Pixel pitch.",
-        "**Předvolby kabinetu:** uložte rozlišení a velikost kabinetu jako pojmenovanou předvolbu a smažte ji tlačítkem koše; předvolby se ukládají do projektu."
+        "**Úpravy:** na kartě Připojení jsou tlačítka sekce Kabeláž opět zarovnaná: Vymazat a Vymazat vše mají stejnou šířku, jedno nad druhým."
       ],
       "fi": [
-        "**Grid-välilehti:** tallennetuissa ruudukoissa ei enää näy paksuja pystyviivoja, ja lävistäjät ovat kirkkaampia ja hieman paksumpia.",
-        "**PDF-raportti:** sähköiset tulokset näyttävät nyt kokonaiskulutuksen kVA:na.",
-        "**LED screen:** lisätekstirivi näytön nimen alla, värinvalintapainike (myös kaksoisnapsautusvalikossa) ja Pixel pitch -otsikko.",
-        "**Kaapin esiasetukset:** tallenna kaapin resoluutio ja koko nimettynä esiasetuksena ja poista se roskakoripainikkeella; esiasetukset tallentuvat projektiin."
+        "**Säädöt:** Yhteys-välilehdellä Kaapelointi-osion painikkeet ovat taas linjassa: Tyhjennä ja Tyhjennä kaikki ovat yhtä leveitä, päällekkäin."
       ],
       "el": [
-        "**Καρτέλα Grid:** τα αποθηκευμένα πλέγματα δεν δείχνουν πια χοντρές κάθετες γραμμές, και οι διαγώνιες είναι πιο φωτεινές και λίγο πιο χοντρές.",
-        "**Αναφορά PDF:** τα ηλεκτρικά αποτελέσματα δείχνουν πλέον τη συνολική κατανάλωση σε kVA.",
-        "**LED screen:** μια επιπλέον γραμμή κειμένου κάτω από το όνομα της οθόνης, κουμπί επιλογής χρώματος (και στο μενού διπλού κλικ) και η ετικέτα Pixel pitch.",
-        "**Προκαθορισμένα καμπίνας:** αποθηκεύστε την ανάλυση και το μέγεθος της καμπίνας ως προκαθορισμένο με όνομα και διαγράψτε το με τον κάδο· τα προκαθορισμένα αποθηκεύονται στο έργο."
+        "**Ρυθμίσεις:** στην καρτέλα Σύνδεση τα κουμπιά της ενότητας Καλωδίωση είναι ξανά ευθυγραμμισμένα: Καθαρισμός και Καθαρισμός όλων έχουν το ίδιο πλάτος, το ένα πάνω από το άλλο."
       ],
       "ha": [
-        "**Shafin Grid:** grid da aka ajiye ba sa nuna kauri layukan tsaye kuma, kuma layukan karkata sun fi haske da ɗan kauri.",
-        "**Rahoton PDF:** sakamakon wutar lantarki yanzu yana nuna jimillar amfani a kVA.",
-        "**LED screen:** ƙarin layin rubutu ƙarƙashin sunan allo, maɓallin zaɓar launi (har ma a menu na danna sau biyu) da alamar Pixel pitch.",
-        "**Saitin kabad:** ajiye ƙuduri da girman kabad a matsayin saiti mai suna kuma share shi da maɓallin shara; ana ajiye saitunan cikin aikin."
+        "**Gyare-gyare:** a shafin Haɗi, maɓallan sashen Wayoyi sun sake daidaita: Share da Share duka suna da faɗi ɗaya, ɗaya a saman ɗayan."
       ],
       "ro": [
-        "**Fila Grid:** grilele salvate nu mai afișează linii verticale groase, iar diagonalele sunt mai luminoase și puțin mai groase.",
-        "**Raport PDF:** rezultatele electrice includ acum consumul total în kVA.",
-        "**LED screen:** un rând de text suplimentar sub numele ecranului, un buton de alegere a culorii (și în meniul de dublu clic) și eticheta Pixel pitch.",
-        "**Presetări de cabinet:** salvați rezoluția și dimensiunea cabinetului ca presetare cu nume și ștergeți-o cu coșul; presetările se salvează în proiect."
+        "**Ajustări:** în fila Conexiune, butoanele secțiunii Cablare sunt din nou aliniate: Golește și Golește tot au aceeași lățime, unul deasupra celuilalt."
       ],
       "yo": [
-        "**Táàbù Grid:** àwọn grid tí a fi pamọ́ kò ní fi ìlà inaro tó nípọn hàn mọ́, àwọn ìlà oníròó sì tàn ju ti tẹ́lẹ̀ lọ, wọ́n sì nípọn díẹ̀.",
-        "**Ìròyìn PDF:** àwọn àbájáde iná mànàmáná ń fi gbogbo ìlò hàn ní kVA báyìí.",
-        "**LED screen:** ìlà ọ̀rọ̀ àfikún kan lábẹ́ orúkọ ojú-ìbojú, bọ́tìnnì yíyan àwọ̀ (ó tún wà nínú àkójọ títẹ̀ lẹ́ẹ̀mejì) àti àmì Pixel pitch.",
-        "**Ètò kábíńẹ́ẹ̀tì:** fi ìpinnu àti ìwọ̀n kábíńẹ́ẹ̀tì pamọ́ bí ètò tó ní orúkọ, kí o sì pa á rẹ́ pẹ̀lú bọ́tìnnì ìdọ̀tí; a máa ń fi àwọn ètò pamọ́ sínú iṣẹ́ náà."
+        "**Àtúnṣe:** nínú táàbù Ìsopọ̀, àwọn bọ́tìnnì abala Wáyà tún wà ní ìlà kan: Mọ́ àti Mọ́ gbogbo rẹ̀ ní fífẹ̀ kan náà, ọ̀kan lórí èkejì."
       ],
       "zu": [
-        "**Ithebhu ye-Grid:** amagridi alondoloziwe awasabonisi imigqa eqondile ewugqinsi, futhi imigqa eqondiswe ngokutshekile ikhanya kakhulu futhi iwugqinsi kancane.",
-        "**Umbiko we-PDF:** imiphumela kagesi manje ibonisa ukusetshenziswa okuphelele ku-kVA.",
-        "**LED screen:** umugqa wombhalo owengeziwe ngaphansi kwegama lesikrini, inkinobho yokukhetha umbala (nakwimenyu yokuchofoza kabili) nelebula ethi Pixel pitch.",
-        "**Okusethwe ngaphambili kwekhabhinethi:** londoloza ukucaca nosayizi wekhabhinethi njengokusethwe ngaphambili okunegama bese ukususa ngenkinobho yomgqomo; kulondolozwa ngaphakathi kwephrojekthi."
+        "**Ukulungiswa:** kuthebhu Yokuxhuma, izinkinobho zesigaba Sezintambo ziphinde zaqondaniswa: Sula no-Sula konke banobubanzi obulinganayo, enye ngaphezu kwenye."
       ],
       "fil": [
-        "**Tab na Grid:** wala nang makakapal na patayong linya sa mga na-save na grid, at mas maliwanag at bahagyang mas makapal ang mga diagonal.",
-        "**Ulat na PDF:** ipinapakita na ng mga resulta ng kuryente ang kabuuang konsumo sa kVA.",
-        "**LED screen:** dagdag na linya ng teksto sa ilalim ng pangalan ng screen, button para pumili ng kulay (nasa double-click menu rin) at ang label na Pixel pitch.",
-        "**Mga preset ng cabinet:** i-save ang resolution at laki ng cabinet bilang preset na may pangalan at burahin gamit ang trash button; nakasave ang mga preset sa loob ng proyekto."
+        "**Mga ayos:** sa tab na Koneksyon, nakahanay na ulit ang mga button ng seksyong Wiring: pareho ang lapad ng Burahin at Burahin lahat, magkapatong."
       ],
       "ta": [
-        "**Grid தாவல்:** சேமித்த கிரிடுகளில் இனி தடித்த செங்குத்துக் கோடுகள் தெரியாது; மூலைவிட்டங்கள் பிரகாசமாகவும் சற்று தடிமனாகவும் உள்ளன.",
-        "**PDF அறிக்கை:** மின் முடிவுகள் இப்போது மொத்த நுகர்வை kVA-வில் காட்டுகின்றன.",
-        "**LED screen:** திரைப் பெயருக்குக் கீழே கூடுதல் உரை வரி, நிறம் தேர்வு பொத்தான் (இருமுறை சொடுக்கு மெனுவிலும்) மற்றும் Pixel pitch லேபிள்.",
-        "**கேபினெட் முன்னமைவுகள்:** கேபினெட்டின் தெளிவுத்திறனையும் அளவையும் பெயருடன் முன்னமைவாகச் சேமித்து, குப்பைத் தொட்டி பொத்தானால் நீக்கலாம்; முன்னமைவுகள் திட்டத்திலும் சேமிக்கப்படும்."
+        "**சீரமைப்புகள்:** இணைப்பு தாவலில் வயரிங் பகுதியின் பொத்தான்கள் மீண்டும் ஒழுங்காக உள்ளன: அழி, அனைத்தையும் அழி இரண்டும் ஒரே அகலம், ஒன்றின் மேல் ஒன்று."
       ],
       "te": [
-        "**Grid ట్యాబ్:** సేవ్ చేసిన గ్రిడ్‌లలో ఇక మందపాటి నిలువు గీతలు కనిపించవు, వికర్ణాలు మరింత ప్రకాశవంతంగా కొంచెం మందంగా ఉన్నాయి.",
-        "**PDF నివేదిక:** విద్యుత్ ఫలితాలు ఇప్పుడు మొత్తం వినియోగాన్ని kVAలో చూపుతాయి.",
-        "**LED screen:** స్క్రీన్ పేరు కింద అదనపు వచన పంక్తి, రంగు ఎంపిక బటన్ (డబుల్-క్లిక్ మెనూలో కూడా) మరియు Pixel pitch లేబుల్.",
-        "**క్యాబినెట్ ప్రీసెట్‌లు:** క్యాబినెట్ రిజల్యూషన్, పరిమాణాన్ని పేరుతో ప్రీసెట్‌గా సేవ్ చేసి, ట్రాష్ బటన్‌తో తొలగించండి; ప్రీసెట్‌లు ప్రాజెక్ట్‌లో కూడా సేవ్ అవుతాయి."
+        "**సర్దుబాట్లు:** కనెక్షన్ ట్యాబ్‌లో వైరింగ్ విభాగం బటన్‌లు మళ్లీ వరుసలో ఉన్నాయి: క్లియర్ చేయి, అన్నీ క్లియర్ చేయి ఒకే వెడల్పు, ఒకదానిపై ఒకటి."
       ],
       "mr": [
-        "**Grid टॅब:** जतन केलेल्या ग्रिडमध्ये आता जाड उभ्या रेषा दिसत नाहीत, आणि कर्ण अधिक उजळ व थोडे जाड आहेत.",
-        "**PDF अहवाल:** विद्युत निकालांमध्ये आता एकूण वापर kVA मध्ये दिसतो.",
-        "**LED screen:** स्क्रीनच्या नावाखाली अतिरिक्त मजकुराची एक ओळ, रंग निवडण्याचे बटण (डबल-क्लिक मेनूतही) आणि Pixel pitch लेबल.",
-        "**कॅबिनेट प्रीसेट:** कॅबिनेटचे रिझोल्यूशन व आकार नावासह प्रीसेट म्हणून जतन करा आणि कचरापेटी बटणाने हटवा; प्रीसेट प्रकल्पातही जतन होतात."
+        "**सुधारणा:** कनेक्शन टॅबमध्ये वायरिंग विभागातील बटणे पुन्हा एका रेषेत आहेत: साफ करा आणि सर्व साफ करा यांची रुंदी सारखी, एकावर एक."
       ],
       "da": [
-        "**Fanen Grid:** gemte gitre viser ikke længere tykke lodrette linjer, og diagonalerne er lysere og lidt tykkere.",
-        "**PDF-rapport:** de elektriske resultater viser nu det samlede forbrug i kVA.",
-        "**LED screen:** en ekstra tekstlinje under skærmnavnet, en farvevælgerknap (også i dobbeltklikmenuen) og etiketten Pixel pitch.",
-        "**Kabinetforudindstillinger:** gem kabinettets opløsning og størrelse som en navngivet forudindstilling og slet den med skraldespanden; forudindstillingerne gemmes i projektet."
+        "**Justeringer:** på fanen Forbindelse står knapperne i afsnittet Kabelføring på linje igen: Ryd og Ryd alt er lige brede og står over hinanden."
       ],
       "nb": [
-        "**Fanen Grid:** lagrede rutenett viser ikke lenger tykke loddrette linjer, og diagonalene er lysere og litt tykkere.",
-        "**PDF-rapport:** de elektriske resultatene viser nå totalt forbruk i kVA.",
-        "**LED screen:** en ekstra tekstlinje under skjermnavnet, en fargevelgerknapp (også i dobbeltklikkmenyen) og etiketten Pixel pitch.",
-        "**Kabinettforhåndsinnstillinger:** lagre kabinettets oppløsning og størrelse som en navngitt forhåndsinnstilling og slett den med søppelbøtten; forhåndsinnstillingene lagres i prosjektet."
+        "**Justeringer:** i fanen Tilkobling står knappene i delen Kabling på linje igjen: Tøm og Tøm alt er like brede og står over hverandre."
       ],
       "lt": [
-        "**Skirtukas Grid:** išsaugotuose tinkleliuose nebėra storų vertikalių linijų, o įstrižainės šviesesnės ir šiek tiek storesnės.",
-        "**PDF ataskaita:** elektriniai rezultatai dabar rodo bendrą suvartojimą kVA.",
-        "**LED screen:** papildoma teksto eilutė po ekrano pavadinimu, spalvos parinkimo mygtukas (ir dukart spustelėjimo meniu) bei užrašas Pixel pitch.",
-        "**Kabineto išankstinės nuostatos:** įrašykite kabineto raišką ir dydį kaip pavadintą nuostatą ir ištrinkite šiukšliadėžės mygtuku; nuostatos įrašomos projekte."
+        "**Patobulinimai:** skirtuke Ryšys skyriaus Laidai mygtukai vėl sulygiuoti: Išvalyti ir Išvalyti viską yra vienodo pločio, vienas virš kito."
       ],
       "et": [
-        "**Vahekaart Grid:** salvestatud võrgustikes pole enam paksu püstjooni ning diagonaalid on heledamad ja veidi paksemad.",
-        "**PDF-aruanne:** elektrilised tulemused näitavad nüüd koguvõimsust kVA-des.",
-        "**LED screen:** lisatekstirida ekraani nime all, värvivaliku nupp (ka topeltklõpsu menüüs) ja silt Pixel pitch.",
-        "**Kabineti eelseadistused:** salvestage kabineti eraldusvõime ja suurus nimega eelseadistusena ja kustutage prügikasti nupuga; eelseadistused salvestatakse projekti."
+        "**Kohandused:** vahekaardil Ühendus on jaotise Juhtmestik nupud jälle joondatud: Tühjenda ja Tühjenda kõik on sama laiad, üksteise kohal."
       ],
       "sk": [
-        "**Karta Grid:** uložené mriežky už nezobrazujú hrubé zvislé čiary a uhlopriečky sú svetlejšie a o niečo hrubšie.",
-        "**Správa PDF:** elektrické výsledky teraz uvádzajú celkovú spotrebu v kVA.",
-        "**LED screen:** ďalší riadok textu pod názvom obrazovky, tlačidlo na výber farby (aj v ponuke dvojkliku) a popis Pixel pitch.",
-        "**Predvoľby kabinetu:** uložte rozlíšenie a veľkosť kabinetu ako pomenovanú predvoľbu a odstráňte ju tlačidlom koša; predvoľby sa ukladajú do projektu."
+        "**Úpravy:** na karte Pripojenie sú tlačidlá sekcie Kabeláž opäť zarovnané: Vymazať a Vymazať všetko majú rovnakú šírku, jedno nad druhým."
       ],
       "bg": [
-        "**Раздел Grid:** запазените мрежи вече не показват дебели вертикални линии, а диагоналите са по-светли и малко по-дебели.",
-        "**PDF отчет:** електрическите резултати вече показват общата консумация в kVA.",
-        "**LED screen:** допълнителен ред текст под името на екрана, бутон за избор на цвят (и в менюто при двоен клик) и надпис Pixel pitch.",
-        "**Предварителни настройки на кабинета:** запазете резолюцията и размера на кабинета като именувана настройка и я изтрийте с кошчето; настройките се запазват в проекта."
+        "**Корекции:** в раздела Връзка бутоните на секцията Окабеляване отново са подравнени: Изчисти и Изчисти всичко са с еднаква ширина, един над друг."
       ],
       "sr": [
-        "**Картица Grid:** сачуване мреже више не приказују дебеле усправне линије, а дијагонале су светлије и мало дебље.",
-        "**PDF извештај:** електрични резултати сада приказују укупну потрошњу у kVA.",
-        "**LED screen:** додатни ред текста испод назива екрана, дугме за избор боје (и у менију двоструког клика) и натпис Pixel pitch.",
-        "**Унапред подешени кабинети:** сачувајте резолуцију и величину кабинета као именовано подешавање и обришите га дугметом корпе; подешавања се чувају у пројекту."
+        "**Подешавања:** на картици Веза дугмад одељка Каблирање су поново поравната: Обриши и Обриши све имају исту ширину, једно изнад другог."
       ],
       "hr": [
-        "**Kartica Grid:** spremljene mreže više ne prikazuju debele okomite linije, a dijagonale su svjetlije i malo deblje.",
-        "**PDF izvješće:** električni rezultati sada prikazuju ukupnu potrošnju u kVA.",
-        "**LED screen:** dodatni redak teksta ispod naziva zaslona, gumb za odabir boje (i u izborniku dvostrukog klika) i natpis Pixel pitch.",
-        "**Unaprijed postavljeni kabineti:** spremite razlučivost i veličinu kabineta kao imenovanu postavku i izbrišite je gumbom koša; postavke se spremaju u projekt."
+        "**Prilagodbe:** na kartici Veza gumbi odjeljka Kabliranje ponovno su poravnati: Očisti i Očisti sve iste su širine, jedan iznad drugoga."
       ],
       "gu": [
-        "**Grid ટેબ:** સાચવેલા ગ્રિડમાં હવે જાડી ઊભી રેખાઓ દેખાતી નથી, અને કર્ણ વધુ તેજસ્વી અને થોડા જાડા છે.",
-        "**PDF અહેવાલ:** વિદ્યુત પરિણામોમાં હવે કુલ વપરાશ kVA માં દેખાય છે.",
-        "**LED screen:** સ્ક્રીનના નામ નીચે વધારાની ટેક્સ્ટ લાઇન, રંગ પસંદ કરવાનું બટન (ડબલ-ક્લિક મેનૂમાં પણ) અને Pixel pitch લેબલ.",
-        "**કેબિનેટ પ્રીસેટ:** કેબિનેટનું રિઝોલ્યુશન અને કદ નામ સાથે પ્રીસેટ તરીકે સાચવો અને કચરાપેટી બટનથી કાઢી નાખો; પ્રીસેટ પ્રોજેક્ટમાં પણ સચવાય છે."
+        "**સુધારા:** કનેક્શન ટૅબમાં વાયરિંગ વિભાગનાં બટન ફરી એક લાઇનમાં છે: સાફ કરો અને બધું સાફ કરો સરખી પહોળાઈનાં, એક ઉપર બીજું."
       ],
       "pa": [
-        "**Grid ਟੈਬ:** ਸੇਵ ਕੀਤੇ ਗ੍ਰਿਡਾਂ ਵਿੱਚ ਹੁਣ ਮੋਟੀਆਂ ਖੜ੍ਹੀਆਂ ਲਾਈਨਾਂ ਨਹੀਂ ਦਿਸਦੀਆਂ, ਅਤੇ ਵਿਕਰਣ ਹੋਰ ਚਮਕਦਾਰ ਤੇ ਥੋੜ੍ਹੇ ਮੋਟੇ ਹਨ।",
-        "**PDF ਰਿਪੋਰਟ:** ਬਿਜਲਈ ਨਤੀਜਿਆਂ ਵਿੱਚ ਹੁਣ ਕੁੱਲ ਖਪਤ kVA ਵਿੱਚ ਦਿਸਦੀ ਹੈ।",
-        "**LED screen:** ਸਕ੍ਰੀਨ ਦੇ ਨਾਮ ਹੇਠਾਂ ਵਾਧੂ ਲਿਖਤ ਦੀ ਇੱਕ ਲਾਈਨ, ਰੰਗ ਚੁਣਨ ਦਾ ਬਟਨ (ਡਬਲ-ਕਲਿੱਕ ਮੀਨੂ ਵਿੱਚ ਵੀ) ਅਤੇ Pixel pitch ਲੇਬਲ।",
-        "**ਕੈਬਨਿਟ ਪ੍ਰੀਸੈੱਟ:** ਕੈਬਨਿਟ ਦਾ ਰੈਜ਼ੋਲਿਊਸ਼ਨ ਅਤੇ ਆਕਾਰ ਨਾਮ ਨਾਲ ਪ੍ਰੀਸੈੱਟ ਵਜੋਂ ਸੇਵ ਕਰੋ ਅਤੇ ਰੱਦੀ ਬਟਨ ਨਾਲ ਮਿਟਾਓ; ਪ੍ਰੀਸੈੱਟ ਪ੍ਰੋਜੈਕਟ ਵਿੱਚ ਵੀ ਸੇਵ ਹੁੰਦੇ ਹਨ।"
+        "**ਸੁਧਾਰ:** ਕਨੈਕਸ਼ਨ ਟੈਬ ਵਿੱਚ ਵਾਇਰਿੰਗ ਭਾਗ ਦੇ ਬਟਨ ਫਿਰ ਇੱਕ ਸੇਧ ਵਿੱਚ ਹਨ: ਸਾਫ਼ ਕਰੋ ਅਤੇ ਸਭ ਸਾਫ਼ ਕਰੋ ਦੀ ਚੌੜਾਈ ਇੱਕੋ ਹੈ, ਇੱਕ ਦੇ ਉੱਪਰ ਇੱਕ।"
       ],
       "kn": [
-        "**Grid ಟ್ಯಾಬ್:** ಉಳಿಸಿದ ಗ್ರಿಡ್‌ಗಳಲ್ಲಿ ಈಗ ದಪ್ಪ ಲಂಬ ಗೆರೆಗಳು ಕಾಣುವುದಿಲ್ಲ, ಮತ್ತು ಕರ್ಣಗಳು ಹೆಚ್ಚು ಪ್ರಕಾಶಮಾನ ಹಾಗೂ ಸ್ವಲ್ಪ ದಪ್ಪವಾಗಿವೆ.",
-        "**PDF ವರದಿ:** ವಿದ್ಯುತ್ ಫಲಿತಾಂಶಗಳು ಈಗ ಒಟ್ಟು ಬಳಕೆಯನ್ನು kVA ನಲ್ಲಿ ತೋರಿಸುತ್ತವೆ.",
-        "**LED screen:** ಪರದೆಯ ಹೆಸರಿನ ಕೆಳಗೆ ಹೆಚ್ಚುವರಿ ಪಠ್ಯದ ಸಾಲು, ಬಣ್ಣ ಆಯ್ಕೆ ಬಟನ್ (ಡಬಲ್-ಕ್ಲಿಕ್ ಮೆನುವಿನಲ್ಲೂ) ಮತ್ತು Pixel pitch ಲೇಬಲ್.",
-        "**ಕ್ಯಾಬಿನೆಟ್ ಪ್ರೀಸೆಟ್‌ಗಳು:** ಕ್ಯಾಬಿನೆಟ್ ರೆಸಲ್ಯೂಶನ್ ಮತ್ತು ಗಾತ್ರವನ್ನು ಹೆಸರಿನೊಂದಿಗೆ ಪ್ರೀಸೆಟ್ ಆಗಿ ಉಳಿಸಿ ಮತ್ತು ಕಸದಬುಟ್ಟಿ ಬಟನ್‌ನಿಂದ ಅಳಿಸಿ; ಪ್ರೀಸೆಟ್‌ಗಳು ಪ್ರಾಜೆಕ್ಟ್‌ನಲ್ಲೂ ಉಳಿಯುತ್ತವೆ."
+        "**ಸರಿಹೊಂದಿಕೆಗಳು:** ಸಂಪರ್ಕ ಟ್ಯಾಬ್‌ನಲ್ಲಿ ವೈರಿಂಗ್ ವಿಭಾಗದ ಬಟನ್‌ಗಳು ಮತ್ತೆ ಸಾಲಿನಲ್ಲಿವೆ: ತೆರವುಗೊಳಿಸಿ ಮತ್ತು ಎಲ್ಲವನ್ನೂ ತೆರವುಗೊಳಿಸಿ ಒಂದೇ ಅಗಲ, ಒಂದರ ಮೇಲೊಂದು."
       ],
       "ne": [
-        "**Grid ट्याब:** सेभ गरिएका ग्रिडमा अब बाक्ला ठाडा रेखा देखिँदैनन्, र विकर्णहरू अझ उज्यालो र अलि बाक्ला छन्।",
-        "**PDF प्रतिवेदन:** विद्युत नतिजाले अब कुल खपत kVA मा देखाउँछ।",
-        "**LED screen:** स्क्रिनको नामतल थप पाठको एउटा लाइन, रङ छान्ने बटन (डबल-क्लिक मेनुमा पनि) र Pixel pitch लेबल।",
-        "**क्याबिनेट प्रिसेट:** क्याबिनेटको रिजोल्युसन र आकारलाई नामसहित प्रिसेटका रूपमा सेभ गर्नुहोस् र रद्दीटोकरी बटनले मेटाउनुहोस्; प्रिसेटहरू परियोजनामा पनि सेभ हुन्छन्।"
+        "**मिलानहरू:** कनेक्सन ट्याबमा वायरिङ खण्डका बटनहरू फेरि एउटै रेखामा छन्: खाली गर्नुहोस् र सबै खाली गर्नुहोस् उत्तिकै चौडा, एकमाथि अर्को।"
       ],
       "km": [
-        "**ផ្ទាំង Grid៖** ក្រឡាដែលបានរក្សាទុកលែងបង្ហាញបន្ទាត់បញ្ឈរក្រាស់ទៀតហើយ ហើយបន្ទាត់ទ្រេតភ្លឺជាងមុន និងក្រាស់បន្តិច។",
-        "**របាយការណ៍ PDF៖** លទ្ធផលអគ្គិសនីឥឡូវបង្ហាញការប្រើប្រាស់សរុបជា kVA។",
-        "**LED screen៖** បន្ទាត់អត្ថបទបន្ថែមនៅក្រោមឈ្មោះអេក្រង់ ប៊ូតុងជ្រើសពណ៌ (មាននៅក្នុងម៉ឺនុយចុចពីរដងផងដែរ) និងស្លាក Pixel pitch។",
-        "**ការកំណត់ជាមុនរបស់ទូ៖** រក្សាទុកគុណភាពបង្ហាញ និងទំហំទូជាការកំណត់ជាមុនដែលមានឈ្មោះ ហើយលុបដោយប៊ូតុងធុងសំរាម។ ការកំណត់ជាមុនត្រូវបានរក្សាទុកក្នុងគម្រោង។"
+        "**ការកែសម្រួល៖** នៅក្នុងផ្ទាំងការតភ្ជាប់ ប៊ូតុងនៃផ្នែកខ្សែភ្លើងតម្រង់ជួរវិញហើយ៖ សម្អាត និង សម្អាតទាំងអស់ មានទទឹងស្មើគ្នា មួយនៅលើមួយទៀត។"
       ],
       "kk": [
-        "**Grid қойындысы:** сақталған торларда енді жуан тік сызықтар көрінбейді, ал диагональдар жарығырақ әрі сәл жуанырақ.",
-        "**PDF есебі:** электр нәтижелері енді жалпы тұтынуды кВА-мен көрсетеді.",
-        "**LED screen:** экран атауының астында қосымша мәтін жолы, түс таңдау түймесі (екі рет басу мәзірінде де) және Pixel pitch белгісі.",
-        "**Кабинет алдын ала орнатулары:** кабинеттің ажыратымдылығы мен өлшемін атаулы орнату ретінде сақтап, қоқыс түймесімен жойыңыз; орнатулар жобада да сақталады."
+        "**Түзетулер:** Қосылым қойындысында Сымдау бөлімінің батырмалары қайта тураланды: Тазалау және Барлығын тазалау бірдей енде, бірінің үстінде бірі."
       ],
       "uz": [
-        "**Grid yorlig'i:** saqlangan to'rlarda endi qalin vertikal chiziqlar ko'rinmaydi, diagonallar esa yorqinroq va biroz qalinroq.",
-        "**PDF hisobot:** elektr natijalari endi umumiy iste'molni kVA da ko'rsatadi.",
-        "**LED screen:** ekran nomi ostida qo'shimcha matn qatori, rang tanlash tugmasi (ikki marta bosish menyusida ham) va Pixel pitch yorlig'i.",
-        "**Kabinet oldindan sozlamalari:** kabinet o'lchami va ruxsatini nomli sozlama sifatida saqlang va axlat tugmasi bilan o'chiring; sozlamalar loyiha ichida ham saqlanadi."
+        "**Sozlamalar:** Ulanish yorlig'ida Simlash bo'limi tugmalari yana tekislandi: Tozalash va Hammasini tozalash bir xil kenglikda, biri ikkinchisining ustida."
       ],
       "am": [
-        "**Grid ትር፦** የተቀመጡ ፍርግርጎች ከእንግዲህ ወፍራም ቋሚ መስመሮችን አያሳዩም፣ ሰያፍ መስመሮቹም ይበልጥ ደማቅ እና ትንሽ ወፍራም ሆነዋል።",
-        "**የPDF ሪፖርት፦** የኤሌክትሪክ ውጤቶች አሁን አጠቃላይ ፍጆታን በkVA ያሳያሉ።",
-        "**LED screen፦** ከማያ ገጹ ስም በታች ተጨማሪ የጽሑፍ መስመር፣ ቀለም መምረጫ አዝራር (በሁለቴ ጠቅታ ምናሌ ውስጥም) እና Pixel pitch መለያ።",
-        "**የካቢኔ ቅድመ-ቅንብሮች፦** የካቢኔውን ጥራት እና መጠን በስም እንደ ቅድመ-ቅንብር ያስቀምጡ እና በቆሻሻ አዝራር ይሰርዙ፤ ቅድመ-ቅንብሮቹ በፕሮጀክቱ ውስጥም ይቀመጣሉ።"
+        "**ማስተካከያዎች፦** በግንኙነት ትር የገመድ ዝርጋታ ክፍል አዝራሮች እንደገና ተሰልፈዋል፦ አጽዳ እና ሁሉንም አጽዳ እኩል ስፋት አላቸው፣ አንዱ በሌላው ላይ።"
       ],
       "sl": [
-        "**Zavihek Grid:** shranjene mreže ne prikazujejo več debelih navpičnih črt, diagonale pa so svetlejše in malo debelejše.",
-        "**Poročilo PDF:** električni rezultati zdaj prikazujejo skupno porabo v kVA.",
-        "**LED screen:** dodatna vrstica besedila pod imenom zaslona, gumb za izbiro barve (tudi v meniju dvojnega klika) in oznaka Pixel pitch.",
-        "**Prednastavitve kabineta:** shranite ločljivost in velikost kabineta kot poimenovano prednastavitev in jo izbrišite z gumbom koša; prednastavitve se shranijo v projekt."
+        "**Prilagoditve:** na zavihku Povezava so gumbi razdelka Ožičenje spet poravnani: Počisti in Počisti vse sta enako široka, eden nad drugim."
       ]
     },
-    "2.7.0": {
+    "2.8.3": {
       "en": [
-        "**New Grid tab:** a test grid generator for LED and projection, any resolution up to 100,000 × 100,000 px, with resolution presets, patterns (Grid, Spyder and Alignment), backgrounds, display options and red or blue lines.",
-        "**Save the grid as PNG, JPEG, PSD or PDF:** pixel-exact files, with an optional transparent background (Alpha).",
-        "**Zoom and move:** mouse-wheel zoom down to a single pixel, drag with the right mouse button, Center view or Esc to center it again."
+        "**Drawing:** Center view now has ON / OFF: with ON the zoom adjusts by itself when boxes go out of the view. The Device ports window has two columns, IN and OUT, with the cable color of each port.",
+        "**Power:** average power (video) and the current of phases L1 / L2 / L3 in Status, 3D, Info and the PDF report (new Power section). Weights from 1,000 kg are shown in tonnes.",
+        "**Extended screen and Info:** the new Grid view sends the test grid of the Grid tab to the display, live with zoom and pan. The Info box has a button to copy a summary of the project.",
+        "**Adjustments:** the update notice scrolls when the list is long, Remove excess is centered, and Help > Donate opens the PayPal donation page."
       ],
       "pt": [
-        "**Nova aba Grid:** gerador de grid de teste para LED e projeção, em qualquer resolução até 100.000 × 100.000 px, com resoluções prontas, desenhos (Grid, Spyder e Alinhamento), fundos, opções de exibição e linhas vermelhas ou azuis.",
-        "**Salve o grid em PNG, JPEG, PSD ou PDF:** arquivos fiéis pixel a pixel, com fundo transparente opcional (Alpha).",
-        "**Zoom e arraste:** zoom na roda do mouse até um único pixel, arraste com o botão direito, Centralizar vista ou Esc para centralizar de novo."
+        "**Desenho:** o Centralizar vista agora tem ON / OFF: com ON, o zoom se ajusta sozinho quando as caixas saem da vista. A janela Portas do equipamento tem duas colunas, IN e OUT, com a cor do cabo de cada porta.",
+        "**Potência:** potência média (vídeo) e a corrente das fases L1 / L2 / L3 no Status, no 3D, na Info e no relatório PDF (nova seção Potência). Pesos a partir de 1.000 kg aparecem em toneladas.",
+        "**Tela estendida e Info:** a nova vista Grid envia o grid de teste da aba Grid para o monitor, ao vivo, com zoom e arrasto. A caixa Info tem um botão para copiar o resumo do projeto.",
+        "**Ajustes:** o aviso de atualização rola quando a lista é grande, o Remover sobras ficou centralizado e Ajuda > Doar abre a página de doação do PayPal."
       ],
       "es": [
-        "**Nueva pestaña Grid:** generador de cuadrícula de prueba para LED y proyección, en cualquier resolución hasta 100.000 × 100.000 px, con resoluciones predefinidas, patrones (Grid, Spyder y Alineación), fondos, opciones de visualización y líneas rojas o azules.",
-        "**Guarde la cuadrícula en PNG, JPEG, PSD o PDF:** archivos exactos píxel a píxel, con fondo transparente opcional (Alpha).",
-        "**Zoom y arrastre:** zoom con la rueda del ratón hasta un solo píxel, arrastre con el botón derecho, Centrar vista o Esc para volver a centrar."
+        "**Dibujo:** Centrar vista ahora tiene ON / OFF: con ON el zoom se ajusta solo cuando los cuadros salen de la vista. La ventana Puertos del equipo tiene dos columnas, IN y OUT, con el color del cable de cada puerto.",
+        "**Potencia:** potencia media (video) y la corriente de las fases L1 / L2 / L3 en Status, 3D, Info y el informe PDF (nueva sección Potencia). Los pesos desde 1.000 kg se muestran en toneladas.",
+        "**Pantalla extendida e Info:** la nueva vista Grid envía la cuadrícula de prueba de la pestaña Grid al monitor, en vivo, con zoom y desplazamiento. La caja Info tiene un botón para copiar un resumen del proyecto.",
+        "**Ajustes:** el aviso de actualización se desplaza cuando la lista es larga, Quitar sobrante quedó centrado y Ayuda > Donar abre la página de donación de PayPal."
       ],
       "fr": [
-        "**Nouvel onglet Grid :** générateur de mire de test pour LED et projection, dans toute résolution jusqu'à 100 000 × 100 000 px, avec des résolutions prédéfinies, des motifs (Grid, Spyder et Alignement), des fonds, des options d'affichage et des lignes rouges ou bleues.",
-        "**Enregistrez la mire en PNG, JPEG, PSD ou PDF :** fichiers exacts au pixel près, avec fond transparent en option (Alpha).",
-        "**Zoom et déplacement :** zoom à la molette jusqu'à un seul pixel, déplacement avec le bouton droit, Centrer la vue ou Échap pour recentrer."
+        "**Dessin :** Centrer la vue a maintenant ON / OFF : avec ON, le zoom s'ajuste tout seul quand des boîtes sortent de la vue. La fenêtre Ports de l'appareil a deux colonnes, IN et OUT, avec la couleur du câble de chaque port.",
+        "**Puissance :** puissance moyenne (vidéo) et courant des phases L1 / L2 / L3 dans Status, la 3D, Info et le rapport PDF (nouvelle section Puissance). Les poids à partir de 1 000 kg s'affichent en tonnes.",
+        "**Écran étendu et Info :** la nouvelle vue Grid envoie la grille de test de l'onglet Grid à l'écran, en direct, avec zoom et déplacement. La boîte Info a un bouton pour copier un résumé du projet.",
+        "**Ajustements :** l'avis de mise à jour défile quand la liste est longue, Retirer le surplus est centré et Aide > Faire un don ouvre la page de don PayPal."
       ],
       "de": [
-        "**Neuer Grid-Tab:** Testraster-Generator für LED und Projektion, in jeder Auflösung bis 100.000 × 100.000 px, mit Auflösungsvorlagen, Mustern (Grid, Spyder und Ausrichtung), Hintergründen, Anzeigeoptionen und roten oder blauen Linien.",
-        "**Raster als PNG, JPEG, PSD oder PDF speichern:** pixelgenaue Dateien, optional mit transparentem Hintergrund (Alpha).",
-        "**Zoomen und verschieben:** Zoom mit dem Mausrad bis zu einem einzelnen Pixel, Verschieben mit der rechten Maustaste, Ansicht zentrieren oder Esc zum erneuten Zentrieren."
+        "**Zeichnung:** Ansicht zentrieren hat jetzt ON / OFF: mit ON passt sich der Zoom selbst an, wenn Felder die Ansicht verlassen. Das Fenster Geräteports hat zwei Spalten, IN und OUT, mit der Kabelfarbe jedes Ports.",
+        "**Leistung:** Durchschnittsleistung (Video) und der Strom der Phasen L1 / L2 / L3 in Status, 3D, Info und im PDF-Bericht (neuer Abschnitt Leistung). Gewichte ab 1.000 kg werden in Tonnen angezeigt.",
+        "**Erweiterter Bildschirm und Info:** die neue Ansicht Grid sendet das Testraster des Grid-Tabs live mit Zoom und Verschieben an den Monitor. Das Info-Feld hat eine Schaltfläche, um eine Projektzusammenfassung zu kopieren.",
+        "**Anpassungen:** der Update-Hinweis scrollt bei langer Liste, Überschuss entfernen ist zentriert und Hilfe > Spenden öffnet die PayPal-Spendenseite."
       ],
       "it": [
-        "**Nuova scheda Grid:** generatore di griglie di prova per LED e proiezione, in qualsiasi risoluzione fino a 100.000 × 100.000 px, con risoluzioni predefinite, motivi (Grid, Spyder e Allineamento), sfondi, opzioni di visualizzazione e linee rosse o blu.",
-        "**Salva la griglia in PNG, JPEG, PSD o PDF:** file esatti al pixel, con sfondo trasparente opzionale (Alpha).",
-        "**Zoom e trascinamento:** zoom con la rotellina fino a un singolo pixel, trascinamento con il tasto destro, Centra vista o Esc per ricentrare."
+        "**Disegno:** Centra vista ora ha ON / OFF: con ON lo zoom si regola da solo quando i riquadri escono dalla vista. La finestra Porte del dispositivo ha due colonne, IN e OUT, con il colore del cavo di ogni porta.",
+        "**Potenza:** potenza media (video) e corrente delle fasi L1 / L2 / L3 in Status, 3D, Info e nel report PDF (nuova sezione Potenza). I pesi da 1.000 kg appaiono in tonnellate.",
+        "**Schermo esteso e Info:** la nuova vista Grid invia la griglia di prova della scheda Grid al monitor, dal vivo, con zoom e spostamento. Il riquadro Info ha un pulsante per copiare un riepilogo del progetto.",
+        "**Ritocchi:** l'avviso di aggiornamento scorre quando l'elenco è lungo, Rimuovi eccesso è centrato e Aiuto > Dona apre la pagina di donazione PayPal."
       ],
       "nl": [
-        "**Nieuw tabblad Grid:** testrastergenerator voor LED en projectie, in elke resolutie tot 100.000 × 100.000 px, met vooraf ingestelde resoluties, patronen (Grid, Spyder en Uitlijning), achtergronden, weergaveopties en rode of blauwe lijnen.",
-        "**Sla het raster op als PNG, JPEG, PSD of PDF:** pixelexacte bestanden, met optioneel een transparante achtergrond (Alpha).",
-        "**Zoomen en slepen:** zoomen met het muiswiel tot op één pixel, slepen met de rechtermuisknop, Weergave centreren of Esc om opnieuw te centreren."
+        "**Tekening:** Weergave centreren heeft nu ON / OFF: met ON past de zoom zich vanzelf aan als vakken buiten beeld gaan. Het venster Apparaatpoorten heeft twee kolommen, IN en OUT, met de kabelkleur van elke poort.",
+        "**Vermogen:** gemiddeld vermogen (video) en de stroom van fasen L1 / L2 / L3 in Status, 3D, Info en het PDF-rapport (nieuwe sectie Vermogen). Gewichten vanaf 1.000 kg worden in ton getoond.",
+        "**Uitgebreid scherm en Info:** de nieuwe weergave Grid stuurt het testraster van het tabblad Grid live naar het scherm, met zoom en verschuiven. Het vak Info heeft een knop om een projectsamenvatting te kopiëren.",
+        "**Aanpassingen:** de updatemelding scrolt bij een lange lijst, Overschot verwijderen staat gecentreerd en Help > Doneren opent de PayPal-donatiepagina."
       ],
       "ru": [
-        "**Новая вкладка Grid:** генератор тестовой сетки для LED и проекции, любое разрешение до 100 000 × 100 000 пикс., готовые разрешения, шаблоны (Grid, Spyder и Выравнивание), фоны, параметры отображения и красные или синие линии.",
-        "**Сохранение сетки в PNG, JPEG, PSD или PDF:** файлы с точностью до пикселя, по желанию с прозрачным фоном (Alpha).",
-        "**Масштаб и перемещение:** масштаб колесом мыши вплоть до одного пикселя, перемещение правой кнопкой, Центрировать вид или Esc для центрирования."
+        "**Схема:** у «Центрировать вид» теперь есть ON / OFF: при ON масштаб сам подстраивается, когда блоки выходят за пределы вида. Окно «Порты устройства» разделено на два столбца, IN и OUT, с цветом кабеля каждого порта.",
+        "**Мощность:** средняя мощность (видео) и ток фаз L1 / L2 / L3 в Status, 3D, Info и в PDF-отчёте (новый раздел «Мощность»). Вес от 1000 кг показывается в тоннах.",
+        "**Расширенный экран и Info:** новый вид Grid выводит тестовую сетку вкладки Grid на монитор в реальном времени, с масштабом и сдвигом. В блоке Info есть кнопка для копирования сводки проекта.",
+        "**Доработки:** уведомление об обновлении прокручивается при длинном списке, «Убрать лишнее» по центру, а «Справка > Пожертвовать» открывает страницу PayPal."
       ],
       "tr": [
-        "**Yeni Grid sekmesi:** LED ve projeksiyon için test ızgarası üreticisi; 100.000 × 100.000 piksele kadar her çözünürlükte, hazır çözünürlükler, desenler (Grid, Spyder ve Hizalama), arka planlar, görünüm seçenekleri ve kırmızı ya da mavi çizgilerle.",
-        "**Izgarayı PNG, JPEG, PSD veya PDF olarak kaydedin:** piksel piksel birebir dosyalar, isteğe bağlı saydam arka plan (Alpha).",
-        "**Yakınlaştırma ve sürükleme:** fare tekerleğiyle tek bir piksele kadar yakınlaştırma, sağ tuşla sürükleme, yeniden ortalamak için Görünümü ortala veya Esc."
+        "**Çizim:** Görünümü ortala artık ON / OFF içeriyor: ON iken kutular görünümden çıkınca yakınlaştırma kendiliğinden ayarlanır. Cihaz portları penceresinde her portun kablo rengiyle IN ve OUT olmak üzere iki sütun var.",
+        "**Güç:** ortalama güç (video) ve L1 / L2 / L3 fazlarının akımı Status, 3D, Info ve PDF raporunda (yeni Güç bölümü). 1.000 kg ve üzeri ağırlıklar ton olarak gösterilir.",
+        "**Genişletilmiş ekran ve Info:** yeni Grid görünümü Grid sekmesindeki test ızgarasını yakınlaştırma ve kaydırmayla canlı olarak ekrana gönderir. Info kutusunda proje özetini kopyalayan bir düğme var.",
+        "**Ayarlar:** güncelleme bildirimi uzun listede kayar, Fazlayı kaldır ortalandı ve Yardım > Bağış yap PayPal bağış sayfasını açar."
       ],
       "id": [
-        "**Tab Grid baru:** pembuat grid uji untuk LED dan proyeksi, dalam resolusi apa pun hingga 100.000 × 100.000 px, dengan preset resolusi, pola (Grid, Spyder, dan Penyelarasan), latar belakang, opsi tampilan, serta garis merah atau biru.",
-        "**Simpan grid sebagai PNG, JPEG, PSD, atau PDF:** file yang tepat hingga tiap piksel, dengan latar transparan opsional (Alpha).",
-        "**Zoom dan geser:** zoom dengan roda mouse hingga satu piksel, geser dengan tombol kanan, Tengahkan tampilan atau Esc untuk memusatkan lagi."
+        "**Gambar:** Pusatkan tampilan kini punya ON / OFF: dengan ON zoom menyesuaikan sendiri saat kotak keluar dari tampilan. Jendela Port perangkat punya dua kolom, IN dan OUT, dengan warna kabel tiap port.",
+        "**Daya:** daya rata-rata (video) dan arus fasa L1 / L2 / L3 di Status, 3D, Info, dan laporan PDF (bagian Daya baru). Berat mulai 1.000 kg ditampilkan dalam ton.",
+        "**Layar tambahan dan Info:** tampilan Grid baru mengirim grid uji tab Grid ke layar secara langsung, dengan zoom dan geser. Kotak Info punya tombol untuk menyalin ringkasan proyek.",
+        "**Penyesuaian:** pemberitahuan pembaruan bisa digulir saat daftar panjang, Hapus kelebihan kini di tengah, dan Bantuan > Donasi membuka halaman donasi PayPal."
       ],
       "hu": [
-        "**Új Grid fül:** tesztrács-generátor LED-hez és vetítéshez, bármilyen felbontásban 100 000 × 100 000 képpontig, előre beállított felbontásokkal, mintákkal (Grid, Spyder és Igazítás), hátterekkel, megjelenítési beállításokkal és piros vagy kék vonalakkal.",
-        "**Mentse a rácsot PNG, JPEG, PSD vagy PDF formátumban:** képpontra pontos fájlok, választható átlátszó háttérrel (Alpha).",
-        "**Nagyítás és mozgatás:** nagyítás az egérgörgővel egyetlen képpontig, mozgatás a jobb egérgombbal, Nézet középre vagy Esc az újbóli középre igazításhoz."
+        "**Rajz:** a Nézet középre most ON / OFF kapcsolót kapott: ON esetén a nagyítás magától igazodik, ha dobozok kikerülnek a nézetből. Az Eszközportok ablak két oszlopos, IN és OUT, minden port kábelszínével.",
+        "**Teljesítmény:** átlagos teljesítmény (videó) és az L1 / L2 / L3 fázisok árama a Status, 3D, Info nézetben és a PDF-jelentésben (új Teljesítmény rész). Az 1000 kg feletti súly tonnában jelenik meg.",
+        "**Kiterjesztett képernyő és Info:** az új Grid nézet élőben, nagyítással és mozgatással küldi a Grid fül tesztrácsát a kijelzőre. Az Info dobozban gomb másolja a projekt összefoglalóját.",
+        "**Finomítások:** a frissítési értesítés görgethető hosszú listánál, a Többlet eltávolítása középre került, a Súgó > Adományozás a PayPal adományoldalt nyitja meg."
       ],
       "zh-Hans": [
-        "**新的 Grid 选项卡：** 用于 LED 和投影的测试网格生成器，支持最高 100,000 × 100,000 像素的任意分辨率，提供预设分辨率、图案（Grid、Spyder 和 对齐）、背景、显示选项以及红色或蓝色线条。",
-        "**将网格保存为 PNG、JPEG、PSD 或 PDF：** 逐像素精确的文件，可选透明背景（Alpha）。",
-        "**缩放和拖动：** 用鼠标滚轮缩放到单个像素，按住右键拖动，按 居中视图 或 Esc 重新居中。"
+        "**绘图：** 居中视图现在有 ON / OFF：开启时，框移出视图后缩放会自动调整。设备端口窗口分为 IN 和 OUT 两列，并显示每个端口的线缆颜色。",
+        "**功率：** 在 Status、3D、Info 和 PDF 报告（新的功率部分）中显示平均功率（视频）和 L1 / L2 / L3 相电流。1000 kg 以上的重量以吨显示。",
+        "**扩展屏幕和 Info：** 新的 Grid 视图将 Grid 选项卡的测试网格实时发送到显示器，可缩放和平移。Info 框有一个复制项目摘要的按钮。",
+        "**调整：** 列表较长时更新提示可滚动，“移除多余”已居中，帮助 > 捐赠可打开 PayPal 捐赠页面。"
       ],
       "zh-Hant": [
-        "**新的 Grid 分頁：** 用於 LED 與投影的測試網格產生器，支援最高 100,000 × 100,000 像素的任意解析度，提供預設解析度、圖樣（Grid、Spyder 和 對齊）、背景、顯示選項以及紅色或藍色線條。",
-        "**將網格儲存為 PNG、JPEG、PSD 或 PDF：** 逐像素精確的檔案，可選透明背景（Alpha）。",
-        "**縮放與拖曳：** 以滑鼠滾輪縮放到單一像素，按住右鍵拖曳，按 置中檢視 或 Esc 重新置中。"
+        "**繪圖：** 置中檢視現在有 ON / OFF：開啟時，方塊移出畫面後縮放會自動調整。設備連接埠視窗分為 IN 和 OUT 兩欄，並顯示每個連接埠的線材顏色。",
+        "**功率：** 在 Status、3D、Info 和 PDF 報告（新的功率部分）中顯示平均功率（影像）和 L1 / L2 / L3 相電流。1000 kg 以上的重量以公噸顯示。",
+        "**延伸螢幕和 Info：** 新的 Grid 檢視會將 Grid 分頁的測試格線即時送到顯示器，可縮放和平移。Info 方塊有一個複製專案摘要的按鈕。",
+        "**調整：** 清單較長時更新通知可捲動，「移除多餘」已置中，說明 > 捐款可開啟 PayPal 捐款頁面。"
       ],
       "ja": [
-        "**新しい Grid タブ：** LED とプロジェクション用のテストグリッド生成ツール。最大 100,000 × 100,000 px まで任意の解像度に対応し、解像度プリセット、パターン（Grid、Spyder、アライメント）、背景、表示オプション、赤または青のラインを選べます。",
-        "**グリッドを PNG、JPEG、PSD、PDF で保存：** ピクセル単位で正確なファイル。透明な背景（Alpha）も選べます。",
-        "**ズームと移動：** マウスホイールで 1 ピクセル単位までズーム、右ボタンでドラッグ、ビューを中央へ または Esc で中央に戻します。"
+        "**図面：** 「ビューを中央に」に ON / OFF が付きました。ON ならボックスが表示範囲の外に出るとズームが自動で調整されます。機器ポートのウィンドウは IN と OUT の 2 列になり、各ポートのケーブル色が表示されます。",
+        "**電力：** 平均電力（映像）と L1 / L2 / L3 の各相電流を Status、3D、Info、PDF レポート（新しい電力セクション）に表示。1000 kg 以上の重量はトンで表示されます。",
+        "**拡張スクリーンと Info：** 新しい Grid ビューで Grid タブのテストグリッドをズームや移動も含めてリアルタイムにディスプレイへ送ります。Info ボックスにプロジェクトの概要をコピーするボタンがあります。",
+        "**調整：** 更新通知は一覧が長いとスクロールし、「余分を削除」は中央に、ヘルプ > 寄付は PayPal の寄付ページを開きます。"
       ],
       "ko": [
-        "**새 Grid 탭:** LED와 프로젝션용 테스트 그리드 생성기로, 최대 100,000 × 100,000 px까지 모든 해상도를 지원하며 해상도 프리셋, 패턴(Grid, Spyder, 정렬), 배경, 표시 옵션, 빨간색 또는 파란색 선을 제공합니다.",
-        "**그리드를 PNG, JPEG, PSD 또는 PDF로 저장:** 픽셀 단위까지 정확한 파일이며, 투명 배경(Alpha)을 선택할 수 있습니다.",
-        "**확대/축소와 이동:** 마우스 휠로 픽셀 하나까지 확대하고, 오른쪽 버튼으로 끌어 이동하며, 뷰 가운데 맞춤 또는 Esc로 다시 가운데에 맞춥니다."
+        "**도면:** 보기 가운데 맞춤에 ON / OFF가 생겼습니다. ON이면 상자가 화면 밖으로 나갈 때 확대/축소가 자동으로 맞춰집니다. 장비 포트 창은 IN과 OUT 두 열로 나뉘고 각 포트의 케이블 색이 표시됩니다.",
+        "**전력:** 평균 전력(영상)과 L1 / L2 / L3 상 전류를 Status, 3D, Info, PDF 보고서(새 전력 섹션)에 표시합니다. 1,000 kg 이상의 무게는 톤으로 표시됩니다.",
+        "**확장 화면과 Info:** 새 Grid 보기가 Grid 탭의 테스트 그리드를 확대/축소와 이동까지 실시간으로 디스플레이에 보냅니다. Info 상자에 프로젝트 요약을 복사하는 버튼이 있습니다.",
+        "**조정:** 목록이 길면 업데이트 알림이 스크롤되고, 여분 제거가 가운데 정렬되었으며, 도움말 > 후원하기가 PayPal 후원 페이지를 엽니다."
       ],
       "ar": [
-        "**تبويب Grid جديد:** مولّد شبكة اختبار لشاشات LED والإسقاط، بأي دقة حتى 100,000 × 100,000 بكسل، مع دقات جاهزة وأنماط (Grid وSpyder ومحاذاة) وخلفيات وخيارات عرض وخطوط حمراء أو زرقاء.",
-        "**احفظ الشبكة بصيغة PNG أو JPEG أو PSD أو PDF:** ملفات دقيقة بكسلًا ببكسل، مع خلفية شفافة اختيارية (Alpha).",
-        "**التكبير والسحب:** تكبير بعجلة الفأرة حتى بكسل واحد، وسحب بالزر الأيمن، وتوسيط العرض أو Esc لإعادة التوسيط."
+        "**الرسم:** أصبح لتوسيط العرض خيار ON / OFF: مع ON يتكيف التكبير تلقائيًا عندما تخرج المربعات من العرض. نافذة منافذ الجهاز بعمودين IN وOUT مع لون كابل كل منفذ.",
+        "**القدرة:** متوسط القدرة (فيديو) وتيار الأطوار L1 / L2 / L3 في Status و3D وInfo وتقرير PDF (قسم القدرة الجديد). الأوزان من 1000 كغ تظهر بالطن.",
+        "**الشاشة الممتدة وInfo:** يرسل عرض Grid الجديد شبكة الاختبار من تبويب Grid إلى الشاشة مباشرة مع التكبير والتحريك. يحتوي مربع Info على زر لنسخ ملخص المشروع.",
+        "**تحسينات:** يمكن تمرير إشعار التحديث عندما تطول القائمة، وأصبح زر إزالة الزائد في المنتصف، وتفتح تعليمات > تبرّع صفحة التبرع في PayPal."
       ],
       "th": [
-        "**แท็บ Grid ใหม่:** ตัวสร้างกริดทดสอบสำหรับ LED และโปรเจกเตอร์ ทุกความละเอียดสูงสุด 100,000 × 100,000 พิกเซล พร้อมความละเอียดสำเร็จรูป ลวดลาย (Grid, Spyder และ การจัดแนว) พื้นหลัง ตัวเลือกการแสดงผล และเส้นสีแดงหรือสีน้ำเงิน",
-        "**บันทึกกริดเป็น PNG, JPEG, PSD หรือ PDF:** ไฟล์ตรงทุกพิกเซล เลือกพื้นหลังโปร่งใสได้ (Alpha)",
-        "**ซูมและลาก:** ซูมด้วยล้อเมาส์จนถึงพิกเซลเดียว ลากด้วยปุ่มขวา และใช้ จัดมุมมองกึ่งกลาง หรือ Esc เพื่อจัดกลางอีกครั้ง"
+        "**แผนผัง:** จัดมุมมองกึ่งกลางมี ON / OFF แล้ว: เมื่อเป็น ON การซูมจะปรับเองเมื่อกล่องออกนอกมุมมอง หน้าต่างพอร์ตอุปกรณ์มีสองคอลัมน์ IN และ OUT พร้อมสีสายของแต่ละพอร์ต",
+        "**กำลังไฟ:** กำลังไฟเฉลี่ย (วิดีโอ) และกระแสของเฟส L1 / L2 / L3 ใน Status, 3D, Info และรายงาน PDF (ส่วนกำลังไฟใหม่) น้ำหนักตั้งแต่ 1,000 กก. แสดงเป็นตัน",
+        "**จอขยายและ Info:** มุมมอง Grid ใหม่ส่งกริดทดสอบของแท็บ Grid ไปยังจอแบบสด พร้อมการซูมและเลื่อน กล่อง Info มีปุ่มคัดลอกสรุปโปรเจกต์",
+        "**ปรับแต่ง:** การแจ้งอัปเดตเลื่อนได้เมื่อรายการยาว ลบส่วนเกินอยู่ตรงกลางแล้ว และวิธีใช้ > บริจาค เปิดหน้าบริจาค PayPal"
       ],
       "hi": [
-        "**नया Grid टैब:** LED और प्रोजेक्शन के लिए टेस्ट ग्रिड जनरेटर, 100,000 × 100,000 px तक किसी भी रिज़ॉल्यूशन में, तैयार रिज़ॉल्यूशन, पैटर्न (Grid, Spyder और संरेखण), बैकग्राउंड, डिस्प्ले विकल्प और लाल या नीली रेखाओं के साथ।",
-        "**ग्रिड को PNG, JPEG, PSD या PDF में सेव करें:** हर पिक्सेल तक सटीक फ़ाइलें, वैकल्पिक पारदर्शी बैकग्राउंड (Alpha) के साथ।",
-        "**ज़ूम और खिसकाना:** माउस व्हील से एक पिक्सेल तक ज़ूम, दाएँ बटन से खिसकाएँ, फिर से बीच में लाने के लिए व्यू बीच में करें या Esc।"
+        "**ड्रॉइंग:** व्यू बीच में करें में अब ON / OFF है: ON पर बॉक्स दृश्य से बाहर जाने पर ज़ूम अपने-आप बदलता है। डिवाइस पोर्ट विंडो में हर पोर्ट के केबल रंग के साथ IN और OUT दो कॉलम हैं।",
+        "**पावर:** Status, 3D, Info और PDF रिपोर्ट (नया पावर भाग) में औसत पावर (वीडियो) और L1 / L2 / L3 फेज़ का करंट। 1,000 kg से ऊपर का वज़न टन में दिखता है।",
+        "**एक्सटेंडेड स्क्रीन और Info:** नया Grid व्यू Grid टैब का टेस्ट ग्रिड ज़ूम और खिसकाने के साथ लाइव डिस्प्ले पर भेजता है। Info बॉक्स में प्रोजेक्ट का सारांश कॉपी करने का बटन है।",
+        "**सुधार:** लंबी सूची पर अपडेट सूचना स्क्रॉल होती है, अतिरिक्त हटाएँ बीच में है, और सहायता > दान करें PayPal दान पेज खोलता है।"
       ],
       "vi": [
-        "**Thẻ Grid mới:** công cụ tạo lưới kiểm tra cho LED và máy chiếu, mọi độ phân giải đến 100.000 × 100.000 px, có độ phân giải dựng sẵn, mẫu (Grid, Spyder và Căn chỉnh), nền, tùy chọn hiển thị và đường kẻ đỏ hoặc xanh.",
-        "**Lưu lưới thành PNG, JPEG, PSD hoặc PDF:** tệp chính xác đến từng pixel, có thể chọn nền trong suốt (Alpha).",
-        "**Thu phóng và kéo:** thu phóng bằng con lăn chuột đến từng pixel, kéo bằng nút phải, Căn giữa hoặc Esc để căn giữa lại."
+        "**Bản vẽ:** Căn giữa khung nhìn giờ có ON / OFF: khi ON, thu phóng tự điều chỉnh khi hộp ra khỏi khung nhìn. Cửa sổ Cổng thiết bị có hai cột IN và OUT, kèm màu cáp của từng cổng.",
+        "**Công suất:** công suất trung bình (video) và dòng điện các pha L1 / L2 / L3 trong Status, 3D, Info và báo cáo PDF (mục Công suất mới). Trọng lượng từ 1.000 kg hiển thị bằng tấn.",
+        "**Màn hình mở rộng và Info:** khung nhìn Grid mới gửi lưới kiểm tra của thẻ Grid lên màn hình trực tiếp, kèm thu phóng và kéo. Hộp Info có nút sao chép tóm tắt dự án.",
+        "**Điều chỉnh:** thông báo cập nhật cuộn được khi danh sách dài, Xóa phần thừa nằm giữa, và Trợ giúp > Quyên góp mở trang quyên góp PayPal."
       ],
       "bn": [
-        "**নতুন Grid ট্যাব:** LED ও প্রজেকশনের জন্য টেস্ট গ্রিড জেনারেটর, 100,000 × 100,000 px পর্যন্ত যেকোনো রেজোলিউশনে, প্রস্তুত রেজোলিউশন, প্যাটার্ন (Grid, Spyder ও সারিবদ্ধকরণ), ব্যাকগ্রাউন্ড, প্রদর্শন বিকল্প এবং লাল বা নীল রেখাসহ।",
-        "**গ্রিড PNG, JPEG, PSD বা PDF হিসেবে সংরক্ষণ করুন:** প্রতিটি পিক্সেল পর্যন্ত নির্ভুল ফাইল, ঐচ্ছিক স্বচ্ছ ব্যাকগ্রাউন্ড (Alpha) সহ।",
-        "**জুম ও টেনে সরানো:** মাউস হুইলে একটি পিক্সেল পর্যন্ত জুম, ডান বোতামে টেনে সরানো, আবার মাঝখানে আনতে ভিউ সেন্টার করুন বা Esc।"
+        "**ড্রয়িং:** ভিউ মাঝখানে আনুন-এ এখন ON / OFF আছে: ON থাকলে বক্স দৃশ্যের বাইরে গেলে জুম নিজে থেকে বদলায়। ডিভাইস পোর্ট উইন্ডোতে প্রতিটি পোর্টের কেবলের রং-সহ IN ও OUT দুই কলাম।",
+        "**পাওয়ার:** Status, 3D, Info ও PDF রিপোর্টে (নতুন পাওয়ার অংশ) গড় পাওয়ার (ভিডিও) ও L1 / L2 / L3 ফেজের কারেন্ট। ১,০০০ কেজির বেশি ওজন টনে দেখায়।",
+        "**এক্সটেন্ডেড স্ক্রিন ও Info:** নতুন Grid ভিউ Grid ট্যাবের টেস্ট গ্রিড জুম ও সরানো-সহ সরাসরি ডিসপ্লেতে পাঠায়। Info বক্সে প্রকল্পের সারাংশ কপি করার বোতাম আছে।",
+        "**সমন্বয়:** লম্বা তালিকায় আপডেট বার্তা স্ক্রল হয়, অতিরিক্ত সরান মাঝখানে, আর সহায়তা > দান করুন PayPal দানের পেজ খোলে।"
       ],
       "ms": [
-        "**Tab Grid baharu:** penjana grid ujian untuk LED dan unjuran, dalam sebarang resolusi hingga 100,000 × 100,000 px, dengan pratetap resolusi, corak (Grid, Spyder dan Penjajaran), latar belakang, pilihan paparan dan garisan merah atau biru.",
-        "**Simpan grid sebagai PNG, JPEG, PSD atau PDF:** fail tepat hingga setiap piksel, dengan latar belakang lutsinar pilihan (Alpha).",
-        "**Zum dan seret:** zum dengan roda tetikus hingga satu piksel, seret dengan butang kanan, Pusatkan paparan atau Esc untuk memusatkan semula."
+        "**Lukisan:** Pusatkan paparan kini ada ON / OFF: dengan ON zum menyesuaikan sendiri apabila kotak keluar dari paparan. Tetingkap Port peranti ada dua lajur, IN dan OUT, dengan warna kabel setiap port.",
+        "**Kuasa:** kuasa purata (video) dan arus fasa L1 / L2 / L3 dalam Status, 3D, Info dan laporan PDF (bahagian Kuasa baharu). Berat mulai 1,000 kg dipaparkan dalam tan.",
+        "**Skrin lanjutan dan Info:** paparan Grid baharu menghantar grid ujian tab Grid ke skrin secara langsung, dengan zum dan seret. Kotak Info ada butang untuk menyalin ringkasan projek.",
+        "**Pelarasan:** notis kemas kini boleh ditatal apabila senarai panjang, Buang lebihan kini di tengah, dan Bantuan > Derma membuka halaman derma PayPal."
       ],
       "sv": [
-        "**Ny Grid-flik:** generator för testrutnät för LED och projektion, i valfri upplösning upp till 100 000 × 100 000 px, med förinställda upplösningar, mönster (Grid, Spyder och Justering), bakgrunder, visningsalternativ och röda eller blå linjer.",
-        "**Spara rutnätet som PNG, JPEG, PSD eller PDF:** pixelexakta filer, med valfri genomskinlig bakgrund (Alpha).",
-        "**Zooma och dra:** zooma med mushjulet ända ner till en enskild pixel, dra med höger musknapp, Centrera vyn eller Esc för att centrera igen."
+        "**Ritning:** Centrera vyn har nu ON / OFF: med ON anpassas zoomen av sig själv när rutor hamnar utanför vyn. Fönstret Enhetsportar har två kolumner, IN och OUT, med kabelfärgen för varje port.",
+        "**Effekt:** medeleffekt (video) och strömmen i faserna L1 / L2 / L3 i Status, 3D, Info och PDF-rapporten (ny Effekt-sektion). Vikter från 1 000 kg visas i ton.",
+        "**Utökad skärm och Info:** den nya vyn Grid skickar testrutnätet från fliken Grid till skärmen live, med zoom och panorering. Rutan Info har en knapp för att kopiera en projektsammanfattning.",
+        "**Justeringar:** uppdateringsmeddelandet går att rulla när listan är lång, Ta bort överskott är centrerad och Hjälp > Donera öppnar PayPals donationssida."
       ],
       "ur": [
-        "**نیا Grid ٹیب:** LED اور پروجیکشن کے لیے ٹیسٹ گرڈ جنریٹر، 100,000 × 100,000 px تک کسی بھی ریزولوشن میں، تیار ریزولوشنز، پیٹرن (Grid، Spyder اور سیدھ)، پس منظر، ڈسپلے کے اختیارات اور سرخ یا نیلی لائنوں کے ساتھ۔",
-        "**گرڈ کو PNG، JPEG، PSD یا PDF میں محفوظ کریں:** ہر پکسل تک درست فائلیں، اختیاری شفاف پس منظر (Alpha) کے ساتھ۔",
-        "**زوم اور گھسیٹنا:** ماؤس وہیل سے ایک پکسل تک زوم، دائیں بٹن سے گھسیٹیں، دوبارہ درمیان میں لانے کے لیے ویو سینٹر کریں یا Esc۔"
+        "**ڈرائنگ:** منظر درمیان میں کریں میں اب ON / OFF ہے: ON پر باکس منظر سے باہر جائیں تو زوم خود ایڈجسٹ ہوتا ہے۔ ڈیوائس پورٹس ونڈو میں ہر پورٹ کے کیبل رنگ کے ساتھ IN اور OUT دو کالم ہیں۔",
+        "**پاور:** Status، 3D، Info اور PDF رپورٹ (نیا پاور حصہ) میں اوسط پاور (ویڈیو) اور L1 / L2 / L3 فیز کا کرنٹ۔ 1,000 کلو سے زیادہ وزن ٹن میں دکھتا ہے۔",
+        "**ایکسٹینڈڈ اسکرین اور Info:** نیا Grid منظر Grid ٹیب کا ٹیسٹ گرڈ زوم اور کھسکانے کے ساتھ براہ راست ڈسپلے پر بھیجتا ہے۔ Info باکس میں پروجیکٹ کا خلاصہ کاپی کرنے کا بٹن ہے۔",
+        "**بہتریاں:** لمبی فہرست پر اپ ڈیٹ اطلاع اسکرول ہوتی ہے، اضافی ہٹائیں درمیان میں ہے، اور مدد > عطیہ کریں PayPal عطیہ کا صفحہ کھولتا ہے۔"
       ],
       "sw": [
-        "**Kichupo kipya cha Grid:** kiunda gridi ya majaribio kwa LED na projekta, katika ubora wowote hadi pikseli 100,000 × 100,000, chenye maazimio yaliyotayarishwa, mifumo (Grid, Spyder na Upangaji), mandharinyuma, chaguo za onyesho na mistari myekundu au ya bluu.",
-        "**Hifadhi gridi kama PNG, JPEG, PSD au PDF:** faili sahihi hadi kila pikseli, na mandharinyuma ya uwazi kwa hiari (Alpha).",
-        "**Kukuza na kuburuta:** kuza kwa gurudumu la kipanya hadi pikseli moja, buruta kwa kitufe cha kulia, Katikati au Esc kuweka katikati tena."
+        "**Mchoro:** Weka mwonekano katikati sasa una ON / OFF: ukiwa ON, ukuzaji hujirekebisha wenyewe visanduku vikitoka nje ya mwonekano. Dirisha la Bandari za kifaa lina safu mbili, IN na OUT, zenye rangi ya kebo ya kila bandari.",
+        "**Nguvu:** nguvu ya wastani (video) na mkondo wa fazi L1 / L2 / L3 katika Status, 3D, Info na ripoti ya PDF (sehemu mpya ya Nguvu). Uzito kuanzia kilo 1,000 huonyeshwa kwa tani.",
+        "**Skrini iliyopanuliwa na Info:** mwonekano mpya wa Grid hutuma gridi ya majaribio ya kichupo cha Grid kwenye skrini moja kwa moja, pamoja na kukuza na kusogeza. Kisanduku cha Info kina kitufe cha kunakili muhtasari wa mradi.",
+        "**Marekebisho:** taarifa ya sasisho husogezwa orodha ikiwa ndefu, Ondoa ziada iko katikati, na Msaada > Changia hufungua ukurasa wa michango wa PayPal."
       ],
       "gn": [
-        "**Grid pyahu:** grid ñeha'ã moheñoiha LED ha proyección-pe guarã, oimeraẽ resolución 100.000 × 100.000 px peve, resolución oĩmbáva, ta'anga (Grid, Spyder ha Jojaha), hapykuegua, jehechaukarã ha líneas pytã térã hovy.",
-        "**Eñongatu grid PNG, JPEG, PSD térã PDF-pe:** archivo hekopete píxel ha píxel, ikatúva hapykuegua hesakãva (Alpha).",
-        "**Zoom ha mosyryry:** zoom mouse rueda reheve peteĩ píxel peve, emosyryry botón akatúa reheve, Jehecha mbyte térã Esc emombyte jey hag̃ua."
+        "**Ta'ãnga:** Hecharã mbytépe oguereko ko'ágã ON / OFF: ON ndive, zoom oñemohenda ijeheguiete ryru osẽ jave hecharãgui. Ovetã Pórta aparato-pegua oguereko mokõi columna, IN ha OUT, cable sa'y peteĩteĩ pórta-pe.",
+        "**Mbarete:** mbarete mbyteguáva (video) ha corriente fase L1 / L2 / L3 Status, 3D, Info ha PDF-pe (pehẽ Mbarete pyahu). Pohyikue 1.000 kg guive ojehechauka tonelada-pe.",
+        "**Pantalla ñemoasãi ha Info:** hecharã Grid pyahu omondo grid ñeha'ã Grid-gui pantalla-pe, ko'ága voi, zoom ha ñemongu'e reheve. Info ryru oguereko votõ oñembokuatia hag̃ua proyecto mbykyhápe.",
+        "**Ñemoĩporã:** marandu ñembopyahu ojeguerova lista ipuku jave, Embogue hembýva oĩ mbytépe ha Pytyvõ > Eme'ẽ pytyvõ oipe'a PayPal kuatiarogue."
       ],
       "he": [
-        "**לשונית Grid חדשה:** מחולל רשת בדיקה ל-LED ולהקרנה, בכל רזולוציה עד 100,000 × 100,000 פיקסלים, עם רזולוציות מוכנות, תבניות (Grid, Spyder ו-יישור), רקעים, אפשרויות תצוגה וקווים אדומים או כחולים.",
-        "**שמירת הרשת כ-PNG, JPEG, PSD או PDF:** קבצים מדויקים עד הפיקסל, עם רקע שקוף לבחירה (Alpha).",
-        "**זום וגרירה:** זום בגלגלת העכבר עד פיקסל בודד, גרירה בלחצן הימני, מרכז את התצוגה או Esc כדי למרכז שוב."
+        "**שרטוט:** למרכוז התצוגה יש עכשיו ON / OFF: ב-ON הזום מתאים את עצמו כשתיבות יוצאות מהתצוגה. בחלון יציאות ההתקן שתי עמודות, IN ו-OUT, עם צבע הכבל של כל יציאה.",
+        "**הספק:** הספק ממוצע (וידאו) והזרם של הפאזות L1 / L2 / L3 ב-Status, ב-3D, ב-Info ובדוח ה-PDF (מקטע הספק חדש). משקל מ-1,000 ק\"ג מוצג בטונות.",
+        "**מסך מורחב ו-Info:** תצוגת Grid החדשה שולחת את רשת הבדיקה של לשונית Grid למסך בזמן אמת, עם זום והזזה. בתיבת Info יש כפתור להעתקת סיכום הפרויקט.",
+        "**התאמות:** הודעת העדכון נגללת כשהרשימה ארוכה, הסרת העודף ממורכזת, ועזרה > תרומה פותח את דף התרומה של PayPal."
       ],
       "lv": [
-        "**Jauna cilne Grid:** testa režģa ģenerators LED un projekcijai jebkurā izšķirtspējā līdz 100 000 × 100 000 px, ar gatavām izšķirtspējām, rakstiem (Grid, Spyder un Līdzināšana), foniem, attēlošanas iespējām un sarkanām vai zilām līnijām.",
-        "**Saglabājiet režģi kā PNG, JPEG, PSD vai PDF:** pikseļprecīzi faili ar izvēles caurspīdīgu fonu (Alpha).",
-        "**Tālummaiņa un vilkšana:** tālummaiņa ar peles ritenīti līdz vienam pikselim, vilkšana ar labo pogu, Centrēt skatu vai Esc, lai atkal centrētu."
+        "**Zīmējums:** Centrēt skatu tagad ir ON / OFF: ar ON tālummaiņa pielāgojas pati, kad lodziņi iziet ārpus skata. Logam Ierīces porti ir divas kolonnas, IN un OUT, ar katra porta kabeļa krāsu.",
+        "**Jauda:** vidējā jauda (video) un fāžu L1 / L2 / L3 strāva Status, 3D, Info un PDF atskaitē (jauna sadaļa Jauda). Svars no 1000 kg tiek rādīts tonnās.",
+        "**Paplašinātais ekrāns un Info:** jaunais skats Grid tiešraidē sūta cilnes Grid testa režģi uz ekrānu ar tālummaiņu un pārvietošanu. Lodziņā Info ir poga projekta kopsavilkuma kopēšanai.",
+        "**Pielāgojumi:** atjauninājuma paziņojums ritinās, ja saraksts ir garš, Noņemt lieko ir centrā, un Palīdzība > Ziedot atver PayPal ziedojumu lapu."
       ],
       "fa": [
-        "**زبانه جدید Grid:** سازنده شبکه آزمایشی برای LED و پروجکشن، با هر وضوحی تا 100,000 × 100,000 پیکسل، همراه با وضوح‌های آماده، الگوها (Grid، Spyder و تراز)، پس‌زمینه‌ها، گزینه‌های نمایش و خطوط قرمز یا آبی.",
-        "**ذخیره شبکه به‌صورت PNG، JPEG، PSD یا PDF:** فایل‌های دقیق تا سطح پیکسل، با پس‌زمینه شفاف اختیاری (Alpha).",
-        "**بزرگ‌نمایی و کشیدن:** بزرگ‌نمایی با چرخ ماوس تا یک پیکسل، کشیدن با دکمه راست، مرکز کردن نما یا Esc برای وسط‌چین کردن دوباره."
+        "**نقشه:** وسط‌چین کردن نما حالا ON / OFF دارد: با ON، وقتی کادرها از نما بیرون می‌روند بزرگ‌نمایی خودش تنظیم می‌شود. پنجره پورت‌های دستگاه دو ستون IN و OUT دارد، با رنگ کابل هر پورت.",
+        "**توان:** توان میانگین (ویدیو) و جریان فازهای L1 / L2 / L3 در Status، 3D، Info و گزارش PDF (بخش جدید توان). وزن از ۱۰۰۰ کیلوگرم به بالا به تن نمایش داده می‌شود.",
+        "**صفحه گسترش‌یافته و Info:** نمای جدید Grid شبکه آزمایشی زبانه Grid را به‌صورت زنده با بزرگ‌نمایی و جابه‌جایی به نمایشگر می‌فرستد. کادر Info دکمه‌ای برای کپی خلاصه پروژه دارد.",
+        "**تنظیمات:** اعلان به‌روزرسانی در فهرست طولانی پیمایش می‌شود، حذف اضافی وسط قرار گرفت و راهنما > کمک مالی صفحه کمک PayPal را باز می‌کند."
       ],
       "pl": [
-        "**Nowa karta Grid:** generator siatki testowej dla LED i projekcji, w dowolnej rozdzielczości do 100 000 × 100 000 px, z gotowymi rozdzielczościami, wzorami (Grid, Spyder i Wyrównanie), tłami, opcjami wyświetlania oraz czerwonymi lub niebieskimi liniami.",
-        "**Zapisz siatkę jako PNG, JPEG, PSD lub PDF:** pliki dokładne co do piksela, z opcjonalnym przezroczystym tłem (Alpha).",
-        "**Powiększanie i przesuwanie:** powiększanie kółkiem myszy aż do pojedynczego piksela, przesuwanie prawym przyciskiem, Wyśrodkuj widok lub Esc, aby znów wyśrodkować."
+        "**Rysunek:** Wyśrodkuj widok ma teraz ON / OFF: przy ON powiększenie samo się dostosowuje, gdy pola wychodzą poza widok. Okno Porty urządzenia ma dwie kolumny, IN i OUT, z kolorem kabla każdego portu.",
+        "**Moc:** moc średnia (wideo) i prąd faz L1 / L2 / L3 w Status, 3D, Info i raporcie PDF (nowa sekcja Moc). Wagi od 1000 kg są pokazywane w tonach.",
+        "**Ekran rozszerzony i Info:** nowy widok Grid wysyła siatkę testową z karty Grid na monitor na żywo, z powiększaniem i przesuwaniem. Pole Info ma przycisk kopiowania podsumowania projektu.",
+        "**Poprawki:** powiadomienie o aktualizacji przewija się przy długiej liście, Usuń nadmiar jest wyśrodkowany, a Pomoc > Wesprzyj otwiera stronę darowizny PayPal."
       ],
       "uk": [
-        "**Нова вкладка Grid:** генератор тестової сітки для LED і проєкції, будь-яка роздільність до 100 000 × 100 000 пікс., готові роздільності, шаблони (Grid, Spyder і Вирівнювання), фони, параметри відображення та червоні або сині лінії.",
-        "**Збереження сітки в PNG, JPEG, PSD або PDF:** файли з точністю до пікселя, за бажанням із прозорим тлом (Alpha).",
-        "**Масштаб і переміщення:** масштаб коліщатком миші аж до одного пікселя, переміщення правою кнопкою, Центрувати вигляд або Esc для центрування."
+        "**Схема:** у «Центрувати вигляд» тепер є ON / OFF: при ON масштаб сам підлаштовується, коли блоки виходять за межі вигляду. Вікно «Порти пристрою» має два стовпці, IN і OUT, з кольором кабелю кожного порту.",
+        "**Потужність:** середня потужність (відео) і струм фаз L1 / L2 / L3 у Status, 3D, Info та PDF-звіті (новий розділ «Потужність»). Вага від 1000 кг показується в тоннах.",
+        "**Розширений екран і Info:** новий вигляд Grid виводить тестову сітку вкладки Grid на монітор наживо, з масштабом і зсувом. У блоці Info є кнопка копіювання підсумку проєкту.",
+        "**Доопрацювання:** сповіщення про оновлення прокручується при довгому списку, «Прибрати зайве» по центру, а «Довідка > Пожертвувати» відкриває сторінку PayPal."
       ],
       "ca": [
-        "**Nova pestanya Grid:** generador de graella de prova per a LED i projecció, en qualsevol resolució fins a 100.000 × 100.000 px, amb resolucions predefinides, patrons (Grid, Spyder i Alineació), fons, opcions de visualització i línies vermelles o blaves.",
-        "**Deseu la graella en PNG, JPEG, PSD o PDF:** fitxers exactes píxel a píxel, amb fons transparent opcional (Alpha).",
-        "**Zoom i desplaçament:** zoom amb la roda del ratolí fins a un sol píxel, arrossegament amb el botó dret, Centra la vista o Esc per tornar a centrar."
+        "**Dibuix:** Centra la vista ara té ON / OFF: amb ON el zoom s'ajusta sol quan els quadres surten de la vista. La finestra Ports de l'aparell té dues columnes, IN i OUT, amb el color del cable de cada port.",
+        "**Potència:** potència mitjana (vídeo) i corrent de les fases L1 / L2 / L3 a Status, 3D, Info i l'informe PDF (nova secció Potència). Els pesos des de 1.000 kg es mostren en tones.",
+        "**Pantalla estesa i Info:** la nova vista Grid envia la graella de prova de la pestanya Grid a la pantalla en directe, amb zoom i desplaçament. El quadre Info té un botó per copiar un resum del projecte.",
+        "**Ajustos:** l'avís d'actualització es desplaça quan la llista és llarga, Treu l'excés està centrat i Ajuda > Fes un donatiu obre la pàgina de donació de PayPal."
       ],
       "cs": [
-        "**Nová karta Grid:** generátor testovací mřížky pro LED a projekci v libovolném rozlišení až 100 000 × 100 000 px, s předvolbami rozlišení, vzory (Grid, Spyder a Zarovnání), pozadími, možnostmi zobrazení a červenými nebo modrými čarami.",
-        "**Uložení mřížky do PNG, JPEG, PSD nebo PDF:** soubory přesné na pixel, volitelně s průhledným pozadím (Alpha).",
-        "**Přiblížení a posun:** přiblížení kolečkem myši až na jediný pixel, posun pravým tlačítkem, Vycentrovat pohled nebo Esc pro opětovné vystředění."
+        "**Výkres:** Vycentrovat pohled má nyní ON / OFF: při ON se přiblížení samo upraví, když pole vyjdou z pohledu. Okno Porty zařízení má dva sloupce, IN a OUT, s barvou kabelu každého portu.",
+        "**Příkon:** průměrný příkon (video) a proud fází L1 / L2 / L3 ve Status, 3D, Info a v PDF zprávě (nová sekce Příkon). Hmotnost od 1 000 kg se zobrazuje v tunách.",
+        "**Rozšířená obrazovka a Info:** nový pohled Grid posílá testovací mřížku z karty Grid na displej živě, s přiblížením a posunem. Pole Info má tlačítko pro zkopírování souhrnu projektu.",
+        "**Úpravy:** oznámení o aktualizaci se při dlouhém seznamu posouvá, Odebrat přebytek je uprostřed a Nápověda > Přispět otevře stránku darů PayPal."
       ],
       "fi": [
-        "**Uusi Grid-välilehti:** testiruudukon generaattori LED-näytöille ja projisointiin millä tahansa resoluutiolla 100 000 × 100 000 px asti, valmiilla resoluutioilla, kuvioilla (Grid, Spyder ja Kohdistus), taustoilla, näyttöasetuksilla sekä punaisilla tai sinisillä viivoilla.",
-        "**Tallenna ruudukko PNG-, JPEG-, PSD- tai PDF-muodossa:** pikselintarkat tiedostot, valinnaisesti läpinäkyvällä taustalla (Alpha).",
-        "**Zoomaus ja siirto:** zoomaa hiiren rullalla yksittäiseen pikseliin asti, siirrä hiiren oikealla painikkeella, keskitä uudelleen painikkeella Keskitä näkymä tai Esc-näppäimellä."
+        "**Piirros:** Keskitä näkymä -toiminnossa on nyt ON / OFF: ON-tilassa zoomaus säätyy itse, kun ruudut menevät näkymän ulkopuolelle. Laiteportit-ikkunassa on kaksi saraketta, IN ja OUT, ja kunkin portin kaapelin väri.",
+        "**Teho:** keskiteho (video) ja vaiheiden L1 / L2 / L3 virta Statusissa, 3D:ssä, Infossa ja PDF-raportissa (uusi Teho-osio). Yli 1 000 kg:n painot näytetään tonneina.",
+        "**Laajennettu näyttö ja Info:** uusi Grid-näkymä lähettää Grid-välilehden testiruudukon näytölle suorana zoomauksen ja siirron kanssa. Info-ruudussa on painike projektin yhteenvedon kopiointiin.",
+        "**Säädöt:** päivitysilmoitus vierii, kun lista on pitkä, Poista ylimäärä on keskitetty ja Ohje > Lahjoita avaa PayPalin lahjoitussivun."
       ],
       "el": [
-        "**Νέα καρτέλα Grid:** γεννήτρια πλέγματος δοκιμής για LED και προβολή, σε οποιαδήποτε ανάλυση έως 100.000 × 100.000 px, με προκαθορισμένες αναλύσεις, μοτίβα (Grid, Spyder και Ευθυγράμμιση), φόντα, επιλογές εμφάνισης και κόκκινες ή μπλε γραμμές.",
-        "**Αποθήκευση του πλέγματος σε PNG, JPEG, PSD ή PDF:** αρχεία ακριβή ως το pixel, με προαιρετικό διαφανές φόντο (Alpha).",
-        "**Ζουμ και μετακίνηση:** ζουμ με τη ροδέλα του ποντικιού ως ένα μόνο pixel, μετακίνηση με το δεξί κουμπί, Κεντράρισμα προβολής ή Esc για νέο κεντράρισμα."
+        "**Σχέδιο:** το Κεντράρισμα προβολής έχει τώρα ON / OFF: με ON το ζουμ προσαρμόζεται μόνο του όταν πλαίσια βγαίνουν από την προβολή. Το παράθυρο Θύρες συσκευής έχει δύο στήλες, IN και OUT, με το χρώμα καλωδίου κάθε θύρας.",
+        "**Ισχύς:** μέση ισχύς (βίντεο) και ρεύμα των φάσεων L1 / L2 / L3 στο Status, το 3D, το Info και την αναφορά PDF (νέα ενότητα Ισχύς). Βάρη από 1.000 kg εμφανίζονται σε τόνους.",
+        "**Εκτεταμένη οθόνη και Info:** η νέα προβολή Grid στέλνει το πλέγμα δοκιμής της καρτέλας Grid στην οθόνη ζωντανά, με ζουμ και μετακίνηση. Το πλαίσιο Info έχει κουμπί για αντιγραφή σύνοψης του έργου.",
+        "**Ρυθμίσεις:** η ειδοποίηση ενημέρωσης κυλάει όταν η λίστα είναι μεγάλη, η Αφαίρεση περίσσειας είναι στο κέντρο και η Βοήθεια > Δωρεά ανοίγει τη σελίδα δωρεάς του PayPal."
       ],
       "ha": [
-        "**Sabon shafin Grid:** mai ƙirƙirar grid na gwaji don LED da majigi, a kowane ƙuduri har zuwa pixel 100,000 × 100,000, tare da ƙudurori da aka shirya, zane-zane (Grid, Spyder da Daidaitawa), bango, zaɓuɓɓukan nuni da layuka ja ko shuɗi.",
-        "**Ajiye grid a matsayin PNG, JPEG, PSD ko PDF:** fayiloli daidai har zuwa kowane pixel, tare da bango mai haske idan an so (Alpha).",
-        "**Zuƙowa da jawo:** zuƙowa da ƙafafun linzamin kwamfuta har zuwa pixel ɗaya, jawo da maɓallin dama, Tsakaita gani ko Esc don sake sanyawa a tsakiya."
+        "**Zane:** Tsakiyar gani yanzu yana da ON / OFF: idan ON ne, zuƙowa yana daidaita kansa idan akwatuna suka fita daga gani. Tagar Tashoshin na'ura tana da ginshiƙai biyu, IN da OUT, tare da launin kebul na kowace tasha.",
+        "**Ƙarfi:** matsakaicin ƙarfi (bidiyo) da wutar lantarki na fesoshi L1 / L2 / L3 a Status, 3D, Info da rahoton PDF (sabon sashen Ƙarfi). Nauyi daga kilo 1,000 yana bayyana a tan.",
+        "**Allon da aka faɗaɗa da Info:** sabon ganin Grid yana aika grid ɗin gwaji na shafin Grid zuwa allo kai tsaye, tare da zuƙowa da motsawa. Akwatin Info yana da maɓalli don kwafi taƙaitaccen aikin.",
+        "**Gyare-gyare:** sanarwar sabuntawa tana gungurawa idan jerin ya yi tsawo, Cire ragowar yana tsakiya, kuma Taimako > Ba da gudummawa yana buɗe shafin gudummawa na PayPal."
       ],
       "ro": [
-        "**Fila nouă Grid:** generator de grilă de test pentru LED și proiecție, în orice rezoluție până la 100.000 × 100.000 px, cu rezoluții presetate, modele (Grid, Spyder și Aliniere), fundaluri, opțiuni de afișare și linii roșii sau albastre.",
-        "**Salvați grila ca PNG, JPEG, PSD sau PDF:** fișiere exacte la pixel, cu fundal transparent opțional (Alpha).",
-        "**Zoom și deplasare:** zoom cu rotița mouse-ului până la un singur pixel, deplasare cu butonul drept, Centrează vederea sau Esc pentru recentrare."
+        "**Desen:** Centrează vizualizarea are acum ON / OFF: cu ON zoomul se ajustează singur când casetele ies din vizualizare. Fereastra Porturile dispozitivului are două coloane, IN și OUT, cu culoarea cablului fiecărui port.",
+        "**Putere:** puterea medie (video) și curentul fazelor L1 / L2 / L3 în Status, 3D, Info și raportul PDF (secțiune nouă Putere). Greutățile de la 1.000 kg apar în tone.",
+        "**Ecran extins și Info:** noua vizualizare Grid trimite grila de test din fila Grid pe ecran în timp real, cu zoom și deplasare. Caseta Info are un buton pentru copierea unui rezumat al proiectului.",
+        "**Ajustări:** notificarea de actualizare se derulează când lista e lungă, Elimină surplusul e centrat, iar Ajutor > Donează deschide pagina de donații PayPal."
       ],
       "yo": [
-        "**Táàbù Grid tuntun:** ẹ̀rọ tí ń ṣẹ̀dá grid ìdánwò fún LED àti iṣẹ́ àfihàn, ní ìpinnu èyíkéyìí títí dé 100,000 × 100,000 px, pẹ̀lú àwọn ìpinnu tí a ti ṣètò, àwọn àpẹẹrẹ (Grid, Spyder àti Ìtòlẹ́sẹẹsẹ), àwọn ẹ̀yìn, àwọn àṣàyàn ìfihàn àti àwọn ìlà pupa tàbí búlù.",
-        "**Fi grid pamọ́ bí PNG, JPEG, PSD tàbí PDF:** àwọn fáìlì tó péye dé píkísẹ́lì kọ̀ọ̀kan, pẹ̀lú ẹ̀yìn tí kò ní àwọ̀ bí o bá fẹ́ (Alpha).",
-        "**Sún-mọ́ àti fífà:** sún-mọ́ pẹ̀lú kẹ̀kẹ́ eku títí dé píkísẹ́lì kan, fà pẹ̀lú bọ́tìnnì ọ̀tún, Mú ìwò wá sí àárín tàbí Esc láti tún gbé e sí àárín."
+        "**Àwòrán:** Ìwò sí àárín ní ON / OFF báyìí: pẹ̀lú ON, sún-un yóò ṣàtúnṣe ara rẹ̀ tí àwọn àpótí bá jáde kúrò nínú ìwò. Fèrèsé Pọ́ọ̀tù ẹ̀rọ ní ọ̀wọ́n méjì, IN àti OUT, pẹ̀lú àwọ̀ kébù pọ́ọ̀tù kọ̀ọ̀kan.",
+        "**Agbára:** agbára àròpín (fídíò) àti iná ìpele L1 / L2 / L3 nínú Status, 3D, Info àti ìjábọ̀ PDF (abala Agbára tuntun). Ìwúwo láti 1,000 kg ni a fi hàn ní tọ́ọ̀nù.",
+        "**Ojú-ìbojú tí a nà àti Info:** ìwò Grid tuntun ń fi grid ìdánwò táàbù Grid ránṣẹ́ sí ojú-ìbojú ní tààrà, pẹ̀lú sún-un àti ìfàsẹ́yìn. Àpótí Info ní bọ́tìnnì láti ṣe àdàkọ àkópọ̀ iṣẹ́ náà.",
+        "**Àtúnṣe:** ìkìlọ̀ ìmúdójúìwọ̀n máa yí lọ tí àkójọ bá gùn, Yọ àṣẹ́kù wà ní àárín, Ìrànlọ́wọ́ > Ṣe ìtọrẹ sì ń ṣí ojú-ìwé ìtọrẹ PayPal."
       ],
       "zu": [
-        "**Ithebhu entsha ye-Grid:** isakhi segridi yokuhlola se-LED nokuqondisa, kunoma yikuphi ukucaca kuze kufike ku-100,000 × 100,000 px, kanye nokucaca okusethwe ngaphambili, amaphethini (Grid, Spyder ne-Ukuqondanisa), izizinda, izinketho zokubonisa nemigqa ebomvu noma eluhlaza okwesibhakabhaka.",
-        "**Londoloza igridi njenge-PNG, JPEG, PSD noma PDF:** amafayela anembe kuze kube yiphikseli ngayinye, nesizinda esibonisa ngale uma uthanda (Alpha).",
-        "**Ukusondeza nokuhudula:** sondeza ngesondo lemawusi kuze kube yiphikseli eyodwa, hudula ngenkinobho yesokudla, Maphakathi ukubuka noma Esc ukuze uphinde umise maphakathi."
+        "**Umdwebo:** Maphakathi nokubuka manje kune-ON / OFF: uma kungu-ON, ukusondeza kuzilungisa lapho amabhokisi ephuma ekubukeni. Iwindi lezimbobo zedivayisi linamakholamu amabili, i-IN ne-OUT, nombala wekhebula wembobo ngayinye.",
+        "**Amandla:** amandla aphakathi (ividiyo) nogesi wezigaba L1 / L2 / L3 ku-Status, 3D, Info nasembikweni we-PDF (isigaba esisha samandla). Isisindo kusukela ku-1,000 kg siboniswa ngamathani.",
+        "**Isikrini esinwetshiwe ne-Info:** ukubuka okusha kwe-Grid kuthumela igridi yokuhlola yethebhu ye-Grid esikrinini bukhoma, nokusondeza nokuhambisa. Ibhokisi le-Info linenkinobho yokukopisha isifinyezo sephrojekthi.",
+        "**Ukulungiswa:** isaziso sokubuyekeza siyaskrola uma uhlu lude, Susa okweqile kuphakathi, futhi Usizo > Nikela luvula ikhasi lokunikela le-PayPal."
       ],
       "fil": [
-        "**Bagong tab na Grid:** generator ng test grid para sa LED at projection, sa anumang resolution hanggang 100,000 × 100,000 px, may mga preset na resolution, pattern (Grid, Spyder at Pag-align), background, opsyon sa display at pula o asul na linya.",
-        "**I-save ang grid bilang PNG, JPEG, PSD o PDF:** mga file na eksakto hanggang sa bawat pixel, may opsyonal na transparent na background (Alpha).",
-        "**Zoom at paggalaw:** mag-zoom gamit ang mouse wheel hanggang sa iisang pixel, i-drag gamit ang kanang button, Igitna ang tanaw o Esc para igitna ulit."
+        "**Drawing:** may ON / OFF na ang Center view: kapag ON, kusang nag-a-adjust ang zoom kapag lumabas ang mga kahon sa view. Ang window na Device ports ay may dalawang column, IN at OUT, kasama ang kulay ng cable ng bawat port.",
+        "**Power:** average power (video) at ang current ng mga phase L1 / L2 / L3 sa Status, 3D, Info at sa PDF report (bagong seksyong Power). Ang bigat mula 1,000 kg ay ipinapakita sa tonelada.",
+        "**Extended screen at Info:** ipinapadala ng bagong Grid view ang test grid ng tab na Grid sa display nang live, may zoom at pag-galaw. May button ang Info box para kopyahin ang buod ng proyekto.",
+        "**Mga ayos:** nag-i-scroll ang update notice kapag mahaba ang listahan, nasa gitna na ang Alisin ang sobra, at binubuksan ng Help > Mag-donate ang donation page ng PayPal."
       ],
       "ta": [
-        "**புதிய Grid தாவல்:** LED மற்றும் ப்ரொஜெக்ஷனுக்கான சோதனை கிரிட் உருவாக்கி; 100,000 × 100,000 px வரை எந்தத் தெளிவுத்திறனிலும், தயார் தெளிவுத்திறன்கள், வடிவங்கள் (Grid, Spyder, சீரமைப்பு), பின்னணிகள், காட்சி விருப்பங்கள் மற்றும் சிவப்பு அல்லது நீலக் கோடுகளுடன்.",
-        "**கிரிடை PNG, JPEG, PSD அல்லது PDF ஆகச் சேமிக்கவும்:** ஒவ்வொரு பிக்சலும் துல்லியமான கோப்புகள், விருப்பத்தேர்வாக வெளிப்படையான பின்னணியுடன் (Alpha).",
-        "**பெரிதாக்கல் மற்றும் இழுத்தல்:** மவுஸ் சக்கரத்தால் ஒரு பிக்சல் வரை பெரிதாக்கலாம், வலது பொத்தானால் இழுக்கலாம், மீண்டும் மையப்படுத்த காட்சியை மையப்படுத்து அல்லது Esc."
+        "**வரைபடம்:** காட்சியை மையப்படுத்து இப்போது ON / OFF கொண்டது: ON இருந்தால் பெட்டிகள் காட்சிக்கு வெளியே சென்றதும் ஜூம் தானாக மாறும். சாதன போர்ட்கள் சாளரத்தில் ஒவ்வொரு போர்ட்டின் கேபிள் நிறத்துடன் IN, OUT என இரண்டு நெடுவரிசைகள்.",
+        "**மின்திறன்:** சராசரி மின்திறன் (வீடியோ) மற்றும் L1 / L2 / L3 கட்ட மின்னோட்டம் Status, 3D, Info, PDF அறிக்கையில் (புதிய மின்திறன் பகுதி). 1,000 கிலோவுக்கு மேற்பட்ட எடை டன்னில் காட்டப்படும்.",
+        "**விரிவாக்கத் திரை மற்றும் Info:** புதிய Grid காட்சி Grid தாவலின் சோதனை கட்டத்தை ஜூம், நகர்த்தலுடன் நேரலையாக திரைக்கு அனுப்பும். Info பெட்டியில் திட்டச் சுருக்கத்தை நகலெடுக்கும் பொத்தான் உள்ளது.",
+        "**சீரமைப்புகள்:** பட்டியல் நீளமாக இருந்தால் புதுப்பிப்பு அறிவிப்பு உருளும், மிகுதியை அகற்று மையத்தில் உள்ளது, உதவி > நன்கொடை PayPal நன்கொடைப் பக்கத்தைத் திறக்கும்."
       ],
       "te": [
-        "**కొత్త Grid ట్యాబ్:** LED మరియు ప్రొజెక్షన్ కోసం టెస్ట్ గ్రిడ్ జనరేటర్; 100,000 × 100,000 px వరకు ఏ రిజల్యూషన్‌లోనైనా, సిద్ధంగా ఉన్న రిజల్యూషన్‌లు, నమూనాలు (Grid, Spyder, అమరిక), నేపథ్యాలు, ప్రదర్శన ఎంపికలు మరియు ఎరుపు లేదా నీలం గీతలతో.",
-        "**గ్రిడ్‌ను PNG, JPEG, PSD లేదా PDFగా సేవ్ చేయండి:** ప్రతి పిక్సెల్ వరకు ఖచ్చితమైన ఫైళ్లు, ఐచ్ఛికంగా పారదర్శక నేపథ్యంతో (Alpha).",
-        "**జూమ్ మరియు లాగడం:** మౌస్ వీల్‌తో ఒక్క పిక్సెల్ వరకు జూమ్, కుడి బటన్‌తో లాగడం, మళ్లీ మధ్యలో ఉంచడానికి వీక్షణను మధ్యలో ఉంచు లేదా Esc."
+        "**డ్రాయింగ్:** వ్యూను మధ్యలో ఉంచుకు ఇప్పుడు ON / OFF ఉంది: ON ఉంటే బాక్స్‌లు దృశ్యం బయటకు వెళ్లినప్పుడు జూమ్ తనంతట తానే మారుతుంది. డివైస్ పోర్ట్‌ల విండోలో ప్రతి పోర్ట్ కేబుల్ రంగుతో IN, OUT అనే రెండు కాలమ్‌లు.",
+        "**పవర్:** సగటు పవర్ (వీడియో) మరియు L1 / L2 / L3 ఫేజ్‌ల కరెంట్ Status, 3D, Info, PDF నివేదికలో (కొత్త పవర్ విభాగం). 1,000 కిలోల పైబడిన బరువు టన్నుల్లో చూపబడుతుంది.",
+        "**విస్తరించిన స్క్రీన్ మరియు Info:** కొత్త Grid వ్యూ Grid ట్యాబ్ టెస్ట్ గ్రిడ్‌ను జూమ్, కదలికతో ప్రత్యక్షంగా డిస్‌ప్లేకు పంపుతుంది. Info బాక్స్‌లో ప్రాజెక్ట్ సారాంశాన్ని కాపీ చేసే బటన్ ఉంది.",
+        "**సర్దుబాట్లు:** జాబితా పొడవుగా ఉంటే అప్‌డేట్ నోటీసు స్క్రోల్ అవుతుంది, అదనపు భాగం తీసివేయి మధ్యలో ఉంది, సహాయం > విరాళం PayPal విరాళ పేజీని తెరుస్తుంది."
       ],
       "mr": [
-        "**नवीन Grid टॅब:** LED आणि प्रोजेक्शनसाठी टेस्ट ग्रिड जनरेटर, 100,000 × 100,000 px पर्यंत कोणत्याही रिझोल्यूशनमध्ये, तयार रिझोल्यूशन, पॅटर्न (Grid, Spyder आणि संरेखन), पार्श्वभूमी, प्रदर्शन पर्याय आणि लाल किंवा निळ्या रेषांसह.",
-        "**ग्रिड PNG, JPEG, PSD किंवा PDF म्हणून जतन करा:** प्रत्येक पिक्सेलपर्यंत अचूक फायली, पर्यायी पारदर्शक पार्श्वभूमीसह (Alpha).",
-        "**झूम आणि ओढणे:** माउस व्हीलने एका पिक्सेलपर्यंत झूम, उजव्या बटणाने ओढा, पुन्हा मध्यभागी आणण्यासाठी दृश्य मध्यभागी आणा किंवा Esc."
+        "**ड्रॉइंग:** दृश्य मध्यभागी करा मध्ये आता ON / OFF आहे: ON असताना बॉक्स दृश्याबाहेर गेल्यास झूम आपोआप बदलतो. डिव्हाइस पोर्ट विंडोमध्ये प्रत्येक पोर्टच्या केबल रंगासह IN आणि OUT असे दोन स्तंभ आहेत.",
+        "**पॉवर:** Status, 3D, Info आणि PDF अहवालात (नवीन पॉवर विभाग) सरासरी पॉवर (व्हिडिओ) आणि L1 / L2 / L3 फेजचा करंट. 1,000 किलोपेक्षा जास्त वजन टनात दिसते.",
+        "**विस्तारित स्क्रीन आणि Info:** नवीन Grid दृश्य Grid टॅबचा चाचणी ग्रिड झूम आणि हलवण्यासह थेट डिस्प्लेवर पाठवते. Info बॉक्समध्ये प्रकल्पाचा सारांश कॉपी करण्याचे बटण आहे.",
+        "**सुधारणा:** यादी मोठी असल्यास अपडेट सूचना स्क्रोल होते, अतिरिक्त काढा मध्यभागी आहे आणि मदत > देणगी द्या PayPal देणगी पृष्ठ उघडते."
       ],
       "da": [
-        "**Ny Grid-fane:** generator af testgitter til LED og projektion i enhver opløsning op til 100.000 × 100.000 px, med forudindstillede opløsninger, mønstre (Grid, Spyder og Justering), baggrunde, visningsindstillinger og røde eller blå linjer.",
-        "**Gem gitteret som PNG, JPEG, PSD eller PDF:** pixelnøjagtige filer, med valgfri gennemsigtig baggrund (Alpha).",
-        "**Zoom og flyt:** zoom med musehjulet helt ned til en enkelt pixel, træk med højre museknap, Centrer visningen eller Esc for at centrere igen."
+        "**Tegning:** Centrer visning har nu ON / OFF: med ON tilpasser zoomen sig selv, når felter kommer uden for visningen. Vinduet Enhedsporte har to kolonner, IN og OUT, med kabelfarven for hver port.",
+        "**Effekt:** gennemsnitlig effekt (video) og strømmen i faserne L1 / L2 / L3 i Status, 3D, Info og PDF-rapporten (ny Effekt-sektion). Vægt fra 1.000 kg vises i ton.",
+        "**Udvidet skærm og Info:** den nye visning Grid sender testgitteret fra fanen Grid til skærmen live med zoom og panorering. Info-feltet har en knap til at kopiere et projektresumé.",
+        "**Justeringer:** opdateringsbeskeden kan rulles ved lange lister, Fjern overskud er centreret, og Hjælp > Donér åbner PayPals donationsside."
       ],
       "nb": [
-        "**Ny Grid-fane:** generator for testrutenett til LED og projeksjon i hvilken som helst oppløsning opptil 100 000 × 100 000 px, med forhåndsinnstilte oppløsninger, mønstre (Grid, Spyder og Justering), bakgrunner, visningsvalg og røde eller blå linjer.",
-        "**Lagre rutenettet som PNG, JPEG, PSD eller PDF:** pikselnøyaktige filer, med valgfri gjennomsiktig bakgrunn (Alpha).",
-        "**Zoom og flytt:** zoom med musehjulet helt ned til én piksel, dra med høyre museknapp, Sentrer visningen eller Esc for å sentrere igjen."
+        "**Tegning:** Midtstill visning har nå ON / OFF: med ON tilpasser zoomen seg selv når bokser går utenfor visningen. Vinduet Enhetsporter har to kolonner, IN og OUT, med kabelfargen for hver port.",
+        "**Effekt:** gjennomsnittlig effekt (video) og strømmen i fasene L1 / L2 / L3 i Status, 3D, Info og PDF-rapporten (ny Effekt-seksjon). Vekt fra 1 000 kg vises i tonn.",
+        "**Utvidet skjerm og Info:** den nye visningen Grid sender testrutenettet fra fanen Grid til skjermen live, med zoom og panorering. Info-boksen har en knapp for å kopiere et prosjektsammendrag.",
+        "**Justeringer:** oppdateringsvarselet kan rulles når listen er lang, Fjern overskudd er midtstilt, og Hjelp > Doner åpner PayPals donasjonsside."
       ],
       "lt": [
-        "**Naujas skirtukas Grid:** bandomojo tinklelio generatorius LED ir projekcijai, bet kokios raiškos iki 100 000 × 100 000 px, su paruoštomis raiškomis, raštais (Grid, Spyder ir Lygiavimas), fonais, rodymo parinktimis ir raudonomis ar mėlynomis linijomis.",
-        "**Išsaugokite tinklelį PNG, JPEG, PSD arba PDF formatu:** tikslūs iki pikselio failai, pasirinktinai su permatomu fonu (Alpha).",
-        "**Mastelis ir tempimas:** mastelis pelės ratuku iki vieno pikselio, tempimas dešiniuoju mygtuku, Centruoti vaizdą arba Esc, kad vėl sucentruotumėte."
+        "**Brėžinys:** Centruoti rodinį dabar turi ON / OFF: kai ON, mastelis pats prisitaiko, kai langeliai išeina iš rodinio. Lange Įrenginio prievadai yra du stulpeliai, IN ir OUT, su kiekvieno prievado kabelio spalva.",
+        "**Galia:** vidutinė galia (vaizdo) ir fazių L1 / L2 / L3 srovė Status, 3D, Info ir PDF ataskaitoje (naujas skyrius Galia). Svoris nuo 1 000 kg rodomas tonomis.",
+        "**Išplėstinis ekranas ir Info:** naujas rodinys Grid tiesiogiai siunčia skirtuko Grid bandomąjį tinklelį į ekraną su masteliu ir slinkimu. Info langelyje yra mygtukas projekto santraukai kopijuoti.",
+        "**Patobulinimai:** atnaujinimo pranešimas slenkamas, kai sąrašas ilgas, Pašalinti perteklių centre, o Pagalba > Paaukoti atveria PayPal aukojimo puslapį."
       ],
       "et": [
-        "**Uus vahekaart Grid:** testvõrgustiku generaator LED-ekraanidele ja projektsioonile mis tahes eraldusvõimes kuni 100 000 × 100 000 px, valmis eraldusvõimete, mustrite (Grid, Spyder ja Joondus), taustade, kuvavalikute ning punaste või siniste joontega.",
-        "**Salvestage võrgustik PNG-, JPEG-, PSD- või PDF-failina:** piksli täpsusega failid, soovi korral läbipaistva taustaga (Alpha).",
-        "**Suumimine ja liigutamine:** suumige hiireratta abil kuni ühe pikslini, lohistage parema hiirenupuga, uuesti keskele toomiseks Tsentreeri vaade või Esc."
+        "**Joonis:** Tsentreeri vaade on nüüd ON / OFF lülitiga: ON korral kohandub suum ise, kui kastid lähevad vaatest välja. Aknas Seadme pordid on kaks veergu, IN ja OUT, iga pordi kaabli värviga.",
+        "**Võimsus:** keskmine võimsus (video) ning faaside L1 / L2 / L3 vool Statuses, 3D-s, Infos ja PDF-aruandes (uus jaotis Võimsus). Kaal alates 1000 kg kuvatakse tonnides.",
+        "**Laiendatud ekraan ja Info:** uus vaade Grid saadab Grid-vahekaardi testvõrgu ekraanile otse, suumi ja nihutamisega. Info kastis on nupp projekti kokkuvõtte kopeerimiseks.",
+        "**Kohandused:** värskendusteade keritav, kui loend on pikk, Eemalda liig on keskel ja Abi > Anneta avab PayPali annetuslehe."
       ],
       "sk": [
-        "**Nová karta Grid:** generátor testovacej mriežky pre LED a projekciu v ľubovoľnom rozlíšení až do 100 000 × 100 000 px, s predvoľbami rozlíšenia, vzormi (Grid, Spyder a Zarovnanie), pozadiami, možnosťami zobrazenia a červenými alebo modrými čiarami.",
-        "**Uloženie mriežky do PNG, JPEG, PSD alebo PDF:** súbory presné na pixel, voliteľne s priehľadným pozadím (Alpha).",
-        "**Priblíženie a posun:** priblíženie kolieskom myši až na jediný pixel, posun pravým tlačidlom, Vycentrovať pohľad alebo Esc na opätovné vycentrovanie."
+        "**Výkres:** Vycentrovať pohľad má teraz ON / OFF: pri ON sa priblíženie samo upraví, keď polia vyjdú z pohľadu. Okno Porty zariadenia má dva stĺpce, IN a OUT, s farbou kábla každého portu.",
+        "**Príkon:** priemerný príkon (video) a prúd fáz L1 / L2 / L3 v Status, 3D, Info a v PDF správe (nová sekcia Príkon). Hmotnosť od 1 000 kg sa zobrazuje v tonách.",
+        "**Rozšírená obrazovka a Info:** nový pohľad Grid posiela testovaciu mriežku z karty Grid na displej naživo, s priblížením a posunom. Pole Info má tlačidlo na skopírovanie súhrnu projektu.",
+        "**Úpravy:** oznámenie o aktualizácii sa pri dlhom zozname posúva, Odstrániť prebytok je v strede a Pomocník > Prispieť otvorí stránku darov PayPal."
       ],
       "bg": [
-        "**Нов раздел Grid:** генератор на тестова мрежа за LED и проекция, във всякаква резолюция до 100 000 × 100 000 px, с готови резолюции, шаблони (Grid, Spyder и Подравняване), фонове, опции за показване и червени или сини линии.",
-        "**Запазване на мрежата като PNG, JPEG, PSD или PDF:** файлове, точни до пиксел, по желание с прозрачен фон (Alpha).",
-        "**Мащабиране и преместване:** мащабиране с колелцето на мишката до един пиксел, преместване с десния бутон, Центриране на изгледа или Esc за повторно центриране."
+        "**Чертеж:** Центрирай изгледа вече има ON / OFF: при ON мащабът сам се нагажда, когато полетата излязат от изгледа. Прозорецът Портове на устройството има две колони, IN и OUT, с цвета на кабела на всеки порт.",
+        "**Мощност:** средна мощност (видео) и токът на фазите L1 / L2 / L3 в Status, 3D, Info и PDF отчета (нов раздел Мощност). Тегло от 1000 кг се показва в тонове.",
+        "**Разширен екран и Info:** новият изглед Grid изпраща тестовата мрежа от раздела Grid на екрана на живо, с мащабиране и местене. Полето Info има бутон за копиране на обобщение на проекта.",
+        "**Корекции:** известието за обновяване се превърта при дълъг списък, Премахни излишъка е центриран, а Помощ > Дарете отваря страницата за дарения в PayPal."
       ],
       "sr": [
-        "**Нова картица Grid:** генератор тест мреже за LED и пројекцију, у било којој резолуцији до 100.000 × 100.000 px, са унапред подешеним резолуцијама, шаблонима (Grid, Spyder и Поравнање), позадинама, опцијама приказа и црвеним или плавим линијама.",
-        "**Сачувајте мрежу као PNG, JPEG, PSD или PDF:** датотеке тачне до пиксела, са опционом провидном позадином (Alpha).",
-        "**Зумирање и померање:** зумирање точкићем миша до једног пиксела, померање десним тастером, Центрирај приказ или Esc за поновно центрирање."
+        "**Цртеж:** Центрирај приказ сада има ON / OFF: са ON зум се сам подеси када оквири изађу из приказа. Прозор Портови уређаја има две колоне, IN и OUT, са бојом кабла сваког порта.",
+        "**Снага:** просечна снага (видео) и струја фаза L1 / L2 / L3 у Status, 3D, Info и PDF извештају (нови одељак Снага). Тежина од 1.000 кг приказује се у тонама.",
+        "**Проширени екран и Info:** нови приказ Grid шаље тест мрежу картице Grid на екран уживо, са зумом и померањем. Оквир Info има дугме за копирање резимеа пројекта.",
+        "**Подешавања:** обавештење о ажурирању се помера када је листа дуга, Уклони вишак је центриран, а Помоћ > Донирај отвара PayPal страницу за донације."
       ],
       "hr": [
-        "**Nova kartica Grid:** generator testne mreže za LED i projekciju, u bilo kojoj rezoluciji do 100.000 × 100.000 px, s unaprijed postavljenim rezolucijama, uzorcima (Grid, Spyder i Poravnanje), pozadinama, mogućnostima prikaza te crvenim ili plavim linijama.",
-        "**Spremite mrežu kao PNG, JPEG, PSD ili PDF:** datoteke točne do piksela, s neobaveznom prozirnom pozadinom (Alpha).",
-        "**Zumiranje i pomicanje:** zumiranje kotačićem miša do jednog piksela, pomicanje desnom tipkom, Centriraj prikaz ili Esc za ponovno centriranje."
+        "**Crtež:** Centriraj prikaz sada ima ON / OFF: s ON zum se sam prilagodi kad okviri izađu iz prikaza. Prozor Priključci uređaja ima dva stupca, IN i OUT, s bojom kabela svakog priključka.",
+        "**Snaga:** prosječna snaga (video) i struja faza L1 / L2 / L3 u Status, 3D, Info i PDF izvješću (novi odjeljak Snaga). Težina od 1.000 kg prikazuje se u tonama.",
+        "**Prošireni zaslon i Info:** novi prikaz Grid šalje testnu mrežu kartice Grid na zaslon uživo, sa zumom i pomicanjem. Okvir Info ima gumb za kopiranje sažetka projekta.",
+        "**Prilagodbe:** obavijest o ažuriranju se pomiče kad je popis dug, Ukloni višak je centriran, a Pomoć > Doniraj otvara PayPal stranicu za donacije."
       ],
       "gu": [
-        "**નવું Grid ટેબ:** LED અને પ્રોજેક્શન માટે ટેસ્ટ ગ્રિડ જનરેટર, 100,000 × 100,000 px સુધીના કોઈપણ રિઝોલ્યુશનમાં, તૈયાર રિઝોલ્યુશન, પેટર્ન (Grid, Spyder અને સંરેખણ), પૃષ્ઠભૂમિ, પ્રદર્શન વિકલ્પો અને લાલ અથવા વાદળી રેખાઓ સાથે.",
-        "**ગ્રિડને PNG, JPEG, PSD અથવા PDF તરીકે સાચવો:** દરેક પિક્સેલ સુધી ચોક્કસ ફાઇલો, વૈકલ્પિક પારદર્શક પૃષ્ઠભૂમિ સાથે (Alpha).",
-        "**ઝૂમ અને ખેંચવું:** માઉસ વ્હીલથી એક પિક્સેલ સુધી ઝૂમ, જમણા બટનથી ખેંચો, ફરી કેન્દ્રમાં લાવવા દૃશ્ય કેન્દ્રમાં લાવો અથવા Esc."
+        "**ડ્રોઇંગ:** દૃશ્ય વચ્ચે કરોમાં હવે ON / OFF છે: ON હોય ત્યારે બૉક્સ દૃશ્યની બહાર જાય તો ઝૂમ જાતે બદલાય છે. ડિવાઇસ પોર્ટ વિન્ડોમાં દરેક પોર્ટના કેબલ રંગ સાથે IN અને OUT બે કૉલમ છે.",
+        "**પાવર:** Status, 3D, Info અને PDF રિપોર્ટમાં (નવો પાવર વિભાગ) સરેરાશ પાવર (વિડિયો) અને L1 / L2 / L3 ફેઝનો કરંટ. 1,000 કિલોથી વધુ વજન ટનમાં દેખાય છે.",
+        "**વિસ્તૃત સ્ક્રીન અને Info:** નવું Grid દૃશ્ય Grid ટૅબની ટેસ્ટ ગ્રિડ ઝૂમ અને ખસેડવા સાથે સીધી ડિસ્પ્લે પર મોકલે છે. Info બૉક્સમાં પ્રોજેક્ટનો સારાંશ કૉપિ કરવાનું બટન છે.",
+        "**સુધારા:** યાદી લાંબી હોય ત્યારે અપડેટ સૂચના સ્ક્રોલ થાય છે, વધારાનું દૂર કરો વચ્ચે છે, અને મદદ > દાન કરો PayPal દાન પેજ ખોલે છે."
       ],
       "pa": [
-        "**ਨਵਾਂ Grid ਟੈਬ:** LED ਅਤੇ ਪ੍ਰੋਜੈਕਸ਼ਨ ਲਈ ਟੈਸਟ ਗ੍ਰਿਡ ਜਨਰੇਟਰ, 100,000 × 100,000 px ਤੱਕ ਕਿਸੇ ਵੀ ਰੈਜ਼ੋਲਿਊਸ਼ਨ ਵਿੱਚ, ਤਿਆਰ ਰੈਜ਼ੋਲਿਊਸ਼ਨ, ਪੈਟਰਨ (Grid, Spyder ਅਤੇ ਸੰਰੇਖਣ), ਪਿਛੋਕੜ, ਡਿਸਪਲੇ ਵਿਕਲਪ ਅਤੇ ਲਾਲ ਜਾਂ ਨੀਲੀਆਂ ਲਾਈਨਾਂ ਨਾਲ।",
-        "**ਗ੍ਰਿਡ ਨੂੰ PNG, JPEG, PSD ਜਾਂ PDF ਵਜੋਂ ਸੇਵ ਕਰੋ:** ਹਰ ਪਿਕਸਲ ਤੱਕ ਸਹੀ ਫ਼ਾਈਲਾਂ, ਚੋਣਵੇਂ ਪਾਰਦਰਸ਼ੀ ਪਿਛੋਕੜ ਨਾਲ (Alpha)।",
-        "**ਜ਼ੂਮ ਅਤੇ ਖਿੱਚਣਾ:** ਮਾਊਸ ਵ੍ਹੀਲ ਨਾਲ ਇੱਕ ਪਿਕਸਲ ਤੱਕ ਜ਼ੂਮ, ਸੱਜੇ ਬਟਨ ਨਾਲ ਖਿੱਚੋ, ਮੁੜ ਵਿਚਕਾਰ ਲਿਆਉਣ ਲਈ ਦ੍ਰਿਸ਼ ਕੇਂਦਰ ਵਿੱਚ ਕਰੋ ਜਾਂ Esc।"
+        "**ਡਰਾਇੰਗ:** ਦ੍ਰਿਸ਼ ਵਿਚਕਾਰ ਕਰੋ ਵਿੱਚ ਹੁਣ ON / OFF ਹੈ: ON ਹੋਣ 'ਤੇ ਬਾਕਸ ਦ੍ਰਿਸ਼ ਤੋਂ ਬਾਹਰ ਜਾਣ 'ਤੇ ਜ਼ੂਮ ਆਪਣੇ-ਆਪ ਬਦਲਦਾ ਹੈ। ਡਿਵਾਈਸ ਪੋਰਟ ਵਿੰਡੋ ਵਿੱਚ ਹਰ ਪੋਰਟ ਦੇ ਕੇਬਲ ਰੰਗ ਨਾਲ IN ਅਤੇ OUT ਦੋ ਕਾਲਮ ਹਨ।",
+        "**ਪਾਵਰ:** Status, 3D, Info ਅਤੇ PDF ਰਿਪੋਰਟ (ਨਵਾਂ ਪਾਵਰ ਭਾਗ) ਵਿੱਚ ਔਸਤ ਪਾਵਰ (ਵੀਡੀਓ) ਅਤੇ L1 / L2 / L3 ਫੇਜ਼ ਦਾ ਕਰੰਟ। 1,000 ਕਿਲੋ ਤੋਂ ਵੱਧ ਭਾਰ ਟਨ ਵਿੱਚ ਦਿਖਦਾ ਹੈ।",
+        "**ਵਧਾਈ ਸਕ੍ਰੀਨ ਅਤੇ Info:** ਨਵਾਂ Grid ਦ੍ਰਿਸ਼ Grid ਟੈਬ ਦਾ ਟੈਸਟ ਗ੍ਰਿਡ ਜ਼ੂਮ ਅਤੇ ਹਿਲਾਉਣ ਨਾਲ ਸਿੱਧਾ ਡਿਸਪਲੇ 'ਤੇ ਭੇਜਦਾ ਹੈ। Info ਬਾਕਸ ਵਿੱਚ ਪ੍ਰੋਜੈਕਟ ਦਾ ਸਾਰ ਕਾਪੀ ਕਰਨ ਦਾ ਬਟਨ ਹੈ।",
+        "**ਸੁਧਾਰ:** ਸੂਚੀ ਲੰਮੀ ਹੋਣ 'ਤੇ ਅੱਪਡੇਟ ਸੂਚਨਾ ਸਕ੍ਰੋਲ ਹੁੰਦੀ ਹੈ, ਵਾਧੂ ਹਟਾਓ ਵਿਚਕਾਰ ਹੈ, ਅਤੇ ਮਦਦ > ਦਾਨ ਕਰੋ PayPal ਦਾਨ ਪੰਨਾ ਖੋਲ੍ਹਦਾ ਹੈ।"
       ],
       "kn": [
-        "**ಹೊಸ Grid ಟ್ಯಾಬ್:** LED ಮತ್ತು ಪ್ರೊಜೆಕ್ಷನ್‌ಗಾಗಿ ಪರೀಕ್ಷಾ ಗ್ರಿಡ್ ಜನರೇಟರ್, 100,000 × 100,000 px ವರೆಗಿನ ಯಾವುದೇ ರೆಸಲ್ಯೂಶನ್‌ನಲ್ಲಿ, ಸಿದ್ಧ ರೆಸಲ್ಯೂಶನ್‌ಗಳು, ಮಾದರಿಗಳು (Grid, Spyder ಮತ್ತು ಜೋಡಣೆ), ಹಿನ್ನೆಲೆಗಳು, ಪ್ರದರ್ಶನ ಆಯ್ಕೆಗಳು ಮತ್ತು ಕೆಂಪು ಅಥವಾ ನೀಲಿ ಗೆರೆಗಳೊಂದಿಗೆ.",
-        "**ಗ್ರಿಡ್ ಅನ್ನು PNG, JPEG, PSD ಅಥವಾ PDF ಆಗಿ ಉಳಿಸಿ:** ಪ್ರತಿ ಪಿಕ್ಸೆಲ್‌ವರೆಗೂ ನಿಖರವಾದ ಫೈಲ್‌ಗಳು, ಐಚ್ಛಿಕ ಪಾರದರ್ಶಕ ಹಿನ್ನೆಲೆಯೊಂದಿಗೆ (Alpha).",
-        "**ಜೂಮ್ ಮತ್ತು ಎಳೆಯುವುದು:** ಮೌಸ್ ಚಕ್ರದಿಂದ ಒಂದು ಪಿಕ್ಸೆಲ್‌ವರೆಗೆ ಜೂಮ್, ಬಲ ಗುಂಡಿಯಿಂದ ಎಳೆಯಿರಿ, ಮತ್ತೆ ಮಧ್ಯಕ್ಕೆ ತರಲು ನೋಟವನ್ನು ಮಧ್ಯಕ್ಕೆ ತನ್ನಿ ಅಥವಾ Esc."
+        "**ಡ್ರಾಯಿಂಗ್:** ನೋಟವನ್ನು ಮಧ್ಯಕ್ಕೆ ತನ್ನಿ ಈಗ ON / OFF ಹೊಂದಿದೆ: ON ಇದ್ದಾಗ ಬಾಕ್ಸ್‌ಗಳು ನೋಟದಿಂದ ಹೊರಗೆ ಹೋದರೆ ಜೂಮ್ ತಾನಾಗಿ ಬದಲಾಗುತ್ತದೆ. ಸಾಧನ ಪೋರ್ಟ್‌ಗಳ ವಿಂಡೋದಲ್ಲಿ ಪ್ರತಿ ಪೋರ್ಟ್‌ನ ಕೇಬಲ್ ಬಣ್ಣದೊಂದಿಗೆ IN ಮತ್ತು OUT ಎರಡು ಕಾಲಮ್‌ಗಳಿವೆ.",
+        "**ಶಕ್ತಿ:** Status, 3D, Info ಮತ್ತು PDF ವರದಿಯಲ್ಲಿ (ಹೊಸ ಶಕ್ತಿ ವಿಭಾಗ) ಸರಾಸರಿ ಶಕ್ತಿ (ವಿಡಿಯೋ) ಮತ್ತು L1 / L2 / L3 ಹಂತಗಳ ಕರೆಂಟ್. 1,000 ಕೆ.ಜಿ.ಗಿಂತ ಹೆಚ್ಚಿನ ತೂಕ ಟನ್‌ಗಳಲ್ಲಿ ಕಾಣುತ್ತದೆ.",
+        "**ವಿಸ್ತೃತ ಪರದೆ ಮತ್ತು Info:** ಹೊಸ Grid ನೋಟವು Grid ಟ್ಯಾಬ್‌ನ ಪರೀಕ್ಷಾ ಗ್ರಿಡ್ ಅನ್ನು ಜೂಮ್ ಮತ್ತು ಸರಿಸುವಿಕೆಯೊಂದಿಗೆ ನೇರವಾಗಿ ಡಿಸ್‌ಪ್ಲೇಗೆ ಕಳುಹಿಸುತ್ತದೆ. Info ಬಾಕ್ಸ್‌ನಲ್ಲಿ ಯೋಜನೆಯ ಸಾರಾಂಶ ನಕಲಿಸುವ ಬಟನ್ ಇದೆ.",
+        "**ಸರಿಹೊಂದಿಕೆಗಳು:** ಪಟ್ಟಿ ಉದ್ದವಾದಾಗ ಅಪ್‌ಡೇಟ್ ಸೂಚನೆ ಸ್ಕ್ರೋಲ್ ಆಗುತ್ತದೆ, ಹೆಚ್ಚುವರಿ ತೆಗೆದುಹಾಕಿ ಮಧ್ಯದಲ್ಲಿದೆ, ಮತ್ತು ಸಹಾಯ > ದೇಣಿಗೆ ನೀಡಿ PayPal ದೇಣಿಗೆ ಪುಟ ತೆರೆಯುತ್ತದೆ."
       ],
       "ne": [
-        "**नयाँ Grid ट्याब:** LED र प्रोजेक्सनका लागि परीक्षण ग्रिड जेनेरेटर, 100,000 × 100,000 px सम्मको कुनै पनि रिजोल्युसनमा, तयार रिजोल्युसन, ढाँचा (Grid, Spyder र पङ्क्तिबद्धता), पृष्ठभूमि, प्रदर्शन विकल्प र रातो वा निलो रेखासहित।",
-        "**ग्रिडलाई PNG, JPEG, PSD वा PDF मा सेभ गर्नुहोस्:** प्रत्येक पिक्सेलसम्म सही फाइलहरू, ऐच्छिक पारदर्शी पृष्ठभूमिसहित (Alpha)।",
-        "**जुम र तान्ने:** माउस ह्वीलले एउटै पिक्सेलसम्म जुम, दायाँ बटनले तान्नुहोस्, फेरि बीचमा ल्याउन दृश्य बीचमा ल्याउनुहोस् वा Esc।"
+        "**ड्रइङ:** दृश्य बीचमा राख्नुहोस् मा अब ON / OFF छ: ON हुँदा बक्सहरू दृश्यबाहिर गए जुम आफैं मिलिन्छ। डिभाइस पोर्ट विन्डोमा हरेक पोर्टको केबल रङसहित IN र OUT दुई स्तम्भ छन्।",
+        "**पावर:** Status, 3D, Info र PDF रिपोर्टमा (नयाँ पावर खण्ड) औसत पावर (भिडियो) र L1 / L2 / L3 फेजको करेन्ट। १,००० किलोभन्दा बढी तौल टनमा देखिन्छ।",
+        "**विस्तारित स्क्रिन र Info:** नयाँ Grid दृश्यले Grid ट्याबको परीक्षण ग्रिड जुम र सार्नेसहित प्रत्यक्ष डिस्प्लेमा पठाउँछ। Info बक्समा परियोजनाको सारांश कपी गर्ने बटन छ।",
+        "**मिलानहरू:** सूची लामो हुँदा अपडेट सूचना स्क्रोल हुन्छ, अतिरिक्त हटाउनुहोस् बीचमा छ, र मद्दत > दान गर्नुहोस् ले PayPal दान पृष्ठ खोल्छ।"
       ],
       "km": [
-        "**ផ្ទាំង Grid ថ្មី៖** កម្មវិធីបង្កើតក្រឡាសាកល្បងសម្រាប់ LED និងការបញ្ចាំង គ្រប់គុណភាពបង្ហាញរហូតដល់ 100,000 × 100,000 px មានគុណភាពបង្ហាញស្រាប់ លំនាំ (Grid, Spyder និង ការតម្រឹម) ផ្ទៃខាងក្រោយ ជម្រើសបង្ហាញ និងបន្ទាត់ពណ៌ក្រហម ឬខៀវ។",
-        "**រក្សាទុកក្រឡាជា PNG, JPEG, PSD ឬ PDF៖** ឯកសារត្រឹមត្រូវដល់គ្រប់ភីកសែល ជាមួយផ្ទៃខាងក្រោយថ្លាតាមជម្រើស (Alpha)។",
-        "**ពង្រីក និងអូស៖** ពង្រីកដោយកង់កណ្ដុររហូតដល់ភីកសែលតែមួយ អូសដោយប៊ូតុងស្ដាំ ចុច ដាក់ទិដ្ឋភាពចំកណ្តាល ឬ Esc ដើម្បីដាក់កណ្ដាលវិញ។"
+        "**គំនូរ៖** ដាក់ទិដ្ឋភាពកណ្ដាល ឥឡូវមាន ON / OFF៖ ពេល ON ការពង្រីកកែខ្លួនឯង ពេលប្រអប់ចេញក្រៅទិដ្ឋភាព។ បង្អួចច្រកឧបករណ៍មានជួរឈរពីរ IN និង OUT ជាមួយពណ៌ខ្សែនៃច្រកនីមួយៗ។",
+        "**ថាមពល៖** ថាមពលមធ្យម (វីដេអូ) និងចរន្តនៃហ្វាស L1 / L2 / L3 ក្នុង Status, 3D, Info និងរបាយការណ៍ PDF (ផ្នែកថាមពលថ្មី)។ ទម្ងន់ពី ១,០០០ គីឡូក្រាមបង្ហាញជាតោន។",
+        "**អេក្រង់ពង្រីក និង Info៖** ទិដ្ឋភាព Grid ថ្មី ផ្ញើក្រឡាសាកល្បងនៃផ្ទាំង Grid ទៅអេក្រង់ផ្ទាល់ ជាមួយការពង្រីក និងរំកិល។ ប្រអប់ Info មានប៊ូតុងចម្លងសេចក្ដីសង្ខេបគម្រោង។",
+        "**ការកែសម្រួល៖** សេចក្ដីជូនដំណឹងអាប់ដេតរំកិលបាន ពេលបញ្ជីវែង ដកផ្នែកលើសនៅកណ្ដាល ហើយ ជំនួយ > បរិច្ចាគ បើកទំព័របរិច្ចាគ PayPal។"
       ],
       "kk": [
-        "**Жаңа Grid қойындысы:** LED және проекцияға арналған сынақ торының генераторы, 100 000 × 100 000 px-ке дейінгі кез келген ажыратымдылықта, дайын ажыратымдылықтар, үлгілер (Grid, Spyder және Туралау), фондар, көрсету параметрлері және қызыл не көк сызықтармен.",
-        "**Торды PNG, JPEG, PSD немесе PDF ретінде сақтаңыз:** пиксельге дейін дәл файлдар, қалауыңызша мөлдір фонмен (Alpha).",
-        "**Масштабтау және жылжыту:** тышқан дөңгелегімен бір пиксельге дейін масштабтау, оң жақ батырмамен жылжыту, қайта ортаға келтіру үшін Көріністі ортаға келтіру немесе Esc."
+        "**Сызба:** Көріністі ортаға қою енді ON / OFF бар: ON кезінде өрістер көріністен шыққанда масштаб өзі реттеледі. Құрылғы порттары терезесінде әр порттың кабель түсімен IN және OUT екі бағаны бар.",
+        "**Қуат:** Status, 3D, Info және PDF есебінде (жаңа Қуат бөлімі) орташа қуат (бейне) және L1 / L2 / L3 фазаларының тогы. 1000 кг-нан асатын салмақ тоннамен көрсетіледі.",
+        "**Кеңейтілген экран және Info:** жаңа Grid көрінісі Grid қойындысының сынақ торын масштаб пен жылжытумен тікелей дисплейге жібереді. Info өрісінде жоба қорытындысын көшіретін батырма бар.",
+        "**Түзетулер:** тізім ұзын болса жаңарту хабарламасы айналады, Артығын алып тастау ортада, ал Анықтама > Қайырымдылық PayPal қайырымдылық бетін ашады."
       ],
       "uz": [
-        "**Yangi Grid yorlig'i:** LED va proyeksiya uchun sinov to'ri generatori, 100 000 × 100 000 px gacha istalgan o'lchamda, tayyor o'lchamlar, naqshlar (Grid, Spyder va Tekislash), fonlar, ko'rsatish sozlamalari hamda qizil yoki ko'k chiziqlar bilan.",
-        "**To'rni PNG, JPEG, PSD yoki PDF sifatida saqlang:** pikselgacha aniq fayllar, ixtiyoriy shaffof fon bilan (Alpha).",
-        "**Kattalashtirish va surish:** sichqoncha g'ildiragi bilan bitta pikselgacha kattalashtirish, o'ng tugma bilan surish, qayta markazlash uchun Koʻrinishni markazlash yoki Esc."
+        "**Chizma:** Ko'rinishni markazlashda endi ON / OFF bor: ON bo'lsa, qutilar ko'rinishdan chiqqanda masshtab o'zi moslashadi. Qurilma portlari oynasida har bir portning kabel rangi bilan IN va OUT ikki ustun bor.",
+        "**Quvvat:** Status, 3D, Info va PDF hisobotida (yangi Quvvat bo'limi) o'rtacha quvvat (video) va L1 / L2 / L3 fazalari toki. 1 000 kg dan ortiq og'irlik tonnada ko'rsatiladi.",
+        "**Kengaytirilgan ekran va Info:** yangi Grid ko'rinishi Grid yorlig'idagi sinov to'rini masshtab va siljitish bilan jonli ravishda displeyga yuboradi. Info qutisida loyiha xulosasini nusxalash tugmasi bor.",
+        "**Sozlamalar:** ro'yxat uzun bo'lsa yangilanish xabari aylantiriladi, Ortiqchasini olib tashlash markazda, Yordam > Xayriya qilish esa PayPal xayriya sahifasini ochadi."
       ],
       "am": [
-        "**አዲስ Grid ትር፦** ለLED እና ለፕሮጀክሽን የሙከራ ፍርግርግ አመንጪ፣ እስከ 100,000 × 100,000 px ድረስ በማንኛውም ጥራት፣ ከተዘጋጁ ጥራቶች፣ ንድፎች (Grid፣ Spyder እና አሰላለፍ)፣ ዳራዎች፣ የማሳያ አማራጮች እና ቀይ ወይም ሰማያዊ መስመሮች ጋር።",
-        "**ፍርግርጉን እንደ PNG፣ JPEG፣ PSD ወይም PDF ያስቀምጡ፦** እስከ እያንዳንዱ ፒክሰል ትክክለኛ ፋይሎች፣ ከአማራጭ ግልጽ ዳራ ጋር (Alpha)።",
-        "**ማጉላት እና መጎተት፦** በመዳፊት መሽከርከሪያ እስከ አንድ ፒክሰል ማጉላት፣ በቀኝ አዝራር መጎተት፣ እንደገና ወደ መሃል ለማምጣት እይታን መሃል አድርግ ወይም Esc።"
+        "**ስዕል፦** እይታን አማክል አሁን ON / OFF አለው፦ ON ሲሆን ሳጥኖች ከእይታ ሲወጡ ማጉላቱ በራሱ ይስተካከላል። የመሣሪያ ወደቦች መስኮት የእያንዳንዱ ወደብ የገመድ ቀለም ያለው IN እና OUT ሁለት ዓምዶች አሉት።",
+        "**ኃይል፦** በStatus፣ 3D፣ Info እና PDF ሪፖርት (አዲስ የኃይል ክፍል) ውስጥ አማካይ ኃይል (ቪዲዮ) እና የL1 / L2 / L3 ፌዞች ጅረት። ከ1,000 ኪ.ግ በላይ ክብደት በቶን ይታያል።",
+        "**የተዘረጋ ስክሪን እና Info፦** አዲሱ Grid እይታ የGrid ትር የሙከራ ፍርግርግ በማጉላትና በማንቀሳቀስ በቀጥታ ወደ ማሳያው ይልካል። የInfo ሳጥን የፕሮጀክቱን ማጠቃለያ የሚቀዳ አዝራር አለው።",
+        "**ማስተካከያዎች፦** ዝርዝሩ ረጅም ሲሆን የዝማኔ ማሳወቂያው ይሸበለላል፣ ትርፉን አስወግድ መሃል ላይ ነው፣ እገዛ > ይለግሱ የPayPal የልገሳ ገጽን ይከፍታል።"
       ],
       "sl": [
-        "**Nov zavihek Grid:** generator preizkusne mreže za LED in projekcijo v poljubni ločljivosti do 100.000 × 100.000 px, s prednastavljenimi ločljivostmi, vzorci (Grid, Spyder in Poravnava), ozadji, možnostmi prikaza ter rdečimi ali modrimi črtami.",
-        "**Shranite mrežo kot PNG, JPEG, PSD ali PDF:** datoteke, natančne do slikovne pike, z neobveznim prosojnim ozadjem (Alpha).",
-        "**Povečava in premikanje:** povečava s kolescem miške do ene same slikovne pike, premikanje z desnim gumbom, Centriraj pogled ali Esc za ponovno sredinjenje."
+        "**Risba:** Usredini pogled ima zdaj ON / OFF: pri ON se povečava sama prilagodi, ko polja zapustijo pogled. Okno Vrata naprave ima dva stolpca, IN in OUT, z barvo kabla vsakih vrat.",
+        "**Moč:** povprečna moč (video) in tok faz L1 / L2 / L3 v Status, 3D, Info in PDF poročilu (nov razdelek Moč). Teža od 1.000 kg je prikazana v tonah.",
+        "**Razširjeni zaslon in Info:** nov pogled Grid pošlje testno mrežo zavihka Grid na zaslon v živo, s povečavo in premikanjem. Polje Info ima gumb za kopiranje povzetka projekta.",
+        "**Prilagoditve:** obvestilo o posodobitvi se pri dolgem seznamu pomika, Odstrani presežek je na sredini, Pomoč > Doniraj pa odpre stran za donacije PayPal."
       ]
     }
   }
