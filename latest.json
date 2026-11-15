@@ -1,9 +1,247 @@
 {
-  "version": "2.8.4",
-  "windows": "https://github.com/renatorocha0934/RAGridrelease/releases/download/v2.8.4/RAGrid-Windows.zip",
-  "mac": "https://github.com/renatorocha0934/RAGridrelease/releases/download/v2.8.4/RAGrid-Mac.dmg",
+  "version": "2.8.6",
+  "windows": "https://github.com/renatorocha0934/RAGridrelease/releases/download/v2.8.6/RAGrid-Windows.zip",
+  "mac": "https://github.com/renatorocha0934/RAGridrelease/releases/download/v2.8.6/RAGrid-Mac.dmg",
   "notes": "System and performance improvements.",
   "changes": {
+    "2.8.6": {
+      "en": [
+        "**Animation:** new Animation view on the Extended screen, below Grid. Two technicians assemble the project's screens panel by panel, at real scale: panels within reach go by hand, the high ones with a lift. If the project has a logo, it appears on their shirts. At the end, the test image of each screen. It can also be saved as an MP4 video in the Export window.",
+        "**3D Stage:** the view buttons in the bottom corner line up with the toolbar again and no longer cover it."
+      ],
+      "pt": [
+        "**Animação:** nova vista Animação na Tela estendida, embaixo de Grid. Dois técnicos montam as telas do projeto placa por placa, em escala real: as placas ao alcance vão na mão, as altas com a plataforma elevatória. Se o projeto tiver logo, ele aparece na camisa deles. No fim, a imagem de teste de cada tela. Também pode ser salva como vídeo MP4 na janela Exportar.",
+        "**3D Stage:** os botões das vistas no canto de baixo voltaram a ficar alinhados com a barra de ferramentas e não ficam mais por cima dela."
+      ],
+      "es": [
+        "**Animación:** nueva vista Animación en la Pantalla extendida, debajo de Grid. Dos técnicos montan las pantallas del proyecto panel por panel, a escala real: los paneles al alcance van a mano y los altos con una plataforma elevadora. Si el proyecto tiene logotipo, aparece en su camiseta. Al final, la imagen de prueba de cada pantalla. También se puede guardar como vídeo MP4 en la ventana Exportar.",
+        "**3D Stage:** los botones de vista de la esquina inferior vuelven a alinearse con la barra de herramientas y ya no la tapan."
+      ],
+      "fr": [
+        "**Animation :** nouvelle vue Animation sur l'Écran étendu, sous Grid. Deux techniciens montent les écrans du projet dalle par dalle, à l'échelle réelle : les dalles à portée de main sont portées à la main, les plus hautes avec une nacelle. Si le projet a un logo, il apparaît sur leur t-shirt. À la fin, l'image de test de chaque écran. Elle peut aussi être enregistrée en vidéo MP4 dans la fenêtre Exporter.",
+        "**3D Stage :** les boutons de vue du coin inférieur sont de nouveau alignés avec la barre d'outils et ne la recouvrent plus."
+      ],
+      "de": [
+        "**Animation:** neue Ansicht Animation im erweiterten Bildschirm, unter Grid. Zwei Techniker bauen die Screens des Projekts Panel für Panel im echten Maßstab auf: Panels in Reichweite werden von Hand getragen, hohe mit einer Hebebühne. Hat das Projekt ein Logo, erscheint es auf ihren Shirts. Am Ende das Testbild jedes Screens. Sie lässt sich auch im Fenster Exportieren als MP4-Video speichern.",
+        "**3D Stage:** Die Ansichtsschaltflächen in der unteren Ecke sind wieder an der Werkzeugleiste ausgerichtet und überdecken sie nicht mehr."
+      ],
+      "it": [
+        "**Animazione:** nuova vista Animazione nello Schermo esteso, sotto Grid. Due tecnici montano gli schermi del progetto pannello per pannello, in scala reale: i pannelli a portata di mano vanno a mano, quelli alti con una piattaforma elevatrice. Se il progetto ha un logo, compare sulla loro maglietta. Alla fine, l'immagine di test di ogni schermo. Si può anche salvare come video MP4 nella finestra Esporta.",
+        "**3D Stage:** i pulsanti delle viste nell'angolo in basso sono di nuovo allineati alla barra degli strumenti e non la coprono più."
+      ],
+      "nl": [
+        "**Animatie:** nieuwe weergave Animatie op het uitgebreide scherm, onder Grid. Twee technici bouwen de schermen van het project paneel voor paneel op, op ware schaal: panelen binnen bereik gaan met de hand, hoge met een hoogwerker. Heeft het project een logo, dan staat het op hun shirt. Aan het eind het testbeeld van elk scherm. Ze kan ook als MP4-video worden opgeslagen in het venster Exporteren.",
+        "**3D Stage:** de weergaveknoppen in de onderhoek zijn weer uitgelijnd met de werkbalk en bedekken die niet meer."
+      ],
+      "ru": [
+        "**Анимация:** новый вид «Анимация» на расширенном экране, под Grid. Два техника собирают экраны проекта панель за панелью в реальном масштабе: панели в пределах досягаемости несут в руках, высокие — на подъёмнике. Если в проекте есть логотип, он появляется на их футболках. В конце — тестовое изображение каждого экрана. Её также можно сохранить как видео MP4 в окне «Экспорт».",
+        "**3D Stage:** кнопки видов в нижнем углу снова выровнены с панелью инструментов и больше не перекрывают её."
+      ],
+      "tr": [
+        "**Animasyon:** Genişletilmiş ekranda, Grid'in altında yeni Animasyon görünümü. İki teknisyen projenin ekranlarını gerçek ölçekte panel panel kurar: uzanılabilen paneller elde, yüksektekiler platformla taşınır. Projede logo varsa tişörtlerinde görünür. Sonunda her ekranın test görüntüsü. Dışa Aktar penceresinde MP4 video olarak da kaydedilebilir.",
+        "**3D Stage:** alt köşedeki görünüm düğmeleri yeniden araç çubuğuyla hizalandı ve artık onu kapatmıyor."
+      ],
+      "id": [
+        "**Animasi:** tampilan baru Animasi di Layar tambahan, di bawah Grid. Dua teknisi merakit layar proyek panel demi panel dalam skala nyata: panel yang terjangkau dibawa dengan tangan, yang tinggi dengan lift. Jika proyek punya logo, logo itu muncul di kaus mereka. Di akhir, gambar uji setiap layar. Juga dapat disimpan sebagai video MP4 di jendela Ekspor.",
+        "**3D Stage:** tombol tampilan di sudut bawah kembali sejajar dengan bilah alat dan tidak lagi menutupinya."
+      ],
+      "hu": [
+        "**Animáció:** új Animáció nézet a kiterjesztett képernyőn, a Grid alatt. Két technikus valós léptékben, panelenként szereli össze a projekt kijelzőit: az elérhető paneleket kézben viszik, a magasakat emelőkosárral. Ha a projektnek van logója, megjelenik a pólójukon. A végén minden kijelző tesztképe. Az Exportálás ablakban MP4-videóként is menthető.",
+        "**3D Stage:** az alsó sarokban lévő nézetgombok ismét egy vonalban vannak az eszköztárral, és már nem takarják el."
+      ],
+      "zh-Hans": [
+        "**动画：** 扩展屏幕新增“动画”视图，位于 Grid 下方。两名技术员按真实比例逐块安装项目中的屏幕：够得着的箱体用手搬，高处的用升降平台。如果项目有标志，会显示在他们的T恤上。最后显示每块屏幕的测试图。也可以在“导出”窗口中保存为 MP4 视频。",
+        "**3D Stage：** 底部角落的视图按钮重新与工具栏对齐，不再遮住工具栏。"
+      ],
+      "zh-Hant": [
+        "**動畫：** 延伸螢幕新增「動畫」檢視，位於 Grid 下方。兩名技術人員依真實比例逐片安裝專案中的螢幕：搆得到的箱體用手搬，高處的用升降平台。如果專案有標誌，會顯示在他們的T恤上。最後顯示每個螢幕的測試圖。也可以在「匯出」視窗中儲存為 MP4 影片。",
+        "**3D Stage：** 底部角落的檢視按鈕重新與工具列對齊，不再遮住工具列。"
+      ],
+      "ja": [
+        "**アニメーション：** 拡張画面の Grid の下に新しい「アニメーション」ビュー。2人の技術者がプロジェクトのスクリーンを実寸でパネルごとに組み立てます。手の届くパネルは手で運び、高いものは高所作業台で。プロジェクトにロゴがあれば、シャツに表示されます。最後に各スクリーンのテスト画像。「エクスポート」ウィンドウで MP4 動画として保存することもできます。",
+        "**3D Stage：** 下隅のビューボタンが再びツールバーと揃い、ツールバーに重ならなくなりました。"
+      ],
+      "ko": [
+        "**애니메이션:** 확장 화면의 Grid 아래에 새 애니메이션 보기. 두 기술자가 프로젝트의 화면을 실제 비율로 패널 하나씩 조립합니다. 손이 닿는 패널은 손으로, 높은 패널은 리프트로 옮깁니다. 프로젝트에 로고가 있으면 셔츠에 표시됩니다. 마지막에 각 화면의 테스트 이미지. 내보내기 창에서 MP4 동영상으로 저장할 수도 있습니다.",
+        "**3D Stage:** 아래 모서리의 보기 버튼이 다시 도구 모음과 정렬되어 더 이상 도구 모음을 가리지 않습니다."
+      ],
+      "ar": [
+        "**حركة:** عرض جديد «حركة» في الشاشة الممتدة أسفل Grid. فنيّان يركّبان شاشات المشروع لوحةً لوحة بالمقياس الحقيقي: اللوحات التي في المتناول تُحمل باليد، والعالية بالرافعة. إذا كان للمشروع شعار فإنه يظهر على قمصانهم. وفي النهاية صورة الاختبار لكل شاشة. ويمكن أيضًا حفظها كفيديو MP4 من نافذة التصدير.",
+        "**3D Stage:** أزرار العروض في الزاوية السفلية عادت لتصطف مع شريط الأدوات ولم تعد تغطيه."
+      ],
+      "th": [
+        "**แอนิเมชัน:** มุมมองใหม่ แอนิเมชัน ในหน้าจอขยาย ใต้ Grid ช่างสองคนประกอบจอของโปรเจกต์ทีละแผงตามขนาดจริง แผงที่เอื้อมถึงยกด้วยมือ แผงที่สูงใช้รถกระเช้า ถ้าโปรเจกต์มีโลโก้ จะปรากฏบนเสื้อของพวกเขา ตอนจบแสดงภาพทดสอบของแต่ละจอ ยังบันทึกเป็นวิดีโอ MP4 ได้ในหน้าต่างส่งออก",
+        "**3D Stage:** ปุ่มมุมมองที่มุมล่างกลับมาเรียงตรงกับแถบเครื่องมือและไม่บังแถบนั้นอีกแล้ว"
+      ],
+      "hi": [
+        "**एनिमेशन:** एक्सटेंडेड स्क्रीन में Grid के नीचे नया एनिमेशन व्यू। दो तकनीशियन प्रोजेक्ट की स्क्रीनें असली पैमाने पर पैनल-दर-पैनल जोड़ते हैं: पहुँच वाले पैनल हाथ से, ऊँचे पैनल लिफ्ट से। अगर प्रोजेक्ट में लोगो है, तो वह उनकी टी-शर्ट पर दिखता है। अंत में हर स्क्रीन की टेस्ट इमेज। इसे एक्सपोर्ट विंडो में MP4 वीडियो के रूप में भी सहेजा जा सकता है।",
+        "**3D Stage:** नीचे कोने के व्यू बटन फिर से टूलबार के साथ एक सीध में हैं और अब उसे नहीं ढकते।"
+      ],
+      "vi": [
+        "**Hoạt ảnh:** chế độ xem Hoạt ảnh mới trên Màn hình mở rộng, bên dưới Grid. Hai kỹ thuật viên lắp các màn hình của dự án từng tấm một, theo tỷ lệ thật: tấm trong tầm tay mang bằng tay, tấm cao dùng xe nâng. Nếu dự án có logo, logo sẽ hiện trên áo của họ. Cuối cùng là ảnh kiểm tra của từng màn hình. Cũng có thể lưu thành video MP4 trong cửa sổ Xuất.",
+        "**3D Stage:** các nút chế độ xem ở góc dưới đã thẳng hàng lại với thanh công cụ và không còn che nó."
+      ],
+      "bn": [
+        "**অ্যানিমেশন:** এক্সটেন্ডেড স্ক্রিনে Grid-এর নিচে নতুন অ্যানিমেশন ভিউ। দুজন টেকনিশিয়ান প্রকৃত মাপে একটি একটি প্যানেল করে প্রকল্পের স্ক্রিন জোড়া দেন: নাগালের প্যানেল হাতে, উঁচুগুলো লিফটে। প্রকল্পে লোগো থাকলে তাদের শার্টে দেখা যায়। শেষে প্রতিটি স্ক্রিনের টেস্ট ছবি। এক্সপোর্ট উইন্ডো থেকে MP4 ভিডিও হিসেবেও সংরক্ষণ করা যায়।",
+        "**3D Stage:** নিচের কোণের ভিউ বোতামগুলো আবার টুলবারের সাথে সারিবদ্ধ এবং আর সেটিকে ঢেকে দেয় না।"
+      ],
+      "ms": [
+        "**Animasi:** paparan baharu Animasi pada Skrin lanjutan, di bawah Grid. Dua juruteknik memasang skrin projek panel demi panel pada skala sebenar: panel yang boleh dicapai dibawa dengan tangan, yang tinggi dengan lif. Jika projek ada logo, ia muncul pada baju mereka. Di akhir, imej ujian setiap skrin. Ia juga boleh disimpan sebagai video MP4 dalam tetingkap Eksport.",
+        "**3D Stage:** butang paparan di sudut bawah kembali sejajar dengan bar alat dan tidak lagi menutupnya."
+      ],
+      "sv": [
+        "**Animering:** ny vy Animering på den utökade skärmen, under Grid. Två tekniker bygger projektets skärmar panel för panel i verklig skala: paneler inom räckhåll bärs för hand, höga med en skylift. Har projektet en logotyp syns den på deras tröjor. Till sist testbilden för varje skärm. Den kan också sparas som MP4-video i fönstret Exportera.",
+        "**3D Stage:** vyknapparna i nedre hörnet ligger åter i linje med verktygsfältet och täcker det inte längre."
+      ],
+      "ur": [
+        "**اینیمیشن:** ایکسٹینڈڈ اسکرین میں Grid کے نیچے نیا اینیمیشن ویو۔ دو تکنیک کار پروجیکٹ کی اسکرینیں اصل پیمانے پر ایک ایک پینل جوڑتے ہیں: پہنچ والے پینل ہاتھ سے، اونچے لفٹ سے۔ اگر پروجیکٹ میں لوگو ہو تو وہ ان کی قمیص پر نظر آتا ہے۔ آخر میں ہر اسکرین کی ٹیسٹ تصویر۔ اسے ایکسپورٹ ونڈو میں MP4 ویڈیو کے طور پر بھی محفوظ کیا جا سکتا ہے۔",
+        "**3D Stage:** نیچے کونے کے ویو بٹن دوبارہ ٹول بار کی سیدھ میں ہیں اور اب اسے نہیں ڈھانپتے۔"
+      ],
+      "sw": [
+        "**Uhuishaji:** mwonekano mpya wa Uhuishaji kwenye Skrini iliyopanuliwa, chini ya Grid. Mafundi wawili wanaunganisha skrini za mradi paneli kwa paneli kwa kipimo halisi: paneli zinazofikika hubebwa kwa mkono, za juu kwa lifti. Mradi ukiwa na nembo, inaonekana kwenye fulana zao. Mwishoni, picha ya majaribio ya kila skrini. Inaweza pia kuhifadhiwa kama video ya MP4 kwenye dirisha la Hamisha.",
+        "**3D Stage:** vitufe vya mionekano kwenye kona ya chini vimepangwa tena sambamba na upau wa zana na havifuniki tena."
+      ],
+      "gn": [
+        "**Animación:** jehecha pyahu Animación Pantalla ipukúvape, Grid guýpe. Mokõi técnico omoĩ pantalla proyecto-pegua placa ha placa, tuichakue añetéva: placa ipo'ẽva ojegueraha po'ópe, ijyvatéva katu plataforma rupive. Proyecto oguerekóramo logo, ojehecha ikamisápe. Ipahápe, ta'anga ñeha'ã pantalla tenondegua. Ikatu avei oñeñongatu video MP4 ramo ventana Exportar-pe.",
+        "**3D Stage:** votõ jehecha-pegua ipype'ápe oĩ jey peteĩ rapére tembipuru barra ndive ha nomo'ãvéima."
+      ],
+      "he": [
+        "**אנימציה:** תצוגה חדשה אנימציה במסך המורחב, מתחת ל-Grid. שני טכנאים מרכיבים את מסכי הפרויקט פאנל אחר פאנל בקנה מידה אמיתי: פאנלים בהישג יד נישאים ביד, והגבוהים במתקן הרמה. אם לפרויקט יש לוגו, הוא מופיע על החולצות שלהם. בסוף, תמונת הבדיקה של כל מסך. אפשר גם לשמור אותה כסרטון MP4 בחלון הייצוא.",
+        "**3D Stage:** כפתורי התצוגות בפינה התחתונה שוב מיושרים עם סרגל הכלים ואינם מכסים אותו עוד."
+      ],
+      "lv": [
+        "**Animācija:** jauns skats Animācija paplašinātajā ekrānā, zem Grid. Divi tehniķi reālā mērogā panelim pa panelim saliek projekta ekrānus: sasniedzamos paneļus nes rokās, augstos ar pacēlāju. Ja projektam ir logotips, tas redzams uz viņu krekliem. Beigās katra ekrāna testa attēls. To var arī saglabāt kā MP4 video logā Eksportēt.",
+        "**3D Stage:** skatu pogas apakšējā stūrī atkal ir vienā līnijā ar rīkjoslu un vairs to neaizsedz."
+      ],
+      "fa": [
+        "**انیمیشن:** نمای جدید انیمیشن در صفحه گسترده، زیر Grid. دو تکنسین صفحه‌های پروژه را با مقیاس واقعی پنل به پنل نصب می‌کنند: پنل‌های در دسترس با دست و پنل‌های بلند با بالابر. اگر پروژه لوگو داشته باشد، روی پیراهن آن‌ها دیده می‌شود. در پایان، تصویر تست هر صفحه. همچنین می‌توان آن را در پنجره خروجی به‌صورت ویدیوی MP4 ذخیره کرد.",
+        "**3D Stage:** دکمه‌های نما در گوشه پایین دوباره با نوار ابزار هم‌تراز شده‌اند و دیگر آن را نمی‌پوشانند."
+      ],
+      "pl": [
+        "**Animacja:** nowy widok Animacja na ekranie rozszerzonym, pod Grid. Dwóch techników montuje ekrany projektu panel po panelu w rzeczywistej skali: panele w zasięgu ręki niosą w rękach, wysokie podnośnikiem. Jeśli projekt ma logo, widać je na ich koszulkach. Na końcu obraz testowy każdego ekranu. Można ją też zapisać jako wideo MP4 w oknie Eksportuj.",
+        "**3D Stage:** przyciski widoków w dolnym rogu znów są wyrównane z paskiem narzędzi i już go nie zasłaniają."
+      ],
+      "uk": [
+        "**Анімація:** новий вигляд «Анімація» на розширеному екрані, під Grid. Два техніки збирають екрани проєкту панель за панеллю в реальному масштабі: панелі в межах досяжності несуть у руках, високі — підйомником. Якщо в проєкті є логотип, він з'являється на їхніх футболках. Наприкінці — тестове зображення кожного екрана. Її також можна зберегти як відео MP4 у вікні «Експорт».",
+        "**3D Stage:** кнопки виглядів у нижньому куті знову вирівняні з панеллю інструментів і більше її не перекривають."
+      ],
+      "ca": [
+        "**Animació:** nova vista Animació a la Pantalla estesa, sota Grid. Dos tècnics munten les pantalles del projecte panell a panell, a escala real: els panells a l'abast van a mà i els alts amb una plataforma elevadora. Si el projecte té logotip, apareix a la seva samarreta. Al final, la imatge de prova de cada pantalla. També es pot desar com a vídeo MP4 a la finestra Exporta.",
+        "**3D Stage:** els botons de vista de la cantonada inferior tornen a estar alineats amb la barra d'eines i ja no la tapen."
+      ],
+      "cs": [
+        "**Animace:** nový pohled Animace na rozšířené obrazovce, pod Grid. Dva technici montují obrazovky projektu panel po panelu ve skutečném měřítku: panely na dosah nesou v rukou, vysoké pomocí plošiny. Pokud má projekt logo, objeví se na jejich tričkách. Na konci testovací obraz každé obrazovky. Lze ji také uložit jako video MP4 v okně Export.",
+        "**3D Stage:** tlačítka pohledů v dolním rohu jsou opět zarovnaná s panelem nástrojů a už ho nezakrývají."
+      ],
+      "fi": [
+        "**Animaatio:** uusi Animaatio-näkymä laajennetulla näytöllä, Gridin alla. Kaksi teknikkoa kokoaa projektin näytöt paneeli kerrallaan todellisessa mittakaavassa: ulottuvilla olevat paneelit kannetaan käsin, korkeat nostimella. Jos projektissa on logo, se näkyy heidän paidoissaan. Lopuksi jokaisen näytön testikuva. Sen voi myös tallentaa MP4-videoksi Vie-ikkunassa.",
+        "**3D Stage:** alakulman näkymäpainikkeet ovat taas linjassa työkalurivin kanssa eivätkä enää peitä sitä."
+      ],
+      "el": [
+        "**Κίνηση:** νέα προβολή Κίνηση στην εκτεταμένη οθόνη, κάτω από το Grid. Δύο τεχνικοί συναρμολογούν τις οθόνες του έργου πάνελ πάνελ σε πραγματική κλίμακα: τα πάνελ που φτάνουν μεταφέρονται με το χέρι, τα ψηλά με ανυψωτικό. Αν το έργο έχει λογότυπο, εμφανίζεται στις μπλούζες τους. Στο τέλος, η εικόνα δοκιμής κάθε οθόνης. Μπορεί επίσης να αποθηκευτεί ως βίντεο MP4 από το παράθυρο Εξαγωγή.",
+        "**3D Stage:** τα κουμπιά προβολών στην κάτω γωνία είναι ξανά ευθυγραμμισμένα με τη γραμμή εργαλείων και δεν την καλύπτουν πια."
+      ],
+      "ha": [
+        "**Motsi:** sabon kallon Motsi a allon da aka faɗaɗa, ƙarƙashin Grid. Ma'aikata biyu suna haɗa allunan aikin faranti bayan faranti a ainihin girma: faranti masu kusa ana ɗauka da hannu, na sama da lif. Idan aikin yana da tambari, yana bayyana a rigunansu. A ƙarshe, hoton gwaji na kowane allo. Ana iya adana shi a matsayin bidiyon MP4 a tagar Fitarwa.",
+        "**3D Stage:** maɓallan kallo a kusurwar ƙasa sun sake daidaita da sandar kayan aiki kuma ba sa rufe ta kuma."
+      ],
+      "ro": [
+        "**Animație:** vizualizare nouă Animație pe ecranul extins, sub Grid. Doi tehnicieni montează ecranele proiectului panou cu panou, la scară reală: panourile la îndemână sunt duse în mână, cele înalte cu o platformă de ridicare. Dacă proiectul are logo, acesta apare pe tricourile lor. La final, imaginea de test a fiecărui ecran. Poate fi salvată și ca videoclip MP4 din fereastra Export.",
+        "**3D Stage:** butoanele de vizualizare din colțul de jos sunt din nou aliniate cu bara de instrumente și nu o mai acoperă."
+      ],
+      "yo": [
+        "**Eré ìdárayá:** ìwò tuntun Eré ìdárayá lórí ojú-iboju tí a fẹ̀, lábẹ́ Grid. Àwọn onímọ̀-ẹ̀rọ méjì ń kó àwọn ojú-iboju iṣẹ́ náà jọ ní pánẹ́ẹ̀lì kan lẹ́yìn òmíràn, ní ìwọ̀n gidi: àwọn tí ọwọ́ tó ni wọ́n gbé lọ́wọ́, àwọn gíga pẹ̀lú ẹ̀rọ agbéga. Tí iṣẹ́ náà bá ní àmì, ó máa hàn lórí aṣọ wọn. Ní ìparí, àwòrán ìdánwò ojú-iboju kọ̀ọ̀kan. A tún lè fi pamọ́ gẹ́gẹ́ bí fídíò MP4 nínú fèrèsé Gbé jáde.",
+        "**3D Stage:** àwọn bọ́tìnnì ìwò ní igun ìsàlẹ̀ tún wà ní ìlà kan pẹ̀lú ọ̀pá irinṣẹ́, wọn kò sì bò ó mọ́."
+      ],
+      "zu": [
+        "**Opopayi:** ukubuka okusha kwe-Opopayi esikrinini esinwetshiwe, ngaphansi kwe-Grid. Ochwepheshe ababili bahlanganisa izikrini zephrojekthi iphaneli ngephaneli ngesilinganiso sangempela: amaphaneli afinyelelekayo athwalwa ngesandla, aphezulu ngelifti. Uma iphrojekthi inelogo, ivela kumahembe abo. Ekugcineni, isithombe sokuhlola sesikrini ngasinye. Kungalondolozwa futhi njengevidiyo ye-MP4 efasiteleni lokuthekelisa.",
+        "**3D Stage:** izinkinobho zokubuka ekhoneni elingezansi ziphinde zaqondana nebha yamathuluzi futhi azisayimbozi."
+      ],
+      "fil": [
+        "**Animation:** bagong view na Animation sa Extended screen, sa ilalim ng Grid. Dalawang technician ang nagkakabit ng mga screen ng proyekto isa-isang panel sa totoong sukat: ang mga panel na abot-kamay ay dala sa kamay, ang matataas ay gamit ang lift. Kung may logo ang proyekto, lumalabas ito sa kanilang damit. Sa dulo, ang test image ng bawat screen. Maaari rin itong i-save bilang MP4 video sa window na Export.",
+        "**3D Stage:** nakahanay na ulit sa toolbar ang mga view button sa ibabang sulok at hindi na nila ito tinatakpan."
+      ],
+      "ta": [
+        "**அசைவூட்டம்:** நீட்டிக்கப்பட்ட திரையில் Grid-க்கு கீழே புதிய அசைவூட்டம் காட்சி. இரண்டு தொழில்நுட்பர்கள் திட்டத்தின் திரைகளை உண்மையான அளவில் ஒவ்வொரு பேனலாகப் பொருத்துகிறார்கள்: எட்டும் பேனல்கள் கையால், உயரமானவை லிஃப்ட் மூலம். திட்டத்தில் லோகோ இருந்தால் அது அவர்களின் சட்டையில் தெரியும். இறுதியில் ஒவ்வொரு திரையின் சோதனைப் படம். ஏற்றுமதி சாளரத்தில் MP4 வீடியோவாகவும் சேமிக்கலாம்.",
+        "**3D Stage:** கீழ் மூலையில் உள்ள காட்சிப் பொத்தான்கள் மீண்டும் கருவிப்பட்டியுடன் வரிசையாக உள்ளன, இனி அதை மறைக்காது."
+      ],
+      "te": [
+        "**యానిమేషన్:** ఎక్స్‌టెండెడ్ స్క్రీన్‌లో Grid కింద కొత్త యానిమేషన్ వ్యూ. ఇద్దరు టెక్నీషియన్లు ప్రాజెక్ట్ స్క్రీన్‌లను నిజమైన కొలతలో ఒక్కో ప్యానెల్‌గా అమరుస్తారు: అందే ప్యానెల్‌లు చేతితో, ఎత్తైనవి లిఫ్ట్‌తో. ప్రాజెక్ట్‌కు లోగో ఉంటే అది వారి చొక్కాలపై కనిపిస్తుంది. చివరగా ప్రతి స్క్రీన్ టెస్ట్ చిత్రం. ఎగుమతి విండోలో MP4 వీడియోగా కూడా సేవ్ చేయవచ్చు.",
+        "**3D Stage:** కింది మూలలోని వ్యూ బటన్‌లు మళ్లీ టూల్‌బార్‌తో వరుసలో ఉన్నాయి, ఇక దాన్ని కప్పవు."
+      ],
+      "mr": [
+        "**अॅनिमेशन:** एक्सटेंडेड स्क्रीनवर Grid च्या खाली नवीन अॅनिमेशन व्ह्यू. दोन तंत्रज्ञ प्रकल्पाच्या स्क्रीन खऱ्या मापात एकेक पॅनेल जोडतात: हाताला येणारे पॅनेल हाताने, उंच पॅनेल लिफ्टने. प्रकल्पात लोगो असल्यास तो त्यांच्या शर्टवर दिसतो. शेवटी प्रत्येक स्क्रीनची टेस्ट इमेज. एक्सपोर्ट विंडोमध्ये MP4 व्हिडिओ म्हणूनही जतन करता येते.",
+        "**3D Stage:** खालच्या कोपऱ्यातील व्ह्यू बटणे पुन्हा टूलबारशी एका रेषेत आहेत आणि आता ती त्याला झाकत नाहीत."
+      ],
+      "da": [
+        "**Animation:** ny visning Animation på den udvidede skærm, under Grid. To teknikere samler projektets skærme panel for panel i virkelig skala: paneler inden for rækkevidde bæres i hånden, de høje med en lift. Har projektet et logo, vises det på deres trøjer. Til sidst testbilledet af hver skærm. Den kan også gemmes som MP4-video i vinduet Eksportér.",
+        "**3D Stage:** visningsknapperne i det nederste hjørne flugter igen med værktøjslinjen og dækker den ikke længere."
+      ],
+      "nb": [
+        "**Animasjon:** ny visning Animasjon på den utvidede skjermen, under Grid. To teknikere monterer prosjektets skjermer panel for panel i ekte skala: paneler innen rekkevidde bæres for hånd, de høye med lift. Har prosjektet en logo, vises den på t-skjortene deres. Til slutt testbildet av hver skjerm. Den kan også lagres som MP4-video i vinduet Eksporter.",
+        "**3D Stage:** visningsknappene i nedre hjørne står igjen på linje med verktøylinjen og dekker den ikke lenger."
+      ],
+      "lt": [
+        "**Animacija:** naujas vaizdas Animacija išplėstiniame ekrane, po Grid. Du technikai realiu masteliu po vieną plokštę surenka projekto ekranus: pasiekiamas plokštes neša rankomis, aukštas – keltuvu. Jei projektas turi logotipą, jis matomas ant jų marškinėlių. Pabaigoje – kiekvieno ekrano bandomasis vaizdas. Ją taip pat galima išsaugoti kaip MP4 vaizdo įrašą lange Eksportuoti.",
+        "**3D Stage:** vaizdų mygtukai apatiniame kampe vėl sulygiuoti su įrankių juosta ir jos nebeuždengia."
+      ],
+      "et": [
+        "**Animatsioon:** uus vaade Animatsioon laiendatud ekraanil, Gridi all. Kaks tehnikut monteerivad projekti ekraanid paneel paneeli haaval tegelikus mõõtkavas: käeulatuses paneelid kantakse käes, kõrged tõstukiga. Kui projektil on logo, on see nende särkidel. Lõpus iga ekraani testpilt. Selle saab salvestada ka MP4-videona aknas Ekspordi.",
+        "**3D Stage:** alumise nurga vaatenupud on jälle tööriistaribaga joondatud ega kata seda enam."
+      ],
+      "sk": [
+        "**Animácia:** nové zobrazenie Animácia na rozšírenej obrazovke, pod Grid. Dvaja technici montujú obrazovky projektu panel po paneli v skutočnej mierke: panely na dosah nesú v rukách, vysoké pomocou plošiny. Ak má projekt logo, objaví sa na ich tričkách. Na konci testovací obraz každej obrazovky. Dá sa uložiť aj ako video MP4 v okne Export.",
+        "**3D Stage:** tlačidlá zobrazení v dolnom rohu sú opäť zarovnané s panelom nástrojov a už ho nezakrývajú."
+      ],
+      "bg": [
+        "**Анимация:** нов изглед „Анимация“ на разширения екран, под Grid. Двама техници монтират екраните на проекта панел по панел в реален мащаб: панелите на ръка разстояние се носят на ръце, високите – с подемник. Ако проектът има лого, то се вижда на тениските им. Накрая – тестовото изображение на всеки екран. Може да се запише и като MP4 видео в прозореца „Експорт“.",
+        "**3D Stage:** бутоните за изгледи в долния ъгъл отново са подравнени с лентата с инструменти и вече не я закриват."
+      ],
+      "sr": [
+        "**Анимација:** нови приказ „Анимација“ на проширеном екрану, испод Grid. Два техничара монтирају екране пројекта панел по панел у стварној размери: панеле на дохват руке носе у рукама, високе подизном платформом. Ако пројекат има лого, види се на њиховим мајицама. На крају – тест-слика сваког екрана. Може се сачувати и као MP4 видео у прозору „Извоз“.",
+        "**3D Stage:** дугмад приказа у доњем углу поново су поравната са траком алата и више је не прекривају."
+      ],
+      "hr": [
+        "**Animacija:** novi prikaz Animacija na proširenom zaslonu, ispod Grid. Dva tehničara montiraju zaslone projekta panel po panel u stvarnom mjerilu: panele nadohvat ruke nose u rukama, visoke podiznom platformom. Ako projekt ima logotip, vidi se na njihovim majicama. Na kraju testna slika svakog zaslona. Može se spremiti i kao MP4 videozapis u prozoru Izvoz.",
+        "**3D Stage:** gumbi prikaza u donjem kutu ponovno su poravnati s alatnom trakom i više je ne prekrivaju."
+      ],
+      "gu": [
+        "**એનિમેશન:** એક્સટેન્ડેડ સ્ક્રીનમાં Grid નીચે નવો એનિમેશન વ્યૂ. બે ટેકનિશિયન પ્રોજેક્ટની સ્ક્રીન સાચા માપમાં એક-એક પેનલ જોડે છે: હાથ પહોંચે તે પેનલ હાથથી, ઊંચી પેનલ લિફ્ટથી. પ્રોજેક્ટમાં લોગો હોય તો તે તેમના શર્ટ પર દેખાય છે. અંતે દરેક સ્ક્રીનની ટેસ્ટ ઇમેજ. એક્સપોર્ટ વિન્ડોમાં MP4 વિડિયો તરીકે પણ સાચવી શકાય છે.",
+        "**3D Stage:** નીચેના ખૂણાના વ્યૂ બટન ફરી ટૂલબાર સાથે એક લાઇનમાં છે અને હવે તેને ઢાંકતા નથી."
+      ],
+      "pa": [
+        "**ਐਨੀਮੇਸ਼ਨ:** ਐਕਸਟੈਂਡਡ ਸਕ੍ਰੀਨ ਵਿੱਚ Grid ਦੇ ਹੇਠਾਂ ਨਵਾਂ ਐਨੀਮੇਸ਼ਨ ਵਿਊ। ਦੋ ਤਕਨੀਸ਼ੀਅਨ ਪ੍ਰੋਜੈਕਟ ਦੀਆਂ ਸਕ੍ਰੀਨਾਂ ਅਸਲ ਪੈਮਾਨੇ 'ਤੇ ਇੱਕ-ਇੱਕ ਪੈਨਲ ਜੋੜਦੇ ਹਨ: ਪਹੁੰਚ ਵਾਲੇ ਪੈਨਲ ਹੱਥ ਨਾਲ, ਉੱਚੇ ਲਿਫਟ ਨਾਲ। ਜੇ ਪ੍ਰੋਜੈਕਟ ਵਿੱਚ ਲੋਗੋ ਹੈ ਤਾਂ ਉਹ ਉਨ੍ਹਾਂ ਦੀਆਂ ਕਮੀਜ਼ਾਂ 'ਤੇ ਦਿਸਦਾ ਹੈ। ਅੰਤ ਵਿੱਚ ਹਰ ਸਕ੍ਰੀਨ ਦੀ ਟੈਸਟ ਤਸਵੀਰ। ਇਸਨੂੰ ਐਕਸਪੋਰਟ ਵਿੰਡੋ ਵਿੱਚ MP4 ਵੀਡੀਓ ਵਜੋਂ ਵੀ ਸੰਭਾਲਿਆ ਜਾ ਸਕਦਾ ਹੈ।",
+        "**3D Stage:** ਹੇਠਲੇ ਕੋਨੇ ਦੇ ਵਿਊ ਬਟਨ ਫਿਰ ਟੂਲਬਾਰ ਨਾਲ ਇੱਕ ਸੇਧ ਵਿੱਚ ਹਨ ਅਤੇ ਹੁਣ ਉਸਨੂੰ ਨਹੀਂ ਢੱਕਦੇ।"
+      ],
+      "kn": [
+        "**ಅನಿಮೇಷನ್:** ಎಕ್ಸ್‌ಟೆಂಡೆಡ್ ಸ್ಕ್ರೀನ್‌ನಲ್ಲಿ Grid ಕೆಳಗೆ ಹೊಸ ಅನಿಮೇಷನ್ ವೀಕ್ಷಣೆ. ಇಬ್ಬರು ತಂತ್ರಜ್ಞರು ಯೋಜನೆಯ ಪರದೆಗಳನ್ನು ನಿಜವಾದ ಅಳತೆಯಲ್ಲಿ ಒಂದೊಂದೇ ಪ್ಯಾನೆಲ್ ಜೋಡಿಸುತ್ತಾರೆ: ಕೈಗೆಟುಕುವ ಪ್ಯಾನೆಲ್‌ಗಳು ಕೈಯಲ್ಲಿ, ಎತ್ತರದವು ಲಿಫ್ಟ್‌ನಲ್ಲಿ. ಯೋಜನೆಗೆ ಲೋಗೋ ಇದ್ದರೆ ಅದು ಅವರ ಅಂಗಿಗಳ ಮೇಲೆ ಕಾಣುತ್ತದೆ. ಕೊನೆಯಲ್ಲಿ ಪ್ರತಿ ಪರದೆಯ ಪರೀಕ್ಷಾ ಚಿತ್ರ. ರಫ್ತು ವಿಂಡೋದಲ್ಲಿ MP4 ವೀಡಿಯೊ ಆಗಿಯೂ ಉಳಿಸಬಹುದು.",
+        "**3D Stage:** ಕೆಳಗಿನ ಮೂಲೆಯ ವೀಕ್ಷಣೆ ಬಟನ್‌ಗಳು ಮತ್ತೆ ಟೂಲ್‌ಬಾರ್‌ನೊಂದಿಗೆ ಸಾಲಿನಲ್ಲಿವೆ ಮತ್ತು ಇನ್ನು ಅದನ್ನು ಮುಚ್ಚುವುದಿಲ್ಲ."
+      ],
+      "ne": [
+        "**एनिमेसन:** एक्सटेन्डेड स्क्रिनमा Grid मुनि नयाँ एनिमेसन दृश्य। दुई प्राविधिकले परियोजनाका स्क्रिनहरू वास्तविक नापमा एक-एक प्यानल जोड्छन्: पहुँचमा भएका प्यानल हातले, अग्ला लिफ्टले। परियोजनामा लोगो भए त्यो उनीहरूको सर्टमा देखिन्छ। अन्त्यमा हरेक स्क्रिनको परीक्षण चित्र। यसलाई निर्यात सञ्झ्यालमा MP4 भिडियोका रूपमा पनि सुरक्षित गर्न सकिन्छ।",
+        "**3D Stage:** तलको कुनाका दृश्य बटनहरू फेरि टुलबारसँग एउटै रेखामा छन् र अब त्यसलाई छोप्दैनन्।"
+      ],
+      "km": [
+        "**ចលនា:** ទិដ្ឋភាពថ្មី ចលនា នៅលើអេក្រង់បន្ថែម ខាងក្រោម Grid។ អ្នកបច្ចេកទេសពីរនាក់ដំឡើងអេក្រង់របស់គម្រោងម្តងមួយបន្ទះ តាមទំហំពិត៖ បន្ទះដែលឈោងដល់ យកដោយដៃ បន្ទះខ្ពស់ប្រើម៉ាស៊ីនលើក។ បើគម្រោងមានឡូហ្គោ វានឹងបង្ហាញលើអាវរបស់ពួកគេ។ ចុងក្រោយ រូបភាពសាកល្បងនៃអេក្រង់នីមួយៗ។ អាចរក្សាទុកជាវីដេអូ MP4 នៅក្នុងផ្ទាំងនាំចេញផងដែរ។",
+        "**3D Stage:** ប៊ូតុងទិដ្ឋភាពនៅជ្រុងខាងក្រោមតម្រង់ជួរជាមួយរបារឧបករណ៍វិញ ហើយលែងបាំងវាទៀតហើយ។"
+      ],
+      "kk": [
+        "**Анимация:** кеңейтілген экранда Grid астында жаңа «Анимация» көрінісі. Екі техник жобаның экрандарын нақты масштабта панельден панельге құрастырады: қол жететін панельдерді қолмен, биіктерін көтергішпен. Жобада логотип болса, ол олардың футболкаларында көрінеді. Соңында әр экранның сынақ суреті. Оны «Экспорт» терезесінде MP4 бейнесі ретінде де сақтауға болады.",
+        "**3D Stage:** төменгі бұрыштағы көрініс түймелері қайтадан құралдар тақтасымен түзуленді және енді оны жаппайды."
+      ],
+      "uz": [
+        "**Animatsiya:** kengaytirilgan ekranda Grid ostida yangi Animatsiya ko‘rinishi. Ikki texnik loyiha ekranlarini haqiqiy masshtabda panelma-panel yig‘adi: qo‘l yetadigan panellar qo‘lda, balandlari ko‘targich bilan. Loyihada logotip bo‘lsa, u ularning futbolkalarida ko‘rinadi. Oxirida har bir ekranning test tasviri. Uni Eksport oynasida MP4 video sifatida ham saqlash mumkin.",
+        "**3D Stage:** pastki burchakdagi ko‘rinish tugmalari yana asboblar paneli bilan bir chiziqda va endi uni yopmaydi."
+      ],
+      "am": [
+        "**እነማ:** በተዘረጋው ማያ ገጽ ላይ ከGrid በታች አዲስ የእነማ እይታ። ሁለት ቴክኒሻኖች የፕሮጀክቱን ማያ ገጾች በእውነተኛ መጠን ፓነል በፓነል ይገጥማሉ፤ የሚደረሱ ፓነሎች በእጅ፣ ከፍ ያሉት በማንሻ። ፕሮጀክቱ አርማ ካለው በሸሚዛቸው ላይ ይታያል። በመጨረሻ የእያንዳንዱ ማያ ገጽ የሙከራ ምስል። በመላኪያ መስኮት ውስጥ እንደ MP4 ቪዲዮም ማስቀመጥ ይቻላል።",
+        "**3D Stage:** ከታችኛው ጥግ ያሉት የእይታ አዝራሮች እንደገና ከመሳሪያ አሞሌው ጋር ተሰልፈዋል፤ ከአሁን በኋላ አይሸፍኑትም።"
+      ],
+      "sl": [
+        "**Animacija:** nov pogled Animacija na razširjenem zaslonu, pod Grid. Dva tehnika v resničnem merilu ploščo za ploščo sestavita zaslone projekta: plošče na dosegu roke neseta v rokah, visoke z dvižno ploščadjo. Če ima projekt logotip, je viden na njunih majicah. Na koncu testna slika vsakega zaslona. Shranite jo lahko tudi kot video MP4 v oknu Izvozi.",
+        "**3D Stage:** gumbi pogledov v spodnjem kotu so znova poravnani z orodno vrstico in je ne prekrivajo več."
+      ]
+    },
     "2.8.4": {
       "en": [
         "**Adjustments:** in the Connection tab, the Wiring section buttons are aligned again: Clear and Clear all have the same width, one above the other."
@@ -537,362 +775,6 @@
         "**Moč:** povprečna moč (video) in tok faz L1 / L2 / L3 v Status, 3D, Info in PDF poročilu (nov razdelek Moč). Teža od 1.000 kg je prikazana v tonah.",
         "**Razširjeni zaslon in Info:** nov pogled Grid pošlje testno mrežo zavihka Grid na zaslon v živo, s povečavo in premikanjem. Polje Info ima gumb za kopiranje povzetka projekta.",
         "**Prilagoditve:** obvestilo o posodobitvi se pri dolgem seznamu pomika, Odstrani presežek je na sredini, Pomoč > Doniraj pa odpre stran za donacije PayPal."
-      ]
-    },
-    "2.7.5": {
-      "en": [
-        "**Drawing:** cables start plain. Double-click a cable to add as many resolution boxes, splitters and move handles as you want; drag a handle to route the cable. Click a box, splitter or handle and press Delete to remove only it.",
-        "**Text and colors:** new A+, A- and B buttons in the Drawing toolbar change the size and bold of the selected box or text box. DisplayPort and DVI have their own colors.",
-        "**Layout:** the left panel fits a 1080p screen without scrolling; Remove excess and Upload logo buttons; Help > Donate; Import XML opens the Resolume folder.",
-        "**Fixes:** the Connection panel buttons are no longer cut off, and in the Grid tab Alignment now comes right after Transparent."
-      ],
-      "pt": [
-        "**Desenho:** os cabos começam lisos. Dois cliques num cabo põem quantas caixas de resolução, splitters e puxadores você quiser; arraste um puxador para levar o cabo. Clique numa caixa, splitter ou puxador e aperte Delete para tirar só ele.",
-        "**Texto e cores:** novos botões A+, A- e B na barra do Desenho mudam o tamanho e o negrito da caixa ou caixa de texto selecionada. DisplayPort e DVI ganharam cores próprias.",
-        "**Layout:** o painel esquerdo cabe numa tela 1080p sem rolagem; botões Remover sobras e Carregar logo; Ajuda > Doar; o Importar XML abre a pasta do Resolume.",
-        "**Correções:** os botões do painel Conexão não ficam mais cortados, e na aba Grid o Alignment vem logo depois do Transparent."
-      ],
-      "es": [
-        "**Dibujo:** los cables empiezan lisos. Doble clic en un cable para añadir tantas cajas de resolución, splitters y asas como quieras; arrastra un asa para mover el cable. Haz clic en una caja, splitter o asa y pulsa Supr para quitar solo eso.",
-        "**Texto y colores:** nuevos botones A+, A- y B en la barra del Dibujo cambian el tamaño y la negrita del cuadro o cuadro de texto seleccionado. DisplayPort y DVI tienen colores propios.",
-        "**Diseño:** el panel izquierdo cabe en una pantalla 1080p sin desplazarse; botones Quitar sobrante y Subir logo; Ayuda > Donar; Importar XML abre la carpeta de Resolume.",
-        "**Correcciones:** los botones del panel Conexión ya no se cortan, y en la pestaña Grid Alignment va justo después de Transparent."
-      ],
-      "fr": [
-        "**Dessin :** les câbles partent lisses. Double-cliquez sur un câble pour ajouter autant de boîtes de résolution, splitters et poignées que vous voulez ; faites glisser une poignée pour déplacer le câble. Cliquez sur une boîte, un splitter ou une poignée et appuyez sur Suppr pour retirer seulement celui-ci.",
-        "**Texte et couleurs :** nouveaux boutons A+, A- et B dans la barre du Dessin pour la taille et le gras de la boîte ou zone de texte sélectionnée. DisplayPort et DVI ont leurs propres couleurs.",
-        "**Disposition :** le panneau de gauche tient sur un écran 1080p sans défilement ; boutons Retirer le surplus et Charger le logo ; Aide > Faire un don ; Importer XML ouvre le dossier de Resolume.",
-        "**Corrections :** les boutons du panneau Connexion ne sont plus coupés, et dans l'onglet Grid, Alignment vient juste après Transparent."
-      ],
-      "de": [
-        "**Zeichnung:** Kabel beginnen glatt. Doppelklick auf ein Kabel fügt beliebig viele Auflösungsfelder, Splitter und Verschiebegriffe hinzu; einen Griff ziehen, um das Kabel zu führen. Feld, Splitter oder Griff anklicken und Entf drücken entfernt nur dieses.",
-        "**Text und Farben:** neue Schaltflächen A+, A- und B in der Zeichnungsleiste ändern Größe und Fettdruck des gewählten Felds oder Textfelds. DisplayPort und DVI haben eigene Farben.",
-        "**Layout:** das linke Panel passt ohne Scrollen auf einen 1080p-Bildschirm; Schaltflächen Überschuss entfernen und Logo hochladen; Hilfe > Spenden; Import XML öffnet den Resolume-Ordner.",
-        "**Korrekturen:** die Schaltflächen im Verbindungsbereich werden nicht mehr abgeschnitten, und im Grid-Tab steht Alignment direkt nach Transparent."
-      ],
-      "it": [
-        "**Disegno:** i cavi partono lisci. Doppio clic su un cavo per aggiungere quanti riquadri di risoluzione, splitter e maniglie vuoi; trascina una maniglia per spostare il cavo. Clic su riquadro, splitter o maniglia e Canc per togliere solo quello.",
-        "**Testo e colori:** nuovi pulsanti A+, A- e B nella barra del Disegno cambiano dimensione e grassetto del riquadro o casella di testo selezionati. DisplayPort e DVI hanno colori propri.",
-        "**Layout:** il pannello sinistro sta in uno schermo 1080p senza scorrere; pulsanti Rimuovi eccesso e Carica logo; Aiuto > Dona; Importa XML apre la cartella di Resolume.",
-        "**Correzioni:** i pulsanti del pannello Connessione non sono più tagliati e nella scheda Grid Alignment viene subito dopo Transparent."
-      ],
-      "nl": [
-        "**Tekening:** kabels beginnen glad. Dubbelklik op een kabel om zoveel resolutievakken, splitters en verplaatsgrepen toe te voegen als je wilt; sleep een greep om de kabel te leiden. Klik op een vak, splitter of greep en druk op Delete om alleen dat te verwijderen.",
-        "**Tekst en kleuren:** nieuwe knoppen A+, A- en B in de tekenbalk wijzigen grootte en vet van het geselecteerde vak of tekstvak. DisplayPort en DVI hebben eigen kleuren.",
-        "**Indeling:** het linkerpaneel past zonder scrollen op een 1080p-scherm; knoppen Overschot verwijderen en Logo uploaden; Help > Doneren; Import XML opent de Resolume-map.",
-        "**Oplossingen:** de knoppen van het verbindingspaneel worden niet meer afgesneden en op het tabblad Grid staat Alignment direct na Transparent."
-      ],
-      "ru": [
-        "**Схема:** кабели начинаются без вставок. Двойной щелчок по кабелю добавляет сколько угодно полей разрешения, сплиттеров и маркеров перемещения; перетащите маркер, чтобы проложить кабель. Щелчок по полю, сплиттеру или маркеру и Delete удаляют только его.",
-        "**Текст и цвета:** новые кнопки A+, A- и B на панели схемы меняют размер и жирность выбранного блока или текстового поля. У DisplayPort и DVI свои цвета.",
-        "**Интерфейс:** левая панель помещается на экране 1080p без прокрутки; кнопки «Убрать лишнее» и «Загрузить логотип»; Справка > Пожертвовать; Import XML открывает папку Resolume.",
-        "**Исправления:** кнопки панели подключения больше не обрезаются, а на вкладке Grid пункт Alignment стоит сразу после Transparent."
-      ],
-      "tr": [
-        "**Çizim:** kablolar düz başlar. Bir kabloya çift tıklayarak istediğiniz kadar çözünürlük kutusu, splitter ve taşıma tutamacı ekleyin; kabloyu yönlendirmek için tutamacı sürükleyin. Kutu, splitter veya tutamaca tıklayıp Delete'e basmak yalnızca onu siler.",
-        "**Yazı ve renkler:** Çizim çubuğundaki yeni A+, A- ve B düğmeleri seçili kutunun veya metin kutusunun boyutunu ve kalınlığını değiştirir. DisplayPort ve DVI'nin kendi renkleri var.",
-        "**Düzen:** sol panel 1080p ekrana kaydırmadan sığar; Fazlayı kaldır ve Logo yükle düğmeleri; Yardım > Bağış yap; Import XML Resolume klasörünü açar.",
-        "**Düzeltmeler:** Bağlantı panelindeki düğmeler artık kesilmiyor; Grid sekmesinde Alignment, Transparent'ın hemen ardından geliyor."
-      ],
-      "id": [
-        "**Gambar:** kabel dimulai polos. Klik dua kali pada kabel untuk menambah kotak resolusi, splitter, dan pegangan geser sebanyak yang diinginkan; seret pegangan untuk mengarahkan kabel. Klik kotak, splitter, atau pegangan lalu tekan Delete untuk menghapus itu saja.",
-        "**Teks dan warna:** tombol baru A+, A- dan B di bilah Gambar mengubah ukuran dan huruf tebal kotak atau kotak teks yang dipilih. DisplayPort dan DVI punya warna sendiri.",
-        "**Tata letak:** panel kiri muat di layar 1080p tanpa gulir; tombol Hapus kelebihan dan Unggah logo; Bantuan > Donasi; Import XML membuka folder Resolume.",
-        "**Perbaikan:** tombol panel Koneksi tidak lagi terpotong, dan di tab Grid Alignment kini tepat setelah Transparent."
-      ],
-      "hu": [
-        "**Rajz:** a kábelek simán indulnak. Dupla kattintás egy kábelen annyi felbontásmezőt, splittert és mozgató fogantyút ad hozzá, amennyit szeretne; húzza a fogantyút a kábel vezetéséhez. Kattintson egy mezőre, splitterre vagy fogantyúra, és a Delete csak azt törli.",
-        "**Szöveg és színek:** új A+, A- és B gombok a Rajz sávjában a kijelölt doboz vagy szövegdoboz méretét és félkövérségét állítják. A DisplayPort és a DVI saját színt kapott.",
-        "**Elrendezés:** a bal panel görgetés nélkül elfér egy 1080p képernyőn; Többlet eltávolítása és Logó feltöltése gombok; Súgó > Adományozás; az Import XML a Resolume mappáját nyitja meg.",
-        "**Javítások:** a Kapcsolat panel gombjai már nem vágódnak le, és a Grid fülön az Alignment közvetlenül a Transparent után jön."
-      ],
-      "zh-Hans": [
-        "**绘图：** 线缆默认无附加件。双击线缆可添加任意数量的分辨率框、分配器和移动手柄；拖动手柄即可调整线缆走向。单击框、分配器或手柄后按 Delete 只删除它。",
-        "**文字和颜色：** 绘图工具栏新增 A+、A- 和 B 按钮，可调整所选框或文本框的字号和粗体。DisplayPort 和 DVI 有了各自的颜色。",
-        "**布局：** 左侧面板在 1080p 屏幕上无需滚动；新增“移除多余”和“上传标志”按钮；帮助 > 捐赠；导入 XML 会打开 Resolume 文件夹。",
-        "**修复：** 连接面板的按钮不再被截断；Grid 选项卡中 Alignment 现在紧跟在 Transparent 之后。"
-      ],
-      "zh-Hant": [
-        "**繪圖：** 線材預設無附加件。雙擊線材可加入任意數量的解析度框、分配器和移動控點；拖曳控點即可調整線材走向。點選框、分配器或控點後按 Delete 只刪除它。",
-        "**文字和顏色：** 繪圖工具列新增 A+、A- 和 B 按鈕，可調整所選方塊或文字方塊的字級和粗體。DisplayPort 和 DVI 有了各自的顏色。",
-        "**版面：** 左側面板在 1080p 螢幕上不需捲動；新增「移除多餘」和「上傳標誌」按鈕；說明 > 捐款；匯入 XML 會開啟 Resolume 資料夾。",
-        "**修正：** 連接面板的按鈕不再被截斷；Grid 分頁中 Alignment 現在緊接在 Transparent 之後。"
-      ],
-      "ja": [
-        "**図面：** ケーブルは最初は何も付いていません。ケーブルをダブルクリックすると、解像度ボックス、スプリッター、移動ハンドルを好きなだけ追加できます。ハンドルをドラッグしてケーブルを配線します。ボックス、スプリッター、ハンドルをクリックして Delete を押すと、それだけが削除されます。",
-        "**文字と色：** 図面ツールバーの新しい A+、A-、B ボタンで、選択したボックスやテキストボックスの文字サイズと太字を変更できます。DisplayPort と DVI に専用の色が付きました。",
-        "**レイアウト：** 左パネルが 1080p 画面にスクロールなしで収まります。「余分を削除」と「ロゴをアップロード」ボタン、ヘルプ > 寄付、Import XML は Resolume フォルダーを開きます。",
-        "**修正：** 接続パネルのボタンが切れなくなりました。Grid タブでは Alignment が Transparent のすぐ後になりました。"
-      ],
-      "ko": [
-        "**도면:** 케이블은 처음에 아무것도 없이 시작합니다. 케이블을 두 번 클릭하면 해상도 상자, 분배기, 이동 핸들을 원하는 만큼 추가할 수 있고, 핸들을 끌어 케이블 경로를 바꿉니다. 상자, 분배기 또는 핸들을 클릭하고 Delete를 누르면 그것만 지워집니다.",
-        "**글자와 색:** 도면 도구 모음의 새 A+, A-, B 버튼으로 선택한 상자 또는 텍스트 상자의 글자 크기와 굵게를 바꿉니다. DisplayPort와 DVI에 고유 색이 생겼습니다.",
-        "**레이아웃:** 왼쪽 패널이 1080p 화면에 스크롤 없이 들어갑니다. 여분 제거와 로고 업로드 버튼, 도움말 > 후원하기, Import XML은 Resolume 폴더를 엽니다.",
-        "**수정:** 연결 패널 버튼이 더 이상 잘리지 않으며, Grid 탭에서 Alignment가 Transparent 바로 뒤에 옵니다."
-      ],
-      "ar": [
-        "**الرسم:** تبدأ الكابلات بلا إضافات. انقر نقرًا مزدوجًا على كابل لإضافة ما تشاء من مربعات الدقة والموزعات ومقابض التحريك؛ اسحب المقبض لتوجيه الكابل. انقر على مربع أو موزع أو مقبض واضغط Delete لحذفه وحده.",
-        "**النص والألوان:** أزرار جديدة A+ وA- وB في شريط الرسم تغيّر حجم وسُمك خط المربع أو مربع النص المحدد. أصبح لـ DisplayPort وDVI ألوان خاصة.",
-        "**التخطيط:** اللوحة اليسرى تتسع لشاشة 1080p دون تمرير؛ زرّا إزالة الزائد ورفع الشعار؛ تعليمات > تبرّع؛ استيراد XML يفتح مجلد Resolume.",
-        "**إصلاحات:** لم تعد أزرار لوحة الاتصال مقطوعة، وفي تبويب Grid أصبح Alignment بعد Transparent مباشرة."
-      ],
-      "th": [
-        "**แผนผัง:** สายเริ่มต้นแบบเรียบ ดับเบิลคลิกที่สายเพื่อเพิ่มกล่องความละเอียด สปลิตเตอร์ และจุดจับย้ายได้มากเท่าที่ต้องการ ลากจุดจับเพื่อเดินสาย คลิกกล่อง สปลิตเตอร์ หรือจุดจับ แล้วกด Delete เพื่อลบเฉพาะชิ้นนั้น",
-        "**ข้อความและสี:** ปุ่มใหม่ A+, A- และ B ในแถบแผนผังเปลี่ยนขนาดและตัวหนาของกล่องหรือกล่องข้อความที่เลือก DisplayPort และ DVI มีสีของตัวเอง",
-        "**เลย์เอาต์:** แผงซ้ายพอดีกับจอ 1080p โดยไม่ต้องเลื่อน ปุ่มลบส่วนเกินและอัปโหลดโลโก้ วิธีใช้ > บริจาค และ Import XML เปิดโฟลเดอร์ Resolume",
-        "**แก้ไข:** ปุ่มในแผงการเชื่อมต่อไม่ถูกตัดอีกต่อไป และในแท็บ Grid ตอนนี้ Alignment อยู่ถัดจาก Transparent"
-      ],
-      "hi": [
-        "**ड्रॉइंग:** केबल सादे शुरू होते हैं। केबल पर डबल-क्लिक करके जितने चाहें रिज़ॉल्यूशन बॉक्स, स्प्लिटर और मूव हैंडल जोड़ें; केबल का रास्ता बदलने के लिए हैंडल खींचें। बॉक्स, स्प्लिटर या हैंडल पर क्लिक करके Delete दबाने से सिर्फ़ वही हटता है।",
-        "**टेक्स्ट और रंग:** ड्रॉइंग टूलबार के नए A+, A- और B बटन चुने गए बॉक्स या टेक्स्ट बॉक्स का आकार और बोल्ड बदलते हैं। DisplayPort और DVI के अपने रंग हैं।",
-        "**लेआउट:** बायाँ पैनल 1080p स्क्रीन पर बिना स्क्रॉल के आ जाता है; अतिरिक्त हटाएँ और लोगो अपलोड बटन; सहायता > दान करें; Import XML Resolume फ़ोल्डर खोलता है।",
-        "**सुधार:** कनेक्शन पैनल के बटन अब कटते नहीं हैं, और Grid टैब में Alignment अब Transparent के ठीक बाद आता है।"
-      ],
-      "vi": [
-        "**Bản vẽ:** cáp bắt đầu trơn. Nhấp đúp vào cáp để thêm bao nhiêu hộp độ phân giải, bộ chia và tay nắm di chuyển tùy ý; kéo tay nắm để đi cáp. Nhấp vào hộp, bộ chia hoặc tay nắm rồi nhấn Delete để chỉ xóa nó.",
-        "**Chữ và màu:** nút mới A+, A- và B trên thanh Bản vẽ đổi cỡ chữ và in đậm của hộp hoặc hộp văn bản đã chọn. DisplayPort và DVI có màu riêng.",
-        "**Bố cục:** bảng bên trái vừa màn hình 1080p không cần cuộn; nút Xóa phần thừa và Tải logo lên; Trợ giúp > Quyên góp; Import XML mở thư mục Resolume.",
-        "**Sửa lỗi:** các nút của bảng Kết nối không còn bị cắt, và trong thẻ Grid, Alignment giờ nằm ngay sau Transparent."
-      ],
-      "bn": [
-        "**ড্রয়িং:** কেবল শুরুতে খালি থাকে। কেবলে ডাবল-ক্লিক করে যত খুশি রেজোলিউশন বক্স, স্প্লিটার আর সরানোর হ্যান্ডেল যোগ করুন; কেবলের পথ বদলাতে হ্যান্ডেল টানুন। বক্স, স্প্লিটার বা হ্যান্ডেলে ক্লিক করে Delete চাপলে শুধু সেটাই মুছে যায়।",
-        "**লেখা ও রং:** ড্রয়িং টুলবারের নতুন A+, A- ও B বোতাম নির্বাচিত বক্স বা টেক্সট বক্সের আকার ও বোল্ড বদলায়। DisplayPort ও DVI-এর নিজস্ব রং আছে।",
-        "**লেআউট:** বাঁ প্যানেল 1080p স্ক্রিনে স্ক্রল ছাড়াই আঁটে; অতিরিক্ত সরান ও লোগো আপলোড বোতাম; সহায়তা > দান করুন; Import XML Resolume ফোল্ডার খোলে।",
-        "**সংশোধন:** সংযোগ প্যানেলের বোতাম আর কাটা পড়ে না, আর Grid ট্যাবে Alignment এখন Transparent-এর ঠিক পরে।"
-      ],
-      "ms": [
-        "**Lukisan:** kabel bermula kosong. Klik dua kali pada kabel untuk menambah seberapa banyak kotak resolusi, splitter dan pemegang alih yang anda mahu; seret pemegang untuk mengatur kabel. Klik kotak, splitter atau pemegang dan tekan Delete untuk membuang itu sahaja.",
-        "**Teks dan warna:** butang baharu A+, A- dan B dalam bar Lukisan menukar saiz dan huruf tebal kotak atau kotak teks yang dipilih. DisplayPort dan DVI ada warna sendiri.",
-        "**Susun atur:** panel kiri muat pada skrin 1080p tanpa menatal; butang Buang lebihan dan Muat naik logo; Bantuan > Derma; Import XML membuka folder Resolume.",
-        "**Pembetulan:** butang panel Sambungan tidak lagi terpotong, dan dalam tab Grid Alignment kini terus selepas Transparent."
-      ],
-      "sv": [
-        "**Ritning:** kablar börjar släta. Dubbelklicka på en kabel för att lägga till så många upplösningsrutor, splitters och flytthandtag du vill; dra ett handtag för att dra om kabeln. Klicka på en ruta, splitter eller ett handtag och tryck Delete för att bara ta bort det.",
-        "**Text och färger:** nya knappar A+, A- och B i ritningsfältet ändrar storlek och fetstil för den markerade rutan eller textrutan. DisplayPort och DVI har egna färger.",
-        "**Layout:** vänsterpanelen ryms på en 1080p-skärm utan rullning; knapparna Ta bort överskott och Ladda upp logotyp; Hjälp > Donera; Import XML öppnar Resolume-mappen.",
-        "**Rättelser:** knapparna i anslutningspanelen kapas inte längre, och på fliken Grid kommer Alignment direkt efter Transparent."
-      ],
-      "ur": [
-        "**ڈرائنگ:** کیبل شروع میں سادہ ہوتے ہیں۔ کیبل پر ڈبل کلک کر کے جتنے چاہیں ریزولوشن باکس، اسپلٹر اور منتقلی ہینڈل شامل کریں؛ کیبل کا راستہ بدلنے کے لیے ہینڈل گھسیٹیں۔ باکس، اسپلٹر یا ہینڈل پر کلک کر کے Delete دبانے سے صرف وہی ہٹتا ہے۔",
-        "**متن اور رنگ:** ڈرائنگ ٹول بار کے نئے A+، A- اور B بٹن منتخب باکس یا ٹیکسٹ باکس کا سائز اور بولڈ بدلتے ہیں۔ DisplayPort اور DVI کے اپنے رنگ ہیں۔",
-        "**لے آؤٹ:** بایاں پینل 1080p اسکرین پر بغیر اسکرول کے سما جاتا ہے؛ اضافی ہٹائیں اور لوگو اپ لوڈ بٹن؛ مدد > عطیہ کریں؛ Import XML ریزولوم فولڈر کھولتا ہے۔",
-        "**درستیاں:** کنکشن پینل کے بٹن اب کٹتے نہیں، اور Grid ٹیب میں Alignment اب Transparent کے فوراً بعد آتا ہے۔"
-      ],
-      "sw": [
-        "**Mchoro:** kebo zinaanza bila kitu. Bofya mara mbili kebo ili kuongeza visanduku vya azimio, vigawanyaji na vishikio vya kusogeza kadiri unavyotaka; buruta kishikio kuelekeza kebo. Bofya kisanduku, kigawanyaji au kishikio na ubonyeze Delete kuondoa hicho tu.",
-        "**Maandishi na rangi:** vitufe vipya A+, A- na B kwenye upau wa Mchoro hubadilisha ukubwa na herufi nzito za kisanduku au kisanduku cha maandishi kilichochaguliwa. DisplayPort na DVI zina rangi zao.",
-        "**Mpangilio:** paneli ya kushoto inatosha skrini ya 1080p bila kusogeza; vitufe Ondoa ziada na Pakia nembo; Msaada > Changia; Import XML hufungua folda ya Resolume.",
-        "**Marekebisho:** vitufe vya paneli ya Muunganisho havikatiki tena, na kwenye kichupo cha Grid Alignment sasa inafuata Transparent."
-      ],
-      "gn": [
-        "**Ta'ãnga:** cable-kuéra oñepyrũ hesakã. Ejapo mokõi click peteĩ cable-pe emoĩ hag̃ua resolución ryru, splitter ha jepokóha mongu'e hag̃ua ndegustaháicha; egueraha jepokóha emongu'e hag̃ua cable. Ejapo click ryru, splitter térã jepokóhare ha ejopy Delete embogue hag̃ua upévante.",
-        "**Haipy ha sa'y:** votõ pyahu A+, A- ha B Ta'ãnga rembiapópe omoambue tuichakue ha haipy hũ ryru térã haipy ryru ojeporavóvape. DisplayPort ha DVI oguereko isa'y tee.",
-        "**Ñemoĩ:** panel asu ohupyty pantalla 1080p ndojeguerovái'ỹre; votõ Embogue hembýva ha Ehupi logo; Pytyvõ > Eme'ẽ pytyvõ; Import XML oipe'a Resolume ryru.",
-        "**Ñemyatyrõ:** votõ panel Conexión-pegua ndoñekytĩvéima, ha Grid-pe Alignment oĩma Transparent rire voi."
-      ],
-      "he": [
-        "**שרטוט:** הכבלים מתחילים חלקים. לחיצה כפולה על כבל מוסיפה כמה תיבות רזולוציה, מפצלים וידיות הזזה שתרצו; גררו ידית כדי לנתב את הכבל. לחצו על תיבה, מפצל או ידית והקישו Delete כדי למחוק רק אותם.",
-        "**טקסט וצבעים:** כפתורים חדשים A+‏, A- ו-B בסרגל השרטוט משנים גודל והדגשה של התיבה או תיבת הטקסט שנבחרה. ל-DisplayPort ול-DVI צבעים משלהם.",
-        "**פריסה:** הלוח השמאלי נכנס במסך 1080p בלי גלילה; כפתורי הסרת עודף והעלאת לוגו; עזרה > תרומה; ייבוא XML פותח את תיקיית Resolume.",
-        "**תיקונים:** כפתורי לוח החיבור כבר לא נחתכים, ובכרטיסייה Grid‏ Alignment מופיע מיד אחרי Transparent."
-      ],
-      "lv": [
-        "**Zīmējums:** kabeļi sākas tukši. Veiciet dubultklikšķi uz kabeļa, lai pievienotu tik daudz izšķirtspējas lodziņu, sadalītāju un pārvietošanas rokturu, cik vēlaties; velciet rokturi, lai virzītu kabeli. Noklikšķiniet uz lodziņa, sadalītāja vai roktura un nospiediet Delete, lai noņemtu tikai to.",
-        "**Teksts un krāsas:** jaunās pogas A+, A- un B zīmējuma joslā maina atlasītā lodziņa vai teksta lodziņa izmēru un treknrakstu. DisplayPort un DVI ir savas krāsas.",
-        "**Izkārtojums:** kreisais panelis ietilpst 1080p ekrānā bez ritināšanas; pogas Noņemt lieko un Augšupielādēt logotipu; Palīdzība > Ziedot; Import XML atver Resolume mapi.",
-        "**Labojumi:** savienojuma paneļa pogas vairs netiek nogrieztas, un cilnē Grid Alignment tagad ir uzreiz aiz Transparent."
-      ],
-      "fa": [
-        "**نقشه:** کابل‌ها ساده شروع می‌شوند. با دوبار کلیک روی کابل هر تعداد کادر رزولوشن، اسپلیتر و دستگیره جابه‌جایی که بخواهید اضافه کنید؛ دستگیره را بکشید تا مسیر کابل عوض شود. روی کادر، اسپلیتر یا دستگیره کلیک کنید و Delete را بزنید تا فقط همان حذف شود.",
-        "**متن و رنگ‌ها:** دکمه‌های جدید A+‎، A- و B در نوار نقشه اندازه و پررنگی کادر یا کادر متن انتخاب‌شده را تغییر می‌دهند. DisplayPort و DVI رنگ‌های خود را دارند.",
-        "**چیدمان:** پنل چپ بدون پیمایش در صفحه 1080p جا می‌شود؛ دکمه‌های حذف اضافی و بارگذاری لوگو؛ راهنما > کمک مالی؛ Import XML پوشه Resolume را باز می‌کند.",
-        "**اصلاحات:** دکمه‌های پنل اتصال دیگر بریده نمی‌شوند و در زبانه Grid گزینه Alignment حالا درست بعد از Transparent است."
-      ],
-      "pl": [
-        "**Rysunek:** kable zaczynają się gładkie. Kliknij dwukrotnie kabel, aby dodać dowolną liczbę pól rozdzielczości, splitterów i uchwytów przesuwania; przeciągnij uchwyt, aby poprowadzić kabel. Kliknij pole, splitter lub uchwyt i naciśnij Delete, aby usunąć tylko je.",
-        "**Tekst i kolory:** nowe przyciski A+, A- i B na pasku rysunku zmieniają rozmiar i pogrubienie zaznaczonego pola lub pola tekstowego. DisplayPort i DVI mają własne kolory.",
-        "**Układ:** lewy panel mieści się na ekranie 1080p bez przewijania; przyciski Usuń nadmiar i Prześlij logo; Pomoc > Wesprzyj; Import XML otwiera folder Resolume.",
-        "**Poprawki:** przyciski panelu Połączenie nie są już ucinane, a na karcie Grid Alignment jest zaraz po Transparent."
-      ],
-      "uk": [
-        "**Схема:** кабелі починаються без вставок. Подвійне клацання по кабелю додає скільки завгодно полів роздільної здатності, сплітерів і маркерів переміщення; перетягніть маркер, щоб прокласти кабель. Клацніть поле, сплітер чи маркер і натисніть Delete, щоб видалити лише його.",
-        "**Текст і кольори:** нові кнопки A+, A- і B на панелі схеми змінюють розмір і жирність вибраного блока чи текстового поля. DisplayPort і DVI мають власні кольори.",
-        "**Інтерфейс:** ліва панель вміщується на екрані 1080p без прокручування; кнопки «Прибрати зайве» і «Завантажити логотип»; Довідка > Пожертвувати; Import XML відкриває папку Resolume.",
-        "**Виправлення:** кнопки панелі підключення більше не обрізаються, а на вкладці Grid пункт Alignment стоїть одразу після Transparent."
-      ],
-      "ca": [
-        "**Dibuix:** els cables comencen llisos. Feu doble clic en un cable per afegir tants quadres de resolució, splitters i anses com vulgueu; arrossegueu una ansa per guiar el cable. Feu clic en un quadre, splitter o ansa i premeu Supr per treure només això.",
-        "**Text i colors:** nous botons A+, A- i B a la barra del Dibuix canvien la mida i la negreta del quadre o quadre de text seleccionat. DisplayPort i DVI tenen colors propis.",
-        "**Disposició:** el tauler esquerre cap en una pantalla 1080p sense desplaçar-se; botons Treu l'excés i Puja el logotip; Ajuda > Fes un donatiu; Import XML obre la carpeta de Resolume.",
-        "**Correccions:** els botons del tauler Connexió ja no es tallen, i a la pestanya Grid Alignment va just després de Transparent."
-      ],
-      "cs": [
-        "**Výkres:** kabely začínají hladké. Dvojklikem na kabel přidáte libovolný počet polí rozlišení, splitterů a úchytů pro přesun; tažením úchytu vedete kabel. Klikněte na pole, splitter nebo úchyt a stiskněte Delete, smaže se jen to.",
-        "**Text a barvy:** nová tlačítka A+, A- a B na liště výkresu mění velikost a tučnost vybraného pole nebo textového pole. DisplayPort a DVI mají vlastní barvy.",
-        "**Rozvržení:** levý panel se vejde na obrazovku 1080p bez posouvání; tlačítka Odebrat přebytek a Nahrát logo; Nápověda > Přispět; Import XML otevře složku Resolume.",
-        "**Opravy:** tlačítka panelu Připojení už nejsou useknutá a na kartě Grid je Alignment hned za Transparent."
-      ],
-      "fi": [
-        "**Piirros:** kaapelit alkavat sileinä. Kaksoisnapsauta kaapelia lisätäksesi niin monta resoluutioruutua, jakajaa ja siirtokahvaa kuin haluat; vedä kahvaa ohjataksesi kaapelia. Napsauta ruutua, jakajaa tai kahvaa ja paina Delete poistaaksesi vain sen.",
-        "**Teksti ja värit:** piirroksen työkalurivin uudet A+-, A-- ja B-painikkeet muuttavat valitun ruudun tai tekstiruudun kokoa ja lihavointia. DisplayPortilla ja DVI:llä on omat värit.",
-        "**Asettelu:** vasen paneeli mahtuu 1080p-näytölle ilman vieritystä; painikkeet Poista ylimäärä ja Lataa logo; Ohje > Lahjoita; Import XML avaa Resolume-kansion.",
-        "**Korjaukset:** Yhteys-paneelin painikkeet eivät enää leikkaudu, ja Grid-välilehdellä Alignment tulee heti Transparentin jälkeen."
-      ],
-      "el": [
-        "**Σχέδιο:** τα καλώδια ξεκινούν απλά. Διπλό κλικ σε καλώδιο προσθέτει όσα πλαίσια ανάλυσης, διαχωριστές και λαβές μετακίνησης θέλετε· σύρετε μια λαβή για να οδηγήσετε το καλώδιο. Κλικ σε πλαίσιο, διαχωριστή ή λαβή και Delete αφαιρεί μόνο αυτό.",
-        "**Κείμενο και χρώματα:** νέα κουμπιά A+, A- και B στη γραμμή του σχεδίου αλλάζουν μέγεθος και έντονα του επιλεγμένου πλαισίου ή πλαισίου κειμένου. Τα DisplayPort και DVI έχουν δικά τους χρώματα.",
-        "**Διάταξη:** ο αριστερός πίνακας χωράει σε οθόνη 1080p χωρίς κύλιση· κουμπιά Αφαίρεση περίσσειας και Μεταφόρτωση λογότυπου· Βοήθεια > Δωρεά· το Import XML ανοίγει τον φάκελο του Resolume.",
-        "**Διορθώσεις:** τα κουμπιά του πίνακα Σύνδεσης δεν κόβονται πια, και στην καρτέλα Grid το Alignment έρχεται αμέσως μετά το Transparent."
-      ],
-      "ha": [
-        "**Zane:** kebul suna farawa a fili. Danna kebul sau biyu don ƙara akwatunan ƙuduri, splitter da maƙallan motsawa yadda kake so; ja maƙalli don jagorantar kebul. Danna akwati, splitter ko maƙalli ka danna Delete don cire shi kaɗai.",
-        "**Rubutu da launuka:** sababbin maɓallai A+, A- da B a sandar Zane suna canza girma da kaurin rubutun akwatin ko akwatin rubutu da aka zaɓa. DisplayPort da DVI suna da launukansu.",
-        "**Tsari:** faifan hagu ya isa allon 1080p ba tare da gungurawa ba; maɓallan Cire ragowar da Loda tambari; Taimako > Ba da gudummawa; Import XML yana buɗe babban fayil na Resolume.",
-        "**Gyare-gyare:** maɓallan faifan Haɗi ba sa yankewa yanzu, kuma a shafin Grid Alignment yana zuwa nan da nan bayan Transparent."
-      ],
-      "ro": [
-        "**Desen:** cablurile pornesc simple. Dublu clic pe un cablu adaugă oricâte casete de rezoluție, splittere și mânere de mutare doriți; trageți un mâner pentru a ghida cablul. Clic pe casetă, splitter sau mâner și Delete elimină doar acel element.",
-        "**Text și culori:** butoanele noi A+, A- și B din bara Desenului schimbă mărimea și aldinul casetei sau casetei de text selectate. DisplayPort și DVI au culori proprii.",
-        "**Aspect:** panoul din stânga încape pe un ecran 1080p fără derulare; butoanele Elimină surplusul și Încarcă logo; Ajutor > Donează; Import XML deschide folderul Resolume.",
-        "**Corecturi:** butoanele panoului Conexiune nu mai sunt tăiate, iar în fila Grid Alignment vine imediat după Transparent."
-      ],
-      "yo": [
-        "**Àwòrán:** àwọn kébù bẹ̀rẹ̀ láìní nǹkan. Tẹ kébù lẹ́ẹ̀mejì láti fi àpótí ìpinnu, splitter àti ìdìmú ìgbésẹ̀ kún bí o ṣe fẹ́; fa ìdìmú láti darí kébù. Tẹ àpótí, splitter tàbí ìdìmú kí o tẹ Delete láti yọ ọ̀kan yẹn nìkan.",
-        "**Ọ̀rọ̀ àti àwọ̀:** àwọn bọ́tìnnì tuntun A+, A- àti B nínú ọ̀pá Àwòrán ń yí ìtóbi àti ọ̀rọ̀ dúdú àpótí tàbí àpótí ọ̀rọ̀ tí a yàn padà. DisplayPort àti DVI ní àwọ̀ tiwọn.",
-        "**Ìṣètò:** pánẹ́ẹ̀lì òsì bá ojú-ìbojú 1080p mu láìsí yíyí; bọ́tìnnì Yọ àṣẹ́kù àti Gbé àmì sókè; Ìrànlọ́wọ́ > Ṣe ìtọrẹ; Import XML ń ṣí fódà Resolume.",
-        "**Àtúnṣe:** àwọn bọ́tìnnì pánẹ́ẹ̀lì Ìsopọ̀ kò gé mọ́, àti nínú táàbù Grid, Alignment ti wá tẹ̀lé Transparent tààrà."
-      ],
-      "zu": [
-        "**Umdwebo:** amakhebula aqala engenalutho. Chofoza kabili ikhebula ukuze wengeze amabhokisi okucaca, ama-splitter nezibambo zokuhambisa ngendlela ofuna ngayo; hudula isibambo ukuze uqondise ikhebula. Chofoza ibhokisi, i-splitter noma isibambo bese ucindezela u-Delete ukuze ususe lokho kuphela.",
-        "**Umbhalo nemibala:** izinkinobho ezintsha u-A+, A- no-B ebhawa yoMdwebo zishintsha usayizi nokugqama kwebhokisi noma ibhokisi lombhalo elikhethiwe. I-DisplayPort ne-DVI zinemibala yazo.",
-        "**Isakhiwo:** iphaneli yesobunxele ilingana nesikrini se-1080p ngaphandle kokuskrola; izinkinobho Susa okweqile nokuthi Layisha ilogo; Usizo > Nikela; i-Import XML ivula ifolda ye-Resolume.",
-        "**Ukulungiswa:** izinkinobho zephaneli yoXhumano azisanqamuki, futhi kuthebhu ye-Grid i-Alignment manje iza ngemuva kwe-Transparent."
-      ],
-      "fil": [
-        "**Drawing:** plain ang simula ng mga cable. I-double-click ang cable para magdagdag ng kahit ilang resolution box, splitter at move handle; i-drag ang handle para ilipat ang daan ng cable. I-click ang box, splitter o handle at pindutin ang Delete para alisin iyon lang.",
-        "**Teksto at kulay:** binabago ng bagong A+, A- at B na button sa toolbar ng Drawing ang laki at bold ng napiling kahon o text box. May sariling kulay na ang DisplayPort at DVI.",
-        "**Layout:** kasya ang kaliwang panel sa 1080p na screen nang walang scroll; mga button na Alisin ang sobra at Mag-upload ng logo; Help > Mag-donate; binubuksan ng Import XML ang folder ng Resolume.",
-        "**Mga ayos:** hindi na naputol ang mga button ng Connection panel, at sa tab na Grid ay sumusunod na ang Alignment sa Transparent."
-      ],
-      "ta": [
-        "**வரைபடம்:** கேபிள்கள் வெறுமையாகத் தொடங்கும். கேபிளில் இருமுறை கிளிக் செய்து தேவையான அளவு தெளிவுத்திறன் பெட்டிகள், ஸ்ப்ளிட்டர்கள், நகர்த்தும் கைப்பிடிகளைச் சேர்க்கலாம்; கேபிளை வழிநடத்த கைப்பிடியை இழுக்கவும். பெட்டி, ஸ்ப்ளிட்டர் அல்லது கைப்பிடியைக் கிளிக் செய்து Delete அழுத்தினால் அது மட்டும் நீங்கும்.",
-        "**எழுத்தும் நிறமும்:** வரைபடக் கருவிப்பட்டியின் புதிய A+, A-, B பொத்தான்கள் தேர்ந்தெடுத்த பெட்டி அல்லது உரைப் பெட்டியின் அளவையும் தடிப்பையும் மாற்றும். DisplayPort, DVI-க்கு தனி நிறங்கள்.",
-        "**அமைப்பு:** இடது பலகம் 1080p திரையில் உருட்டாமல் பொருந்தும்; மிகுதியை அகற்று, லோகோ பதிவேற்று பொத்தான்கள்; உதவி > நன்கொடை; Import XML Resolume கோப்புறையைத் திறக்கும்.",
-        "**திருத்தங்கள்:** இணைப்புப் பலகப் பொத்தான்கள் இனி வெட்டப்படாது; Grid தாவலில் Alignment இப்போது Transparent-க்கு உடனே பின் வரும்."
-      ],
-      "te": [
-        "**డ్రాయింగ్:** కేబుల్స్ ఖాళీగా మొదలవుతాయి. కేబుల్‌పై డబుల్-క్లిక్ చేసి కావలసినన్ని రిజల్యూషన్ బాక్స్‌లు, స్ప్లిటర్లు, కదిలించే హ్యాండిల్స్ జోడించండి; కేబుల్ దారి మార్చడానికి హ్యాండిల్‌ను లాగండి. బాక్స్, స్ప్లిటర్ లేదా హ్యాండిల్‌పై క్లిక్ చేసి Delete నొక్కితే అదొక్కటే తొలగుతుంది.",
-        "**అక్షరాలు, రంగులు:** డ్రాయింగ్ టూల్‌బార్‌లోని కొత్త A+, A-, B బటన్లు ఎంచుకున్న బాక్స్ లేదా టెక్స్ట్ బాక్స్ పరిమాణం, బోల్డ్‌ను మారుస్తాయి. DisplayPort, DVIలకు సొంత రంగులు.",
-        "**లేఅవుట్:** ఎడమ ప్యానెల్ 1080p స్క్రీన్‌లో స్క్రోల్ లేకుండా పడుతుంది; అదనపు భాగం తీసివేయి, లోగో అప్‌లోడ్ బటన్లు; సహాయం > విరాళం; Import XML Resolume ఫోల్డర్‌ను తెరుస్తుంది.",
-        "**సవరణలు:** కనెక్షన్ ప్యానెల్ బటన్లు ఇక కత్తిరించబడవు, Grid ట్యాబ్‌లో Alignment ఇప్పుడు Transparent తర్వాతే వస్తుంది."
-      ],
-      "mr": [
-        "**ड्रॉइंग:** केबल साध्या सुरू होतात. केबलवर डबल-क्लिक करून हवे तितके रिझोल्यूशन बॉक्स, स्प्लिटर आणि हलवण्याचे हँडल जोडा; केबलचा मार्ग बदलण्यासाठी हँडल ओढा. बॉक्स, स्प्लिटर किंवा हँडलवर क्लिक करून Delete दाबल्यास फक्त तेच काढले जाते.",
-        "**मजकूर आणि रंग:** ड्रॉइंग टूलबारमधील नवीन A+, A- आणि B बटणे निवडलेल्या बॉक्स किंवा मजकूर बॉक्सचा आकार आणि ठळकपणा बदलतात. DisplayPort आणि DVI ला स्वतःचे रंग आहेत.",
-        "**मांडणी:** डावा पॅनेल 1080p स्क्रीनवर स्क्रोलशिवाय बसतो; अतिरिक्त काढा आणि लोगो अपलोड बटणे; मदत > देणगी द्या; Import XML Resolume फोल्डर उघडते.",
-        "**दुरुस्त्या:** कनेक्शन पॅनेलची बटणे आता कापली जात नाहीत, आणि Grid टॅबमध्ये Alignment आता Transparent नंतर लगेच येते."
-      ],
-      "da": [
-        "**Tegning:** kabler starter glatte. Dobbeltklik på et kabel for at tilføje så mange opløsningsfelter, splittere og flyttehåndtag, du vil; træk et håndtag for at føre kablet. Klik på et felt, en splitter eller et håndtag og tryk Delete for kun at fjerne det.",
-        "**Tekst og farver:** nye knapper A+, A- og B i tegnelinjen ændrer størrelse og fed for det markerede felt eller tekstfelt. DisplayPort og DVI har egne farver.",
-        "**Layout:** venstre panel passer til en 1080p-skærm uden rulning; knapperne Fjern overskud og Upload logo; Hjælp > Donér; Import XML åbner Resolume-mappen.",
-        "**Rettelser:** knapperne i forbindelsespanelet bliver ikke længere skåret af, og på fanen Grid kommer Alignment lige efter Transparent."
-      ],
-      "nb": [
-        "**Tegning:** kabler starter glatte. Dobbeltklikk på en kabel for å legge til så mange oppløsningsbokser, splittere og flyttehåndtak du vil; dra et håndtak for å føre kabelen. Klikk på en boks, splitter eller et håndtak og trykk Delete for å fjerne bare det.",
-        "**Tekst og farger:** nye knapper A+, A- og B i tegnelinjen endrer størrelse og fet skrift for den valgte boksen eller tekstboksen. DisplayPort og DVI har egne farger.",
-        "**Oppsett:** venstre panel får plass på en 1080p-skjerm uten rulling; knappene Fjern overskudd og Last opp logo; Hjelp > Doner; Import XML åpner Resolume-mappen.",
-        "**Rettelser:** knappene i tilkoblingspanelet blir ikke lenger kuttet, og i Grid-fanen kommer Alignment rett etter Transparent."
-      ],
-      "lt": [
-        "**Brėžinys:** kabeliai prasideda tušti. Dukart spustelėkite kabelį, kad pridėtumėte kiek norite raiškos langelių, skirstytuvų ir perkėlimo rankenėlių; vilkite rankenėlę, kad nukreiptumėte kabelį. Spustelėkite langelį, skirstytuvą ar rankenėlę ir paspauskite Delete, kad pašalintumėte tik jį.",
-        "**Tekstas ir spalvos:** nauji mygtukai A+, A- ir B brėžinio juostoje keičia pasirinkto langelio ar teksto langelio dydį ir paryškinimą. DisplayPort ir DVI turi savo spalvas.",
-        "**Išdėstymas:** kairysis skydelis telpa 1080p ekrane be slinkimo; mygtukai Pašalinti perteklių ir Įkelti logotipą; Pagalba > Paaukoti; Import XML atveria Resolume aplanką.",
-        "**Pataisymai:** ryšio skydelio mygtukai nebėra nukerpami, o skirtuke Grid Alignment dabar eina iškart po Transparent."
-      ],
-      "et": [
-        "**Joonis:** kaablid algavad tühjana. Topeltklõpsake kaablit, et lisada nii palju eraldusvõime kaste, jaotureid ja liigutamise pidemeid kui soovite; lohistage pidet kaabli suunamiseks. Klõpsake kasti, jaoturit või pidet ja vajutage Delete, et eemaldada ainult see.",
-        "**Tekst ja värvid:** joonise tööriistariba uued nupud A+, A- ja B muudavad valitud kasti või tekstikasti suurust ja paksust. DisplayPortil ja DVI-l on oma värvid.",
-        "**Paigutus:** vasak paneel mahub 1080p ekraanile ilma kerimiseta; nupud Eemalda liig ja Laadi logo üles; Abi > Anneta; Import XML avab Resolume'i kausta.",
-        "**Parandused:** ühenduse paneeli nupud ei lõigu enam ära ja Grid vahekaardil on Alignment kohe Transparenti järel."
-      ],
-      "sk": [
-        "**Výkres:** káble začínajú hladké. Dvojklikom na kábel pridáte ľubovoľný počet polí rozlíšenia, splitterov a úchytov na presun; ťahaním úchytu vediete kábel. Kliknite na pole, splitter alebo úchyt a stlačte Delete, odstráni sa len to.",
-        "**Text a farby:** nové tlačidlá A+, A- a B na lište výkresu menia veľkosť a tučnosť vybraného poľa alebo textového poľa. DisplayPort a DVI majú vlastné farby.",
-        "**Rozloženie:** ľavý panel sa zmestí na obrazovku 1080p bez posúvania; tlačidlá Odstrániť prebytok a Nahrať logo; Pomocník > Prispieť; Import XML otvorí priečinok Resolume.",
-        "**Opravy:** tlačidlá panela Pripojenie už nie sú odrezané a na karte Grid je Alignment hneď za Transparent."
-      ],
-      "bg": [
-        "**Чертеж:** кабелите започват гладки. Двоен клик върху кабел добавя колкото искате полета за резолюция, сплитери и манипулатори за преместване; плъзнете манипулатор, за да прекарате кабела. Кликнете поле, сплитер или манипулатор и натиснете Delete, за да премахнете само него.",
-        "**Текст и цветове:** новите бутони A+, A- и B в лентата на чертежа променят размера и удебеляването на избраното поле или текстово поле. DisplayPort и DVI имат свои цветове.",
-        "**Оформление:** левият панел се побира на екран 1080p без превъртане; бутони Премахни излишъка и Качи лого; Помощ > Дарете; Import XML отваря папката на Resolume.",
-        "**Поправки:** бутоните на панела за връзка вече не се изрязват, а в раздела Grid Alignment е веднага след Transparent."
-      ],
-      "sr": [
-        "**Цртеж:** каблови почињу глатки. Двоструки клик на кабл додаје колико желите поља резолуције, сплитера и ручица за померање; превуците ручицу да водите кабл. Кликните поље, сплитер или ручицу и притисните Delete да уклоните само то.",
-        "**Текст и боје:** нова дугмад A+, A- и B на траци цртежа мењају величину и подебљање изабраног оквира или оквира за текст. DisplayPort и DVI имају своје боје.",
-        "**Распоред:** леви панел стаје на екран 1080p без помицања; дугмад Уклони вишак и Отпреми лого; Помоћ > Донирај; Import XML отвара Resolume фасциклу.",
-        "**Исправке:** дугмад панела Веза више нису одсечена, а на картици Grid Alignment сада долази одмах после Transparent."
-      ],
-      "hr": [
-        "**Crtež:** kabeli počinju glatki. Dvostruki klik na kabel dodaje koliko želite okvira razlučivosti, razdjelnika i ručica za pomicanje; povucite ručicu za vođenje kabela. Kliknite okvir, razdjelnik ili ručicu i pritisnite Delete da uklonite samo to.",
-        "**Tekst i boje:** novi gumbi A+, A- i B na traci crteža mijenjaju veličinu i podebljanje odabranog okvira ili tekstnog okvira. DisplayPort i DVI imaju svoje boje.",
-        "**Raspored:** lijeva ploča stane na zaslon 1080p bez pomicanja; gumbi Ukloni višak i Učitaj logotip; Pomoć > Doniraj; Import XML otvara mapu Resolume.",
-        "**Ispravci:** gumbi ploče Veza više nisu odrezani, a na kartici Grid Alignment sada dolazi odmah nakon Transparent."
-      ],
-      "gu": [
-        "**ડ્રોઇંગ:** કેબલ સાદા શરૂ થાય છે. કેબલ પર ડબલ-ક્લિક કરી જોઈએ તેટલા રિઝોલ્યુશન બૉક્સ, સ્પ્લિટર અને ખસેડવાના હેન્ડલ ઉમેરો; કેબલનો માર્ગ બદલવા હેન્ડલ ખેંચો. બૉક્સ, સ્પ્લિટર કે હેન્ડલ પર ક્લિક કરી Delete દબાવવાથી માત્ર તે જ દૂર થાય છે.",
-        "**લખાણ અને રંગ:** ડ્રોઇંગ ટૂલબારના નવા A+, A- અને B બટન પસંદ કરેલા બૉક્સ કે ટેક્સ્ટ બૉક્સનું કદ અને બોલ્ડ બદલે છે. DisplayPort અને DVI ના પોતાના રંગ છે.",
-        "**લેઆઉટ:** ડાબી પેનલ 1080p સ્ક્રીન પર સ્ક્રોલ વિના સમાય છે; વધારાનું દૂર કરો અને લોગો અપલોડ બટન; મદદ > દાન કરો; Import XML Resolume ફોલ્ડર ખોલે છે.",
-        "**સુધારા:** કનેક્શન પેનલના બટન હવે કપાતા નથી, અને Grid ટૅબમાં Alignment હવે Transparent પછી તરત આવે છે."
-      ],
-      "pa": [
-        "**ਡਰਾਇੰਗ:** ਕੇਬਲ ਸਾਦੇ ਸ਼ੁਰੂ ਹੁੰਦੇ ਹਨ। ਕੇਬਲ 'ਤੇ ਡਬਲ-ਕਲਿੱਕ ਕਰਕੇ ਜਿੰਨੇ ਚਾਹੋ ਰੈਜ਼ੋਲਿਊਸ਼ਨ ਬਾਕਸ, ਸਪਲਿਟਰ ਅਤੇ ਹਿਲਾਉਣ ਵਾਲੇ ਹੈਂਡਲ ਜੋੜੋ; ਕੇਬਲ ਦਾ ਰਾਹ ਬਦਲਣ ਲਈ ਹੈਂਡਲ ਖਿੱਚੋ। ਬਾਕਸ, ਸਪਲਿਟਰ ਜਾਂ ਹੈਂਡਲ 'ਤੇ ਕਲਿੱਕ ਕਰਕੇ Delete ਦਬਾਉਣ ਨਾਲ ਸਿਰਫ਼ ਉਹੀ ਹਟਦਾ ਹੈ।",
-        "**ਟੈਕਸਟ ਅਤੇ ਰੰਗ:** ਡਰਾਇੰਗ ਟੂਲਬਾਰ ਦੇ ਨਵੇਂ A+, A- ਅਤੇ B ਬਟਨ ਚੁਣੇ ਬਾਕਸ ਜਾਂ ਟੈਕਸਟ ਬਾਕਸ ਦਾ ਆਕਾਰ ਅਤੇ ਬੋਲਡ ਬਦਲਦੇ ਹਨ। DisplayPort ਅਤੇ DVI ਦੇ ਆਪਣੇ ਰੰਗ ਹਨ।",
-        "**ਲੇਆਉਟ:** ਖੱਬਾ ਪੈਨਲ 1080p ਸਕ੍ਰੀਨ 'ਤੇ ਬਿਨਾਂ ਸਕ੍ਰੋਲ ਦੇ ਆ ਜਾਂਦਾ ਹੈ; ਵਾਧੂ ਹਟਾਓ ਅਤੇ ਲੋਗੋ ਅੱਪਲੋਡ ਬਟਨ; ਮਦਦ > ਦਾਨ ਕਰੋ; Import XML Resolume ਫੋਲਡਰ ਖੋਲ੍ਹਦਾ ਹੈ।",
-        "**ਸੁਧਾਰ:** ਕਨੈਕਸ਼ਨ ਪੈਨਲ ਦੇ ਬਟਨ ਹੁਣ ਕੱਟੇ ਨਹੀਂ ਜਾਂਦੇ, ਅਤੇ Grid ਟੈਬ ਵਿੱਚ Alignment ਹੁਣ Transparent ਤੋਂ ਤੁਰੰਤ ਬਾਅਦ ਆਉਂਦਾ ਹੈ।"
-      ],
-      "kn": [
-        "**ಡ್ರಾಯಿಂಗ್:** ಕೇಬಲ್‌ಗಳು ಖಾಲಿಯಾಗಿ ಆರಂಭವಾಗುತ್ತವೆ. ಕೇಬಲ್ ಮೇಲೆ ಡಬಲ್-ಕ್ಲಿಕ್ ಮಾಡಿ ಬೇಕಾದಷ್ಟು ರೆಸಲ್ಯೂಶನ್ ಬಾಕ್ಸ್, ಸ್ಪ್ಲಿಟರ್ ಮತ್ತು ಸರಿಸುವ ಹಿಡಿಕೆಗಳನ್ನು ಸೇರಿಸಿ; ಕೇಬಲ್ ದಾರಿ ಬದಲಿಸಲು ಹಿಡಿಕೆಯನ್ನು ಎಳೆಯಿರಿ. ಬಾಕ್ಸ್, ಸ್ಪ್ಲಿಟರ್ ಅಥವಾ ಹಿಡಿಕೆ ಕ್ಲಿಕ್ ಮಾಡಿ Delete ಒತ್ತಿದರೆ ಅದೊಂದೇ ಅಳಿಯುತ್ತದೆ.",
-        "**ಪಠ್ಯ ಮತ್ತು ಬಣ್ಣಗಳು:** ಡ್ರಾಯಿಂಗ್ ಟೂಲ್‌ಬಾರ್‌ನ ಹೊಸ A+, A- ಮತ್ತು B ಬಟನ್‌ಗಳು ಆಯ್ಕೆ ಮಾಡಿದ ಬಾಕ್ಸ್ ಅಥವಾ ಪಠ್ಯ ಬಾಕ್ಸ್‌ನ ಗಾತ್ರ ಮತ್ತು ದಪ್ಪವನ್ನು ಬದಲಿಸುತ್ತವೆ. DisplayPort ಮತ್ತು DVIಗೆ ತಮ್ಮದೇ ಬಣ್ಣಗಳಿವೆ.",
-        "**ವಿನ್ಯಾಸ:** ಎಡ ಫಲಕ 1080p ಪರದೆಯಲ್ಲಿ ಸ್ಕ್ರೋಲ್ ಇಲ್ಲದೆ ಹಿಡಿಸುತ್ತದೆ; ಹೆಚ್ಚುವರಿ ತೆಗೆದುಹಾಕಿ ಮತ್ತು ಲೋಗೋ ಅಪ್‌ಲೋಡ್ ಬಟನ್‌ಗಳು; ಸಹಾಯ > ದೇಣಿಗೆ ನೀಡಿ; Import XML Resolume ಫೋಲ್ಡರ್ ತೆರೆಯುತ್ತದೆ.",
-        "**ಸರಿಪಡಿಕೆಗಳು:** ಸಂಪರ್ಕ ಫಲಕದ ಬಟನ್‌ಗಳು ಇನ್ನು ಕತ್ತರಿಸುವುದಿಲ್ಲ, ಮತ್ತು Grid ಟ್ಯಾಬ್‌ನಲ್ಲಿ Alignment ಈಗ Transparent ನಂತರವೇ ಬರುತ್ತದೆ."
-      ],
-      "ne": [
-        "**ड्रइङ:** केबलहरू सादा सुरु हुन्छन्। केबलमा डबल-क्लिक गरेर चाहे जति रिजोल्युसन बक्स, स्प्लिटर र सार्ने ह्यान्डल थप्नुहोस्; केबलको बाटो बदल्न ह्यान्डल तान्नुहोस्। बक्स, स्प्लिटर वा ह्यान्डलमा क्लिक गरी Delete थिच्दा त्यो मात्र हट्छ।",
-        "**पाठ र रङ:** ड्रइङ टुलबारका नयाँ A+, A- र B बटनले छानिएको बक्स वा पाठ बक्सको आकार र बोल्ड बदल्छन्। DisplayPort र DVI का आफ्नै रङ छन्।",
-        "**लेआउट:** बायाँ प्यानल 1080p स्क्रिनमा स्क्रोल बिना अटाउँछ; अतिरिक्त हटाउनुहोस् र लोगो अपलोड बटन; मद्दत > दान गर्नुहोस्; Import XML ले Resolume फोल्डर खोल्छ।",
-        "**सुधारहरू:** जडान प्यानलका बटनहरू अब काटिँदैनन्, र Grid ट्याबमा Alignment अब Transparent पछि तुरुन्तै आउँछ।"
-      ],
-      "km": [
-        "**គំនូរ៖** ខ្សែចាប់ផ្ដើមទទេ។ ចុចពីរដងលើខ្សែ ដើម្បីបន្ថែមប្រអប់គុណភាពបង្ហាញ ឧបករណ៍បំបែក និងដងសម្រាប់ផ្លាស់ទីបានច្រើនតាមចិត្ត អូសដងដើម្បីដឹកខ្សែ។ ចុចលើប្រអប់ ឧបករណ៍បំបែក ឬដង ហើយចុច Delete ដើម្បីលុបតែវាប៉ុណ្ណោះ។",
-        "**អក្សរ និងពណ៌៖** ប៊ូតុងថ្មី A+, A- និង B នៅលើរបារគំនូរ ប្ដូរទំហំ និងអក្សរដិតនៃប្រអប់ ឬប្រអប់អត្ថបទដែលបានជ្រើស។ DisplayPort និង DVI មានពណ៌ផ្ទាល់ខ្លួន។",
-        "**ប្លង់៖** ផ្ទាំងខាងឆ្វេងសមនឹងអេក្រង់ 1080p ដោយមិនបាច់រំកិល ប៊ូតុងដកផ្នែកលើស និងផ្ទុកឡូហ្គោ ជំនួយ > បរិច្ចាគ ហើយ Import XML បើកថត Resolume។",
-        "**ការកែ៖** ប៊ូតុងនៃផ្ទាំងការតភ្ជាប់ មិនត្រូវកាត់ទៀតទេ ហើយនៅផ្ទាំង Grid Alignment ឥឡូវមកភ្លាមក្រោយ Transparent។"
-      ],
-      "kk": [
-        "**Сызба:** кабельдер бос басталады. Кабельді екі рет басып, қалағаныңызша ажыратымдылық өрістерін, сплиттерлерді және жылжыту тұтқаларын қосыңыз; кабельді бағыттау үшін тұтқаны сүйреңіз. Өрісті, сплиттерді не тұтқаны басып, Delete пернесін бассаңыз, тек сол жойылады.",
-        "**Мәтін мен түстер:** сызба құралдар тақтасындағы жаңа A+, A- және B батырмалары таңдалған өрістің не мәтін өрісінің өлшемі мен жуандығын өзгертеді. DisplayPort пен DVI-дің өз түстері бар.",
-        "**Орналасу:** сол жақ панель 1080p экранға айналдырусыз сыяды; Артығын алып тастау және Логотип жүктеу батырмалары; Анықтама > Қайырымдылық; Import XML Resolume қалтасын ашады.",
-        "**Түзетулер:** қосылым панелінің батырмалары енді кесілмейді, ал Grid қойындысында Alignment енді Transparent-тен кейін бірден тұр."
-      ],
-      "uz": [
-        "**Chizma:** kabellar bo'sh boshlanadi. Kabelni ikki marta bosib, xohlagancha ruxsat oynasi, splitter va siljitish dastaklarini qo'shing; kabelni yo'naltirish uchun dastakni torting. Oyna, splitter yoki dastakni bosib Delete'ni bossangiz, faqat o'sha o'chadi.",
-        "**Matn va ranglar:** chizma panelidagi yangi A+, A- va B tugmalari tanlangan quti yoki matn qutisining o'lchami va qalinligini o'zgartiradi. DisplayPort va DVI o'z ranglariga ega.",
-        "**Joylashuv:** chap panel 1080p ekranga aylantirmasdan sig'adi; Ortiqchasini olib tashlash va Logotip yuklash tugmalari; Yordam > Xayriya qilish; Import XML Resolume jildini ochadi.",
-        "**Tuzatishlar:** ulanish paneli tugmalari endi kesilmaydi, Grid yorlig'ida esa Alignment endi Transparent'dan keyin keladi."
-      ],
-      "am": [
-        "**ስዕል፦** ገመዶች ባዶ ሆነው ይጀምራሉ። ገመዱን ሁለቴ ጠቅ በማድረግ የፈለጉትን ያህል የጥራት ሳጥን፣ ስፕሊተር እና የማንቀሳቀሻ መያዣ ያክሉ፤ ገመዱን ለመምራት መያዣውን ይጎትቱ። ሳጥን፣ ስፕሊተር ወይም መያዣ ጠቅ አድርገው Delete ቢጫኑ ያንን ብቻ ያስወግዳል።",
-        "**ጽሑፍና ቀለሞች፦** በስዕል የመሣሪያ አሞሌ ያሉት አዲሶቹ A+፣ A- እና B አዝራሮች የተመረጠውን ሳጥን ወይም የጽሑፍ ሳጥን መጠንና ድምቀት ይቀይራሉ። DisplayPort እና DVI የራሳቸው ቀለም አላቸው።",
-        "**አቀማመጥ፦** የግራ ፓነሉ በ1080p ማያ ገጽ ያለ ማሸብለል ይበቃል፤ ትርፉን አስወግድ እና አርማ ስቀል አዝራሮች፤ እገዛ > ይለግሱ፤ Import XML የResolume አቃፊን ይከፍታል።",
-        "**ማስተካከያዎች፦** የግንኙነት ፓነል አዝራሮች ከእንግዲህ አይቆረጡም፤ በGrid ትር Alignment አሁን ከTransparent ወዲያው በኋላ ይመጣል።"
-      ],
-      "sl": [
-        "**Risba:** kabli se začnejo gladki. Dvoklik na kabel doda poljubno število polj ločljivosti, razdelilnikov in ročic za premikanje; povlecite ročico, da vodite kabel. Kliknite polje, razdelilnik ali ročico in pritisnite Delete, da odstranite samo to.",
-        "**Besedilo in barve:** novi gumbi A+, A- in B v orodni vrstici risbe spremenijo velikost in krepkost izbranega polja ali besedilnega polja. DisplayPort in DVI imata svoje barve.",
-        "**Postavitev:** levi pano se prilega zaslonu 1080p brez drsenja; gumba Odstrani presežek in Naloži logotip; Pomoč > Doniraj; Import XML odpre mapo Resolume.",
-        "**Popravki:** gumbi plošče Povezava niso več odrezani, na zavihku Grid pa je Alignment zdaj takoj za Transparent."
       ]
     }
   }
