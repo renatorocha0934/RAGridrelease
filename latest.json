@@ -1,9 +1,491 @@
 {
-  "version": "2.8.7",
-  "windows": "https://github.com/renatorocha0934/RAGridrelease/releases/download/v2.8.7/RAGrid-Windows.zip",
-  "mac": "https://github.com/renatorocha0934/RAGridrelease/releases/download/v2.8.7/RAGrid-Mac.dmg",
+  "version": "2.9.0",
+  "windows": "https://github.com/renatorocha0934/RAGridrelease/releases/download/v2.9.0/RAGrid-Windows.zip",
+  "mac": "https://github.com/renatorocha0934/RAGridrelease/releases/download/v2.9.0/RAGrid-Mac.dmg",
   "notes": "System and performance improvements.",
   "changes": {
+    "2.9.0": {
+      "en": [
+        "**NDI:** new NDI button next to Extended screen: the views (Pixel Mapping, Connection, Drawing, Animation and others) go out over the network as NDI sources for Resolume, vMix or OBS. Requires the free NDI Tools.",
+        "**Drawing:** new layout taken from the Connection: sending cards inside the controller, fiber cables to CVT receivers under the panels and one color per sending card. Presets 6 to 10 use this scheme.",
+        "**Connection:** click the top of a Device to highlight its cables and press Delete to remove it. Clicking a port turns on the sweep with a preset. The port count is the same in every tab.",
+        "**Signal:** the EDID is shown as text, with “Save EDID (.txt)” for AMD Radeon Pro / FirePro cards, and the .bin file has been fixed.",
+        "**Logos and canvas:** resize handles on the logos (Pixel Mapping, Grid and Drawing), arrows in Canvas size to choose the side that grows, a PNG / PNG Alpha camera and a screen data sheet at the end of the PDF.",
+        "**Animation:** bigger preview, normal speed by default with a Default button, and the same play/pause under the extended screen. New language: Tamazight (Algeria)."
+      ],
+      "pt": [
+        "**NDI:** novo botão NDI ao lado do Extended screen: as visões (Pixel Mapping, Conexão, Desenho, Animação e outras) saem pela rede como fontes NDI para Resolume, vMix ou OBS. Precisa do NDI Tools, gratuito.",
+        "**Desenho:** novo layout tirado da Conexão: as sending cards dentro da controladora, cabos de fibra até os receptores CVT embaixo das placas e uma cor para cada sending card. Os presets 6 a 10 usam esse esquema.",
+        "**Conexão:** clique no topo de um Device para acender os cabos dele e aperte Delete para apagá-lo. Clicar numa porta liga a varredura com um preset. O número de portas é o mesmo em todas as abas.",
+        "**Sinal:** o EDID aparece em texto, com “Save EDID (.txt)” para as placas AMD Radeon Pro / FirePro, e o arquivo .bin foi corrigido.",
+        "**Logos e canvas:** alças para redimensionar os logos (Pixel Mapping, Grid e Desenho), setas no Canvas size para escolher o lado que cresce, câmera PNG / PNG Alpha e uma ficha técnica das telas no fim do PDF.",
+        "**Animação:** prévia maior, velocidade normal por padrão com o botão Default e o mesmo play/pause embaixo da tela estendida. Novo idioma: tamazight (Argélia)."
+      ],
+      "es": [
+        "**NDI:** nuevo botón NDI junto a Extended screen: las vistas (Pixel Mapping, Conexión, Dibujo, Animación y otras) salen por la red como fuentes NDI para Resolume, vMix u OBS. Requiere NDI Tools, gratuito.",
+        "**Dibujo:** nuevo diseño tomado de la Conexión: las sending cards dentro de la controladora, cables de fibra hasta los receptores CVT debajo de los paneles y un color por sending card. Los presets 6 a 10 usan este esquema.",
+        "**Conexión:** haga clic en la parte superior de un Device para resaltar sus cables y pulse Delete para borrarlo. Al hacer clic en un puerto se activa el barrido con un preset. El número de puertos es el mismo en todas las pestañas.",
+        "**Señal:** el EDID se muestra como texto, con “Save EDID (.txt)” para tarjetas AMD Radeon Pro / FirePro, y el archivo .bin fue corregido.",
+        "**Logos y canvas:** asas para redimensionar los logos (Pixel Mapping, Grid y Dibujo), flechas en Canvas size para elegir el lado que crece, cámara PNG / PNG Alpha y una ficha técnica de las pantallas al final del PDF.",
+        "**Animación:** vista previa más grande, velocidad normal por defecto con el botón Default y el mismo play/pause debajo de la pantalla extendida. Nuevo idioma: tamazight (Argelia)."
+      ],
+      "fr": [
+        "**NDI :** nouveau bouton NDI à côté d’Extended screen : les vues (Pixel Mapping, Connexion, Dessin, Animation et autres) sortent sur le réseau comme sources NDI pour Resolume, vMix ou OBS. Nécessite NDI Tools, gratuit.",
+        "**Dessin :** nouvelle mise en page tirée de la Connexion : les sending cards dans le contrôleur, des câbles fibre vers les récepteurs CVT sous les panneaux et une couleur par sending card. Les presets 6 à 10 utilisent ce schéma.",
+        "**Connexion :** cliquez sur le haut d’un Device pour mettre ses câbles en évidence et appuyez sur Delete pour le supprimer. Cliquer sur un port active le balayage avec un preset. Le nombre de ports est le même dans tous les onglets.",
+        "**Signal :** l’EDID s’affiche en texte, avec « Save EDID (.txt) » pour les cartes AMD Radeon Pro / FirePro, et le fichier .bin a été corrigé.",
+        "**Logos et canvas :** poignées pour redimensionner les logos (Pixel Mapping, Grid et Dessin), flèches dans Canvas size pour choisir le côté qui s’agrandit, appareil photo PNG / PNG Alpha et une fiche technique des écrans à la fin du PDF.",
+        "**Animation :** aperçu plus grand, vitesse normale par défaut avec le bouton Default et le même lecture/pause sous l’écran étendu. Nouvelle langue : tamazight (Algérie)."
+      ],
+      "de": [
+        "**NDI:** neue NDI-Taste neben Extended screen: Die Ansichten (Pixel Mapping, Verbindung, Zeichnung, Animation und weitere) gehen als NDI-Quellen über das Netzwerk an Resolume, vMix oder OBS. Benötigt die kostenlosen NDI Tools.",
+        "**Zeichnung:** neues Layout aus der Verbindung: die Sending Cards im Controller, Glasfaserkabel zu den CVT-Empfängern unter den Panels und eine Farbe pro Sending Card. Die Presets 6 bis 10 nutzen dieses Schema.",
+        "**Verbindung:** Klicken Sie oben auf ein Device, um seine Kabel hervorzuheben, und drücken Sie Delete, um es zu löschen. Ein Klick auf einen Port schaltet das Überstreichen mit einem Preset ein. Die Portanzahl ist in allen Tabs gleich.",
+        "**Signal:** Das EDID wird als Text angezeigt, mit „Save EDID (.txt)“ für AMD Radeon Pro / FirePro-Karten; die .bin-Datei wurde korrigiert.",
+        "**Logos und Canvas:** Griffe zum Skalieren der Logos (Pixel Mapping, Grid und Zeichnung), Pfeile in Canvas size für die Seite, die wächst, Kamera PNG / PNG Alpha und ein Datenblatt der Screens am Ende des PDF.",
+        "**Animation:** größere Vorschau, normale Geschwindigkeit als Standard mit der Taste Default und dasselbe Play/Pause unter dem erweiterten Bildschirm. Neue Sprache: Tamazight (Algerien)."
+      ],
+      "it": [
+        "**NDI:** nuovo pulsante NDI accanto a Extended screen: le viste (Pixel Mapping, Connessione, Disegno, Animazione e altre) escono in rete come sorgenti NDI per Resolume, vMix o OBS. Richiede NDI Tools, gratuito.",
+        "**Disegno:** nuovo layout preso dalla Connessione: le sending card dentro il controller, cavi in fibra fino ai ricevitori CVT sotto i pannelli e un colore per ogni sending card. I preset da 6 a 10 usano questo schema.",
+        "**Connessione:** fai clic sulla parte alta di un Device per evidenziarne i cavi e premi Delete per eliminarlo. Un clic su una porta attiva la selezione ad area con un preset. Il numero di porte è lo stesso in tutte le schede.",
+        "**Segnale:** l’EDID viene mostrato come testo, con “Save EDID (.txt)” per le schede AMD Radeon Pro / FirePro, e il file .bin è stato corretto.",
+        "**Loghi e canvas:** maniglie per ridimensionare i loghi (Pixel Mapping, Grid e Disegno), frecce in Canvas size per scegliere il lato che cresce, fotocamera PNG / PNG Alpha e una scheda tecnica degli schermi alla fine del PDF.",
+        "**Animazione:** anteprima più grande, velocità normale predefinita con il pulsante Default e lo stesso play/pausa sotto lo schermo esteso. Nuova lingua: tamazight (Algeria)."
+      ],
+      "nl": [
+        "**NDI:** nieuwe NDI-knop naast Extended screen: de weergaven (Pixel Mapping, Verbinding, Tekening, Animatie en andere) gaan via het netwerk als NDI-bronnen naar Resolume, vMix of OBS. Vereist de gratis NDI Tools.",
+        "**Tekening:** nieuwe lay-out uit de Verbinding: de sending cards in de controller, glasvezelkabels naar de CVT-ontvangers onder de panelen en één kleur per sending card. Presets 6 tot 10 gebruiken dit schema.",
+        "**Verbinding:** klik bovenaan een Device om de kabels ervan te markeren en druk op Delete om het te verwijderen. Klikken op een poort zet het vegen met een preset aan. Het aantal poorten is in alle tabbladen gelijk.",
+        "**Signaal:** de EDID wordt als tekst getoond, met “Save EDID (.txt)” voor AMD Radeon Pro / FirePro-kaarten, en het .bin-bestand is gecorrigeerd.",
+        "**Logo’s en canvas:** grepen om de logo’s te schalen (Pixel Mapping, Grid en Tekening), pijlen in Canvas size om de kant te kiezen die groeit, camera PNG / PNG Alpha en een gegevensblad van de schermen aan het einde van de PDF.",
+        "**Animatie:** grotere voorvertoning, standaard normale snelheid met de knop Default en dezelfde play/pauze onder het uitgebreide scherm. Nieuwe taal: Tamazight (Algerije)."
+      ],
+      "ru": [
+        "**NDI:** новая кнопка NDI рядом с Extended screen: виды (Pixel Mapping, Подключение, Схема, Анимация и другие) передаются по сети как источники NDI для Resolume, vMix или OBS. Нужен бесплатный NDI Tools.",
+        "**Схема:** новая компоновка на основе Подключения: sending cards внутри контроллера, оптические кабели к приёмникам CVT под панелями и свой цвет для каждой sending card. Пресеты 6–10 используют эту схему.",
+        "**Подключение:** щёлкните по верху Device, чтобы подсветить его кабели, и нажмите Delete, чтобы удалить его. Щелчок по порту включает выделение областью с пресетом. Число портов одинаково на всех вкладках.",
+        "**Сигнал:** EDID показывается текстом, с кнопкой «Save EDID (.txt)» для карт AMD Radeon Pro / FirePro, а файл .bin исправлен.",
+        "**Логотипы и холст:** маркеры для изменения размера логотипов (Pixel Mapping, Grid и Схема), стрелки в Canvas size для выбора стороны, которая растёт, камера PNG / PNG Alpha и паспорт экранов в конце PDF.",
+        "**Анимация:** больше окно предпросмотра, обычная скорость по умолчанию с кнопкой Default и тот же play/pause под расширенным экраном. Новый язык: тамазигхтский (Алжир)."
+      ],
+      "tr": [
+        "**NDI:** Extended screen yanında yeni NDI düğmesi: görünümler (Pixel Mapping, Bağlantı, Çizim, Animasyon ve diğerleri) ağ üzerinden Resolume, vMix veya OBS için NDI kaynağı olarak çıkar. Ücretsiz NDI Tools gerekir.",
+        "**Çizim:** Bağlantı’dan alınan yeni düzen: sending card’lar kontrol cihazının içinde, panellerin altındaki CVT alıcılarına fiber kablolar ve her sending card için bir renk. 6–10 arası presetler bu şemayı kullanır.",
+        "**Bağlantı:** kablolarını vurgulamak için bir Device’ın üst kısmına tıklayın, silmek için Delete’e basın. Bir porta tıklamak, preset ile tarama aracını açar. Port sayısı tüm sekmelerde aynıdır.",
+        "**Sinyal:** EDID metin olarak gösterilir, AMD Radeon Pro / FirePro kartları için “Save EDID (.txt)” vardır ve .bin dosyası düzeltildi.",
+        "**Logolar ve tuval:** logoları boyutlandırma tutamaçları (Pixel Mapping, Grid ve Çizim), büyüyecek tarafı seçmek için Canvas size içinde oklar, PNG / PNG Alpha kamera ve PDF sonunda ekranların teknik sayfası.",
+        "**Animasyon:** daha büyük önizleme, varsayılan olarak normal hız ve Default düğmesi, genişletilmiş ekranın altında aynı oynat/duraklat. Yeni dil: Tamazight (Cezayir)."
+      ],
+      "id": [
+        "**NDI:** tombol NDI baru di samping Extended screen: tampilan (Pixel Mapping, Koneksi, Gambar, Animasi, dan lainnya) dikirim lewat jaringan sebagai sumber NDI untuk Resolume, vMix, atau OBS. Memerlukan NDI Tools yang gratis.",
+        "**Gambar:** tata letak baru dari Koneksi: sending card di dalam controller, kabel fiber ke penerima CVT di bawah panel, dan satu warna per sending card. Preset 6 sampai 10 memakai skema ini.",
+        "**Koneksi:** klik bagian atas sebuah Device untuk menyorot kabelnya dan tekan Delete untuk menghapusnya. Mengklik sebuah port menyalakan sapuan dengan preset. Jumlah port sama di semua tab.",
+        "**Sinyal:** EDID ditampilkan sebagai teks, dengan “Save EDID (.txt)” untuk kartu AMD Radeon Pro / FirePro, dan file .bin sudah diperbaiki.",
+        "**Logo dan kanvas:** pegangan untuk mengubah ukuran logo (Pixel Mapping, Grid, dan Gambar), panah di Canvas size untuk memilih sisi yang bertambah, kamera PNG / PNG Alpha, dan lembar data layar di akhir PDF.",
+        "**Animasi:** pratinjau lebih besar, kecepatan normal secara bawaan dengan tombol Default, dan play/pause yang sama di bawah layar tambahan. Bahasa baru: Tamazight (Aljazair)."
+      ],
+      "hu": [
+        "**NDI:** új NDI gomb az Extended screen mellett: a nézetek (Pixel Mapping, Kapcsolat, Rajz, Animáció és mások) a hálózaton NDI-forrásként mennek a Resolume, a vMix vagy az OBS felé. Az ingyenes NDI Tools szükséges.",
+        "**Rajz:** új elrendezés a Kapcsolat alapján: a sending cardok a vezérlőben, üvegszálas kábelek a panelek alatti CVT vevőkhöz, és sending cardonként egy szín. A 6–10. preset ezt a sémát használja.",
+        "**Kapcsolat:** kattintson egy Device tetejére a kábelei kiemeléséhez, és nyomja meg a Delete gombot a törléséhez. Egy portra kattintva bekapcsol a kijelölő söprés egy presettel. A portok száma minden lapon ugyanaz.",
+        "**Jel:** az EDID szövegként jelenik meg, „Save EDID (.txt)” gombbal az AMD Radeon Pro / FirePro kártyákhoz, és a .bin fájl javítva lett.",
+        "**Logók és vászon:** fogantyúk a logók átméretezéséhez (Pixel Mapping, Grid és Rajz), nyilak a Canvas size-ban a növekvő oldal kiválasztásához, PNG / PNG Alpha kamera és a képernyők adatlapja a PDF végén.",
+        "**Animáció:** nagyobb előnézet, alapból normál sebesség a Default gombbal, és ugyanaz a lejátszás/szünet a kiterjesztett képernyő alatt. Új nyelv: tamazight (Algéria)."
+      ],
+      "zh-Hans": [
+        "**NDI：** Extended screen 旁新增 NDI 按钮：各视图（Pixel Mapping、连接、绘图、动画等）通过网络作为 NDI 源输出到 Resolume、vMix 或 OBS。需要安装免费的 NDI Tools。",
+        "**绘图：** 根据连接生成的新布局：sending card 位于控制器内，光纤连到屏体下方的 CVT 接收器，每张 sending card 一种颜色。预设 6 至 10 使用此方案。",
+        "**连接：** 单击 Device 顶部可高亮其线缆，按 Delete 可将其删除。单击端口会开启带预设的框选工具。所有标签页中的端口数量一致。",
+        "**信号：** EDID 以文本显示，并为 AMD Radeon Pro / FirePro 显卡提供“Save EDID (.txt)”，.bin 文件也已修正。",
+        "**标志与画布：** 标志可用手柄调整大小（Pixel Mapping、Grid 和绘图），Canvas size 中有箭头可选择扩展的方向，相机支持 PNG / PNG Alpha，PDF 末尾附屏幕技术参数表。",
+        "**动画：** 预览更大，默认正常速度并有 Default 按钮，扩展屏幕下方使用同一个播放/暂停。新增语言：塔马塞特语（阿尔及利亚）。"
+      ],
+      "zh-Hant": [
+        "**NDI：** Extended screen 旁新增 NDI 按鈕：各檢視（Pixel Mapping、連接、繪圖、動畫等）透過網路作為 NDI 來源輸出到 Resolume、vMix 或 OBS。需要安裝免費的 NDI Tools。",
+        "**繪圖：** 依連接產生的新版面：sending card 位於控制器內，光纖連到面板下方的 CVT 接收器，每張 sending card 一種顏色。預設 6 至 10 使用此方案。",
+        "**連接：** 按一下 Device 頂部可醒目顯示其線材，按 Delete 可將其刪除。按一下連接埠會開啟帶預設的框選工具。所有分頁中的連接埠數量一致。",
+        "**訊號：** EDID 以文字顯示，並為 AMD Radeon Pro / FirePro 顯示卡提供「Save EDID (.txt)」，.bin 檔案也已修正。",
+        "**標誌與畫布：** 標誌可用控點調整大小（Pixel Mapping、Grid 和繪圖），Canvas size 中有箭頭可選擇擴展的方向，相機支援 PNG / PNG Alpha，PDF 結尾附螢幕技術規格表。",
+        "**動畫：** 預覽更大，預設正常速度並有 Default 按鈕，延伸螢幕下方使用同一個播放/暫停。新增語言：塔馬齊格特語（阿爾及利亞）。"
+      ],
+      "ja": [
+        "**NDI：** Extended screen の横に新しい NDI ボタン。各ビュー（Pixel Mapping、接続、図面、アニメーションなど）をネットワーク経由で NDI ソースとして Resolume、vMix、OBS に送ります。無料の NDI Tools が必要です。",
+        "**図面：** 接続から作る新しいレイアウト。sending card はコントローラー内に、パネル下の CVT 受信機まで光ファイバーケーブル、sending card ごとに 1 色。プリセット 6〜10 はこの方式を使います。",
+        "**接続：** Device の上部をクリックするとそのケーブルが強調され、Delete で削除できます。ポートをクリックするとプリセット付きの範囲選択がオンになります。ポート数はすべてのタブで同じです。",
+        "**信号：** EDID をテキストで表示し、AMD Radeon Pro / FirePro 用に「Save EDID (.txt)」を追加。.bin ファイルも修正しました。",
+        "**ロゴとキャンバス：** ロゴのサイズ変更ハンドル（Pixel Mapping、Grid、図面）、Canvas size に広げる方向を選ぶ矢印、PNG / PNG Alpha カメラ、PDF の最後にスクリーンの仕様表。",
+        "**アニメーション：** プレビューが大きくなり、標準速度が既定で Default ボタン付き。拡張スクリーンの下でも同じ再生/一時停止。新しい言語：タマジクト語（アルジェリア）。"
+      ],
+      "ko": [
+        "**NDI:** Extended screen 옆에 새 NDI 버튼: 각 보기(Pixel Mapping, 연결, 도면, 애니메이션 등)가 네트워크를 통해 NDI 소스로 Resolume, vMix 또는 OBS에 전송됩니다. 무료 NDI Tools가 필요합니다.",
+        "**도면:** 연결에서 가져온 새 레이아웃: 컨트롤러 안의 sending card, 패널 아래 CVT 수신기까지의 광케이블, sending card마다 한 가지 색. 프리셋 6~10이 이 구성을 사용합니다.",
+        "**연결:** Device 위쪽을 클릭하면 해당 케이블이 강조되고 Delete를 누르면 삭제됩니다. 포트를 클릭하면 프리셋과 함께 영역 선택이 켜집니다. 포트 수는 모든 탭에서 같습니다.",
+        "**신호:** EDID가 텍스트로 표시되고 AMD Radeon Pro / FirePro 카드용 “Save EDID (.txt)”가 추가되었으며 .bin 파일이 수정되었습니다.",
+        "**로고와 캔버스:** 로고 크기 조절 핸들(Pixel Mapping, Grid, 도면), Canvas size에서 늘어날 방향을 고르는 화살표, PNG / PNG Alpha 카메라, PDF 끝의 스크린 기술 사양표.",
+        "**애니메이션:** 더 큰 미리보기, 기본 정상 속도와 Default 버튼, 확장 화면 아래의 같은 재생/일시정지. 새 언어: 타마지트어(알제리)."
+      ],
+      "ar": [
+        "**NDI:** زر NDI جديد بجانب Extended screen: تُرسَل العروض (Pixel Mapping والاتصال والرسم والحركة وغيرها) عبر الشبكة كمصادر NDI إلى Resolume أو vMix أو OBS. يتطلب NDI Tools المجاني.",
+        "**الرسم:** تخطيط جديد مأخوذ من الاتصال: بطاقات sending card داخل وحدة التحكم، وكابلات ألياف إلى مستقبلات CVT أسفل اللوحات، ولون لكل sending card. تستخدم الإعدادات المسبقة 6 إلى 10 هذا المخطط.",
+        "**الاتصال:** انقر على أعلى Device لإبراز كابلاته واضغط Delete لحذفه. النقر على منفذ يشغّل التحديد بالسحب مع إعداد مسبق. عدد المنافذ واحد في كل التبويبات.",
+        "**الإشارة:** يُعرض EDID كنص، مع «Save EDID (.txt)» لبطاقات AMD Radeon Pro / FirePro، وتم تصحيح ملف .bin.",
+        "**الشعارات واللوحة:** مقابض لتغيير حجم الشعارات (Pixel Mapping وGrid والرسم)، وأسهم في Canvas size لاختيار الجهة التي تكبر، وكاميرا PNG / PNG Alpha، وورقة بيانات للشاشات في نهاية PDF.",
+        "**الحركة:** معاينة أكبر، وسرعة عادية افتراضيًا مع زر Default، ونفس التشغيل/الإيقاف تحت الشاشة الممتدة. لغة جديدة: الأمازيغية (الجزائر)."
+      ],
+      "th": [
+        "**NDI:** ปุ่ม NDI ใหม่ข้าง Extended screen: มุมมองต่าง ๆ (Pixel Mapping, การเชื่อมต่อ, แบบวาด, แอนิเมชัน และอื่น ๆ) ส่งผ่านเครือข่ายเป็นแหล่ง NDI ไปยัง Resolume, vMix หรือ OBS ต้องติดตั้ง NDI Tools ซึ่งฟรี",
+        "**แบบวาด:** เลย์เอาต์ใหม่จากการเชื่อมต่อ: sending card อยู่ในตัวควบคุม สายไฟเบอร์ไปยังตัวรับ CVT ใต้แผง และหนึ่งสีต่อหนึ่ง sending card พรีเซ็ต 6 ถึง 10 ใช้รูปแบบนี้",
+        "**การเชื่อมต่อ:** คลิกด้านบนของ Device เพื่อไฮไลต์สายของมัน และกด Delete เพื่อลบ คลิกพอร์ตจะเปิดการลากเลือกพร้อมพรีเซ็ต จำนวนพอร์ตเท่ากันทุกแท็บ",
+        "**สัญญาณ:** แสดง EDID เป็นข้อความ พร้อม “Save EDID (.txt)” สำหรับการ์ด AMD Radeon Pro / FirePro และแก้ไขไฟล์ .bin แล้ว",
+        "**โลโก้และแคนวาส:** จุดจับปรับขนาดโลโก้ (Pixel Mapping, Grid และแบบวาด) ลูกศรใน Canvas size เพื่อเลือกด้านที่ขยาย กล้อง PNG / PNG Alpha และแผ่นข้อมูลจอท้าย PDF",
+        "**แอนิเมชัน:** ตัวอย่างใหญ่ขึ้น ความเร็วปกติเป็นค่าเริ่มต้นพร้อมปุ่ม Default และเล่น/หยุดชั่วคราวเดียวกันใต้จอขยาย ภาษาใหม่: ทามาไซต์ (แอลจีเรีย)"
+      ],
+      "hi": [
+        "**NDI:** Extended screen के पास नया NDI बटन: व्यू (Pixel Mapping, कनेक्शन, ड्रॉइंग, एनीमेशन और अन्य) नेटवर्क पर NDI सोर्स के रूप में Resolume, vMix या OBS तक जाते हैं। मुफ्त NDI Tools ज़रूरी है।",
+        "**ड्रॉइंग:** कनेक्शन से बना नया लेआउट: कंट्रोलर के अंदर sending card, पैनलों के नीचे CVT रिसीवर तक फाइबर केबल और हर sending card का अपना रंग। प्रीसेट 6 से 10 यही स्कीम इस्तेमाल करते हैं।",
+        "**कनेक्शन:** किसी Device के ऊपरी हिस्से पर क्लिक करें तो उसके केबल हाइलाइट होते हैं, और Delete दबाकर उसे हटाएँ। किसी पोर्ट पर क्लिक करने से प्रीसेट के साथ स्वीप चालू होता है। हर टैब में पोर्ट की संख्या एक जैसी है।",
+        "**सिग्नल:** EDID टेक्स्ट में दिखता है, AMD Radeon Pro / FirePro कार्ड के लिए “Save EDID (.txt)” के साथ, और .bin फ़ाइल ठीक कर दी गई है।",
+        "**लोगो और कैनवास:** लोगो का आकार बदलने के हैंडल (Pixel Mapping, Grid और ड्रॉइंग), Canvas size में बढ़ने वाली दिशा चुनने के तीर, PNG / PNG Alpha कैमरा और PDF के अंत में स्क्रीन की डेटा शीट।",
+        "**एनीमेशन:** बड़ा प्रीव्यू, डिफ़ॉल्ट रूप से सामान्य गति और Default बटन, और एक्सटेंडेड स्क्रीन के नीचे वही प्ले/पॉज़। नई भाषा: तमाज़ाइट (अल्जीरिया)।"
+      ],
+      "vi": [
+        "**NDI:** nút NDI mới cạnh Extended screen: các chế độ xem (Pixel Mapping, Kết nối, Bản vẽ, Hoạt ảnh và các chế độ khác) được phát qua mạng thành nguồn NDI cho Resolume, vMix hoặc OBS. Cần cài NDI Tools miễn phí.",
+        "**Bản vẽ:** bố cục mới lấy từ Kết nối: sending card nằm trong bộ điều khiển, cáp quang tới bộ thu CVT dưới tấm LED và mỗi sending card một màu. Preset 6 đến 10 dùng sơ đồ này.",
+        "**Kết nối:** nhấp vào phần trên của một Device để làm nổi bật cáp của nó và nhấn Delete để xóa. Nhấp vào một cổng sẽ bật công cụ quét với một preset. Số cổng giống nhau ở mọi thẻ.",
+        "**Tín hiệu:** EDID được hiển thị dạng văn bản, có “Save EDID (.txt)” cho card AMD Radeon Pro / FirePro, và tệp .bin đã được sửa.",
+        "**Logo và canvas:** tay cầm để đổi kích thước logo (Pixel Mapping, Grid và Bản vẽ), mũi tên trong Canvas size để chọn phía mở rộng, máy ảnh PNG / PNG Alpha và bảng thông số màn hình ở cuối PDF.",
+        "**Hoạt ảnh:** xem trước lớn hơn, tốc độ bình thường mặc định với nút Default và cùng nút phát/tạm dừng dưới màn hình mở rộng. Ngôn ngữ mới: Tamazight (Algeria)."
+      ],
+      "bn": [
+        "**NDI:** Extended screen-এর পাশে নতুন NDI বোতাম: ভিউগুলো (Pixel Mapping, কানেকশন, ড্রয়িং, অ্যানিমেশন ও অন্যান্য) নেটওয়ার্কে NDI সোর্স হিসেবে Resolume, vMix বা OBS-এ যায়। বিনামূল্যের NDI Tools লাগবে।",
+        "**ড্রয়িং:** কানেকশন থেকে নেওয়া নতুন লেআউট: কন্ট্রোলারের ভেতরে sending card, প্যানেলের নিচে CVT রিসিভার পর্যন্ত ফাইবার কেবল এবং প্রতিটি sending card-এর আলাদা রং। প্রিসেট ৬ থেকে ১০ এই পদ্ধতি ব্যবহার করে।",
+        "**কানেকশন:** কোনো Device-এর ওপরের অংশে ক্লিক করলে তার কেবল হাইলাইট হয়, আর Delete চাপলে সেটি মুছে যায়। কোনো পোর্টে ক্লিক করলে প্রিসেটসহ সুইপ চালু হয়। সব ট্যাবে পোর্টের সংখ্যা একই।",
+        "**সিগন্যাল:** EDID টেক্সট আকারে দেখায়, AMD Radeon Pro / FirePro কার্ডের জন্য “Save EDID (.txt)” সহ, এবং .bin ফাইল ঠিক করা হয়েছে।",
+        "**লোগো ও ক্যানভাস:** লোগোর আকার বদলানোর হ্যান্ডেল (Pixel Mapping, Grid ও ড্রয়িং), কোন দিকে বাড়বে তা বেছে নিতে Canvas size-এ তীর, PNG / PNG Alpha ক্যামেরা এবং PDF-এর শেষে স্ক্রিনের ডেটা শিট।",
+        "**অ্যানিমেশন:** বড় প্রিভিউ, ডিফল্ট স্বাভাবিক গতি ও Default বোতাম, এবং এক্সটেন্ডেড স্ক্রিনের নিচে একই প্লে/পজ। নতুন ভাষা: তামাজাইট (আলজেরিয়া)।"
+      ],
+      "ms": [
+        "**NDI:** butang NDI baharu di sebelah Extended screen: paparan (Pixel Mapping, Sambungan, Lukisan, Animasi dan lain-lain) dihantar melalui rangkaian sebagai sumber NDI untuk Resolume, vMix atau OBS. Memerlukan NDI Tools percuma.",
+        "**Lukisan:** susun atur baharu daripada Sambungan: sending card di dalam pengawal, kabel gentian ke penerima CVT di bawah panel dan satu warna bagi setiap sending card. Preset 6 hingga 10 menggunakan skema ini.",
+        "**Sambungan:** klik bahagian atas sebuah Device untuk menyerlahkan kabelnya dan tekan Delete untuk memadamnya. Klik pada port menghidupkan sapuan dengan preset. Bilangan port sama dalam semua tab.",
+        "**Isyarat:** EDID dipaparkan sebagai teks, dengan “Save EDID (.txt)” untuk kad AMD Radeon Pro / FirePro, dan fail .bin telah dibetulkan.",
+        "**Logo dan kanvas:** pemegang untuk mengubah saiz logo (Pixel Mapping, Grid dan Lukisan), anak panah dalam Canvas size untuk memilih sisi yang membesar, kamera PNG / PNG Alpha dan helaian data skrin di hujung PDF.",
+        "**Animasi:** pratonton lebih besar, kelajuan biasa secara lalai dengan butang Default, dan main/jeda yang sama di bawah skrin lanjutan. Bahasa baharu: Tamazight (Algeria)."
+      ],
+      "sv": [
+        "**NDI:** ny NDI-knapp bredvid Extended screen: vyerna (Pixel Mapping, Anslutning, Ritning, Animation med flera) skickas över nätverket som NDI-källor till Resolume, vMix eller OBS. Kräver gratisprogrammet NDI Tools.",
+        "**Ritning:** ny layout hämtad från Anslutning: sending cards i styrenheten, fiberkablar till CVT-mottagarna under panelerna och en färg per sending card. Förinställningarna 6 till 10 använder detta schema.",
+        "**Anslutning:** klicka överst på en Device för att markera dess kablar och tryck på Delete för att ta bort den. Ett klick på en port slår på svepet med en förinställning. Antalet portar är detsamma i alla flikar.",
+        "**Signal:** EDID visas som text, med ”Save EDID (.txt)” för AMD Radeon Pro / FirePro-kort, och .bin-filen har rättats.",
+        "**Logotyper och canvas:** handtag för att ändra storlek på logotyperna (Pixel Mapping, Grid och Ritning), pilar i Canvas size för att välja sidan som växer, kamera PNG / PNG Alpha och ett datablad över skärmarna i slutet av PDF:en.",
+        "**Animation:** större förhandsvisning, normal hastighet som standard med knappen Default och samma spela/pausa under den utökade skärmen. Nytt språk: tamazight (Algeriet)."
+      ],
+      "ur": [
+        "**NDI:** Extended screen کے ساتھ نیا NDI بٹن: ویوز (Pixel Mapping، کنکشن، ڈرائنگ، اینیمیشن اور دیگر) نیٹ ورک پر NDI سورس کے طور پر Resolume، vMix یا OBS تک جاتے ہیں۔ مفت NDI Tools ضروری ہے۔",
+        "**ڈرائنگ:** کنکشن سے بنا نیا لے آؤٹ: کنٹرولر کے اندر sending card، پینلز کے نیچے CVT ریسیورز تک فائبر کیبل اور ہر sending card کا الگ رنگ۔ پری سیٹ 6 سے 10 یہی اسکیم استعمال کرتے ہیں۔",
+        "**کنکشن:** کسی Device کے اوپر والے حصے پر کلک کریں تو اس کی کیبلز نمایاں ہو جاتی ہیں، اور Delete دبا کر اسے ہٹائیں۔ کسی پورٹ پر کلک کرنے سے پری سیٹ کے ساتھ سویپ چالو ہوتا ہے۔ ہر ٹیب میں پورٹس کی تعداد ایک جیسی ہے۔",
+        "**سگنل:** EDID متن کی صورت میں دکھتا ہے، AMD Radeon Pro / FirePro کارڈز کے لیے “Save EDID (.txt)” کے ساتھ، اور .bin فائل درست کر دی گئی ہے۔",
+        "**لوگو اور کینوس:** لوگو کا سائز بدلنے کے ہینڈل (Pixel Mapping، Grid اور ڈرائنگ)، Canvas size میں بڑھنے والی سمت چننے کے تیر، PNG / PNG Alpha کیمرا اور PDF کے آخر میں اسکرینز کی ڈیٹا شیٹ۔",
+        "**اینیمیشن:** بڑا پیش منظر، ڈیفالٹ عام رفتار اور Default بٹن، اور توسیعی اسکرین کے نیچے وہی پلے/پاز۔ نئی زبان: تمازیغت (الجزائر)۔"
+      ],
+      "sw": [
+        "**NDI:** kitufe kipya cha NDI kando ya Extended screen: mionekano (Pixel Mapping, Muunganisho, Mchoro, Uhuishaji na mingine) hutoka kupitia mtandao kama vyanzo vya NDI kwa Resolume, vMix au OBS. Inahitaji NDI Tools ya bure.",
+        "**Mchoro:** mpangilio mpya kutoka kwa Muunganisho: sending card ndani ya kidhibiti, nyaya za fiber hadi vipokezi vya CVT chini ya paneli na rangi moja kwa kila sending card. Preset 6 hadi 10 zinatumia mpango huu.",
+        "**Muunganisho:** bofya juu ya Device ili kuangazia nyaya zake na ubonyeze Delete kuifuta. Kubofya mlango huwasha kufagia kwa preset. Idadi ya milango ni sawa katika vichupo vyote.",
+        "**Ishara:** EDID inaonyeshwa kama maandishi, pamoja na “Save EDID (.txt)” kwa kadi za AMD Radeon Pro / FirePro, na faili ya .bin imesahihishwa.",
+        "**Nembo na turubai:** vishikio vya kubadilisha ukubwa wa nembo (Pixel Mapping, Grid na Mchoro), mishale katika Canvas size kuchagua upande unaokua, kamera ya PNG / PNG Alpha na karatasi ya data ya skrini mwishoni mwa PDF.",
+        "**Uhuishaji:** onyesho la awali kubwa zaidi, kasi ya kawaida kama chaguo-msingi na kitufe cha Default, na cheza/sitisha ileile chini ya skrini iliyopanuliwa. Lugha mpya: Kitamazight (Algeria)."
+      ],
+      "gn": [
+        "**NDI:** botón NDI pyahu Extended screen ykére: umi vista (Pixel Mapping, Conexión, Dibujo, Animación ha ambue) osẽ red rupi fuente NDI ramo Resolume, vMix térã OBS-pe guarã. Oikotevẽ NDI Tools, ojehepyme’ẽ’ỹva.",
+        "**Dibujo:** layout pyahu ojegueru Conexión-gui: sending card controladora ryepýpe, cable fibra ohóva receptor CVT peve panel guýpe ha peteĩ color sending card tenondépe. Preset 6 guive 10 peve oipuru ko esquema.",
+        "**Conexión:** eñemboja Device yvate gotyo ehechauka hag̃ua icable ha eñemboguejy Delete embogue hag̃ua. Ejopy peteĩ puerto ombyaty barrido preset ndive. Puerto papapy peteĩchagua opaite pestaña-pe.",
+        "**Señal:** EDID ojehechauka texto ramo, “Save EDID (.txt)” ndive tarjeta AMD Radeon Pro / FirePro-pe g̃uarã, ha archivo .bin oñemyatyrõma.",
+        "**Logo ha canvas:** asa ombotuicha térã omomichĩ hag̃ua logo (Pixel Mapping, Grid ha Dibujo), flecha Canvas size-pe eiporavo hag̃ua lado okakuaáva, cámara PNG / PNG Alpha ha ficha técnica pantalla rehegua PDF pahápe.",
+        "**Animación:** vista previa tuichave, velocidad normal ojeporu ypýpe botón Default ndive, ha upéichagua play/pausa pantalla extendida guýpe. Ñe’ẽ pyahu: tamazight (Argelia)."
+      ],
+      "he": [
+        "**NDI:** כפתור NDI חדש ליד Extended screen: התצוגות (Pixel Mapping, חיבור, שרטוט, אנימציה ועוד) יוצאות ברשת כמקורות NDI אל Resolume,‏ vMix או OBS. נדרש NDI Tools החינמי.",
+        "**שרטוט:** פריסה חדשה מתוך החיבור: כרטיסי sending card בתוך הבקר, כבלי סיב עד מקלטי CVT מתחת ללוחות וצבע לכל sending card. פריסטים 6 עד 10 משתמשים בתבנית זו.",
+        "**חיבור:** לחצו על החלק העליון של Device כדי להדגיש את הכבלים שלו ולחצו Delete כדי למחוק אותו. לחיצה על יציאה מפעילה סימון אזור עם פריסט. מספר היציאות זהה בכל הלשוניות.",
+        "**אות:** ה-EDID מוצג כטקסט, עם “Save EDID (.txt)” לכרטיסי AMD Radeon Pro / FirePro, וקובץ ה-.bin תוקן.",
+        "**לוגואים וקנבס:** ידיות לשינוי גודל הלוגואים (Pixel Mapping,‏ Grid ושרטוט), חצים ב-Canvas size לבחירת הצד שגדל, מצלמת PNG / PNG Alpha וגיליון נתונים של המסכים בסוף ה-PDF.",
+        "**אנימציה:** תצוגה מקדימה גדולה יותר, מהירות רגילה כברירת מחדל עם כפתור Default, ואותו ניגון/השהיה מתחת למסך המורחב. שפה חדשה: תמזיגת (אלג׳יריה)."
+      ],
+      "lv": [
+        "**NDI:** jauna NDI poga blakus Extended screen: skati (Pixel Mapping, Savienojums, Zīmējums, Animācija un citi) tiek sūtīti tīklā kā NDI avoti uz Resolume, vMix vai OBS. Nepieciešams bezmaksas NDI Tools.",
+        "**Zīmējums:** jauns izkārtojums no Savienojuma: sending card kontrollera iekšpusē, optiskie kabeļi līdz CVT uztvērējiem zem paneļiem un sava krāsa katrai sending card. Iestatījumi 6 līdz 10 izmanto šo shēmu.",
+        "**Savienojums:** noklikšķiniet uz Device augšdaļas, lai izceltu tā kabeļus, un nospiediet Delete, lai to izdzēstu. Klikšķis uz porta ieslēdz apgabala atlasi ar iestatījumu. Portu skaits visās cilnēs ir vienāds.",
+        "**Signāls:** EDID tiek rādīts kā teksts, ar “Save EDID (.txt)” AMD Radeon Pro / FirePro kartēm, un .bin fails ir izlabots.",
+        "**Logotipi un audekls:** turi logotipu izmēra maiņai (Pixel Mapping, Grid un Zīmējums), bultas Canvas size, lai izvēlētos augošo pusi, PNG / PNG Alpha kamera un ekrānu datu lapa PDF beigās.",
+        "**Animācija:** lielāks priekšskatījums, pēc noklusējuma parasts ātrums ar pogu Default un tā pati atskaņošana/pauze zem paplašinātā ekrāna. Jauna valoda: tamazigtu (Alžīrija)."
+      ],
+      "fa": [
+        "**NDI:** دکمه NDI جدید کنار Extended screen: نماها (Pixel Mapping، اتصال، نقشه، انیمیشن و غیره) از طریق شبکه به‌صورت منبع NDI به Resolume، vMix یا OBS می‌روند. NDI Tools رایگان لازم است.",
+        "**نقشه:** چیدمان جدید برگرفته از اتصال: sending cardها داخل کنترلر، کابل فیبر تا گیرنده‌های CVT زیر پنل‌ها و یک رنگ برای هر sending card. پیش‌تنظیم‌های ۶ تا ۱۰ از این طرح استفاده می‌کنند.",
+        "**اتصال:** روی بالای یک Device کلیک کنید تا کابل‌هایش برجسته شوند و Delete را بزنید تا حذف شود. کلیک روی یک پورت، انتخاب ناحیه با یک پیش‌تنظیم را روشن می‌کند. تعداد پورت‌ها در همه زبانه‌ها یکسان است.",
+        "**سیگنال:** EDID به‌صورت متن نمایش داده می‌شود، با «Save EDID (.txt)» برای کارت‌های AMD Radeon Pro / FirePro، و فایل .bin اصلاح شد.",
+        "**لوگوها و بوم:** دستگیره برای تغییر اندازه لوگوها (Pixel Mapping، Grid و نقشه)، فلش‌هایی در Canvas size برای انتخاب سمتی که بزرگ می‌شود، دوربین PNG / PNG Alpha و برگه مشخصات صفحه‌ها در پایان PDF.",
+        "**انیمیشن:** پیش‌نمایش بزرگ‌تر، سرعت عادی به‌طور پیش‌فرض با دکمه Default و همان پخش/مکث زیر صفحه گسترده. زبان جدید: تمازیغت (الجزایر)."
+      ],
+      "pl": [
+        "**NDI:** nowy przycisk NDI obok Extended screen: widoki (Pixel Mapping, Połączenie, Rysunek, Animacja i inne) wychodzą przez sieć jako źródła NDI do Resolume, vMix lub OBS. Wymaga darmowego NDI Tools.",
+        "**Rysunek:** nowy układ na podstawie Połączenia: sending cardy wewnątrz kontrolera, kable światłowodowe do odbiorników CVT pod panelami i jeden kolor na każdą sending card. Presety od 6 do 10 używają tego schematu.",
+        "**Połączenie:** kliknij górę Device, aby podświetlić jego kable, i naciśnij Delete, aby go usunąć. Kliknięcie portu włącza zaznaczanie obszarem z presetem. Liczba portów jest taka sama we wszystkich kartach.",
+        "**Sygnał:** EDID jest wyświetlany jako tekst, z „Save EDID (.txt)” dla kart AMD Radeon Pro / FirePro, a plik .bin został poprawiony.",
+        "**Loga i kanwa:** uchwyty do zmiany rozmiaru logo (Pixel Mapping, Grid i Rysunek), strzałki w Canvas size do wyboru strony, która rośnie, aparat PNG / PNG Alpha i karta danych ekranów na końcu PDF.",
+        "**Animacja:** większy podgląd, domyślnie normalna prędkość z przyciskiem Default i ten sam play/pauza pod ekranem rozszerzonym. Nowy język: tamazight (Algieria)."
+      ],
+      "uk": [
+        "**NDI:** нова кнопка NDI поруч із Extended screen: види (Pixel Mapping, Підключення, Схема, Анімація та інші) передаються мережею як джерела NDI для Resolume, vMix або OBS. Потрібен безкоштовний NDI Tools.",
+        "**Схема:** нове компонування на основі Підключення: sending card усередині контролера, оптичні кабелі до приймачів CVT під панелями і свій колір для кожної sending card. Пресети 6–10 використовують цю схему.",
+        "**Підключення:** клацніть верх Device, щоб підсвітити його кабелі, і натисніть Delete, щоб видалити його. Клацання по порту вмикає виділення областю з пресетом. Кількість портів однакова на всіх вкладках.",
+        "**Сигнал:** EDID показується текстом, з кнопкою «Save EDID (.txt)» для карт AMD Radeon Pro / FirePro, а файл .bin виправлено.",
+        "**Логотипи й полотно:** маркери для зміни розміру логотипів (Pixel Mapping, Grid і Схема), стрілки в Canvas size для вибору сторони, що росте, камера PNG / PNG Alpha і паспорт екранів наприкінці PDF.",
+        "**Анімація:** більший попередній перегляд, звичайна швидкість за замовчуванням із кнопкою Default і той самий play/pause під розширеним екраном. Нова мова: тамазігхт (Алжир)."
+      ],
+      "ca": [
+        "**NDI:** nou botó NDI al costat d’Extended screen: les vistes (Pixel Mapping, Connexió, Dibuix, Animació i altres) surten per la xarxa com a fonts NDI per a Resolume, vMix o OBS. Cal NDI Tools, gratuït.",
+        "**Dibuix:** nova disposició presa de la Connexió: les sending cards dins de la controladora, cables de fibra fins als receptors CVT sota els panells i un color per a cada sending card. Els presets 6 a 10 fan servir aquest esquema.",
+        "**Connexió:** feu clic a la part superior d’un Device per ressaltar-ne els cables i premeu Delete per esborrar-lo. Fer clic en un port activa l’escombratge amb un preset. El nombre de ports és el mateix a totes les pestanyes.",
+        "**Senyal:** l’EDID es mostra com a text, amb “Save EDID (.txt)” per a targetes AMD Radeon Pro / FirePro, i el fitxer .bin s’ha corregit.",
+        "**Logos i canvas:** nanses per redimensionar els logos (Pixel Mapping, Grid i Dibuix), fletxes a Canvas size per triar el costat que creix, càmera PNG / PNG Alpha i una fitxa tècnica de les pantalles al final del PDF.",
+        "**Animació:** previsualització més gran, velocitat normal per defecte amb el botó Default i el mateix play/pausa sota la pantalla estesa. Nova llengua: tamazic (Algèria)."
+      ],
+      "cs": [
+        "**NDI:** nové tlačítko NDI vedle Extended screen: pohledy (Pixel Mapping, Připojení, Výkres, Animace a další) jdou po síti jako zdroje NDI do Resolume, vMix nebo OBS. Vyžaduje bezplatné NDI Tools.",
+        "**Výkres:** nové rozvržení podle Připojení: sending cardy uvnitř řadiče, optické kabely k přijímačům CVT pod panely a jedna barva pro každou sending card. Presety 6 až 10 používají toto schéma.",
+        "**Připojení:** klikněte na horní část Device pro zvýraznění jeho kabelů a stiskněte Delete pro jeho smazání. Klik na port zapne výběr oblastí s presetem. Počet portů je stejný na všech kartách.",
+        "**Signál:** EDID se zobrazuje jako text, s „Save EDID (.txt)“ pro karty AMD Radeon Pro / FirePro, a soubor .bin byl opraven.",
+        "**Loga a plátno:** úchyty pro změnu velikosti log (Pixel Mapping, Grid a Výkres), šipky v Canvas size pro volbu strany, která roste, fotoaparát PNG / PNG Alpha a datový list obrazovek na konci PDF.",
+        "**Animace:** větší náhled, výchozí normální rychlost s tlačítkem Default a stejné přehrát/pozastavit pod rozšířenou obrazovkou. Nový jazyk: tamazight (Alžírsko)."
+      ],
+      "fi": [
+        "**NDI:** uusi NDI-painike Extended screenin vieressä: näkymät (Pixel Mapping, Yhteys, Piirros, Animaatio ja muut) lähtevät verkkoon NDI-lähteinä Resolumeen, vMixiin tai OBS:ään. Vaatii ilmaisen NDI Toolsin.",
+        "**Piirros:** uusi asettelu Yhteydestä: sending cardit ohjaimen sisällä, kuitukaapelit paneelien alla oleviin CVT-vastaanottimiin ja oma väri jokaiselle sending cardille. Esiasetukset 6–10 käyttävät tätä mallia.",
+        "**Yhteys:** napsauta Devicen yläosaa korostaaksesi sen kaapelit ja paina Delete poistaaksesi sen. Portin napsautus kytkee aluevalinnan päälle esiasetuksella. Porttien määrä on sama kaikilla välilehdillä.",
+        "**Signaali:** EDID näytetään tekstinä, ja AMD Radeon Pro / FirePro -korteille on ”Save EDID (.txt)”; .bin-tiedosto on korjattu.",
+        "**Logot ja kangas:** kahvat logojen koon muuttamiseen (Pixel Mapping, Grid ja Piirros), nuolet Canvas sizessa kasvavan puolen valintaan, PNG / PNG Alpha -kamera ja näyttöjen tietolehti PDF:n lopussa.",
+        "**Animaatio:** suurempi esikatselu, oletuksena normaali nopeus Default-painikkeella ja sama toisto/tauko laajennetun näytön alla. Uusi kieli: tamazight (Algeria)."
+      ],
+      "el": [
+        "**NDI:** νέο κουμπί NDI δίπλα στο Extended screen: οι προβολές (Pixel Mapping, Σύνδεση, Σχέδιο, Κίνηση και άλλες) βγαίνουν στο δίκτυο ως πηγές NDI για Resolume, vMix ή OBS. Απαιτείται το δωρεάν NDI Tools.",
+        "**Σχέδιο:** νέα διάταξη από τη Σύνδεση: οι sending card μέσα στον ελεγκτή, καλώδια οπτικών ινών έως τους δέκτες CVT κάτω από τα πάνελ και ένα χρώμα για κάθε sending card. Τα presets 6 έως 10 χρησιμοποιούν αυτό το σχήμα.",
+        "**Σύνδεση:** κάντε κλικ στο πάνω μέρος ενός Device για να τονιστούν τα καλώδιά του και πατήστε Delete για να το διαγράψετε. Το κλικ σε μια θύρα ενεργοποιεί την επιλογή περιοχής με ένα preset. Ο αριθμός θυρών είναι ίδιος σε όλες τις καρτέλες.",
+        "**Σήμα:** το EDID εμφανίζεται ως κείμενο, με «Save EDID (.txt)» για κάρτες AMD Radeon Pro / FirePro, και το αρχείο .bin διορθώθηκε.",
+        "**Λογότυπα και καμβάς:** λαβές για αλλαγή μεγέθους των λογότυπων (Pixel Mapping, Grid και Σχέδιο), βέλη στο Canvas size για την πλευρά που μεγαλώνει, κάμερα PNG / PNG Alpha και φύλλο δεδομένων των οθονών στο τέλος του PDF.",
+        "**Κίνηση:** μεγαλύτερη προεπισκόπηση, κανονική ταχύτητα ως προεπιλογή με το κουμπί Default και το ίδιο play/pause κάτω από την εκτεταμένη οθόνη. Νέα γλώσσα: ταμαζίτ (Αλγερία)."
+      ],
+      "ha": [
+        "**NDI:** sabon maɓallin NDI kusa da Extended screen: ra’ayoyi (Pixel Mapping, Haɗi, Zane, Motsi da sauransu) suna fita ta hanyar sadarwa a matsayin tushen NDI zuwa Resolume, vMix ko OBS. Ana buƙatar NDI Tools kyauta.",
+        "**Zane:** sabon tsari daga Haɗi: sending card a cikin mai sarrafawa, wayoyin fiber zuwa masu karɓar CVT a ƙarƙashin allunan, da launi ɗaya ga kowane sending card. Preset 6 zuwa 10 suna amfani da wannan tsari.",
+        "**Haɗi:** danna saman Device don haskaka wayoyinsa sannan danna Delete don share shi. Danna tashar jiragen ruwa yana kunna zaɓin yanki tare da preset. Adadin tashoshi iri ɗaya ne a duk shafuka.",
+        "**Sigina:** ana nuna EDID a matsayin rubutu, tare da “Save EDID (.txt)” don katunan AMD Radeon Pro / FirePro, kuma an gyara fayil ɗin .bin.",
+        "**Tambura da zane:** hannaye don canza girman tambura (Pixel Mapping, Grid da Zane), kibiyoyi a Canvas size don zaɓar gefen da ke girma, kyamarar PNG / PNG Alpha da takardar bayanan allo a ƙarshen PDF.",
+        "**Motsi:** samfoti mafi girma, saurin al’ada ta tsohuwa tare da maɓallin Default, da kunna/dakatarwa iri ɗaya a ƙarƙashin allon da aka faɗaɗa. Sabon harshe: Tamazight (Aljeriya)."
+      ],
+      "ro": [
+        "**NDI:** buton NDI nou lângă Extended screen: vederile (Pixel Mapping, Conexiune, Desen, Animație și altele) ies în rețea ca surse NDI pentru Resolume, vMix sau OBS. Necesită NDI Tools, gratuit.",
+        "**Desen:** aranjament nou preluat din Conexiune: sending card-urile în controler, cabluri de fibră până la receptoarele CVT de sub panouri și o culoare pentru fiecare sending card. Preseturile 6–10 folosesc această schemă.",
+        "**Conexiune:** faceți clic pe partea de sus a unui Device pentru a-i evidenția cablurile și apăsați Delete pentru a-l șterge. Un clic pe un port pornește selecția prin baleiere cu un preset. Numărul de porturi este același în toate filele.",
+        "**Semnal:** EDID-ul apare ca text, cu „Save EDID (.txt)” pentru plăcile AMD Radeon Pro / FirePro, iar fișierul .bin a fost corectat.",
+        "**Logouri și canvas:** mânere pentru redimensionarea logourilor (Pixel Mapping, Grid și Desen), săgeți în Canvas size pentru a alege partea care crește, cameră PNG / PNG Alpha și o fișă tehnică a ecranelor la sfârșitul PDF-ului.",
+        "**Animație:** previzualizare mai mare, viteză normală implicit cu butonul Default și același play/pauză sub ecranul extins. Limbă nouă: tamazight (Algeria)."
+      ],
+      "yo": [
+        "**NDI:** bọ́tìnnì NDI tuntun lẹ́gbẹ̀ẹ́ Extended screen: àwọn ìwò (Pixel Mapping, Ìsopọ̀, Àwòrán, Ìṣípòpadà àti àwọn mìíràn) ń jáde lórí nẹ́tíwọ́ọ̀kì gẹ́gẹ́ bí orísun NDI fún Resolume, vMix tàbí OBS. Ó nílò NDI Tools tó jẹ́ ọ̀fẹ́.",
+        "**Àwòrán:** ètò tuntun láti Ìsopọ̀: àwọn sending card nínú olùdarí, okùn fiber dé àwọn olùgbà CVT lábẹ́ àwọn pánẹ́lì, àti àwọ̀ kan fún sending card kọ̀ọ̀kan. Preset 6 sí 10 ń lo ètò yìí.",
+        "**Ìsopọ̀:** tẹ òkè Device kan láti tan ìmọ́lẹ̀ sí àwọn okùn rẹ̀, kí o sì tẹ Delete láti pa á rẹ́. Títẹ ibùdó kan ń tan ìyànsíta agbègbè pẹ̀lú preset. Iye àwọn ibùdó jẹ́ bákan náà ní gbogbo táàbù.",
+        "**Àmì:** EDID ń hàn bí ọ̀rọ̀, pẹ̀lú “Save EDID (.txt)” fún àwọn káàdì AMD Radeon Pro / FirePro, a sì ti tún fáìlì .bin ṣe.",
+        "**Àwọn àmì-ìdámọ̀ àti kanfasi:** ìmúra láti yí ìwọ̀n àwọn lógò padà (Pixel Mapping, Grid àti Àwòrán), ọfà nínú Canvas size láti yan ẹ̀gbẹ́ tó ń dàgbà, kámẹ́rà PNG / PNG Alpha àti ìwé dátà àwọn ìbòjú ní òpin PDF.",
+        "**Ìṣípòpadà:** àwòtẹ́lẹ̀ tó tóbi jù, ìyára déédé ní àìyípadà pẹ̀lú bọ́tìnnì Default, àti ṣíṣe/ìdádúró kan náà lábẹ́ ìbòjú àfikún. Èdè tuntun: Tamazight (Algeria)."
+      ],
+      "zu": [
+        "**NDI:** inkinobho entsha ye-NDI eduze kwe-Extended screen: ukubuka (Pixel Mapping, Uxhumano, Umdwebo, Ukugqwayiza nokunye) kuphuma ngenethiwekhi njengemithombo ye-NDI ku-Resolume, vMix noma OBS. Kudingeka i-NDI Tools yamahhala.",
+        "**Umdwebo:** ukuhleleka okusha okuthathwe ku-Uxhumano: ama-sending card ngaphakathi kwesilawuli, izintambo ze-fiber eziya kumamukeli we-CVT ngaphansi kwamaphaneli nombala owodwa nge-sending card ngayinye. Ama-preset 6 kuya ku-10 asebenzisa lolu hlelo.",
+        "**Uxhumano:** chofoza phezulu ku-Device ukuze ugqamise izintambo zayo bese ucindezela u-Delete ukuze uyisuse. Ukuchofoza imbobo kuvula ukukhetha indawo nge-preset. Inani lezimbobo liyafana kuwo wonke amathebhu.",
+        "**Isignali:** i-EDID iboniswa njengombhalo, ne-“Save EDID (.txt)” yamakhadi e-AMD Radeon Pro / FirePro, futhi ifayela le-.bin selilungisiwe.",
+        "**Amalogo nekhanvasi:** izibambo zokushintsha usayizi wamalogo (Pixel Mapping, Grid noMdwebo), imicibisholo ku-Canvas size yokukhetha uhlangothi olukhulayo, ikhamera ye-PNG / PNG Alpha neshidi ledatha lezikrini ekugcineni kwe-PDF.",
+        "**Ukugqwayiza:** ukubuka kuqala okukhulu, isivinini esivamile ngokuzenzakalela nenkinobho ethi Default, nokudlala/ukumisa okufanayo ngaphansi kwesikrini esinwetshiwe. Ulimi olusha: isiTamazight (e-Algeria)."
+      ],
+      "fil": [
+        "**NDI:** bagong NDI button sa tabi ng Extended screen: ang mga view (Pixel Mapping, Connection, Drawing, Animation at iba pa) ay ipinapadala sa network bilang mga NDI source para sa Resolume, vMix o OBS. Kailangan ang libreng NDI Tools.",
+        "**Drawing:** bagong layout mula sa Connection: ang mga sending card sa loob ng controller, fiber cable papunta sa mga CVT receiver sa ilalim ng mga panel at isang kulay bawat sending card. Ginagamit ng presets 6 hanggang 10 ang scheme na ito.",
+        "**Connection:** i-click ang itaas ng isang Device para i-highlight ang mga cable nito at pindutin ang Delete para burahin ito. Ang pag-click sa isang port ay nag-o-on ng sweep na may preset. Pareho ang bilang ng port sa lahat ng tab.",
+        "**Signal:** ipinapakita ang EDID bilang teksto, may “Save EDID (.txt)” para sa mga AMD Radeon Pro / FirePro card, at naayos na ang .bin file.",
+        "**Mga logo at canvas:** mga handle para baguhin ang laki ng mga logo (Pixel Mapping, Grid at Drawing), mga arrow sa Canvas size para piliin ang gilid na lalaki, camera na PNG / PNG Alpha at data sheet ng mga screen sa dulo ng PDF.",
+        "**Animation:** mas malaking preview, normal na bilis bilang default na may Default button, at parehong play/pause sa ilalim ng extended screen. Bagong wika: Tamazight (Algeria)."
+      ],
+      "ta": [
+        "**NDI:** Extended screen அருகே புதிய NDI பொத்தான்: காட்சிகள் (Pixel Mapping, இணைப்பு, வரைபடம், அனிமேஷன் மற்றும் பிற) நெட்வொர்க் வழியாக NDI மூலங்களாக Resolume, vMix அல்லது OBS-க்கு செல்கின்றன. இலவச NDI Tools தேவை.",
+        "**வரைபடம்:** இணைப்பிலிருந்து புதிய அமைப்பு: கட்டுப்படுத்திக்குள் sending card-கள், பேனல்களுக்குக் கீழே உள்ள CVT ரிசீவர்கள் வரை ஃபைபர் கேபிள்கள், ஒவ்வொரு sending card-க்கும் ஒரு நிறம். ப்ரீசெட் 6 முதல் 10 வரை இந்த முறையைப் பயன்படுத்துகின்றன.",
+        "**இணைப்பு:** ஒரு Device-இன் மேல்பகுதியைக் கிளிக் செய்தால் அதன் கேபிள்கள் ஒளிரும்; Delete அழுத்தி அதை நீக்கலாம். ஒரு போர்ட்டைக் கிளிக் செய்தால் ப்ரீசெட்டுடன் தேர்வு கருவி இயங்கும். எல்லா தாவல்களிலும் போர்ட் எண்ணிக்கை ஒன்றே.",
+        "**சிக்னல்:** EDID உரையாகக் காட்டப்படுகிறது, AMD Radeon Pro / FirePro அட்டைகளுக்கு “Save EDID (.txt)” உடன்; .bin கோப்பு சரிசெய்யப்பட்டது.",
+        "**லோகோக்கள் மற்றும் கேன்வாஸ்:** லோகோக்களின் அளவை மாற்றும் கைப்பிடிகள் (Pixel Mapping, Grid மற்றும் வரைபடம்), வளரும் பக்கத்தைத் தேர்வுசெய்ய Canvas size-இல் அம்புகள், PNG / PNG Alpha கேமரா மற்றும் PDF இறுதியில் திரைகளின் தரவுத் தாள்.",
+        "**அனிமேஷன்:** பெரிய முன்னோட்டம், இயல்பாக சாதாரண வேகம் மற்றும் Default பொத்தான், நீட்டிக்கப்பட்ட திரைக்குக் கீழே அதே இயக்கு/இடைநிறுத்து. புதிய மொழி: தமாசைட் (அல்ஜீரியா)."
+      ],
+      "te": [
+        "**NDI:** Extended screen పక్కన కొత్త NDI బటన్: వ్యూలు (Pixel Mapping, కనెక్షన్, డ్రాయింగ్, యానిమేషన్ మరియు ఇతరాలు) నెట్‌వర్క్ ద్వారా NDI సోర్స్‌లుగా Resolume, vMix లేదా OBS కి వెళ్తాయి. ఉచిత NDI Tools అవసరం.",
+        "**డ్రాయింగ్:** కనెక్షన్ నుండి కొత్త లేఅవుట్: కంట్రోలర్ లోపల sending card లు, ప్యానెళ్ల కింద ఉన్న CVT రిసీవర్ల వరకు ఫైబర్ కేబుళ్లు, ప్రతి sending card కు ఒక రంగు. ప్రీసెట్ 6 నుండి 10 ఈ పద్ధతిని వాడతాయి.",
+        "**కనెక్షన్:** ఒక Device పైభాగంపై క్లిక్ చేస్తే దాని కేబుళ్లు హైలైట్ అవుతాయి; Delete నొక్కి దాన్ని తొలగించండి. ఒక పోర్ట్‌పై క్లిక్ చేస్తే ప్రీసెట్‌తో స్వీప్ ఆన్ అవుతుంది. అన్ని ట్యాబ్‌లలో పోర్టుల సంఖ్య ఒకటే.",
+        "**సిగ్నల్:** EDID టెక్స్ట్‌గా కనిపిస్తుంది, AMD Radeon Pro / FirePro కార్డుల కోసం “Save EDID (.txt)” తో; .bin ఫైల్ సరిచేయబడింది.",
+        "**లోగోలు మరియు కాన్వాస్:** లోగోల పరిమాణం మార్చే హ్యాండిల్స్ (Pixel Mapping, Grid మరియు డ్రాయింగ్), పెరిగే వైపు ఎంచుకోవడానికి Canvas size లో బాణాలు, PNG / PNG Alpha కెమెరా మరియు PDF చివర స్క్రీన్ల డేటా షీట్.",
+        "**యానిమేషన్:** పెద్ద ప్రివ్యూ, డిఫాల్ట్‌గా సాధారణ వేగం మరియు Default బటన్, విస్తరించిన స్క్రీన్ కింద అదే ప్లే/పాజ్. కొత్త భాష: తమాజైట్ (అల్జీరియా)."
+      ],
+      "mr": [
+        "**NDI:** Extended screen शेजारी नवीन NDI बटण: व्ह्यू (Pixel Mapping, कनेक्शन, ड्रॉइंग, अ‍ॅनिमेशन आणि इतर) नेटवर्कवरून NDI सोर्स म्हणून Resolume, vMix किंवा OBS कडे जातात. मोफत NDI Tools आवश्यक.",
+        "**ड्रॉइंग:** कनेक्शनवरून नवीन मांडणी: कंट्रोलरमध्ये sending card, पॅनेलखालील CVT रिसीव्हरपर्यंत फायबर केबल आणि प्रत्येक sending card ला एक रंग. प्रीसेट 6 ते 10 ही योजना वापरतात.",
+        "**कनेक्शन:** Device च्या वरच्या भागावर क्लिक केल्यास त्याच्या केबल हायलाइट होतात आणि Delete दाबून तो काढता येतो. पोर्टवर क्लिक केल्यास प्रीसेटसह स्वीप सुरू होतो. सर्व टॅबमध्ये पोर्टची संख्या सारखीच आहे.",
+        "**सिग्नल:** EDID मजकूर स्वरूपात दिसतो, AMD Radeon Pro / FirePro कार्डसाठी “Save EDID (.txt)” सह, आणि .bin फाइल दुरुस्त केली आहे.",
+        "**लोगो आणि कॅनव्हास:** लोगोचा आकार बदलण्याचे हँडल (Pixel Mapping, Grid आणि ड्रॉइंग), वाढणारी बाजू निवडण्यासाठी Canvas size मध्ये बाण, PNG / PNG Alpha कॅमेरा आणि PDF च्या शेवटी स्क्रीनची डेटा शीट.",
+        "**अ‍ॅनिमेशन:** मोठे प्रिव्ह्यू, डीफॉल्ट सामान्य वेग आणि Default बटण, आणि विस्तारित स्क्रीनखाली तेच प्ले/पॉज. नवीन भाषा: तमाझाइट (अल्जेरिया)."
+      ],
+      "da": [
+        "**NDI:** ny NDI-knap ved siden af Extended screen: visningerne (Pixel Mapping, Forbindelse, Tegning, Animation m.fl.) sendes over netværket som NDI-kilder til Resolume, vMix eller OBS. Kræver det gratis NDI Tools.",
+        "**Tegning:** nyt layout fra Forbindelse: sending cards inde i controlleren, fiberkabler til CVT-modtagerne under panelerne og én farve pr. sending card. Forudindstillingerne 6 til 10 bruger dette skema.",
+        "**Forbindelse:** klik øverst på en Device for at fremhæve dens kabler, og tryk på Delete for at slette den. Et klik på en port slår områdemarkering med en forudindstilling til. Antallet af porte er det samme i alle faner.",
+        "**Signal:** EDID vises som tekst, med “Save EDID (.txt)” til AMD Radeon Pro / FirePro-kort, og .bin-filen er rettet.",
+        "**Logoer og lærred:** håndtag til at ændre logoernes størrelse (Pixel Mapping, Grid og Tegning), pile i Canvas size til at vælge siden, der vokser, kamera PNG / PNG Alpha og et datablad over skærmene sidst i PDF’en.",
+        "**Animation:** større forhåndsvisning, normal hastighed som standard med knappen Default og samme afspil/pause under den udvidede skærm. Nyt sprog: tamazight (Algeriet)."
+      ],
+      "nb": [
+        "**NDI:** ny NDI-knapp ved siden av Extended screen: visningene (Pixel Mapping, Tilkobling, Tegning, Animasjon og andre) sendes over nettverket som NDI-kilder til Resolume, vMix eller OBS. Krever gratisverktøyet NDI Tools.",
+        "**Tegning:** ny layout fra Tilkobling: sending cards inne i kontrolleren, fiberkabler til CVT-mottakerne under panelene og én farge per sending card. Forhåndsinnstillingene 6 til 10 bruker dette oppsettet.",
+        "**Tilkobling:** klikk øverst på en Device for å utheve kablene og trykk Delete for å slette den. Et klikk på en port slår på områdemarkering med en forhåndsinnstilling. Antall porter er det samme i alle faner.",
+        "**Signal:** EDID vises som tekst, med «Save EDID (.txt)» for AMD Radeon Pro / FirePro-kort, og .bin-filen er rettet.",
+        "**Logoer og lerret:** håndtak for å endre størrelse på logoene (Pixel Mapping, Grid og Tegning), piler i Canvas size for å velge siden som vokser, kamera PNG / PNG Alpha og et datablad over skjermene til slutt i PDF-en.",
+        "**Animasjon:** større forhåndsvisning, normal hastighet som standard med knappen Default og samme spill av/pause under den utvidede skjermen. Nytt språk: tamazight (Algerie)."
+      ],
+      "lt": [
+        "**NDI:** naujas NDI mygtukas šalia Extended screen: vaizdai (Pixel Mapping, Jungtis, Brėžinys, Animacija ir kiti) per tinklą siunčiami kaip NDI šaltiniai į Resolume, vMix arba OBS. Reikia nemokamo NDI Tools.",
+        "**Brėžinys:** naujas išdėstymas pagal Jungtį: sending card valdiklio viduje, šviesolaidžio kabeliai iki CVT imtuvų po ekranais ir sava spalva kiekvienai sending card. Šablonai nuo 6 iki 10 naudoja šią schemą.",
+        "**Jungtis:** spustelėkite Device viršų, kad paryškintumėte jo kabelius, ir paspauskite Delete, kad jį ištrintumėte. Spustelėjus prievadą įsijungia srities žymėjimas su šablonu. Prievadų skaičius visose kortelėse vienodas.",
+        "**Signalas:** EDID rodomas tekstu, su „Save EDID (.txt)“ AMD Radeon Pro / FirePro plokštėms, o .bin failas pataisytas.",
+        "**Logotipai ir drobė:** rankenėlės logotipų dydžiui keisti (Pixel Mapping, Grid ir Brėžinys), rodyklės Canvas size, kad pasirinktumėte augančią pusę, PNG / PNG Alpha kamera ir ekranų duomenų lapas PDF pabaigoje.",
+        "**Animacija:** didesnė peržiūra, numatytasis normalus greitis su mygtuku Default ir tas pats paleidimas/pauzė po išplėstiniu ekranu. Nauja kalba: tamazigtų (Alžyras)."
+      ],
+      "et": [
+        "**NDI:** uus NDI-nupp Extended screeni kõrval: vaated (Pixel Mapping, Ühendus, Joonis, Animatsioon ja teised) lähevad võrku NDI-allikatena Resolume’i, vMixi või OBS-i jaoks. Vaja on tasuta NDI Toolsi.",
+        "**Joonis:** uus paigutus Ühenduse põhjal: sending cardid kontrolleri sees, fiiberkaablid paneelide all olevate CVT-vastuvõtjateni ja oma värv igale sending cardile. Eelseaded 6 kuni 10 kasutavad seda skeemi.",
+        "**Ühendus:** klõpsake Device’i ülaosal, et selle kaablid esile tõsta, ja vajutage Delete, et see kustutada. Pordil klõpsamine lülitab sisse alavaliku koos eelseadega. Portide arv on kõigil vahekaartidel sama.",
+        "**Signaal:** EDID kuvatakse tekstina, AMD Radeon Pro / FirePro kaartide jaoks on „Save EDID (.txt)“, ja .bin-fail on parandatud.",
+        "**Logod ja lõuend:** käepidemed logode suuruse muutmiseks (Pixel Mapping, Grid ja Joonis), nooled Canvas size’is kasvava külje valimiseks, PNG / PNG Alpha kaamera ja ekraanide andmeleht PDF-i lõpus.",
+        "**Animatsioon:** suurem eelvaade, vaikimisi tavakiirus nupuga Default ja sama esitus/paus laiendatud ekraani all. Uus keel: tamazight (Alžeeria)."
+      ],
+      "sk": [
+        "**NDI:** nové tlačidlo NDI vedľa Extended screen: pohľady (Pixel Mapping, Pripojenie, Výkres, Animácia a ďalšie) idú cez sieť ako zdroje NDI do Resolume, vMix alebo OBS. Vyžaduje bezplatné NDI Tools.",
+        "**Výkres:** nové rozloženie podľa Pripojenia: sending cardy vnútri riadiacej jednotky, optické káble k prijímačom CVT pod panelmi a jedna farba pre každú sending card. Predvoľby 6 až 10 používajú túto schému.",
+        "**Pripojenie:** kliknite na hornú časť Device, aby sa zvýraznili jeho káble, a stlačte Delete, aby ste ho vymazali. Kliknutie na port zapne výber oblasti s predvoľbou. Počet portov je rovnaký na všetkých kartách.",
+        "**Signál:** EDID sa zobrazuje ako text, s „Save EDID (.txt)“ pre karty AMD Radeon Pro / FirePro, a súbor .bin bol opravený.",
+        "**Logá a plátno:** úchyty na zmenu veľkosti lôg (Pixel Mapping, Grid a Výkres), šípky v Canvas size na výber strany, ktorá rastie, fotoaparát PNG / PNG Alpha a dátový list obrazoviek na konci PDF.",
+        "**Animácia:** väčší náhľad, predvolená normálna rýchlosť s tlačidlom Default a rovnaké prehrať/pozastaviť pod rozšírenou obrazovkou. Nový jazyk: tamazight (Alžírsko)."
+      ],
+      "bg": [
+        "**NDI:** нов бутон NDI до Extended screen: изгледите (Pixel Mapping, Свързване, Чертеж, Анимация и други) излизат в мрежата като NDI източници за Resolume, vMix или OBS. Нужен е безплатният NDI Tools.",
+        "**Чертеж:** ново оформление от Свързване: sending картите вътре в контролера, оптични кабели до приемниците CVT под панелите и отделен цвят за всяка sending карта. Предварителните настройки 6 до 10 използват тази схема.",
+        "**Свързване:** щракнете върху горната част на Device, за да осветите кабелите му, и натиснете Delete, за да го изтриете. Щракване върху порт включва избора на област с предварителна настройка. Броят портове е еднакъв във всички раздели.",
+        "**Сигнал:** EDID се показва като текст, с „Save EDID (.txt)“ за карти AMD Radeon Pro / FirePro, а файлът .bin е поправен.",
+        "**Лога и платно:** дръжки за промяна на размера на логата (Pixel Mapping, Grid и Чертеж), стрелки в Canvas size за избор на страната, която расте, камера PNG / PNG Alpha и технически лист на екраните в края на PDF.",
+        "**Анимация:** по-голям преглед, нормална скорост по подразбиране с бутона Default и същото пускане/пауза под разширения екран. Нов език: тамазигт (Алжир)."
+      ],
+      "sr": [
+        "**NDI:** ново NDI дугме поред Extended screen: прикази (Pixel Mapping, Повезивање, Цртеж, Анимација и други) излазе на мрежу као NDI извори за Resolume, vMix или OBS. Потребан је бесплатни NDI Tools.",
+        "**Цртеж:** нови распоред из Повезивања: sending картице унутар контролера, оптички каблови до CVT пријемника испод панела и посебна боја за сваку sending картицу. Подешавања 6 до 10 користе ову шему.",
+        "**Повезивање:** кликните на врх Device-а да истакнете његове каблове и притисните Delete да га обришете. Клик на порт укључује избор области са подешавањем. Број портова је исти на свим картицама.",
+        "**Сигнал:** EDID се приказује као текст, са „Save EDID (.txt)“ за AMD Radeon Pro / FirePro картице, а .bin датотека је исправљена.",
+        "**Логотипи и платно:** ручке за промену величине логотипа (Pixel Mapping, Grid и Цртеж), стрелице у Canvas size за избор стране која расте, камера PNG / PNG Alpha и технички лист екрана на крају PDF-а.",
+        "**Анимација:** већи преглед, нормална брзина подразумевано са дугметом Default и исто пуштање/пауза испод проширеног екрана. Нови језик: тамазигт (Алжир)."
+      ],
+      "hr": [
+        "**NDI:** novi gumb NDI pokraj Extended screen: prikazi (Pixel Mapping, Povezivanje, Crtež, Animacija i drugi) izlaze na mrežu kao NDI izvori za Resolume, vMix ili OBS. Potreban je besplatni NDI Tools.",
+        "**Crtež:** novi raspored iz Povezivanja: sending kartice unutar kontrolera, optički kabeli do CVT prijemnika ispod panela i posebna boja za svaku sending karticu. Predlošci 6 do 10 koriste ovu shemu.",
+        "**Povezivanje:** kliknite vrh Devicea da istaknete njegove kabele i pritisnite Delete da ga izbrišete. Klik na priključak uključuje odabir područja s predloškom. Broj priključaka isti je na svim karticama.",
+        "**Signal:** EDID se prikazuje kao tekst, s „Save EDID (.txt)” za kartice AMD Radeon Pro / FirePro, a datoteka .bin je ispravljena.",
+        "**Logotipi i platno:** ručke za promjenu veličine logotipa (Pixel Mapping, Grid i Crtež), strelice u Canvas size za odabir strane koja raste, kamera PNG / PNG Alpha i tehnički list zaslona na kraju PDF-a.",
+        "**Animacija:** veći pregled, zadana normalna brzina s gumbom Default i isto reproduciranje/pauza ispod proširenog zaslona. Novi jezik: tamazight (Alžir)."
+      ],
+      "gu": [
+        "**NDI:** Extended screen પાસે નવું NDI બટન: વ્યૂ (Pixel Mapping, કનેક્શન, ડ્રોઇંગ, એનિમેશન અને અન્ય) નેટવર્ક પર NDI સ્રોત તરીકે Resolume, vMix અથવા OBS સુધી જાય છે. મફત NDI Tools જરૂરી છે.",
+        "**ડ્રોઇંગ:** કનેક્શનમાંથી નવું લેઆઉટ: કંટ્રોલરની અંદર sending card, પેનલ નીચેના CVT રિસીવર સુધી ફાઇબર કેબલ અને દરેક sending card માટે એક રંગ. પ્રીસેટ 6 થી 10 આ યોજના વાપરે છે.",
+        "**કનેક્શન:** કોઈ Device ના ઉપરના ભાગ પર ક્લિક કરો એટલે તેના કેબલ હાઇલાઇટ થાય, અને Delete દબાવી તેને દૂર કરો. કોઈ પોર્ટ પર ક્લિક કરવાથી પ્રીસેટ સાથે સ્વીપ ચાલુ થાય છે. બધા ટૅબમાં પોર્ટની સંખ્યા સરખી છે.",
+        "**સિગ્નલ:** EDID લખાણ રૂપે દેખાય છે, AMD Radeon Pro / FirePro કાર્ડ માટે “Save EDID (.txt)” સાથે, અને .bin ફાઇલ સુધારાઈ છે.",
+        "**લોગો અને કેનવાસ:** લોગોનું કદ બદલવાના હેન્ડલ (Pixel Mapping, Grid અને ડ્રોઇંગ), વધતી બાજુ પસંદ કરવા Canvas size માં તીર, PNG / PNG Alpha કૅમેરા અને PDF ના અંતે સ્ક્રીનની ડેટા શીટ.",
+        "**એનિમેશન:** મોટું પ્રીવ્યૂ, ડિફૉલ્ટ સામાન્ય ઝડપ અને Default બટન, અને વિસ્તૃત સ્ક્રીન નીચે એ જ પ્લે/પૉઝ. નવી ભાષા: તમાઝાઇટ (અલ્જીરિયા)."
+      ],
+      "pa": [
+        "**NDI:** Extended screen ਦੇ ਕੋਲ ਨਵਾਂ NDI ਬਟਨ: ਵਿਊ (Pixel Mapping, ਕਨੈਕਸ਼ਨ, ਡਰਾਇੰਗ, ਐਨੀਮੇਸ਼ਨ ਅਤੇ ਹੋਰ) ਨੈੱਟਵਰਕ ਰਾਹੀਂ NDI ਸਰੋਤ ਵਜੋਂ Resolume, vMix ਜਾਂ OBS ਤੱਕ ਜਾਂਦੇ ਹਨ। ਮੁਫ਼ਤ NDI Tools ਲੋੜੀਂਦਾ ਹੈ।",
+        "**ਡਰਾਇੰਗ:** ਕਨੈਕਸ਼ਨ ਤੋਂ ਨਵਾਂ ਲੇਆਊਟ: ਕੰਟਰੋਲਰ ਦੇ ਅੰਦਰ sending card, ਪੈਨਲਾਂ ਹੇਠਾਂ CVT ਰਿਸੀਵਰਾਂ ਤੱਕ ਫਾਈਬਰ ਕੇਬਲ ਅਤੇ ਹਰ sending card ਲਈ ਇੱਕ ਰੰਗ। ਪ੍ਰੀਸੈੱਟ 6 ਤੋਂ 10 ਇਹ ਸਕੀਮ ਵਰਤਦੇ ਹਨ।",
+        "**ਕਨੈਕਸ਼ਨ:** ਕਿਸੇ Device ਦੇ ਉੱਪਰਲੇ ਹਿੱਸੇ ’ਤੇ ਕਲਿੱਕ ਕਰੋ ਤਾਂ ਉਸਦੀਆਂ ਕੇਬਲਾਂ ਹਾਈਲਾਈਟ ਹੁੰਦੀਆਂ ਹਨ, ਅਤੇ Delete ਦਬਾ ਕੇ ਉਸਨੂੰ ਹਟਾਓ। ਕਿਸੇ ਪੋਰਟ ’ਤੇ ਕਲਿੱਕ ਕਰਨ ਨਾਲ ਪ੍ਰੀਸੈੱਟ ਸਮੇਤ ਸਵੀਪ ਚਾਲੂ ਹੁੰਦਾ ਹੈ। ਸਾਰੀਆਂ ਟੈਬਾਂ ਵਿੱਚ ਪੋਰਟਾਂ ਦੀ ਗਿਣਤੀ ਇੱਕੋ ਹੈ।",
+        "**ਸਿਗਨਲ:** EDID ਟੈਕਸਟ ਵਜੋਂ ਦਿਸਦਾ ਹੈ, AMD Radeon Pro / FirePro ਕਾਰਡਾਂ ਲਈ “Save EDID (.txt)” ਸਮੇਤ, ਅਤੇ .bin ਫ਼ਾਈਲ ਠੀਕ ਕੀਤੀ ਗਈ ਹੈ।",
+        "**ਲੋਗੋ ਅਤੇ ਕੈਨਵਸ:** ਲੋਗੋ ਦਾ ਆਕਾਰ ਬਦਲਣ ਵਾਲੇ ਹੈਂਡਲ (Pixel Mapping, Grid ਅਤੇ ਡਰਾਇੰਗ), ਵਧਣ ਵਾਲਾ ਪਾਸਾ ਚੁਣਨ ਲਈ Canvas size ਵਿੱਚ ਤੀਰ, PNG / PNG Alpha ਕੈਮਰਾ ਅਤੇ PDF ਦੇ ਅੰਤ ਵਿੱਚ ਸਕ੍ਰੀਨਾਂ ਦੀ ਡਾਟਾ ਸ਼ੀਟ।",
+        "**ਐਨੀਮੇਸ਼ਨ:** ਵੱਡਾ ਪ੍ਰੀਵਿਊ, ਡਿਫ਼ਾਲਟ ਆਮ ਰਫ਼ਤਾਰ ਅਤੇ Default ਬਟਨ, ਅਤੇ ਵਧਾਈ ਸਕ੍ਰੀਨ ਹੇਠਾਂ ਉਹੀ ਪਲੇ/ਪੌਜ਼। ਨਵੀਂ ਭਾਸ਼ਾ: ਤਮਾਜ਼ਾਈਟ (ਅਲਜੀਰੀਆ)।"
+      ],
+      "kn": [
+        "**NDI:** Extended screen ಪಕ್ಕದಲ್ಲಿ ಹೊಸ NDI ಬಟನ್: ವೀಕ್ಷಣೆಗಳು (Pixel Mapping, ಸಂಪರ್ಕ, ಚಿತ್ರ, ಅನಿಮೇಷನ್ ಮತ್ತು ಇತರೆ) ನೆಟ್‌ವರ್ಕ್ ಮೂಲಕ NDI ಮೂಲಗಳಾಗಿ Resolume, vMix ಅಥವಾ OBS ಗೆ ಹೋಗುತ್ತವೆ. ಉಚಿತ NDI Tools ಬೇಕು.",
+        "**ಚಿತ್ರ:** ಸಂಪರ್ಕದಿಂದ ಹೊಸ ವಿನ್ಯಾಸ: ನಿಯಂತ್ರಕದೊಳಗೆ sending card ಗಳು, ಪ್ಯಾನೆಲ್‌ಗಳ ಕೆಳಗಿನ CVT ರಿಸೀವರ್‌ಗಳವರೆಗೆ ಫೈಬರ್ ಕೇಬಲ್‌ಗಳು ಮತ್ತು ಪ್ರತಿ sending card ಗೆ ಒಂದು ಬಣ್ಣ. ಪ್ರೀಸೆಟ್ 6 ರಿಂದ 10 ಈ ಯೋಜನೆ ಬಳಸುತ್ತವೆ.",
+        "**ಸಂಪರ್ಕ:** Device ನ ಮೇಲ್ಭಾಗ ಕ್ಲಿಕ್ ಮಾಡಿದರೆ ಅದರ ಕೇಬಲ್‌ಗಳು ಹೈಲೈಟ್ ಆಗುತ್ತವೆ; Delete ಒತ್ತಿ ಅದನ್ನು ಅಳಿಸಿ. ಪೋರ್ಟ್ ಕ್ಲಿಕ್ ಮಾಡಿದರೆ ಪ್ರೀಸೆಟ್‌ನೊಂದಿಗೆ ಸ್ವೀಪ್ ಆನ್ ಆಗುತ್ತದೆ. ಎಲ್ಲಾ ಟ್ಯಾಬ್‌ಗಳಲ್ಲಿ ಪೋರ್ಟ್‌ಗಳ ಸಂಖ್ಯೆ ಒಂದೇ.",
+        "**ಸಿಗ್ನಲ್:** EDID ಪಠ್ಯವಾಗಿ ತೋರಿಸಲಾಗುತ್ತದೆ, AMD Radeon Pro / FirePro ಕಾರ್ಡ್‌ಗಳಿಗೆ “Save EDID (.txt)” ಜೊತೆಗೆ; .bin ಫೈಲ್ ಸರಿಪಡಿಸಲಾಗಿದೆ.",
+        "**ಲೋಗೋಗಳು ಮತ್ತು ಕ್ಯಾನ್ವಾಸ್:** ಲೋಗೋ ಗಾತ್ರ ಬದಲಿಸುವ ಹಿಡಿಕೆಗಳು (Pixel Mapping, Grid ಮತ್ತು ಚಿತ್ರ), ಬೆಳೆಯುವ ಬದಿ ಆಯ್ಕೆಗೆ Canvas size ನಲ್ಲಿ ಬಾಣಗಳು, PNG / PNG Alpha ಕ್ಯಾಮೆರಾ ಮತ್ತು PDF ಕೊನೆಯಲ್ಲಿ ಪರದೆಗಳ ಡೇಟಾ ಶೀಟ್.",
+        "**ಅನಿಮೇಷನ್:** ದೊಡ್ಡ ಪೂರ್ವವೀಕ್ಷಣೆ, ಡೀಫಾಲ್ಟ್ ಸಾಮಾನ್ಯ ವೇಗ ಮತ್ತು Default ಬಟನ್, ವಿಸ್ತೃತ ಪರದೆಯ ಕೆಳಗೆ ಅದೇ ಪ್ಲೇ/ವಿರಾಮ. ಹೊಸ ಭಾಷೆ: ತಮಾಜೈಟ್ (ಅಲ್ಜೀರಿಯಾ)."
+      ],
+      "ne": [
+        "**NDI:** Extended screen छेउमा नयाँ NDI बटन: दृश्यहरू (Pixel Mapping, कनेक्सन, ड्रइङ, एनिमेसन र अन्य) नेटवर्कबाट NDI स्रोतका रूपमा Resolume, vMix वा OBS मा जान्छन्। निःशुल्क NDI Tools चाहिन्छ।",
+        "**ड्रइङ:** कनेक्सनबाट नयाँ लेआउट: कन्ट्रोलरभित्र sending card, प्यानलमुनिका CVT रिसिभरसम्म फाइबर केबल र हरेक sending card को एउटा रङ। प्रिसेट 6 देखि 10 ले यही योजना प्रयोग गर्छन्।",
+        "**कनेक्सन:** कुनै Device को माथिल्लो भागमा क्लिक गर्दा त्यसका केबल हाइलाइट हुन्छन्, र Delete थिचेर त्यसलाई हटाउनुहोस्। कुनै पोर्टमा क्लिक गर्दा प्रिसेटसहित स्वीप सुरु हुन्छ। सबै ट्याबमा पोर्टको संख्या उस्तै छ।",
+        "**सिग्नल:** EDID पाठको रूपमा देखिन्छ, AMD Radeon Pro / FirePro कार्डका लागि “Save EDID (.txt)” सहित, र .bin फाइल सच्याइएको छ।",
+        "**लोगो र क्यानभास:** लोगोको आकार बदल्ने ह्यान्डल (Pixel Mapping, Grid र ड्रइङ), बढ्ने पक्ष छान्न Canvas size मा तीर, PNG / PNG Alpha क्यामेरा र PDF को अन्त्यमा स्क्रिनहरूको डेटा शीट।",
+        "**एनिमेसन:** ठूलो पूर्वावलोकन, पूर्वनिर्धारित सामान्य गति र Default बटन, र विस्तारित स्क्रिनमुनि उही प्ले/पज। नयाँ भाषा: तमाजाइट (अल्जेरिया)।"
+      ],
+      "km": [
+        "**NDI:** ប៊ូតុង NDI ថ្មីនៅក្បែរ Extended screen៖ ទិដ្ឋភាព (Pixel Mapping, ការតភ្ជាប់, គំនូរ, ចលនា និងផ្សេងៗ) ចេញតាមបណ្ដាញជាប្រភព NDI ទៅ Resolume, vMix ឬ OBS។ ត្រូវការ NDI Tools ឥតគិតថ្លៃ។",
+        "**គំនូរ៖** ប្លង់ថ្មីយកពីការតភ្ជាប់៖ sending card នៅក្នុងឧបករណ៍បញ្ជា ខ្សែហ្វាយប័ររហូតដល់ឧបករណ៍ទទួល CVT នៅក្រោមបន្ទះ និងពណ៌មួយសម្រាប់ sending card នីមួយៗ។ Preset 6 ដល់ 10 ប្រើគ្រោងការណ៍នេះ។",
+        "**ការតភ្ជាប់៖** ចុចផ្នែកខាងលើនៃ Device ដើម្បីបន្លិចខ្សែរបស់វា ហើយចុច Delete ដើម្បីលុបវា។ ការចុចលើច្រកមួយបើកការជ្រើសតំបន់ជាមួយ preset។ ចំនួនច្រកដូចគ្នានៅគ្រប់ផ្ទាំង។",
+        "**សញ្ញា៖** EDID បង្ហាញជាអត្ថបទ ជាមួយ “Save EDID (.txt)” សម្រាប់កាត AMD Radeon Pro / FirePro ហើយឯកសារ .bin ត្រូវបានកែតម្រូវ។",
+        "**ឡូហ្គោ និងផ្ទាំងគំនូរ៖** ចំណុចចាប់សម្រាប់ប្ដូរទំហំឡូហ្គោ (Pixel Mapping, Grid និងគំនូរ) ព្រួញនៅក្នុង Canvas size ដើម្បីជ្រើសផ្នែកដែលពង្រីក កាមេរ៉ា PNG / PNG Alpha និងសន្លឹកទិន្នន័យអេក្រង់នៅចុង PDF។",
+        "**ចលនា៖** ការមើលជាមុនធំជាងមុន ល្បឿនធម្មតាតាមលំនាំដើមជាមួយប៊ូតុង Default និងចាក់/ផ្អាកដូចគ្នានៅក្រោមអេក្រង់បន្ថែម។ ភាសាថ្មី៖ តាម៉ាហ្សៃត៍ (អាល់ហ្សេរី)។"
+      ],
+      "kk": [
+        "**NDI:** Extended screen жанында жаңа NDI түймесі: көріністер (Pixel Mapping, Қосылым, Сызба, Анимация және басқалар) желі арқылы NDI көздері ретінде Resolume, vMix немесе OBS-қа жіберіледі. Тегін NDI Tools қажет.",
+        "**Сызба:** Қосылымнан алынған жаңа орналасу: sending card-тар контроллер ішінде, панельдер астындағы CVT қабылдағыштарына дейін оптикалық кабельдер және әр sending card үшін бір түс. 6–10 алдын ала баптаулары осы сызбаны қолданады.",
+        "**Қосылым:** кабельдерін бөлектеу үшін Device-тің жоғарғы жағын басыңыз, оны жою үшін Delete басыңыз. Портты басу алдын ала баптаумен аймақты таңдауды қосады. Порттар саны барлық қойындыларда бірдей.",
+        "**Сигнал:** EDID мәтін ретінде көрсетіледі, AMD Radeon Pro / FirePro карталары үшін «Save EDID (.txt)» бар, ал .bin файлы түзетілді.",
+        "**Логотиптер мен кенеп:** логотип өлшемін өзгерту тұтқалары (Pixel Mapping, Grid және Сызба), өсетін жақты таңдау үшін Canvas size ішіндегі көрсеткілер, PNG / PNG Alpha камерасы және PDF соңында экрандардың деректер парағы.",
+        "**Анимация:** үлкенірек алдын ала қарау, әдепкі қалыпты жылдамдық және Default түймесі, кеңейтілген экран астында сол ойнату/кідірту. Жаңа тіл: тамазигт (Алжир)."
+      ],
+      "uz": [
+        "**NDI:** Extended screen yonida yangi NDI tugmasi: koʻrinishlar (Pixel Mapping, Ulanish, Chizma, Animatsiya va boshqalar) tarmoq orqali NDI manbalari sifatida Resolume, vMix yoki OBS ga chiqadi. Bepul NDI Tools kerak.",
+        "**Chizma:** Ulanishdan olingan yangi joylashuv: sending card’lar kontroller ichida, panellar ostidagi CVT qabul qilgichlarigacha optik kabellar va har bir sending card uchun bitta rang. 6 dan 10 gacha presetlar shu sxemadan foydalanadi.",
+        "**Ulanish:** kabellarini ajratib koʻrsatish uchun Device’ning yuqori qismini bosing, oʻchirish uchun Delete ni bosing. Portni bosish preset bilan hududni belgilashni yoqadi. Portlar soni barcha yorliqlarda bir xil.",
+        "**Signal:** EDID matn sifatida koʻrsatiladi, AMD Radeon Pro / FirePro kartalari uchun “Save EDID (.txt)” bilan, .bin fayli esa tuzatildi.",
+        "**Logotiplar va kanva:** logotiplar oʻlchamini oʻzgartirish tutqichlari (Pixel Mapping, Grid va Chizma), oʻsadigan tomonni tanlash uchun Canvas size’da strelkalar, PNG / PNG Alpha kamera va PDF oxirida ekranlar maʼlumot varagʻi.",
+        "**Animatsiya:** kattaroq oldindan koʻrish, standart oddiy tezlik va Default tugmasi, kengaytirilgan ekran ostida oʻsha ijro/pauza. Yangi til: tamazigt (Jazoir)."
+      ],
+      "am": [
+        "**NDI:** ከ Extended screen አጠገብ አዲስ የ NDI አዝራር፦ እይታዎቹ (Pixel Mapping፣ ግንኙነት፣ ስዕል፣ እንቅስቃሴ እና ሌሎች) በአውታረ መረብ እንደ NDI ምንጮች ወደ Resolume፣ vMix ወይም OBS ይወጣሉ። ነፃው NDI Tools ያስፈልጋል።",
+        "**ስዕል፦** ከግንኙነት የተወሰደ አዲስ አቀማመጥ፦ sending card በመቆጣጠሪያው ውስጥ፣ ከፓነሎቹ በታች እስካሉት የ CVT ተቀባዮች የፋይበር ገመዶች እና ለእያንዳንዱ sending card አንድ ቀለም። ቅድመ ቅንብሮች 6 እስከ 10 ይህን ዘዴ ይጠቀማሉ።",
+        "**ግንኙነት፦** ገመዶቹን ለማድመቅ የ Device የላይኛውን ክፍል ይጫኑ፣ ለመሰረዝ Delete ይጫኑ። ወደብ መጫን ከቅድመ ቅንብር ጋር የአካባቢ ምርጫን ያበራል። የወደቦች ብዛት በሁሉም ትሮች አንድ ነው።",
+        "**ምልክት፦** EDID እንደ ጽሑፍ ይታያል፣ ለ AMD Radeon Pro / FirePro ካርዶች “Save EDID (.txt)” አለ፣ እና የ .bin ፋይሉ ተስተካክሏል።",
+        "**አርማዎች እና ሸራ፦** የአርማዎችን መጠን የሚቀይሩ መያዣዎች (Pixel Mapping፣ Grid እና ስዕል)፣ የሚያድገውን ጎን ለመምረጥ በ Canvas size ውስጥ ቀስቶች፣ PNG / PNG Alpha ካሜራ እና በ PDF መጨረሻ የስክሪኖች የመረጃ ሉህ።",
+        "**እንቅስቃሴ፦** ትልቅ ቅድመ እይታ፣ በነባሪ መደበኛ ፍጥነት ከ Default አዝራር ጋር፣ እና ከተዘረጋው ስክሪን በታች ያው አጫውት/ለአፍታ አቁም። አዲስ ቋንቋ፦ ታማዚግት (አልጄሪያ)።"
+      ],
+      "sl": [
+        "**NDI:** nov gumb NDI ob Extended screen: pogledi (Pixel Mapping, Povezava, Risba, Animacija in drugi) gredo po omrežju kot viri NDI v Resolume, vMix ali OBS. Potreben je brezplačni NDI Tools.",
+        "**Risba:** nova postavitev iz Povezave: sending kartice v krmilniku, optični kabli do sprejemnikov CVT pod paneli in ena barva za vsako sending kartico. Prednastavitve 6 do 10 uporabljajo to shemo.",
+        "**Povezava:** kliknite vrh Devicea, da poudarite njegove kable, in pritisnite Delete, da ga izbrišete. Klik na vrata vklopi izbiro območja s prednastavitvijo. Število vrat je enako na vseh zavihkih.",
+        "**Signal:** EDID je prikazan kot besedilo, z »Save EDID (.txt)« za kartice AMD Radeon Pro / FirePro, datoteka .bin pa je popravljena.",
+        "**Logotipi in platno:** ročaji za spreminjanje velikosti logotipov (Pixel Mapping, Grid in Risba), puščice v Canvas size za izbiro strani, ki raste, kamera PNG / PNG Alpha in podatkovni list zaslonov na koncu PDF-ja.",
+        "**Animacija:** večji predogled, privzeto običajna hitrost z gumbom Default in isto predvajanje/premor pod razširjenim zaslonom. Nov jezik: tamazight (Alžirija)."
+      ],
+      "kab": [
+        "**NDI:** taqeffalt tamaynut NDI ɣer tama n Extended screen: tiskanin (Pixel Mapping, Tuqqna, Asuneɣ, Animation d tiyaḍ) ttffɣent deg uẓeṭṭa am yiɣbula NDI i Resolume, vMix neɣ OBS. Yessefk NDI Tools, baṭel.",
+        "**Asuneɣ:** taneɣruft tamaynut seg Tuqqna: sending card daxel n umsefrak, ifeḍwalen n fiber ar yimeṭṭafen CVT seddaw n yigdilen d yiwen n yini i yal sending card. Presets 6 ar 10 sseqdacen aɣawas-a.",
+        "**Tuqqna:** sit ɣef usawen n Device akken ad d-ttwaskanen ifeḍwalen-is, syin sit ɣef Delete akken ad t-tekkseḍ. Asiti ɣef tewwurt yessekcam asfeḍ s preset. Amḍan n tewwura d yiwen deg akk accaren.",
+        "**Asɣal:** EDID yettban d aḍris, s “Save EDID (.txt)” i tkarḍiwin AMD Radeon Pro / FirePro, afaylu .bin yettwaseggem.",
+        "**Ilugan d canvas:** tiṭṭfin i ubeddel n teɣzi n yilugan (Pixel Mapping, Grid d Asuneɣ), tineccabin deg Canvas size i ufran n tama ara yimɣuren, takamiṛat PNG / PNG Alpha d tawriqt n yisefka n yigdilen deg taggara n PDF.",
+        "**Animation:** taskant tameqqrant, arured amagnu s wudem amezwer s tqeffalt Default, d yiwen n play/pause seddaw n ugdil yettusefḍen. Tutlayt tamaynut: Tamaziɣt (Lezzayer)."
+      ]
+    },
     "2.8.7": {
       "en": [
         "**Pixel Mapping:** new measurement ruler above and to the left of the panels, in the unit chosen in the settings, with the total width and height. Turn it on and off with “Show measurements”.",
@@ -596,185 +1078,6 @@
       "sl": [
         "**Animacija:** nov pogled Animacija na razširjenem zaslonu, pod Grid. Dva tehnika v resničnem merilu ploščo za ploščo sestavita zaslone projekta: plošče na dosegu roke neseta v rokah, visoke z dvižno ploščadjo. Če ima projekt logotip, je viden na njunih majicah. Na koncu testna slika vsakega zaslona. Shranite jo lahko tudi kot video MP4 v oknu Izvozi.",
         "**3D Stage:** gumbi pogledov v spodnjem kotu so znova poravnani z orodno vrstico in je ne prekrivajo več."
-      ]
-    },
-    "2.8.4": {
-      "en": [
-        "**Adjustments:** in the Connection tab, the Wiring section buttons are aligned again: Clear and Clear all have the same width, one above the other."
-      ],
-      "pt": [
-        "**Ajustes:** na aba Conexão, os botões da seção Cabeamento voltaram a ficar alinhados: Limpar e Limpar tudo têm a mesma largura, um em cima do outro."
-      ],
-      "es": [
-        "**Ajustes:** en la pestaña Conexión, los botones de la sección Cableado vuelven a estar alineados: Borrar y Borrar todo tienen el mismo ancho, uno encima del otro."
-      ],
-      "fr": [
-        "**Ajustements :** dans l'onglet Connexion, les boutons de la section Câblage sont de nouveau alignés : Effacer et Tout effacer ont la même largeur, l'un au-dessus de l'autre."
-      ],
-      "de": [
-        "**Anpassungen:** im Tab Verbindung sind die Schaltflächen des Bereichs Verkabelung wieder ausgerichtet: Löschen und Alle löschen sind gleich breit und stehen übereinander."
-      ],
-      "it": [
-        "**Ritocchi:** nella scheda Connessione i pulsanti della sezione Cablaggio sono di nuovo allineati: Pulisci e Pulisci tutto hanno la stessa larghezza, uno sopra l'altro."
-      ],
-      "nl": [
-        "**Aanpassingen:** op het tabblad Verbinding staan de knoppen van de sectie Bekabeling weer uitgelijnd: Wissen en Alles wissen zijn even breed en staan onder elkaar."
-      ],
-      "ru": [
-        "**Доработки:** на вкладке «Подключение» кнопки раздела «Разводка» снова выровнены: «Очистить» и «Очистить всё» одной ширины и стоят друг над другом."
-      ],
-      "tr": [
-        "**Ayarlar:** Bağlantı sekmesinde Kablolama bölümünün düğmeleri yeniden hizalandı: Temizle ve Tümünü temizle aynı genişlikte, biri diğerinin üstünde."
-      ],
-      "id": [
-        "**Penyesuaian:** di tab Koneksi, tombol bagian Pengkabelan kembali sejajar: Bersihkan dan Bersihkan semua sama lebarnya, satu di atas yang lain."
-      ],
-      "hu": [
-        "**Finomítások:** a Kapcsolat fülön a Kábelezés rész gombjai ismét egy vonalban vannak: a Törlés és az Összes törlése egyforma széles, egymás alatt."
-      ],
-      "zh-Hans": [
-        "**调整：** 在连接选项卡中，布线部分的按钮重新对齐：清除和全部清除宽度相同，上下排列。"
-      ],
-      "zh-Hant": [
-        "**調整：** 在連接分頁中，佈線區段的按鈕重新對齊：清除和全部清除寬度相同，上下排列。"
-      ],
-      "ja": [
-        "**調整：** 接続タブの配線セクションのボタンが再び揃いました。「クリア」と「すべてクリア」は同じ幅で上下に並びます。"
-      ],
-      "ko": [
-        "**조정:** 연결 탭의 배선 섹션 버튼이 다시 정렬되었습니다. 지우기와 모두 지우기가 같은 너비로 위아래에 놓입니다."
-      ],
-      "ar": [
-        "**تحسينات:** في تبويب الاتصال عادت أزرار قسم التوصيل إلى المحاذاة: مسح ومسح الكل بنفس العرض، أحدهما فوق الآخر."
-      ],
-      "th": [
-        "**ปรับแต่ง:** ในแท็บการเชื่อมต่อ ปุ่มของส่วนการเดินสายกลับมาเรียงตรงกันแล้ว: ล้าง และ ล้างทั้งหมด กว้างเท่ากัน อยู่บนล่างกัน"
-      ],
-      "hi": [
-        "**सुधार:** कनेक्शन टैब में वायरिंग भाग के बटन फिर से एक सीध में हैं: साफ़ करें और सब साफ़ करें की चौड़ाई बराबर है, एक के ऊपर एक।"
-      ],
-      "vi": [
-        "**Điều chỉnh:** trong thẻ Kết nối, các nút của mục Đi dây đã thẳng hàng trở lại: Xóa và Xóa tất cả có cùng độ rộng, nút này trên nút kia."
-      ],
-      "bn": [
-        "**সমন্বয়:** কানেকশন ট্যাবে ওয়্যারিং অংশের বোতামগুলো আবার সারিবদ্ধ: মুছুন ও সব মুছুন একই চওড়া, একটির ওপরে অন্যটি।"
-      ],
-      "ms": [
-        "**Pelarasan:** dalam tab Sambungan, butang bahagian Pendawaian kembali sejajar: Kosongkan dan Kosongkan semua sama lebar, satu di atas yang lain."
-      ],
-      "sv": [
-        "**Justeringar:** på fliken Anslutning är knapparna i avsnittet Kabeldragning justerade igen: Rensa och Rensa allt är lika breda och står ovanför varandra."
-      ],
-      "ur": [
-        "**بہتریاں:** کنکشن ٹیب میں وائرنگ حصے کے بٹن دوبارہ سیدھ میں ہیں: صاف کریں اور سب صاف کریں کی چوڑائی برابر ہے، ایک دوسرے کے اوپر۔"
-      ],
-      "sw": [
-        "**Marekebisho:** katika kichupo cha Muunganisho, vitufe vya sehemu ya Nyaya vimepangwa tena: Safisha na Safisha zote vina upana sawa, kimoja juu ya kingine."
-      ],
-      "gn": [
-        "**Ñemoĩporã:** Joaju rendápe, votõ Cable pehẽ-pegua oĩ jey peteĩ rapére: Embogue ha Embogue opaite ipe peteĩcha, peteĩ ambue ári."
-      ],
-      "he": [
-        "**התאמות:** בלשונית חיבור, כפתורי מקטע החיווט מיושרים שוב: נקה ונקה הכול באותו רוחב, אחד מעל השני."
-      ],
-      "lv": [
-        "**Pielāgojumi:** cilnē Savienojums sadaļas Vadojums pogas atkal ir izlīdzinātas: Notīrīt un Notīrīt visu ir vienā platumā, viena virs otras."
-      ],
-      "fa": [
-        "**تنظیمات:** در زبانه اتصال، دکمه‌های بخش سیم‌کشی دوباره هم‌تراز شدند: پاک کردن و پاک کردن همه هم‌عرض‌اند و یکی بالای دیگری است."
-      ],
-      "pl": [
-        "**Poprawki:** na karcie Połączenie przyciski sekcji Okablowanie są znów wyrównane: Wyczyść i Wyczyść wszystko mają tę samą szerokość, jeden nad drugim."
-      ],
-      "uk": [
-        "**Доопрацювання:** на вкладці «Підключення» кнопки розділу «Розведення» знову вирівняні: «Очистити» і «Очистити все» однакової ширини й стоять одна над одною."
-      ],
-      "ca": [
-        "**Ajustos:** a la pestanya Connexió, els botons de la secció Cablejat tornen a estar alineats: Neteja i Neteja-ho tot tenen la mateixa amplada, un sobre l'altre."
-      ],
-      "cs": [
-        "**Úpravy:** na kartě Připojení jsou tlačítka sekce Kabeláž opět zarovnaná: Vymazat a Vymazat vše mají stejnou šířku, jedno nad druhým."
-      ],
-      "fi": [
-        "**Säädöt:** Yhteys-välilehdellä Kaapelointi-osion painikkeet ovat taas linjassa: Tyhjennä ja Tyhjennä kaikki ovat yhtä leveitä, päällekkäin."
-      ],
-      "el": [
-        "**Ρυθμίσεις:** στην καρτέλα Σύνδεση τα κουμπιά της ενότητας Καλωδίωση είναι ξανά ευθυγραμμισμένα: Καθαρισμός και Καθαρισμός όλων έχουν το ίδιο πλάτος, το ένα πάνω από το άλλο."
-      ],
-      "ha": [
-        "**Gyare-gyare:** a shafin Haɗi, maɓallan sashen Wayoyi sun sake daidaita: Share da Share duka suna da faɗi ɗaya, ɗaya a saman ɗayan."
-      ],
-      "ro": [
-        "**Ajustări:** în fila Conexiune, butoanele secțiunii Cablare sunt din nou aliniate: Golește și Golește tot au aceeași lățime, unul deasupra celuilalt."
-      ],
-      "yo": [
-        "**Àtúnṣe:** nínú táàbù Ìsopọ̀, àwọn bọ́tìnnì abala Wáyà tún wà ní ìlà kan: Mọ́ àti Mọ́ gbogbo rẹ̀ ní fífẹ̀ kan náà, ọ̀kan lórí èkejì."
-      ],
-      "zu": [
-        "**Ukulungiswa:** kuthebhu Yokuxhuma, izinkinobho zesigaba Sezintambo ziphinde zaqondaniswa: Sula no-Sula konke banobubanzi obulinganayo, enye ngaphezu kwenye."
-      ],
-      "fil": [
-        "**Mga ayos:** sa tab na Koneksyon, nakahanay na ulit ang mga button ng seksyong Wiring: pareho ang lapad ng Burahin at Burahin lahat, magkapatong."
-      ],
-      "ta": [
-        "**சீரமைப்புகள்:** இணைப்பு தாவலில் வயரிங் பகுதியின் பொத்தான்கள் மீண்டும் ஒழுங்காக உள்ளன: அழி, அனைத்தையும் அழி இரண்டும் ஒரே அகலம், ஒன்றின் மேல் ஒன்று."
-      ],
-      "te": [
-        "**సర్దుబాట్లు:** కనెక్షన్ ట్యాబ్‌లో వైరింగ్ విభాగం బటన్‌లు మళ్లీ వరుసలో ఉన్నాయి: క్లియర్ చేయి, అన్నీ క్లియర్ చేయి ఒకే వెడల్పు, ఒకదానిపై ఒకటి."
-      ],
-      "mr": [
-        "**सुधारणा:** कनेक्शन टॅबमध्ये वायरिंग विभागातील बटणे पुन्हा एका रेषेत आहेत: साफ करा आणि सर्व साफ करा यांची रुंदी सारखी, एकावर एक."
-      ],
-      "da": [
-        "**Justeringer:** på fanen Forbindelse står knapperne i afsnittet Kabelføring på linje igen: Ryd og Ryd alt er lige brede og står over hinanden."
-      ],
-      "nb": [
-        "**Justeringer:** i fanen Tilkobling står knappene i delen Kabling på linje igjen: Tøm og Tøm alt er like brede og står over hverandre."
-      ],
-      "lt": [
-        "**Patobulinimai:** skirtuke Ryšys skyriaus Laidai mygtukai vėl sulygiuoti: Išvalyti ir Išvalyti viską yra vienodo pločio, vienas virš kito."
-      ],
-      "et": [
-        "**Kohandused:** vahekaardil Ühendus on jaotise Juhtmestik nupud jälle joondatud: Tühjenda ja Tühjenda kõik on sama laiad, üksteise kohal."
-      ],
-      "sk": [
-        "**Úpravy:** na karte Pripojenie sú tlačidlá sekcie Kabeláž opäť zarovnané: Vymazať a Vymazať všetko majú rovnakú šírku, jedno nad druhým."
-      ],
-      "bg": [
-        "**Корекции:** в раздела Връзка бутоните на секцията Окабеляване отново са подравнени: Изчисти и Изчисти всичко са с еднаква ширина, един над друг."
-      ],
-      "sr": [
-        "**Подешавања:** на картици Веза дугмад одељка Каблирање су поново поравната: Обриши и Обриши све имају исту ширину, једно изнад другог."
-      ],
-      "hr": [
-        "**Prilagodbe:** na kartici Veza gumbi odjeljka Kabliranje ponovno su poravnati: Očisti i Očisti sve iste su širine, jedan iznad drugoga."
-      ],
-      "gu": [
-        "**સુધારા:** કનેક્શન ટૅબમાં વાયરિંગ વિભાગનાં બટન ફરી એક લાઇનમાં છે: સાફ કરો અને બધું સાફ કરો સરખી પહોળાઈનાં, એક ઉપર બીજું."
-      ],
-      "pa": [
-        "**ਸੁਧਾਰ:** ਕਨੈਕਸ਼ਨ ਟੈਬ ਵਿੱਚ ਵਾਇਰਿੰਗ ਭਾਗ ਦੇ ਬਟਨ ਫਿਰ ਇੱਕ ਸੇਧ ਵਿੱਚ ਹਨ: ਸਾਫ਼ ਕਰੋ ਅਤੇ ਸਭ ਸਾਫ਼ ਕਰੋ ਦੀ ਚੌੜਾਈ ਇੱਕੋ ਹੈ, ਇੱਕ ਦੇ ਉੱਪਰ ਇੱਕ।"
-      ],
-      "kn": [
-        "**ಸರಿಹೊಂದಿಕೆಗಳು:** ಸಂಪರ್ಕ ಟ್ಯಾಬ್‌ನಲ್ಲಿ ವೈರಿಂಗ್ ವಿಭಾಗದ ಬಟನ್‌ಗಳು ಮತ್ತೆ ಸಾಲಿನಲ್ಲಿವೆ: ತೆರವುಗೊಳಿಸಿ ಮತ್ತು ಎಲ್ಲವನ್ನೂ ತೆರವುಗೊಳಿಸಿ ಒಂದೇ ಅಗಲ, ಒಂದರ ಮೇಲೊಂದು."
-      ],
-      "ne": [
-        "**मिलानहरू:** कनेक्सन ट्याबमा वायरिङ खण्डका बटनहरू फेरि एउटै रेखामा छन्: खाली गर्नुहोस् र सबै खाली गर्नुहोस् उत्तिकै चौडा, एकमाथि अर्को।"
-      ],
-      "km": [
-        "**ការកែសម្រួល៖** នៅក្នុងផ្ទាំងការតភ្ជាប់ ប៊ូតុងនៃផ្នែកខ្សែភ្លើងតម្រង់ជួរវិញហើយ៖ សម្អាត និង សម្អាតទាំងអស់ មានទទឹងស្មើគ្នា មួយនៅលើមួយទៀត។"
-      ],
-      "kk": [
-        "**Түзетулер:** Қосылым қойындысында Сымдау бөлімінің батырмалары қайта тураланды: Тазалау және Барлығын тазалау бірдей енде, бірінің үстінде бірі."
-      ],
-      "uz": [
-        "**Sozlamalar:** Ulanish yorlig'ida Simlash bo'limi tugmalari yana tekislandi: Tozalash va Hammasini tozalash bir xil kenglikda, biri ikkinchisining ustida."
-      ],
-      "am": [
-        "**ማስተካከያዎች፦** በግንኙነት ትር የገመድ ዝርጋታ ክፍል አዝራሮች እንደገና ተሰልፈዋል፦ አጽዳ እና ሁሉንም አጽዳ እኩል ስፋት አላቸው፣ አንዱ በሌላው ላይ።"
-      ],
-      "sl": [
-        "**Prilagoditve:** na zavihku Povezava so gumbi razdelka Ožičenje spet poravnani: Počisti in Počisti vse sta enako široka, eden nad drugim."
       ]
     }
   }
