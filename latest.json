@@ -1,9 +1,191 @@
 {
-  "version": "2.9.5",
-  "windows": "https://github.com/renatorocha0934/RAGridrelease/releases/download/v2.9.5/RAGrid-Windows.zip",
-  "mac": "https://github.com/renatorocha0934/RAGridrelease/releases/download/v2.9.5/RAGrid-Mac.dmg",
+  "version": "2.9.6",
+  "windows": "https://github.com/renatorocha0934/RAGridrelease/releases/download/v2.9.6/RAGrid-Windows.zip",
+  "mac": "https://github.com/renatorocha0934/RAGridrelease/releases/download/v2.9.6/RAGrid-Mac.dmg",
   "notes": "System and performance improvements.",
   "changes": {
+    "2.9.6": {
+      "en": [
+        "**Pixel Mapping:** the corner handles turn off by themselves when you finish resizing a screen. Turn them on again to resize another one."
+      ],
+      "pt": [
+        "**Pixel Mapping:** as alças dos cantos desligam sozinhas quando você termina de redimensionar uma tela. Ligue de novo para redimensionar outra."
+      ],
+      "es": [
+        "**Pixel Mapping:** las asas de las esquinas se apagan solas cuando terminas de redimensionar una pantalla. Vuelve a activarlas para redimensionar otra."
+      ],
+      "fr": [
+        "**Pixel Mapping :** les poignées des coins se désactivent seules quand vous finissez de redimensionner un écran. Réactivez-les pour en redimensionner un autre."
+      ],
+      "de": [
+        "**Pixel Mapping:** Die Eckgriffe schalten sich von selbst aus, wenn Sie einen Screen fertig skaliert haben. Schalten Sie sie wieder ein, um einen anderen zu skalieren."
+      ],
+      "it": [
+        "**Pixel Mapping:** le maniglie degli angoli si spengono da sole quando finisci di ridimensionare uno schermo. Riattivale per ridimensionarne un altro."
+      ],
+      "nl": [
+        "**Pixel Mapping:** de hoekgrepen gaan vanzelf uit als je klaar bent met het schalen van een scherm. Zet ze weer aan om een ander scherm te schalen."
+      ],
+      "ru": [
+        "**Pixel Mapping:** угловые маркеры выключаются сами, когда вы закончили менять размер экрана. Включите их снова, чтобы изменить другой."
+      ],
+      "tr": [
+        "**Pixel Mapping:** bir ekranı yeniden boyutlandırmayı bitirdiğinizde köşe tutamaçları kendiliğinden kapanır. Başka birini boyutlandırmak için yeniden açın."
+      ],
+      "id": [
+        "**Pixel Mapping:** pegangan sudut mati sendiri saat Anda selesai mengubah ukuran layar. Nyalakan lagi untuk mengubah ukuran layar lain."
+      ],
+      "hu": [
+        "**Pixel Mapping:** a sarokfogantyúk maguktól kikapcsolnak, amikor befejezi egy képernyő átméretezését. Kapcsolja be újra egy másik átméretezéséhez."
+      ],
+      "zh-Hans": [
+        "**Pixel Mapping：** 调整完一个屏幕的大小后，角点手柄会自动关闭。要调整另一个屏幕，请重新打开。"
+      ],
+      "zh-Hant": [
+        "**Pixel Mapping：** 調整完一個螢幕的大小後，角落控點會自動關閉。要調整另一個螢幕，請重新開啟。"
+      ],
+      "ja": [
+        "**Pixel Mapping：** 画面のサイズ変更が終わると、角のハンドルは自動でオフになります。別の画面を変更するときは、もう一度オンにしてください。"
+      ],
+      "ko": [
+        "**Pixel Mapping:** 화면 크기 조절을 마치면 모서리 핸들이 자동으로 꺼집니다. 다른 화면을 조절하려면 다시 켜세요."
+      ],
+      "ar": [
+        "**Pixel Mapping:** تنطفئ مقابض الزوايا تلقائيًا عند الانتهاء من تغيير حجم الشاشة. شغّلها مرة أخرى لتغيير حجم شاشة أخرى."
+      ],
+      "th": [
+        "**Pixel Mapping:** จุดจับที่มุมจะปิดเองเมื่อปรับขนาดหน้าจอเสร็จ เปิดอีกครั้งเพื่อปรับขนาดหน้าจออื่น"
+      ],
+      "hi": [
+        "**Pixel Mapping:** स्क्रीन का आकार बदलना पूरा होते ही कोनों के हैंडल अपने आप बंद हो जाते हैं। दूसरी स्क्रीन के लिए उन्हें फिर से चालू करें।"
+      ],
+      "vi": [
+        "**Pixel Mapping:** các tay nắm ở góc tự tắt khi bạn chỉnh kích thước màn hình xong. Bật lại để chỉnh màn hình khác."
+      ],
+      "bn": [
+        "**Pixel Mapping:** একটি স্ক্রিনের আকার বদলানো শেষ হলে কোণের হ্যান্ডেল নিজে থেকেই বন্ধ হয়ে যায়। অন্যটির জন্য আবার চালু করুন।"
+      ],
+      "ms": [
+        "**Pixel Mapping:** pemegang sudut mati sendiri apabila anda selesai mengubah saiz skrin. Hidupkan semula untuk mengubah saiz skrin lain."
+      ],
+      "sv": [
+        "**Pixel Mapping:** hörnhandtagen stängs av av sig själva när du har ändrat storlek på en skärm. Slå på dem igen för att ändra en annan."
+      ],
+      "ur": [
+        "**Pixel Mapping:** اسکرین کا سائز بدلنا مکمل ہوتے ہی کونوں کے ہینڈل خود بند ہو جاتے ہیں۔ دوسری اسکرین کے لیے انہیں دوبارہ آن کریں۔"
+      ],
+      "sw": [
+        "**Pixel Mapping:** vishikio vya pembe hujizima vyenyewe unapomaliza kubadilisha ukubwa wa skrini. Viwashe tena ili kubadilisha nyingine."
+      ],
+      "gn": [
+        "**Pixel Mapping:** esquina rehegua ojeguejy ijeheguiete remohu’ãvo pantalla tuichakue ñemoambue. Emyendy jey emoambue haĝua ambue."
+      ],
+      "he": [
+        "**Pixel Mapping:** ידיות הפינות נכבות מעצמן כשמסיימים לשנות גודל של מסך. הפעילו אותן שוב כדי לשנות גודל של מסך אחר."
+      ],
+      "lv": [
+        "**Pixel Mapping:** stūru turi izslēdzas paši, kad esat pabeidzis mainīt ekrāna izmēru. Ieslēdziet tos atkal, lai mainītu citu."
+      ],
+      "fa": [
+        "**Pixel Mapping:** دستگیره‌های گوشه وقتی تغییر اندازه یک صفحه تمام شد خودشان خاموش می‌شوند. برای صفحه دیگر دوباره روشنشان کنید."
+      ],
+      "pl": [
+        "**Pixel Mapping:** uchwyty narożników wyłączają się same po zakończeniu zmiany rozmiaru ekranu. Włącz je ponownie, aby zmienić inny."
+      ],
+      "uk": [
+        "**Pixel Mapping:** кутові маркери вимикаються самі, коли ви закінчили змінювати розмір екрана. Увімкніть їх знову, щоб змінити інший."
+      ],
+      "ca": [
+        "**Pixel Mapping:** les nanses de les cantonades s’apaguen soles quan acabes de redimensionar una pantalla. Torna-les a activar per redimensionar-ne una altra."
+      ],
+      "cs": [
+        "**Pixel Mapping:** rohové úchyty se samy vypnou, když dokončíte změnu velikosti obrazovky. Pro změnu jiné je znovu zapněte."
+      ],
+      "fi": [
+        "**Pixel Mapping:** kulmakahvat sammuvat itsestään, kun olet muuttanut näytön koon. Ota ne uudelleen käyttöön toisen näytön kokoa varten."
+      ],
+      "el": [
+        "**Pixel Mapping:** οι λαβές των γωνιών απενεργοποιούνται μόνες τους όταν τελειώσετε την αλλαγή μεγέθους μιας οθόνης. Ενεργοποιήστε τις ξανά για άλλη οθόνη."
+      ],
+      "ha": [
+        "**Pixel Mapping:** maƙallan kusurwa suna kashe kansu idan ka gama canza girman allo. Kunna su kuma don canza wani."
+      ],
+      "ro": [
+        "**Pixel Mapping:** mânerele din colțuri se opresc singure când termini de redimensionat un ecran. Pornește-le din nou pentru a redimensiona altul."
+      ],
+      "yo": [
+        "**Pixel Mapping:** àwọn ìmú igun máa ń pa ara wọn nígbà tí o bá parí yíyí ìwọ̀n ìbojú padà. Tàn wọ́n lẹ́ẹ̀kan sí i láti yí òmíràn padà."
+      ],
+      "zu": [
+        "**Pixel Mapping:** izibambo zamakhona ziyacisha zodwa uma uqeda ukushintsha usayizi wesikrini. Zivule futhi ukuze ushintshe esinye."
+      ],
+      "fil": [
+        "**Pixel Mapping:** kusang namamatay ang mga hawakan sa sulok kapag tapos mo nang baguhin ang laki ng screen. Buksan ulit para baguhin ang iba."
+      ],
+      "ta": [
+        "**Pixel Mapping:** திரையின் அளவை மாற்றி முடித்ததும் மூலைக் கைப்பிடிகள் தானாக அணையும். வேறொன்றை மாற்ற மீண்டும் இயக்கவும்."
+      ],
+      "te": [
+        "**Pixel Mapping:** స్క్రీన్ పరిమాణం మార్చడం పూర్తయిన వెంటనే మూల హ్యాండిల్స్ వాటంతటవే ఆగిపోతాయి. మరొకదాని కోసం మళ్లీ ఆన్ చేయండి."
+      ],
+      "mr": [
+        "**Pixel Mapping:** स्क्रीनचा आकार बदलून झाल्यावर कोपऱ्यांचे हँडल आपोआप बंद होतात. दुसऱ्या स्क्रीनसाठी ते पुन्हा चालू करा."
+      ],
+      "da": [
+        "**Pixel Mapping:** hjørnehåndtagene slukker af sig selv, når du er færdig med at ændre størrelse på en skærm. Tænd dem igen for at ændre en anden."
+      ],
+      "nb": [
+        "**Pixel Mapping:** hjørnehåndtakene slår seg av selv når du er ferdig med å endre størrelse på en skjerm. Slå dem på igjen for å endre en annen."
+      ],
+      "lt": [
+        "**Pixel Mapping:** kampų rankenos išsijungia pačios, kai baigiate keisti ekrano dydį. Įjunkite jas vėl, kad pakeistumėte kitą."
+      ],
+      "et": [
+        "**Pixel Mapping:** nurgapidemed lülituvad ise välja, kui ekraani suuruse muutmine on lõpetatud. Lülitage need teise jaoks uuesti sisse."
+      ],
+      "sk": [
+        "**Pixel Mapping:** rohové úchyty sa samy vypnú, keď dokončíte zmenu veľkosti obrazovky. Pre zmenu inej ich znova zapnite."
+      ],
+      "bg": [
+        "**Pixel Mapping:** ъгловите дръжки се изключват сами, когато приключите с преоразмеряването на екран. Включете ги отново за друг екран."
+      ],
+      "sr": [
+        "**Pixel Mapping:** ручке на угловима се саме искључују када завршите промену величине екрана. Укључите их поново за други екран."
+      ],
+      "hr": [
+        "**Pixel Mapping:** hvatišta u kutovima sama se isključe kad završite promjenu veličine zaslona. Ponovno ih uključite za drugi zaslon."
+      ],
+      "gu": [
+        "**Pixel Mapping:** સ્ક્રીનનું કદ બદલવાનું પૂરું થતાં ખૂણાના હેન્ડલ આપોઆપ બંધ થાય છે. બીજી સ્ક્રીન માટે ફરી ચાલુ કરો."
+      ],
+      "pa": [
+        "**Pixel Mapping:** ਸਕ੍ਰੀਨ ਦਾ ਆਕਾਰ ਬਦਲਣਾ ਪੂਰਾ ਹੁੰਦੇ ਹੀ ਕੋਨਿਆਂ ਦੇ ਹੈਂਡਲ ਆਪਣੇ ਆਪ ਬੰਦ ਹੋ ਜਾਂਦੇ ਹਨ। ਦੂਜੀ ਲਈ ਮੁੜ ਚਾਲੂ ਕਰੋ।"
+      ],
+      "kn": [
+        "**Pixel Mapping:** ಪರದೆಯ ಗಾತ್ರ ಬದಲಿಸಿ ಮುಗಿದಾಗ ಮೂಲೆಯ ಹ್ಯಾಂಡಲ್‌ಗಳು ತಾವಾಗಿಯೇ ಆಫ್ ಆಗುತ್ತವೆ. ಇನ್ನೊಂದಕ್ಕಾಗಿ ಮತ್ತೆ ಆನ್ ಮಾಡಿ."
+      ],
+      "ne": [
+        "**Pixel Mapping:** स्क्रिनको आकार बदलिसकेपछि कुनाका ह्यान्डलहरू आफैँ बन्द हुन्छन्। अर्को स्क्रिनका लागि फेरि खोल्नुहोस्।"
+      ],
+      "km": [
+        "**Pixel Mapping:** ដៃចាប់នៅជ្រុងបិទដោយខ្លួនឯង ពេលអ្នកប្ដូរទំហំអេក្រង់រួច។ បើកវាម្ដងទៀតដើម្បីប្ដូរអេក្រង់ផ្សេង។"
+      ],
+      "kk": [
+        "**Pixel Mapping:** экран өлшемін өзгертіп болған соң бұрыш тұтқалары өздігінен өшеді. Басқасын өзгерту үшін оларды қайта қосыңыз."
+      ],
+      "uz": [
+        "**Pixel Mapping:** ekran oʻlchamini oʻzgartirib boʻlgach, burchak tutqichlari oʻzi oʻchadi. Boshqasi uchun ularni qayta yoqing."
+      ],
+      "am": [
+        "**Pixel Mapping፦** የስክሪንን መጠን መቀየር ሲጨርሱ የማዕዘን መያዣዎቹ በራሳቸው ይጠፋሉ። ሌላውን ለመቀየር እንደገና ያብሯቸው።"
+      ],
+      "sl": [
+        "**Pixel Mapping:** ročaji v kotih se sami izklopijo, ko končate spreminjanje velikosti zaslona. Znova jih vklopite za drug zaslon."
+      ],
+      "kab": [
+        "**Pixel Mapping:** tiṭṭfin n teɣmar ttensint s yiman-nsent mi tfukkeḍ abeddel n teɣzi n ugdil. Sserɣ-itent tikkelt nniḍen i ugdil-nniḍen."
+      ]
+    },
     "2.9.5": {
       "en": [
         "**Connection:** Devices with or without fiber (RJ45 / Fiber), from 2 to 20 ports each, one color per Device, a line from each port to its RJ, arrows to go Device by Device and a PNG / PNG Alpha camera.",
@@ -906,362 +1088,6 @@
         "**Asɣal:** EDID yettban d aḍris, s “Save EDID (.txt)” i tkarḍiwin AMD Radeon Pro / FirePro, afaylu .bin yettwaseggem.",
         "**Ilugan d canvas:** tiṭṭfin i ubeddel n teɣzi n yilugan (Pixel Mapping, Grid d Asuneɣ), tineccabin deg Canvas size i ufran n tama ara yimɣuren, takamiṛat PNG / PNG Alpha d tawriqt n yisefka n yigdilen deg taggara n PDF.",
         "**Animation:** taskant tameqqrant, arured amagnu s wudem amezwer s tqeffalt Default, d yiwen n play/pause seddaw n ugdil yettusefḍen. Tutlayt tamaynut: Tamaziɣt (Lezzayer)."
-      ]
-    },
-    "2.8.7": {
-      "en": [
-        "**Pixel Mapping:** new measurement ruler above and to the left of the panels, in the unit chosen in the settings, with the total width and height. Turn it on and off with “Show measurements”.",
-        "**PDF:** the layout image shows only the useful panel area, without the extra canvas, and includes the measurement ruler.",
-        "**MP4 video:** the exported animation now has the size of the panel area (it was always 1920 x 1080) and is much lighter, with no loss of quality. In the Export window: play/pause on the preview and a speed bar that also applies to the extended screen.",
-        "**Animation:** if the screens change while the animation is playing, the two technicians stop where they are, even up on the lift, cross their arms and then go back to building the new screens."
-      ],
-      "pt": [
-        "**Pixel Mapping:** nova régua de medidas em cima e à esquerda das placas, na unidade escolhida nas configurações, com a largura e a altura totais. Liga e desliga em “Mostrar medidas”.",
-        "**PDF:** a imagem do layout mostra só a área útil das placas, sem a sobra do canvas, e traz a régua de medidas.",
-        "**Vídeo MP4:** a animação exportada sai no tamanho da área das placas (antes era sempre 1920 x 1080) e bem mais leve, sem perder qualidade. Na janela Exportar, play/pause na prévia e uma barra de velocidade, que também vale para a tela estendida.",
-        "**Animação:** se as telas mudam com a animação no ar, os dois técnicos param onde estão, até em cima da plataforma, cruzam os braços e depois voltam a montar as telas novas."
-      ],
-      "es": [
-        "**Pixel Mapping:** nueva regla de medidas arriba y a la izquierda de los paneles, en la unidad elegida en la configuración, con el ancho y el alto totales. Se activa y desactiva con “Mostrar medidas”.",
-        "**PDF:** la imagen del layout muestra solo el área útil de los paneles, sin el lienzo sobrante, e incluye la regla de medidas.",
-        "**Vídeo MP4:** la animación exportada sale del tamaño del área de los paneles (antes siempre 1920 x 1080) y mucho más ligera, sin perder calidad. En la ventana Exportar, reproducir/pausa en la vista previa y una barra de velocidad que también se aplica a la pantalla extendida.",
-        "**Animación:** si las pantallas cambian con la animación en curso, los dos técnicos se detienen donde están, incluso arriba de la plataforma, se cruzan de brazos y luego vuelven a montar las pantallas nuevas."
-      ],
-      "fr": [
-        "**Pixel Mapping :** nouvelle règle de mesures en haut et à gauche des dalles, dans l'unité choisie dans les paramètres, avec la largeur et la hauteur totales. S'active et se désactive avec « Afficher les mesures ».",
-        "**PDF :** l'image du layout ne montre que la zone utile des dalles, sans le surplus de canevas, avec la règle de mesures.",
-        "**Vidéo MP4 :** l'animation exportée a la taille de la zone des dalles (avant, toujours 1920 x 1080) et elle est beaucoup plus légère, sans perte de qualité. Dans la fenêtre Exporter : lecture/pause sur l'aperçu et une barre de vitesse, qui vaut aussi pour l'écran étendu.",
-        "**Animation :** si les écrans changent pendant l'animation, les deux techniciens s'arrêtent là où ils sont, même en haut de la nacelle, croisent les bras puis reprennent le montage des nouveaux écrans."
-      ],
-      "de": [
-        "**Pixel Mapping:** neues Maßlineal oben und links neben den Panels, in der in den Einstellungen gewählten Einheit, mit Gesamtbreite und Gesamthöhe. Ein- und ausschalten mit „Maße anzeigen“.",
-        "**PDF:** Das Layout-Bild zeigt nur die Nutzfläche der Panels, ohne überschüssige Leinwand, und enthält das Maßlineal.",
-        "**MP4-Video:** Die exportierte Animation hat jetzt die Größe der Panelfläche (bisher immer 1920 x 1080) und ist viel kleiner, ohne Qualitätsverlust. Im Fenster Exportieren: Wiedergabe/Pause in der Vorschau und ein Geschwindigkeitsregler, der auch für den erweiterten Bildschirm gilt.",
-        "**Animation:** Ändern sich die Screens, während die Animation läuft, bleiben die beiden Techniker stehen, wo sie sind, auch oben auf der Hebebühne, verschränken die Arme und bauen dann die neuen Screens auf."
-      ],
-      "it": [
-        "**Pixel Mapping:** nuovo righello delle misure sopra e a sinistra dei pannelli, nell'unità scelta nelle impostazioni, con larghezza e altezza totali. Si attiva e disattiva con “Mostra le misure”.",
-        "**PDF:** l'immagine del layout mostra solo l'area utile dei pannelli, senza la tela in eccesso, e include il righello delle misure.",
-        "**Video MP4:** l'animazione esportata ha le dimensioni dell'area dei pannelli (prima sempre 1920 x 1080) ed è molto più leggera, senza perdita di qualità. Nella finestra Esporta: play/pausa sull'anteprima e una barra della velocità, valida anche per lo schermo esteso.",
-        "**Animazione:** se gli schermi cambiano mentre l'animazione è in corso, i due tecnici si fermano dove sono, anche in cima alla piattaforma, incrociano le braccia e poi tornano a montare i nuovi schermi."
-      ],
-      "nl": [
-        "**Pixel Mapping:** nieuwe maatlat boven en links van de panelen, in de eenheid die in de instellingen is gekozen, met de totale breedte en hoogte. Aan- en uitzetten met “Maten tonen”.",
-        "**PDF:** de lay-outafbeelding toont alleen het nuttige paneelgebied, zonder overtollig canvas, en bevat de maatlat.",
-        "**MP4-video:** de geëxporteerde animatie heeft nu de grootte van het paneelgebied (eerder altijd 1920 x 1080) en is veel lichter, zonder kwaliteitsverlies. In het venster Exporteren: afspelen/pauzeren in het voorbeeld en een snelheidsbalk, die ook voor het uitgebreide scherm geldt.",
-        "**Animatie:** als de schermen veranderen terwijl de animatie loopt, stoppen de twee technici waar ze zijn, zelfs boven op de hoogwerker, slaan hun armen over elkaar en bouwen daarna de nieuwe schermen op."
-      ],
-      "ru": [
-        "**Pixel Mapping:** новая измерительная линейка сверху и слева от панелей, в единицах, выбранных в настройках, с общей шириной и высотой. Включается и выключается флажком «Показать размеры».",
-        "**PDF:** изображение раскладки показывает только полезную площадь панелей, без лишнего холста, и содержит измерительную линейку.",
-        "**Видео MP4:** экспортированная анимация теперь имеет размер области панелей (раньше всегда 1920 x 1080) и стала намного легче без потери качества. В окне «Экспорт»: воспроизведение/пауза в предпросмотре и ползунок скорости, который действует и на расширенном экране.",
-        "**Анимация:** если экраны меняются во время анимации, оба техника останавливаются там, где были, даже наверху подъёмника, скрещивают руки, а затем продолжают собирать новые экраны."
-      ],
-      "tr": [
-        "**Pixel Mapping:** panellerin üstünde ve solunda, ayarlarda seçilen birimde, toplam genişlik ve yüksekliği gösteren yeni ölçü cetveli. “Ölçüleri göster” ile açılıp kapatılır.",
-        "**PDF:** yerleşim görüntüsü, fazla tuval olmadan yalnızca panellerin kullanılan alanını gösterir ve ölçü cetvelini içerir.",
-        "**MP4 video:** dışa aktarılan animasyon artık panel alanı boyutunda (önceden hep 1920 x 1080) ve kalite kaybı olmadan çok daha hafif. Dışa Aktar penceresinde önizlemede oynat/duraklat ve genişletilmiş ekranda da geçerli olan bir hız çubuğu.",
-        "**Animasyon:** animasyon oynarken ekranlar değişirse iki teknisyen bulundukları yerde, platformun üstünde bile olsalar durur, kollarını kavuşturur ve sonra yeni ekranları kurmaya devam eder."
-      ],
-      "id": [
-        "**Pixel Mapping:** penggaris ukuran baru di atas dan di kiri panel, dalam satuan yang dipilih di pengaturan, dengan lebar dan tinggi total. Nyalakan dan matikan dengan “Tampilkan ukuran”.",
-        "**PDF:** gambar tata letak hanya menampilkan area panel yang terpakai, tanpa sisa kanvas, dan menyertakan penggaris ukuran.",
-        "**Video MP4:** animasi yang diekspor kini seukuran area panel (sebelumnya selalu 1920 x 1080) dan jauh lebih ringan tanpa kehilangan kualitas. Di jendela Ekspor: putar/jeda pada pratinjau dan bilah kecepatan yang juga berlaku untuk layar tambahan.",
-        "**Animasi:** jika layar berubah saat animasi berjalan, kedua teknisi berhenti di tempatnya, bahkan di atas lift, menyilangkan tangan, lalu kembali merakit layar yang baru."
-      ],
-      "hu": [
-        "**Pixel Mapping:** új mérővonalzó a panelek felett és bal oldalán, a beállításokban választott mértékegységben, a teljes szélességgel és magassággal. Be- és kikapcsolás: „Méretek megjelenítése”.",
-        "**PDF:** az elrendezés képe csak a panelek hasznos területét mutatja, a felesleges vászon nélkül, és tartalmazza a mérővonalzót.",
-        "**MP4-videó:** az exportált animáció mérete most a panelterület mérete (korábban mindig 1920 x 1080), és minőségromlás nélkül sokkal kisebb. Az Exportálás ablakban: lejátszás/szünet az előnézeten és sebességcsúszka, amely a kiterjesztett képernyőre is érvényes.",
-        "**Animáció:** ha a kijelzők az animáció közben megváltoznak, a két technikus megáll ott, ahol van, akár az emelőkosár tetején is, karba teszi a kezét, majd folytatja az új kijelzők szerelését."
-      ],
-      "zh-Hans": [
-        "**Pixel Mapping：** 箱体上方和左侧新增测量标尺，使用设置中选择的单位，并显示总宽度和总高度。可通过“显示尺寸”打开或关闭。",
-        "**PDF：** 布局图只显示箱体的有效区域，不含多余画布，并带有测量标尺。",
-        "**MP4 视频：** 导出的动画现在与箱体区域大小相同（以前固定为 1920 x 1080），而且文件小得多，画质不变。“导出”窗口中：预览可播放/暂停，并有速度滑块，也适用于扩展屏幕。",
-        "**动画：** 动画播放时如果屏幕发生变化，两名技术员会停在原地（即使在升降平台上），抱起双臂，然后继续安装新的屏幕。"
-      ],
-      "zh-Hant": [
-        "**Pixel Mapping：** 箱體上方和左側新增測量尺規，使用設定中選擇的單位，並顯示總寬度和總高度。可透過「顯示尺寸」開啟或關閉。",
-        "**PDF：** 版面圖只顯示箱體的有效區域，不含多餘畫布，並附有測量尺規。",
-        "**MP4 影片：** 匯出的動畫現在與箱體區域大小相同（以前固定為 1920 x 1080），而且檔案小得多，畫質不變。「匯出」視窗中：預覽可播放/暫停，並有速度滑桿，也適用於延伸螢幕。",
-        "**動畫：** 動畫播放時如果螢幕有變動，兩名技術人員會停在原地（即使在升降平台上），雙手抱胸，然後繼續安裝新的螢幕。"
-      ],
-      "ja": [
-        "**Pixel Mapping：** パネルの上と左に新しい寸法ルーラー。設定で選んだ単位で、全体の幅と高さも表示します。「寸法を表示」でオン/オフできます。",
-        "**PDF：** レイアウト画像はパネルの有効エリアだけを表示し、余分なキャンバスはなく、寸法ルーラー付きです。",
-        "**MP4 動画：** 書き出したアニメーションはパネルエリアと同じサイズになり（以前は常に 1920 x 1080）、画質はそのままでファイルがずっと軽くなりました。「エクスポート」ウィンドウでは、プレビューの再生/一時停止と速度スライダーが使え、速度は拡張画面にも反映されます。",
-        "**アニメーション：** アニメーション再生中にスクリーンが変わると、2人の技術者はその場で（高所作業台の上でも）止まって腕を組み、そのあと新しいスクリーンの組み立てを続けます。"
-      ],
-      "ko": [
-        "**Pixel Mapping:** 패널 위쪽과 왼쪽에 새 치수 눈금자가 표시됩니다. 설정에서 선택한 단위로 전체 너비와 높이도 보여 줍니다. '치수 표시'로 켜고 끌 수 있습니다.",
-        "**PDF:** 레이아웃 이미지는 남는 캔버스 없이 패널의 유효 영역만 보여 주며 치수 눈금자가 포함됩니다.",
-        "**MP4 동영상:** 내보낸 애니메이션이 이제 패널 영역 크기로 저장되며(이전에는 항상 1920 x 1080) 화질 손실 없이 훨씬 가벼워졌습니다. 내보내기 창에서 미리 보기 재생/일시 정지와 속도 막대를 쓸 수 있으며, 속도는 확장 화면에도 적용됩니다.",
-        "**애니메이션:** 애니메이션 재생 중 화면이 바뀌면 두 기술자는 리프트 위에 있더라도 그 자리에서 멈추고 팔짱을 낀 뒤, 새 화면 조립을 이어 갑니다."
-      ],
-      "ar": [
-        "**Pixel Mapping:** مسطرة قياس جديدة أعلى اللوحات وعلى يسارها، بالوحدة المختارة في الإعدادات، مع العرض والارتفاع الكليين. تُشغَّل وتُطفأ من «إظهار القياسات».",
-        "**PDF:** صورة التخطيط تعرض المساحة المفيدة للوحات فقط، دون فائض اللوحة، وتتضمن مسطرة القياس.",
-        "**فيديو MP4:** الحركة المصدَّرة أصبحت بحجم مساحة اللوحات (كانت دائمًا 1920 x 1080) وأخف بكثير دون فقدان الجودة. في نافذة التصدير: تشغيل/إيقاف مؤقت للمعاينة وشريط سرعة يسري أيضًا على الشاشة الممتدة.",
-        "**حركة:** إذا تغيّرت الشاشات أثناء تشغيل الحركة، يتوقف الفنيّان في مكانهما، حتى فوق الرافعة، ويعقدان ذراعيهما، ثم يعودان إلى تركيب الشاشات الجديدة."
-      ],
-      "th": [
-        "**Pixel Mapping:** ไม้บรรทัดวัดขนาดใหม่ด้านบนและด้านซ้ายของแผง ในหน่วยที่เลือกไว้ในการตั้งค่า พร้อมความกว้างและความสูงรวม เปิดและปิดได้ที่ “แสดงขนาด”",
-        "**PDF:** ภาพเลย์เอาต์แสดงเฉพาะพื้นที่ใช้งานของแผง ไม่มีแคนวาสส่วนเกิน และมีไม้บรรทัดวัดขนาด",
-        "**วิดีโอ MP4:** แอนิเมชันที่ส่งออกมีขนาดเท่ากับพื้นที่ของแผงแล้ว (เดิมเป็น 1920 x 1080 เสมอ) และไฟล์เล็กลงมากโดยคุณภาพไม่ลดลง ในหน้าต่างส่งออก มีปุ่มเล่น/หยุดชั่วคราวที่ภาพตัวอย่างและแถบความเร็ว ซึ่งใช้กับหน้าจอขยายด้วย",
-        "**แอนิเมชัน:** ถ้าจอเปลี่ยนขณะแอนิเมชันกำลังเล่น ช่างทั้งสองจะหยุดอยู่ตรงที่อยู่ แม้อยู่บนรถกระเช้า กอดอก แล้วกลับไปประกอบจอใหม่ต่อ"
-      ],
-      "hi": [
-        "**Pixel Mapping:** पैनलों के ऊपर और बाईं ओर नया माप रूलर, सेटिंग्स में चुनी गई इकाई में, कुल चौड़ाई और ऊँचाई के साथ। “माप दिखाएँ” से चालू और बंद करें।",
-        "**PDF:** लेआउट इमेज में अब अतिरिक्त कैनवास के बिना केवल पैनलों का उपयोगी क्षेत्र दिखता है, और उसमें माप रूलर भी है।",
-        "**MP4 वीडियो:** एक्सपोर्ट किया गया एनिमेशन अब पैनल क्षेत्र के आकार का होता है (पहले हमेशा 1920 x 1080) और गुणवत्ता खोए बिना बहुत हल्का है। एक्सपोर्ट विंडो में: प्रीव्यू पर प्ले/पॉज़ और एक स्पीड बार, जो एक्सटेंडेड स्क्रीन पर भी लागू होता है।",
-        "**एनिमेशन:** एनिमेशन चलते समय स्क्रीनें बदलें तो दोनों तकनीशियन जहाँ हैं वहीं रुक जाते हैं, लिफ्ट के ऊपर भी, हाथ बाँध लेते हैं और फिर नई स्क्रीनें जोड़ना जारी रखते हैं।"
-      ],
-      "vi": [
-        "**Pixel Mapping:** thước đo mới ở phía trên và bên trái các tấm, theo đơn vị chọn trong phần cài đặt, kèm tổng chiều rộng và chiều cao. Bật và tắt bằng “Hiện kích thước”.",
-        "**PDF:** ảnh bố cục chỉ hiển thị vùng tấm sử dụng, không có phần canvas thừa, và có thước đo.",
-        "**Video MP4:** hoạt ảnh xuất ra giờ có kích thước bằng vùng các tấm (trước đây luôn là 1920 x 1080) và nhẹ hơn nhiều mà không giảm chất lượng. Trong cửa sổ Xuất: phát/tạm dừng ở bản xem trước và thanh tốc độ, áp dụng cả cho màn hình mở rộng.",
-        "**Hoạt ảnh:** nếu các màn hình thay đổi khi hoạt ảnh đang chạy, hai kỹ thuật viên dừng ngay tại chỗ, kể cả khi đang ở trên xe nâng, khoanh tay rồi tiếp tục lắp các màn hình mới."
-      ],
-      "bn": [
-        "**Pixel Mapping:** প্যানেলের উপরে ও বাঁ দিকে নতুন মাপের রুলার, সেটিংসে বেছে নেওয়া এককে, মোট প্রস্থ ও উচ্চতাসহ। “মাপ দেখান” দিয়ে চালু ও বন্ধ করুন।",
-        "**PDF:** লেআউটের ছবিতে এখন অতিরিক্ত ক্যানভাস ছাড়া শুধু প্যানেলের ব্যবহৃত এলাকা দেখা যায়, সঙ্গে মাপের রুলার।",
-        "**MP4 ভিডিও:** এক্সপোর্ট করা অ্যানিমেশন এখন প্যানেল এলাকার মাপে হয় (আগে সবসময় 1920 x 1080) এবং মান না কমিয়ে অনেক হালকা। এক্সপোর্ট উইন্ডোতে: প্রিভিউতে প্লে/পজ এবং একটি গতির বার, যা এক্সটেন্ডেড স্ক্রিনেও কাজ করে।",
-        "**অ্যানিমেশন:** অ্যানিমেশন চলার সময় স্ক্রিন বদলালে দুই টেকনিশিয়ান যেখানে আছেন সেখানেই থেমে যান, লিফটের উপরে থাকলেও, হাত ভাঁজ করে দাঁড়ান, তারপর নতুন স্ক্রিন জোড়া দেওয়া চালিয়ে যান।"
-      ],
-      "ms": [
-        "**Pixel Mapping:** pembaris ukuran baharu di atas dan di kiri panel, dalam unit yang dipilih dalam tetapan, dengan lebar dan tinggi keseluruhan. Hidupkan dan matikan dengan “Tunjuk ukuran”.",
-        "**PDF:** imej susun atur hanya menunjukkan kawasan panel yang digunakan, tanpa lebihan kanvas, dan disertakan pembaris ukuran.",
-        "**Video MP4:** animasi yang dieksport kini bersaiz kawasan panel (dahulu sentiasa 1920 x 1080) dan jauh lebih ringan tanpa kehilangan kualiti. Dalam tetingkap Eksport: main/jeda pada pratonton dan bar kelajuan yang turut digunakan pada skrin lanjutan.",
-        "**Animasi:** jika skrin berubah semasa animasi dimainkan, kedua-dua juruteknik berhenti di tempat mereka, walaupun di atas lif, memeluk tubuh dan kemudian kembali memasang skrin baharu."
-      ],
-      "sv": [
-        "**Pixel Mapping:** ny måttlinjal ovanför och till vänster om panelerna, i den enhet som valts i inställningarna, med total bredd och höjd. Slås på och av med ”Visa mått”.",
-        "**PDF:** layoutbilden visar bara panelernas användbara yta, utan överflödig canvas, och har måttlinjalen.",
-        "**MP4-video:** den exporterade animeringen har nu panelytans storlek (tidigare alltid 1920 x 1080) och är mycket mindre utan kvalitetsförlust. I fönstret Exportera: spela/pausa i förhandsvisningen och ett hastighetsreglage som även gäller den utökade skärmen.",
-        "**Animering:** om skärmarna ändras medan animeringen spelas stannar de två teknikerna där de är, även uppe på skyliften, korsar armarna och fortsätter sedan bygga de nya skärmarna."
-      ],
-      "ur": [
-        "**Pixel Mapping:** پینلز کے اوپر اور بائیں جانب نیا پیمائشی رولر، سیٹنگز میں منتخب اکائی میں، کل چوڑائی اور اونچائی کے ساتھ۔ «پیمائش دکھائیں» سے آن اور آف کریں۔",
-        "**PDF:** لے آؤٹ کی تصویر اب اضافی کینوس کے بغیر صرف پینلز کا مفید حصہ دکھاتی ہے، اور اس میں پیمائشی رولر بھی ہے۔",
-        "**MP4 ویڈیو:** ایکسپورٹ کی گئی اینیمیشن اب پینلز کے رقبے کے سائز کی ہوتی ہے (پہلے ہمیشہ 1920 x 1080) اور معیار کھوئے بغیر بہت ہلکی ہے۔ ایکسپورٹ ونڈو میں: پیش منظر پر پلے/پاز اور رفتار کی پٹی، جو ایکسٹینڈڈ اسکرین پر بھی لاگو ہوتی ہے۔",
-        "**اینیمیشن:** اگر اینیمیشن چلتے ہوئے اسکرینیں بدلیں تو دونوں تکنیک کار جہاں ہیں وہیں رک جاتے ہیں، لفٹ کے اوپر بھی، بازو باندھ لیتے ہیں اور پھر نئی اسکرینیں جوڑنا جاری رکھتے ہیں۔"
-      ],
-      "sw": [
-        "**Pixel Mapping:** rula mpya ya vipimo juu na kushoto mwa paneli, kwa kipimo kilichochaguliwa kwenye mipangilio, pamoja na upana na urefu wote. Iwashe na kuizima kwa “Onyesha vipimo”.",
-        "**PDF:** picha ya mpangilio sasa inaonyesha eneo linalotumika la paneli pekee, bila turubai ya ziada, pamoja na rula ya vipimo.",
-        "**Video ya MP4:** uhuishaji unaohamishwa sasa una ukubwa wa eneo la paneli (awali ilikuwa 1920 x 1080 kila mara) na ni mwepesi zaidi bila kupoteza ubora. Kwenye dirisha la Hamisha: cheza/sitisha kwenye onyesho la awali na upau wa kasi unaotumika pia kwenye skrini iliyopanuliwa.",
-        "**Uhuishaji:** skrini zikibadilika uhuishaji ukiendelea, mafundi wawili wanasimama walipo, hata juu ya lifti, wanakunja mikono, kisha wanaendelea kuunganisha skrini mpya."
-      ],
-      "gn": [
-        "**Pixel Mapping:** regla pyahu medida-pegua placa ári ha asúpe, unidad ojeporavóva configuración-pe, ipukukue ha ijyvatekue total ndive. Emyandy ha embogue “Ehechauka medida” rupive.",
-        "**PDF:** layout ra'anga ohechauka placa área ojeporúva añoite, canvas hembýva'ỹre, ha oguereko regla medida-pegua.",
-        "**Video MP4:** animación oñeexportáva ko'ágã ijepoti área placa-pegua (yma 1920 x 1080 akóinte) ha ipohýi'ỹve, calidad operde'ỹre. Ventana Exportar-pe: play/pausa previa-pe ha barra velocidad-pegua, ojeporúva avei pantalla ipukúvape.",
-        "**Animación:** pantalla oñembohasáramo animación oñembohasa aja, mokõi técnico opyta oĩhápe, plataforma ári jepe, ombojoaju ijyva ha upéi omoĩ jey pantalla pyahu."
-      ],
-      "he": [
-        "**Pixel Mapping:** סרגל מידות חדש מעל הפאנלים ומשמאלם, ביחידה שנבחרה בהגדרות, עם הרוחב והגובה הכוללים. מפעילים ומכבים ב“הצג מידות”.",
-        "**PDF:** תמונת הפריסה מציגה רק את השטח השימושי של הפאנלים, בלי עודף הקנבס, וכוללת את סרגל המידות.",
-        "**וידאו MP4:** האנימציה המיוצאת בגודל שטח הפאנלים (קודם תמיד 1920 x 1080) וקלה בהרבה, בלי לאבד איכות. בחלון הייצוא: הפעלה/השהיה בתצוגה המקדימה וסרגל מהירות שחל גם על המסך המורחב.",
-        "**אנימציה:** אם המסכים משתנים בזמן שהאנימציה פועלת, שני הטכנאים עוצרים במקומם, גם למעלה על מתקן ההרמה, משלבים ידיים ואז חוזרים להרכיב את המסכים החדשים."
-      ],
-      "lv": [
-        "**Pixel Mapping:** jauns mērlineāls virs paneļiem un pa kreisi no tiem, iestatījumos izvēlētajā mērvienībā, ar kopējo platumu un augstumu. Ieslēdz un izslēdz ar “Rādīt izmērus”.",
-        "**PDF:** izkārtojuma attēlā redzama tikai paneļu lietderīgā zona bez liekā audekla, un tajā ir mērlineāls.",
-        "**MP4 video:** eksportētā animācija tagad ir paneļu zonas izmērā (agrāk vienmēr 1920 x 1080) un daudz vieglāka bez kvalitātes zuduma. Logā Eksportēt: atskaņot/pauze priekšskatījumā un ātruma josla, kas attiecas arī uz paplašināto ekrānu.",
-        "**Animācija:** ja animācijas laikā ekrāni mainās, abi tehniķi apstājas, kur atrodas, pat augšā uz pacēlāja, sakrusto rokas un pēc tam turpina montēt jaunos ekrānus."
-      ],
-      "fa": [
-        "**Pixel Mapping:** خط‌کش اندازه‌گیری جدید بالا و سمت چپ پنل‌ها، با واحدی که در تنظیمات انتخاب شده، همراه با عرض و ارتفاع کل. با «نمایش اندازه‌ها» روشن و خاموش می‌شود.",
-        "**PDF:** تصویر چیدمان فقط محدودهٔ مفید پنل‌ها را بدون بوم اضافی نشان می‌دهد و خط‌کش اندازه‌گیری را دارد.",
-        "**ویدیوی MP4:** انیمیشن خروجی اکنون هم‌اندازهٔ محدودهٔ پنل‌هاست (قبلاً همیشه 1920 x 1080) و بدون افت کیفیت بسیار سبک‌تر است. در پنجرهٔ خروجی: پخش/مکث در پیش‌نمایش و نوار سرعت که برای صفحهٔ گسترده هم اعمال می‌شود.",
-        "**انیمیشن:** اگر صفحه‌ها هنگام پخش انیمیشن تغییر کنند، دو تکنسین همان جا که هستند می‌ایستند، حتی بالای بالابر، دست به سینه می‌شوند و سپس نصب صفحه‌های جدید را ادامه می‌دهند."
-      ],
-      "pl": [
-        "**Pixel Mapping:** nowa linijka z wymiarami nad panelami i po ich lewej stronie, w jednostce wybranej w ustawieniach, z całkowitą szerokością i wysokością. Włączana i wyłączana opcją „Pokaż wymiary”.",
-        "**PDF:** obraz układu pokazuje tylko użyteczny obszar paneli, bez nadmiaru płótna, i zawiera linijkę z wymiarami.",
-        "**Wideo MP4:** eksportowana animacja ma teraz rozmiar obszaru paneli (wcześniej zawsze 1920 x 1080) i jest dużo lżejsza bez utraty jakości. W oknie Eksportuj: odtwarzanie/pauza w podglądzie i suwak prędkości, który działa też na ekranie rozszerzonym.",
-        "**Animacja:** jeśli ekrany zmienią się w trakcie animacji, obaj technicy zatrzymują się tam, gdzie są, nawet na podnośniku, krzyżują ręce, a potem wracają do montażu nowych ekranów."
-      ],
-      "uk": [
-        "**Pixel Mapping:** нова вимірювальна лінійка зверху і зліва від панелей, в одиницях, вибраних у налаштуваннях, із загальною шириною і висотою. Вмикається і вимикається прапорцем «Показати розміри».",
-        "**PDF:** зображення розкладки показує лише корисну площу панелей, без зайвого полотна, і містить вимірювальну лінійку.",
-        "**Відео MP4:** експортована анімація тепер має розмір області панелей (раніше завжди 1920 x 1080) і стала набагато легшою без втрати якості. У вікні «Експорт»: відтворення/пауза в попередньому перегляді та повзунок швидкості, який діє і на розширеному екрані.",
-        "**Анімація:** якщо екрани змінюються під час анімації, обидва техніки зупиняються там, де були, навіть угорі на підйомнику, схрещують руки, а потім продовжують монтувати нові екрани."
-      ],
-      "ca": [
-        "**Pixel Mapping:** nou regle de mesures a dalt i a l'esquerra dels panells, en la unitat triada a la configuració, amb l'amplada i l'alçada totals. S'activa i es desactiva amb «Mostra les mesures».",
-        "**PDF:** la imatge del layout mostra només l'àrea útil dels panells, sense el llenç sobrant, i inclou el regle de mesures.",
-        "**Vídeo MP4:** l'animació exportada ara té la mida de l'àrea dels panells (abans sempre 1920 x 1080) i és molt més lleugera, sense perdre qualitat. A la finestra Exporta: reproducció/pausa a la previsualització i una barra de velocitat que també s'aplica a la pantalla estesa.",
-        "**Animació:** si les pantalles canvien mentre l'animació s'està reproduint, els dos tècnics s'aturen on són, fins i tot dalt de la plataforma, creuen els braços i després tornen a muntar les pantalles noves."
-      ],
-      "cs": [
-        "**Pixel Mapping:** nové měřicí pravítko nad panely a vlevo od nich, v jednotce zvolené v nastavení, s celkovou šířkou a výškou. Zapíná a vypíná se volbou „Zobrazit rozměry“.",
-        "**PDF:** obrázek rozvržení ukazuje jen užitečnou plochu panelů, bez přebytečného plátna, a obsahuje měřicí pravítko.",
-        "**Video MP4:** exportovaná animace má teď velikost plochy panelů (dříve vždy 1920 x 1080) a je mnohem menší bez ztráty kvality. V okně Export: přehrát/pozastavit v náhledu a posuvník rychlosti, který platí i pro rozšířenou obrazovku.",
-        "**Animace:** když se obrazovky během animace změní, oba technici se zastaví tam, kde jsou, i nahoře na plošině, založí ruce a pak pokračují v montáži nových obrazovek."
-      ],
-      "fi": [
-        "**Pixel Mapping:** uusi mittaviivain paneelien yläpuolella ja vasemmalla puolella, asetuksissa valitussa yksikössä, sekä kokonaisleveys ja -korkeus. Kytketään päälle ja pois valinnalla ”Näytä mitat”.",
-        "**PDF:** asettelukuva näyttää vain paneelien hyötyalueen ilman ylimääräistä kangasta, ja siinä on mittaviivain.",
-        "**MP4-video:** viety animaatio on nyt paneelialueen kokoinen (ennen aina 1920 x 1080) ja paljon kevyempi laadun kärsimättä. Vie-ikkunassa: toisto/tauko esikatselussa ja nopeusliukusäädin, joka koskee myös laajennettua näyttöä.",
-        "**Animaatio:** jos näytöt muuttuvat animaation aikana, molemmat teknikot pysähtyvät paikoilleen, jopa nostimen päällä, panevat kädet puuskaan ja jatkavat sitten uusien näyttöjen kokoamista."
-      ],
-      "el": [
-        "**Pixel Mapping:** νέος χάρακας διαστάσεων πάνω και αριστερά από τα πάνελ, στη μονάδα που έχει επιλεγεί στις ρυθμίσεις, με το συνολικό πλάτος και ύψος. Ενεργοποιείται και απενεργοποιείται από το «Εμφάνιση διαστάσεων».",
-        "**PDF:** η εικόνα της διάταξης δείχνει μόνο την ωφέλιμη περιοχή των πάνελ, χωρίς τον περιττό καμβά, και περιλαμβάνει τον χάρακα διαστάσεων.",
-        "**Βίντεο MP4:** η εξαγόμενη κίνηση έχει πλέον το μέγεθος της περιοχής των πάνελ (πριν πάντα 1920 x 1080) και είναι πολύ πιο ελαφριά χωρίς απώλεια ποιότητας. Στο παράθυρο Εξαγωγή: αναπαραγωγή/παύση στην προεπισκόπηση και μπάρα ταχύτητας που ισχύει και για την εκτεταμένη οθόνη.",
-        "**Κίνηση:** αν οι οθόνες αλλάξουν ενώ παίζει η κίνηση, οι δύο τεχνικοί σταματούν εκεί που βρίσκονται, ακόμη και πάνω στο ανυψωτικό, σταυρώνουν τα χέρια και μετά συνεχίζουν να στήνουν τις νέες οθόνες."
-      ],
-      "ha": [
-        "**Pixel Mapping:** sabon rular ma'auni a sama da kuma hagun fanel-fanel, a cikin ma'aunin da aka zaɓa a saituna, tare da jimillar faɗi da tsayi. Ana kunna shi da kashe shi da “Nuna ma'auni”.",
-        "**PDF:** hoton tsari yana nuna wurin amfani na fanel-fanel kawai, ba tare da ragowar zane ba, kuma yana da rular ma'auni.",
-        "**Bidiyon MP4:** motsin da aka fitar yanzu yana da girman wurin fanel-fanel (a da kullum 1920 x 1080) kuma ya fi sauƙi sosai ba tare da rasa inganci ba. A tagar Fitarwa: kunna/dakata a samfoti da sandar gudu wadda ke aiki har a kan allon da aka faɗaɗa.",
-        "**Motsi:** idan allunan sun canza yayin da motsin ke gudana, masu fasaha biyun suna tsayawa inda suke, ko a saman abin ɗagawa, su harɗe hannaye, sannan su ci gaba da haɗa sababbin allunan."
-      ],
-      "ro": [
-        "**Pixel Mapping:** riglă nouă de măsurători deasupra și în stânga panourilor, în unitatea aleasă în setări, cu lățimea și înălțimea totale. Se activează și se dezactivează cu „Afișează dimensiunile”.",
-        "**PDF:** imaginea layoutului arată doar zona utilă a panourilor, fără canvasul în plus, și include rigla de măsurători.",
-        "**Video MP4:** animația exportată are acum dimensiunea zonei panourilor (înainte mereu 1920 x 1080) și este mult mai ușoară, fără pierderi de calitate. În fereastra Export: redare/pauză în previzualizare și o bară de viteză care se aplică și ecranului extins.",
-        "**Animație:** dacă ecranele se schimbă în timpul animației, cei doi tehnicieni se opresc acolo unde sunt, chiar și sus pe platformă, își încrucișează brațele și apoi continuă montarea noilor ecrane."
-      ],
-      "yo": [
-        "**Pixel Mapping:** rúlà ìwọ̀n tuntun lókè àti ní òsì àwọn pánẹ́lì, ní ẹ̀yà ìwọ̀n tí a yàn nínú ètò, pẹ̀lú àpapọ̀ fífẹ̀ àti gíga. Tàn án tàbí pa á pẹ̀lú “Fi ìwọ̀n hàn”.",
-        "**PDF:** àwòrán ìṣètò ń fi agbègbè pánẹ́lì tí a lò nìkan hàn, láìsí kánfáàsì tó ṣẹ́kù, ó sì ní rúlà ìwọ̀n.",
-        "**Fídíò MP4:** eré ìdárayá tí a gbé jáde ti tó ìwọ̀n agbègbè àwọn pánẹ́lì báyìí (tẹ́lẹ̀ 1920 x 1080 ní gbogbo ìgbà), ó sì fúyẹ́ púpọ̀ láìpàdánù dídára. Nínú fèrèsé Gbé jáde: ṣe/dánudúró lórí àwòtẹ́lẹ̀ àti ọ̀pá iyára tó tún kan ojú ìbojú tó gbòòrò.",
-        "**Eré ìdárayá:** bí àwọn ojú ìbojú bá yípadà nígbà tí eré ìdárayá ń lọ, àwọn onímọ̀-ẹ̀rọ méjèèjì yóò dúró síbi tí wọ́n wà, kódà lórí ẹ̀rọ agbéga, wọn yóò ká apá, lẹ́yìn náà wọn yóò máa bá ìkójọpọ̀ àwọn ojú ìbojú tuntun lọ."
-      ],
-      "zu": [
-        "**Pixel Mapping:** irula entsha yezilinganiso ngaphezulu nangakwesobunxele samaphaneli, ngeyunithi ekhethwe kuzilungiselelo, nobubanzi nobude obuphelele. Vula futhi uvale nge-“Bonisa izilinganiso”.",
-        "**PDF:** isithombe sokuhlelwa sibonisa kuphela indawo esetshenziswayo yamaphaneli, ngaphandle kwekhanvasi eyeqile, futhi sinerula yezilinganiso.",
-        "**Ividiyo ye-MP4:** i-animation ethekelisiwe manje inosayizi wendawo yamaphaneli (ngaphambili kwakuhlala kungu-1920 x 1080) futhi ilula kakhulu ngaphandle kokulahlekelwa yikhwalithi. Efasiteleni lokuthekelisa: dlala/misa okwesikhashana ekubukeni kuqala kanye nebha yejubane esebenza nasesikrinini esinwetshiwe.",
-        "**Opopayi:** uma izikrini zishintsha ngesikhathi i-animation idlala, ochwepheshe ababili bama lapho bekhona, ngisho naphezulu kusiphakamisi, bagoqe izingalo, bese beqhubeka nokuhlanganisa izikrini ezintsha."
-      ],
-      "fil": [
-        "**Pixel Mapping:** bagong ruler ng sukat sa itaas at sa kaliwa ng mga panel, sa yunit na pinili sa mga setting, kasama ang kabuuang lapad at taas. I-on at i-off sa “Ipakita ang mga sukat”.",
-        "**PDF:** ang larawan ng layout ay nagpapakita lamang ng magagamit na lugar ng mga panel, walang sobrang canvas, at may ruler ng sukat.",
-        "**MP4 video:** ang na-export na animation ay may sukat na ngayon ng lugar ng mga panel (dati laging 1920 x 1080) at mas magaan nang husto nang walang nawawalang kalidad. Sa window na Export: play/pause sa preview at speed bar na gumagana rin sa extended screen.",
-        "**Animation:** kapag nagbago ang mga screen habang tumatakbo ang animation, humihinto ang dalawang technician kung nasaan sila, kahit nasa ibabaw ng lift, nagkukrus ng braso, at saka itinutuloy ang pagbuo ng mga bagong screen."
-      ],
-      "ta": [
-        "**Pixel Mapping:** பேனல்களுக்கு மேலேயும் இடப்புறமும் புதிய அளவுகோல், அமைப்புகளில் தேர்ந்தெடுத்த அலகில், மொத்த அகலம் மற்றும் உயரத்துடன். “அளவீடுகளைக் காட்டு” மூலம் இயக்கலாம், அணைக்கலாம்.",
-        "**PDF:** லேஅவுட் படம் இப்போது கூடுதல் கேன்வாஸ் இல்லாமல் பேனல்களின் பயன்படும் பகுதியை மட்டும் காட்டுகிறது, அளவுகோலுடன்.",
-        "**MP4 வீடியோ:** ஏற்றுமதி செய்த அனிமேஷன் இப்போது பேனல் பகுதியின் அளவில் வருகிறது (முன்பு எப்போதும் 1920 x 1080), தரம் குறையாமல் மிகவும் இலகுவாக உள்ளது. ஏற்றுமதி சாளரத்தில்: முன்னோட்டத்தில் இயக்கு/இடைநிறுத்து மற்றும் வேகப் பட்டை, இது நீட்டிக்கப்பட்ட திரைக்கும் பொருந்தும்.",
-        "**அசைவூட்டம்:** அனிமேஷன் ஓடும்போது திரைகள் மாறினால், இரண்டு தொழில்நுட்பர்களும் இருக்கும் இடத்திலேயே நிற்கிறார்கள், லிஃப்ட் மேலே இருந்தாலும், கைகளைக் கட்டிக்கொண்டு, பின்னர் புதிய திரைகளைப் பொருத்துவதைத் தொடர்கிறார்கள்."
-      ],
-      "te": [
-        "**Pixel Mapping:** ప్యానెల్‌ల పైన మరియు ఎడమ వైపు కొత్త కొలత స్కేలు, సెట్టింగ్‌లలో ఎంచుకున్న యూనిట్‌లో, మొత్తం వెడల్పు మరియు ఎత్తుతో. “కొలతలను చూపించు” తో ఆన్ మరియు ఆఫ్ చేయండి.",
-        "**PDF:** లేఅవుట్ చిత్రం ఇప్పుడు అదనపు కాన్వాస్ లేకుండా ప్యానెల్‌ల ఉపయోగకర ప్రాంతాన్ని మాత్రమే చూపిస్తుంది, కొలత స్కేలుతో.",
-        "**MP4 వీడియో:** ఎగుమతి చేసిన యానిమేషన్ ఇప్పుడు ప్యానెల్ ప్రాంతం పరిమాణంలో వస్తుంది (ఇంతకుముందు ఎప్పుడూ 1920 x 1080), నాణ్యత తగ్గకుండా చాలా తేలికగా ఉంటుంది. ఎగుమతి విండోలో: ప్రివ్యూలో ప్లే/పాజ్ మరియు వేగ బార్, ఇది ఎక్స్‌టెండెడ్ స్క్రీన్‌కూ వర్తిస్తుంది.",
-        "**యానిమేషన్:** యానిమేషన్ నడుస్తున్నప్పుడు స్క్రీన్‌లు మారితే, ఇద్దరు టెక్నీషియన్లు ఉన్న చోటే ఆగిపోతారు, లిఫ్ట్ పైన ఉన్నా సరే, చేతులు కట్టుకుని, తర్వాత కొత్త స్క్రీన్‌లను అమర్చడం కొనసాగిస్తారు."
-      ],
-      "mr": [
-        "**Pixel Mapping:** पॅनेलच्या वर आणि डावीकडे नवीन मापपट्टी, सेटिंग्जमध्ये निवडलेल्या एककात, एकूण रुंदी आणि उंचीसह. “मापे दाखवा” ने चालू आणि बंद करा.",
-        "**PDF:** लेआउट प्रतिमेत आता जास्तीच्या कॅनव्हासशिवाय फक्त पॅनेलचे उपयुक्त क्षेत्र दिसते, मापपट्टीसह.",
-        "**MP4 व्हिडिओ:** एक्सपोर्ट केलेले ॲनिमेशन आता पॅनेल क्षेत्राच्या आकाराचे असते (आधी नेहमी 1920 x 1080) आणि गुणवत्ता न गमावता खूप हलके आहे. एक्सपोर्ट विंडोमध्ये: प्रिव्ह्यूवर प्ले/पॉज आणि वेगाची पट्टी, जी एक्सटेंडेड स्क्रीनलाही लागू होते.",
-        "**अॅनिमेशन:** ॲनिमेशन चालू असताना स्क्रीन बदलल्या तर दोन्ही तंत्रज्ञ आहेत तिथेच थांबतात, लिफ्टवर असले तरी, हाताची घडी घालतात आणि मग नवीन स्क्रीन जोडणे सुरू ठेवतात."
-      ],
-      "da": [
-        "**Pixel Mapping:** ny målelineal over og til venstre for panelerne, i den enhed, der er valgt i indstillingerne, med samlet bredde og højde. Slås til og fra med “Vis mål”.",
-        "**PDF:** layoutbilledet viser kun panelernes nyttige område, uden overskydende lærred, og har målelinealen.",
-        "**MP4-video:** den eksporterede animation har nu panelområdets størrelse (før altid 1920 x 1080) og er meget lettere uden tab af kvalitet. I vinduet Eksportér: afspil/pause i forhåndsvisningen og en hastighedsbjælke, der også gælder den udvidede skærm.",
-        "**Animation:** hvis skærmene ændres, mens animationen kører, stopper de to teknikere, hvor de er, selv oppe på liften, lægger armene over kors og bygger derefter videre på de nye skærme."
-      ],
-      "nb": [
-        "**Pixel Mapping:** ny målelinjal over og til venstre for panelene, i enheten som er valgt i innstillingene, med total bredde og høyde. Slås av og på med «Vis mål».",
-        "**PDF:** layoutbildet viser bare panelenes nyttige område, uten overflødig lerret, og har målelinjalen.",
-        "**MP4-video:** den eksporterte animasjonen har nå størrelsen til panelområdet (før alltid 1920 x 1080) og er mye lettere uten kvalitetstap. I vinduet Eksporter: spill av/pause i forhåndsvisningen og en hastighetslinje som også gjelder den utvidede skjermen.",
-        "**Animasjon:** hvis skjermene endres mens animasjonen spilles, stopper de to teknikerne der de er, også oppe på liften, krysser armene og fortsetter så med å bygge de nye skjermene."
-      ],
-      "lt": [
-        "**Pixel Mapping:** nauja matavimo liniuotė virš plokščių ir kairėje, nustatymuose pasirinktais vienetais, su bendru pločiu ir aukščiu. Įjungiama ir išjungiama parinktimi „Rodyti matmenis“.",
-        "**PDF:** išdėstymo vaizdas rodo tik naudingą plokščių plotą, be nereikalingos drobės, ir turi matavimo liniuotę.",
-        "**MP4 vaizdo įrašas:** eksportuota animacija dabar yra plokščių ploto dydžio (anksčiau visada 1920 x 1080) ir daug lengvesnė, neprarandant kokybės. Lange Eksportuoti: paleisti/pristabdyti peržiūroje ir greičio juosta, kuri galioja ir išplėstiniam ekranui.",
-        "**Animacija:** jei ekranai pasikeičia animacijos metu, abu technikai sustoja ten, kur yra, net ir viršuje ant keltuvo, sukryžiuoja rankas ir tada toliau montuoja naujus ekranus."
-      ],
-      "et": [
-        "**Pixel Mapping:** uus mõõtjoonlaud paneelide kohal ja vasakul, seadetes valitud ühikus, koos kogulaiuse ja -kõrgusega. Lülita sisse ja välja valikuga „Kuva mõõdud”.",
-        "**PDF:** paigutuse pilt näitab ainult paneelide kasulikku ala, ilma üleliigse lõuendita, ja sellel on mõõtjoonlaud.",
-        "**MP4-video:** eksporditud animatsioon on nüüd paneelide ala suurune (varem alati 1920 x 1080) ja palju kergem ilma kvaliteeti kaotamata. Aknas Ekspordi: esita/paus eelvaates ja kiiruseriba, mis kehtib ka laiendatud ekraanile.",
-        "**Animatsioon:** kui ekraanid animatsiooni ajal muutuvad, jäävad mõlemad tehnikud sinna, kus nad on, isegi tõstuki otsas, panevad käed rinnale risti ja jätkavad siis uute ekraanide paigaldamist."
-      ],
-      "sk": [
-        "**Pixel Mapping:** nové meracie pravítko nad panelmi a naľavo od nich, v jednotke zvolenej v nastaveniach, s celkovou šírkou a výškou. Zapína a vypína sa voľbou „Zobraziť rozmery“.",
-        "**PDF:** obrázok rozloženia ukazuje len užitočnú plochu panelov, bez prebytočného plátna, a obsahuje meracie pravítko.",
-        "**Video MP4:** exportovaná animácia má teraz veľkosť plochy panelov (predtým vždy 1920 x 1080) a je oveľa menšia bez straty kvality. V okne Export: prehrať/pozastaviť v náhľade a posuvník rýchlosti, ktorý platí aj pre rozšírenú obrazovku.",
-        "**Animácia:** keď sa obrazovky počas animácie zmenia, obaja technici sa zastavia tam, kde sú, aj hore na plošine, prekrížia ruky a potom pokračujú v montáži nových obrazoviek."
-      ],
-      "bg": [
-        "**Pixel Mapping:** нова линийка с размери над панелите и вляво от тях, в мерната единица от настройките, с общата ширина и височина. Включва се и се изключва с „Показване на размерите“.",
-        "**PDF:** изображението на оформлението показва само полезната площ на панелите, без излишното платно, и съдържа линийката с размери.",
-        "**Видео MP4:** експортираната анимация вече е с размера на площта на панелите (преди винаги 1920 x 1080) и е много по-лека без загуба на качество. В прозореца „Експорт“: пускане/пауза в прегледа и плъзгач за скорост, който важи и за разширения екран.",
-        "**Анимация:** ако екраните се променят, докато анимацията върви, двамата техници спират там, където са, дори горе на подемника, скръстват ръце и после продължават да монтират новите екрани."
-      ],
-      "sr": [
-        "**Pixel Mapping:** нови лењир са мерама изнад панела и лево од њих, у јединици изабраној у подешавањима, са укупном ширином и висином. Укључује се и искључује опцијом „Прикажи мере“.",
-        "**PDF:** слика распореда приказује само корисну површину панела, без вишка платна, и садржи лењир са мерама.",
-        "**MP4 видео:** извезена анимација сада има величину површине панела (раније увек 1920 x 1080) и много је лакша без губитка квалитета. У прозору „Извоз“: пусти/паузирај у прегледу и клизач брзине, који важи и за проширени екран.",
-        "**Анимација:** ако се екрани промене док анимација траје, оба техничара стају тамо где јесу, чак и горе на платформи, прекрсте руке и затим настављају да монтирају нове екране."
-      ],
-      "hr": [
-        "**Pixel Mapping:** novo ravnalo s mjerama iznad panela i lijevo od njih, u jedinici odabranoj u postavkama, s ukupnom širinom i visinom. Uključuje se i isključuje opcijom „Prikaži mjere”.",
-        "**PDF:** slika rasporeda prikazuje samo korisnu površinu panela, bez viška platna, i sadrži ravnalo s mjerama.",
-        "**MP4 video:** izvezena animacija sada ima veličinu površine panela (prije uvijek 1920 x 1080) i mnogo je lakša bez gubitka kvalitete. U prozoru Izvoz: reproduciraj/pauziraj u pregledu i klizač brzine koji vrijedi i za prošireni zaslon.",
-        "**Animacija:** ako se zasloni promijene dok animacija traje, oba tehničara stanu gdje jesu, čak i gore na platformi, prekriže ruke i zatim nastave montirati nove zaslone."
-      ],
-      "gu": [
-        "**Pixel Mapping:** પેનલની ઉપર અને ડાબી બાજુ નવી માપપટ્ટી, સેટિંગ્સમાં પસંદ કરેલા એકમમાં, કુલ પહોળાઈ અને ઊંચાઈ સાથે. “માપ બતાવો” થી ચાલુ અને બંધ કરો.",
-        "**PDF:** લેઆઉટની છબી હવે વધારાના કેનવાસ વિના ફક્ત પેનલનો ઉપયોગી વિસ્તાર બતાવે છે, માપપટ્ટી સાથે.",
-        "**MP4 વિડિયો:** એક્સપોર્ટ કરેલું એનિમેશન હવે પેનલ વિસ્તારના કદનું હોય છે (પહેલાં હંમેશા 1920 x 1080) અને ગુણવત્તા ગુમાવ્યા વિના ઘણું હલકું છે. એક્સપોર્ટ વિન્ડોમાં: પ્રિવ્યૂ પર પ્લે/પોઝ અને ઝડપની પટ્ટી, જે એક્સટેન્ડેડ સ્ક્રીન પર પણ લાગુ પડે છે.",
-        "**એનિમેશન:** એનિમેશન ચાલતું હોય ત્યારે સ્ક્રીન બદલાય તો બંને ટેકનિશિયન જ્યાં છે ત્યાં જ અટકી જાય છે, લિફ્ટ ઉપર હોય તો પણ, હાથ વાળીને ઊભા રહે છે અને પછી નવી સ્ક્રીન જોડવાનું ચાલુ રાખે છે."
-      ],
-      "pa": [
-        "**Pixel Mapping:** ਪੈਨਲਾਂ ਦੇ ਉੱਪਰ ਅਤੇ ਖੱਬੇ ਪਾਸੇ ਨਵਾਂ ਮਾਪ ਰੂਲਰ, ਸੈਟਿੰਗਾਂ ਵਿੱਚ ਚੁਣੀ ਇਕਾਈ ਵਿੱਚ, ਕੁੱਲ ਚੌੜਾਈ ਅਤੇ ਉਚਾਈ ਦੇ ਨਾਲ। “ਮਾਪ ਦਿਖਾਓ” ਨਾਲ ਚਾਲੂ ਅਤੇ ਬੰਦ ਕਰੋ।",
-        "**PDF:** ਲੇਆਉਟ ਦੀ ਤਸਵੀਰ ਹੁਣ ਵਾਧੂ ਕੈਨਵਸ ਤੋਂ ਬਿਨਾਂ ਸਿਰਫ਼ ਪੈਨਲਾਂ ਦਾ ਵਰਤੋਂ ਵਾਲਾ ਖੇਤਰ ਦਿਖਾਉਂਦੀ ਹੈ, ਮਾਪ ਰੂਲਰ ਦੇ ਨਾਲ।",
-        "**MP4 ਵੀਡੀਓ:** ਐਕਸਪੋਰਟ ਕੀਤੀ ਐਨੀਮੇਸ਼ਨ ਹੁਣ ਪੈਨਲ ਖੇਤਰ ਦੇ ਆਕਾਰ ਦੀ ਹੁੰਦੀ ਹੈ (ਪਹਿਲਾਂ ਹਮੇਸ਼ਾ 1920 x 1080) ਅਤੇ ਗੁਣਵੱਤਾ ਗੁਆਏ ਬਿਨਾਂ ਬਹੁਤ ਹਲਕੀ ਹੈ। ਐਕਸਪੋਰਟ ਵਿੰਡੋ ਵਿੱਚ: ਪ੍ਰੀਵਿਊ ਉੱਤੇ ਪਲੇ/ਪੌਜ਼ ਅਤੇ ਗਤੀ ਦੀ ਪੱਟੀ, ਜੋ ਐਕਸਟੈਂਡਡ ਸਕ੍ਰੀਨ ਉੱਤੇ ਵੀ ਲਾਗੂ ਹੁੰਦੀ ਹੈ।",
-        "**ਐਨੀਮੇਸ਼ਨ:** ਜੇ ਐਨੀਮੇਸ਼ਨ ਚੱਲਦੇ ਸਮੇਂ ਸਕ੍ਰੀਨਾਂ ਬਦਲਣ, ਤਾਂ ਦੋਵੇਂ ਤਕਨੀਸ਼ੀਅਨ ਜਿੱਥੇ ਹਨ ਉੱਥੇ ਹੀ ਰੁਕ ਜਾਂਦੇ ਹਨ, ਲਿਫ਼ਟ ਉੱਤੇ ਵੀ, ਬਾਹਾਂ ਬੰਨ੍ਹ ਲੈਂਦੇ ਹਨ ਅਤੇ ਫਿਰ ਨਵੀਆਂ ਸਕ੍ਰੀਨਾਂ ਜੋੜਨਾ ਜਾਰੀ ਰੱਖਦੇ ਹਨ।"
-      ],
-      "kn": [
-        "**Pixel Mapping:** ಪ್ಯಾನೆಲ್‌ಗಳ ಮೇಲೆ ಮತ್ತು ಎಡಭಾಗದಲ್ಲಿ ಹೊಸ ಅಳತೆ ಪಟ್ಟಿ, ಸೆಟ್ಟಿಂಗ್‌ಗಳಲ್ಲಿ ಆಯ್ಕೆ ಮಾಡಿದ ಘಟಕದಲ್ಲಿ, ಒಟ್ಟು ಅಗಲ ಮತ್ತು ಎತ್ತರದೊಂದಿಗೆ. “ಅಳತೆಗಳನ್ನು ತೋರಿಸು” ಮೂಲಕ ಆನ್ ಮತ್ತು ಆಫ್ ಮಾಡಿ.",
-        "**PDF:** ಲೇಔಟ್ ಚಿತ್ರ ಈಗ ಹೆಚ್ಚುವರಿ ಕ್ಯಾನ್ವಾಸ್ ಇಲ್ಲದೆ ಪ್ಯಾನೆಲ್‌ಗಳ ಉಪಯುಕ್ತ ಪ್ರದೇಶವನ್ನು ಮಾತ್ರ ತೋರಿಸುತ್ತದೆ, ಅಳತೆ ಪಟ್ಟಿಯೊಂದಿಗೆ.",
-        "**MP4 ವೀಡಿಯೊ:** ರಫ್ತು ಮಾಡಿದ ಅನಿಮೇಶನ್ ಈಗ ಪ್ಯಾನೆಲ್ ಪ್ರದೇಶದ ಗಾತ್ರದಲ್ಲಿರುತ್ತದೆ (ಹಿಂದೆ ಯಾವಾಗಲೂ 1920 x 1080) ಮತ್ತು ಗುಣಮಟ್ಟ ಕಳೆದುಕೊಳ್ಳದೆ ತುಂಬಾ ಹಗುರವಾಗಿದೆ. ರಫ್ತು ವಿಂಡೋದಲ್ಲಿ: ಮುನ್ನೋಟದಲ್ಲಿ ಪ್ಲೇ/ವಿರಾಮ ಮತ್ತು ವೇಗದ ಪಟ್ಟಿ, ಇದು ವಿಸ್ತೃತ ಪರದೆಗೂ ಅನ್ವಯಿಸುತ್ತದೆ.",
-        "**ಅನಿಮೇಷನ್:** ಅನಿಮೇಶನ್ ನಡೆಯುತ್ತಿರುವಾಗ ಪರದೆಗಳು ಬದಲಾದರೆ, ಇಬ್ಬರು ತಂತ್ರಜ್ಞರು ಇರುವಲ್ಲೇ ನಿಲ್ಲುತ್ತಾರೆ, ಲಿಫ್ಟ್ ಮೇಲಿದ್ದರೂ ಸಹ, ಕೈ ಕಟ್ಟಿಕೊಂಡು, ನಂತರ ಹೊಸ ಪರದೆಗಳನ್ನು ಜೋಡಿಸುವುದನ್ನು ಮುಂದುವರಿಸುತ್ತಾರೆ."
-      ],
-      "ne": [
-        "**Pixel Mapping:** प्यानलहरूको माथि र बायाँपट्टि नयाँ नाप रुलर, सेटिङमा छानिएको एकाइमा, कुल चौडाइ र उचाइसहित। “नापहरू देखाउनुहोस्” बाट खोल्नुहोस् र बन्द गर्नुहोस्।",
-        "**PDF:** लेआउटको तस्बिरले अब बढी क्यानभासबिना प्यानलहरूको उपयोगी क्षेत्र मात्र देखाउँछ, नाप रुलरसहित।",
-        "**MP4 भिडियो:** निर्यात गरिएको एनिमेसन अब प्यानल क्षेत्रको आकारको हुन्छ (पहिले सधैं 1920 x 1080) र गुणस्तर नगुमाई धेरै हलुका छ। निर्यात सञ्झ्यालमा: पूर्वावलोकनमा प्ले/पज र गतिको पट्टी, जुन विस्तारित स्क्रिनमा पनि लागू हुन्छ।",
-        "**एनिमेसन:** एनिमेसन चलिरहेका बेला स्क्रिनहरू बदलिए भने दुवै प्राविधिक जहाँ छन् त्यहीँ रोकिन्छन्, लिफ्टमाथि भए पनि, हात बाँध्छन् र त्यसपछि नयाँ स्क्रिनहरू जोड्न जारी राख्छन्।"
-      ],
-      "km": [
-        "**Pixel Mapping:** បន្ទាត់រង្វាស់ថ្មីនៅខាងលើ និងខាងឆ្វេងនៃផ្ទាំង តាមឯកតាដែលបានជ្រើសក្នុងការកំណត់ ព្រមទាំងទទឹង និងកម្ពស់សរុប។ បើក និងបិទដោយ “បង្ហាញរង្វាស់”។",
-        "**PDF:** រូបភាពប្លង់បង្ហាញតែផ្ទៃប្រើប្រាស់នៃផ្ទាំងប៉ុណ្ណោះ គ្មានផ្ទៃក្រណាត់លើស ហើយមានបន្ទាត់រង្វាស់។",
-        "**វីដេអូ MP4:** ចលនាដែលនាំចេញឥឡូវមានទំហំស្មើផ្ទៃនៃផ្ទាំង (មុននេះជានិច្ច 1920 x 1080) ហើយស្រាលជាងមុនច្រើន ដោយមិនបាត់គុណភាព។ នៅក្នុងផ្ទាំងនាំចេញ៖ ចាក់/ផ្អាកលើការមើលជាមុន និងរបារល្បឿន ដែលអនុវត្តលើអេក្រង់ពង្រីកផងដែរ។",
-        "**ចលនា:** ប្រសិនបើអេក្រង់ផ្លាស់ប្តូរពេលចលនាកំពុងដំណើរការ អ្នកបច្ចេកទេសទាំងពីរឈប់នៅកន្លែងដដែល ទោះនៅលើឧបករណ៍លើកក៏ដោយ ឱបដៃ ហើយបន្ទាប់មកបន្តដំឡើងអេក្រង់ថ្មី។"
-      ],
-      "kk": [
-        "**Pixel Mapping:** панельдердің үстінде және сол жағында жаңа өлшеу сызғышы, баптауларда таңдалған бірлікпен, жалпы ені мен биіктігімен. «Өлшемдерді көрсету» арқылы қосылып, өшіріледі.",
-        "**PDF:** орналасу суреті артық кенепсіз тек панельдердің пайдалы аумағын көрсетеді және өлшеу сызғышы бар.",
-        "**MP4 бейнесі:** экспортталған анимация енді панельдер аумағының өлшемінде (бұрын әрқашан 1920 x 1080) және сапасын жоғалтпай әлдеқайда жеңіл. «Экспорт» терезесінде: алдын ала қарауда ойнату/кідірту және кеңейтілген экранға да қолданылатын жылдамдық жолағы.",
-        "**Анимация:** анимация жүріп жатқанда экрандар өзгерсе, екі техник тұрған жерінде, тіпті көтергіштің үстінде болса да тоқтайды, қолын айқастырады, содан кейін жаңа экрандарды құрастыруды жалғастырады."
-      ],
-      "uz": [
-        "**Pixel Mapping:** panellar ustida va chap tomonida yangi oʻlchov chizgʻichi, sozlamalarda tanlangan birlikda, umumiy eni va balandligi bilan. “Oʻlchamlarni koʻrsatish” orqali yoqiladi va oʻchiriladi.",
-        "**PDF:** joylashuv rasmi ortiqcha tuvalsiz faqat panellarning foydali maydonini koʻrsatadi va oʻlchov chizgʻichini oʻz ichiga oladi.",
-        "**MP4 video:** eksport qilingan animatsiya endi panellar maydoni oʻlchamida (avval doim 1920 x 1080) va sifatni yoʻqotmasdan ancha yengil. Eksport oynasida: oldindan koʻrishda ijro/pauza va kengaytirilgan ekranga ham taalluqli tezlik chizigʻi.",
-        "**Animatsiya:** animatsiya ketayotganda ekranlar oʻzgarsa, ikkala texnik turgan joyida, hatto koʻtargich ustida boʻlsa ham toʻxtaydi, qoʻllarini qovushtiradi, soʻng yangi ekranlarni yigʻishni davom ettiradi."
-      ],
-      "am": [
-        "**Pixel Mapping:** ከፓነሎቹ በላይ እና በግራ በኩል አዲስ የልኬት ማስመሪያ፣ በቅንብሮች ውስጥ በተመረጠው አሃድ፣ ከጠቅላላ ስፋትና ቁመት ጋር። በ“ልኬቶችን አሳይ” ያብሩ እና ያጥፉ።",
-        "**PDF:** የአቀማመጥ ምስሉ ያለ ትርፍ ሸራ የፓነሎቹን ጠቃሚ ቦታ ብቻ ያሳያል፣ የልኬት ማስመሪያውንም ይዟል።",
-        "**MP4 ቪዲዮ:** የተላከው እነማ አሁን የፓነሎቹ ቦታ መጠን አለው (ከዚህ በፊት ሁልጊዜ 1920 x 1080) እና ጥራቱን ሳያጣ በጣም ቀላል ነው። በመላኪያ መስኮት ውስጥ፦ በቅድመ እይታ ላይ አጫውት/ለአፍታ አቁም እና ለተዘረጋው ማያም የሚሠራ የፍጥነት አሞሌ።",
-        "**እነማ:** እነማው እየሄደ ማያዎቹ ቢቀየሩ፣ ሁለቱ ቴክኒሻኖች ባሉበት ይቆማሉ፣ በማንሻው ላይ ቢሆኑም እንኳ፣ እጃቸውን ያጣምራሉ፣ ከዚያም አዲሶቹን ማያዎች መገጣጠም ይቀጥላሉ።"
-      ],
-      "sl": [
-        "**Pixel Mapping:** novo ravnilo z merami nad paneli in levo od njih, v enoti, izbrani v nastavitvah, s skupno širino in višino. Vklopite in izklopite ga z možnostjo »Prikaži mere«.",
-        "**PDF:** slika postavitve prikazuje le uporabno površino panelov, brez odvečnega platna, in vsebuje ravnilo z merami.",
-        "**Video MP4:** izvožena animacija ima zdaj velikost površine panelov (prej vedno 1920 x 1080) in je veliko lažja brez izgube kakovosti. V oknu Izvozi: predvajaj/premor v predogledu in drsnik hitrosti, ki velja tudi za razširjeni zaslon.",
-        "**Animacija:** če se zasloni med animacijo spremenijo, se oba tehnika ustavita tam, kjer sta, tudi zgoraj na dvigalu, prekrižata roke in nato nadaljujeta z montažo novih zaslonov."
       ]
     }
   }
