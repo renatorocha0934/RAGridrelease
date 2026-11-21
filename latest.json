@@ -1,9 +1,431 @@
 {
-  "version": "2.9.1",
-  "windows": "https://github.com/renatorocha0934/RAGridrelease/releases/download/v2.9.1/RAGrid-Windows.zip",
-  "mac": "https://github.com/renatorocha0934/RAGridrelease/releases/download/v2.9.1/RAGrid-Mac.dmg",
+  "version": "2.9.5",
+  "windows": "https://github.com/renatorocha0934/RAGridrelease/releases/download/v2.9.5/RAGrid-Windows.zip",
+  "mac": "https://github.com/renatorocha0934/RAGridrelease/releases/download/v2.9.5/RAGrid-Mac.dmg",
   "notes": "System and performance improvements.",
   "changes": {
+    "2.9.5": {
+      "en": [
+        "**Connection:** Devices with or without fiber (RJ45 / Fiber), from 2 to 20 ports each, one color per Device, a line from each port to its RJ, arrows to go Device by Device and a PNG / PNG Alpha camera.",
+        "**Drawing:** the Custom device gets one RJ45 or Fiber output per Device and the technician makes each connection. A Fiber output only connects to a Device with fiber, as in NovaStar.",
+        "**Presets:** 10 presets from basic to large event, each with its Devices, in Basic / Shows / Large event, with a bigger preview and Save as preset for your own setups.",
+        "**3D Stage:** width, height and depth of the stage in the right-click box, in the unit chosen in Settings.",
+        "**Animation:** new characters with a more natural walk and Upload logo in the Animation box. Ctrl+C / Ctrl+V pastes a screen next to the original and the Grid logo can be rotated."
+      ],
+      "pt": [
+        "**Conexão:** Devices com ou sem fibra (RJ45 / Fiber), de 2 a 20 portas cada, uma cor por Device, uma linha de cada porta até a RJ dela, setas para andar de Device em Device e câmera PNG / PNG Alpha.",
+        "**Desenho:** o Custom device ganha uma saída RJ45 ou Fiber por Device e o técnico faz cada ligação. Uma saída Fiber só liga em Device com fibra, como na NovaStar.",
+        "**Presets:** 10 presets do básico ao evento grande, cada um com os seus Devices, em Basic / Shows / Large event, com prévia maior e Save as preset para as suas montagens.",
+        "**3D Stage:** largura, altura e profundidade do palco na caixa do botão direito, na unidade escolhida em Settings.",
+        "**Animação:** personagens novos com um andar mais natural e Upload logo na caixa da Animation. Ctrl+C / Ctrl+V cola a tela ao lado da original e o logo do Grid pode ser girado."
+      ],
+      "es": [
+        "**Conexión:** Devices con o sin fibra (RJ45 / Fiber), de 2 a 20 puertos cada uno, un color por Device, una línea de cada puerto hasta su RJ, flechas para ir de Device en Device y cámara PNG / PNG Alpha.",
+        "**Dibujo:** el Custom device recibe una salida RJ45 o Fiber por Device y el técnico hace cada conexión. Una salida Fiber solo se conecta a un Device con fibra, como en NovaStar.",
+        "**Presets:** 10 presets de lo básico al gran evento, cada uno con sus Devices, en Basic / Shows / Large event, con vista previa más grande y Save as preset para tus propios montajes.",
+        "**3D Stage:** ancho, alto y profundidad del escenario en la caja del botón derecho, en la unidad elegida en Settings.",
+        "**Animación:** personajes nuevos con un andar más natural y Upload logo en la caja de Animation. Ctrl+C / Ctrl+V pega una pantalla junto a la original y el logo del Grid se puede girar."
+      ],
+      "fr": [
+        "**Connexion :** Devices avec ou sans fibre (RJ45 / Fiber), de 2 à 20 ports chacun, une couleur par Device, une ligne de chaque port jusqu’à son RJ, des flèches pour passer de Device en Device et un appareil photo PNG / PNG Alpha.",
+        "**Dessin :** le Custom device reçoit une sortie RJ45 ou Fiber par Device et le technicien fait chaque branchement. Une sortie Fiber ne se branche que sur un Device avec fibre, comme chez NovaStar.",
+        "**Presets :** 10 presets du plus simple au grand événement, chacun avec ses Devices, en Basic / Shows / Large event, avec un aperçu plus grand et Save as preset pour vos propres montages.",
+        "**3D Stage :** largeur, hauteur et profondeur de la scène dans la boîte du clic droit, dans l’unité choisie dans Settings.",
+        "**Animation :** nouveaux personnages avec une marche plus naturelle et Upload logo dans la boîte Animation. Ctrl+C / Ctrl+V colle un écran à côté de l’original et le logo du Grid peut pivoter."
+      ],
+      "de": [
+        "**Verbindung:** Devices mit oder ohne Glasfaser (RJ45 / Fiber), je 2 bis 20 Ports, eine Farbe pro Device, eine Linie von jedem Port zu seinem RJ, Pfeile von Device zu Device und eine Kamera PNG / PNG Alpha.",
+        "**Zeichnung:** Das Custom device erhält einen RJ45- oder Fiber-Ausgang pro Device, und der Techniker stellt jede Verbindung her. Ein Fiber-Ausgang verbindet sich nur mit einem Device mit Glasfaser, wie bei NovaStar.",
+        "**Presets:** 10 Presets von einfach bis Großveranstaltung, jeweils mit ihren Devices, in Basic / Shows / Large event, mit größerer Vorschau und Save as preset für eigene Aufbauten.",
+        "**3D Stage:** Breite, Höhe und Tiefe der Bühne im Rechtsklick-Fenster, in der in Settings gewählten Einheit.",
+        "**Animation:** neue Figuren mit natürlicherem Gang und Upload logo im Animation-Fenster. Strg+C / Strg+V fügt einen Screen neben dem Original ein, und das Grid-Logo lässt sich drehen."
+      ],
+      "it": [
+        "**Connessione:** Device con o senza fibra (RJ45 / Fiber), da 2 a 20 porte ciascuno, un colore per Device, una linea da ogni porta al suo RJ, frecce per passare da un Device all’altro e fotocamera PNG / PNG Alpha.",
+        "**Disegno:** il Custom device riceve un’uscita RJ45 o Fiber per Device e il tecnico fa ogni collegamento. Un’uscita Fiber si collega solo a un Device con fibra, come in NovaStar.",
+        "**Preset:** 10 preset dal più semplice al grande evento, ognuno con i suoi Device, in Basic / Shows / Large event, con anteprima più grande e Save as preset per i tuoi allestimenti.",
+        "**3D Stage:** larghezza, altezza e profondità del palco nel riquadro del tasto destro, nell’unità scelta in Settings.",
+        "**Animazione:** nuovi personaggi con una camminata più naturale e Upload logo nel riquadro Animation. Ctrl+C / Ctrl+V incolla uno schermo accanto all’originale e il logo del Grid si può ruotare."
+      ],
+      "nl": [
+        "**Verbinding:** Devices met of zonder glasvezel (RJ45 / Fiber), elk 2 tot 20 poorten, één kleur per Device, een lijn van elke poort naar zijn RJ, pijlen om van Device naar Device te gaan en een camera PNG / PNG Alpha.",
+        "**Tekening:** het Custom device krijgt één RJ45- of Fiber-uitgang per Device en de technicus maakt elke verbinding. Een Fiber-uitgang verbindt alleen met een Device met glasvezel, zoals bij NovaStar.",
+        "**Presets:** 10 presets van eenvoudig tot groot evenement, elk met zijn Devices, in Basic / Shows / Large event, met een grotere voorvertoning en Save as preset voor je eigen opstellingen.",
+        "**3D Stage:** breedte, hoogte en diepte van het podium in het rechtsklikvenster, in de eenheid gekozen in Settings.",
+        "**Animatie:** nieuwe figuren met een natuurlijkere loop en Upload logo in het Animation-venster. Ctrl+C / Ctrl+V plakt een scherm naast het origineel en het Grid-logo kan draaien."
+      ],
+      "ru": [
+        "**Подключение:** Devices с оптикой или без (RJ45 / Fiber), от 2 до 20 портов в каждом, свой цвет для каждого Device, линия от каждого порта к его RJ, стрелки для перехода от Device к Device и камера PNG / PNG Alpha.",
+        "**Схема:** у Custom device по одному выходу RJ45 или Fiber на каждый Device, и техник сам делает каждое подключение. Выход Fiber подключается только к Device с оптикой, как у NovaStar.",
+        "**Пресеты:** 10 пресетов от простого до крупного мероприятия, каждый со своими Devices, в разделах Basic / Shows / Large event, с крупным предпросмотром и Save as preset для своих схем.",
+        "**3D Stage:** ширина, высота и глубина сцены в окне правой кнопки мыши, в единицах, выбранных в Settings.",
+        "**Анимация:** новые персонажи с более естественной походкой и Upload logo в окне Animation. Ctrl+C / Ctrl+V вставляет экран рядом с оригиналом, а логотип в Grid можно поворачивать."
+      ],
+      "tr": [
+        "**Bağlantı:** fiberli veya fibersiz Device’lar (RJ45 / Fiber), her biri 2 ile 20 port, her Device için bir renk, her porttan kendi RJ’sine bir çizgi, Device’lar arasında gezinmek için oklar ve PNG / PNG Alpha kamera.",
+        "**Çizim:** Custom device her Device için bir RJ45 veya Fiber çıkışı alır ve her bağlantıyı teknisyen yapar. Fiber çıkışı yalnızca fiberli bir Device’a bağlanır, NovaStar’daki gibi.",
+        "**Presetler:** temelden büyük etkinliğe 10 preset, her biri kendi Device’larıyla, Basic / Shows / Large event içinde, daha büyük önizleme ve kendi kurulumlarınız için Save as preset.",
+        "**3D Stage:** sahnenin genişliği, yüksekliği ve derinliği sağ tık kutusunda, Settings’te seçilen birimde.",
+        "**Animasyon:** daha doğal yürüyen yeni karakterler ve Animation kutusunda Upload logo. Ctrl+C / Ctrl+V bir ekranı orijinalin yanına yapıştırır ve Grid logosu döndürülebilir."
+      ],
+      "id": [
+        "**Koneksi:** Device dengan atau tanpa fiber (RJ45 / Fiber), masing-masing 2 sampai 20 port, satu warna per Device, garis dari tiap port ke RJ-nya, panah untuk berpindah Device demi Device, dan kamera PNG / PNG Alpha.",
+        "**Gambar:** Custom device mendapat satu output RJ45 atau Fiber per Device dan teknisi membuat setiap sambungan. Output Fiber hanya tersambung ke Device yang memakai fiber, seperti pada NovaStar.",
+        "**Preset:** 10 preset dari dasar hingga acara besar, masing-masing dengan Device-nya, dalam Basic / Shows / Large event, dengan pratinjau lebih besar dan Save as preset untuk susunan Anda sendiri.",
+        "**3D Stage:** lebar, tinggi, dan kedalaman panggung di kotak klik kanan, dalam satuan yang dipilih di Settings.",
+        "**Animasi:** karakter baru dengan langkah yang lebih alami dan Upload logo di kotak Animation. Ctrl+C / Ctrl+V menempel layar di samping aslinya dan logo Grid bisa diputar."
+      ],
+      "hu": [
+        "**Csatlakozás:** Device-ok optikával vagy anélkül (RJ45 / Fiber), egyenként 2–20 porttal, Device-onként egy szín, vonal minden porttól a saját RJ-jéig, nyilak a Device-ok közti lépéshez és PNG / PNG Alpha kamera.",
+        "**Rajz:** a Custom device Device-onként egy RJ45 vagy Fiber kimenetet kap, és minden bekötést a technikus végez. A Fiber kimenet csak optikás Device-hoz köthető, mint a NovaStarnál.",
+        "**Presetek:** 10 preset az alaptól a nagy rendezvényig, mindegyik a saját Device-aival, Basic / Shows / Large event csoportokban, nagyobb előnézettel és Save as preset funkcióval a saját összeállításokhoz.",
+        "**3D Stage:** a színpad szélessége, magassága és mélysége a jobb gombos ablakban, a Settingsben választott mértékegységben.",
+        "**Animáció:** új szereplők természetesebb járással és Upload logo az Animation ablakban. A Ctrl+C / Ctrl+V az eredeti mellé illeszti a képernyőt, a Grid logója pedig elforgatható."
+      ],
+      "zh-Hans": [
+        "**连接：** 带光纤或不带光纤的 Device（RJ45 / Fiber），每个 2 到 20 个端口，每个 Device 一种颜色，每个端口有一条线连到它的 RJ，用箭头逐个切换 Device，并有 PNG / PNG Alpha 相机。",
+        "**绘图：** Custom device 为每个 Device 提供一个 RJ45 或 Fiber 输出，每条连接由技术人员自己完成。Fiber 输出只能连接带光纤的 Device，与 NovaStar 相同。",
+        "**预设：** 从基础到大型活动的 10 个预设，每个都带有自己的 Device，分为 Basic / Shows / Large event，提供更大的预览，并可用 Save as preset 保存自己的方案。",
+        "**3D Stage：** 在右键框中设置舞台的宽度、高度和深度，单位与 Settings 中所选一致。",
+        "**动画：** 新角色，走路更自然，Animation 框中新增 Upload logo。Ctrl+C / Ctrl+V 会把屏幕粘贴在原屏幕旁边，Grid 的徽标可以旋转。"
+      ],
+      "zh-Hant": [
+        "**連接：** 有光纖或無光纖的 Device（RJ45 / Fiber），每個 2 到 20 個連接埠，每個 Device 一種顏色，每個連接埠有一條線連到它的 RJ，用箭頭逐一切換 Device，並有 PNG / PNG Alpha 相機。",
+        "**繪圖：** Custom device 為每個 Device 提供一個 RJ45 或 Fiber 輸出，每條連接由技術人員自行完成。Fiber 輸出只能連接有光纖的 Device，與 NovaStar 相同。",
+        "**預設：** 從基礎到大型活動的 10 個預設，每個都帶有自己的 Device，分為 Basic / Shows / Large event，提供更大的預覽，並可用 Save as preset 儲存自己的配置。",
+        "**3D Stage：** 在右鍵框中設定舞台的寬度、高度與深度，單位與 Settings 中所選一致。",
+        "**動畫：** 新角色，走路更自然，Animation 框中新增 Upload logo。Ctrl+C / Ctrl+V 會把螢幕貼在原螢幕旁邊，Grid 的標誌可以旋轉。"
+      ],
+      "ja": [
+        "**接続：** 光ファイバーあり／なしの Device（RJ45 / Fiber）、各 2〜20 ポート、Device ごとに 1 色、各ポートから対応する RJ への線、Device を順に移動する矢印、PNG / PNG Alpha カメラ。",
+        "**図面：** Custom device に Device ごとに RJ45 または Fiber の出力が 1 つ付き、各接続は技術者が行います。Fiber 出力はファイバー付きの Device にのみ接続できます（NovaStar と同じ）。",
+        "**プリセット：** 基本から大規模イベントまで 10 種類、それぞれに Device 付き。Basic / Shows / Large event に分類され、大きなプレビューと自分の構成を保存する Save as preset を追加。",
+        "**3D Stage：** 右クリックのボックスでステージの幅・高さ・奥行きを、Settings で選んだ単位で設定できます。",
+        "**アニメーション：** より自然に歩く新しいキャラクターと、Animation ボックスの Upload logo。Ctrl+C / Ctrl+V で画面を元の隣に貼り付け、Grid のロゴは回転できます。"
+      ],
+      "ko": [
+        "**연결:** 광섬유 유무에 따른 Device(RJ45 / Fiber), 각각 2~20개 포트, Device마다 한 가지 색, 각 포트에서 해당 RJ까지의 선, Device를 차례로 이동하는 화살표, PNG / PNG Alpha 카메라.",
+        "**도면:** Custom device에 Device마다 RJ45 또는 Fiber 출력이 하나씩 생기고 각 연결은 기술자가 직접 합니다. Fiber 출력은 광섬유가 있는 Device에만 연결됩니다(NovaStar와 동일).",
+        "**프리셋:** 기본부터 대형 이벤트까지 10개 프리셋, 각자 Device 포함, Basic / Shows / Large event로 구분, 더 큰 미리보기와 나만의 구성을 위한 Save as preset.",
+        "**3D Stage:** 오른쪽 클릭 상자에서 무대의 너비, 높이, 깊이를 Settings에서 고른 단위로 설정합니다.",
+        "**애니메이션:** 더 자연스럽게 걷는 새 캐릭터와 Animation 상자의 Upload logo. Ctrl+C / Ctrl+V는 화면을 원본 옆에 붙여 넣고, Grid 로고는 회전할 수 있습니다."
+      ],
+      "ar": [
+        "**الاتصال:** أجهزة Device بألياف أو بدونها (RJ45 / Fiber)، من 2 إلى 20 منفذًا لكل منها، لون لكل Device، وخط من كل منفذ إلى RJ الخاص به، وأسهم للتنقل بين الأجهزة، وكاميرا PNG / PNG Alpha.",
+        "**الرسم:** يحصل Custom device على مخرج RJ45 أو Fiber لكل Device، ويقوم الفني بكل توصيلة. مخرج Fiber يتصل فقط بجهاز Device يحتوي على ألياف، كما في NovaStar.",
+        "**الإعدادات المسبقة:** 10 إعدادات من الأساسي إلى الحدث الكبير، لكل منها أجهزتها، ضمن Basic / Shows / Large event، مع معاينة أكبر وSave as preset لتجهيزاتك الخاصة.",
+        "**3D Stage:** عرض المسرح وارتفاعه وعمقه في مربع النقر الأيمن، بالوحدة المختارة في Settings.",
+        "**الحركة:** شخصيات جديدة بمشية أكثر طبيعية وزر Upload logo في مربع Animation. ‏Ctrl+C / Ctrl+V يلصق الشاشة بجوار الأصلية، ويمكن تدوير شعار Grid."
+      ],
+      "th": [
+        "**การเชื่อมต่อ:** Device แบบมีหรือไม่มีไฟเบอร์ (RJ45 / Fiber) แต่ละตัว 2 ถึง 20 พอร์ต หนึ่งสีต่อ Device เส้นจากแต่ละพอร์ตไปยัง RJ ของมัน ลูกศรสำหรับเลื่อนทีละ Device และกล้อง PNG / PNG Alpha",
+        "**แผนภาพ:** Custom device ได้เอาต์พุต RJ45 หรือ Fiber หนึ่งช่องต่อ Device และช่างเป็นผู้เชื่อมต่อแต่ละเส้นเอง เอาต์พุต Fiber ต่อได้เฉพาะ Device ที่มีไฟเบอร์ เหมือนใน NovaStar",
+        "**พรีเซ็ต:** 10 พรีเซ็ตตั้งแต่พื้นฐานถึงงานใหญ่ แต่ละอันมี Device ของตัวเอง แบ่งเป็น Basic / Shows / Large event พร้อมตัวอย่างที่ใหญ่ขึ้นและ Save as preset สำหรับชุดของคุณเอง",
+        "**3D Stage:** ความกว้าง ความสูง และความลึกของเวทีในกล่องคลิกขวา ในหน่วยที่เลือกใน Settings",
+        "**แอนิเมชัน:** ตัวละครใหม่ที่เดินเป็นธรรมชาติขึ้น และ Upload logo ในกล่อง Animation โดย Ctrl+C / Ctrl+V จะวางหน้าจอไว้ข้างต้นฉบับ และหมุนโลโก้ของ Grid ได้"
+      ],
+      "hi": [
+        "**कनेक्शन:** फ़ाइबर वाले या बिना फ़ाइबर वाले Device (RJ45 / Fiber), हर एक में 2 से 20 पोर्ट, हर Device का एक रंग, हर पोर्ट से उसके RJ तक एक लाइन, एक-एक Device पर जाने के लिए तीर और PNG / PNG Alpha कैमरा।",
+        "**ड्रॉइंग:** Custom device को हर Device के लिए एक RJ45 या Fiber आउटपुट मिलता है और हर कनेक्शन तकनीशियन खुद बनाता है। Fiber आउटपुट केवल फ़ाइबर वाले Device से जुड़ता है, NovaStar की तरह।",
+        "**प्रीसेट:** बुनियादी से बड़े आयोजन तक 10 प्रीसेट, हर एक अपने Device के साथ, Basic / Shows / Large event में, बड़ा प्रीव्यू और अपने सेटअप के लिए Save as preset।",
+        "**3D Stage:** राइट-क्लिक बॉक्स में स्टेज की चौड़ाई, ऊँचाई और गहराई, Settings में चुनी गई इकाई में।",
+        "**एनीमेशन:** ज़्यादा स्वाभाविक चाल वाले नए किरदार और Animation बॉक्स में Upload logo। Ctrl+C / Ctrl+V स्क्रीन को मूल के बगल में पेस्ट करता है और Grid का लोगो घुमाया जा सकता है।"
+      ],
+      "vi": [
+        "**Kết nối:** Device có hoặc không có cáp quang (RJ45 / Fiber), mỗi cái 2 đến 20 cổng, mỗi Device một màu, một đường từ mỗi cổng đến RJ của nó, mũi tên để đi từng Device và camera PNG / PNG Alpha.",
+        "**Bản vẽ:** Custom device có một ngõ ra RJ45 hoặc Fiber cho mỗi Device và kỹ thuật viên tự nối từng đường. Ngõ ra Fiber chỉ nối với Device có cáp quang, như ở NovaStar.",
+        "**Preset:** 10 preset từ cơ bản đến sự kiện lớn, mỗi cái kèm Device của nó, chia thành Basic / Shows / Large event, có xem trước lớn hơn và Save as preset cho cấu hình riêng của bạn.",
+        "**3D Stage:** chiều rộng, chiều cao và chiều sâu sân khấu trong hộp chuột phải, theo đơn vị chọn trong Settings.",
+        "**Hoạt cảnh:** nhân vật mới đi lại tự nhiên hơn và Upload logo trong hộp Animation. Ctrl+C / Ctrl+V dán màn hình cạnh bản gốc và logo của Grid có thể xoay."
+      ],
+      "bn": [
+        "**সংযোগ:** ফাইবারসহ বা ফাইবার ছাড়া Device (RJ45 / Fiber), প্রতিটিতে 2 থেকে 20 পোর্ট, প্রতিটি Device-এর একটি রং, প্রতিটি পোর্ট থেকে তার RJ পর্যন্ত একটি লাইন, এক Device থেকে আরেকটিতে যাওয়ার তীর এবং PNG / PNG Alpha ক্যামেরা।",
+        "**ড্রয়িং:** Custom device প্রতিটি Device-এর জন্য একটি RJ45 বা Fiber আউটপুট পায় এবং প্রতিটি সংযোগ টেকনিশিয়ান নিজে করেন। Fiber আউটপুট শুধু ফাইবারসহ Device-এ যুক্ত হয়, NovaStar-এর মতো।",
+        "**প্রিসেট:** মৌলিক থেকে বড় অনুষ্ঠান পর্যন্ত 10টি প্রিসেট, প্রতিটি নিজের Device সহ, Basic / Shows / Large event-এ, বড় প্রিভিউ এবং নিজের সেটআপের জন্য Save as preset।",
+        "**3D Stage:** রাইট-ক্লিক বক্সে মঞ্চের প্রস্থ, উচ্চতা ও গভীরতা, Settings-এ বেছে নেওয়া এককে।",
+        "**অ্যানিমেশন:** আরও স্বাভাবিকভাবে হাঁটা নতুন চরিত্র এবং Animation বক্সে Upload logo। Ctrl+C / Ctrl+V স্ক্রিনকে মূলটির পাশে পেস্ট করে এবং Grid-এর লোগো ঘোরানো যায়।"
+      ],
+      "ms": [
+        "**Sambungan:** Device dengan atau tanpa gentian (RJ45 / Fiber), setiap satu 2 hingga 20 port, satu warna bagi setiap Device, garisan dari setiap port ke RJ-nya, anak panah untuk bergerak Device demi Device dan kamera PNG / PNG Alpha.",
+        "**Lukisan:** Custom device mendapat satu output RJ45 atau Fiber bagi setiap Device dan juruteknik membuat setiap sambungan. Output Fiber hanya bersambung ke Device yang mempunyai gentian, seperti pada NovaStar.",
+        "**Pratetap:** 10 pratetap daripada asas hingga acara besar, setiap satu dengan Device sendiri, dalam Basic / Shows / Large event, dengan pratonton lebih besar dan Save as preset untuk susunan anda sendiri.",
+        "**3D Stage:** lebar, tinggi dan dalam pentas dalam kotak klik kanan, dalam unit yang dipilih dalam Settings.",
+        "**Animasi:** watak baharu dengan cara berjalan yang lebih semula jadi dan Upload logo dalam kotak Animation. Ctrl+C / Ctrl+V menampal skrin di sebelah yang asal dan logo Grid boleh diputar."
+      ],
+      "sv": [
+        "**Anslutning:** Devices med eller utan fiber (RJ45 / Fiber), 2 till 20 portar var, en färg per Device, en linje från varje port till dess RJ, pilar för att gå Device för Device och en kamera PNG / PNG Alpha.",
+        "**Ritning:** Custom device får en RJ45- eller Fiber-utgång per Device och teknikern gör varje koppling. En Fiber-utgång kopplas bara till en Device med fiber, som hos NovaStar.",
+        "**Förinställningar:** 10 förinställningar från grundläggande till stort evenemang, var och en med sina Devices, i Basic / Shows / Large event, med större förhandsvisning och Save as preset för dina egna uppställningar.",
+        "**3D Stage:** scenens bredd, höjd och djup i högerklicksrutan, i enheten som valts i Settings.",
+        "**Animation:** nya figurer med naturligare gång och Upload logo i Animation-rutan. Ctrl+C / Ctrl+V klistrar in en skärm bredvid originalet och Grid-logotypen kan roteras."
+      ],
+      "ur": [
+        "**کنکشن:** فائبر کے ساتھ یا بغیر Device (RJ45 / Fiber)، ہر ایک میں 2 سے 20 پورٹس، ہر Device کا ایک رنگ، ہر پورٹ سے اس کے RJ تک ایک لکیر، ایک ایک Device پر جانے کے لیے تیر اور PNG / PNG Alpha کیمرہ۔",
+        "**ڈرائنگ:** Custom device کو ہر Device کے لیے ایک RJ45 یا Fiber آؤٹ پٹ ملتا ہے اور ہر کنکشن ٹیکنیشن خود بناتا ہے۔ Fiber آؤٹ پٹ صرف فائبر والے Device سے جڑتا ہے، NovaStar کی طرح۔",
+        "**پری سیٹس:** بنیادی سے بڑے ایونٹ تک 10 پری سیٹس، ہر ایک اپنے Device کے ساتھ، Basic / Shows / Large event میں، بڑا پیش منظر اور اپنے سیٹ اپ کے لیے Save as preset۔",
+        "**3D Stage:** رائٹ کلک باکس میں اسٹیج کی چوڑائی، اونچائی اور گہرائی، Settings میں منتخب اکائی میں۔",
+        "**اینیمیشن:** زیادہ قدرتی چال والے نئے کردار اور Animation باکس میں Upload logo۔ Ctrl+C / Ctrl+V اسکرین کو اصل کے ساتھ چسپاں کرتا ہے اور Grid کا لوگو گھمایا جا سکتا ہے۔"
+      ],
+      "sw": [
+        "**Muunganisho:** Devices zenye au zisizo na fiber (RJ45 / Fiber), kila moja na milango 2 hadi 20, rangi moja kwa kila Device, mstari kutoka kila mlango hadi RJ yake, mishale ya kwenda Device moja hadi nyingine na kamera ya PNG / PNG Alpha.",
+        "**Mchoro:** Custom device inapata toleo moja la RJ45 au Fiber kwa kila Device na fundi hufanya kila muunganisho. Toleo la Fiber huunganishwa tu na Device yenye fiber, kama kwa NovaStar.",
+        "**Mipangilio:** mipangilio 10 kutoka ya msingi hadi tukio kubwa, kila mmoja na Devices zake, katika Basic / Shows / Large event, na hakikisho kubwa zaidi na Save as preset kwa mipangilio yako mwenyewe.",
+        "**3D Stage:** upana, urefu na kina cha jukwaa katika kisanduku cha kubofya kulia, kwa kipimo kilichochaguliwa kwenye Settings.",
+        "**Uhuishaji:** wahusika wapya wanaotembea kwa asili zaidi na Upload logo kwenye kisanduku cha Animation. Ctrl+C / Ctrl+V hubandika skrini kando ya ile ya asili na nembo ya Grid inaweza kuzungushwa."
+      ],
+      "gn": [
+        "**Joaju:** Device fibra reheve térã fibra’ỹre (RJ45 / Fiber), peteĩteĩ 2 guive 20 puerto peve, peteĩ sa’y peteĩteĩ Device-pe, peteĩ línea peteĩteĩ puerto guive ijehegua RJ peve, flecha ojeho haĝua Device ha Device rupi ha kámara PNG / PNG Alpha.",
+        "**Ta’ãnga’a:** Custom device oguereko peteĩ salida RJ45 térã Fiber peteĩteĩ Device-pe ha técnico ombojoaju peteĩteĩ. Salida Fiber ojoaju Device fibra reheve añónte, NovaStar-pe guáicha.",
+        "**Preset:** 10 preset ñepyrũ guive mbyaty guasu peve, peteĩteĩ hendive Device, Basic / Shows / Large event-pe, jehechauka tuichavéva ha Save as preset nde rembiapo ñongatu haĝua.",
+        "**3D Stage:** escenario pe ipe, ijyvate ha ipypuku ventana click akatúape, Settings-pe reiporavóva medida-pe.",
+        "**Animación:** tapicha pyahu oguatáva hekoitépe ha Upload logo Animation ventana-pe. Ctrl+C / Ctrl+V omoĩ pantalla ijypýpe ha Grid logo ikatu ojere."
+      ],
+      "he": [
+        "**חיבור:** התקני Device עם סיב או בלי (RJ45 / Fiber), 2 עד 20 יציאות לכל אחד, צבע אחד לכל Device, קו מכל יציאה אל ה-RJ שלה, חצים למעבר מ-Device ל-Device ומצלמת PNG / PNG Alpha.",
+        "**שרטוט:** ה-Custom device מקבל יציאת RJ45 או Fiber אחת לכל Device, והטכנאי מבצע כל חיבור. יציאת Fiber מתחברת רק ל-Device עם סיב, כמו ב-NovaStar.",
+        "**הגדרות מוכנות:** 10 הגדרות מוכנות מהבסיסי ועד אירוע גדול, כל אחת עם ה-Devices שלה, בקבוצות Basic / Shows / Large event, עם תצוגה מקדימה גדולה יותר ו-Save as preset להרכבים שלך.",
+        "**3D Stage:** רוחב, גובה ועומק הבמה בתיבת הלחיצה הימנית, ביחידה שנבחרה ב-Settings.",
+        "**אנימציה:** דמויות חדשות עם הליכה טבעית יותר ו-Upload logo בתיבת Animation. ‏Ctrl+C / Ctrl+V מדביק מסך ליד המקורי, ואת הלוגו של Grid אפשר לסובב."
+      ],
+      "lv": [
+        "**Savienojums:** Device ar optisko šķiedru vai bez tās (RJ45 / Fiber), katrā 2 līdz 20 porti, viena krāsa katram Device, līnija no katra porta līdz tā RJ, bultas pārvietošanai no Device uz Device un kamera PNG / PNG Alpha.",
+        "**Rasējums:** Custom device saņem vienu RJ45 vai Fiber izeju katram Device, un katru savienojumu veido tehniķis. Fiber izeja savienojas tikai ar Device, kam ir šķiedra, kā NovaStar.",
+        "**Sagataves:** 10 sagataves no vienkāršas līdz lielam pasākumam, katra ar saviem Device, grupās Basic / Shows / Large event, ar lielāku priekšskatījumu un Save as preset jūsu pašu salikumiem.",
+        "**3D Stage:** skatuves platums, augstums un dziļums labā klikšķa logā, Settings izvēlētajā mērvienībā.",
+        "**Animācija:** jauni tēli ar dabiskāku gaitu un Upload logo Animation logā. Ctrl+C / Ctrl+V ielīmē ekrānu blakus oriģinālam, un Grid logotipu var pagriezt."
+      ],
+      "fa": [
+        "**اتصال:** Deviceهای با فیبر یا بدون فیبر (RJ45 / Fiber)، هر کدام ۲ تا ۲۰ پورت، یک رنگ برای هر Device، یک خط از هر پورت تا RJ آن، فلش برای رفتن از Device به Device و دوربین PNG / PNG Alpha.",
+        "**نقشه:** Custom device برای هر Device یک خروجی RJ45 یا Fiber می‌گیرد و هر اتصال را تکنسین انجام می‌دهد. خروجی Fiber فقط به Device فیبردار وصل می‌شود، مانند NovaStar.",
+        "**پیش‌تنظیم‌ها:** ۱۰ پیش‌تنظیم از ساده تا رویداد بزرگ، هر کدام با Deviceهای خود، در Basic / Shows / Large event، با پیش‌نمایش بزرگ‌تر و Save as preset برای چیدمان‌های خودتان.",
+        "**3D Stage:** عرض، ارتفاع و عمق صحنه در کادر کلیک راست، با واحدی که در Settings انتخاب شده است.",
+        "**انیمیشن:** شخصیت‌های جدید با راه رفتن طبیعی‌تر و Upload logo در کادر Animation. ‏Ctrl+C / Ctrl+V صفحه را کنار نسخه اصلی می‌چسباند و لوگوی Grid قابل چرخش است."
+      ],
+      "pl": [
+        "**Połączenie:** Device z włóknem lub bez (RJ45 / Fiber), każdy od 2 do 20 portów, jeden kolor na Device, linia od każdego portu do jego RJ, strzałki do przechodzenia między Device i aparat PNG / PNG Alpha.",
+        "**Rysunek:** Custom device dostaje jedno wyjście RJ45 lub Fiber na każdy Device, a każde połączenie wykonuje technik. Wyjście Fiber łączy się tylko z Device z włóknem, jak w NovaStar.",
+        "**Presety:** 10 presetów od podstawowego do dużego wydarzenia, każdy z własnymi Device, w grupach Basic / Shows / Large event, z większym podglądem i Save as preset dla własnych konfiguracji.",
+        "**3D Stage:** szerokość, wysokość i głębokość sceny w okienku prawego przycisku, w jednostce wybranej w Settings.",
+        "**Animacja:** nowe postacie z bardziej naturalnym chodem i Upload logo w okienku Animation. Ctrl+C / Ctrl+V wkleja ekran obok oryginału, a logo w Grid można obracać."
+      ],
+      "uk": [
+        "**Підключення:** Device з оптикою або без (RJ45 / Fiber), від 2 до 20 портів у кожному, свій колір для кожного Device, лінія від кожного порту до його RJ, стрілки для переходу від Device до Device і камера PNG / PNG Alpha.",
+        "**Схема:** Custom device отримує по одному виходу RJ45 або Fiber на кожен Device, а кожне підключення робить технік. Вихід Fiber підключається лише до Device з оптикою, як у NovaStar.",
+        "**Пресети:** 10 пресетів від простого до великого заходу, кожен зі своїми Device, у розділах Basic / Shows / Large event, з більшим попереднім переглядом і Save as preset для власних схем.",
+        "**3D Stage:** ширина, висота та глибина сцени у вікні правої кнопки миші, в одиницях, вибраних у Settings.",
+        "**Анімація:** нові персонажі з природнішою ходою та Upload logo у вікні Animation. Ctrl+C / Ctrl+V вставляє екран поруч з оригіналом, а логотип у Grid можна обертати."
+      ],
+      "ca": [
+        "**Connexió:** Devices amb fibra o sense (RJ45 / Fiber), de 2 a 20 ports cadascun, un color per Device, una línia de cada port fins al seu RJ, fletxes per anar de Device en Device i càmera PNG / PNG Alpha.",
+        "**Dibuix:** el Custom device rep una sortida RJ45 o Fiber per Device i el tècnic fa cada connexió. Una sortida Fiber només es connecta a un Device amb fibra, com a NovaStar.",
+        "**Predefinits:** 10 predefinits del bàsic al gran esdeveniment, cadascun amb els seus Devices, a Basic / Shows / Large event, amb una previsualització més gran i Save as preset per als teus muntatges.",
+        "**3D Stage:** amplada, alçada i profunditat de l’escenari a la caixa del clic dret, en la unitat triada a Settings.",
+        "**Animació:** personatges nous amb un caminar més natural i Upload logo a la caixa d’Animation. Ctrl+C / Ctrl+V enganxa una pantalla al costat de l’original i el logotip del Grid es pot girar."
+      ],
+      "cs": [
+        "**Připojení:** Device s optikou nebo bez ní (RJ45 / Fiber), každý se 2 až 20 porty, jedna barva na Device, čára od každého portu k jeho RJ, šipky pro přechod mezi Device a fotoaparát PNG / PNG Alpha.",
+        "**Výkres:** Custom device dostane jeden výstup RJ45 nebo Fiber na každý Device a každé zapojení provede technik. Výstup Fiber se připojí jen k Device s optikou, jako u NovaStar.",
+        "**Předvolby:** 10 předvoleb od základní po velkou akci, každá se svými Device, ve skupinách Basic / Shows / Large event, s větším náhledem a Save as preset pro vlastní sestavy.",
+        "**3D Stage:** šířka, výška a hloubka pódia v okně pravého tlačítka, v jednotce zvolené v Settings.",
+        "**Animace:** nové postavy s přirozenější chůzí a Upload logo v okně Animation. Ctrl+C / Ctrl+V vloží obrazovku vedle originálu a logo v Grid lze otáčet."
+      ],
+      "fi": [
+        "**Liitäntä:** Devicet kuidulla tai ilman (RJ45 / Fiber), kussakin 2–20 porttia, yksi väri Devicea kohden, viiva jokaisesta portista sen RJ:hen, nuolet Devicesta toiseen siirtymiseen ja PNG / PNG Alpha -kamera.",
+        "**Piirros:** Custom device saa yhden RJ45- tai Fiber-lähdön Devicea kohden, ja teknikko tekee jokaisen kytkennän. Fiber-lähtö kytkeytyy vain Deviceen, jossa on kuitu, kuten NovaStarissa.",
+        "**Esiasetukset:** 10 esiasetusta perustasosta suureen tapahtumaan, kukin omine Deviceineen, ryhmissä Basic / Shows / Large event, suuremmalla esikatselulla ja Save as preset -toiminnolla omille kokoonpanoille.",
+        "**3D Stage:** lavan leveys, korkeus ja syvyys oikean napsautuksen ikkunassa, Settingsissä valitussa yksikössä.",
+        "**Animaatio:** uudet hahmot luonnollisemmalla kävelyllä ja Upload logo Animation-ikkunassa. Ctrl+C / Ctrl+V liittää näytön alkuperäisen viereen, ja Gridin logoa voi kiertää."
+      ],
+      "el": [
+        "**Σύνδεση:** Devices με ή χωρίς ίνα (RJ45 / Fiber), από 2 έως 20 θύρες το καθένα, ένα χρώμα ανά Device, μια γραμμή από κάθε θύρα ως το RJ της, βέλη για μετάβαση από Device σε Device και κάμερα PNG / PNG Alpha.",
+        "**Σχέδιο:** το Custom device παίρνει μία έξοδο RJ45 ή Fiber ανά Device και ο τεχνικός κάνει κάθε σύνδεση. Η έξοδος Fiber συνδέεται μόνο σε Device με ίνα, όπως στη NovaStar.",
+        "**Προεπιλογές:** 10 προεπιλογές από βασικό έως μεγάλη εκδήλωση, η καθεμία με τα Devices της, σε Basic / Shows / Large event, με μεγαλύτερη προεπισκόπηση και Save as preset για δικές σας διατάξεις.",
+        "**3D Stage:** πλάτος, ύψος και βάθος της σκηνής στο πλαίσιο δεξιού κλικ, στη μονάδα που επιλέχθηκε στο Settings.",
+        "**Κίνηση:** νέοι χαρακτήρες με πιο φυσικό βάδισμα και Upload logo στο πλαίσιο Animation. Το Ctrl+C / Ctrl+V επικολλά μια οθόνη δίπλα στην αρχική και το λογότυπο του Grid περιστρέφεται."
+      ],
+      "ha": [
+        "**Haɗi:** Device masu fiber ko babu (RJ45 / Fiber), kowanne da tashoshi 2 zuwa 20, launi ɗaya ga kowane Device, layi daga kowace tasha zuwa RJ ɗinta, kibiyoyi don tafiya Device bayan Device da kyamarar PNG / PNG Alpha.",
+        "**Zane:** Custom device yana samun fitarwa ɗaya ta RJ45 ko Fiber ga kowane Device, kuma ma’aikaci ne yake yin kowane haɗi. Fitarwar Fiber tana haɗuwa da Device mai fiber kawai, kamar a NovaStar.",
+        "**Saituna:** saituna 10 daga na asali zuwa babban taro, kowanne da Device ɗinsa, a Basic / Shows / Large event, da babban samfoti da Save as preset don naka tsare-tsare.",
+        "**3D Stage:** faɗi, tsayi da zurfin dandamali a akwatin danna dama, a ma’aunin da aka zaɓa a Settings.",
+        "**Motsi:** sababbin haruffa masu tafiya a dabi’ance da Upload logo a akwatin Animation. Ctrl+C / Ctrl+V yana liƙa allo kusa da na asali kuma ana iya juya tambarin Grid."
+      ],
+      "ro": [
+        "**Conexiune:** Devices cu sau fără fibră (RJ45 / Fiber), cu 2 până la 20 de porturi fiecare, o culoare pentru fiecare Device, o linie de la fiecare port la RJ-ul lui, săgeți pentru a trece de la un Device la altul și cameră PNG / PNG Alpha.",
+        "**Desen:** Custom device primește câte o ieșire RJ45 sau Fiber pentru fiecare Device, iar tehnicianul face fiecare conexiune. O ieșire Fiber se conectează doar la un Device cu fibră, ca la NovaStar.",
+        "**Presetări:** 10 presetări de la simplu la eveniment mare, fiecare cu Device-urile ei, în Basic / Shows / Large event, cu previzualizare mai mare și Save as preset pentru montajele tale.",
+        "**3D Stage:** lățimea, înălțimea și adâncimea scenei în caseta de clic dreapta, în unitatea aleasă în Settings.",
+        "**Animație:** personaje noi cu un mers mai natural și Upload logo în caseta Animation. Ctrl+C / Ctrl+V lipește un ecran lângă original, iar logoul din Grid poate fi rotit."
+      ],
+      "yo": [
+        "**Ìsopọ̀:** àwọn Device tí ó ní fiber tàbí tí kò ní (RJ45 / Fiber), ọ̀kọ̀ọ̀kan ní port 2 sí 20, àwọ̀ kan fún Device kọ̀ọ̀kan, ìlà láti port kọ̀ọ̀kan dé RJ rẹ̀, ọfà láti lọ láti Device sí Device àti kámẹ́rà PNG / PNG Alpha.",
+        "**Àwòrán:** Custom device ń gba ìjáde RJ45 tàbí Fiber kan fún Device kọ̀ọ̀kan, onímọ̀ ẹ̀rọ sì ń ṣe ìsopọ̀ kọ̀ọ̀kan. Ìjáde Fiber ń sopọ̀ mọ́ Device tí ó ní fiber nìkan, bí ti NovaStar.",
+        "**Àwọn ètò:** ètò 10 láti ìpìlẹ̀ dé ìṣẹ̀lẹ̀ ńlá, ọ̀kọ̀ọ̀kan pẹ̀lú àwọn Device rẹ̀, nínú Basic / Shows / Large event, pẹ̀lú àwòkọ́ tí ó tóbi jù àti Save as preset fún ètò tìrẹ.",
+        "**3D Stage:** fífẹ̀, gíga àti jíjìn pèpéle nínú àpótí títẹ̀ ọ̀tún, ní ìwọ̀n tí a yàn nínú Settings.",
+        "**Àwòrán-ìṣípòpadà:** àwọn ẹ̀dá tuntun tí ń rìn bí ẹ̀dá àti Upload logo nínú àpótí Animation. Ctrl+C / Ctrl+V ń lẹ ìbojú sí ẹ̀gbẹ́ ti àkọ́kọ́, a sì lè yí àmì Grid po."
+      ],
+      "zu": [
+        "**Ukuxhuma:** ama-Device ane-fiber noma angenayo (RJ45 / Fiber), ngalinye linamaphothi angu-2 kuya ku-20, umbala owodwa nge-Device ngalinye, umugqa osuka kuphothi ngalinye uye ku-RJ yalo, imicibisholo yokuya ku-Device ngamunye nekhamera ye-PNG / PNG Alpha.",
+        "**Umdwebo:** i-Custom device ithola okuphumayo okukodwa kwe-RJ45 noma i-Fiber nge-Device ngalinye, futhi uchwepheshe wenza ukuxhuma ngakunye. Okuphumayo kwe-Fiber kuxhuma kuphela ku-Device ene-fiber, njengaku-NovaStar.",
+        "**Ama-preset:** ama-preset ayi-10 kusuka kokuyisisekelo kuya emcimbini omkhulu, ngalinye nama-Device alo, ku-Basic / Shows / Large event, nokubuka kuqala okukhulu ne-Save as preset yezinhlelo zakho.",
+        "**3D Stage:** ububanzi, ubude nokujula kwesiteji ebhokisini lokuchofoza ngakwesokudla, ngeyunithi ekhethwe ku-Settings.",
+        "**Ukugqwayiza:** abalingiswa abasha abahamba ngokwemvelo kakhudlwana ne-Upload logo ebhokisini le-Animation. I-Ctrl+C / Ctrl+V inamathisela isikrini eduze kwesokuqala futhi ilogo ye-Grid ingaphendulwa."
+      ],
+      "fil": [
+        "**Koneksyon:** mga Device na may fiber o wala (RJ45 / Fiber), 2 hanggang 20 port bawat isa, isang kulay bawat Device, isang linya mula sa bawat port hanggang sa RJ nito, mga arrow para lumipat sa bawat Device at camera na PNG / PNG Alpha.",
+        "**Drawing:** ang Custom device ay may isang output na RJ45 o Fiber bawat Device at ang technician ang gumagawa ng bawat koneksyon. Ang output na Fiber ay kumokonekta lang sa Device na may fiber, gaya sa NovaStar.",
+        "**Mga preset:** 10 preset mula sa basic hanggang malaking event, bawat isa may sariling mga Device, sa Basic / Shows / Large event, may mas malaking preview at Save as preset para sa sarili mong setup.",
+        "**3D Stage:** lapad, taas at lalim ng entablado sa kahon ng right-click, sa unit na pinili sa Settings.",
+        "**Animation:** mga bagong karakter na mas natural maglakad at Upload logo sa kahon ng Animation. Ang Ctrl+C / Ctrl+V ay nagdidikit ng screen sa tabi ng orihinal at ang logo ng Grid ay maaaring paikutin."
+      ],
+      "ta": [
+        "**இணைப்பு:** ஃபைபர் உள்ள அல்லது இல்லாத Device (RJ45 / Fiber), ஒவ்வொன்றிலும் 2 முதல் 20 போர்ட்கள், ஒவ்வொரு Device-க்கும் ஒரு நிறம், ஒவ்வொரு போர்ட்டிலிருந்தும் அதன் RJ வரை ஒரு கோடு, Device ஒவ்வொன்றாகச் செல்ல அம்புகள் மற்றும் PNG / PNG Alpha கேமரா.",
+        "**வரைபடம்:** Custom device ஒவ்வொரு Device-க்கும் ஒரு RJ45 அல்லது Fiber வெளியீட்டைப் பெறுகிறது, ஒவ்வொரு இணைப்பையும் தொழில்நுட்பர் செய்கிறார். Fiber வெளியீடு ஃபைபர் உள்ள Device-உடன் மட்டுமே இணையும், NovaStar போல.",
+        "**முன்னமைவுகள்:** அடிப்படை முதல் பெரிய நிகழ்வு வரை 10 முன்னமைவுகள், ஒவ்வொன்றும் அதன் Device-களுடன், Basic / Shows / Large event-இல், பெரிய முன்னோட்டம் மற்றும் உங்கள் அமைப்புகளுக்கு Save as preset.",
+        "**3D Stage:** வலது கிளிக் பெட்டியில் மேடையின் அகலம், உயரம், ஆழம், Settings-இல் தேர்ந்தெடுத்த அலகில்.",
+        "**அனிமேஷன்:** இயல்பாக நடக்கும் புதிய பாத்திரங்கள் மற்றும் Animation பெட்டியில் Upload logo. Ctrl+C / Ctrl+V திரையை அசலின் அருகில் ஒட்டுகிறது, Grid லோகோவைச் சுழற்றலாம்."
+      ],
+      "te": [
+        "**కనెక్షన్:** ఫైబర్ ఉన్న లేదా లేని Device (RJ45 / Fiber), ఒక్కొక్కదానికి 2 నుండి 20 పోర్ట్‌లు, ప్రతి Device‌కు ఒక రంగు, ప్రతి పోర్ట్ నుండి దాని RJ వరకు ఒక గీత, Device నుండి Device‌కు వెళ్లే బాణాలు మరియు PNG / PNG Alpha కెమెరా.",
+        "**డ్రాయింగ్:** Custom device ప్రతి Device‌కు ఒక RJ45 లేదా Fiber అవుట్‌పుట్ పొందుతుంది, ప్రతి కనెక్షన్‌ను టెక్నీషియన్ చేస్తారు. Fiber అవుట్‌పుట్ ఫైబర్ ఉన్న Device‌కు మాత్రమే కలుస్తుంది, NovaStar లాగా.",
+        "**ప్రీసెట్‌లు:** ప్రాథమిక నుండి పెద్ద ఈవెంట్ వరకు 10 ప్రీసెట్‌లు, ఒక్కొక్కటి దాని Device‌లతో, Basic / Shows / Large event‌లో, పెద్ద ప్రివ్యూ మరియు మీ స్వంత సెటప్‌ల కోసం Save as preset.",
+        "**3D Stage:** కుడి క్లిక్ బాక్స్‌లో వేదిక వెడల్పు, ఎత్తు మరియు లోతు, Settings‌లో ఎంచుకున్న యూనిట్‌లో.",
+        "**యానిమేషన్:** మరింత సహజంగా నడిచే కొత్త పాత్రలు మరియు Animation బాక్స్‌లో Upload logo. Ctrl+C / Ctrl+V స్క్రీన్‌ను అసలుదాని పక్కన అతికిస్తుంది, Grid లోగోను తిప్పవచ్చు."
+      ],
+      "mr": [
+        "**कनेक्शन:** फायबरसह किंवा फायबरशिवाय Device (RJ45 / Fiber), प्रत्येकात 2 ते 20 पोर्ट, प्रत्येक Device साठी एक रंग, प्रत्येक पोर्टपासून त्याच्या RJ पर्यंत एक रेषा, एकेका Device वर जाण्यासाठी बाण आणि PNG / PNG Alpha कॅमेरा.",
+        "**ड्रॉइंग:** Custom device ला प्रत्येक Device साठी एक RJ45 किंवा Fiber आउटपुट मिळतो आणि प्रत्येक जोडणी तंत्रज्ञ स्वतः करतो. Fiber आउटपुट फक्त फायबर असलेल्या Device ला जोडतो, NovaStar प्रमाणे.",
+        "**प्रीसेट:** मूलभूत ते मोठ्या कार्यक्रमापर्यंत 10 प्रीसेट, प्रत्येक त्याच्या Device सह, Basic / Shows / Large event मध्ये, मोठे पूर्वावलोकन आणि तुमच्या मांडणीसाठी Save as preset.",
+        "**3D Stage:** राइट-क्लिक बॉक्समध्ये स्टेजची रुंदी, उंची आणि खोली, Settings मध्ये निवडलेल्या एककात.",
+        "**अॅनिमेशन:** अधिक नैसर्गिक चालणारी नवी पात्रे आणि Animation बॉक्समध्ये Upload logo. Ctrl+C / Ctrl+V स्क्रीन मूळच्या शेजारी पेस्ट करते आणि Grid चा लोगो फिरवता येतो."
+      ],
+      "da": [
+        "**Forbindelse:** Devices med eller uden fiber (RJ45 / Fiber), 2 til 20 porte hver, én farve pr. Device, en linje fra hver port til dens RJ, pile til at gå fra Device til Device og et kamera PNG / PNG Alpha.",
+        "**Tegning:** Custom device får én RJ45- eller Fiber-udgang pr. Device, og teknikeren laver hver forbindelse. En Fiber-udgang forbindes kun til en Device med fiber, som hos NovaStar.",
+        "**Forudindstillinger:** 10 forudindstillinger fra grundlæggende til stort arrangement, hver med sine Devices, i Basic / Shows / Large event, med større forhåndsvisning og Save as preset til dine egne opsætninger.",
+        "**3D Stage:** scenens bredde, højde og dybde i højreklik-boksen, i den enhed der er valgt i Settings.",
+        "**Animation:** nye figurer med en mere naturlig gang og Upload logo i Animation-boksen. Ctrl+C / Ctrl+V indsætter en skærm ved siden af originalen, og Grid-logoet kan drejes."
+      ],
+      "nb": [
+        "**Tilkobling:** Devices med eller uten fiber (RJ45 / Fiber), 2 til 20 porter hver, én farge per Device, en linje fra hver port til dens RJ, piler for å gå fra Device til Device og et kamera PNG / PNG Alpha.",
+        "**Tegning:** Custom device får én RJ45- eller Fiber-utgang per Device, og teknikeren lager hver tilkobling. En Fiber-utgang kobles bare til en Device med fiber, som hos NovaStar.",
+        "**Forhåndsinnstillinger:** 10 forhåndsinnstillinger fra grunnleggende til stort arrangement, hver med sine Devices, i Basic / Shows / Large event, med større forhåndsvisning og Save as preset for dine egne oppsett.",
+        "**3D Stage:** scenens bredde, høyde og dybde i høyreklikkboksen, i enheten valgt i Settings.",
+        "**Animasjon:** nye figurer med mer naturlig gange og Upload logo i Animation-boksen. Ctrl+C / Ctrl+V limer inn en skjerm ved siden av originalen, og Grid-logoen kan roteres."
+      ],
+      "lt": [
+        "**Jungtis:** Device su šviesolaidžiu arba be jo (RJ45 / Fiber), kiekviename nuo 2 iki 20 prievadų, viena spalva kiekvienam Device, linija nuo kiekvieno prievado iki jo RJ, rodyklės pereiti nuo Device prie Device ir PNG / PNG Alpha kamera.",
+        "**Brėžinys:** Custom device gauna po vieną RJ45 arba Fiber išvestį kiekvienam Device, o kiekvieną jungtį daro technikas. Fiber išvestis jungiama tik prie Device su šviesolaidžiu, kaip NovaStar.",
+        "**Šablonai:** 10 šablonų nuo paprasto iki didelio renginio, kiekvienas su savo Device, grupėse Basic / Shows / Large event, su didesne peržiūra ir Save as preset jūsų pačių sąrankoms.",
+        "**3D Stage:** scenos plotis, aukštis ir gylis dešiniojo spragtelėjimo lange, Settings pasirinktais vienetais.",
+        "**Animacija:** nauji veikėjai su natūralesne eisena ir Upload logo Animation lange. Ctrl+C / Ctrl+V įklijuoja ekraną šalia originalo, o Grid logotipą galima pasukti."
+      ],
+      "et": [
+        "**Ühendus:** Device’id kiuga või ilma (RJ45 / Fiber), igaühes 2 kuni 20 porti, üks värv Device’i kohta, joon igast pordist selle RJ-ni, nooled Device’ilt Device’ile liikumiseks ja PNG / PNG Alpha kaamera.",
+        "**Joonis:** Custom device saab iga Device’i jaoks ühe RJ45- või Fiber-väljundi ja iga ühenduse teeb tehnik. Fiber-väljund ühendub ainult kiuga Device’iga, nagu NovaStaril.",
+        "**Eelseaded:** 10 eelseadet lihtsast suure ürituseni, igaüks oma Device’idega, rühmades Basic / Shows / Large event, suurema eelvaate ja Save as preset funktsiooniga oma lahenduste jaoks.",
+        "**3D Stage:** lava laius, kõrgus ja sügavus paremklõpsu aknas, Settingsis valitud ühikus.",
+        "**Animatsioon:** uued tegelased loomulikuma kõnnakuga ja Upload logo Animation aknas. Ctrl+C / Ctrl+V kleebib ekraani originaali kõrvale ja Gridi logo saab pöörata."
+      ],
+      "sk": [
+        "**Pripojenie:** Device s optikou alebo bez nej (RJ45 / Fiber), každý s 2 až 20 portami, jedna farba na Device, čiara od každého portu k jeho RJ, šípky na prechod medzi Device a fotoaparát PNG / PNG Alpha.",
+        "**Výkres:** Custom device dostane jeden výstup RJ45 alebo Fiber na každý Device a každé zapojenie urobí technik. Výstup Fiber sa pripojí len k Device s optikou, ako pri NovaStar.",
+        "**Predvoľby:** 10 predvolieb od základnej po veľké podujatie, každá so svojimi Device, v skupinách Basic / Shows / Large event, s väčším náhľadom a Save as preset pre vlastné zostavy.",
+        "**3D Stage:** šírka, výška a hĺbka pódia v okne pravého tlačidla, v jednotke zvolenej v Settings.",
+        "**Animácia:** nové postavy s prirodzenejšou chôdzou a Upload logo v okne Animation. Ctrl+C / Ctrl+V vloží obrazovku vedľa originálu a logo v Grid sa dá otáčať."
+      ],
+      "bg": [
+        "**Свързване:** Devices със или без оптика (RJ45 / Fiber), по 2 до 20 порта всеки, един цвят за всеки Device, линия от всеки порт до неговия RJ, стрелки за преминаване от Device към Device и камера PNG / PNG Alpha.",
+        "**Схема:** Custom device получава по един изход RJ45 или Fiber за всеки Device, а всяка връзка прави техникът. Изходът Fiber се свързва само към Device с оптика, както при NovaStar.",
+        "**Предварителни настройки:** 10 настройки от основна до голямо събитие, всяка със своите Devices, в Basic / Shows / Large event, с по-голям преглед и Save as preset за собствените ви схеми.",
+        "**3D Stage:** ширина, височина и дълбочина на сцената в прозореца на десния бутон, в единицата, избрана в Settings.",
+        "**Анимация:** нови герои с по-естествена походка и Upload logo в прозореца Animation. Ctrl+C / Ctrl+V поставя екран до оригинала, а логото в Grid може да се завърта."
+      ],
+      "sr": [
+        "**Повезивање:** Devices са оптиком или без ње (RJ45 / Fiber), сваки са 2 до 20 портова, једна боја по Device-у, линија од сваког порта до његовог RJ, стрелице за прелазак са Device-а на Device и камера PNG / PNG Alpha.",
+        "**Цртеж:** Custom device добија по један RJ45 или Fiber излаз за сваки Device, а свако повезивање ради техничар. Fiber излаз се повезује само са Device-ом који има оптику, као код NovaStar-а.",
+        "**Подешавања:** 10 подешавања од основног до великог догађаја, свако са својим Device-има, у Basic / Shows / Large event, са већим прегледом и Save as preset за ваше поставке.",
+        "**3D Stage:** ширина, висина и дубина бине у прозору десног клика, у јединици изабраној у Settings.",
+        "**Анимација:** нови ликови са природнијим ходом и Upload logo у прозору Animation. Ctrl+C / Ctrl+V лепи екран поред оригинала, а лого у Grid-у може да се окреће."
+      ],
+      "hr": [
+        "**Spajanje:** Devicei s optikom ili bez nje (RJ45 / Fiber), svaki s 2 do 20 priključaka, jedna boja po Deviceu, linija od svakog priključka do njegova RJ-a, strelice za prelazak s Devicea na Device i kamera PNG / PNG Alpha.",
+        "**Crtež:** Custom device dobiva po jedan RJ45 ili Fiber izlaz za svaki Device, a svako spajanje radi tehničar. Fiber izlaz spaja se samo na Device s optikom, kao kod NovaStara.",
+        "**Postavke:** 10 postavki od osnovne do velikog događaja, svaka sa svojim Deviceima, u Basic / Shows / Large event, s većim pregledom i Save as preset za vlastite postave.",
+        "**3D Stage:** širina, visina i dubina pozornice u okviru desnog klika, u jedinici odabranoj u Settings.",
+        "**Animacija:** novi likovi s prirodnijim hodom i Upload logo u okviru Animation. Ctrl+C / Ctrl+V lijepi zaslon pokraj izvornika, a logotip u Gridu može se okretati."
+      ],
+      "gu": [
+        "**કનેક્શન:** ફાઇબરવાળા અથવા ફાઇબર વગરના Device (RJ45 / Fiber), દરેકમાં 2 થી 20 પોર્ટ, દરેક Device માટે એક રંગ, દરેક પોર્ટથી તેના RJ સુધી એક રેખા, એક-એક Device પર જવા માટે તીર અને PNG / PNG Alpha કેમેરા.",
+        "**ડ્રોઇંગ:** Custom device ને દરેક Device માટે એક RJ45 અથવા Fiber આઉટપુટ મળે છે અને દરેક જોડાણ ટેકનિશિયન જાતે કરે છે. Fiber આઉટપુટ ફક્ત ફાઇબરવાળા Device સાથે જોડાય છે, NovaStar ની જેમ.",
+        "**પ્રીસેટ:** મૂળભૂતથી મોટા કાર્યક્રમ સુધી 10 પ્રીસેટ, દરેક તેના Device સાથે, Basic / Shows / Large event માં, મોટું પૂર્વાવલોકન અને તમારા સેટઅપ માટે Save as preset.",
+        "**3D Stage:** રાઇટ-ક્લિક બોક્સમાં સ્ટેજની પહોળાઈ, ઊંચાઈ અને ઊંડાઈ, Settings માં પસંદ કરેલા એકમમાં.",
+        "**એનિમેશન:** વધુ કુદરતી રીતે ચાલતા નવા પાત્રો અને Animation બોક્સમાં Upload logo. Ctrl+C / Ctrl+V સ્ક્રીનને મૂળની બાજુમાં પેસ્ટ કરે છે અને Grid નો લોગો ફેરવી શકાય છે."
+      ],
+      "pa": [
+        "**ਕਨੈਕਸ਼ਨ:** ਫਾਈਬਰ ਵਾਲੇ ਜਾਂ ਬਿਨਾਂ ਫਾਈਬਰ ਵਾਲੇ Device (RJ45 / Fiber), ਹਰੇਕ ਵਿੱਚ 2 ਤੋਂ 20 ਪੋਰਟ, ਹਰ Device ਦਾ ਇੱਕ ਰੰਗ, ਹਰ ਪੋਰਟ ਤੋਂ ਉਸਦੇ RJ ਤੱਕ ਇੱਕ ਲਾਈਨ, ਇੱਕ-ਇੱਕ Device ’ਤੇ ਜਾਣ ਲਈ ਤੀਰ ਅਤੇ PNG / PNG Alpha ਕੈਮਰਾ।",
+        "**ਡਰਾਇੰਗ:** Custom device ਨੂੰ ਹਰ Device ਲਈ ਇੱਕ RJ45 ਜਾਂ Fiber ਆਉਟਪੁੱਟ ਮਿਲਦਾ ਹੈ ਅਤੇ ਹਰ ਕਨੈਕਸ਼ਨ ਤਕਨੀਸ਼ੀਅਨ ਖੁਦ ਬਣਾਉਂਦਾ ਹੈ। Fiber ਆਉਟਪੁੱਟ ਸਿਰਫ਼ ਫਾਈਬਰ ਵਾਲੇ Device ਨਾਲ ਜੁੜਦਾ ਹੈ, NovaStar ਵਾਂਗ।",
+        "**ਪ੍ਰੀਸੈੱਟ:** ਬੁਨਿਆਦੀ ਤੋਂ ਵੱਡੇ ਸਮਾਗਮ ਤੱਕ 10 ਪ੍ਰੀਸੈੱਟ, ਹਰ ਇੱਕ ਆਪਣੇ Device ਨਾਲ, Basic / Shows / Large event ਵਿੱਚ, ਵੱਡਾ ਪ੍ਰੀਵਿਊ ਅਤੇ ਆਪਣੇ ਸੈੱਟਅੱਪ ਲਈ Save as preset।",
+        "**3D Stage:** ਰਾਈਟ-ਕਲਿੱਕ ਬਾਕਸ ਵਿੱਚ ਸਟੇਜ ਦੀ ਚੌੜਾਈ, ਉਚਾਈ ਅਤੇ ਡੂੰਘਾਈ, Settings ਵਿੱਚ ਚੁਣੀ ਇਕਾਈ ਵਿੱਚ।",
+        "**ਐਨੀਮੇਸ਼ਨ:** ਹੋਰ ਕੁਦਰਤੀ ਤੁਰਨ ਵਾਲੇ ਨਵੇਂ ਪਾਤਰ ਅਤੇ Animation ਬਾਕਸ ਵਿੱਚ Upload logo। Ctrl+C / Ctrl+V ਸਕ੍ਰੀਨ ਨੂੰ ਮੂਲ ਦੇ ਨਾਲ ਪੇਸਟ ਕਰਦਾ ਹੈ ਅਤੇ Grid ਦਾ ਲੋਗੋ ਘੁਮਾਇਆ ਜਾ ਸਕਦਾ ਹੈ।"
+      ],
+      "kn": [
+        "**ಸಂಪರ್ಕ:** ಫೈಬರ್ ಇರುವ ಅಥವಾ ಇಲ್ಲದ Device (RJ45 / Fiber), ಪ್ರತಿಯೊಂದಕ್ಕೂ 2 ರಿಂದ 20 ಪೋರ್ಟ್‌ಗಳು, ಪ್ರತಿ Device‌ಗೆ ಒಂದು ಬಣ್ಣ, ಪ್ರತಿ ಪೋರ್ಟ್‌ನಿಂದ ಅದರ RJ ವರೆಗೆ ಒಂದು ಗೆರೆ, Device‌ನಿಂದ Device‌ಗೆ ಹೋಗಲು ಬಾಣಗಳು ಮತ್ತು PNG / PNG Alpha ಕ್ಯಾಮೆರಾ.",
+        "**ಚಿತ್ರ:** Custom device ಪ್ರತಿ Device‌ಗೆ ಒಂದು RJ45 ಅಥವಾ Fiber ಔಟ್‌ಪುಟ್ ಪಡೆಯುತ್ತದೆ ಮತ್ತು ಪ್ರತಿ ಸಂಪರ್ಕವನ್ನು ತಂತ್ರಜ್ಞರು ಮಾಡುತ್ತಾರೆ. Fiber ಔಟ್‌ಪುಟ್ ಫೈಬರ್ ಇರುವ Device‌ಗೆ ಮಾತ್ರ ಜೋಡಿಸುತ್ತದೆ, NovaStar‌ನಂತೆ.",
+        "**ಪ್ರೀಸೆಟ್‌ಗಳು:** ಮೂಲದಿಂದ ದೊಡ್ಡ ಕಾರ್ಯಕ್ರಮದವರೆಗೆ 10 ಪ್ರೀಸೆಟ್‌ಗಳು, ಪ್ರತಿಯೊಂದೂ ತನ್ನ Device‌ಗಳೊಂದಿಗೆ, Basic / Shows / Large event‌ನಲ್ಲಿ, ದೊಡ್ಡ ಮುನ್ನೋಟ ಮತ್ತು ನಿಮ್ಮ ಸೆಟಪ್‌ಗಳಿಗೆ Save as preset.",
+        "**3D Stage:** ಬಲ ಕ್ಲಿಕ್ ಬಾಕ್ಸ್‌ನಲ್ಲಿ ವೇದಿಕೆಯ ಅಗಲ, ಎತ್ತರ ಮತ್ತು ಆಳ, Settings‌ನಲ್ಲಿ ಆಯ್ಕೆ ಮಾಡಿದ ಘಟಕದಲ್ಲಿ.",
+        "**ಅನಿಮೇಷನ್:** ಹೆಚ್ಚು ಸಹಜವಾಗಿ ನಡೆಯುವ ಹೊಸ ಪಾತ್ರಗಳು ಮತ್ತು Animation ಬಾಕ್ಸ್‌ನಲ್ಲಿ Upload logo. Ctrl+C / Ctrl+V ಪರದೆಯನ್ನು ಮೂಲದ ಪಕ್ಕದಲ್ಲಿ ಅಂಟಿಸುತ್ತದೆ ಮತ್ತು Grid ಲೋಗೋವನ್ನು ತಿರುಗಿಸಬಹುದು."
+      ],
+      "ne": [
+        "**जडान:** फाइबर भएका वा नभएका Device (RJ45 / Fiber), प्रत्येकमा 2 देखि 20 पोर्ट, प्रत्येक Device को एउटा रङ, प्रत्येक पोर्टबाट त्यसको RJ सम्म एउटा रेखा, एक-एक Device मा जान तीर र PNG / PNG Alpha क्यामेरा।",
+        "**ड्रइङ:** Custom device ले प्रत्येक Device का लागि एउटा RJ45 वा Fiber आउटपुट पाउँछ र प्रत्येक जडान प्राविधिक आफैँ गर्छ। Fiber आउटपुट फाइबर भएको Device मा मात्र जोडिन्छ, NovaStar जस्तै।",
+        "**प्रिसेटहरू:** आधारभूतदेखि ठूलो कार्यक्रमसम्म 10 प्रिसेट, प्रत्येक आफ्ना Device सहित, Basic / Shows / Large event मा, ठूलो पूर्वावलोकन र आफ्नै सेटअपका लागि Save as preset।",
+        "**3D Stage:** दायाँ क्लिक बाकसमा स्टेजको चौडाइ, उचाइ र गहिराइ, Settings मा छानिएको एकाइमा।",
+        "**एनिमेसन:** अझ स्वाभाविक हिँड्ने नयाँ पात्रहरू र Animation बाकसमा Upload logo। Ctrl+C / Ctrl+V ले स्क्रिनलाई मूलको छेउमा टाँस्छ र Grid को लोगो घुमाउन सकिन्छ।"
+      ],
+      "km": [
+        "**ការភ្ជាប់:** Device មានឬគ្មានខ្សែអុបទិក (RJ45 / Fiber) មួយៗមាន 2 ដល់ 20 រន្ធ ពណ៌មួយសម្រាប់ Device នីមួយៗ បន្ទាត់ពីរន្ធនីមួយៗទៅ RJ របស់វា ព្រួញសម្រាប់ទៅ Device ម្តងមួយៗ និងកាមេរ៉ា PNG / PNG Alpha។",
+        "**គំនូរ:** Custom device ទទួលបានច្រកចេញ RJ45 ឬ Fiber មួយសម្រាប់ Device នីមួយៗ ហើយអ្នកបច្ចេកទេសជាអ្នកភ្ជាប់នីមួយៗ។ ច្រកចេញ Fiber ភ្ជាប់តែទៅ Device ដែលមានខ្សែអុបទិកប៉ុណ្ណោះ ដូច NovaStar។",
+        "**ការកំណត់ជាមុន:** ការកំណត់ជាមុន 10 ពីមូលដ្ឋានដល់ព្រឹត្តិការណ៍ធំ នីមួយៗមាន Device របស់វា ក្នុង Basic / Shows / Large event ជាមួយការមើលជាមុនធំជាង និង Save as preset សម្រាប់ការរៀបចំផ្ទាល់ខ្លួន។",
+        "**3D Stage:** ទទឹង កម្ពស់ និងជម្រៅឆាកក្នុងប្រអប់ចុចស្តាំ តាមឯកតាដែលបានជ្រើសក្នុង Settings។",
+        "**ចលនា:** តួអង្គថ្មីដែលដើរបានធម្មជាតិជាង និង Upload logo ក្នុងប្រអប់ Animation។ Ctrl+C / Ctrl+V បិទភ្ជាប់អេក្រង់នៅជាប់ច្បាប់ដើម ហើយស្លាកសញ្ញា Grid អាចបង្វិលបាន។"
+      ],
+      "kk": [
+        "**Қосылым:** оптикасы бар немесе жоқ Device (RJ45 / Fiber), әрқайсысында 2-ден 20-ға дейін порт, әр Device үшін бір түс, әр порттан оның RJ-іне дейін сызық, Device-тен Device-ке өтуге арналған көрсеткілер және PNG / PNG Alpha камерасы.",
+        "**Сызба:** Custom device әр Device үшін бір RJ45 немесе Fiber шығысын алады, ал әр қосылымды техник жасайды. Fiber шығысы тек оптикасы бар Device-ке қосылады, NovaStar сияқты.",
+        "**Дайындамалар:** негізгіден ірі іс-шараға дейінгі 10 дайындама, әрқайсысы өз Device-імен, Basic / Shows / Large event бөлімдерінде, үлкенірек алдын ала қарау және өз жинақтарыңызға арналған Save as preset.",
+        "**3D Stage:** сахнаның ені, биіктігі және тереңдігі оң жақ түрту терезесінде, Settings-те таңдалған бірлікпен.",
+        "**Анимация:** табиғирақ жүретін жаңа кейіпкерлер және Animation терезесіндегі Upload logo. Ctrl+C / Ctrl+V экранды түпнұсқаның жанына қояды, ал Grid логотипін бұруға болады."
+      ],
+      "uz": [
+        "**Ulanish:** optik tolali yoki tolasiz Device’lar (RJ45 / Fiber), har birida 2 dan 20 gacha port, har bir Device uchun bitta rang, har bir portdan uning RJ’siga chiziq, Device’dan Device’ga oʻtish uchun strelkalar va PNG / PNG Alpha kamera.",
+        "**Chizma:** Custom device har bir Device uchun bitta RJ45 yoki Fiber chiqish oladi va har bir ulanishni texnik oʻzi qiladi. Fiber chiqish faqat tolali Device’ga ulanadi, NovaStar’dagi kabi.",
+        "**Presetlar:** oddiydan katta tadbirgacha 10 ta preset, har biri oʻz Device’lari bilan, Basic / Shows / Large event boʻlimlarida, kattaroq oldindan koʻrish va oʻz tuzilmalaringiz uchun Save as preset.",
+        "**3D Stage:** sahnaning eni, balandligi va chuqurligi oʻng tugma oynasida, Settings’da tanlangan birlikda.",
+        "**Animatsiya:** tabiiyroq yuradigan yangi qahramonlar va Animation oynasida Upload logo. Ctrl+C / Ctrl+V ekranni aslining yoniga qoʻyadi, Grid logotipini esa aylantirish mumkin."
+      ],
+      "am": [
+        "**ግንኙነት፦** ፋይበር ያላቸው ወይም የሌላቸው Device (RJ45 / Fiber)፣ እያንዳንዱ ከ2 እስከ 20 ወደቦች፣ ለእያንዳንዱ Device አንድ ቀለም፣ ከእያንዳንዱ ወደብ እስከ RJ ድረስ መስመር፣ ከ Device ወደ Device የሚያሸጋግሩ ቀስቶች እና PNG / PNG Alpha ካሜራ።",
+        "**ስዕል፦** Custom device ለእያንዳንዱ Device አንድ RJ45 ወይም Fiber ውጽዓት ያገኛል፣ እያንዳንዱን ግንኙነት ቴክኒሻኑ ያደርጋል። Fiber ውጽዓት ፋይበር ካለው Device ጋር ብቻ ይገናኛል፣ እንደ NovaStar።",
+        "**ቅድመ-ቅንብሮች፦** ከመሠረታዊ እስከ ትልቅ ዝግጅት 10 ቅድመ-ቅንብሮች፣ እያንዳንዱ ከራሱ Device ጋር፣ በ Basic / Shows / Large event፣ ትልቅ ቅድመ እይታ እና ለራስዎ አደረጃጀት Save as preset።",
+        "**3D Stage፦** በቀኝ ጠቅታ ሳጥን ውስጥ የመድረኩ ስፋት፣ ቁመት እና ጥልቀት፣ በ Settings በተመረጠው መለኪያ።",
+        "**እንቅስቃሴ፦** ይበልጥ በተፈጥሮ የሚራመዱ አዳዲስ ገጸ-ባህሪያት እና በ Animation ሳጥን ውስጥ Upload logo። Ctrl+C / Ctrl+V ስክሪኑን ከዋናው አጠገብ ይለጥፋል፣ የ Grid አርማም ሊሽከረከር ይችላል።"
+      ],
+      "sl": [
+        "**Povezava:** Devicei z optiko ali brez nje (RJ45 / Fiber), vsak z 2 do 20 vrati, ena barva za vsak Device, črta od vsakih vrat do njihovega RJ, puščice za prehod z Devicea na Device in kamera PNG / PNG Alpha.",
+        "**Risba:** Custom device dobi po en izhod RJ45 ali Fiber za vsak Device, vsako povezavo pa naredi tehnik. Izhod Fiber se poveže le z Deviceom z optiko, kot pri NovaStarju.",
+        "**Prednastavitve:** 10 prednastavitev od osnovne do velikega dogodka, vsaka s svojimi Devicei, v Basic / Shows / Large event, z večjim predogledom in Save as preset za lastne postavitve.",
+        "**3D Stage:** širina, višina in globina odra v oknu desnega klika, v enoti, izbrani v Settings.",
+        "**Animacija:** novi liki z bolj naravno hojo in Upload logo v oknu Animation. Ctrl+C / Ctrl+V prilepi zaslon poleg izvirnika, logotip v Gridu pa je mogoče zavrteti."
+      ],
+      "kab": [
+        "**Tuqqna:** Devices s fiber neɣ war fiber (RJ45 / Fiber), seg 2 ar 20 n tewwura i yal yiwen, yiwen n yini i yal Device, izirig seg yal tawwurt ar RJ-ines, tineccabin i usikel seg Device ɣer Device d tkamiṛat PNG / PNG Alpha.",
+        "**Asuneɣ:** Custom device yettawi yiwet n tuffɣa RJ45 neɣ Fiber i yal Device, d atiknisyan i yettqeqqnen yal tuqqna. Tuffɣa Fiber tettuqqen kan ɣer Device s fiber, am deg NovaStar.",
+        "**Presets:** 10 n presets seg uzaduɣ ar tedyant tameqqrant, yal yiwen s Devices-is, deg Basic / Shows / Large event, s teskant tameqqrant d Save as preset i yiswira-k.",
+        "**3D Stage:** tehri, teɣzi d lqedd n usayes deg tenkult n usiti ayeffus, s tyuget yettwafernen deg Settings.",
+        "**Animation:** imdanen imaynuten s tikli tagamant ugar d Upload logo deg tenkult n Animation. Ctrl+C / Ctrl+V yesserseɣ agdil ɣer tama n uẓar, alugu n Grid yezmer ad yezzi."
+      ]
+    },
     "2.9.0": {
       "en": [
         "**NDI:** new NDI button next to Extended screen: the views (Pixel Mapping, Connection, Drawing, Animation and others) go out over the network as NDI sources for Resolume, vMix or OBS. Requires the free NDI Tools.",
@@ -840,244 +1262,6 @@
         "**PDF:** slika postavitve prikazuje le uporabno površino panelov, brez odvečnega platna, in vsebuje ravnilo z merami.",
         "**Video MP4:** izvožena animacija ima zdaj velikost površine panelov (prej vedno 1920 x 1080) in je veliko lažja brez izgube kakovosti. V oknu Izvozi: predvajaj/premor v predogledu in drsnik hitrosti, ki velja tudi za razširjeni zaslon.",
         "**Animacija:** če se zasloni med animacijo spremenijo, se oba tehnika ustavita tam, kjer sta, tudi zgoraj na dvigalu, prekrižata roke in nato nadaljujeta z montažo novih zaslonov."
-      ]
-    },
-    "2.8.6": {
-      "en": [
-        "**Animation:** new Animation view on the Extended screen, below Grid. Two technicians assemble the project's screens panel by panel, at real scale: panels within reach go by hand, the high ones with a lift. If the project has a logo, it appears on their shirts. At the end, the test image of each screen. It can also be saved as an MP4 video in the Export window.",
-        "**3D Stage:** the view buttons in the bottom corner line up with the toolbar again and no longer cover it."
-      ],
-      "pt": [
-        "**Animação:** nova vista Animação na Tela estendida, embaixo de Grid. Dois técnicos montam as telas do projeto placa por placa, em escala real: as placas ao alcance vão na mão, as altas com a plataforma elevatória. Se o projeto tiver logo, ele aparece na camisa deles. No fim, a imagem de teste de cada tela. Também pode ser salva como vídeo MP4 na janela Exportar.",
-        "**3D Stage:** os botões das vistas no canto de baixo voltaram a ficar alinhados com a barra de ferramentas e não ficam mais por cima dela."
-      ],
-      "es": [
-        "**Animación:** nueva vista Animación en la Pantalla extendida, debajo de Grid. Dos técnicos montan las pantallas del proyecto panel por panel, a escala real: los paneles al alcance van a mano y los altos con una plataforma elevadora. Si el proyecto tiene logotipo, aparece en su camiseta. Al final, la imagen de prueba de cada pantalla. También se puede guardar como vídeo MP4 en la ventana Exportar.",
-        "**3D Stage:** los botones de vista de la esquina inferior vuelven a alinearse con la barra de herramientas y ya no la tapan."
-      ],
-      "fr": [
-        "**Animation :** nouvelle vue Animation sur l'Écran étendu, sous Grid. Deux techniciens montent les écrans du projet dalle par dalle, à l'échelle réelle : les dalles à portée de main sont portées à la main, les plus hautes avec une nacelle. Si le projet a un logo, il apparaît sur leur t-shirt. À la fin, l'image de test de chaque écran. Elle peut aussi être enregistrée en vidéo MP4 dans la fenêtre Exporter.",
-        "**3D Stage :** les boutons de vue du coin inférieur sont de nouveau alignés avec la barre d'outils et ne la recouvrent plus."
-      ],
-      "de": [
-        "**Animation:** neue Ansicht Animation im erweiterten Bildschirm, unter Grid. Zwei Techniker bauen die Screens des Projekts Panel für Panel im echten Maßstab auf: Panels in Reichweite werden von Hand getragen, hohe mit einer Hebebühne. Hat das Projekt ein Logo, erscheint es auf ihren Shirts. Am Ende das Testbild jedes Screens. Sie lässt sich auch im Fenster Exportieren als MP4-Video speichern.",
-        "**3D Stage:** Die Ansichtsschaltflächen in der unteren Ecke sind wieder an der Werkzeugleiste ausgerichtet und überdecken sie nicht mehr."
-      ],
-      "it": [
-        "**Animazione:** nuova vista Animazione nello Schermo esteso, sotto Grid. Due tecnici montano gli schermi del progetto pannello per pannello, in scala reale: i pannelli a portata di mano vanno a mano, quelli alti con una piattaforma elevatrice. Se il progetto ha un logo, compare sulla loro maglietta. Alla fine, l'immagine di test di ogni schermo. Si può anche salvare come video MP4 nella finestra Esporta.",
-        "**3D Stage:** i pulsanti delle viste nell'angolo in basso sono di nuovo allineati alla barra degli strumenti e non la coprono più."
-      ],
-      "nl": [
-        "**Animatie:** nieuwe weergave Animatie op het uitgebreide scherm, onder Grid. Twee technici bouwen de schermen van het project paneel voor paneel op, op ware schaal: panelen binnen bereik gaan met de hand, hoge met een hoogwerker. Heeft het project een logo, dan staat het op hun shirt. Aan het eind het testbeeld van elk scherm. Ze kan ook als MP4-video worden opgeslagen in het venster Exporteren.",
-        "**3D Stage:** de weergaveknoppen in de onderhoek zijn weer uitgelijnd met de werkbalk en bedekken die niet meer."
-      ],
-      "ru": [
-        "**Анимация:** новый вид «Анимация» на расширенном экране, под Grid. Два техника собирают экраны проекта панель за панелью в реальном масштабе: панели в пределах досягаемости несут в руках, высокие — на подъёмнике. Если в проекте есть логотип, он появляется на их футболках. В конце — тестовое изображение каждого экрана. Её также можно сохранить как видео MP4 в окне «Экспорт».",
-        "**3D Stage:** кнопки видов в нижнем углу снова выровнены с панелью инструментов и больше не перекрывают её."
-      ],
-      "tr": [
-        "**Animasyon:** Genişletilmiş ekranda, Grid'in altında yeni Animasyon görünümü. İki teknisyen projenin ekranlarını gerçek ölçekte panel panel kurar: uzanılabilen paneller elde, yüksektekiler platformla taşınır. Projede logo varsa tişörtlerinde görünür. Sonunda her ekranın test görüntüsü. Dışa Aktar penceresinde MP4 video olarak da kaydedilebilir.",
-        "**3D Stage:** alt köşedeki görünüm düğmeleri yeniden araç çubuğuyla hizalandı ve artık onu kapatmıyor."
-      ],
-      "id": [
-        "**Animasi:** tampilan baru Animasi di Layar tambahan, di bawah Grid. Dua teknisi merakit layar proyek panel demi panel dalam skala nyata: panel yang terjangkau dibawa dengan tangan, yang tinggi dengan lift. Jika proyek punya logo, logo itu muncul di kaus mereka. Di akhir, gambar uji setiap layar. Juga dapat disimpan sebagai video MP4 di jendela Ekspor.",
-        "**3D Stage:** tombol tampilan di sudut bawah kembali sejajar dengan bilah alat dan tidak lagi menutupinya."
-      ],
-      "hu": [
-        "**Animáció:** új Animáció nézet a kiterjesztett képernyőn, a Grid alatt. Két technikus valós léptékben, panelenként szereli össze a projekt kijelzőit: az elérhető paneleket kézben viszik, a magasakat emelőkosárral. Ha a projektnek van logója, megjelenik a pólójukon. A végén minden kijelző tesztképe. Az Exportálás ablakban MP4-videóként is menthető.",
-        "**3D Stage:** az alsó sarokban lévő nézetgombok ismét egy vonalban vannak az eszköztárral, és már nem takarják el."
-      ],
-      "zh-Hans": [
-        "**动画：** 扩展屏幕新增“动画”视图，位于 Grid 下方。两名技术员按真实比例逐块安装项目中的屏幕：够得着的箱体用手搬，高处的用升降平台。如果项目有标志，会显示在他们的T恤上。最后显示每块屏幕的测试图。也可以在“导出”窗口中保存为 MP4 视频。",
-        "**3D Stage：** 底部角落的视图按钮重新与工具栏对齐，不再遮住工具栏。"
-      ],
-      "zh-Hant": [
-        "**動畫：** 延伸螢幕新增「動畫」檢視，位於 Grid 下方。兩名技術人員依真實比例逐片安裝專案中的螢幕：搆得到的箱體用手搬，高處的用升降平台。如果專案有標誌，會顯示在他們的T恤上。最後顯示每個螢幕的測試圖。也可以在「匯出」視窗中儲存為 MP4 影片。",
-        "**3D Stage：** 底部角落的檢視按鈕重新與工具列對齊，不再遮住工具列。"
-      ],
-      "ja": [
-        "**アニメーション：** 拡張画面の Grid の下に新しい「アニメーション」ビュー。2人の技術者がプロジェクトのスクリーンを実寸でパネルごとに組み立てます。手の届くパネルは手で運び、高いものは高所作業台で。プロジェクトにロゴがあれば、シャツに表示されます。最後に各スクリーンのテスト画像。「エクスポート」ウィンドウで MP4 動画として保存することもできます。",
-        "**3D Stage：** 下隅のビューボタンが再びツールバーと揃い、ツールバーに重ならなくなりました。"
-      ],
-      "ko": [
-        "**애니메이션:** 확장 화면의 Grid 아래에 새 애니메이션 보기. 두 기술자가 프로젝트의 화면을 실제 비율로 패널 하나씩 조립합니다. 손이 닿는 패널은 손으로, 높은 패널은 리프트로 옮깁니다. 프로젝트에 로고가 있으면 셔츠에 표시됩니다. 마지막에 각 화면의 테스트 이미지. 내보내기 창에서 MP4 동영상으로 저장할 수도 있습니다.",
-        "**3D Stage:** 아래 모서리의 보기 버튼이 다시 도구 모음과 정렬되어 더 이상 도구 모음을 가리지 않습니다."
-      ],
-      "ar": [
-        "**حركة:** عرض جديد «حركة» في الشاشة الممتدة أسفل Grid. فنيّان يركّبان شاشات المشروع لوحةً لوحة بالمقياس الحقيقي: اللوحات التي في المتناول تُحمل باليد، والعالية بالرافعة. إذا كان للمشروع شعار فإنه يظهر على قمصانهم. وفي النهاية صورة الاختبار لكل شاشة. ويمكن أيضًا حفظها كفيديو MP4 من نافذة التصدير.",
-        "**3D Stage:** أزرار العروض في الزاوية السفلية عادت لتصطف مع شريط الأدوات ولم تعد تغطيه."
-      ],
-      "th": [
-        "**แอนิเมชัน:** มุมมองใหม่ แอนิเมชัน ในหน้าจอขยาย ใต้ Grid ช่างสองคนประกอบจอของโปรเจกต์ทีละแผงตามขนาดจริง แผงที่เอื้อมถึงยกด้วยมือ แผงที่สูงใช้รถกระเช้า ถ้าโปรเจกต์มีโลโก้ จะปรากฏบนเสื้อของพวกเขา ตอนจบแสดงภาพทดสอบของแต่ละจอ ยังบันทึกเป็นวิดีโอ MP4 ได้ในหน้าต่างส่งออก",
-        "**3D Stage:** ปุ่มมุมมองที่มุมล่างกลับมาเรียงตรงกับแถบเครื่องมือและไม่บังแถบนั้นอีกแล้ว"
-      ],
-      "hi": [
-        "**एनिमेशन:** एक्सटेंडेड स्क्रीन में Grid के नीचे नया एनिमेशन व्यू। दो तकनीशियन प्रोजेक्ट की स्क्रीनें असली पैमाने पर पैनल-दर-पैनल जोड़ते हैं: पहुँच वाले पैनल हाथ से, ऊँचे पैनल लिफ्ट से। अगर प्रोजेक्ट में लोगो है, तो वह उनकी टी-शर्ट पर दिखता है। अंत में हर स्क्रीन की टेस्ट इमेज। इसे एक्सपोर्ट विंडो में MP4 वीडियो के रूप में भी सहेजा जा सकता है।",
-        "**3D Stage:** नीचे कोने के व्यू बटन फिर से टूलबार के साथ एक सीध में हैं और अब उसे नहीं ढकते।"
-      ],
-      "vi": [
-        "**Hoạt ảnh:** chế độ xem Hoạt ảnh mới trên Màn hình mở rộng, bên dưới Grid. Hai kỹ thuật viên lắp các màn hình của dự án từng tấm một, theo tỷ lệ thật: tấm trong tầm tay mang bằng tay, tấm cao dùng xe nâng. Nếu dự án có logo, logo sẽ hiện trên áo của họ. Cuối cùng là ảnh kiểm tra của từng màn hình. Cũng có thể lưu thành video MP4 trong cửa sổ Xuất.",
-        "**3D Stage:** các nút chế độ xem ở góc dưới đã thẳng hàng lại với thanh công cụ và không còn che nó."
-      ],
-      "bn": [
-        "**অ্যানিমেশন:** এক্সটেন্ডেড স্ক্রিনে Grid-এর নিচে নতুন অ্যানিমেশন ভিউ। দুজন টেকনিশিয়ান প্রকৃত মাপে একটি একটি প্যানেল করে প্রকল্পের স্ক্রিন জোড়া দেন: নাগালের প্যানেল হাতে, উঁচুগুলো লিফটে। প্রকল্পে লোগো থাকলে তাদের শার্টে দেখা যায়। শেষে প্রতিটি স্ক্রিনের টেস্ট ছবি। এক্সপোর্ট উইন্ডো থেকে MP4 ভিডিও হিসেবেও সংরক্ষণ করা যায়।",
-        "**3D Stage:** নিচের কোণের ভিউ বোতামগুলো আবার টুলবারের সাথে সারিবদ্ধ এবং আর সেটিকে ঢেকে দেয় না।"
-      ],
-      "ms": [
-        "**Animasi:** paparan baharu Animasi pada Skrin lanjutan, di bawah Grid. Dua juruteknik memasang skrin projek panel demi panel pada skala sebenar: panel yang boleh dicapai dibawa dengan tangan, yang tinggi dengan lif. Jika projek ada logo, ia muncul pada baju mereka. Di akhir, imej ujian setiap skrin. Ia juga boleh disimpan sebagai video MP4 dalam tetingkap Eksport.",
-        "**3D Stage:** butang paparan di sudut bawah kembali sejajar dengan bar alat dan tidak lagi menutupnya."
-      ],
-      "sv": [
-        "**Animering:** ny vy Animering på den utökade skärmen, under Grid. Två tekniker bygger projektets skärmar panel för panel i verklig skala: paneler inom räckhåll bärs för hand, höga med en skylift. Har projektet en logotyp syns den på deras tröjor. Till sist testbilden för varje skärm. Den kan också sparas som MP4-video i fönstret Exportera.",
-        "**3D Stage:** vyknapparna i nedre hörnet ligger åter i linje med verktygsfältet och täcker det inte längre."
-      ],
-      "ur": [
-        "**اینیمیشن:** ایکسٹینڈڈ اسکرین میں Grid کے نیچے نیا اینیمیشن ویو۔ دو تکنیک کار پروجیکٹ کی اسکرینیں اصل پیمانے پر ایک ایک پینل جوڑتے ہیں: پہنچ والے پینل ہاتھ سے، اونچے لفٹ سے۔ اگر پروجیکٹ میں لوگو ہو تو وہ ان کی قمیص پر نظر آتا ہے۔ آخر میں ہر اسکرین کی ٹیسٹ تصویر۔ اسے ایکسپورٹ ونڈو میں MP4 ویڈیو کے طور پر بھی محفوظ کیا جا سکتا ہے۔",
-        "**3D Stage:** نیچے کونے کے ویو بٹن دوبارہ ٹول بار کی سیدھ میں ہیں اور اب اسے نہیں ڈھانپتے۔"
-      ],
-      "sw": [
-        "**Uhuishaji:** mwonekano mpya wa Uhuishaji kwenye Skrini iliyopanuliwa, chini ya Grid. Mafundi wawili wanaunganisha skrini za mradi paneli kwa paneli kwa kipimo halisi: paneli zinazofikika hubebwa kwa mkono, za juu kwa lifti. Mradi ukiwa na nembo, inaonekana kwenye fulana zao. Mwishoni, picha ya majaribio ya kila skrini. Inaweza pia kuhifadhiwa kama video ya MP4 kwenye dirisha la Hamisha.",
-        "**3D Stage:** vitufe vya mionekano kwenye kona ya chini vimepangwa tena sambamba na upau wa zana na havifuniki tena."
-      ],
-      "gn": [
-        "**Animación:** jehecha pyahu Animación Pantalla ipukúvape, Grid guýpe. Mokõi técnico omoĩ pantalla proyecto-pegua placa ha placa, tuichakue añetéva: placa ipo'ẽva ojegueraha po'ópe, ijyvatéva katu plataforma rupive. Proyecto oguerekóramo logo, ojehecha ikamisápe. Ipahápe, ta'anga ñeha'ã pantalla tenondegua. Ikatu avei oñeñongatu video MP4 ramo ventana Exportar-pe.",
-        "**3D Stage:** votõ jehecha-pegua ipype'ápe oĩ jey peteĩ rapére tembipuru barra ndive ha nomo'ãvéima."
-      ],
-      "he": [
-        "**אנימציה:** תצוגה חדשה אנימציה במסך המורחב, מתחת ל-Grid. שני טכנאים מרכיבים את מסכי הפרויקט פאנל אחר פאנל בקנה מידה אמיתי: פאנלים בהישג יד נישאים ביד, והגבוהים במתקן הרמה. אם לפרויקט יש לוגו, הוא מופיע על החולצות שלהם. בסוף, תמונת הבדיקה של כל מסך. אפשר גם לשמור אותה כסרטון MP4 בחלון הייצוא.",
-        "**3D Stage:** כפתורי התצוגות בפינה התחתונה שוב מיושרים עם סרגל הכלים ואינם מכסים אותו עוד."
-      ],
-      "lv": [
-        "**Animācija:** jauns skats Animācija paplašinātajā ekrānā, zem Grid. Divi tehniķi reālā mērogā panelim pa panelim saliek projekta ekrānus: sasniedzamos paneļus nes rokās, augstos ar pacēlāju. Ja projektam ir logotips, tas redzams uz viņu krekliem. Beigās katra ekrāna testa attēls. To var arī saglabāt kā MP4 video logā Eksportēt.",
-        "**3D Stage:** skatu pogas apakšējā stūrī atkal ir vienā līnijā ar rīkjoslu un vairs to neaizsedz."
-      ],
-      "fa": [
-        "**انیمیشن:** نمای جدید انیمیشن در صفحه گسترده، زیر Grid. دو تکنسین صفحه‌های پروژه را با مقیاس واقعی پنل به پنل نصب می‌کنند: پنل‌های در دسترس با دست و پنل‌های بلند با بالابر. اگر پروژه لوگو داشته باشد، روی پیراهن آن‌ها دیده می‌شود. در پایان، تصویر تست هر صفحه. همچنین می‌توان آن را در پنجره خروجی به‌صورت ویدیوی MP4 ذخیره کرد.",
-        "**3D Stage:** دکمه‌های نما در گوشه پایین دوباره با نوار ابزار هم‌تراز شده‌اند و دیگر آن را نمی‌پوشانند."
-      ],
-      "pl": [
-        "**Animacja:** nowy widok Animacja na ekranie rozszerzonym, pod Grid. Dwóch techników montuje ekrany projektu panel po panelu w rzeczywistej skali: panele w zasięgu ręki niosą w rękach, wysokie podnośnikiem. Jeśli projekt ma logo, widać je na ich koszulkach. Na końcu obraz testowy każdego ekranu. Można ją też zapisać jako wideo MP4 w oknie Eksportuj.",
-        "**3D Stage:** przyciski widoków w dolnym rogu znów są wyrównane z paskiem narzędzi i już go nie zasłaniają."
-      ],
-      "uk": [
-        "**Анімація:** новий вигляд «Анімація» на розширеному екрані, під Grid. Два техніки збирають екрани проєкту панель за панеллю в реальному масштабі: панелі в межах досяжності несуть у руках, високі — підйомником. Якщо в проєкті є логотип, він з'являється на їхніх футболках. Наприкінці — тестове зображення кожного екрана. Її також можна зберегти як відео MP4 у вікні «Експорт».",
-        "**3D Stage:** кнопки виглядів у нижньому куті знову вирівняні з панеллю інструментів і більше її не перекривають."
-      ],
-      "ca": [
-        "**Animació:** nova vista Animació a la Pantalla estesa, sota Grid. Dos tècnics munten les pantalles del projecte panell a panell, a escala real: els panells a l'abast van a mà i els alts amb una plataforma elevadora. Si el projecte té logotip, apareix a la seva samarreta. Al final, la imatge de prova de cada pantalla. També es pot desar com a vídeo MP4 a la finestra Exporta.",
-        "**3D Stage:** els botons de vista de la cantonada inferior tornen a estar alineats amb la barra d'eines i ja no la tapen."
-      ],
-      "cs": [
-        "**Animace:** nový pohled Animace na rozšířené obrazovce, pod Grid. Dva technici montují obrazovky projektu panel po panelu ve skutečném měřítku: panely na dosah nesou v rukou, vysoké pomocí plošiny. Pokud má projekt logo, objeví se na jejich tričkách. Na konci testovací obraz každé obrazovky. Lze ji také uložit jako video MP4 v okně Export.",
-        "**3D Stage:** tlačítka pohledů v dolním rohu jsou opět zarovnaná s panelem nástrojů a už ho nezakrývají."
-      ],
-      "fi": [
-        "**Animaatio:** uusi Animaatio-näkymä laajennetulla näytöllä, Gridin alla. Kaksi teknikkoa kokoaa projektin näytöt paneeli kerrallaan todellisessa mittakaavassa: ulottuvilla olevat paneelit kannetaan käsin, korkeat nostimella. Jos projektissa on logo, se näkyy heidän paidoissaan. Lopuksi jokaisen näytön testikuva. Sen voi myös tallentaa MP4-videoksi Vie-ikkunassa.",
-        "**3D Stage:** alakulman näkymäpainikkeet ovat taas linjassa työkalurivin kanssa eivätkä enää peitä sitä."
-      ],
-      "el": [
-        "**Κίνηση:** νέα προβολή Κίνηση στην εκτεταμένη οθόνη, κάτω από το Grid. Δύο τεχνικοί συναρμολογούν τις οθόνες του έργου πάνελ πάνελ σε πραγματική κλίμακα: τα πάνελ που φτάνουν μεταφέρονται με το χέρι, τα ψηλά με ανυψωτικό. Αν το έργο έχει λογότυπο, εμφανίζεται στις μπλούζες τους. Στο τέλος, η εικόνα δοκιμής κάθε οθόνης. Μπορεί επίσης να αποθηκευτεί ως βίντεο MP4 από το παράθυρο Εξαγωγή.",
-        "**3D Stage:** τα κουμπιά προβολών στην κάτω γωνία είναι ξανά ευθυγραμμισμένα με τη γραμμή εργαλείων και δεν την καλύπτουν πια."
-      ],
-      "ha": [
-        "**Motsi:** sabon kallon Motsi a allon da aka faɗaɗa, ƙarƙashin Grid. Ma'aikata biyu suna haɗa allunan aikin faranti bayan faranti a ainihin girma: faranti masu kusa ana ɗauka da hannu, na sama da lif. Idan aikin yana da tambari, yana bayyana a rigunansu. A ƙarshe, hoton gwaji na kowane allo. Ana iya adana shi a matsayin bidiyon MP4 a tagar Fitarwa.",
-        "**3D Stage:** maɓallan kallo a kusurwar ƙasa sun sake daidaita da sandar kayan aiki kuma ba sa rufe ta kuma."
-      ],
-      "ro": [
-        "**Animație:** vizualizare nouă Animație pe ecranul extins, sub Grid. Doi tehnicieni montează ecranele proiectului panou cu panou, la scară reală: panourile la îndemână sunt duse în mână, cele înalte cu o platformă de ridicare. Dacă proiectul are logo, acesta apare pe tricourile lor. La final, imaginea de test a fiecărui ecran. Poate fi salvată și ca videoclip MP4 din fereastra Export.",
-        "**3D Stage:** butoanele de vizualizare din colțul de jos sunt din nou aliniate cu bara de instrumente și nu o mai acoperă."
-      ],
-      "yo": [
-        "**Eré ìdárayá:** ìwò tuntun Eré ìdárayá lórí ojú-iboju tí a fẹ̀, lábẹ́ Grid. Àwọn onímọ̀-ẹ̀rọ méjì ń kó àwọn ojú-iboju iṣẹ́ náà jọ ní pánẹ́ẹ̀lì kan lẹ́yìn òmíràn, ní ìwọ̀n gidi: àwọn tí ọwọ́ tó ni wọ́n gbé lọ́wọ́, àwọn gíga pẹ̀lú ẹ̀rọ agbéga. Tí iṣẹ́ náà bá ní àmì, ó máa hàn lórí aṣọ wọn. Ní ìparí, àwòrán ìdánwò ojú-iboju kọ̀ọ̀kan. A tún lè fi pamọ́ gẹ́gẹ́ bí fídíò MP4 nínú fèrèsé Gbé jáde.",
-        "**3D Stage:** àwọn bọ́tìnnì ìwò ní igun ìsàlẹ̀ tún wà ní ìlà kan pẹ̀lú ọ̀pá irinṣẹ́, wọn kò sì bò ó mọ́."
-      ],
-      "zu": [
-        "**Opopayi:** ukubuka okusha kwe-Opopayi esikrinini esinwetshiwe, ngaphansi kwe-Grid. Ochwepheshe ababili bahlanganisa izikrini zephrojekthi iphaneli ngephaneli ngesilinganiso sangempela: amaphaneli afinyelelekayo athwalwa ngesandla, aphezulu ngelifti. Uma iphrojekthi inelogo, ivela kumahembe abo. Ekugcineni, isithombe sokuhlola sesikrini ngasinye. Kungalondolozwa futhi njengevidiyo ye-MP4 efasiteleni lokuthekelisa.",
-        "**3D Stage:** izinkinobho zokubuka ekhoneni elingezansi ziphinde zaqondana nebha yamathuluzi futhi azisayimbozi."
-      ],
-      "fil": [
-        "**Animation:** bagong view na Animation sa Extended screen, sa ilalim ng Grid. Dalawang technician ang nagkakabit ng mga screen ng proyekto isa-isang panel sa totoong sukat: ang mga panel na abot-kamay ay dala sa kamay, ang matataas ay gamit ang lift. Kung may logo ang proyekto, lumalabas ito sa kanilang damit. Sa dulo, ang test image ng bawat screen. Maaari rin itong i-save bilang MP4 video sa window na Export.",
-        "**3D Stage:** nakahanay na ulit sa toolbar ang mga view button sa ibabang sulok at hindi na nila ito tinatakpan."
-      ],
-      "ta": [
-        "**அசைவூட்டம்:** நீட்டிக்கப்பட்ட திரையில் Grid-க்கு கீழே புதிய அசைவூட்டம் காட்சி. இரண்டு தொழில்நுட்பர்கள் திட்டத்தின் திரைகளை உண்மையான அளவில் ஒவ்வொரு பேனலாகப் பொருத்துகிறார்கள்: எட்டும் பேனல்கள் கையால், உயரமானவை லிஃப்ட் மூலம். திட்டத்தில் லோகோ இருந்தால் அது அவர்களின் சட்டையில் தெரியும். இறுதியில் ஒவ்வொரு திரையின் சோதனைப் படம். ஏற்றுமதி சாளரத்தில் MP4 வீடியோவாகவும் சேமிக்கலாம்.",
-        "**3D Stage:** கீழ் மூலையில் உள்ள காட்சிப் பொத்தான்கள் மீண்டும் கருவிப்பட்டியுடன் வரிசையாக உள்ளன, இனி அதை மறைக்காது."
-      ],
-      "te": [
-        "**యానిమేషన్:** ఎక్స్‌టెండెడ్ స్క్రీన్‌లో Grid కింద కొత్త యానిమేషన్ వ్యూ. ఇద్దరు టెక్నీషియన్లు ప్రాజెక్ట్ స్క్రీన్‌లను నిజమైన కొలతలో ఒక్కో ప్యానెల్‌గా అమరుస్తారు: అందే ప్యానెల్‌లు చేతితో, ఎత్తైనవి లిఫ్ట్‌తో. ప్రాజెక్ట్‌కు లోగో ఉంటే అది వారి చొక్కాలపై కనిపిస్తుంది. చివరగా ప్రతి స్క్రీన్ టెస్ట్ చిత్రం. ఎగుమతి విండోలో MP4 వీడియోగా కూడా సేవ్ చేయవచ్చు.",
-        "**3D Stage:** కింది మూలలోని వ్యూ బటన్‌లు మళ్లీ టూల్‌బార్‌తో వరుసలో ఉన్నాయి, ఇక దాన్ని కప్పవు."
-      ],
-      "mr": [
-        "**अॅनिमेशन:** एक्सटेंडेड स्क्रीनवर Grid च्या खाली नवीन अॅनिमेशन व्ह्यू. दोन तंत्रज्ञ प्रकल्पाच्या स्क्रीन खऱ्या मापात एकेक पॅनेल जोडतात: हाताला येणारे पॅनेल हाताने, उंच पॅनेल लिफ्टने. प्रकल्पात लोगो असल्यास तो त्यांच्या शर्टवर दिसतो. शेवटी प्रत्येक स्क्रीनची टेस्ट इमेज. एक्सपोर्ट विंडोमध्ये MP4 व्हिडिओ म्हणूनही जतन करता येते.",
-        "**3D Stage:** खालच्या कोपऱ्यातील व्ह्यू बटणे पुन्हा टूलबारशी एका रेषेत आहेत आणि आता ती त्याला झाकत नाहीत."
-      ],
-      "da": [
-        "**Animation:** ny visning Animation på den udvidede skærm, under Grid. To teknikere samler projektets skærme panel for panel i virkelig skala: paneler inden for rækkevidde bæres i hånden, de høje med en lift. Har projektet et logo, vises det på deres trøjer. Til sidst testbilledet af hver skærm. Den kan også gemmes som MP4-video i vinduet Eksportér.",
-        "**3D Stage:** visningsknapperne i det nederste hjørne flugter igen med værktøjslinjen og dækker den ikke længere."
-      ],
-      "nb": [
-        "**Animasjon:** ny visning Animasjon på den utvidede skjermen, under Grid. To teknikere monterer prosjektets skjermer panel for panel i ekte skala: paneler innen rekkevidde bæres for hånd, de høye med lift. Har prosjektet en logo, vises den på t-skjortene deres. Til slutt testbildet av hver skjerm. Den kan også lagres som MP4-video i vinduet Eksporter.",
-        "**3D Stage:** visningsknappene i nedre hjørne står igjen på linje med verktøylinjen og dekker den ikke lenger."
-      ],
-      "lt": [
-        "**Animacija:** naujas vaizdas Animacija išplėstiniame ekrane, po Grid. Du technikai realiu masteliu po vieną plokštę surenka projekto ekranus: pasiekiamas plokštes neša rankomis, aukštas – keltuvu. Jei projektas turi logotipą, jis matomas ant jų marškinėlių. Pabaigoje – kiekvieno ekrano bandomasis vaizdas. Ją taip pat galima išsaugoti kaip MP4 vaizdo įrašą lange Eksportuoti.",
-        "**3D Stage:** vaizdų mygtukai apatiniame kampe vėl sulygiuoti su įrankių juosta ir jos nebeuždengia."
-      ],
-      "et": [
-        "**Animatsioon:** uus vaade Animatsioon laiendatud ekraanil, Gridi all. Kaks tehnikut monteerivad projekti ekraanid paneel paneeli haaval tegelikus mõõtkavas: käeulatuses paneelid kantakse käes, kõrged tõstukiga. Kui projektil on logo, on see nende särkidel. Lõpus iga ekraani testpilt. Selle saab salvestada ka MP4-videona aknas Ekspordi.",
-        "**3D Stage:** alumise nurga vaatenupud on jälle tööriistaribaga joondatud ega kata seda enam."
-      ],
-      "sk": [
-        "**Animácia:** nové zobrazenie Animácia na rozšírenej obrazovke, pod Grid. Dvaja technici montujú obrazovky projektu panel po paneli v skutočnej mierke: panely na dosah nesú v rukách, vysoké pomocou plošiny. Ak má projekt logo, objaví sa na ich tričkách. Na konci testovací obraz každej obrazovky. Dá sa uložiť aj ako video MP4 v okne Export.",
-        "**3D Stage:** tlačidlá zobrazení v dolnom rohu sú opäť zarovnané s panelom nástrojov a už ho nezakrývajú."
-      ],
-      "bg": [
-        "**Анимация:** нов изглед „Анимация“ на разширения екран, под Grid. Двама техници монтират екраните на проекта панел по панел в реален мащаб: панелите на ръка разстояние се носят на ръце, високите – с подемник. Ако проектът има лого, то се вижда на тениските им. Накрая – тестовото изображение на всеки екран. Може да се запише и като MP4 видео в прозореца „Експорт“.",
-        "**3D Stage:** бутоните за изгледи в долния ъгъл отново са подравнени с лентата с инструменти и вече не я закриват."
-      ],
-      "sr": [
-        "**Анимација:** нови приказ „Анимација“ на проширеном екрану, испод Grid. Два техничара монтирају екране пројекта панел по панел у стварној размери: панеле на дохват руке носе у рукама, високе подизном платформом. Ако пројекат има лого, види се на њиховим мајицама. На крају – тест-слика сваког екрана. Може се сачувати и као MP4 видео у прозору „Извоз“.",
-        "**3D Stage:** дугмад приказа у доњем углу поново су поравната са траком алата и више је не прекривају."
-      ],
-      "hr": [
-        "**Animacija:** novi prikaz Animacija na proširenom zaslonu, ispod Grid. Dva tehničara montiraju zaslone projekta panel po panel u stvarnom mjerilu: panele nadohvat ruke nose u rukama, visoke podiznom platformom. Ako projekt ima logotip, vidi se na njihovim majicama. Na kraju testna slika svakog zaslona. Može se spremiti i kao MP4 videozapis u prozoru Izvoz.",
-        "**3D Stage:** gumbi prikaza u donjem kutu ponovno su poravnati s alatnom trakom i više je ne prekrivaju."
-      ],
-      "gu": [
-        "**એનિમેશન:** એક્સટેન્ડેડ સ્ક્રીનમાં Grid નીચે નવો એનિમેશન વ્યૂ. બે ટેકનિશિયન પ્રોજેક્ટની સ્ક્રીન સાચા માપમાં એક-એક પેનલ જોડે છે: હાથ પહોંચે તે પેનલ હાથથી, ઊંચી પેનલ લિફ્ટથી. પ્રોજેક્ટમાં લોગો હોય તો તે તેમના શર્ટ પર દેખાય છે. અંતે દરેક સ્ક્રીનની ટેસ્ટ ઇમેજ. એક્સપોર્ટ વિન્ડોમાં MP4 વિડિયો તરીકે પણ સાચવી શકાય છે.",
-        "**3D Stage:** નીચેના ખૂણાના વ્યૂ બટન ફરી ટૂલબાર સાથે એક લાઇનમાં છે અને હવે તેને ઢાંકતા નથી."
-      ],
-      "pa": [
-        "**ਐਨੀਮੇਸ਼ਨ:** ਐਕਸਟੈਂਡਡ ਸਕ੍ਰੀਨ ਵਿੱਚ Grid ਦੇ ਹੇਠਾਂ ਨਵਾਂ ਐਨੀਮੇਸ਼ਨ ਵਿਊ। ਦੋ ਤਕਨੀਸ਼ੀਅਨ ਪ੍ਰੋਜੈਕਟ ਦੀਆਂ ਸਕ੍ਰੀਨਾਂ ਅਸਲ ਪੈਮਾਨੇ 'ਤੇ ਇੱਕ-ਇੱਕ ਪੈਨਲ ਜੋੜਦੇ ਹਨ: ਪਹੁੰਚ ਵਾਲੇ ਪੈਨਲ ਹੱਥ ਨਾਲ, ਉੱਚੇ ਲਿਫਟ ਨਾਲ। ਜੇ ਪ੍ਰੋਜੈਕਟ ਵਿੱਚ ਲੋਗੋ ਹੈ ਤਾਂ ਉਹ ਉਨ੍ਹਾਂ ਦੀਆਂ ਕਮੀਜ਼ਾਂ 'ਤੇ ਦਿਸਦਾ ਹੈ। ਅੰਤ ਵਿੱਚ ਹਰ ਸਕ੍ਰੀਨ ਦੀ ਟੈਸਟ ਤਸਵੀਰ। ਇਸਨੂੰ ਐਕਸਪੋਰਟ ਵਿੰਡੋ ਵਿੱਚ MP4 ਵੀਡੀਓ ਵਜੋਂ ਵੀ ਸੰਭਾਲਿਆ ਜਾ ਸਕਦਾ ਹੈ।",
-        "**3D Stage:** ਹੇਠਲੇ ਕੋਨੇ ਦੇ ਵਿਊ ਬਟਨ ਫਿਰ ਟੂਲਬਾਰ ਨਾਲ ਇੱਕ ਸੇਧ ਵਿੱਚ ਹਨ ਅਤੇ ਹੁਣ ਉਸਨੂੰ ਨਹੀਂ ਢੱਕਦੇ।"
-      ],
-      "kn": [
-        "**ಅನಿಮೇಷನ್:** ಎಕ್ಸ್‌ಟೆಂಡೆಡ್ ಸ್ಕ್ರೀನ್‌ನಲ್ಲಿ Grid ಕೆಳಗೆ ಹೊಸ ಅನಿಮೇಷನ್ ವೀಕ್ಷಣೆ. ಇಬ್ಬರು ತಂತ್ರಜ್ಞರು ಯೋಜನೆಯ ಪರದೆಗಳನ್ನು ನಿಜವಾದ ಅಳತೆಯಲ್ಲಿ ಒಂದೊಂದೇ ಪ್ಯಾನೆಲ್ ಜೋಡಿಸುತ್ತಾರೆ: ಕೈಗೆಟುಕುವ ಪ್ಯಾನೆಲ್‌ಗಳು ಕೈಯಲ್ಲಿ, ಎತ್ತರದವು ಲಿಫ್ಟ್‌ನಲ್ಲಿ. ಯೋಜನೆಗೆ ಲೋಗೋ ಇದ್ದರೆ ಅದು ಅವರ ಅಂಗಿಗಳ ಮೇಲೆ ಕಾಣುತ್ತದೆ. ಕೊನೆಯಲ್ಲಿ ಪ್ರತಿ ಪರದೆಯ ಪರೀಕ್ಷಾ ಚಿತ್ರ. ರಫ್ತು ವಿಂಡೋದಲ್ಲಿ MP4 ವೀಡಿಯೊ ಆಗಿಯೂ ಉಳಿಸಬಹುದು.",
-        "**3D Stage:** ಕೆಳಗಿನ ಮೂಲೆಯ ವೀಕ್ಷಣೆ ಬಟನ್‌ಗಳು ಮತ್ತೆ ಟೂಲ್‌ಬಾರ್‌ನೊಂದಿಗೆ ಸಾಲಿನಲ್ಲಿವೆ ಮತ್ತು ಇನ್ನು ಅದನ್ನು ಮುಚ್ಚುವುದಿಲ್ಲ."
-      ],
-      "ne": [
-        "**एनिमेसन:** एक्सटेन्डेड स्क्रिनमा Grid मुनि नयाँ एनिमेसन दृश्य। दुई प्राविधिकले परियोजनाका स्क्रिनहरू वास्तविक नापमा एक-एक प्यानल जोड्छन्: पहुँचमा भएका प्यानल हातले, अग्ला लिफ्टले। परियोजनामा लोगो भए त्यो उनीहरूको सर्टमा देखिन्छ। अन्त्यमा हरेक स्क्रिनको परीक्षण चित्र। यसलाई निर्यात सञ्झ्यालमा MP4 भिडियोका रूपमा पनि सुरक्षित गर्न सकिन्छ।",
-        "**3D Stage:** तलको कुनाका दृश्य बटनहरू फेरि टुलबारसँग एउटै रेखामा छन् र अब त्यसलाई छोप्दैनन्।"
-      ],
-      "km": [
-        "**ចលនា:** ទិដ្ឋភាពថ្មី ចលនា នៅលើអេក្រង់បន្ថែម ខាងក្រោម Grid។ អ្នកបច្ចេកទេសពីរនាក់ដំឡើងអេក្រង់របស់គម្រោងម្តងមួយបន្ទះ តាមទំហំពិត៖ បន្ទះដែលឈោងដល់ យកដោយដៃ បន្ទះខ្ពស់ប្រើម៉ាស៊ីនលើក។ បើគម្រោងមានឡូហ្គោ វានឹងបង្ហាញលើអាវរបស់ពួកគេ។ ចុងក្រោយ រូបភាពសាកល្បងនៃអេក្រង់នីមួយៗ។ អាចរក្សាទុកជាវីដេអូ MP4 នៅក្នុងផ្ទាំងនាំចេញផងដែរ។",
-        "**3D Stage:** ប៊ូតុងទិដ្ឋភាពនៅជ្រុងខាងក្រោមតម្រង់ជួរជាមួយរបារឧបករណ៍វិញ ហើយលែងបាំងវាទៀតហើយ។"
-      ],
-      "kk": [
-        "**Анимация:** кеңейтілген экранда Grid астында жаңа «Анимация» көрінісі. Екі техник жобаның экрандарын нақты масштабта панельден панельге құрастырады: қол жететін панельдерді қолмен, биіктерін көтергішпен. Жобада логотип болса, ол олардың футболкаларында көрінеді. Соңында әр экранның сынақ суреті. Оны «Экспорт» терезесінде MP4 бейнесі ретінде де сақтауға болады.",
-        "**3D Stage:** төменгі бұрыштағы көрініс түймелері қайтадан құралдар тақтасымен түзуленді және енді оны жаппайды."
-      ],
-      "uz": [
-        "**Animatsiya:** kengaytirilgan ekranda Grid ostida yangi Animatsiya ko‘rinishi. Ikki texnik loyiha ekranlarini haqiqiy masshtabda panelma-panel yig‘adi: qo‘l yetadigan panellar qo‘lda, balandlari ko‘targich bilan. Loyihada logotip bo‘lsa, u ularning futbolkalarida ko‘rinadi. Oxirida har bir ekranning test tasviri. Uni Eksport oynasida MP4 video sifatida ham saqlash mumkin.",
-        "**3D Stage:** pastki burchakdagi ko‘rinish tugmalari yana asboblar paneli bilan bir chiziqda va endi uni yopmaydi."
-      ],
-      "am": [
-        "**እነማ:** በተዘረጋው ማያ ገጽ ላይ ከGrid በታች አዲስ የእነማ እይታ። ሁለት ቴክኒሻኖች የፕሮጀክቱን ማያ ገጾች በእውነተኛ መጠን ፓነል በፓነል ይገጥማሉ፤ የሚደረሱ ፓነሎች በእጅ፣ ከፍ ያሉት በማንሻ። ፕሮጀክቱ አርማ ካለው በሸሚዛቸው ላይ ይታያል። በመጨረሻ የእያንዳንዱ ማያ ገጽ የሙከራ ምስል። በመላኪያ መስኮት ውስጥ እንደ MP4 ቪዲዮም ማስቀመጥ ይቻላል።",
-        "**3D Stage:** ከታችኛው ጥግ ያሉት የእይታ አዝራሮች እንደገና ከመሳሪያ አሞሌው ጋር ተሰልፈዋል፤ ከአሁን በኋላ አይሸፍኑትም።"
-      ],
-      "sl": [
-        "**Animacija:** nov pogled Animacija na razširjenem zaslonu, pod Grid. Dva tehnika v resničnem merilu ploščo za ploščo sestavita zaslone projekta: plošče na dosegu roke neseta v rokah, visoke z dvižno ploščadjo. Če ima projekt logotip, je viden na njunih majicah. Na koncu testna slika vsakega zaslona. Shranite jo lahko tudi kot video MP4 v oknu Izvozi.",
-        "**3D Stage:** gumbi pogledov v spodnjem kotu so znova poravnani z orodno vrstico in je ne prekrivajo več."
       ]
     }
   }
