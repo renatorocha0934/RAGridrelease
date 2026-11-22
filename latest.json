@@ -1,9 +1,311 @@
 {
-  "version": "2.9.7",
-  "windows": "https://github.com/renatorocha0934/RAGridrelease/releases/download/v2.9.7/RAGrid-Windows.zip",
-  "mac": "https://github.com/renatorocha0934/RAGridrelease/releases/download/v2.9.7/RAGrid-Mac.dmg",
+  "version": "2.9.8",
+  "windows": "https://github.com/renatorocha0934/RAGridrelease/releases/download/v2.9.8/RAGrid-Windows.zip",
+  "mac": "https://github.com/renatorocha0934/RAGridrelease/releases/download/v2.9.8/RAGrid-Mac.dmg",
   "notes": "System and performance improvements.",
   "changes": {
+    "2.9.8": {
+      "en": [
+        "**Grid:** new Effects box with a slow Radar sweep, solid colors (red, green, blue, white) in Pattern, and the arrow keys move the selected logo. The toolbar is cleaner and stays still.",
+        "**Logo:** works the same in Pixel Mapping, Drawing and Grid: arrow keys (Ctrl = faster), magnet to the boxes and a rotate handle.",
+        "**Layout:** the left column has the same size in every tab and no longer jumps when you change tabs."
+      ],
+      "pt": [
+        "**Grid:** nova caixa Effects com um Radar lento, cores sólidas (vermelho, verde, azul, branco) na Pattern, e as setas movem o logo escolhido. A barra de ferramentas ficou mais limpa e parada.",
+        "**Logo:** funciona igual no Pixel Mapping, no Drawing e no Grid: setas (Ctrl = mais rápido), ímã nas caixas e alça para girar.",
+        "**Tela:** a coluna da esquerda tem o mesmo tamanho em todas as abas e não pula mais ao trocar de aba."
+      ],
+      "es": [
+        "**Grid:** nueva caja Effects con un Radar lento, colores sólidos (rojo, verde, azul, blanco) en Pattern, y las flechas mueven el logo elegido. La barra de herramientas es más limpia y queda fija.",
+        "**Logo:** funciona igual en Pixel Mapping, Drawing y Grid: flechas (Ctrl = más rápido), imán a las cajas y asa para girar.",
+        "**Diseño:** la columna izquierda tiene el mismo tamaño en todas las pestañas y ya no salta al cambiar de pestaña."
+      ],
+      "fr": [
+        "**Grid :** nouvelle boîte Effects avec un Radar lent, couleurs unies (rouge, vert, bleu, blanc) dans Pattern, et les flèches déplacent le logo choisi. La barre d’outils est plus nette et reste fixe.",
+        "**Logo :** fonctionne pareil dans Pixel Mapping, Drawing et Grid : flèches (Ctrl = plus vite), aimant sur les boîtes et poignée de rotation.",
+        "**Disposition :** la colonne de gauche a la même taille dans tous les onglets et ne saute plus au changement d’onglet."
+      ],
+      "de": [
+        "**Grid:** neue Effects-Box mit langsamem Radar, Volltonfarben (Rot, Grün, Blau, Weiß) in Pattern, und die Pfeiltasten bewegen das gewählte Logo. Die Werkzeugleiste ist aufgeräumter und bleibt ruhig.",
+        "**Logo:** funktioniert gleich in Pixel Mapping, Drawing und Grid: Pfeiltasten (Ctrl = schneller), Magnet an den Boxen und Drehgriff.",
+        "**Layout:** die linke Spalte ist in allen Tabs gleich groß und springt beim Tabwechsel nicht mehr."
+      ],
+      "it": [
+        "**Grid:** nuovo riquadro Effects con un Radar lento, colori pieni (rosso, verde, blu, bianco) in Pattern, e le frecce spostano il logo scelto. La barra degli strumenti è più pulita e resta ferma.",
+        "**Logo:** funziona allo stesso modo in Pixel Mapping, Drawing e Grid: frecce (Ctrl = più veloce), calamita sui riquadri e maniglia di rotazione.",
+        "**Layout:** la colonna di sinistra ha la stessa misura in tutte le schede e non salta più al cambio di scheda."
+      ],
+      "nl": [
+        "**Grid:** nieuw Effects-vak met een trage Radar, effen kleuren (rood, groen, blauw, wit) in Pattern, en de pijltjestoetsen verplaatsen het gekozen logo. De werkbalk is rustiger en blijft stil staan.",
+        "**Logo:** werkt hetzelfde in Pixel Mapping, Drawing en Grid: pijltjes (Ctrl = sneller), magneet aan de vakken en een draaigreep.",
+        "**Indeling:** de linkerkolom is in alle tabbladen even groot en springt niet meer bij het wisselen van tabblad."
+      ],
+      "ru": [
+        "**Grid:** новый блок Effects с медленным Радаром, сплошные цвета (красный, зелёный, синий, белый) в Pattern, а стрелки двигают выбранный логотип. Панель инструментов стала чище и больше не сдвигается.",
+        "**Логотип:** работает одинаково в Pixel Mapping, Drawing и Grid: стрелки (Ctrl = быстрее), магнит к блокам и маркер поворота.",
+        "**Интерфейс:** левая колонка одного размера во всех вкладках и больше не прыгает при смене вкладки."
+      ],
+      "tr": [
+        "**Grid:** yavaş bir Radar içeren yeni Effects kutusu, Pattern'de düz renkler (kırmızı, yeşil, mavi, beyaz) ve oklar seçili logoyu taşır. Araç çubuğu daha sade ve sabit.",
+        "**Logo:** Pixel Mapping, Drawing ve Grid'de aynı çalışır: oklar (Ctrl = daha hızlı), kutulara mıknatıs ve döndürme tutamacı.",
+        "**Düzen:** sol sütun tüm sekmelerde aynı boyutta ve sekme değiştirirken artık zıplamıyor."
+      ],
+      "id": [
+        "**Grid:** kotak Effects baru dengan Radar yang pelan, warna solid (merah, hijau, biru, putih) di Pattern, dan tombol panah menggeser logo yang dipilih. Toolbar lebih rapi dan tetap diam.",
+        "**Logo:** bekerja sama di Pixel Mapping, Drawing dan Grid: tombol panah (Ctrl = lebih cepat), magnet ke kotak dan pegangan putar.",
+        "**Tata letak:** kolom kiri berukuran sama di semua tab dan tidak lagi melompat saat berganti tab."
+      ],
+      "hu": [
+        "**Grid:** új Effects doboz lassú Radarral, egyszínű színek (piros, zöld, kék, fehér) a Patternben, és a nyilak a kiválasztott logót mozgatják. Az eszköztár letisztultabb és nem mozdul.",
+        "**Logó:** ugyanúgy működik a Pixel Mappingben, a Drawingban és a Gridben: nyilak (Ctrl = gyorsabban), mágnes a dobozokhoz és forgató fogantyú.",
+        "**Elrendezés:** a bal oldali oszlop minden fülön azonos méretű, és fülváltáskor már nem ugrik."
+      ],
+      "zh-Hans": [
+        "**Grid：** 新的 Effects 框带有缓慢的雷达扫描，Pattern 中新增纯色（红、绿、蓝、白），方向键可移动选中的 logo。工具栏更简洁且保持固定。",
+        "**Logo：** 在 Pixel Mapping、Drawing 和 Grid 中用法相同：方向键（Ctrl = 更快）、吸附到方框以及旋转手柄。",
+        "**布局：** 左侧栏在所有标签页中大小相同，切换标签页时不再跳动。"
+      ],
+      "zh-Hant": [
+        "**Grid：** 新的 Effects 方塊帶有緩慢的雷達掃描，Pattern 中新增純色（紅、綠、藍、白），方向鍵可移動選取的 logo。工具列更簡潔且保持固定。",
+        "**Logo：** 在 Pixel Mapping、Drawing 和 Grid 中用法相同：方向鍵（Ctrl = 更快）、吸附到方塊以及旋轉控點。",
+        "**版面：** 左側欄在所有分頁中大小相同，切換分頁時不再跳動。"
+      ],
+      "ja": [
+        "**Grid：** ゆっくりしたレーダーの新しい Effects ボックス、Pattern に単色（赤・緑・青・白）を追加、矢印キーで選んだロゴを移動できます。ツールバーはすっきりして動かなくなりました。",
+        "**ロゴ：** Pixel Mapping・Drawing・Grid で同じ操作：矢印キー（Ctrl = 速く）、ボックスへの吸着、回転ハンドル。",
+        "**レイアウト：** 左の列はすべてのタブで同じサイズになり、タブを切り替えても動きません。"
+      ],
+      "ko": [
+        "**Grid:** 느린 레이더가 있는 새 Effects 상자, Pattern의 단색(빨강, 초록, 파랑, 흰색), 방향키로 선택한 로고를 이동합니다. 도구 막대가 더 깔끔해지고 움직이지 않습니다.",
+        "**로고:** Pixel Mapping, Drawing, Grid에서 똑같이 동작합니다: 방향키(Ctrl = 더 빠르게), 상자에 자석처럼 붙기, 회전 핸들.",
+        "**레이아웃:** 왼쪽 열은 모든 탭에서 크기가 같고 탭을 바꿀 때 더 이상 움직이지 않습니다."
+      ],
+      "ar": [
+        "**Grid:** مربع Effects جديد مع رادار بطيء، وألوان صلبة (أحمر، أخضر، أزرق، أبيض) في Pattern، ومفاتيح الأسهم تحرك الشعار المختار. شريط الأدوات أبسط ويبقى ثابتًا.",
+        "**الشعار:** يعمل بنفس الطريقة في Pixel Mapping وDrawing وGrid: الأسهم (Ctrl = أسرع)، والالتصاق بالمربعات، ومقبض التدوير.",
+        "**التخطيط:** العمود الأيسر بنفس الحجم في كل التبويبات ولم يعد يقفز عند تغيير التبويب."
+      ],
+      "th": [
+        "**Grid:** กล่อง Effects ใหม่พร้อมเรดาร์ที่หมุนช้า สีทึบ (แดง เขียว น้ำเงิน ขาว) ใน Pattern และปุ่มลูกศรเลื่อนโลโก้ที่เลือก แถบเครื่องมือดูสะอาดขึ้นและอยู่นิ่ง",
+        "**โลโก้:** ใช้งานเหมือนกันใน Pixel Mapping, Drawing และ Grid: ปุ่มลูกศร (Ctrl = เร็วขึ้น) ดูดติดกล่อง และจุดจับหมุน",
+        "**เลย์เอาต์:** คอลัมน์ซ้ายมีขนาดเท่ากันทุกแท็บ และไม่กระโดดเมื่อเปลี่ยนแท็บอีกต่อไป"
+      ],
+      "hi": [
+        "**Grid:** धीमे रडार वाला नया Effects बॉक्स, Pattern में ठोस रंग (लाल, हरा, नीला, सफ़ेद), और तीर कुंजियाँ चुने हुए लोगो को खिसकाती हैं। टूलबार साफ़ है और अपनी जगह रहता है।",
+        "**लोगो:** Pixel Mapping, Drawing और Grid में एक जैसा काम करता है: तीर (Ctrl = तेज़), बॉक्स से चिपकना और घुमाने का हैंडल।",
+        "**लेआउट:** बाईं कॉलम हर टैब में एक ही आकार की है और टैब बदलने पर अब नहीं उछलती।"
+      ],
+      "vi": [
+        "**Grid:** hộp Effects mới với Radar quét chậm, màu đơn sắc (đỏ, xanh lá, xanh dương, trắng) trong Pattern, và phím mũi tên di chuyển logo đang chọn. Thanh công cụ gọn hơn và đứng yên.",
+        "**Logo:** hoạt động giống nhau trong Pixel Mapping, Drawing và Grid: phím mũi tên (Ctrl = nhanh hơn), hút vào các hộp và tay nắm xoay.",
+        "**Bố cục:** cột bên trái có cùng kích thước ở mọi tab và không còn nhảy khi đổi tab."
+      ],
+      "bn": [
+        "**Grid:** ধীর রাডারসহ নতুন Effects বক্স, Pattern-এ একরঙা রং (লাল, সবুজ, নীল, সাদা), আর অ্যারো কী দিয়ে বাছাই করা লোগো সরে। টুলবার আরও পরিষ্কার এবং স্থির থাকে।",
+        "**লোগো:** Pixel Mapping, Drawing ও Grid-এ একইভাবে কাজ করে: অ্যারো কী (Ctrl = দ্রুত), বক্সে চুম্বকের মতো আটকানো এবং ঘোরানোর হ্যান্ডেল।",
+        "**লেআউট:** বাঁ দিকের কলাম সব ট্যাবে একই মাপের এবং ট্যাব বদলালে আর লাফায় না।"
+      ],
+      "ms": [
+        "**Grid:** kotak Effects baharu dengan Radar yang perlahan, warna padu (merah, hijau, biru, putih) dalam Pattern, dan kekunci anak panah menggerakkan logo yang dipilih. Bar alat lebih kemas dan kekal tetap.",
+        "**Logo:** berfungsi sama dalam Pixel Mapping, Drawing dan Grid: anak panah (Ctrl = lebih laju), magnet pada kotak dan pemegang putar.",
+        "**Susun atur:** lajur kiri sama saiz dalam semua tab dan tidak lagi melompat apabila bertukar tab."
+      ],
+      "sv": [
+        "**Grid:** ny Effects-ruta med en långsam Radar, enfärgade färger (röd, grön, blå, vit) i Pattern, och piltangenterna flyttar den valda logotypen. Verktygsfältet är renare och står still.",
+        "**Logotyp:** fungerar likadant i Pixel Mapping, Drawing och Grid: piltangenter (Ctrl = snabbare), magnet mot rutorna och ett rotationshandtag.",
+        "**Layout:** vänsterkolumnen har samma storlek i alla flikar och hoppar inte längre när du byter flik."
+      ],
+      "ur": [
+        "**Grid:** سست ریڈار والا نیا Effects باکس، Pattern میں ٹھوس رنگ (سرخ، سبز، نیلا، سفید)، اور تیر والی کلیدیں منتخب لوگو کو کھسکاتی ہیں۔ ٹول بار صاف ہے اور اپنی جگہ رہتا ہے۔",
+        "**لوگو:** Pixel Mapping، Drawing اور Grid میں ایک جیسا کام کرتا ہے: تیر (Ctrl = تیز)، باکسوں سے چپکنا اور گھمانے کا ہینڈل۔",
+        "**ترتیب:** بائیں کالم ہر ٹیب میں ایک ہی سائز کا ہے اور ٹیب بدلنے پر اب نہیں اچھلتا۔"
+      ],
+      "sw": [
+        "**Grid:** kisanduku kipya cha Effects chenye Rada ya polepole, rangi kamili (nyekundu, kijani, bluu, nyeupe) kwenye Pattern, na vitufe vya mishale husogeza nembo iliyochaguliwa. Upau wa zana ni safi zaidi na hukaa tuli.",
+        "**Nembo:** hufanya kazi sawa kwenye Pixel Mapping, Drawing na Grid: mishale (Ctrl = haraka zaidi), sumaku kwa visanduku na kishikio cha kuzungusha.",
+        "**Mpangilio:** safu ya kushoto ina ukubwa sawa kwenye vichupo vyote na hairuki tena unapobadilisha kichupo."
+      ],
+      "gn": [
+        "**Grid:** caja Effects pyahu oguerekóva Radar mbeguekatúva, sa’y peteĩchagua (pytã, hovyũ, hovy, morotĩ) Pattern-pe, ha flecha omomýi logo ojeporavóva. Barra de herramientas ipotĩve ha opyta peteĩ hendápe.",
+        "**Logo:** omba’apo peteĩchaite Pixel Mapping, Drawing ha Grid-pe: flecha (Ctrl = pya’eve), imán caja-kuérare ha po ojere haĝua.",
+        "**Ñemohenda:** columna asúpe oguereko peteĩ tamaño opaite pestaña-pe ha ndopoivéima eñemoambuévo pestaña."
+      ],
+      "he": [
+        "**Grid:** תיבת Effects חדשה עם מכ״ם איטי, צבעים אחידים (אדום, ירוק, כחול, לבן) ב-Pattern, ומקשי החצים מזיזים את הלוגו שנבחר. סרגל הכלים נקי יותר ונשאר יציב.",
+        "**לוגו:** עובד אותו דבר ב-Pixel Mapping, ב-Drawing וב-Grid: חצים (Ctrl = מהר יותר), הצמדה לתיבות וידית סיבוב.",
+        "**פריסה:** העמודה השמאלית באותו גודל בכל הלשוניות ולא קופצת יותר במעבר בין לשוניות."
+      ],
+      "lv": [
+        "**Grid:** jauns Effects lodziņš ar lēnu Radaru, vienkrāsas krāsas (sarkana, zaļa, zila, balta) Pattern sadaļā, un bultiņas pārvieto izvēlēto logotipu. Rīkjosla ir tīrāka un paliek uz vietas.",
+        "**Logotips:** darbojas vienādi Pixel Mapping, Drawing un Grid: bultiņas (Ctrl = ātrāk), magnēts pie lodziņiem un pagriešanas turis.",
+        "**Izkārtojums:** kreisā kolonna visās cilnēs ir vienāda izmēra un vairs nelēkā, mainot cilni."
+      ],
+      "fa": [
+        "**Grid:** جعبه Effects جدید با یک رادار آهسته، رنگ‌های یکدست (قرمز، سبز، آبی، سفید) در Pattern، و کلیدهای جهت لوگوی انتخاب‌شده را جابه‌جا می‌کنند. نوار ابزار مرتب‌تر است و ثابت می‌ماند.",
+        "**لوگو:** در Pixel Mapping، Drawing و Grid یکسان کار می‌کند: کلیدهای جهت (Ctrl = سریع‌تر)، چسبیدن به جعبه‌ها و دستگیره چرخش.",
+        "**چیدمان:** ستون چپ در همه زبانه‌ها یک اندازه است و هنگام تعویض زبانه دیگر نمی‌پرد."
+      ],
+      "pl": [
+        "**Grid:** nowe pole Effects z wolnym Radarem, jednolite kolory (czerwony, zielony, niebieski, biały) w Pattern, a strzałki przesuwają wybrane logo. Pasek narzędzi jest czytelniejszy i się nie przesuwa.",
+        "**Logo:** działa tak samo w Pixel Mapping, Drawing i Grid: strzałki (Ctrl = szybciej), przyciąganie do pól i uchwyt obrotu.",
+        "**Układ:** lewa kolumna ma ten sam rozmiar na wszystkich kartach i nie skacze już przy zmianie karty."
+      ],
+      "uk": [
+        "**Grid:** новий блок Effects з повільним Радаром, суцільні кольори (червоний, зелений, синій, білий) у Pattern, а стрілки рухають вибраний логотип. Панель інструментів стала охайнішою й не зсувається.",
+        "**Логотип:** працює однаково в Pixel Mapping, Drawing і Grid: стрілки (Ctrl = швидше), магніт до блоків і маркер повороту.",
+        "**Макет:** ліва колонка має однаковий розмір у всіх вкладках і більше не стрибає під час зміни вкладки."
+      ],
+      "ca": [
+        "**Grid:** nova caixa Effects amb un Radar lent, colors sòlids (vermell, verd, blau, blanc) a Pattern, i les fletxes mouen el logo triat. La barra d’eines és més neta i queda fixa.",
+        "**Logo:** funciona igual a Pixel Mapping, Drawing i Grid: fletxes (Ctrl = més ràpid), imant a les caixes i nansa per girar.",
+        "**Disseny:** la columna esquerra té la mateixa mida a totes les pestanyes i ja no salta en canviar de pestanya."
+      ],
+      "cs": [
+        "**Grid:** nové pole Effects s pomalým Radarem, plné barvy (červená, zelená, modrá, bílá) v Pattern a šipky posouvají vybrané logo. Panel nástrojů je přehlednější a nehýbe se.",
+        "**Logo:** funguje stejně v Pixel Mapping, Drawing i Grid: šipky (Ctrl = rychleji), přichycení k polím a úchyt pro otáčení.",
+        "**Rozvržení:** levý sloupec má ve všech kartách stejnou velikost a při přepnutí karty už neposkakuje."
+      ],
+      "fi": [
+        "**Grid:** uusi Effects-ruutu hitaalla Tutkalla, tasavärit (punainen, vihreä, sininen, valkoinen) Patternissa, ja nuolinäppäimet siirtävät valittua logoa. Työkalupalkki on selkeämpi ja pysyy paikallaan.",
+        "**Logo:** toimii samoin Pixel Mappingissa, Drawingissa ja Gridissä: nuolet (Ctrl = nopeammin), magneetti ruutuihin ja kiertokahva.",
+        "**Asettelu:** vasen sarake on kaikilla välilehdillä samankokoinen eikä enää hypi välilehteä vaihdettaessa."
+      ],
+      "el": [
+        "**Grid:** νέο πλαίσιο Effects με αργό Ραντάρ, συμπαγή χρώματα (κόκκινο, πράσινο, μπλε, λευκό) στο Pattern, και τα βέλη μετακινούν το επιλεγμένο λογότυπο. Η γραμμή εργαλείων είναι πιο καθαρή και μένει σταθερή.",
+        "**Λογότυπο:** λειτουργεί το ίδιο σε Pixel Mapping, Drawing και Grid: βέλη (Ctrl = πιο γρήγορα), μαγνήτης στα πλαίσια και λαβή περιστροφής.",
+        "**Διάταξη:** η αριστερή στήλη έχει το ίδιο μέγεθος σε όλες τις καρτέλες και δεν πηδάει πια όταν αλλάζετε καρτέλα."
+      ],
+      "ha": [
+        "**Grid:** sabon akwatin Effects mai Radar a hankali, launuka masu ƙarfi (ja, kore, shuɗi, fari) a Pattern, kuma maɓallan kibiya suna motsa tambarin da aka zaɓa. Sandar kayan aiki ta fi tsabta kuma tana tsayawa a wuri ɗaya.",
+        "**Tambari:** yana aiki iri ɗaya a Pixel Mapping, Drawing da Grid: kibiyoyi (Ctrl = da sauri), maganadisu zuwa akwatuna da maƙallin juyawa.",
+        "**Tsari:** ginshiƙin hagu yana da girma ɗaya a duk shafuka kuma baya tsalle idan aka canza shafi."
+      ],
+      "ro": [
+        "**Grid:** casetă Effects nouă cu un Radar lent, culori pline (roșu, verde, albastru, alb) în Pattern, iar săgețile mută logoul ales. Bara de instrumente e mai curată și stă pe loc.",
+        "**Logo:** funcționează la fel în Pixel Mapping, Drawing și Grid: săgeți (Ctrl = mai repede), magnet la casete și mâner de rotire.",
+        "**Aspect:** coloana din stânga are aceeași mărime în toate filele și nu mai sare la schimbarea filei."
+      ],
+      "yo": [
+        "**Grid:** àpótí Effects tuntun pẹ̀lú Radar tó lọ́ra, àwọn àwọ̀ kíkún (pupa, ewé, búlúù, funfun) nínú Pattern, àwọn bọ́tìnnì ọfà sì ń gbé àmì tí a yàn. Ọ̀pá irinṣẹ́ ti mọ́ sí i, ó sì dúró sójú kan.",
+        "**Àmì:** ń ṣiṣẹ́ bákan náà ní Pixel Mapping, Drawing àti Grid: àwọn ọfà (Ctrl = yára sí i), mágínẹ́ẹ̀tì sí àwọn àpótí àti ìmú yíyí.",
+        "**Ìtò:** òpó òsì ní ìwọ̀n kan náà ní gbogbo táàbù, kò sì fò mọ́ nígbà tí a bá yí táàbù padà."
+      ],
+      "zu": [
+        "**Grid:** ibhokisi elisha le-Effects elinoRadar ehamba kancane, imibala eqinile (obomvu, oluhlaza, oluhlaza okwesibhakabhaka, omhlophe) ku-Pattern, futhi imicibisholo ihambisa ilogo ekhethiwe. Ibha yamathuluzi ihlanzekile futhi ihlala imile.",
+        "**Ilogo:** isebenza ngendlela efanayo ku-Pixel Mapping, Drawing naku-Grid: imicibisholo (Ctrl = ngokushesha), uzibuthe emabhokisini nesibambo sokuzungezisa.",
+        "**Isakhiwo:** ikholomu yesobunxele inosayizi ofanayo kuwo wonke amathebhu futhi ayisagxumi uma ushintsha ithebhu."
+      ],
+      "fil": [
+        "**Grid:** bagong Effects box na may mabagal na Radar, solid na kulay (pula, berde, asul, puti) sa Pattern, at ginagalaw ng arrow keys ang napiling logo. Mas malinis ang toolbar at nananatiling nakapirmi.",
+        "**Logo:** pareho ang gamit sa Pixel Mapping, Drawing at Grid: arrow keys (Ctrl = mas mabilis), magnet sa mga box at hawakan para iikot.",
+        "**Layout:** pareho ang laki ng kaliwang column sa lahat ng tab at hindi na tumatalon kapag nagpalit ng tab."
+      ],
+      "ta": [
+        "**Grid:** மெதுவான ரேடாருடன் புதிய Effects பெட்டி, Pattern-இல் திட நிறங்கள் (சிவப்பு, பச்சை, நீலம், வெள்ளை), அம்புக்குறி விசைகள் தேர்ந்த லோகோவை நகர்த்தும். கருவிப்பட்டி தெளிவாகவும் அசையாமலும் உள்ளது.",
+        "**லோகோ:** Pixel Mapping, Drawing, Grid ஆகியவற்றில் ஒரே மாதிரி வேலை செய்கிறது: அம்புகள் (Ctrl = வேகமாக), பெட்டிகளில் காந்தம், சுழற்றும் கைப்பிடி.",
+        "**அமைப்பு:** இடது நெடுவரிசை எல்லா தாவல்களிலும் ஒரே அளவு; தாவல் மாற்றும்போது இனி குதிக்காது."
+      ],
+      "te": [
+        "**Grid:** నెమ్మదైన రాడార్‌తో కొత్త Effects బాక్స్, Pattern లో ఘన రంగులు (ఎరుపు, ఆకుపచ్చ, నీలం, తెలుపు), బాణం కీలు ఎంచుకున్న లోగోను కదిలిస్తాయి. టూల్‌బార్ మరింత శుభ్రంగా ఉండి కదలదు.",
+        "**లోగో:** Pixel Mapping, Drawing, Grid లో ఒకేలా పనిచేస్తుంది: బాణాలు (Ctrl = వేగంగా), బాక్స్‌లకు అయస్కాంతం, తిప్పే హ్యాండిల్.",
+        "**అమరిక:** ఎడమ కాలమ్ అన్ని ట్యాబ్‌లలో ఒకే పరిమాణంలో ఉంటుంది, ట్యాబ్ మార్చినప్పుడు ఇక ఎగరదు."
+      ],
+      "mr": [
+        "**Grid:** हळू रडार असलेला नवीन Effects बॉक्स, Pattern मध्ये ठोस रंग (लाल, हिरवा, निळा, पांढरा), आणि बाण कळा निवडलेला लोगो सरकवतात. टूलबार अधिक स्वच्छ असून जागेवर राहतो.",
+        "**लोगो:** Pixel Mapping, Drawing आणि Grid मध्ये सारखाच चालतो: बाण (Ctrl = जलद), बॉक्सना चुंबक आणि फिरवण्याचे हँडल.",
+        "**मांडणी:** डावा स्तंभ सर्व टॅबमध्ये एकाच आकाराचा आहे आणि टॅब बदलताना आता उडी मारत नाही."
+      ],
+      "da": [
+        "**Grid:** ny Effects-boks med en langsom Radar, ensfarvede farver (rød, grøn, blå, hvid) i Pattern, og piletasterne flytter det valgte logo. Værktøjslinjen er renere og står stille.",
+        "**Logo:** virker ens i Pixel Mapping, Drawing og Grid: piletaster (Ctrl = hurtigere), magnet til boksene og et rotationshåndtag.",
+        "**Layout:** venstre kolonne har samme størrelse i alle faner og hopper ikke længere, når du skifter fane."
+      ],
+      "nb": [
+        "**Grid:** ny Effects-boks med en langsom Radar, ensfargede farger (rød, grønn, blå, hvit) i Pattern, og piltastene flytter den valgte logoen. Verktøylinjen er ryddigere og står stille.",
+        "**Logo:** fungerer likt i Pixel Mapping, Drawing og Grid: piltaster (Ctrl = raskere), magnet mot boksene og et rotasjonshåndtak.",
+        "**Oppsett:** venstre kolonne har samme størrelse i alle faner og hopper ikke lenger når du bytter fane."
+      ],
+      "lt": [
+        "**Grid:** naujas Effects langelis su lėtu Radaru, vientisos spalvos (raudona, žalia, mėlyna, balta) Pattern skiltyje, o rodyklės perkelia pasirinktą logotipą. Įrankių juosta tvarkingesnė ir nejuda.",
+        "**Logotipas:** veikia vienodai Pixel Mapping, Drawing ir Grid: rodyklės (Ctrl = greičiau), magnetas prie langelių ir pasukimo rankenėlė.",
+        "**Išdėstymas:** kairysis stulpelis visuose skirtukuose yra vienodo dydžio ir nebešokinėja keičiant skirtuką."
+      ],
+      "et": [
+        "**Grid:** uus Effects kast aeglase Radariga, ühtlased värvid (punane, roheline, sinine, valge) Patternis ja nooled liigutavad valitud logo. Tööriistariba on puhtam ja püsib paigal.",
+        "**Logo:** töötab ühtemoodi Pixel Mappingus, Drawingus ja Gridis: nooled (Ctrl = kiiremini), magnet kastide külge ja pööramiskäepide.",
+        "**Paigutus:** vasak veerg on kõigil vahekaartidel sama suur ega hüppa enam vahekaarti vahetades."
+      ],
+      "sk": [
+        "**Grid:** nové pole Effects s pomalým Radarom, plné farby (červená, zelená, modrá, biela) v Pattern a šípky posúvajú vybrané logo. Panel nástrojov je prehľadnejší a nehýbe sa.",
+        "**Logo:** funguje rovnako v Pixel Mapping, Drawing aj Grid: šípky (Ctrl = rýchlejšie), prichytenie k poliam a úchyt na otáčanie.",
+        "**Rozloženie:** ľavý stĺpec má na všetkých kartách rovnakú veľkosť a pri prepnutí karty už neposkakuje."
+      ],
+      "bg": [
+        "**Grid:** ново поле Effects с бавен Радар, плътни цветове (червено, зелено, синьо, бяло) в Pattern, а стрелките местят избраното лого. Лентата с инструменти е по-изчистена и стои неподвижно.",
+        "**Лого:** работи еднакво в Pixel Mapping, Drawing и Grid: стрелки (Ctrl = по-бързо), магнит към полетата и дръжка за завъртане.",
+        "**Оформление:** лявата колона е с еднакъв размер във всички раздели и вече не подскача при смяна на раздела."
+      ],
+      "sr": [
+        "**Grid:** ново поље Effects са спорим Радаром, пуне боје (црвена, зелена, плава, бела) у Pattern, а стрелице померају изабрани лого. Трака са алаткама је прегледнија и стоји мирно.",
+        "**Лого:** ради исто у Pixel Mapping, Drawing и Grid: стрелице (Ctrl = брже), магнет на поља и ручица за ротацију.",
+        "**Распоред:** лева колона је исте величине на свим картицама и више не скаче при промени картице."
+      ],
+      "hr": [
+        "**Grid:** novi okvir Effects sa sporim Radarom, pune boje (crvena, zelena, plava, bijela) u Patternu, a strelice pomiču odabrani logotip. Alatna traka je preglednija i miruje.",
+        "**Logotip:** radi jednako u Pixel Mappingu, Drawingu i Gridu: strelice (Ctrl = brže), magnet na okvire i ručica za okretanje.",
+        "**Raspored:** lijevi stupac iste je veličine na svim karticama i više ne skače pri promjeni kartice."
+      ],
+      "gu": [
+        "**Grid:** ધીમા રડાર સાથે નવું Effects બોક્સ, Pattern માં ઘન રંગો (લાલ, લીલો, વાદળી, સફેદ), અને તીર કી પસંદ કરેલો લોગો ખસેડે છે. ટૂલબાર વધુ સ્વચ્છ છે અને સ્થિર રહે છે.",
+        "**લોગો:** Pixel Mapping, Drawing અને Grid માં એકસરખું કામ કરે છે: તીર (Ctrl = ઝડપી), બોક્સ સાથે ચુંબક અને ફેરવવાનું હેન્ડલ.",
+        "**ગોઠવણ:** ડાબી કૉલમ બધા ટેબમાં એક જ માપની છે અને ટેબ બદલતાં હવે કૂદતી નથી."
+      ],
+      "pa": [
+        "**Grid:** ਹੌਲੀ ਰਡਾਰ ਵਾਲਾ ਨਵਾਂ Effects ਬਕਸਾ, Pattern ਵਿੱਚ ਠੋਸ ਰੰਗ (ਲਾਲ, ਹਰਾ, ਨੀਲਾ, ਚਿੱਟਾ), ਅਤੇ ਤੀਰ ਕੁੰਜੀਆਂ ਚੁਣੇ ਲੋਗੋ ਨੂੰ ਖਿਸਕਾਉਂਦੀਆਂ ਹਨ। ਟੂਲਬਾਰ ਹੋਰ ਸਾਫ਼ ਹੈ ਅਤੇ ਟਿਕਿਆ ਰਹਿੰਦਾ ਹੈ।",
+        "**ਲੋਗੋ:** Pixel Mapping, Drawing ਅਤੇ Grid ਵਿੱਚ ਇੱਕੋ ਜਿਹਾ ਕੰਮ ਕਰਦਾ ਹੈ: ਤੀਰ (Ctrl = ਤੇਜ਼), ਬਕਸਿਆਂ ਨਾਲ ਚੁੰਬਕ ਅਤੇ ਘੁਮਾਉਣ ਵਾਲਾ ਹੈਂਡਲ।",
+        "**ਖਾਕਾ:** ਖੱਬਾ ਕਾਲਮ ਸਾਰੀਆਂ ਟੈਬਾਂ ਵਿੱਚ ਇੱਕੋ ਆਕਾਰ ਦਾ ਹੈ ਅਤੇ ਟੈਬ ਬਦਲਣ ਤੇ ਹੁਣ ਨਹੀਂ ਉਛਲਦਾ।"
+      ],
+      "kn": [
+        "**Grid:** ನಿಧಾನ ರೇಡಾರ್ ಇರುವ ಹೊಸ Effects ಪೆಟ್ಟಿಗೆ, Pattern ನಲ್ಲಿ ಘನ ಬಣ್ಣಗಳು (ಕೆಂಪು, ಹಸಿರು, ನೀಲಿ, ಬಿಳಿ), ಬಾಣದ ಕೀಲಿಗಳು ಆಯ್ಕೆ ಮಾಡಿದ ಲೋಗೋವನ್ನು ಸರಿಸುತ್ತವೆ. ಟೂಲ್‌ಬಾರ್ ಹೆಚ್ಚು ಸ್ವಚ್ಛವಾಗಿದ್ದು ಸ್ಥಿರವಾಗಿರುತ್ತದೆ.",
+        "**ಲೋಗೋ:** Pixel Mapping, Drawing ಮತ್ತು Grid ನಲ್ಲಿ ಒಂದೇ ರೀತಿ ಕೆಲಸ ಮಾಡುತ್ತದೆ: ಬಾಣಗಳು (Ctrl = ವೇಗವಾಗಿ), ಪೆಟ್ಟಿಗೆಗಳಿಗೆ ಅಯಸ್ಕಾಂತ ಮತ್ತು ತಿರುಗಿಸುವ ಹಿಡಿಕೆ.",
+        "**ವಿನ್ಯಾಸ:** ಎಡ ಕಾಲಮ್ ಎಲ್ಲಾ ಟ್ಯಾಬ್‌ಗಳಲ್ಲಿ ಒಂದೇ ಗಾತ್ರದಲ್ಲಿದೆ ಮತ್ತು ಟ್ಯಾಬ್ ಬದಲಿಸುವಾಗ ಇನ್ನು ಜಿಗಿಯುವುದಿಲ್ಲ."
+      ],
+      "ne": [
+        "**Grid:** ढिलो रडार भएको नयाँ Effects बक्स, Pattern मा ठोस रङ (रातो, हरियो, निलो, सेतो), र तीर कुञ्जीले छानिएको लोगो सार्छ। टुलबार सफा छ र स्थिर रहन्छ।",
+        "**लोगो:** Pixel Mapping, Drawing र Grid मा उस्तै काम गर्छ: तीर (Ctrl = छिटो), बक्समा चुम्बक र घुमाउने ह्यान्डल।",
+        "**लेआउट:** बायाँ स्तम्भ सबै ट्याबमा एउटै आकारको छ र ट्याब बदल्दा अब उफ्रिँदैन।"
+      ],
+      "km": [
+        "**Grid:** ប្រអប់ Effects ថ្មីដែលមានរ៉ាដាវិលយឺត ពណ៌ដិត (ក្រហម បៃតង ខៀវ ស) ក្នុង Pattern ហើយគ្រាប់ចុចព្រួញផ្លាស់ទីឡូហ្គោដែលបានជ្រើស។ របារឧបករណ៍ស្អាតជាងមុន ហើយនៅនឹងថ្កល់។",
+        "**ឡូហ្គោ:** ដំណើរការដូចគ្នានៅក្នុង Pixel Mapping, Drawing និង Grid៖ ព្រួញ (Ctrl = លឿនជាង) ការស្អិតនឹងប្រអប់ និងដងសម្រាប់បង្វិល។",
+        "**ប្លង់:** ជួរឈរខាងឆ្វេងមានទំហំដូចគ្នានៅគ្រប់ផ្ទាំង ហើយលែងលោតនៅពេលប្តូរផ្ទាំង។"
+      ],
+      "kk": [
+        "**Grid:** баяу Радары бар жаңа Effects блогы, Pattern ішінде тұтас түстер (қызыл, жасыл, көк, ақ), ал көрсеткі пернелер таңдалған логотипті жылжытады. Құралдар тақтасы ықшам әрі қозғалмайды.",
+        "**Логотип:** Pixel Mapping, Drawing және Grid ішінде бірдей жұмыс істейді: көрсеткілер (Ctrl = жылдамырақ), блоктарға магнит және бұру тұтқасы.",
+        "**Орналасу:** сол жақ баған барлық қойындыда бірдей өлшемде және қойынды ауыстырғанда енді секірмейді."
+      ],
+      "uz": [
+        "**Grid:** sekin Radarli yangi Effects qutisi, Pattern'da yaxlit ranglar (qizil, yashil, ko‘k, oq), strelka tugmalari esa tanlangan logotipni suradi. Asboblar paneli ixchamroq va joyida turadi.",
+        "**Logotip:** Pixel Mapping, Drawing va Grid'da bir xil ishlaydi: strelkalar (Ctrl = tezroq), qutilarga magnit va aylantirish dastagi.",
+        "**Joylashuv:** chap ustun barcha yorliqlarda bir xil o‘lchamda va yorliq almashtirilganda endi sakramaydi."
+      ],
+      "am": [
+        "**Grid:** ቀስ ያለ ራዳር ያለው አዲስ Effects ሳጥን፣ በ Pattern ውስጥ ሙሉ ቀለሞች (ቀይ፣ አረንጓዴ፣ ሰማያዊ፣ ነጭ)፣ የቀስት ቁልፎችም የተመረጠውን ሎጎ ያንቀሳቅሳሉ። የመሣሪያ አሞሌው ይበልጥ ንፁህ ሲሆን በቦታው ይቆያል።",
+        "**ሎጎ:** በ Pixel Mapping፣ Drawing እና Grid በተመሳሳይ ይሰራል፦ ቀስቶች (Ctrl = በፍጥነት)፣ ከሳጥኖች ጋር ማግኔት እና የማዞሪያ እጀታ።",
+        "**አቀማመጥ:** የግራው ዓምድ በሁሉም ትሮች ተመሳሳይ መጠን ያለው ሲሆን ትር ሲቀየር ከእንግዲህ አይዘልም።"
+      ],
+      "sl": [
+        "**Grid:** novo polje Effects s počasnim Radarjem, polne barve (rdeča, zelena, modra, bela) v Pattern, puščice pa premikajo izbrani logotip. Orodna vrstica je preglednejša in miruje.",
+        "**Logotip:** deluje enako v Pixel Mapping, Drawing in Grid: puščice (Ctrl = hitreje), magnet na polja in ročica za vrtenje.",
+        "**Postavitev:** levi stolpec je na vseh zavihkih enake velikosti in ne poskakuje več ob menjavi zavihka."
+      ],
+      "kab": [
+        "**Grid:** tanaka tamaynut n Effects s Radar s ttawil, initen iṣfan (azeggaɣ, azegzaw, anili, amellal) deg Pattern, ineccaben smuttin alugu yettwafernen. Afeggag n yifecka yuɣal zeddig yerna yeqqim deg umkan-is.",
+        "**Alugu:** yetteddu akken kan deg Pixel Mapping, Drawing d Grid: ineccaben (Ctrl = s lemɣawla), amagnaṭis ɣer tnakatin d taṭṭuft n tuzzya.",
+        "**Asuddes:** tagejdit n zelmeḍ ɣur-s yiwen n teɣzi deg yiccer akk, ur tettneggiz ara mi ara tbeddleḍ iccer."
+      ]
+    },
     "2.9.7": {
       "en": [
         "**Pixel Mapping:** the screen logo moves freely over the whole canvas, rotates, snaps to the screens and moves with the arrow keys (Ctrl = faster). The port strip at the bottom is now one continuous strip with a thin scrollbar.",
@@ -546,428 +848,6 @@
       ],
       "kab": [
         "**Pixel Mapping:** tiṭṭfin n teɣmar ttensint s yiman-nsent mi tfukkeḍ abeddel n teɣzi n ugdil. Sserɣ-itent tikkelt nniḍen i ugdil-nniḍen."
-      ]
-    },
-    "2.9.5": {
-      "en": [
-        "**Connection:** Devices with or without fiber (RJ45 / Fiber), from 2 to 20 ports each, one color per Device, a line from each port to its RJ, arrows to go Device by Device and a PNG / PNG Alpha camera.",
-        "**Drawing:** the Custom device gets one RJ45 or Fiber output per Device and the technician makes each connection. A Fiber output only connects to a Device with fiber, as in NovaStar.",
-        "**Presets:** 10 presets from basic to large event, each with its Devices, in Basic / Shows / Large event, with a bigger preview and Save as preset for your own setups.",
-        "**3D Stage:** width, height and depth of the stage in the right-click box, in the unit chosen in Settings.",
-        "**Animation:** new characters with a more natural walk and Upload logo in the Animation box. Ctrl+C / Ctrl+V pastes a screen next to the original and the Grid logo can be rotated."
-      ],
-      "pt": [
-        "**Conexão:** Devices com ou sem fibra (RJ45 / Fiber), de 2 a 20 portas cada, uma cor por Device, uma linha de cada porta até a RJ dela, setas para andar de Device em Device e câmera PNG / PNG Alpha.",
-        "**Desenho:** o Custom device ganha uma saída RJ45 ou Fiber por Device e o técnico faz cada ligação. Uma saída Fiber só liga em Device com fibra, como na NovaStar.",
-        "**Presets:** 10 presets do básico ao evento grande, cada um com os seus Devices, em Basic / Shows / Large event, com prévia maior e Save as preset para as suas montagens.",
-        "**3D Stage:** largura, altura e profundidade do palco na caixa do botão direito, na unidade escolhida em Settings.",
-        "**Animação:** personagens novos com um andar mais natural e Upload logo na caixa da Animation. Ctrl+C / Ctrl+V cola a tela ao lado da original e o logo do Grid pode ser girado."
-      ],
-      "es": [
-        "**Conexión:** Devices con o sin fibra (RJ45 / Fiber), de 2 a 20 puertos cada uno, un color por Device, una línea de cada puerto hasta su RJ, flechas para ir de Device en Device y cámara PNG / PNG Alpha.",
-        "**Dibujo:** el Custom device recibe una salida RJ45 o Fiber por Device y el técnico hace cada conexión. Una salida Fiber solo se conecta a un Device con fibra, como en NovaStar.",
-        "**Presets:** 10 presets de lo básico al gran evento, cada uno con sus Devices, en Basic / Shows / Large event, con vista previa más grande y Save as preset para tus propios montajes.",
-        "**3D Stage:** ancho, alto y profundidad del escenario en la caja del botón derecho, en la unidad elegida en Settings.",
-        "**Animación:** personajes nuevos con un andar más natural y Upload logo en la caja de Animation. Ctrl+C / Ctrl+V pega una pantalla junto a la original y el logo del Grid se puede girar."
-      ],
-      "fr": [
-        "**Connexion :** Devices avec ou sans fibre (RJ45 / Fiber), de 2 à 20 ports chacun, une couleur par Device, une ligne de chaque port jusqu’à son RJ, des flèches pour passer de Device en Device et un appareil photo PNG / PNG Alpha.",
-        "**Dessin :** le Custom device reçoit une sortie RJ45 ou Fiber par Device et le technicien fait chaque branchement. Une sortie Fiber ne se branche que sur un Device avec fibre, comme chez NovaStar.",
-        "**Presets :** 10 presets du plus simple au grand événement, chacun avec ses Devices, en Basic / Shows / Large event, avec un aperçu plus grand et Save as preset pour vos propres montages.",
-        "**3D Stage :** largeur, hauteur et profondeur de la scène dans la boîte du clic droit, dans l’unité choisie dans Settings.",
-        "**Animation :** nouveaux personnages avec une marche plus naturelle et Upload logo dans la boîte Animation. Ctrl+C / Ctrl+V colle un écran à côté de l’original et le logo du Grid peut pivoter."
-      ],
-      "de": [
-        "**Verbindung:** Devices mit oder ohne Glasfaser (RJ45 / Fiber), je 2 bis 20 Ports, eine Farbe pro Device, eine Linie von jedem Port zu seinem RJ, Pfeile von Device zu Device und eine Kamera PNG / PNG Alpha.",
-        "**Zeichnung:** Das Custom device erhält einen RJ45- oder Fiber-Ausgang pro Device, und der Techniker stellt jede Verbindung her. Ein Fiber-Ausgang verbindet sich nur mit einem Device mit Glasfaser, wie bei NovaStar.",
-        "**Presets:** 10 Presets von einfach bis Großveranstaltung, jeweils mit ihren Devices, in Basic / Shows / Large event, mit größerer Vorschau und Save as preset für eigene Aufbauten.",
-        "**3D Stage:** Breite, Höhe und Tiefe der Bühne im Rechtsklick-Fenster, in der in Settings gewählten Einheit.",
-        "**Animation:** neue Figuren mit natürlicherem Gang und Upload logo im Animation-Fenster. Strg+C / Strg+V fügt einen Screen neben dem Original ein, und das Grid-Logo lässt sich drehen."
-      ],
-      "it": [
-        "**Connessione:** Device con o senza fibra (RJ45 / Fiber), da 2 a 20 porte ciascuno, un colore per Device, una linea da ogni porta al suo RJ, frecce per passare da un Device all’altro e fotocamera PNG / PNG Alpha.",
-        "**Disegno:** il Custom device riceve un’uscita RJ45 o Fiber per Device e il tecnico fa ogni collegamento. Un’uscita Fiber si collega solo a un Device con fibra, come in NovaStar.",
-        "**Preset:** 10 preset dal più semplice al grande evento, ognuno con i suoi Device, in Basic / Shows / Large event, con anteprima più grande e Save as preset per i tuoi allestimenti.",
-        "**3D Stage:** larghezza, altezza e profondità del palco nel riquadro del tasto destro, nell’unità scelta in Settings.",
-        "**Animazione:** nuovi personaggi con una camminata più naturale e Upload logo nel riquadro Animation. Ctrl+C / Ctrl+V incolla uno schermo accanto all’originale e il logo del Grid si può ruotare."
-      ],
-      "nl": [
-        "**Verbinding:** Devices met of zonder glasvezel (RJ45 / Fiber), elk 2 tot 20 poorten, één kleur per Device, een lijn van elke poort naar zijn RJ, pijlen om van Device naar Device te gaan en een camera PNG / PNG Alpha.",
-        "**Tekening:** het Custom device krijgt één RJ45- of Fiber-uitgang per Device en de technicus maakt elke verbinding. Een Fiber-uitgang verbindt alleen met een Device met glasvezel, zoals bij NovaStar.",
-        "**Presets:** 10 presets van eenvoudig tot groot evenement, elk met zijn Devices, in Basic / Shows / Large event, met een grotere voorvertoning en Save as preset voor je eigen opstellingen.",
-        "**3D Stage:** breedte, hoogte en diepte van het podium in het rechtsklikvenster, in de eenheid gekozen in Settings.",
-        "**Animatie:** nieuwe figuren met een natuurlijkere loop en Upload logo in het Animation-venster. Ctrl+C / Ctrl+V plakt een scherm naast het origineel en het Grid-logo kan draaien."
-      ],
-      "ru": [
-        "**Подключение:** Devices с оптикой или без (RJ45 / Fiber), от 2 до 20 портов в каждом, свой цвет для каждого Device, линия от каждого порта к его RJ, стрелки для перехода от Device к Device и камера PNG / PNG Alpha.",
-        "**Схема:** у Custom device по одному выходу RJ45 или Fiber на каждый Device, и техник сам делает каждое подключение. Выход Fiber подключается только к Device с оптикой, как у NovaStar.",
-        "**Пресеты:** 10 пресетов от простого до крупного мероприятия, каждый со своими Devices, в разделах Basic / Shows / Large event, с крупным предпросмотром и Save as preset для своих схем.",
-        "**3D Stage:** ширина, высота и глубина сцены в окне правой кнопки мыши, в единицах, выбранных в Settings.",
-        "**Анимация:** новые персонажи с более естественной походкой и Upload logo в окне Animation. Ctrl+C / Ctrl+V вставляет экран рядом с оригиналом, а логотип в Grid можно поворачивать."
-      ],
-      "tr": [
-        "**Bağlantı:** fiberli veya fibersiz Device’lar (RJ45 / Fiber), her biri 2 ile 20 port, her Device için bir renk, her porttan kendi RJ’sine bir çizgi, Device’lar arasında gezinmek için oklar ve PNG / PNG Alpha kamera.",
-        "**Çizim:** Custom device her Device için bir RJ45 veya Fiber çıkışı alır ve her bağlantıyı teknisyen yapar. Fiber çıkışı yalnızca fiberli bir Device’a bağlanır, NovaStar’daki gibi.",
-        "**Presetler:** temelden büyük etkinliğe 10 preset, her biri kendi Device’larıyla, Basic / Shows / Large event içinde, daha büyük önizleme ve kendi kurulumlarınız için Save as preset.",
-        "**3D Stage:** sahnenin genişliği, yüksekliği ve derinliği sağ tık kutusunda, Settings’te seçilen birimde.",
-        "**Animasyon:** daha doğal yürüyen yeni karakterler ve Animation kutusunda Upload logo. Ctrl+C / Ctrl+V bir ekranı orijinalin yanına yapıştırır ve Grid logosu döndürülebilir."
-      ],
-      "id": [
-        "**Koneksi:** Device dengan atau tanpa fiber (RJ45 / Fiber), masing-masing 2 sampai 20 port, satu warna per Device, garis dari tiap port ke RJ-nya, panah untuk berpindah Device demi Device, dan kamera PNG / PNG Alpha.",
-        "**Gambar:** Custom device mendapat satu output RJ45 atau Fiber per Device dan teknisi membuat setiap sambungan. Output Fiber hanya tersambung ke Device yang memakai fiber, seperti pada NovaStar.",
-        "**Preset:** 10 preset dari dasar hingga acara besar, masing-masing dengan Device-nya, dalam Basic / Shows / Large event, dengan pratinjau lebih besar dan Save as preset untuk susunan Anda sendiri.",
-        "**3D Stage:** lebar, tinggi, dan kedalaman panggung di kotak klik kanan, dalam satuan yang dipilih di Settings.",
-        "**Animasi:** karakter baru dengan langkah yang lebih alami dan Upload logo di kotak Animation. Ctrl+C / Ctrl+V menempel layar di samping aslinya dan logo Grid bisa diputar."
-      ],
-      "hu": [
-        "**Csatlakozás:** Device-ok optikával vagy anélkül (RJ45 / Fiber), egyenként 2–20 porttal, Device-onként egy szín, vonal minden porttól a saját RJ-jéig, nyilak a Device-ok közti lépéshez és PNG / PNG Alpha kamera.",
-        "**Rajz:** a Custom device Device-onként egy RJ45 vagy Fiber kimenetet kap, és minden bekötést a technikus végez. A Fiber kimenet csak optikás Device-hoz köthető, mint a NovaStarnál.",
-        "**Presetek:** 10 preset az alaptól a nagy rendezvényig, mindegyik a saját Device-aival, Basic / Shows / Large event csoportokban, nagyobb előnézettel és Save as preset funkcióval a saját összeállításokhoz.",
-        "**3D Stage:** a színpad szélessége, magassága és mélysége a jobb gombos ablakban, a Settingsben választott mértékegységben.",
-        "**Animáció:** új szereplők természetesebb járással és Upload logo az Animation ablakban. A Ctrl+C / Ctrl+V az eredeti mellé illeszti a képernyőt, a Grid logója pedig elforgatható."
-      ],
-      "zh-Hans": [
-        "**连接：** 带光纤或不带光纤的 Device（RJ45 / Fiber），每个 2 到 20 个端口，每个 Device 一种颜色，每个端口有一条线连到它的 RJ，用箭头逐个切换 Device，并有 PNG / PNG Alpha 相机。",
-        "**绘图：** Custom device 为每个 Device 提供一个 RJ45 或 Fiber 输出，每条连接由技术人员自己完成。Fiber 输出只能连接带光纤的 Device，与 NovaStar 相同。",
-        "**预设：** 从基础到大型活动的 10 个预设，每个都带有自己的 Device，分为 Basic / Shows / Large event，提供更大的预览，并可用 Save as preset 保存自己的方案。",
-        "**3D Stage：** 在右键框中设置舞台的宽度、高度和深度，单位与 Settings 中所选一致。",
-        "**动画：** 新角色，走路更自然，Animation 框中新增 Upload logo。Ctrl+C / Ctrl+V 会把屏幕粘贴在原屏幕旁边，Grid 的徽标可以旋转。"
-      ],
-      "zh-Hant": [
-        "**連接：** 有光纖或無光纖的 Device（RJ45 / Fiber），每個 2 到 20 個連接埠，每個 Device 一種顏色，每個連接埠有一條線連到它的 RJ，用箭頭逐一切換 Device，並有 PNG / PNG Alpha 相機。",
-        "**繪圖：** Custom device 為每個 Device 提供一個 RJ45 或 Fiber 輸出，每條連接由技術人員自行完成。Fiber 輸出只能連接有光纖的 Device，與 NovaStar 相同。",
-        "**預設：** 從基礎到大型活動的 10 個預設，每個都帶有自己的 Device，分為 Basic / Shows / Large event，提供更大的預覽，並可用 Save as preset 儲存自己的配置。",
-        "**3D Stage：** 在右鍵框中設定舞台的寬度、高度與深度，單位與 Settings 中所選一致。",
-        "**動畫：** 新角色，走路更自然，Animation 框中新增 Upload logo。Ctrl+C / Ctrl+V 會把螢幕貼在原螢幕旁邊，Grid 的標誌可以旋轉。"
-      ],
-      "ja": [
-        "**接続：** 光ファイバーあり／なしの Device（RJ45 / Fiber）、各 2〜20 ポート、Device ごとに 1 色、各ポートから対応する RJ への線、Device を順に移動する矢印、PNG / PNG Alpha カメラ。",
-        "**図面：** Custom device に Device ごとに RJ45 または Fiber の出力が 1 つ付き、各接続は技術者が行います。Fiber 出力はファイバー付きの Device にのみ接続できます（NovaStar と同じ）。",
-        "**プリセット：** 基本から大規模イベントまで 10 種類、それぞれに Device 付き。Basic / Shows / Large event に分類され、大きなプレビューと自分の構成を保存する Save as preset を追加。",
-        "**3D Stage：** 右クリックのボックスでステージの幅・高さ・奥行きを、Settings で選んだ単位で設定できます。",
-        "**アニメーション：** より自然に歩く新しいキャラクターと、Animation ボックスの Upload logo。Ctrl+C / Ctrl+V で画面を元の隣に貼り付け、Grid のロゴは回転できます。"
-      ],
-      "ko": [
-        "**연결:** 광섬유 유무에 따른 Device(RJ45 / Fiber), 각각 2~20개 포트, Device마다 한 가지 색, 각 포트에서 해당 RJ까지의 선, Device를 차례로 이동하는 화살표, PNG / PNG Alpha 카메라.",
-        "**도면:** Custom device에 Device마다 RJ45 또는 Fiber 출력이 하나씩 생기고 각 연결은 기술자가 직접 합니다. Fiber 출력은 광섬유가 있는 Device에만 연결됩니다(NovaStar와 동일).",
-        "**프리셋:** 기본부터 대형 이벤트까지 10개 프리셋, 각자 Device 포함, Basic / Shows / Large event로 구분, 더 큰 미리보기와 나만의 구성을 위한 Save as preset.",
-        "**3D Stage:** 오른쪽 클릭 상자에서 무대의 너비, 높이, 깊이를 Settings에서 고른 단위로 설정합니다.",
-        "**애니메이션:** 더 자연스럽게 걷는 새 캐릭터와 Animation 상자의 Upload logo. Ctrl+C / Ctrl+V는 화면을 원본 옆에 붙여 넣고, Grid 로고는 회전할 수 있습니다."
-      ],
-      "ar": [
-        "**الاتصال:** أجهزة Device بألياف أو بدونها (RJ45 / Fiber)، من 2 إلى 20 منفذًا لكل منها، لون لكل Device، وخط من كل منفذ إلى RJ الخاص به، وأسهم للتنقل بين الأجهزة، وكاميرا PNG / PNG Alpha.",
-        "**الرسم:** يحصل Custom device على مخرج RJ45 أو Fiber لكل Device، ويقوم الفني بكل توصيلة. مخرج Fiber يتصل فقط بجهاز Device يحتوي على ألياف، كما في NovaStar.",
-        "**الإعدادات المسبقة:** 10 إعدادات من الأساسي إلى الحدث الكبير، لكل منها أجهزتها، ضمن Basic / Shows / Large event، مع معاينة أكبر وSave as preset لتجهيزاتك الخاصة.",
-        "**3D Stage:** عرض المسرح وارتفاعه وعمقه في مربع النقر الأيمن، بالوحدة المختارة في Settings.",
-        "**الحركة:** شخصيات جديدة بمشية أكثر طبيعية وزر Upload logo في مربع Animation. ‏Ctrl+C / Ctrl+V يلصق الشاشة بجوار الأصلية، ويمكن تدوير شعار Grid."
-      ],
-      "th": [
-        "**การเชื่อมต่อ:** Device แบบมีหรือไม่มีไฟเบอร์ (RJ45 / Fiber) แต่ละตัว 2 ถึง 20 พอร์ต หนึ่งสีต่อ Device เส้นจากแต่ละพอร์ตไปยัง RJ ของมัน ลูกศรสำหรับเลื่อนทีละ Device และกล้อง PNG / PNG Alpha",
-        "**แผนภาพ:** Custom device ได้เอาต์พุต RJ45 หรือ Fiber หนึ่งช่องต่อ Device และช่างเป็นผู้เชื่อมต่อแต่ละเส้นเอง เอาต์พุต Fiber ต่อได้เฉพาะ Device ที่มีไฟเบอร์ เหมือนใน NovaStar",
-        "**พรีเซ็ต:** 10 พรีเซ็ตตั้งแต่พื้นฐานถึงงานใหญ่ แต่ละอันมี Device ของตัวเอง แบ่งเป็น Basic / Shows / Large event พร้อมตัวอย่างที่ใหญ่ขึ้นและ Save as preset สำหรับชุดของคุณเอง",
-        "**3D Stage:** ความกว้าง ความสูง และความลึกของเวทีในกล่องคลิกขวา ในหน่วยที่เลือกใน Settings",
-        "**แอนิเมชัน:** ตัวละครใหม่ที่เดินเป็นธรรมชาติขึ้น และ Upload logo ในกล่อง Animation โดย Ctrl+C / Ctrl+V จะวางหน้าจอไว้ข้างต้นฉบับ และหมุนโลโก้ของ Grid ได้"
-      ],
-      "hi": [
-        "**कनेक्शन:** फ़ाइबर वाले या बिना फ़ाइबर वाले Device (RJ45 / Fiber), हर एक में 2 से 20 पोर्ट, हर Device का एक रंग, हर पोर्ट से उसके RJ तक एक लाइन, एक-एक Device पर जाने के लिए तीर और PNG / PNG Alpha कैमरा।",
-        "**ड्रॉइंग:** Custom device को हर Device के लिए एक RJ45 या Fiber आउटपुट मिलता है और हर कनेक्शन तकनीशियन खुद बनाता है। Fiber आउटपुट केवल फ़ाइबर वाले Device से जुड़ता है, NovaStar की तरह।",
-        "**प्रीसेट:** बुनियादी से बड़े आयोजन तक 10 प्रीसेट, हर एक अपने Device के साथ, Basic / Shows / Large event में, बड़ा प्रीव्यू और अपने सेटअप के लिए Save as preset।",
-        "**3D Stage:** राइट-क्लिक बॉक्स में स्टेज की चौड़ाई, ऊँचाई और गहराई, Settings में चुनी गई इकाई में।",
-        "**एनीमेशन:** ज़्यादा स्वाभाविक चाल वाले नए किरदार और Animation बॉक्स में Upload logo। Ctrl+C / Ctrl+V स्क्रीन को मूल के बगल में पेस्ट करता है और Grid का लोगो घुमाया जा सकता है।"
-      ],
-      "vi": [
-        "**Kết nối:** Device có hoặc không có cáp quang (RJ45 / Fiber), mỗi cái 2 đến 20 cổng, mỗi Device một màu, một đường từ mỗi cổng đến RJ của nó, mũi tên để đi từng Device và camera PNG / PNG Alpha.",
-        "**Bản vẽ:** Custom device có một ngõ ra RJ45 hoặc Fiber cho mỗi Device và kỹ thuật viên tự nối từng đường. Ngõ ra Fiber chỉ nối với Device có cáp quang, như ở NovaStar.",
-        "**Preset:** 10 preset từ cơ bản đến sự kiện lớn, mỗi cái kèm Device của nó, chia thành Basic / Shows / Large event, có xem trước lớn hơn và Save as preset cho cấu hình riêng của bạn.",
-        "**3D Stage:** chiều rộng, chiều cao và chiều sâu sân khấu trong hộp chuột phải, theo đơn vị chọn trong Settings.",
-        "**Hoạt cảnh:** nhân vật mới đi lại tự nhiên hơn và Upload logo trong hộp Animation. Ctrl+C / Ctrl+V dán màn hình cạnh bản gốc và logo của Grid có thể xoay."
-      ],
-      "bn": [
-        "**সংযোগ:** ফাইবারসহ বা ফাইবার ছাড়া Device (RJ45 / Fiber), প্রতিটিতে 2 থেকে 20 পোর্ট, প্রতিটি Device-এর একটি রং, প্রতিটি পোর্ট থেকে তার RJ পর্যন্ত একটি লাইন, এক Device থেকে আরেকটিতে যাওয়ার তীর এবং PNG / PNG Alpha ক্যামেরা।",
-        "**ড্রয়িং:** Custom device প্রতিটি Device-এর জন্য একটি RJ45 বা Fiber আউটপুট পায় এবং প্রতিটি সংযোগ টেকনিশিয়ান নিজে করেন। Fiber আউটপুট শুধু ফাইবারসহ Device-এ যুক্ত হয়, NovaStar-এর মতো।",
-        "**প্রিসেট:** মৌলিক থেকে বড় অনুষ্ঠান পর্যন্ত 10টি প্রিসেট, প্রতিটি নিজের Device সহ, Basic / Shows / Large event-এ, বড় প্রিভিউ এবং নিজের সেটআপের জন্য Save as preset।",
-        "**3D Stage:** রাইট-ক্লিক বক্সে মঞ্চের প্রস্থ, উচ্চতা ও গভীরতা, Settings-এ বেছে নেওয়া এককে।",
-        "**অ্যানিমেশন:** আরও স্বাভাবিকভাবে হাঁটা নতুন চরিত্র এবং Animation বক্সে Upload logo। Ctrl+C / Ctrl+V স্ক্রিনকে মূলটির পাশে পেস্ট করে এবং Grid-এর লোগো ঘোরানো যায়।"
-      ],
-      "ms": [
-        "**Sambungan:** Device dengan atau tanpa gentian (RJ45 / Fiber), setiap satu 2 hingga 20 port, satu warna bagi setiap Device, garisan dari setiap port ke RJ-nya, anak panah untuk bergerak Device demi Device dan kamera PNG / PNG Alpha.",
-        "**Lukisan:** Custom device mendapat satu output RJ45 atau Fiber bagi setiap Device dan juruteknik membuat setiap sambungan. Output Fiber hanya bersambung ke Device yang mempunyai gentian, seperti pada NovaStar.",
-        "**Pratetap:** 10 pratetap daripada asas hingga acara besar, setiap satu dengan Device sendiri, dalam Basic / Shows / Large event, dengan pratonton lebih besar dan Save as preset untuk susunan anda sendiri.",
-        "**3D Stage:** lebar, tinggi dan dalam pentas dalam kotak klik kanan, dalam unit yang dipilih dalam Settings.",
-        "**Animasi:** watak baharu dengan cara berjalan yang lebih semula jadi dan Upload logo dalam kotak Animation. Ctrl+C / Ctrl+V menampal skrin di sebelah yang asal dan logo Grid boleh diputar."
-      ],
-      "sv": [
-        "**Anslutning:** Devices med eller utan fiber (RJ45 / Fiber), 2 till 20 portar var, en färg per Device, en linje från varje port till dess RJ, pilar för att gå Device för Device och en kamera PNG / PNG Alpha.",
-        "**Ritning:** Custom device får en RJ45- eller Fiber-utgång per Device och teknikern gör varje koppling. En Fiber-utgång kopplas bara till en Device med fiber, som hos NovaStar.",
-        "**Förinställningar:** 10 förinställningar från grundläggande till stort evenemang, var och en med sina Devices, i Basic / Shows / Large event, med större förhandsvisning och Save as preset för dina egna uppställningar.",
-        "**3D Stage:** scenens bredd, höjd och djup i högerklicksrutan, i enheten som valts i Settings.",
-        "**Animation:** nya figurer med naturligare gång och Upload logo i Animation-rutan. Ctrl+C / Ctrl+V klistrar in en skärm bredvid originalet och Grid-logotypen kan roteras."
-      ],
-      "ur": [
-        "**کنکشن:** فائبر کے ساتھ یا بغیر Device (RJ45 / Fiber)، ہر ایک میں 2 سے 20 پورٹس، ہر Device کا ایک رنگ، ہر پورٹ سے اس کے RJ تک ایک لکیر، ایک ایک Device پر جانے کے لیے تیر اور PNG / PNG Alpha کیمرہ۔",
-        "**ڈرائنگ:** Custom device کو ہر Device کے لیے ایک RJ45 یا Fiber آؤٹ پٹ ملتا ہے اور ہر کنکشن ٹیکنیشن خود بناتا ہے۔ Fiber آؤٹ پٹ صرف فائبر والے Device سے جڑتا ہے، NovaStar کی طرح۔",
-        "**پری سیٹس:** بنیادی سے بڑے ایونٹ تک 10 پری سیٹس، ہر ایک اپنے Device کے ساتھ، Basic / Shows / Large event میں، بڑا پیش منظر اور اپنے سیٹ اپ کے لیے Save as preset۔",
-        "**3D Stage:** رائٹ کلک باکس میں اسٹیج کی چوڑائی، اونچائی اور گہرائی، Settings میں منتخب اکائی میں۔",
-        "**اینیمیشن:** زیادہ قدرتی چال والے نئے کردار اور Animation باکس میں Upload logo۔ Ctrl+C / Ctrl+V اسکرین کو اصل کے ساتھ چسپاں کرتا ہے اور Grid کا لوگو گھمایا جا سکتا ہے۔"
-      ],
-      "sw": [
-        "**Muunganisho:** Devices zenye au zisizo na fiber (RJ45 / Fiber), kila moja na milango 2 hadi 20, rangi moja kwa kila Device, mstari kutoka kila mlango hadi RJ yake, mishale ya kwenda Device moja hadi nyingine na kamera ya PNG / PNG Alpha.",
-        "**Mchoro:** Custom device inapata toleo moja la RJ45 au Fiber kwa kila Device na fundi hufanya kila muunganisho. Toleo la Fiber huunganishwa tu na Device yenye fiber, kama kwa NovaStar.",
-        "**Mipangilio:** mipangilio 10 kutoka ya msingi hadi tukio kubwa, kila mmoja na Devices zake, katika Basic / Shows / Large event, na hakikisho kubwa zaidi na Save as preset kwa mipangilio yako mwenyewe.",
-        "**3D Stage:** upana, urefu na kina cha jukwaa katika kisanduku cha kubofya kulia, kwa kipimo kilichochaguliwa kwenye Settings.",
-        "**Uhuishaji:** wahusika wapya wanaotembea kwa asili zaidi na Upload logo kwenye kisanduku cha Animation. Ctrl+C / Ctrl+V hubandika skrini kando ya ile ya asili na nembo ya Grid inaweza kuzungushwa."
-      ],
-      "gn": [
-        "**Joaju:** Device fibra reheve térã fibra’ỹre (RJ45 / Fiber), peteĩteĩ 2 guive 20 puerto peve, peteĩ sa’y peteĩteĩ Device-pe, peteĩ línea peteĩteĩ puerto guive ijehegua RJ peve, flecha ojeho haĝua Device ha Device rupi ha kámara PNG / PNG Alpha.",
-        "**Ta’ãnga’a:** Custom device oguereko peteĩ salida RJ45 térã Fiber peteĩteĩ Device-pe ha técnico ombojoaju peteĩteĩ. Salida Fiber ojoaju Device fibra reheve añónte, NovaStar-pe guáicha.",
-        "**Preset:** 10 preset ñepyrũ guive mbyaty guasu peve, peteĩteĩ hendive Device, Basic / Shows / Large event-pe, jehechauka tuichavéva ha Save as preset nde rembiapo ñongatu haĝua.",
-        "**3D Stage:** escenario pe ipe, ijyvate ha ipypuku ventana click akatúape, Settings-pe reiporavóva medida-pe.",
-        "**Animación:** tapicha pyahu oguatáva hekoitépe ha Upload logo Animation ventana-pe. Ctrl+C / Ctrl+V omoĩ pantalla ijypýpe ha Grid logo ikatu ojere."
-      ],
-      "he": [
-        "**חיבור:** התקני Device עם סיב או בלי (RJ45 / Fiber), 2 עד 20 יציאות לכל אחד, צבע אחד לכל Device, קו מכל יציאה אל ה-RJ שלה, חצים למעבר מ-Device ל-Device ומצלמת PNG / PNG Alpha.",
-        "**שרטוט:** ה-Custom device מקבל יציאת RJ45 או Fiber אחת לכל Device, והטכנאי מבצע כל חיבור. יציאת Fiber מתחברת רק ל-Device עם סיב, כמו ב-NovaStar.",
-        "**הגדרות מוכנות:** 10 הגדרות מוכנות מהבסיסי ועד אירוע גדול, כל אחת עם ה-Devices שלה, בקבוצות Basic / Shows / Large event, עם תצוגה מקדימה גדולה יותר ו-Save as preset להרכבים שלך.",
-        "**3D Stage:** רוחב, גובה ועומק הבמה בתיבת הלחיצה הימנית, ביחידה שנבחרה ב-Settings.",
-        "**אנימציה:** דמויות חדשות עם הליכה טבעית יותר ו-Upload logo בתיבת Animation. ‏Ctrl+C / Ctrl+V מדביק מסך ליד המקורי, ואת הלוגו של Grid אפשר לסובב."
-      ],
-      "lv": [
-        "**Savienojums:** Device ar optisko šķiedru vai bez tās (RJ45 / Fiber), katrā 2 līdz 20 porti, viena krāsa katram Device, līnija no katra porta līdz tā RJ, bultas pārvietošanai no Device uz Device un kamera PNG / PNG Alpha.",
-        "**Rasējums:** Custom device saņem vienu RJ45 vai Fiber izeju katram Device, un katru savienojumu veido tehniķis. Fiber izeja savienojas tikai ar Device, kam ir šķiedra, kā NovaStar.",
-        "**Sagataves:** 10 sagataves no vienkāršas līdz lielam pasākumam, katra ar saviem Device, grupās Basic / Shows / Large event, ar lielāku priekšskatījumu un Save as preset jūsu pašu salikumiem.",
-        "**3D Stage:** skatuves platums, augstums un dziļums labā klikšķa logā, Settings izvēlētajā mērvienībā.",
-        "**Animācija:** jauni tēli ar dabiskāku gaitu un Upload logo Animation logā. Ctrl+C / Ctrl+V ielīmē ekrānu blakus oriģinālam, un Grid logotipu var pagriezt."
-      ],
-      "fa": [
-        "**اتصال:** Deviceهای با فیبر یا بدون فیبر (RJ45 / Fiber)، هر کدام ۲ تا ۲۰ پورت، یک رنگ برای هر Device، یک خط از هر پورت تا RJ آن، فلش برای رفتن از Device به Device و دوربین PNG / PNG Alpha.",
-        "**نقشه:** Custom device برای هر Device یک خروجی RJ45 یا Fiber می‌گیرد و هر اتصال را تکنسین انجام می‌دهد. خروجی Fiber فقط به Device فیبردار وصل می‌شود، مانند NovaStar.",
-        "**پیش‌تنظیم‌ها:** ۱۰ پیش‌تنظیم از ساده تا رویداد بزرگ، هر کدام با Deviceهای خود، در Basic / Shows / Large event، با پیش‌نمایش بزرگ‌تر و Save as preset برای چیدمان‌های خودتان.",
-        "**3D Stage:** عرض، ارتفاع و عمق صحنه در کادر کلیک راست، با واحدی که در Settings انتخاب شده است.",
-        "**انیمیشن:** شخصیت‌های جدید با راه رفتن طبیعی‌تر و Upload logo در کادر Animation. ‏Ctrl+C / Ctrl+V صفحه را کنار نسخه اصلی می‌چسباند و لوگوی Grid قابل چرخش است."
-      ],
-      "pl": [
-        "**Połączenie:** Device z włóknem lub bez (RJ45 / Fiber), każdy od 2 do 20 portów, jeden kolor na Device, linia od każdego portu do jego RJ, strzałki do przechodzenia między Device i aparat PNG / PNG Alpha.",
-        "**Rysunek:** Custom device dostaje jedno wyjście RJ45 lub Fiber na każdy Device, a każde połączenie wykonuje technik. Wyjście Fiber łączy się tylko z Device z włóknem, jak w NovaStar.",
-        "**Presety:** 10 presetów od podstawowego do dużego wydarzenia, każdy z własnymi Device, w grupach Basic / Shows / Large event, z większym podglądem i Save as preset dla własnych konfiguracji.",
-        "**3D Stage:** szerokość, wysokość i głębokość sceny w okienku prawego przycisku, w jednostce wybranej w Settings.",
-        "**Animacja:** nowe postacie z bardziej naturalnym chodem i Upload logo w okienku Animation. Ctrl+C / Ctrl+V wkleja ekran obok oryginału, a logo w Grid można obracać."
-      ],
-      "uk": [
-        "**Підключення:** Device з оптикою або без (RJ45 / Fiber), від 2 до 20 портів у кожному, свій колір для кожного Device, лінія від кожного порту до його RJ, стрілки для переходу від Device до Device і камера PNG / PNG Alpha.",
-        "**Схема:** Custom device отримує по одному виходу RJ45 або Fiber на кожен Device, а кожне підключення робить технік. Вихід Fiber підключається лише до Device з оптикою, як у NovaStar.",
-        "**Пресети:** 10 пресетів від простого до великого заходу, кожен зі своїми Device, у розділах Basic / Shows / Large event, з більшим попереднім переглядом і Save as preset для власних схем.",
-        "**3D Stage:** ширина, висота та глибина сцени у вікні правої кнопки миші, в одиницях, вибраних у Settings.",
-        "**Анімація:** нові персонажі з природнішою ходою та Upload logo у вікні Animation. Ctrl+C / Ctrl+V вставляє екран поруч з оригіналом, а логотип у Grid можна обертати."
-      ],
-      "ca": [
-        "**Connexió:** Devices amb fibra o sense (RJ45 / Fiber), de 2 a 20 ports cadascun, un color per Device, una línia de cada port fins al seu RJ, fletxes per anar de Device en Device i càmera PNG / PNG Alpha.",
-        "**Dibuix:** el Custom device rep una sortida RJ45 o Fiber per Device i el tècnic fa cada connexió. Una sortida Fiber només es connecta a un Device amb fibra, com a NovaStar.",
-        "**Predefinits:** 10 predefinits del bàsic al gran esdeveniment, cadascun amb els seus Devices, a Basic / Shows / Large event, amb una previsualització més gran i Save as preset per als teus muntatges.",
-        "**3D Stage:** amplada, alçada i profunditat de l’escenari a la caixa del clic dret, en la unitat triada a Settings.",
-        "**Animació:** personatges nous amb un caminar més natural i Upload logo a la caixa d’Animation. Ctrl+C / Ctrl+V enganxa una pantalla al costat de l’original i el logotip del Grid es pot girar."
-      ],
-      "cs": [
-        "**Připojení:** Device s optikou nebo bez ní (RJ45 / Fiber), každý se 2 až 20 porty, jedna barva na Device, čára od každého portu k jeho RJ, šipky pro přechod mezi Device a fotoaparát PNG / PNG Alpha.",
-        "**Výkres:** Custom device dostane jeden výstup RJ45 nebo Fiber na každý Device a každé zapojení provede technik. Výstup Fiber se připojí jen k Device s optikou, jako u NovaStar.",
-        "**Předvolby:** 10 předvoleb od základní po velkou akci, každá se svými Device, ve skupinách Basic / Shows / Large event, s větším náhledem a Save as preset pro vlastní sestavy.",
-        "**3D Stage:** šířka, výška a hloubka pódia v okně pravého tlačítka, v jednotce zvolené v Settings.",
-        "**Animace:** nové postavy s přirozenější chůzí a Upload logo v okně Animation. Ctrl+C / Ctrl+V vloží obrazovku vedle originálu a logo v Grid lze otáčet."
-      ],
-      "fi": [
-        "**Liitäntä:** Devicet kuidulla tai ilman (RJ45 / Fiber), kussakin 2–20 porttia, yksi väri Devicea kohden, viiva jokaisesta portista sen RJ:hen, nuolet Devicesta toiseen siirtymiseen ja PNG / PNG Alpha -kamera.",
-        "**Piirros:** Custom device saa yhden RJ45- tai Fiber-lähdön Devicea kohden, ja teknikko tekee jokaisen kytkennän. Fiber-lähtö kytkeytyy vain Deviceen, jossa on kuitu, kuten NovaStarissa.",
-        "**Esiasetukset:** 10 esiasetusta perustasosta suureen tapahtumaan, kukin omine Deviceineen, ryhmissä Basic / Shows / Large event, suuremmalla esikatselulla ja Save as preset -toiminnolla omille kokoonpanoille.",
-        "**3D Stage:** lavan leveys, korkeus ja syvyys oikean napsautuksen ikkunassa, Settingsissä valitussa yksikössä.",
-        "**Animaatio:** uudet hahmot luonnollisemmalla kävelyllä ja Upload logo Animation-ikkunassa. Ctrl+C / Ctrl+V liittää näytön alkuperäisen viereen, ja Gridin logoa voi kiertää."
-      ],
-      "el": [
-        "**Σύνδεση:** Devices με ή χωρίς ίνα (RJ45 / Fiber), από 2 έως 20 θύρες το καθένα, ένα χρώμα ανά Device, μια γραμμή από κάθε θύρα ως το RJ της, βέλη για μετάβαση από Device σε Device και κάμερα PNG / PNG Alpha.",
-        "**Σχέδιο:** το Custom device παίρνει μία έξοδο RJ45 ή Fiber ανά Device και ο τεχνικός κάνει κάθε σύνδεση. Η έξοδος Fiber συνδέεται μόνο σε Device με ίνα, όπως στη NovaStar.",
-        "**Προεπιλογές:** 10 προεπιλογές από βασικό έως μεγάλη εκδήλωση, η καθεμία με τα Devices της, σε Basic / Shows / Large event, με μεγαλύτερη προεπισκόπηση και Save as preset για δικές σας διατάξεις.",
-        "**3D Stage:** πλάτος, ύψος και βάθος της σκηνής στο πλαίσιο δεξιού κλικ, στη μονάδα που επιλέχθηκε στο Settings.",
-        "**Κίνηση:** νέοι χαρακτήρες με πιο φυσικό βάδισμα και Upload logo στο πλαίσιο Animation. Το Ctrl+C / Ctrl+V επικολλά μια οθόνη δίπλα στην αρχική και το λογότυπο του Grid περιστρέφεται."
-      ],
-      "ha": [
-        "**Haɗi:** Device masu fiber ko babu (RJ45 / Fiber), kowanne da tashoshi 2 zuwa 20, launi ɗaya ga kowane Device, layi daga kowace tasha zuwa RJ ɗinta, kibiyoyi don tafiya Device bayan Device da kyamarar PNG / PNG Alpha.",
-        "**Zane:** Custom device yana samun fitarwa ɗaya ta RJ45 ko Fiber ga kowane Device, kuma ma’aikaci ne yake yin kowane haɗi. Fitarwar Fiber tana haɗuwa da Device mai fiber kawai, kamar a NovaStar.",
-        "**Saituna:** saituna 10 daga na asali zuwa babban taro, kowanne da Device ɗinsa, a Basic / Shows / Large event, da babban samfoti da Save as preset don naka tsare-tsare.",
-        "**3D Stage:** faɗi, tsayi da zurfin dandamali a akwatin danna dama, a ma’aunin da aka zaɓa a Settings.",
-        "**Motsi:** sababbin haruffa masu tafiya a dabi’ance da Upload logo a akwatin Animation. Ctrl+C / Ctrl+V yana liƙa allo kusa da na asali kuma ana iya juya tambarin Grid."
-      ],
-      "ro": [
-        "**Conexiune:** Devices cu sau fără fibră (RJ45 / Fiber), cu 2 până la 20 de porturi fiecare, o culoare pentru fiecare Device, o linie de la fiecare port la RJ-ul lui, săgeți pentru a trece de la un Device la altul și cameră PNG / PNG Alpha.",
-        "**Desen:** Custom device primește câte o ieșire RJ45 sau Fiber pentru fiecare Device, iar tehnicianul face fiecare conexiune. O ieșire Fiber se conectează doar la un Device cu fibră, ca la NovaStar.",
-        "**Presetări:** 10 presetări de la simplu la eveniment mare, fiecare cu Device-urile ei, în Basic / Shows / Large event, cu previzualizare mai mare și Save as preset pentru montajele tale.",
-        "**3D Stage:** lățimea, înălțimea și adâncimea scenei în caseta de clic dreapta, în unitatea aleasă în Settings.",
-        "**Animație:** personaje noi cu un mers mai natural și Upload logo în caseta Animation. Ctrl+C / Ctrl+V lipește un ecran lângă original, iar logoul din Grid poate fi rotit."
-      ],
-      "yo": [
-        "**Ìsopọ̀:** àwọn Device tí ó ní fiber tàbí tí kò ní (RJ45 / Fiber), ọ̀kọ̀ọ̀kan ní port 2 sí 20, àwọ̀ kan fún Device kọ̀ọ̀kan, ìlà láti port kọ̀ọ̀kan dé RJ rẹ̀, ọfà láti lọ láti Device sí Device àti kámẹ́rà PNG / PNG Alpha.",
-        "**Àwòrán:** Custom device ń gba ìjáde RJ45 tàbí Fiber kan fún Device kọ̀ọ̀kan, onímọ̀ ẹ̀rọ sì ń ṣe ìsopọ̀ kọ̀ọ̀kan. Ìjáde Fiber ń sopọ̀ mọ́ Device tí ó ní fiber nìkan, bí ti NovaStar.",
-        "**Àwọn ètò:** ètò 10 láti ìpìlẹ̀ dé ìṣẹ̀lẹ̀ ńlá, ọ̀kọ̀ọ̀kan pẹ̀lú àwọn Device rẹ̀, nínú Basic / Shows / Large event, pẹ̀lú àwòkọ́ tí ó tóbi jù àti Save as preset fún ètò tìrẹ.",
-        "**3D Stage:** fífẹ̀, gíga àti jíjìn pèpéle nínú àpótí títẹ̀ ọ̀tún, ní ìwọ̀n tí a yàn nínú Settings.",
-        "**Àwòrán-ìṣípòpadà:** àwọn ẹ̀dá tuntun tí ń rìn bí ẹ̀dá àti Upload logo nínú àpótí Animation. Ctrl+C / Ctrl+V ń lẹ ìbojú sí ẹ̀gbẹ́ ti àkọ́kọ́, a sì lè yí àmì Grid po."
-      ],
-      "zu": [
-        "**Ukuxhuma:** ama-Device ane-fiber noma angenayo (RJ45 / Fiber), ngalinye linamaphothi angu-2 kuya ku-20, umbala owodwa nge-Device ngalinye, umugqa osuka kuphothi ngalinye uye ku-RJ yalo, imicibisholo yokuya ku-Device ngamunye nekhamera ye-PNG / PNG Alpha.",
-        "**Umdwebo:** i-Custom device ithola okuphumayo okukodwa kwe-RJ45 noma i-Fiber nge-Device ngalinye, futhi uchwepheshe wenza ukuxhuma ngakunye. Okuphumayo kwe-Fiber kuxhuma kuphela ku-Device ene-fiber, njengaku-NovaStar.",
-        "**Ama-preset:** ama-preset ayi-10 kusuka kokuyisisekelo kuya emcimbini omkhulu, ngalinye nama-Device alo, ku-Basic / Shows / Large event, nokubuka kuqala okukhulu ne-Save as preset yezinhlelo zakho.",
-        "**3D Stage:** ububanzi, ubude nokujula kwesiteji ebhokisini lokuchofoza ngakwesokudla, ngeyunithi ekhethwe ku-Settings.",
-        "**Ukugqwayiza:** abalingiswa abasha abahamba ngokwemvelo kakhudlwana ne-Upload logo ebhokisini le-Animation. I-Ctrl+C / Ctrl+V inamathisela isikrini eduze kwesokuqala futhi ilogo ye-Grid ingaphendulwa."
-      ],
-      "fil": [
-        "**Koneksyon:** mga Device na may fiber o wala (RJ45 / Fiber), 2 hanggang 20 port bawat isa, isang kulay bawat Device, isang linya mula sa bawat port hanggang sa RJ nito, mga arrow para lumipat sa bawat Device at camera na PNG / PNG Alpha.",
-        "**Drawing:** ang Custom device ay may isang output na RJ45 o Fiber bawat Device at ang technician ang gumagawa ng bawat koneksyon. Ang output na Fiber ay kumokonekta lang sa Device na may fiber, gaya sa NovaStar.",
-        "**Mga preset:** 10 preset mula sa basic hanggang malaking event, bawat isa may sariling mga Device, sa Basic / Shows / Large event, may mas malaking preview at Save as preset para sa sarili mong setup.",
-        "**3D Stage:** lapad, taas at lalim ng entablado sa kahon ng right-click, sa unit na pinili sa Settings.",
-        "**Animation:** mga bagong karakter na mas natural maglakad at Upload logo sa kahon ng Animation. Ang Ctrl+C / Ctrl+V ay nagdidikit ng screen sa tabi ng orihinal at ang logo ng Grid ay maaaring paikutin."
-      ],
-      "ta": [
-        "**இணைப்பு:** ஃபைபர் உள்ள அல்லது இல்லாத Device (RJ45 / Fiber), ஒவ்வொன்றிலும் 2 முதல் 20 போர்ட்கள், ஒவ்வொரு Device-க்கும் ஒரு நிறம், ஒவ்வொரு போர்ட்டிலிருந்தும் அதன் RJ வரை ஒரு கோடு, Device ஒவ்வொன்றாகச் செல்ல அம்புகள் மற்றும் PNG / PNG Alpha கேமரா.",
-        "**வரைபடம்:** Custom device ஒவ்வொரு Device-க்கும் ஒரு RJ45 அல்லது Fiber வெளியீட்டைப் பெறுகிறது, ஒவ்வொரு இணைப்பையும் தொழில்நுட்பர் செய்கிறார். Fiber வெளியீடு ஃபைபர் உள்ள Device-உடன் மட்டுமே இணையும், NovaStar போல.",
-        "**முன்னமைவுகள்:** அடிப்படை முதல் பெரிய நிகழ்வு வரை 10 முன்னமைவுகள், ஒவ்வொன்றும் அதன் Device-களுடன், Basic / Shows / Large event-இல், பெரிய முன்னோட்டம் மற்றும் உங்கள் அமைப்புகளுக்கு Save as preset.",
-        "**3D Stage:** வலது கிளிக் பெட்டியில் மேடையின் அகலம், உயரம், ஆழம், Settings-இல் தேர்ந்தெடுத்த அலகில்.",
-        "**அனிமேஷன்:** இயல்பாக நடக்கும் புதிய பாத்திரங்கள் மற்றும் Animation பெட்டியில் Upload logo. Ctrl+C / Ctrl+V திரையை அசலின் அருகில் ஒட்டுகிறது, Grid லோகோவைச் சுழற்றலாம்."
-      ],
-      "te": [
-        "**కనెక్షన్:** ఫైబర్ ఉన్న లేదా లేని Device (RJ45 / Fiber), ఒక్కొక్కదానికి 2 నుండి 20 పోర్ట్‌లు, ప్రతి Device‌కు ఒక రంగు, ప్రతి పోర్ట్ నుండి దాని RJ వరకు ఒక గీత, Device నుండి Device‌కు వెళ్లే బాణాలు మరియు PNG / PNG Alpha కెమెరా.",
-        "**డ్రాయింగ్:** Custom device ప్రతి Device‌కు ఒక RJ45 లేదా Fiber అవుట్‌పుట్ పొందుతుంది, ప్రతి కనెక్షన్‌ను టెక్నీషియన్ చేస్తారు. Fiber అవుట్‌పుట్ ఫైబర్ ఉన్న Device‌కు మాత్రమే కలుస్తుంది, NovaStar లాగా.",
-        "**ప్రీసెట్‌లు:** ప్రాథమిక నుండి పెద్ద ఈవెంట్ వరకు 10 ప్రీసెట్‌లు, ఒక్కొక్కటి దాని Device‌లతో, Basic / Shows / Large event‌లో, పెద్ద ప్రివ్యూ మరియు మీ స్వంత సెటప్‌ల కోసం Save as preset.",
-        "**3D Stage:** కుడి క్లిక్ బాక్స్‌లో వేదిక వెడల్పు, ఎత్తు మరియు లోతు, Settings‌లో ఎంచుకున్న యూనిట్‌లో.",
-        "**యానిమేషన్:** మరింత సహజంగా నడిచే కొత్త పాత్రలు మరియు Animation బాక్స్‌లో Upload logo. Ctrl+C / Ctrl+V స్క్రీన్‌ను అసలుదాని పక్కన అతికిస్తుంది, Grid లోగోను తిప్పవచ్చు."
-      ],
-      "mr": [
-        "**कनेक्शन:** फायबरसह किंवा फायबरशिवाय Device (RJ45 / Fiber), प्रत्येकात 2 ते 20 पोर्ट, प्रत्येक Device साठी एक रंग, प्रत्येक पोर्टपासून त्याच्या RJ पर्यंत एक रेषा, एकेका Device वर जाण्यासाठी बाण आणि PNG / PNG Alpha कॅमेरा.",
-        "**ड्रॉइंग:** Custom device ला प्रत्येक Device साठी एक RJ45 किंवा Fiber आउटपुट मिळतो आणि प्रत्येक जोडणी तंत्रज्ञ स्वतः करतो. Fiber आउटपुट फक्त फायबर असलेल्या Device ला जोडतो, NovaStar प्रमाणे.",
-        "**प्रीसेट:** मूलभूत ते मोठ्या कार्यक्रमापर्यंत 10 प्रीसेट, प्रत्येक त्याच्या Device सह, Basic / Shows / Large event मध्ये, मोठे पूर्वावलोकन आणि तुमच्या मांडणीसाठी Save as preset.",
-        "**3D Stage:** राइट-क्लिक बॉक्समध्ये स्टेजची रुंदी, उंची आणि खोली, Settings मध्ये निवडलेल्या एककात.",
-        "**अॅनिमेशन:** अधिक नैसर्गिक चालणारी नवी पात्रे आणि Animation बॉक्समध्ये Upload logo. Ctrl+C / Ctrl+V स्क्रीन मूळच्या शेजारी पेस्ट करते आणि Grid चा लोगो फिरवता येतो."
-      ],
-      "da": [
-        "**Forbindelse:** Devices med eller uden fiber (RJ45 / Fiber), 2 til 20 porte hver, én farve pr. Device, en linje fra hver port til dens RJ, pile til at gå fra Device til Device og et kamera PNG / PNG Alpha.",
-        "**Tegning:** Custom device får én RJ45- eller Fiber-udgang pr. Device, og teknikeren laver hver forbindelse. En Fiber-udgang forbindes kun til en Device med fiber, som hos NovaStar.",
-        "**Forudindstillinger:** 10 forudindstillinger fra grundlæggende til stort arrangement, hver med sine Devices, i Basic / Shows / Large event, med større forhåndsvisning og Save as preset til dine egne opsætninger.",
-        "**3D Stage:** scenens bredde, højde og dybde i højreklik-boksen, i den enhed der er valgt i Settings.",
-        "**Animation:** nye figurer med en mere naturlig gang og Upload logo i Animation-boksen. Ctrl+C / Ctrl+V indsætter en skærm ved siden af originalen, og Grid-logoet kan drejes."
-      ],
-      "nb": [
-        "**Tilkobling:** Devices med eller uten fiber (RJ45 / Fiber), 2 til 20 porter hver, én farge per Device, en linje fra hver port til dens RJ, piler for å gå fra Device til Device og et kamera PNG / PNG Alpha.",
-        "**Tegning:** Custom device får én RJ45- eller Fiber-utgang per Device, og teknikeren lager hver tilkobling. En Fiber-utgang kobles bare til en Device med fiber, som hos NovaStar.",
-        "**Forhåndsinnstillinger:** 10 forhåndsinnstillinger fra grunnleggende til stort arrangement, hver med sine Devices, i Basic / Shows / Large event, med større forhåndsvisning og Save as preset for dine egne oppsett.",
-        "**3D Stage:** scenens bredde, høyde og dybde i høyreklikkboksen, i enheten valgt i Settings.",
-        "**Animasjon:** nye figurer med mer naturlig gange og Upload logo i Animation-boksen. Ctrl+C / Ctrl+V limer inn en skjerm ved siden av originalen, og Grid-logoen kan roteres."
-      ],
-      "lt": [
-        "**Jungtis:** Device su šviesolaidžiu arba be jo (RJ45 / Fiber), kiekviename nuo 2 iki 20 prievadų, viena spalva kiekvienam Device, linija nuo kiekvieno prievado iki jo RJ, rodyklės pereiti nuo Device prie Device ir PNG / PNG Alpha kamera.",
-        "**Brėžinys:** Custom device gauna po vieną RJ45 arba Fiber išvestį kiekvienam Device, o kiekvieną jungtį daro technikas. Fiber išvestis jungiama tik prie Device su šviesolaidžiu, kaip NovaStar.",
-        "**Šablonai:** 10 šablonų nuo paprasto iki didelio renginio, kiekvienas su savo Device, grupėse Basic / Shows / Large event, su didesne peržiūra ir Save as preset jūsų pačių sąrankoms.",
-        "**3D Stage:** scenos plotis, aukštis ir gylis dešiniojo spragtelėjimo lange, Settings pasirinktais vienetais.",
-        "**Animacija:** nauji veikėjai su natūralesne eisena ir Upload logo Animation lange. Ctrl+C / Ctrl+V įklijuoja ekraną šalia originalo, o Grid logotipą galima pasukti."
-      ],
-      "et": [
-        "**Ühendus:** Device’id kiuga või ilma (RJ45 / Fiber), igaühes 2 kuni 20 porti, üks värv Device’i kohta, joon igast pordist selle RJ-ni, nooled Device’ilt Device’ile liikumiseks ja PNG / PNG Alpha kaamera.",
-        "**Joonis:** Custom device saab iga Device’i jaoks ühe RJ45- või Fiber-väljundi ja iga ühenduse teeb tehnik. Fiber-väljund ühendub ainult kiuga Device’iga, nagu NovaStaril.",
-        "**Eelseaded:** 10 eelseadet lihtsast suure ürituseni, igaüks oma Device’idega, rühmades Basic / Shows / Large event, suurema eelvaate ja Save as preset funktsiooniga oma lahenduste jaoks.",
-        "**3D Stage:** lava laius, kõrgus ja sügavus paremklõpsu aknas, Settingsis valitud ühikus.",
-        "**Animatsioon:** uued tegelased loomulikuma kõnnakuga ja Upload logo Animation aknas. Ctrl+C / Ctrl+V kleebib ekraani originaali kõrvale ja Gridi logo saab pöörata."
-      ],
-      "sk": [
-        "**Pripojenie:** Device s optikou alebo bez nej (RJ45 / Fiber), každý s 2 až 20 portami, jedna farba na Device, čiara od každého portu k jeho RJ, šípky na prechod medzi Device a fotoaparát PNG / PNG Alpha.",
-        "**Výkres:** Custom device dostane jeden výstup RJ45 alebo Fiber na každý Device a každé zapojenie urobí technik. Výstup Fiber sa pripojí len k Device s optikou, ako pri NovaStar.",
-        "**Predvoľby:** 10 predvolieb od základnej po veľké podujatie, každá so svojimi Device, v skupinách Basic / Shows / Large event, s väčším náhľadom a Save as preset pre vlastné zostavy.",
-        "**3D Stage:** šírka, výška a hĺbka pódia v okne pravého tlačidla, v jednotke zvolenej v Settings.",
-        "**Animácia:** nové postavy s prirodzenejšou chôdzou a Upload logo v okne Animation. Ctrl+C / Ctrl+V vloží obrazovku vedľa originálu a logo v Grid sa dá otáčať."
-      ],
-      "bg": [
-        "**Свързване:** Devices със или без оптика (RJ45 / Fiber), по 2 до 20 порта всеки, един цвят за всеки Device, линия от всеки порт до неговия RJ, стрелки за преминаване от Device към Device и камера PNG / PNG Alpha.",
-        "**Схема:** Custom device получава по един изход RJ45 или Fiber за всеки Device, а всяка връзка прави техникът. Изходът Fiber се свързва само към Device с оптика, както при NovaStar.",
-        "**Предварителни настройки:** 10 настройки от основна до голямо събитие, всяка със своите Devices, в Basic / Shows / Large event, с по-голям преглед и Save as preset за собствените ви схеми.",
-        "**3D Stage:** ширина, височина и дълбочина на сцената в прозореца на десния бутон, в единицата, избрана в Settings.",
-        "**Анимация:** нови герои с по-естествена походка и Upload logo в прозореца Animation. Ctrl+C / Ctrl+V поставя екран до оригинала, а логото в Grid може да се завърта."
-      ],
-      "sr": [
-        "**Повезивање:** Devices са оптиком или без ње (RJ45 / Fiber), сваки са 2 до 20 портова, једна боја по Device-у, линија од сваког порта до његовог RJ, стрелице за прелазак са Device-а на Device и камера PNG / PNG Alpha.",
-        "**Цртеж:** Custom device добија по један RJ45 или Fiber излаз за сваки Device, а свако повезивање ради техничар. Fiber излаз се повезује само са Device-ом који има оптику, као код NovaStar-а.",
-        "**Подешавања:** 10 подешавања од основног до великог догађаја, свако са својим Device-има, у Basic / Shows / Large event, са већим прегледом и Save as preset за ваше поставке.",
-        "**3D Stage:** ширина, висина и дубина бине у прозору десног клика, у јединици изабраној у Settings.",
-        "**Анимација:** нови ликови са природнијим ходом и Upload logo у прозору Animation. Ctrl+C / Ctrl+V лепи екран поред оригинала, а лого у Grid-у може да се окреће."
-      ],
-      "hr": [
-        "**Spajanje:** Devicei s optikom ili bez nje (RJ45 / Fiber), svaki s 2 do 20 priključaka, jedna boja po Deviceu, linija od svakog priključka do njegova RJ-a, strelice za prelazak s Devicea na Device i kamera PNG / PNG Alpha.",
-        "**Crtež:** Custom device dobiva po jedan RJ45 ili Fiber izlaz za svaki Device, a svako spajanje radi tehničar. Fiber izlaz spaja se samo na Device s optikom, kao kod NovaStara.",
-        "**Postavke:** 10 postavki od osnovne do velikog događaja, svaka sa svojim Deviceima, u Basic / Shows / Large event, s većim pregledom i Save as preset za vlastite postave.",
-        "**3D Stage:** širina, visina i dubina pozornice u okviru desnog klika, u jedinici odabranoj u Settings.",
-        "**Animacija:** novi likovi s prirodnijim hodom i Upload logo u okviru Animation. Ctrl+C / Ctrl+V lijepi zaslon pokraj izvornika, a logotip u Gridu može se okretati."
-      ],
-      "gu": [
-        "**કનેક્શન:** ફાઇબરવાળા અથવા ફાઇબર વગરના Device (RJ45 / Fiber), દરેકમાં 2 થી 20 પોર્ટ, દરેક Device માટે એક રંગ, દરેક પોર્ટથી તેના RJ સુધી એક રેખા, એક-એક Device પર જવા માટે તીર અને PNG / PNG Alpha કેમેરા.",
-        "**ડ્રોઇંગ:** Custom device ને દરેક Device માટે એક RJ45 અથવા Fiber આઉટપુટ મળે છે અને દરેક જોડાણ ટેકનિશિયન જાતે કરે છે. Fiber આઉટપુટ ફક્ત ફાઇબરવાળા Device સાથે જોડાય છે, NovaStar ની જેમ.",
-        "**પ્રીસેટ:** મૂળભૂતથી મોટા કાર્યક્રમ સુધી 10 પ્રીસેટ, દરેક તેના Device સાથે, Basic / Shows / Large event માં, મોટું પૂર્વાવલોકન અને તમારા સેટઅપ માટે Save as preset.",
-        "**3D Stage:** રાઇટ-ક્લિક બોક્સમાં સ્ટેજની પહોળાઈ, ઊંચાઈ અને ઊંડાઈ, Settings માં પસંદ કરેલા એકમમાં.",
-        "**એનિમેશન:** વધુ કુદરતી રીતે ચાલતા નવા પાત્રો અને Animation બોક્સમાં Upload logo. Ctrl+C / Ctrl+V સ્ક્રીનને મૂળની બાજુમાં પેસ્ટ કરે છે અને Grid નો લોગો ફેરવી શકાય છે."
-      ],
-      "pa": [
-        "**ਕਨੈਕਸ਼ਨ:** ਫਾਈਬਰ ਵਾਲੇ ਜਾਂ ਬਿਨਾਂ ਫਾਈਬਰ ਵਾਲੇ Device (RJ45 / Fiber), ਹਰੇਕ ਵਿੱਚ 2 ਤੋਂ 20 ਪੋਰਟ, ਹਰ Device ਦਾ ਇੱਕ ਰੰਗ, ਹਰ ਪੋਰਟ ਤੋਂ ਉਸਦੇ RJ ਤੱਕ ਇੱਕ ਲਾਈਨ, ਇੱਕ-ਇੱਕ Device ’ਤੇ ਜਾਣ ਲਈ ਤੀਰ ਅਤੇ PNG / PNG Alpha ਕੈਮਰਾ।",
-        "**ਡਰਾਇੰਗ:** Custom device ਨੂੰ ਹਰ Device ਲਈ ਇੱਕ RJ45 ਜਾਂ Fiber ਆਉਟਪੁੱਟ ਮਿਲਦਾ ਹੈ ਅਤੇ ਹਰ ਕਨੈਕਸ਼ਨ ਤਕਨੀਸ਼ੀਅਨ ਖੁਦ ਬਣਾਉਂਦਾ ਹੈ। Fiber ਆਉਟਪੁੱਟ ਸਿਰਫ਼ ਫਾਈਬਰ ਵਾਲੇ Device ਨਾਲ ਜੁੜਦਾ ਹੈ, NovaStar ਵਾਂਗ।",
-        "**ਪ੍ਰੀਸੈੱਟ:** ਬੁਨਿਆਦੀ ਤੋਂ ਵੱਡੇ ਸਮਾਗਮ ਤੱਕ 10 ਪ੍ਰੀਸੈੱਟ, ਹਰ ਇੱਕ ਆਪਣੇ Device ਨਾਲ, Basic / Shows / Large event ਵਿੱਚ, ਵੱਡਾ ਪ੍ਰੀਵਿਊ ਅਤੇ ਆਪਣੇ ਸੈੱਟਅੱਪ ਲਈ Save as preset।",
-        "**3D Stage:** ਰਾਈਟ-ਕਲਿੱਕ ਬਾਕਸ ਵਿੱਚ ਸਟੇਜ ਦੀ ਚੌੜਾਈ, ਉਚਾਈ ਅਤੇ ਡੂੰਘਾਈ, Settings ਵਿੱਚ ਚੁਣੀ ਇਕਾਈ ਵਿੱਚ।",
-        "**ਐਨੀਮੇਸ਼ਨ:** ਹੋਰ ਕੁਦਰਤੀ ਤੁਰਨ ਵਾਲੇ ਨਵੇਂ ਪਾਤਰ ਅਤੇ Animation ਬਾਕਸ ਵਿੱਚ Upload logo। Ctrl+C / Ctrl+V ਸਕ੍ਰੀਨ ਨੂੰ ਮੂਲ ਦੇ ਨਾਲ ਪੇਸਟ ਕਰਦਾ ਹੈ ਅਤੇ Grid ਦਾ ਲੋਗੋ ਘੁਮਾਇਆ ਜਾ ਸਕਦਾ ਹੈ।"
-      ],
-      "kn": [
-        "**ಸಂಪರ್ಕ:** ಫೈಬರ್ ಇರುವ ಅಥವಾ ಇಲ್ಲದ Device (RJ45 / Fiber), ಪ್ರತಿಯೊಂದಕ್ಕೂ 2 ರಿಂದ 20 ಪೋರ್ಟ್‌ಗಳು, ಪ್ರತಿ Device‌ಗೆ ಒಂದು ಬಣ್ಣ, ಪ್ರತಿ ಪೋರ್ಟ್‌ನಿಂದ ಅದರ RJ ವರೆಗೆ ಒಂದು ಗೆರೆ, Device‌ನಿಂದ Device‌ಗೆ ಹೋಗಲು ಬಾಣಗಳು ಮತ್ತು PNG / PNG Alpha ಕ್ಯಾಮೆರಾ.",
-        "**ಚಿತ್ರ:** Custom device ಪ್ರತಿ Device‌ಗೆ ಒಂದು RJ45 ಅಥವಾ Fiber ಔಟ್‌ಪುಟ್ ಪಡೆಯುತ್ತದೆ ಮತ್ತು ಪ್ರತಿ ಸಂಪರ್ಕವನ್ನು ತಂತ್ರಜ್ಞರು ಮಾಡುತ್ತಾರೆ. Fiber ಔಟ್‌ಪುಟ್ ಫೈಬರ್ ಇರುವ Device‌ಗೆ ಮಾತ್ರ ಜೋಡಿಸುತ್ತದೆ, NovaStar‌ನಂತೆ.",
-        "**ಪ್ರೀಸೆಟ್‌ಗಳು:** ಮೂಲದಿಂದ ದೊಡ್ಡ ಕಾರ್ಯಕ್ರಮದವರೆಗೆ 10 ಪ್ರೀಸೆಟ್‌ಗಳು, ಪ್ರತಿಯೊಂದೂ ತನ್ನ Device‌ಗಳೊಂದಿಗೆ, Basic / Shows / Large event‌ನಲ್ಲಿ, ದೊಡ್ಡ ಮುನ್ನೋಟ ಮತ್ತು ನಿಮ್ಮ ಸೆಟಪ್‌ಗಳಿಗೆ Save as preset.",
-        "**3D Stage:** ಬಲ ಕ್ಲಿಕ್ ಬಾಕ್ಸ್‌ನಲ್ಲಿ ವೇದಿಕೆಯ ಅಗಲ, ಎತ್ತರ ಮತ್ತು ಆಳ, Settings‌ನಲ್ಲಿ ಆಯ್ಕೆ ಮಾಡಿದ ಘಟಕದಲ್ಲಿ.",
-        "**ಅನಿಮೇಷನ್:** ಹೆಚ್ಚು ಸಹಜವಾಗಿ ನಡೆಯುವ ಹೊಸ ಪಾತ್ರಗಳು ಮತ್ತು Animation ಬಾಕ್ಸ್‌ನಲ್ಲಿ Upload logo. Ctrl+C / Ctrl+V ಪರದೆಯನ್ನು ಮೂಲದ ಪಕ್ಕದಲ್ಲಿ ಅಂಟಿಸುತ್ತದೆ ಮತ್ತು Grid ಲೋಗೋವನ್ನು ತಿರುಗಿಸಬಹುದು."
-      ],
-      "ne": [
-        "**जडान:** फाइबर भएका वा नभएका Device (RJ45 / Fiber), प्रत्येकमा 2 देखि 20 पोर्ट, प्रत्येक Device को एउटा रङ, प्रत्येक पोर्टबाट त्यसको RJ सम्म एउटा रेखा, एक-एक Device मा जान तीर र PNG / PNG Alpha क्यामेरा।",
-        "**ड्रइङ:** Custom device ले प्रत्येक Device का लागि एउटा RJ45 वा Fiber आउटपुट पाउँछ र प्रत्येक जडान प्राविधिक आफैँ गर्छ। Fiber आउटपुट फाइबर भएको Device मा मात्र जोडिन्छ, NovaStar जस्तै।",
-        "**प्रिसेटहरू:** आधारभूतदेखि ठूलो कार्यक्रमसम्म 10 प्रिसेट, प्रत्येक आफ्ना Device सहित, Basic / Shows / Large event मा, ठूलो पूर्वावलोकन र आफ्नै सेटअपका लागि Save as preset।",
-        "**3D Stage:** दायाँ क्लिक बाकसमा स्टेजको चौडाइ, उचाइ र गहिराइ, Settings मा छानिएको एकाइमा।",
-        "**एनिमेसन:** अझ स्वाभाविक हिँड्ने नयाँ पात्रहरू र Animation बाकसमा Upload logo। Ctrl+C / Ctrl+V ले स्क्रिनलाई मूलको छेउमा टाँस्छ र Grid को लोगो घुमाउन सकिन्छ।"
-      ],
-      "km": [
-        "**ការភ្ជាប់:** Device មានឬគ្មានខ្សែអុបទិក (RJ45 / Fiber) មួយៗមាន 2 ដល់ 20 រន្ធ ពណ៌មួយសម្រាប់ Device នីមួយៗ បន្ទាត់ពីរន្ធនីមួយៗទៅ RJ របស់វា ព្រួញសម្រាប់ទៅ Device ម្តងមួយៗ និងកាមេរ៉ា PNG / PNG Alpha។",
-        "**គំនូរ:** Custom device ទទួលបានច្រកចេញ RJ45 ឬ Fiber មួយសម្រាប់ Device នីមួយៗ ហើយអ្នកបច្ចេកទេសជាអ្នកភ្ជាប់នីមួយៗ។ ច្រកចេញ Fiber ភ្ជាប់តែទៅ Device ដែលមានខ្សែអុបទិកប៉ុណ្ណោះ ដូច NovaStar។",
-        "**ការកំណត់ជាមុន:** ការកំណត់ជាមុន 10 ពីមូលដ្ឋានដល់ព្រឹត្តិការណ៍ធំ នីមួយៗមាន Device របស់វា ក្នុង Basic / Shows / Large event ជាមួយការមើលជាមុនធំជាង និង Save as preset សម្រាប់ការរៀបចំផ្ទាល់ខ្លួន។",
-        "**3D Stage:** ទទឹង កម្ពស់ និងជម្រៅឆាកក្នុងប្រអប់ចុចស្តាំ តាមឯកតាដែលបានជ្រើសក្នុង Settings។",
-        "**ចលនា:** តួអង្គថ្មីដែលដើរបានធម្មជាតិជាង និង Upload logo ក្នុងប្រអប់ Animation។ Ctrl+C / Ctrl+V បិទភ្ជាប់អេក្រង់នៅជាប់ច្បាប់ដើម ហើយស្លាកសញ្ញា Grid អាចបង្វិលបាន។"
-      ],
-      "kk": [
-        "**Қосылым:** оптикасы бар немесе жоқ Device (RJ45 / Fiber), әрқайсысында 2-ден 20-ға дейін порт, әр Device үшін бір түс, әр порттан оның RJ-іне дейін сызық, Device-тен Device-ке өтуге арналған көрсеткілер және PNG / PNG Alpha камерасы.",
-        "**Сызба:** Custom device әр Device үшін бір RJ45 немесе Fiber шығысын алады, ал әр қосылымды техник жасайды. Fiber шығысы тек оптикасы бар Device-ке қосылады, NovaStar сияқты.",
-        "**Дайындамалар:** негізгіден ірі іс-шараға дейінгі 10 дайындама, әрқайсысы өз Device-імен, Basic / Shows / Large event бөлімдерінде, үлкенірек алдын ала қарау және өз жинақтарыңызға арналған Save as preset.",
-        "**3D Stage:** сахнаның ені, биіктігі және тереңдігі оң жақ түрту терезесінде, Settings-те таңдалған бірлікпен.",
-        "**Анимация:** табиғирақ жүретін жаңа кейіпкерлер және Animation терезесіндегі Upload logo. Ctrl+C / Ctrl+V экранды түпнұсқаның жанына қояды, ал Grid логотипін бұруға болады."
-      ],
-      "uz": [
-        "**Ulanish:** optik tolali yoki tolasiz Device’lar (RJ45 / Fiber), har birida 2 dan 20 gacha port, har bir Device uchun bitta rang, har bir portdan uning RJ’siga chiziq, Device’dan Device’ga oʻtish uchun strelkalar va PNG / PNG Alpha kamera.",
-        "**Chizma:** Custom device har bir Device uchun bitta RJ45 yoki Fiber chiqish oladi va har bir ulanishni texnik oʻzi qiladi. Fiber chiqish faqat tolali Device’ga ulanadi, NovaStar’dagi kabi.",
-        "**Presetlar:** oddiydan katta tadbirgacha 10 ta preset, har biri oʻz Device’lari bilan, Basic / Shows / Large event boʻlimlarida, kattaroq oldindan koʻrish va oʻz tuzilmalaringiz uchun Save as preset.",
-        "**3D Stage:** sahnaning eni, balandligi va chuqurligi oʻng tugma oynasida, Settings’da tanlangan birlikda.",
-        "**Animatsiya:** tabiiyroq yuradigan yangi qahramonlar va Animation oynasida Upload logo. Ctrl+C / Ctrl+V ekranni aslining yoniga qoʻyadi, Grid logotipini esa aylantirish mumkin."
-      ],
-      "am": [
-        "**ግንኙነት፦** ፋይበር ያላቸው ወይም የሌላቸው Device (RJ45 / Fiber)፣ እያንዳንዱ ከ2 እስከ 20 ወደቦች፣ ለእያንዳንዱ Device አንድ ቀለም፣ ከእያንዳንዱ ወደብ እስከ RJ ድረስ መስመር፣ ከ Device ወደ Device የሚያሸጋግሩ ቀስቶች እና PNG / PNG Alpha ካሜራ።",
-        "**ስዕል፦** Custom device ለእያንዳንዱ Device አንድ RJ45 ወይም Fiber ውጽዓት ያገኛል፣ እያንዳንዱን ግንኙነት ቴክኒሻኑ ያደርጋል። Fiber ውጽዓት ፋይበር ካለው Device ጋር ብቻ ይገናኛል፣ እንደ NovaStar።",
-        "**ቅድመ-ቅንብሮች፦** ከመሠረታዊ እስከ ትልቅ ዝግጅት 10 ቅድመ-ቅንብሮች፣ እያንዳንዱ ከራሱ Device ጋር፣ በ Basic / Shows / Large event፣ ትልቅ ቅድመ እይታ እና ለራስዎ አደረጃጀት Save as preset።",
-        "**3D Stage፦** በቀኝ ጠቅታ ሳጥን ውስጥ የመድረኩ ስፋት፣ ቁመት እና ጥልቀት፣ በ Settings በተመረጠው መለኪያ።",
-        "**እንቅስቃሴ፦** ይበልጥ በተፈጥሮ የሚራመዱ አዳዲስ ገጸ-ባህሪያት እና በ Animation ሳጥን ውስጥ Upload logo። Ctrl+C / Ctrl+V ስክሪኑን ከዋናው አጠገብ ይለጥፋል፣ የ Grid አርማም ሊሽከረከር ይችላል።"
-      ],
-      "sl": [
-        "**Povezava:** Devicei z optiko ali brez nje (RJ45 / Fiber), vsak z 2 do 20 vrati, ena barva za vsak Device, črta od vsakih vrat do njihovega RJ, puščice za prehod z Devicea na Device in kamera PNG / PNG Alpha.",
-        "**Risba:** Custom device dobi po en izhod RJ45 ali Fiber za vsak Device, vsako povezavo pa naredi tehnik. Izhod Fiber se poveže le z Deviceom z optiko, kot pri NovaStarju.",
-        "**Prednastavitve:** 10 prednastavitev od osnovne do velikega dogodka, vsaka s svojimi Devicei, v Basic / Shows / Large event, z večjim predogledom in Save as preset za lastne postavitve.",
-        "**3D Stage:** širina, višina in globina odra v oknu desnega klika, v enoti, izbrani v Settings.",
-        "**Animacija:** novi liki z bolj naravno hojo in Upload logo v oknu Animation. Ctrl+C / Ctrl+V prilepi zaslon poleg izvirnika, logotip v Gridu pa je mogoče zavrteti."
-      ],
-      "kab": [
-        "**Tuqqna:** Devices s fiber neɣ war fiber (RJ45 / Fiber), seg 2 ar 20 n tewwura i yal yiwen, yiwen n yini i yal Device, izirig seg yal tawwurt ar RJ-ines, tineccabin i usikel seg Device ɣer Device d tkamiṛat PNG / PNG Alpha.",
-        "**Asuneɣ:** Custom device yettawi yiwet n tuffɣa RJ45 neɣ Fiber i yal Device, d atiknisyan i yettqeqqnen yal tuqqna. Tuffɣa Fiber tettuqqen kan ɣer Device s fiber, am deg NovaStar.",
-        "**Presets:** 10 n presets seg uzaduɣ ar tedyant tameqqrant, yal yiwen s Devices-is, deg Basic / Shows / Large event, s teskant tameqqrant d Save as preset i yiswira-k.",
-        "**3D Stage:** tehri, teɣzi d lqedd n usayes deg tenkult n usiti ayeffus, s tyuget yettwafernen deg Settings.",
-        "**Animation:** imdanen imaynuten s tikli tagamant ugar d Upload logo deg tenkult n Animation. Ctrl+C / Ctrl+V yesserseɣ agdil ɣer tama n uẓar, alugu n Grid yezmer ad yezzi."
       ]
     }
   }
