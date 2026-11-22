@@ -1,9 +1,311 @@
 {
-  "version": "2.9.8",
-  "windows": "https://github.com/renatorocha0934/RAGridrelease/releases/download/v2.9.8/RAGrid-Windows.zip",
-  "mac": "https://github.com/renatorocha0934/RAGridrelease/releases/download/v2.9.8/RAGrid-Mac.dmg",
+  "version": "2.9.9",
+  "windows": "https://github.com/renatorocha0934/RAGridrelease/releases/download/v2.9.9/RAGrid-Windows.zip",
+  "mac": "https://github.com/renatorocha0934/RAGridrelease/releases/download/v2.9.9/RAGrid-Mac.dmg",
   "notes": "System and performance improvements.",
   "changes": {
+    "2.9.9": {
+      "en": [
+        "**Drawing:** fixed the crash when the Drawing opened after the first addressing. A port that already has a cable now selects that cable (Delete removes it).",
+        "**Connection and Drawing in sync:** each tab shows the other in a live PiP (click it to switch). Clear, Clear all and the new Clear all devices also disconnect the Drawing, and a right-click on a Device offers Delete.",
+        "**Grid and layout:** the Radar runs at a steady 30 FPS with a live FPS readout, Delete removes the selected logo, and the tabs no longer shift or flash a scrollbar when they open."
+      ],
+      "pt": [
+        "**Drawing:** corrigido o fechamento ao abrir o Drawing depois do primeiro endereçamento. Uma porta que já tem cabo agora seleciona esse cabo (Delete apaga).",
+        "**Connection e Drawing sincronizados:** cada aba mostra a outra num PiP ao vivo (clique para trocar). Clear, Clear all e o novo Clear all devices também desligam o Drawing, e o botão direito num Device oferece Delete.",
+        "**Grid e tela:** o Radar roda firme a 30 FPS com o FPS ao vivo, o Delete apaga o logo escolhido, e as abas não se deslocam nem piscam barra de rolagem ao abrir."
+      ],
+      "es": [
+        "**Drawing:** corregido el cierre al abrir el Drawing después del primer direccionamiento. Un puerto que ya tiene cable ahora selecciona ese cable (Delete lo borra).",
+        "**Connection y Drawing sincronizados:** cada pestaña muestra la otra en un PiP en vivo (clic para cambiar). Clear, Clear all y el nuevo Clear all devices también desconectan el Drawing, y el clic derecho en un Device ofrece Delete.",
+        "**Grid y diseño:** el Radar va estable a 30 FPS con el FPS en vivo, Delete borra el logo elegido y las pestañas ya no se desplazan ni muestran una barra de desplazamiento al abrirse."
+      ],
+      "fr": [
+        "**Drawing :** corrigé la fermeture à l’ouverture du Drawing après le premier adressage. Un port qui a déjà un câble sélectionne maintenant ce câble (Delete le supprime).",
+        "**Connection et Drawing synchronisés :** chaque onglet montre l’autre dans un PiP en direct (cliquez pour basculer). Clear, Clear all et le nouveau Clear all devices déconnectent aussi le Drawing, et le clic droit sur un Device propose Delete.",
+        "**Grid et affichage :** le Radar tourne à 30 FPS stables avec le FPS en direct, Delete supprime le logo choisi, et les onglets ne bougent plus et n’affichent plus de barre de défilement à l’ouverture."
+      ],
+      "de": [
+        "**Drawing:** Absturz beim Öffnen des Drawing nach der ersten Adressierung behoben. Ein Port, der schon ein Kabel hat, wählt jetzt dieses Kabel aus (Delete entfernt es).",
+        "**Connection und Drawing synchron:** jeder Tab zeigt den anderen in einem Live-PiP (Klick zum Wechseln). Clear, Clear all und das neue Clear all devices trennen auch das Drawing, und ein Rechtsklick auf ein Device bietet Delete.",
+        "**Grid und Layout:** der Radar läuft stabil mit 30 FPS samt Live-FPS-Anzeige, Delete entfernt das gewählte Logo, und die Tabs verrutschen beim Öffnen nicht mehr und zeigen keine Scrollleiste mehr."
+      ],
+      "it": [
+        "**Drawing:** corretta la chiusura all’apertura del Drawing dopo il primo indirizzamento. Una porta che ha già un cavo ora seleziona quel cavo (Delete lo elimina).",
+        "**Connection e Drawing sincronizzati:** ogni scheda mostra l’altra in un PiP dal vivo (clic per passare). Clear, Clear all e il nuovo Clear all devices scollegano anche il Drawing, e il clic destro su un Device offre Delete.",
+        "**Grid e layout:** il Radar gira stabile a 30 FPS con gli FPS dal vivo, Delete elimina il logo scelto e le schede non si spostano più né mostrano una barra di scorrimento all’apertura."
+      ],
+      "nl": [
+        "**Drawing:** de crash bij het openen van de Drawing na de eerste adressering is opgelost. Een poort die al een kabel heeft selecteert nu die kabel (Delete verwijdert hem).",
+        "**Connection en Drawing synchroon:** elk tabblad toont het andere in een live PiP (klik om te wisselen). Clear, Clear all en het nieuwe Clear all devices koppelen ook de Drawing los, en rechtsklikken op een Device biedt Delete.",
+        "**Grid en indeling:** de Radar loopt stabiel op 30 FPS met een live FPS-weergave, Delete verwijdert het gekozen logo en de tabbladen verschuiven niet meer en tonen geen schuifbalk meer bij het openen."
+      ],
+      "ru": [
+        "**Drawing:** исправлено закрытие программы при открытии Drawing после первой адресации. Порт, у которого уже есть кабель, теперь выделяет этот кабель (Delete удаляет его).",
+        "**Connection и Drawing синхронизированы:** каждая вкладка показывает другую в живом PiP (щелчок — переход). Clear, Clear all и новая Clear all devices также отключают Drawing, а правый щелчок по Device предлагает Delete.",
+        "**Grid и интерфейс:** Радар идёт ровно на 30 FPS с живым счётчиком FPS, Delete удаляет выбранный логотип, а вкладки больше не сдвигаются и не мигают полосой прокрутки при открытии."
+      ],
+      "tr": [
+        "**Drawing:** ilk adreslemeden sonra Drawing açılırken oluşan kapanma düzeltildi. Zaten kablosu olan bir port artık o kabloyu seçer (Delete siler).",
+        "**Connection ve Drawing senkron:** her sekme diğerini canlı bir PiP'te gösterir (geçmek için tıklayın). Clear, Clear all ve yeni Clear all devices Drawing'i de ayırır, bir Device'a sağ tıklayınca Delete çıkar.",
+        "**Grid ve düzen:** Radar canlı FPS göstergesiyle sabit 30 FPS çalışır, Delete seçili logoyu siler ve sekmeler açılırken artık kaymaz ve kaydırma çubuğu göstermez."
+      ],
+      "id": [
+        "**Drawing:** memperbaiki program tertutup saat membuka Drawing setelah pengalamatan pertama. Port yang sudah punya kabel kini memilih kabel itu (Delete menghapusnya).",
+        "**Connection dan Drawing sinkron:** setiap tab menampilkan tab lainnya dalam PiP langsung (klik untuk berpindah). Clear, Clear all dan Clear all devices yang baru juga memutus Drawing, dan klik kanan pada Device menawarkan Delete.",
+        "**Grid dan tata letak:** Radar berjalan stabil 30 FPS dengan tampilan FPS langsung, Delete menghapus logo yang dipilih, dan tab tidak lagi bergeser atau memunculkan scrollbar saat dibuka."
+      ],
+      "hu": [
+        "**Drawing:** javítva a program bezáródása, amikor az első címzés után nyílt meg a Drawing. Egy port, amelynek már van kábele, most kiválasztja azt a kábelt (a Delete törli).",
+        "**Connection és Drawing szinkronban:** mindkét fül élő PiP-ben mutatja a másikat (kattintással váltás). A Clear, a Clear all és az új Clear all devices a Drawingot is leválasztja, és egy Device-ra jobb gombbal kattintva megjelenik a Delete.",
+        "**Grid és elrendezés:** a Radar stabil 30 FPS-sel fut élő FPS-kijelzéssel, a Delete törli a kiválasztott logót, és a fülek megnyitáskor már nem csúsznak el és nem villan fel görgetősáv."
+      ],
+      "zh-Hans": [
+        "**Drawing：** 修复了在第一次编址后打开 Drawing 时程序关闭的问题。已经有线缆的端口现在会选中那条线缆（Delete 删除）。",
+        "**Connection 与 Drawing 同步：** 每个标签页都以实时 PiP 显示另一个（点击即可切换）。Clear、Clear all 和新的 Clear all devices 也会断开 Drawing 的连接，右键单击 Device 可选 Delete。",
+        "**Grid 与布局：** 雷达稳定以 30 FPS 运行并实时显示 FPS，Delete 删除选中的 logo，标签页打开时不再移动或闪现滚动条。"
+      ],
+      "zh-Hant": [
+        "**Drawing：** 修正第一次編址後開啟 Drawing 時程式關閉的問題。已經有線材的連接埠現在會選取該線材（Delete 刪除）。",
+        "**Connection 與 Drawing 同步：** 每個分頁都以即時 PiP 顯示另一個（點一下即可切換）。Clear、Clear all 與新的 Clear all devices 也會中斷 Drawing 的連接，在 Device 上按右鍵可選 Delete。",
+        "**Grid 與版面：** 雷達穩定以 30 FPS 執行並即時顯示 FPS，Delete 刪除選取的 logo，分頁開啟時不再位移或閃現捲軸。"
+      ],
+      "ja": [
+        "**Drawing：** 最初のアドレッシング後に Drawing を開くとプログラムが閉じる問題を修正しました。すでにケーブルがあるポートは、そのケーブルを選択するようになりました（Delete で削除）。",
+        "**Connection と Drawing の同期：** 各タブがもう一方をライブ PiP で表示します（クリックで切り替え）。Clear、Clear all、新しい Clear all devices は Drawing の接続も外し、Device を右クリックすると Delete が表示されます。",
+        "**Grid とレイアウト：** レーダーはライブ FPS 表示付きで安定した 30 FPS で動作し、Delete で選んだロゴを削除できます。タブは開くときにずれたりスクロールバーが出たりしなくなりました。"
+      ],
+      "ko": [
+        "**Drawing:** 첫 번째 주소 지정 후 Drawing을 열 때 프로그램이 닫히던 문제를 고쳤습니다. 이미 케이블이 있는 포트는 이제 그 케이블을 선택합니다(Delete로 삭제).",
+        "**Connection과 Drawing 동기화:** 각 탭이 다른 탭을 실시간 PiP로 보여 줍니다(클릭하면 전환). Clear, Clear all과 새 Clear all devices는 Drawing 연결도 끊고, Device를 마우스 오른쪽 버튼으로 클릭하면 Delete가 나옵니다.",
+        "**Grid와 레이아웃:** 레이더가 실시간 FPS 표시와 함께 안정적인 30 FPS로 동작하고, Delete로 선택한 로고를 지우며, 탭을 열 때 더 이상 밀리거나 스크롤 막대가 깜박이지 않습니다."
+      ],
+      "ar": [
+        "**Drawing:** تم إصلاح إغلاق البرنامج عند فتح Drawing بعد أول عنونة. المنفذ الذي له كابل بالفعل يحدد الآن هذا الكابل (Delete يحذفه).",
+        "**تزامن Connection وDrawing:** كل تبويب يعرض الآخر في PiP مباشر (انقر للتبديل). Clear وClear all والزر الجديد Clear all devices تفصل Drawing أيضًا، والنقر بالزر الأيمن على Device يعرض Delete.",
+        "**Grid والتخطيط:** يعمل الرادار بثبات عند 30 FPS مع عرض FPS مباشر، وDelete يحذف الشعار المختار، ولم تعد التبويبات تتحرك أو تُظهر شريط تمرير عند فتحها."
+      ],
+      "th": [
+        "**Drawing:** แก้ปัญหาโปรแกรมปิดเมื่อเปิด Drawing หลังการกำหนดที่อยู่ครั้งแรก พอร์ตที่มีสายอยู่แล้วจะเลือกสายนั้นแทน (Delete เพื่อลบ)",
+        "**Connection และ Drawing ซิงค์กัน:** แต่ละแท็บแสดงอีกแท็บใน PiP แบบสด (คลิกเพื่อสลับ) Clear, Clear all และ Clear all devices ใหม่จะตัดการเชื่อมต่อใน Drawing ด้วย และคลิกขวาที่ Device จะมี Delete",
+        "**Grid และเลย์เอาต์:** เรดาร์ทำงานคงที่ 30 FPS พร้อมแสดง FPS แบบสด Delete ลบโลโก้ที่เลือก และแท็บไม่เลื่อนหรือมีแถบเลื่อนกะพริบเมื่อเปิดอีกต่อไป"
+      ],
+      "hi": [
+        "**Drawing:** पहली एड्रेसिंग के बाद Drawing खोलने पर प्रोग्राम बंद होने की समस्या ठीक की गई। जिस पोर्ट में पहले से केबल है, वह अब उस केबल को चुनता है (Delete हटाता है)।",
+        "**Connection और Drawing सिंक में:** हर टैब दूसरे को लाइव PiP में दिखाता है (बदलने के लिए क्लिक करें)। Clear, Clear all और नया Clear all devices Drawing को भी डिस्कनेक्ट करते हैं, और Device पर राइट-क्लिक करने पर Delete मिलता है।",
+        "**Grid और लेआउट:** रडार लाइव FPS के साथ स्थिर 30 FPS पर चलता है, Delete चुने हुए लोगो को हटाता है, और टैब खुलते समय अब न खिसकते हैं न स्क्रॉलबार दिखाते हैं।"
+      ],
+      "vi": [
+        "**Drawing:** đã sửa lỗi chương trình đóng khi mở Drawing sau lần định địa chỉ đầu tiên. Cổng đã có cáp giờ sẽ chọn cáp đó (Delete để xóa).",
+        "**Connection và Drawing đồng bộ:** mỗi tab hiển thị tab kia trong một PiP trực tiếp (nhấp để chuyển). Clear, Clear all và Clear all devices mới cũng ngắt kết nối trong Drawing, và nhấp chuột phải vào một Device có Delete.",
+        "**Grid và bố cục:** Radar chạy ổn định 30 FPS kèm hiển thị FPS trực tiếp, Delete xóa logo đang chọn, và các tab không còn xê dịch hay hiện thanh cuộn khi mở."
+      ],
+      "bn": [
+        "**Drawing:** প্রথম অ্যাড্রেসিংয়ের পর Drawing খুললে প্রোগ্রাম বন্ধ হয়ে যাওয়ার সমস্যা ঠিক করা হয়েছে। যে পোর্টে আগে থেকেই কেবল আছে, সেটি এখন সেই কেবলটি বাছাই করে (Delete মুছে দেয়)।",
+        "**Connection ও Drawing সিঙ্কে:** প্রতিটি ট্যাব অন্যটিকে লাইভ PiP-এ দেখায় (বদলাতে ক্লিক করুন)। Clear, Clear all এবং নতুন Clear all devices Drawing-ও বিচ্ছিন্ন করে, আর Device-এ রাইট-ক্লিক করলে Delete পাওয়া যায়।",
+        "**Grid ও লেআউট:** রাডার লাইভ FPS দেখিয়ে স্থির 30 FPS-এ চলে, Delete বাছাই করা লোগো মুছে দেয়, আর ট্যাব খোলার সময় আর সরে না বা স্ক্রলবার ঝলকায় না।"
+      ],
+      "ms": [
+        "**Drawing:** membetulkan program tertutup apabila membuka Drawing selepas pengalamatan pertama. Port yang sudah ada kabel kini memilih kabel itu (Delete memadamnya).",
+        "**Connection dan Drawing segerak:** setiap tab menunjukkan tab yang lain dalam PiP langsung (klik untuk bertukar). Clear, Clear all dan Clear all devices yang baharu juga memutuskan Drawing, dan klik kanan pada Device menawarkan Delete.",
+        "**Grid dan susun atur:** Radar berjalan stabil pada 30 FPS dengan paparan FPS langsung, Delete memadam logo yang dipilih, dan tab tidak lagi beralih atau memaparkan bar skrol semasa dibuka."
+      ],
+      "sv": [
+        "**Drawing:** åtgärdat att programmet stängdes när Drawing öppnades efter den första adresseringen. En port som redan har en kabel väljer nu den kabeln (Delete tar bort den).",
+        "**Connection och Drawing i synk:** varje flik visar den andra i en live-PiP (klicka för att byta). Clear, Clear all och nya Clear all devices kopplar även bort Drawing, och högerklick på en Device ger Delete.",
+        "**Grid och layout:** Radarn går stabilt i 30 FPS med live-visning av FPS, Delete tar bort den valda logotypen och flikarna flyttar sig inte längre eller visar någon rullningslist när de öppnas."
+      ],
+      "ur": [
+        "**Drawing:** پہلی ایڈریسنگ کے بعد Drawing کھولنے پر پروگرام بند ہونے کا مسئلہ ٹھیک کر دیا گیا۔ جس پورٹ میں پہلے سے کیبل ہے وہ اب اسی کیبل کو منتخب کرتا ہے (Delete ہٹا دیتا ہے)۔",
+        "**Connection اور Drawing ہم آہنگ:** ہر ٹیب دوسرے کو لائیو PiP میں دکھاتا ہے (بدلنے کے لیے کلک کریں)۔ Clear، Clear all اور نیا Clear all devices Drawing کو بھی منقطع کرتے ہیں، اور Device پر رائٹ کلک کرنے سے Delete ملتا ہے۔",
+        "**Grid اور ترتیب:** ریڈار لائیو FPS کے ساتھ مستحکم 30 FPS پر چلتا ہے، Delete منتخب لوگو ہٹاتا ہے، اور ٹیب کھلتے وقت اب نہ کھسکتے ہیں نہ اسکرول بار دکھاتے ہیں۔"
+      ],
+      "sw": [
+        "**Drawing:** imerekebishwa programu kufungwa ilipofunguliwa Drawing baada ya uwekaji anwani wa kwanza. Mlango ambao tayari una kebo sasa huchagua kebo hiyo (Delete huifuta).",
+        "**Connection na Drawing zinalingana:** kila kichupo huonyesha kingine kwenye PiP ya moja kwa moja (bofya kubadilisha). Clear, Clear all na Clear all devices mpya pia hukata Drawing, na kubofya kulia kwenye Device huonyesha Delete.",
+        "**Grid na mpangilio:** Rada huenda kwa uthabiti kwa FPS 30 na kuonyesha FPS moja kwa moja, Delete hufuta nembo iliyochaguliwa, na vichupo havisogei tena wala kuonyesha upau wa kusogeza vinapofunguliwa."
+      ],
+      "gn": [
+        "**Drawing:** oñemoĩporã programa oñembotýva ojeipe’ávo Drawing ñemohenda peteĩha rire. Puerta oguerekóma cable oiporavo ko’ág̃a upe cable (Delete ombogue).",
+        "**Connection ha Drawing oñondive:** peteĩteĩ pestaña ohechauka ambue PiP ko’ag̃aguápe (eñemboja ñemoambuerã). Clear, Clear all ha Clear all devices pyahu omboja’o avei Drawing, ha Device-pe ojepokóvo po akatúa gotyo osẽ Delete.",
+        "**Grid ha ñemohenda:** Radar oñemongu’e 30 FPS-pe oha’arõ’ỹre FPS rechaukápe, Delete ombogue logo ojeporavóva, ha pestaña-kuéra ndojeiporavéima ni ohechaukavéi scrollbar ojeipe’ávo."
+      ],
+      "he": [
+        "**Drawing:** תוקנה סגירת התוכנה בפתיחת ה-Drawing אחרי המיעון הראשון. יציאה שכבר יש לה כבל בוחרת עכשיו את הכבל הזה (Delete מוחק אותו).",
+        "**Connection ו-Drawing מסונכרנים:** כל לשונית מציגה את השנייה ב-PiP חי (לחיצה עוברת אליה). Clear, Clear all ו-Clear all devices החדש מנתקים גם את ה-Drawing, ולחיצה ימנית על Device מציעה Delete.",
+        "**Grid ופריסה:** המכ״ם רץ ביציבות ב-30 FPS עם תצוגת FPS חיה, Delete מוחק את הלוגו שנבחר, והלשוניות כבר לא זזות ולא מהבהבות פס גלילה בפתיחה."
+      ],
+      "lv": [
+        "**Drawing:** novērsta programmas aizvēršanās, atverot Drawing pēc pirmās adresēšanas. Ports, kam jau ir kabelis, tagad atlasa šo kabeli (Delete to izdzēš).",
+        "**Connection un Drawing sinhroni:** katra cilne rāda otru tiešraides PiP (noklikšķiniet, lai pārslēgtos). Clear, Clear all un jaunais Clear all devices atvieno arī Drawing, un ar peles labo pogu uz Device ir pieejams Delete.",
+        "**Grid un izkārtojums:** Radars darbojas stabili ar 30 FPS un tiešraides FPS rādījumu, Delete izdzēš izvēlēto logotipu, un cilnes atverot vairs nepārvietojas un nerāda ritjoslu."
+      ],
+      "fa": [
+        "**Drawing:** بسته‌شدن برنامه هنگام باز کردن Drawing پس از اولین آدرس‌دهی رفع شد. درگاهی که از قبل کابل دارد اکنون همان کابل را انتخاب می‌کند (Delete آن را حذف می‌کند).",
+        "**Connection و Drawing همگام:** هر زبانه دیگری را در یک PiP زنده نشان می‌دهد (برای جابه‌جایی کلیک کنید). Clear، Clear all و دکمه جدید Clear all devices اتصال Drawing را هم قطع می‌کنند و کلیک راست روی یک Device گزینه Delete را می‌دهد.",
+        "**Grid و چیدمان:** رادار با نمایش زنده FPS به‌طور پایدار با 30 FPS اجرا می‌شود، Delete لوگوی انتخاب‌شده را حذف می‌کند و زبانه‌ها هنگام باز شدن دیگر جابه‌جا نمی‌شوند و نوار پیمایش نشان نمی‌دهند."
+      ],
+      "pl": [
+        "**Drawing:** naprawiono zamykanie programu przy otwieraniu Drawing po pierwszym adresowaniu. Port, który ma już kabel, zaznacza teraz ten kabel (Delete go usuwa).",
+        "**Connection i Drawing zsynchronizowane:** każda karta pokazuje drugą w podglądzie PiP na żywo (kliknij, aby przejść). Clear, Clear all i nowy Clear all devices odłączają też Drawing, a prawy klik na Device oferuje Delete.",
+        "**Grid i układ:** Radar działa stabilnie z 30 FPS i licznikiem FPS na żywo, Delete usuwa wybrane logo, a karty przy otwieraniu już się nie przesuwają i nie pokazują paska przewijania."
+      ],
+      "uk": [
+        "**Drawing:** виправлено закриття програми під час відкриття Drawing після першої адресації. Порт, що вже має кабель, тепер виділяє цей кабель (Delete видаляє його).",
+        "**Connection і Drawing синхронізовані:** кожна вкладка показує іншу в живому PiP (клацання — перехід). Clear, Clear all і нова Clear all devices також від'єднують Drawing, а правий клік на Device пропонує Delete.",
+        "**Grid і макет:** Радар іде рівно на 30 FPS із живим лічильником FPS, Delete видаляє вибраний логотип, а вкладки більше не зсуваються і не блимають смугою прокрутки під час відкриття."
+      ],
+      "ca": [
+        "**Drawing:** corregit el tancament en obrir el Drawing després del primer adreçament. Un port que ja té cable ara selecciona aquest cable (Delete l’esborra).",
+        "**Connection i Drawing sincronitzats:** cada pestanya mostra l’altra en un PiP en directe (clic per canviar). Clear, Clear all i el nou Clear all devices també desconnecten el Drawing, i el clic dret en un Device ofereix Delete.",
+        "**Grid i disseny:** el Radar va estable a 30 FPS amb els FPS en directe, Delete esborra el logo triat i les pestanyes ja no es desplacen ni mostren barra de desplaçament en obrir-se."
+      ],
+      "cs": [
+        "**Drawing:** opraveno zavírání programu při otevření Drawing po prvním adresování. Port, který už má kabel, teď vybere tento kabel (Delete ho smaže).",
+        "**Connection a Drawing synchronizované:** každá karta ukazuje tu druhou v živém PiP (kliknutím přepnete). Clear, Clear all a nové Clear all devices odpojí i Drawing a pravé tlačítko na Device nabízí Delete.",
+        "**Grid a rozvržení:** Radar běží stabilně na 30 FPS s živým zobrazením FPS, Delete smaže vybrané logo a karty se při otevření už neposouvají ani neukazují posuvník."
+      ],
+      "fi": [
+        "**Drawing:** korjattu ohjelman sulkeutuminen, kun Drawing avattiin ensimmäisen osoitteistuksen jälkeen. Portti, jossa on jo kaapeli, valitsee nyt sen kaapelin (Delete poistaa sen).",
+        "**Connection ja Drawing tahdissa:** kumpikin välilehti näyttää toisen live-PiP:ssä (vaihda napsauttamalla). Clear, Clear all ja uusi Clear all devices irrottavat myös Drawingin, ja Device-kohteen hiiren oikealla painikkeella saa Delete-valinnan.",
+        "**Grid ja asettelu:** Tutka pyörii tasaisesti 30 FPS:llä ja näyttää FPS:n reaaliajassa, Delete poistaa valitun logon, eivätkä välilehdet enää siirry tai näytä vierityspalkkia avautuessaan."
+      ],
+      "el": [
+        "**Drawing:** διορθώθηκε το κλείσιμο του προγράμματος κατά το άνοιγμα του Drawing μετά την πρώτη διευθυνσιοδότηση. Μια θύρα που έχει ήδη καλώδιο επιλέγει τώρα αυτό το καλώδιο (το Delete το διαγράφει).",
+        "**Connection και Drawing συγχρονισμένα:** κάθε καρτέλα δείχνει την άλλη σε ζωντανό PiP (κλικ για εναλλαγή). Τα Clear, Clear all και το νέο Clear all devices αποσυνδέουν και το Drawing, και το δεξί κλικ σε ένα Device προσφέρει Delete.",
+        "**Grid και διάταξη:** το Ραντάρ τρέχει σταθερά στα 30 FPS με ζωντανή ένδειξη FPS, το Delete διαγράφει το επιλεγμένο λογότυπο και οι καρτέλες δεν μετακινούνται πια ούτε δείχνουν γραμμή κύλισης όταν ανοίγουν."
+      ],
+      "ha": [
+        "**Drawing:** an gyara rufewar shirin idan aka buɗe Drawing bayan adireshi na farko. Tashar da ta riga tana da waya yanzu tana zaɓar wannan wayar (Delete yana goge ta).",
+        "**Connection da Drawing tare:** kowane shafi yana nuna ɗayan a PiP kai tsaye (danna don sauyawa). Clear, Clear all da sabon Clear all devices suma suna cire haɗin Drawing, kuma danna dama a kan Device yana ba da Delete.",
+        "**Grid da tsari:** Radar yana tafiya daidai a 30 FPS tare da nuna FPS kai tsaye, Delete yana goge tambarin da aka zaɓa, kuma shafuka ba sa sake motsawa ko nuna sandar gungurawa idan an buɗe su."
+      ],
+      "ro": [
+        "**Drawing:** s-a corectat închiderea programului la deschiderea Drawing după prima adresare. Un port care are deja cablu selectează acum acel cablu (Delete îl șterge).",
+        "**Connection și Drawing sincronizate:** fiecare filă o arată pe cealaltă într-un PiP live (clic pentru comutare). Clear, Clear all și noul Clear all devices deconectează și Drawing, iar clicul dreapta pe un Device oferă Delete.",
+        "**Grid și aspect:** Radarul rulează stabil la 30 FPS cu afișarea FPS în timp real, Delete șterge logoul ales, iar filele nu se mai deplasează și nu mai arată bară de derulare la deschidere."
+      ],
+      "yo": [
+        "**Drawing:** a ti tún ètò tí ó ń pa ara rẹ̀ nígbà tí a bá ṣí Drawing lẹ́yìn ìfàdírẹ́sì àkọ́kọ́ ṣe. Èbúté tí ó ti ní okùn báyìí ń yan okùn náà (Delete ń pa á rẹ́).",
+        "**Connection àti Drawing ń bá ara wọn rìn:** táàbù kọ̀ọ̀kan ń fi èkejì hàn nínú PiP tààrà (tẹ̀ láti yípadà). Clear, Clear all àti Clear all devices tuntun náà ń yọ ìsopọ̀ Drawing, títẹ̀ ọ̀tún lórí Device sì ń fi Delete hàn.",
+        "**Grid àti ìtò:** Radar ń lọ déédéé ní 30 FPS pẹ̀lú àfihàn FPS tààrà, Delete ń pa àmì tí a yàn rẹ́, àwọn táàbù kò sì yí ipò padà mọ́ tàbí fi ọ̀pá ìyílọ hàn nígbà tí wọ́n bá ṣí."
+      ],
+      "zu": [
+        "**Drawing:** kulungisiwe ukuvalwa kohlelo lapho kuvulwa i-Drawing ngemuva kokwabiwa kwamakheli kokuqala. Imbobo esivele inentambo manje ikhetha leyo ntambo (i-Delete iyayisusa).",
+        "**I-Connection ne-Drawing kuhambisana:** ithebhu ngayinye ikhombisa enye ku-PiP ebukhoma (chofoza ukuze ushintshe). I-Clear, i-Clear all ne-Clear all devices entsha nazo zinqamula i-Drawing, futhi ukuchofoza kwesokudla ku-Device kunikeza i-Delete.",
+        "**I-Grid nesakhiwo:** i-Radar isebenza ngokuzinza ku-30 FPS ikhombisa i-FPS bukhoma, i-Delete isusa ilogo ekhethiwe, futhi amathebhu awasashintshi noma akhombise ibha yokuskrola lapho evulwa."
+      ],
+      "fil": [
+        "**Drawing:** naayos ang pagsara ng programa kapag binuksan ang Drawing pagkatapos ng unang addressing. Ang port na may cable na ay pumipili na ngayon sa cable na iyon (binubura ito ng Delete).",
+        "**Naka-sync ang Connection at Drawing:** ipinapakita ng bawat tab ang isa pa sa live na PiP (i-click para lumipat). Dinidiskonekta rin ng Clear, Clear all at ng bagong Clear all devices ang Drawing, at may Delete kapag nag-right-click sa isang Device.",
+        "**Grid at layout:** tumatakbo nang matatag sa 30 FPS ang Radar na may live na FPS, binubura ng Delete ang napiling logo, at hindi na gumagalaw o nagpapakita ng scrollbar ang mga tab kapag binubuksan."
+      ],
+      "ta": [
+        "**Drawing:** முதல் முகவரியிடலுக்குப் பிறகு Drawing-ஐத் திறக்கும்போது நிரல் மூடப்படும் சிக்கல் சரிசெய்யப்பட்டது. ஏற்கனவே கேபிள் உள்ள போர்ட் இப்போது அந்தக் கேபிளைத் தேர்ந்தெடுக்கும் (Delete நீக்கும்).",
+        "**Connection, Drawing ஒத்திசைவு:** ஒவ்வொரு தாவலும் மற்றதை நேரடி PiP-இல் காட்டும் (மாற கிளிக் செய்யவும்). Clear, Clear all மற்றும் புதிய Clear all devices Drawing-ஐயும் துண்டிக்கும்; Device மீது வலது கிளிக் செய்தால் Delete கிடைக்கும்.",
+        "**Grid, அமைப்பு:** ரேடார் நேரடி FPS காட்சியுடன் நிலையாக 30 FPS-இல் இயங்கும், Delete தேர்ந்த லோகோவை நீக்கும், தாவல்கள் திறக்கும்போது இனி நகராது, உருள்பட்டியும் காட்டாது."
+      ],
+      "te": [
+        "**Drawing:** మొదటి అడ్రెసింగ్ తర్వాత Drawing తెరిస్తే ప్రోగ్రామ్ మూసుకుపోయే సమస్యను సరిచేశాం. ఇప్పటికే కేబుల్ ఉన్న పోర్ట్ ఇప్పుడు ఆ కేబుల్‌ను ఎంచుకుంటుంది (Delete తొలగిస్తుంది).",
+        "**Connection, Drawing సమకాలీకరణ:** ప్రతి ట్యాబ్ మరోదాన్ని లైవ్ PiP లో చూపిస్తుంది (మారడానికి క్లిక్ చేయండి). Clear, Clear all, కొత్త Clear all devices Drawing ను కూడా డిస్‌కనెక్ట్ చేస్తాయి; Device పై కుడి క్లిక్ చేస్తే Delete వస్తుంది.",
+        "**Grid, అమరిక:** రాడార్ లైవ్ FPS తో స్థిరంగా 30 FPS వద్ద నడుస్తుంది, Delete ఎంచుకున్న లోగోను తొలగిస్తుంది, ట్యాబ్‌లు తెరిచేటప్పుడు ఇక కదలవు, స్క్రోల్‌బార్ కూడా కనిపించదు."
+      ],
+      "mr": [
+        "**Drawing:** पहिल्या अ‍ॅड्रेसिंगनंतर Drawing उघडल्यावर प्रोग्राम बंद होण्याची समस्या दुरुस्त केली. ज्या पोर्टला आधीच केबल आहे तो आता ती केबल निवडतो (Delete काढतो).",
+        "**Connection आणि Drawing समक्रमित:** प्रत्येक टॅब दुसरा लाइव्ह PiP मध्ये दाखवतो (बदलण्यासाठी क्लिक करा). Clear, Clear all आणि नवीन Clear all devices Drawing देखील डिस्कनेक्ट करतात, आणि Device वर राइट-क्लिक केल्यावर Delete मिळते.",
+        "**Grid आणि मांडणी:** रडार लाइव्ह FPS सह स्थिर 30 FPS वर चालतो, Delete निवडलेला लोगो काढतो, आणि टॅब उघडताना आता सरकत नाहीत किंवा स्क्रोलबार दाखवत नाहीत."
+      ],
+      "da": [
+        "**Drawing:** rettet at programmet lukkede, når Drawing blev åbnet efter den første adressering. En port, der allerede har et kabel, vælger nu det kabel (Delete sletter det).",
+        "**Connection og Drawing i synk:** hver fane viser den anden i en live-PiP (klik for at skifte). Clear, Clear all og den nye Clear all devices frakobler også Drawing, og højreklik på en Device giver Delete.",
+        "**Grid og layout:** Radaren kører stabilt med 30 FPS og live-visning af FPS, Delete sletter det valgte logo, og fanerne flytter sig ikke længere eller viser rullepanel, når de åbnes."
+      ],
+      "nb": [
+        "**Drawing:** rettet at programmet lukket seg når Drawing ble åpnet etter den første adresseringen. En port som allerede har en kabel, velger nå den kabelen (Delete sletter den).",
+        "**Connection og Drawing i synk:** hver fane viser den andre i en live-PiP (klikk for å bytte). Clear, Clear all og den nye Clear all devices kobler også fra Drawing, og høyreklikk på en Device gir Delete.",
+        "**Grid og oppsett:** Radaren går stabilt i 30 FPS med live FPS-visning, Delete sletter den valgte logoen, og fanene flytter seg ikke lenger eller viser rullefelt når de åpnes."
+      ],
+      "lt": [
+        "**Drawing:** ištaisytas programos užsidarymas atidarant Drawing po pirmo adresavimo. Prievadas, kuris jau turi kabelį, dabar pažymi tą kabelį (Delete jį ištrina).",
+        "**Connection ir Drawing sinchronizuoti:** kiekvienas skirtukas rodo kitą tiesioginiame PiP (spustelėkite, kad perjungtumėte). Clear, Clear all ir naujas Clear all devices atjungia ir Drawing, o dešiniuoju pelės mygtuku ant Device rodomas Delete.",
+        "**Grid ir išdėstymas:** Radaras stabiliai veikia 30 FPS su tiesioginiu FPS rodmeniu, Delete ištrina pasirinktą logotipą, o skirtukai atidarant nebejuda ir nerodo slinkties juostos."
+      ],
+      "et": [
+        "**Drawing:** parandatud programmi sulgumine Drawingu avamisel pärast esimest adresseerimist. Port, millel on juba kaabel, valib nüüd selle kaabli (Delete kustutab selle).",
+        "**Connection ja Drawing sünkroonis:** kumbki vahekaart näitab teist reaalajas PiP-is (vahetamiseks klõpsake). Clear, Clear all ja uus Clear all devices lahutavad ka Drawingu ning paremklõps Device'il pakub Delete'i.",
+        "**Grid ja paigutus:** Radar töötab stabiilselt 30 FPS-iga ja näitab FPS-i reaalajas, Delete kustutab valitud logo ning vahekaardid ei nihku ega näita avamisel enam kerimisriba."
+      ],
+      "sk": [
+        "**Drawing:** opravené zatváranie programu pri otvorení Drawing po prvom adresovaní. Port, ktorý už má kábel, teraz vyberie tento kábel (Delete ho vymaže).",
+        "**Connection a Drawing synchronizované:** každá karta ukazuje tú druhú v živom PiP (kliknutím prepnete). Clear, Clear all a nové Clear all devices odpoja aj Drawing a pravé tlačidlo na Device ponúka Delete.",
+        "**Grid a rozloženie:** Radar beží stabilne na 30 FPS so živým zobrazením FPS, Delete vymaže vybrané logo a karty sa pri otvorení už neposúvajú ani neukazujú posuvník."
+      ],
+      "bg": [
+        "**Drawing:** поправено затварянето на програмата при отваряне на Drawing след първото адресиране. Порт, който вече има кабел, сега избира този кабел (Delete го изтрива).",
+        "**Connection и Drawing синхронизирани:** всеки раздел показва другия в PiP на живо (щракнете за превключване). Clear, Clear all и новият Clear all devices разкачват и Drawing, а десен бутон върху Device предлага Delete.",
+        "**Grid и оформление:** Радарът работи стабилно на 30 FPS с показване на FPS на живо, Delete изтрива избраното лого, а разделите вече не се местят и не показват лента за превъртане при отваряне."
+      ],
+      "sr": [
+        "**Drawing:** исправљено затварање програма при отварању Drawing након првог адресирања. Порт који већ има кабл сада бира тај кабл (Delete га брише).",
+        "**Connection и Drawing усклађени:** свака картица приказује другу у PiP уживо (кликните за прелаз). Clear, Clear all и нови Clear all devices искључују и Drawing, а десни клик на Device нуди Delete.",
+        "**Grid и распоред:** Радар ради стабилно на 30 FPS уз приказ FPS уживо, Delete брише изабрани лого, а картице се при отварању више не померају нити приказују траку за померање."
+      ],
+      "hr": [
+        "**Drawing:** ispravljeno zatvaranje programa pri otvaranju Drawinga nakon prvog adresiranja. Priključak koji već ima kabel sada odabire taj kabel (Delete ga briše).",
+        "**Connection i Drawing usklađeni:** svaka kartica prikazuje drugu u PiP-u uživo (kliknite za prelazak). Clear, Clear all i novi Clear all devices odspajaju i Drawing, a desni klik na Device nudi Delete.",
+        "**Grid i raspored:** Radar radi stabilno na 30 FPS uz prikaz FPS-a uživo, Delete briše odabrani logotip, a kartice se pri otvaranju više ne pomiču niti prikazuju traku za pomicanje."
+      ],
+      "gu": [
+        "**Drawing:** પ્રથમ એડ્રેસિંગ પછી Drawing ખોલતાં પ્રોગ્રામ બંધ થવાની સમસ્યા સુધારી. જે પોર્ટમાં પહેલેથી કેબલ છે તે હવે એ કેબલ પસંદ કરે છે (Delete કાઢી નાખે છે).",
+        "**Connection અને Drawing સમન્વયમાં:** દરેક ટેબ બીજાને લાઇવ PiP માં બતાવે છે (બદલવા ક્લિક કરો). Clear, Clear all અને નવું Clear all devices Drawing ને પણ ડિસ્કનેક્ટ કરે છે, અને Device પર જમણું ક્લિક કરતાં Delete મળે છે.",
+        "**Grid અને ગોઠવણ:** રડાર લાઇવ FPS સાથે સ્થિર 30 FPS પર ચાલે છે, Delete પસંદ કરેલો લોગો કાઢે છે, અને ટેબ ખૂલતી વખતે હવે ખસતા નથી કે સ્ક્રોલબાર બતાવતા નથી."
+      ],
+      "pa": [
+        "**Drawing:** ਪਹਿਲੀ ਐਡਰੈਸਿੰਗ ਤੋਂ ਬਾਅਦ Drawing ਖੋਲ੍ਹਣ ਤੇ ਪ੍ਰੋਗਰਾਮ ਬੰਦ ਹੋਣ ਦੀ ਸਮੱਸਿਆ ਠੀਕ ਕੀਤੀ। ਜਿਸ ਪੋਰਟ ਵਿੱਚ ਪਹਿਲਾਂ ਹੀ ਕੇਬਲ ਹੈ, ਉਹ ਹੁਣ ਉਸ ਕੇਬਲ ਨੂੰ ਚੁਣਦਾ ਹੈ (Delete ਹਟਾਉਂਦਾ ਹੈ)।",
+        "**Connection ਅਤੇ Drawing ਇਕਸਾਰ:** ਹਰ ਟੈਬ ਦੂਜੇ ਨੂੰ ਲਾਈਵ PiP ਵਿੱਚ ਦਿਖਾਉਂਦਾ ਹੈ (ਬਦਲਣ ਲਈ ਕਲਿੱਕ ਕਰੋ)। Clear, Clear all ਅਤੇ ਨਵਾਂ Clear all devices Drawing ਨੂੰ ਵੀ ਡਿਸਕਨੈਕਟ ਕਰਦੇ ਹਨ, ਅਤੇ Device ਤੇ ਸੱਜਾ ਕਲਿੱਕ ਕਰਨ ਤੇ Delete ਮਿਲਦਾ ਹੈ।",
+        "**Grid ਅਤੇ ਖਾਕਾ:** ਰਡਾਰ ਲਾਈਵ FPS ਨਾਲ ਸਥਿਰ 30 FPS ਤੇ ਚੱਲਦਾ ਹੈ, Delete ਚੁਣੇ ਲੋਗੋ ਨੂੰ ਹਟਾਉਂਦਾ ਹੈ, ਅਤੇ ਟੈਬ ਖੁੱਲ੍ਹਣ ਵੇਲੇ ਹੁਣ ਨਾ ਖਿਸਕਦੇ ਹਨ ਨਾ ਸਕ੍ਰੋਲਬਾਰ ਦਿਖਾਉਂਦੇ ਹਨ।"
+      ],
+      "kn": [
+        "**Drawing:** ಮೊದಲ ವಿಳಾಸ ನಿಗದಿಯ ನಂತರ Drawing ತೆರೆದಾಗ ಪ್ರೋಗ್ರಾಂ ಮುಚ್ಚುತ್ತಿದ್ದ ಸಮಸ್ಯೆಯನ್ನು ಸರಿಪಡಿಸಲಾಗಿದೆ. ಈಗಾಗಲೇ ಕೇಬಲ್ ಇರುವ ಪೋರ್ಟ್ ಈಗ ಆ ಕೇಬಲ್ ಅನ್ನು ಆಯ್ಕೆ ಮಾಡುತ್ತದೆ (Delete ಅಳಿಸುತ್ತದೆ).",
+        "**Connection ಮತ್ತು Drawing ಸಮನ್ವಯ:** ಪ್ರತಿ ಟ್ಯಾಬ್ ಇನ್ನೊಂದನ್ನು ಲೈವ್ PiP ನಲ್ಲಿ ತೋರಿಸುತ್ತದೆ (ಬದಲಾಯಿಸಲು ಕ್ಲಿಕ್ ಮಾಡಿ). Clear, Clear all ಮತ್ತು ಹೊಸ Clear all devices Drawing ಅನ್ನೂ ಸಂಪರ್ಕ ಕಡಿತಗೊಳಿಸುತ್ತವೆ; Device ಮೇಲೆ ಬಲ ಕ್ಲಿಕ್ ಮಾಡಿದರೆ Delete ಸಿಗುತ್ತದೆ.",
+        "**Grid ಮತ್ತು ವಿನ್ಯಾಸ:** ರೇಡಾರ್ ಲೈವ್ FPS ಜೊತೆ ಸ್ಥಿರವಾಗಿ 30 FPS ನಲ್ಲಿ ಓಡುತ್ತದೆ, Delete ಆಯ್ಕೆ ಮಾಡಿದ ಲೋಗೋವನ್ನು ಅಳಿಸುತ್ತದೆ, ಮತ್ತು ಟ್ಯಾಬ್‌ಗಳು ತೆರೆಯುವಾಗ ಇನ್ನು ಸರಿಯುವುದಿಲ್ಲ ಅಥವಾ ಸ್ಕ್ರೋಲ್‌ಬಾರ್ ತೋರಿಸುವುದಿಲ್ಲ."
+      ],
+      "ne": [
+        "**Drawing:** पहिलो ठेगाना निर्धारणपछि Drawing खोल्दा प्रोग्राम बन्द हुने समस्या सच्याइयो। पहिले नै केबल भएको पोर्टले अब त्यही केबल छान्छ (Delete ले मेटाउँछ)।",
+        "**Connection र Drawing मिलाइएको:** हरेक ट्याबले अर्कोलाई प्रत्यक्ष PiP मा देखाउँछ (बदल्न क्लिक गर्नुहोस्)। Clear, Clear all र नयाँ Clear all devices ले Drawing पनि छुटाउँछन्, र Device मा दायाँ क्लिक गर्दा Delete आउँछ।",
+        "**Grid र लेआउट:** रडार प्रत्यक्ष FPS सहित स्थिर 30 FPS मा चल्छ, Delete ले छानिएको लोगो मेटाउँछ, र ट्याबहरू खोल्दा अब सर्दैनन् वा स्क्रोलबार देखाउँदैनन्।"
+      ],
+      "km": [
+        "**Drawing:** បានជួសជុលការបិទកម្មវិធី ពេលបើក Drawing បន្ទាប់ពីការកំណត់អាសយដ្ឋានលើកដំបូង។ ច្រកដែលមានខ្សែរួចហើយ ឥឡូវជ្រើសខ្សែនោះ (Delete លុបវា)។",
+        "**Connection និង Drawing ធ្វើសមកាលកម្ម:** ផ្ទាំងនីមួយៗបង្ហាញផ្ទាំងមួយទៀតក្នុង PiP ផ្ទាល់ (ចុចដើម្បីប្តូរ)។ Clear, Clear all និង Clear all devices ថ្មី ក៏ផ្តាច់ Drawing ដែរ ហើយការចុចកណ្តុរស្តាំលើ Device ផ្តល់ Delete។",
+        "**Grid និងប្លង់:** រ៉ាដាដំណើរការថេរ 30 FPS ជាមួយការបង្ហាញ FPS ផ្ទាល់ Delete លុបឡូហ្គោដែលបានជ្រើស ហើយផ្ទាំងលែងរំកិល ឬបង្ហាញរបាររំកិល ពេលបើកទៀតហើយ។"
+      ],
+      "kk": [
+        "**Drawing:** бірінші адрестеуден кейін Drawing ашқанда бағдарламаның жабылуы түзетілді. Кабелі бар порт енді сол кабельді таңдайды (Delete оны жояды).",
+        "**Connection мен Drawing үндестірілген:** әр қойынды екіншісін тікелей PiP-те көрсетеді (ауысу үшін басыңыз). Clear, Clear all және жаңа Clear all devices Drawing-ті де ажыратады, ал Device үстінде оң жақ басу Delete ұсынады.",
+        "**Grid және орналасу:** Радар тікелей FPS көрсеткішімен тұрақты 30 FPS-те жұмыс істейді, Delete таңдалған логотипті жояды, ал қойындылар ашылғанда енді жылжымайды әрі айналдыру жолағын көрсетпейді."
+      ],
+      "uz": [
+        "**Drawing:** birinchi manzillashdan keyin Drawing ochilganda dastur yopilishi tuzatildi. Kabeli bor port endi o‘sha kabelni tanlaydi (Delete o‘chiradi).",
+        "**Connection va Drawing uyg‘un:** har bir yorliq ikkinchisini jonli PiP'da ko‘rsatadi (almashish uchun bosing). Clear, Clear all va yangi Clear all devices Drawing'ni ham uzadi, Device ustida o‘ng tugmani bosganda Delete chiqadi.",
+        "**Grid va joylashuv:** Radar jonli FPS ko‘rsatkichi bilan barqaror 30 FPS'da ishlaydi, Delete tanlangan logotipni o‘chiradi, yorliqlar ochilganda endi siljimaydi va aylantirish chizig‘ini ko‘rsatmaydi."
+      ],
+      "am": [
+        "**Drawing:** ከመጀመሪያው አድራሻ ምደባ በኋላ Drawing ሲከፈት ፕሮግራሙ መዘጋቱ ተስተካክሏል። ቀድሞ ገመድ ያለው ፖርት አሁን ያንን ገመድ ይመርጣል (Delete ይሰርዘዋል)።",
+        "**Connection እና Drawing ተመሳስለው:** እያንዳንዱ ትር ሌላውን በቀጥታ PiP ያሳያል (ለመቀየር ይጫኑ)። Clear፣ Clear all እና አዲሱ Clear all devices Drawingንም ያላቅቃሉ፣ በ Device ላይ በቀኝ ጠቅ ማድረግ Delete ያቀርባል።",
+        "**Grid እና አቀማመጥ:** ራዳሩ ከቀጥታ የFPS ማሳያ ጋር በቋሚ 30 FPS ይሰራል፣ Delete የተመረጠውን ሎጎ ይሰርዛል፣ ትሮቹም ሲከፈቱ ከእንግዲህ አይንቀሳቀሱም ወይም የማሸብለያ አሞሌ አያሳዩም።"
+      ],
+      "sl": [
+        "**Drawing:** odpravljeno zapiranje programa ob odpiranju Drawing po prvem naslavljanju. Vrata, ki že imajo kabel, zdaj izberejo ta kabel (Delete ga izbriše).",
+        "**Connection in Drawing usklajena:** vsak zavihek prikazuje drugega v živem PiP (kliknite za preklop). Clear, Clear all in novi Clear all devices odklopijo tudi Drawing, desni klik na Device pa ponudi Delete.",
+        "**Grid in postavitev:** Radar teče stabilno pri 30 FPS s prikazom FPS v živo, Delete izbriše izbrani logotip, zavihki pa se ob odpiranju ne premikajo več in ne kažejo drsnega traku."
+      ],
+      "kab": [
+        "**Drawing:** yettwaseggem usekker n wahil mi ara yeldi Drawing deffir n tansa tamezwarut. Tawwurt yesεan yakan cable tetteffren tura cable-nni (Delete yekkes-it).",
+        "**Connection d Drawing mtawan:** yal iccer yesskanay wayeḍ deg PiP srid (sit akken ad tbeddleḍ). Clear, Clear all d Clear all devices amaynut gezmen ula d Drawing, yerna asiti s ufus ayeffus ɣef Device yefka-d Delete.",
+        "**Grid d usuddes:** Radar yetteddu s 30 FPS yerkden s uskan n FPS srid, Delete yekkes alugu yettwafernen, iccaren ur ttembiwilen ara, ur d-sskanayen ara afeggag n usenkez mi ara ldin."
+      ]
+    },
     "2.9.8": {
       "en": [
         "**Grid:** new Effects box with a slow Radar sweep, solid colors (red, green, blue, white) in Pattern, and the arrow keys move the selected logo. The toolbar is cleaner and stays still.",
@@ -666,188 +968,6 @@
         "**Connection:** sit s afus ayeffus ɣef Device akken ad tferneḍ amḍan n ports-ines. Kabel amaynut ad yeddu ɣer port i d-iteddun n Device-nni alamma yeččur.",
         "**Drawing:** yiwen n upanel Tools kan (Center view yettwaxdem neɣ yettwakkes). RJ45 yettwaserrḥen ɣef panel ad yeqqen ɣer sending card n panel-nni, ara yeftilen s tansiwin-ines. Sit snat n tikkal ɣef kabel RJ45 akken ad ternuḍ aḍris neɣ taṭṭuft n usmutti. Insert logo yernu alugu kan.",
         "**Grid, 3D Stage d Status:** alugu n Grid yettemlil d yiri yerna yetteddu s yineccaben; takarḍa n ports RJ45 tetteddu mi ara ilin aṭas n Devices."
-      ]
-    },
-    "2.9.6": {
-      "en": [
-        "**Pixel Mapping:** the corner handles turn off by themselves when you finish resizing a screen. Turn them on again to resize another one."
-      ],
-      "pt": [
-        "**Pixel Mapping:** as alças dos cantos desligam sozinhas quando você termina de redimensionar uma tela. Ligue de novo para redimensionar outra."
-      ],
-      "es": [
-        "**Pixel Mapping:** las asas de las esquinas se apagan solas cuando terminas de redimensionar una pantalla. Vuelve a activarlas para redimensionar otra."
-      ],
-      "fr": [
-        "**Pixel Mapping :** les poignées des coins se désactivent seules quand vous finissez de redimensionner un écran. Réactivez-les pour en redimensionner un autre."
-      ],
-      "de": [
-        "**Pixel Mapping:** Die Eckgriffe schalten sich von selbst aus, wenn Sie einen Screen fertig skaliert haben. Schalten Sie sie wieder ein, um einen anderen zu skalieren."
-      ],
-      "it": [
-        "**Pixel Mapping:** le maniglie degli angoli si spengono da sole quando finisci di ridimensionare uno schermo. Riattivale per ridimensionarne un altro."
-      ],
-      "nl": [
-        "**Pixel Mapping:** de hoekgrepen gaan vanzelf uit als je klaar bent met het schalen van een scherm. Zet ze weer aan om een ander scherm te schalen."
-      ],
-      "ru": [
-        "**Pixel Mapping:** угловые маркеры выключаются сами, когда вы закончили менять размер экрана. Включите их снова, чтобы изменить другой."
-      ],
-      "tr": [
-        "**Pixel Mapping:** bir ekranı yeniden boyutlandırmayı bitirdiğinizde köşe tutamaçları kendiliğinden kapanır. Başka birini boyutlandırmak için yeniden açın."
-      ],
-      "id": [
-        "**Pixel Mapping:** pegangan sudut mati sendiri saat Anda selesai mengubah ukuran layar. Nyalakan lagi untuk mengubah ukuran layar lain."
-      ],
-      "hu": [
-        "**Pixel Mapping:** a sarokfogantyúk maguktól kikapcsolnak, amikor befejezi egy képernyő átméretezését. Kapcsolja be újra egy másik átméretezéséhez."
-      ],
-      "zh-Hans": [
-        "**Pixel Mapping：** 调整完一个屏幕的大小后，角点手柄会自动关闭。要调整另一个屏幕，请重新打开。"
-      ],
-      "zh-Hant": [
-        "**Pixel Mapping：** 調整完一個螢幕的大小後，角落控點會自動關閉。要調整另一個螢幕，請重新開啟。"
-      ],
-      "ja": [
-        "**Pixel Mapping：** 画面のサイズ変更が終わると、角のハンドルは自動でオフになります。別の画面を変更するときは、もう一度オンにしてください。"
-      ],
-      "ko": [
-        "**Pixel Mapping:** 화면 크기 조절을 마치면 모서리 핸들이 자동으로 꺼집니다. 다른 화면을 조절하려면 다시 켜세요."
-      ],
-      "ar": [
-        "**Pixel Mapping:** تنطفئ مقابض الزوايا تلقائيًا عند الانتهاء من تغيير حجم الشاشة. شغّلها مرة أخرى لتغيير حجم شاشة أخرى."
-      ],
-      "th": [
-        "**Pixel Mapping:** จุดจับที่มุมจะปิดเองเมื่อปรับขนาดหน้าจอเสร็จ เปิดอีกครั้งเพื่อปรับขนาดหน้าจออื่น"
-      ],
-      "hi": [
-        "**Pixel Mapping:** स्क्रीन का आकार बदलना पूरा होते ही कोनों के हैंडल अपने आप बंद हो जाते हैं। दूसरी स्क्रीन के लिए उन्हें फिर से चालू करें।"
-      ],
-      "vi": [
-        "**Pixel Mapping:** các tay nắm ở góc tự tắt khi bạn chỉnh kích thước màn hình xong. Bật lại để chỉnh màn hình khác."
-      ],
-      "bn": [
-        "**Pixel Mapping:** একটি স্ক্রিনের আকার বদলানো শেষ হলে কোণের হ্যান্ডেল নিজে থেকেই বন্ধ হয়ে যায়। অন্যটির জন্য আবার চালু করুন।"
-      ],
-      "ms": [
-        "**Pixel Mapping:** pemegang sudut mati sendiri apabila anda selesai mengubah saiz skrin. Hidupkan semula untuk mengubah saiz skrin lain."
-      ],
-      "sv": [
-        "**Pixel Mapping:** hörnhandtagen stängs av av sig själva när du har ändrat storlek på en skärm. Slå på dem igen för att ändra en annan."
-      ],
-      "ur": [
-        "**Pixel Mapping:** اسکرین کا سائز بدلنا مکمل ہوتے ہی کونوں کے ہینڈل خود بند ہو جاتے ہیں۔ دوسری اسکرین کے لیے انہیں دوبارہ آن کریں۔"
-      ],
-      "sw": [
-        "**Pixel Mapping:** vishikio vya pembe hujizima vyenyewe unapomaliza kubadilisha ukubwa wa skrini. Viwashe tena ili kubadilisha nyingine."
-      ],
-      "gn": [
-        "**Pixel Mapping:** esquina rehegua ojeguejy ijeheguiete remohu’ãvo pantalla tuichakue ñemoambue. Emyendy jey emoambue haĝua ambue."
-      ],
-      "he": [
-        "**Pixel Mapping:** ידיות הפינות נכבות מעצמן כשמסיימים לשנות גודל של מסך. הפעילו אותן שוב כדי לשנות גודל של מסך אחר."
-      ],
-      "lv": [
-        "**Pixel Mapping:** stūru turi izslēdzas paši, kad esat pabeidzis mainīt ekrāna izmēru. Ieslēdziet tos atkal, lai mainītu citu."
-      ],
-      "fa": [
-        "**Pixel Mapping:** دستگیره‌های گوشه وقتی تغییر اندازه یک صفحه تمام شد خودشان خاموش می‌شوند. برای صفحه دیگر دوباره روشنشان کنید."
-      ],
-      "pl": [
-        "**Pixel Mapping:** uchwyty narożników wyłączają się same po zakończeniu zmiany rozmiaru ekranu. Włącz je ponownie, aby zmienić inny."
-      ],
-      "uk": [
-        "**Pixel Mapping:** кутові маркери вимикаються самі, коли ви закінчили змінювати розмір екрана. Увімкніть їх знову, щоб змінити інший."
-      ],
-      "ca": [
-        "**Pixel Mapping:** les nanses de les cantonades s’apaguen soles quan acabes de redimensionar una pantalla. Torna-les a activar per redimensionar-ne una altra."
-      ],
-      "cs": [
-        "**Pixel Mapping:** rohové úchyty se samy vypnou, když dokončíte změnu velikosti obrazovky. Pro změnu jiné je znovu zapněte."
-      ],
-      "fi": [
-        "**Pixel Mapping:** kulmakahvat sammuvat itsestään, kun olet muuttanut näytön koon. Ota ne uudelleen käyttöön toisen näytön kokoa varten."
-      ],
-      "el": [
-        "**Pixel Mapping:** οι λαβές των γωνιών απενεργοποιούνται μόνες τους όταν τελειώσετε την αλλαγή μεγέθους μιας οθόνης. Ενεργοποιήστε τις ξανά για άλλη οθόνη."
-      ],
-      "ha": [
-        "**Pixel Mapping:** maƙallan kusurwa suna kashe kansu idan ka gama canza girman allo. Kunna su kuma don canza wani."
-      ],
-      "ro": [
-        "**Pixel Mapping:** mânerele din colțuri se opresc singure când termini de redimensionat un ecran. Pornește-le din nou pentru a redimensiona altul."
-      ],
-      "yo": [
-        "**Pixel Mapping:** àwọn ìmú igun máa ń pa ara wọn nígbà tí o bá parí yíyí ìwọ̀n ìbojú padà. Tàn wọ́n lẹ́ẹ̀kan sí i láti yí òmíràn padà."
-      ],
-      "zu": [
-        "**Pixel Mapping:** izibambo zamakhona ziyacisha zodwa uma uqeda ukushintsha usayizi wesikrini. Zivule futhi ukuze ushintshe esinye."
-      ],
-      "fil": [
-        "**Pixel Mapping:** kusang namamatay ang mga hawakan sa sulok kapag tapos mo nang baguhin ang laki ng screen. Buksan ulit para baguhin ang iba."
-      ],
-      "ta": [
-        "**Pixel Mapping:** திரையின் அளவை மாற்றி முடித்ததும் மூலைக் கைப்பிடிகள் தானாக அணையும். வேறொன்றை மாற்ற மீண்டும் இயக்கவும்."
-      ],
-      "te": [
-        "**Pixel Mapping:** స్క్రీన్ పరిమాణం మార్చడం పూర్తయిన వెంటనే మూల హ్యాండిల్స్ వాటంతటవే ఆగిపోతాయి. మరొకదాని కోసం మళ్లీ ఆన్ చేయండి."
-      ],
-      "mr": [
-        "**Pixel Mapping:** स्क्रीनचा आकार बदलून झाल्यावर कोपऱ्यांचे हँडल आपोआप बंद होतात. दुसऱ्या स्क्रीनसाठी ते पुन्हा चालू करा."
-      ],
-      "da": [
-        "**Pixel Mapping:** hjørnehåndtagene slukker af sig selv, når du er færdig med at ændre størrelse på en skærm. Tænd dem igen for at ændre en anden."
-      ],
-      "nb": [
-        "**Pixel Mapping:** hjørnehåndtakene slår seg av selv når du er ferdig med å endre størrelse på en skjerm. Slå dem på igjen for å endre en annen."
-      ],
-      "lt": [
-        "**Pixel Mapping:** kampų rankenos išsijungia pačios, kai baigiate keisti ekrano dydį. Įjunkite jas vėl, kad pakeistumėte kitą."
-      ],
-      "et": [
-        "**Pixel Mapping:** nurgapidemed lülituvad ise välja, kui ekraani suuruse muutmine on lõpetatud. Lülitage need teise jaoks uuesti sisse."
-      ],
-      "sk": [
-        "**Pixel Mapping:** rohové úchyty sa samy vypnú, keď dokončíte zmenu veľkosti obrazovky. Pre zmenu inej ich znova zapnite."
-      ],
-      "bg": [
-        "**Pixel Mapping:** ъгловите дръжки се изключват сами, когато приключите с преоразмеряването на екран. Включете ги отново за друг екран."
-      ],
-      "sr": [
-        "**Pixel Mapping:** ручке на угловима се саме искључују када завршите промену величине екрана. Укључите их поново за други екран."
-      ],
-      "hr": [
-        "**Pixel Mapping:** hvatišta u kutovima sama se isključe kad završite promjenu veličine zaslona. Ponovno ih uključite za drugi zaslon."
-      ],
-      "gu": [
-        "**Pixel Mapping:** સ્ક્રીનનું કદ બદલવાનું પૂરું થતાં ખૂણાના હેન્ડલ આપોઆપ બંધ થાય છે. બીજી સ્ક્રીન માટે ફરી ચાલુ કરો."
-      ],
-      "pa": [
-        "**Pixel Mapping:** ਸਕ੍ਰੀਨ ਦਾ ਆਕਾਰ ਬਦਲਣਾ ਪੂਰਾ ਹੁੰਦੇ ਹੀ ਕੋਨਿਆਂ ਦੇ ਹੈਂਡਲ ਆਪਣੇ ਆਪ ਬੰਦ ਹੋ ਜਾਂਦੇ ਹਨ। ਦੂਜੀ ਲਈ ਮੁੜ ਚਾਲੂ ਕਰੋ।"
-      ],
-      "kn": [
-        "**Pixel Mapping:** ಪರದೆಯ ಗಾತ್ರ ಬದಲಿಸಿ ಮುಗಿದಾಗ ಮೂಲೆಯ ಹ್ಯಾಂಡಲ್‌ಗಳು ತಾವಾಗಿಯೇ ಆಫ್ ಆಗುತ್ತವೆ. ಇನ್ನೊಂದಕ್ಕಾಗಿ ಮತ್ತೆ ಆನ್ ಮಾಡಿ."
-      ],
-      "ne": [
-        "**Pixel Mapping:** स्क्रिनको आकार बदलिसकेपछि कुनाका ह्यान्डलहरू आफैँ बन्द हुन्छन्। अर्को स्क्रिनका लागि फेरि खोल्नुहोस्।"
-      ],
-      "km": [
-        "**Pixel Mapping:** ដៃចាប់នៅជ្រុងបិទដោយខ្លួនឯង ពេលអ្នកប្ដូរទំហំអេក្រង់រួច។ បើកវាម្ដងទៀតដើម្បីប្ដូរអេក្រង់ផ្សេង។"
-      ],
-      "kk": [
-        "**Pixel Mapping:** экран өлшемін өзгертіп болған соң бұрыш тұтқалары өздігінен өшеді. Басқасын өзгерту үшін оларды қайта қосыңыз."
-      ],
-      "uz": [
-        "**Pixel Mapping:** ekran oʻlchamini oʻzgartirib boʻlgach, burchak tutqichlari oʻzi oʻchadi. Boshqasi uchun ularni qayta yoqing."
-      ],
-      "am": [
-        "**Pixel Mapping፦** የስክሪንን መጠን መቀየር ሲጨርሱ የማዕዘን መያዣዎቹ በራሳቸው ይጠፋሉ። ሌላውን ለመቀየር እንደገና ያብሯቸው።"
-      ],
-      "sl": [
-        "**Pixel Mapping:** ročaji v kotih se sami izklopijo, ko končate spreminjanje velikosti zaslona. Znova jih vklopite za drug zaslon."
-      ],
-      "kab": [
-        "**Pixel Mapping:** tiṭṭfin n teɣmar ttensint s yiman-nsent mi tfukkeḍ abeddel n teɣzi n ugdil. Sserɣ-itent tikkelt nniḍen i ugdil-nniḍen."
       ]
     }
   }
