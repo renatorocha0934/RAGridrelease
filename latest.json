@@ -1,9 +1,371 @@
 {
-  "version": "2.9.9",
-  "windows": "https://github.com/renatorocha0934/RAGridrelease/releases/download/v2.9.9/RAGrid-Windows.zip",
-  "mac": "https://github.com/renatorocha0934/RAGridrelease/releases/download/v2.9.9/RAGrid-Mac.dmg",
+  "version": "2.9.95",
+  "windows": "https://github.com/renatorocha0934/RAGridrelease/releases/download/v2.9.95/RAGrid-Windows.zip",
+  "mac": "https://github.com/renatorocha0934/RAGridrelease/releases/download/v2.9.95/RAGrid-Mac.dmg",
   "notes": "System and performance improvements.",
   "changes": {
+    "2.9.95": {
+      "en": [
+        "**Speed:** the Connection opens about 34% faster and the Drawing about 43% faster, and the Drawing animation is smoother.",
+        "**NovaStar rules:** new Output line in the Wiring box (8-bit 650,000, 10/12-bit HDR 320,000 or 3D 325,000 pixels per Ethernet port) and Free topology.",
+        "**Connection and Drawing:** a sweep that reaches another screen continues as a cable, the Pixel Mapping strip shows the RJ45 ports in use, and deleting the Custom device no longer shows a second Device 1.",
+        "**Animation:** new speed box with arrows that move one step at a time, technicians help each other without stretching their arms, and a shorter handshake. New screens start at 1 × 1."
+      ],
+      "pt": [
+        "**Velocidade:** a Connection abre cerca de 34% mais rápido e o Drawing cerca de 43% mais rápido, e a animação do Drawing ficou mais suave.",
+        "**Regras NovaStar:** nova linha Output na caixa Wiring (8-bit 650.000, 10/12-bit HDR 320.000 ou 3D 325.000 pixels por porta Ethernet) e Free topology.",
+        "**Connection e Drawing:** a varredura que chega a outra tela continua como cabo, a faixa do Pixel Mapping mostra as portas RJ45 em uso, e apagar o Custom device não mostra mais um segundo Device 1.",
+        "**Animação:** nova caixa de velocidade com setas que andam um passo por vez, os técnicos se ajudam sem esticar o braço e o aperto de mão ficou mais curto. Telas novas começam em 1 × 1."
+      ],
+      "es": [
+        "**Velocidad:** la Connection abre cerca de un 34% más rápido y el Drawing cerca de un 43% más rápido, y la animación del Drawing es más fluida.",
+        "**Reglas NovaStar:** nueva línea Output en el cuadro Wiring (8-bit 650.000, 10/12-bit HDR 320.000 o 3D 325.000 píxeles por puerto Ethernet) y Free topology.",
+        "**Connection y Drawing:** un barrido que llega a otra pantalla continúa como cable, la franja del Pixel Mapping muestra los puertos RJ45 en uso y borrar el Custom device ya no muestra un segundo Device 1.",
+        "**Animación:** nuevo cuadro de velocidad con flechas que avanzan un paso a la vez, los técnicos se ayudan sin estirar el brazo y el apretón de manos es más corto. Las pantallas nuevas empiezan en 1 × 1."
+      ],
+      "fr": [
+        "**Vitesse :** la Connection s’ouvre environ 34 % plus vite et le Drawing environ 43 % plus vite, et l’animation du Drawing est plus fluide.",
+        "**Règles NovaStar :** nouvelle ligne Output dans le cadre Wiring (8-bit 650 000, 10/12-bit HDR 320 000 ou 3D 325 000 pixels par port Ethernet) et Free topology.",
+        "**Connection et Drawing :** un balayage qui atteint un autre écran continue en câble, la bande du Pixel Mapping montre les ports RJ45 utilisés, et supprimer le Custom device n’affiche plus un second Device 1.",
+        "**Animation :** nouveau cadre de vitesse avec des flèches qui avancent d’un pas à la fois, les techniciens s’entraident sans étirer le bras et la poignée de main est plus courte. Les nouveaux écrans commencent à 1 × 1."
+      ],
+      "de": [
+        "**Geschwindigkeit:** die Connection öffnet etwa 34 % schneller und das Drawing etwa 43 % schneller, und die Drawing-Animation läuft flüssiger.",
+        "**NovaStar-Regeln:** neue Zeile Output im Wiring-Feld (8-bit 650.000, 10/12-bit HDR 320.000 oder 3D 325.000 Pixel pro Ethernet-Port) und Free topology.",
+        "**Connection und Drawing:** ein Wischen, das einen anderen Bildschirm erreicht, wird als Kabel fortgesetzt, die Pixel-Mapping-Leiste zeigt die belegten RJ45-Ports, und das Löschen des Custom device zeigt kein zweites Device 1 mehr.",
+        "**Animation:** neues Geschwindigkeitsfeld mit Pfeilen, die jeweils einen Schritt weitergehen, die Techniker helfen sich gegenseitig, ohne den Arm zu strecken, und der Händedruck ist kürzer. Neue Bildschirme beginnen bei 1 × 1."
+      ],
+      "it": [
+        "**Velocità:** la Connection si apre circa il 34% più velocemente e il Drawing circa il 43% più velocemente, e l’animazione del Drawing è più fluida.",
+        "**Regole NovaStar:** nuova riga Output nel riquadro Wiring (8-bit 650.000, 10/12-bit HDR 320.000 o 3D 325.000 pixel per porta Ethernet) e Free topology.",
+        "**Connection e Drawing:** una selezione a trascinamento che raggiunge un altro schermo continua come cavo, la striscia del Pixel Mapping mostra le porte RJ45 in uso e cancellare il Custom device non mostra più un secondo Device 1.",
+        "**Animazione:** nuovo riquadro della velocità con frecce che avanzano di un passo alla volta, i tecnici si aiutano senza allungare il braccio e la stretta di mano è più breve. I nuovi schermi partono da 1 × 1."
+      ],
+      "nl": [
+        "**Snelheid:** de Connection opent ongeveer 34% sneller en de Drawing ongeveer 43% sneller, en de Drawing-animatie loopt soepeler.",
+        "**NovaStar-regels:** nieuwe regel Output in het Wiring-vak (8-bit 650.000, 10/12-bit HDR 320.000 of 3D 325.000 pixels per Ethernet-poort) en Free topology.",
+        "**Connection en Drawing:** een veegselectie die een ander scherm bereikt gaat verder als kabel, de Pixel Mapping-strook toont de gebruikte RJ45-poorten en het verwijderen van het Custom device toont geen tweede Device 1 meer.",
+        "**Animatie:** nieuw snelheidsvak met pijlen die één stap per keer gaan, de technici helpen elkaar zonder hun arm te strekken en de handdruk is korter. Nieuwe schermen beginnen op 1 × 1."
+      ],
+      "ru": [
+        "**Скорость:** Connection открывается примерно на 34% быстрее, а Drawing — примерно на 43% быстрее; анимация в Drawing стала плавнее.",
+        "**Правила NovaStar:** новая строка Output в блоке Wiring (8-bit 650 000, 10/12-bit HDR 320 000 или 3D 325 000 пикселей на порт Ethernet) и Free topology.",
+        "**Connection и Drawing:** выделение протяжкой, дошедшее до другого экрана, продолжается как кабель; полоса Pixel Mapping показывает занятые порты RJ45; удаление Custom device больше не показывает второй Device 1.",
+        "**Анимация:** новый блок скорости со стрелками, которые сдвигают на один шаг; техники помогают друг другу, не вытягивая руку, а рукопожатие стало короче. Новые экраны начинаются с 1 × 1."
+      ],
+      "tr": [
+        "**Hız:** Connection yaklaşık %34, Drawing yaklaşık %43 daha hızlı açılıyor ve Drawing animasyonu daha akıcı.",
+        "**NovaStar kuralları:** Wiring kutusunda yeni Output satırı (Ethernet portu başına 8-bit 650.000, 10/12-bit HDR 320.000 veya 3D 325.000 piksel) ve Free topology.",
+        "**Connection ve Drawing:** başka bir ekrana ulaşan tarama kablo olarak devam eder, Pixel Mapping şeridi kullanılan RJ45 portlarını gösterir ve Custom device silindiğinde artık ikinci bir Device 1 görünmez.",
+        "**Animasyon:** her seferinde bir adım ilerleyen oklarla yeni hız kutusu, teknisyenler kollarını uzatmadan birbirine yardım ediyor ve tokalaşma daha kısa. Yeni ekranlar 1 × 1 ile başlar."
+      ],
+      "id": [
+        "**Kecepatan:** Connection terbuka sekitar 34% lebih cepat dan Drawing sekitar 43% lebih cepat, dan animasi Drawing lebih mulus.",
+        "**Aturan NovaStar:** baris Output baru di kotak Wiring (8-bit 650.000, 10/12-bit HDR 320.000 atau 3D 325.000 piksel per port Ethernet) dan Free topology.",
+        "**Connection dan Drawing:** sapuan yang mencapai layar lain berlanjut sebagai kabel, strip Pixel Mapping menampilkan port RJ45 yang dipakai, dan menghapus Custom device tidak lagi memunculkan Device 1 kedua.",
+        "**Animasi:** kotak kecepatan baru dengan panah yang maju satu langkah setiap kali, para teknisi saling membantu tanpa merentangkan lengan, dan jabat tangan lebih singkat. Layar baru dimulai dari 1 × 1."
+      ],
+      "hu": [
+        "**Sebesség:** a Connection kb. 34%-kal, a Drawing kb. 43%-kal gyorsabban nyílik meg, és a Drawing animációja simább.",
+        "**NovaStar-szabályok:** új Output sor a Wiring dobozban (Ethernet-portonként 8-bit 650 000, 10/12-bit HDR 320 000 vagy 3D 325 000 pixel) és Free topology.",
+        "**Connection és Drawing:** a másik képernyőig érő húzásos kijelölés kábelként folytatódik, a Pixel Mapping sáv mutatja a használt RJ45 portokat, és a Custom device törlése után már nem jelenik meg egy második Device 1.",
+        "**Animáció:** új sebességdoboz nyilakkal, amelyek egyszerre egy lépést lépnek, a technikusok kar nyújtása nélkül segítenek egymásnak, és rövidebb a kézfogás. Az új képernyők 1 × 1-ről indulnak."
+      ],
+      "zh-Hans": [
+        "**速度：** Connection 打开快约 34%，Drawing 打开快约 43%，Drawing 动画更流畅。",
+        "**NovaStar 规则：** Wiring 框中新增 Output 行（每个以太网口 8-bit 650,000、10/12-bit HDR 320,000 或 3D 325,000 像素）和 Free topology。",
+        "**Connection 与 Drawing：** 拖选到达另一块屏幕时会继续作为线缆绘制，Pixel Mapping 条显示正在使用的 RJ45 端口，删除 Custom device 后不再出现第二个 Device 1。",
+        "**动画：** 新的速度框，箭头每次前进一步；技术人员互相帮助时不再拉长手臂；握手更短。新屏幕从 1 × 1 开始。"
+      ],
+      "zh-Hant": [
+        "**速度：** Connection 開啟快約 34%，Drawing 開啟快約 43%，Drawing 動畫更流暢。",
+        "**NovaStar 規則：** Wiring 框中新增 Output 行（每個乙太網路埠 8-bit 650,000、10/12-bit HDR 320,000 或 3D 325,000 像素）與 Free topology。",
+        "**Connection 與 Drawing：** 拖選到達另一塊螢幕時會繼續作為線材繪製，Pixel Mapping 條顯示使用中的 RJ45 連接埠，刪除 Custom device 後不再出現第二個 Device 1。",
+        "**動畫：** 新的速度框，箭頭每次前進一步；技術人員互相幫忙時不再拉長手臂；握手更短。新螢幕從 1 × 1 開始。"
+      ],
+      "ja": [
+        "**速度：** Connection は約 34%、Drawing は約 43% 速く開き、Drawing のアニメーションもなめらかになりました。",
+        "**NovaStar のルール：** Wiring ボックスに新しい Output 行（Ethernet ポートあたり 8-bit 650,000、10/12-bit HDR 320,000、3D 325,000 ピクセル）と Free topology を追加しました。",
+        "**Connection と Drawing：** 別の画面に届いたスイープはケーブルとして続き、Pixel Mapping の帯は使用中の RJ45 ポートを表示し、Custom device を削除しても 2 つ目の Device 1 は表示されなくなりました。",
+        "**アニメーション：** 1 ステップずつ進む矢印付きの新しい速度ボックス、腕を伸ばさずに助け合う技術者、短くなった握手。新しい画面は 1 × 1 から始まります。"
+      ],
+      "ko": [
+        "**속도:** Connection은 약 34%, Drawing은 약 43% 더 빨리 열리고, Drawing 애니메이션이 더 부드러워졌습니다.",
+        "**NovaStar 규칙:** Wiring 상자에 새 Output 줄(이더넷 포트당 8-bit 650,000, 10/12-bit HDR 320,000 또는 3D 325,000 픽셀)과 Free topology가 추가되었습니다.",
+        "**Connection과 Drawing:** 다른 화면까지 이어진 스윕은 케이블로 계속되고, Pixel Mapping 띠에 사용 중인 RJ45 포트가 표시되며, Custom device를 삭제해도 두 번째 Device 1이 더 이상 나타나지 않습니다.",
+        "**애니메이션:** 한 번에 한 단계씩 움직이는 화살표가 있는 새 속도 상자, 팔을 늘이지 않고 서로 돕는 기술자, 더 짧아진 악수. 새 화면은 1 × 1에서 시작합니다."
+      ],
+      "ar": [
+        "**السرعة:** يفتح Connection أسرع بنحو 34% ويفتح Drawing أسرع بنحو 43%، وأصبحت الحركة في Drawing أكثر سلاسة.",
+        "**قواعد NovaStar:** سطر Output جديد في مربع Wiring (8-bit 650,000 أو 10/12-bit HDR 320,000 أو 3D 325,000 بكسل لكل منفذ Ethernet) وFree topology.",
+        "**Connection وDrawing:** المسح الذي يصل إلى شاشة أخرى يستمر ككابل، وشريط Pixel Mapping يعرض منافذ RJ45 المستخدمة، وحذف Custom device لم يعد يُظهر Device 1 ثانيًا.",
+        "**الحركة:** مربع سرعة جديد بأسهم تتقدم خطوة واحدة في كل مرة، والفنيون يساعدون بعضهم دون مد الذراع، ومصافحة أقصر. تبدأ الشاشات الجديدة بـ 1 × 1."
+      ],
+      "th": [
+        "**ความเร็ว:** Connection เปิดเร็วขึ้นราว 34% และ Drawing เร็วขึ้นราว 43% และแอนิเมชันใน Drawing ลื่นไหลขึ้น",
+        "**กฎของ NovaStar:** บรรทัด Output ใหม่ในกล่อง Wiring (8-bit 650,000, 10/12-bit HDR 320,000 หรือ 3D 325,000 พิกเซลต่อพอร์ต Ethernet) และ Free topology",
+        "**Connection และ Drawing:** การลากเลือกที่ไปถึงอีกจอหนึ่งจะต่อเป็นสายเคเบิล แถบ Pixel Mapping แสดงพอร์ต RJ45 ที่ใช้อยู่ และการลบ Custom device จะไม่แสดง Device 1 ตัวที่สองอีก",
+        "**แอนิเมชัน:** กล่องความเร็วใหม่พร้อมลูกศรที่เลื่อนทีละขั้น ช่างช่วยกันโดยไม่ยืดแขน และการจับมือสั้นลง จอใหม่เริ่มที่ 1 × 1"
+      ],
+      "hi": [
+        "**गति:** Connection लगभग 34% और Drawing लगभग 43% तेज़ खुलता है, और Drawing का एनिमेशन ज़्यादा सहज है।",
+        "**NovaStar नियम:** Wiring बॉक्स में नई Output पंक्ति (प्रति Ethernet पोर्ट 8-bit 650,000, 10/12-bit HDR 320,000 या 3D 325,000 पिक्सेल) और Free topology।",
+        "**Connection और Drawing:** दूसरी स्क्रीन तक पहुँचने वाला स्वीप केबल के रूप में जारी रहता है, Pixel Mapping पट्टी उपयोग में RJ45 पोर्ट दिखाती है, और Custom device हटाने पर अब दूसरा Device 1 नहीं दिखता।",
+        "**एनिमेशन:** एक बार में एक कदम चलने वाले तीरों के साथ नया गति बॉक्स, तकनीशियन बाँह खींचे बिना एक-दूसरे की मदद करते हैं, और हाथ मिलाना छोटा हुआ। नई स्क्रीन 1 × 1 से शुरू होती हैं।"
+      ],
+      "vi": [
+        "**Tốc độ:** Connection mở nhanh hơn khoảng 34% và Drawing nhanh hơn khoảng 43%, hoạt ảnh của Drawing mượt hơn.",
+        "**Quy tắc NovaStar:** dòng Output mới trong hộp Wiring (8-bit 650.000, 10/12-bit HDR 320.000 hoặc 3D 325.000 điểm ảnh mỗi cổng Ethernet) và Free topology.",
+        "**Connection và Drawing:** thao tác quét chạm tới màn hình khác sẽ tiếp tục thành cáp, dải Pixel Mapping hiển thị các cổng RJ45 đang dùng, và xóa Custom device không còn hiện Device 1 thứ hai.",
+        "**Hoạt ảnh:** hộp tốc độ mới với mũi tên tiến từng bước, các kỹ thuật viên giúp nhau mà không duỗi dài tay, và cái bắt tay ngắn hơn. Màn hình mới bắt đầu ở 1 × 1."
+      ],
+      "bn": [
+        "**গতি:** Connection প্রায় 34% এবং Drawing প্রায় 43% দ্রুত খোলে, আর Drawing-এর অ্যানিমেশন আরও মসৃণ।",
+        "**NovaStar নিয়ম:** Wiring বাক্সে নতুন Output সারি (প্রতি Ethernet পোর্টে 8-bit 650,000, 10/12-bit HDR 320,000 বা 3D 325,000 পিক্সেল) এবং Free topology।",
+        "**Connection ও Drawing:** অন্য স্ক্রিনে পৌঁছানো সুইপ কেবল হিসেবে চলতে থাকে, Pixel Mapping স্ট্রিপ ব্যবহৃত RJ45 পোর্ট দেখায়, আর Custom device মুছলে আর দ্বিতীয় Device 1 দেখা যায় না।",
+        "**অ্যানিমেশন:** একবারে এক ধাপ এগোনো তীরসহ নতুন গতির বাক্স, টেকনিশিয়ানরা হাত না টেনে একে অপরকে সাহায্য করে, আর করমর্দন ছোট হয়েছে। নতুন স্ক্রিন 1 × 1 থেকে শুরু হয়।"
+      ],
+      "ms": [
+        "**Kelajuan:** Connection dibuka kira-kira 34% lebih pantas dan Drawing kira-kira 43% lebih pantas, dan animasi Drawing lebih lancar.",
+        "**Peraturan NovaStar:** baris Output baharu dalam kotak Wiring (8-bit 650,000, 10/12-bit HDR 320,000 atau 3D 325,000 piksel bagi setiap port Ethernet) dan Free topology.",
+        "**Connection dan Drawing:** sapuan yang sampai ke skrin lain diteruskan sebagai kabel, jalur Pixel Mapping menunjukkan port RJ45 yang digunakan, dan memadam Custom device tidak lagi memaparkan Device 1 kedua.",
+        "**Animasi:** kotak kelajuan baharu dengan anak panah yang bergerak satu langkah setiap kali, juruteknik saling membantu tanpa memanjangkan lengan, dan jabat tangan lebih singkat. Skrin baharu bermula pada 1 × 1."
+      ],
+      "sv": [
+        "**Hastighet:** Connection öppnas cirka 34 % snabbare och Drawing cirka 43 % snabbare, och animationen i Drawing är mjukare.",
+        "**NovaStar-regler:** ny rad Output i Wiring-rutan (8-bit 650 000, 10/12-bit HDR 320 000 eller 3D 325 000 pixlar per Ethernet-port) och Free topology.",
+        "**Connection och Drawing:** ett svep som når en annan skärm fortsätter som kabel, Pixel Mapping-remsan visar RJ45-portarna som används, och att ta bort Custom device visar inte längre en andra Device 1.",
+        "**Animation:** ny hastighetsruta med pilar som går ett steg i taget, teknikerna hjälper varandra utan att sträcka ut armen, och handslaget är kortare. Nya skärmar börjar på 1 × 1."
+      ],
+      "ur": [
+        "**رفتار:** Connection تقریباً 34% اور Drawing تقریباً 43% تیزی سے کھلتا ہے، اور Drawing کی اینیمیشن زیادہ ہموار ہے۔",
+        "**NovaStar کے اصول:** Wiring خانے میں نئی Output سطر (ہر Ethernet پورٹ پر 8-bit 650,000، 10/12-bit HDR 320,000 یا 3D 325,000 پکسل) اور Free topology۔",
+        "**Connection اور Drawing:** دوسری اسکرین تک پہنچنے والا سویپ کیبل کے طور پر جاری رہتا ہے، Pixel Mapping پٹی استعمال میں RJ45 پورٹس دکھاتی ہے، اور Custom device حذف کرنے پر اب دوسرا Device 1 نظر نہیں آتا۔",
+        "**اینیمیشن:** ایک وقت میں ایک قدم چلنے والے تیروں کے ساتھ نیا رفتار خانہ، تکنیکی کارکن بازو کھینچے بغیر ایک دوسرے کی مدد کرتے ہیں، اور مصافحہ مختصر ہو گیا۔ نئی اسکرینیں 1 × 1 سے شروع ہوتی ہیں۔"
+      ],
+      "sw": [
+        "**Kasi:** Connection hufunguka takriban 34% haraka zaidi na Drawing takriban 43% haraka zaidi, na uhuishaji wa Drawing ni laini zaidi.",
+        "**Kanuni za NovaStar:** mstari mpya wa Output kwenye kisanduku cha Wiring (8-bit 650,000, 10/12-bit HDR 320,000 au 3D 325,000 pikseli kwa kila mlango wa Ethernet) na Free topology.",
+        "**Connection na Drawing:** ufagiaji unaofika skrini nyingine huendelea kama kebo, ukanda wa Pixel Mapping huonyesha milango ya RJ45 inayotumika, na kufuta Custom device hakuonyeshi tena Device 1 ya pili.",
+        "**Uhuishaji:** kisanduku kipya cha kasi chenye mishale inayosogea hatua moja kwa wakati, mafundi husaidiana bila kunyoosha mkono, na kupeana mikono ni kufupi zaidi. Skrini mpya huanza kwa 1 × 1."
+      ],
+      "gn": [
+        "**Pya’ekue:** Connection ojepe’a 34% rupi pya’eve ha Drawing 43% rupi pya’eve, ha Drawing animación oiko porãve.",
+        "**NovaStar rembiapoukapy:** Output línea pyahu Wiring caja-pe (8-bit 650.000, 10/12-bit HDR 320.000 térã 3D 325.000 píxel peteĩteĩ puerto Ethernet-pe) ha Free topology.",
+        "**Connection ha Drawing:** pe barrido og̃uahẽva ambue pantalla-pe osegi cable ramo, Pixel Mapping franja ohechauka umi puerto RJ45 ojeporúva, ha Custom device ojeguenohẽvo ndojehechaukavéima mokõiha Device 1.",
+        "**Animación:** caja pyahu velocidad-pe g̃uarã umi flecha ndive oguatáva peteĩ paso peteĩ jey, técnico-kuéra oipytyvõ ojupe ipo oipysóre’ỹ, ha pe ñopoano mbyky’ive. Pantalla pyahu oñepyrũ 1 × 1-pe."
+      ],
+      "he": [
+        "**מהירות:** ה-Connection נפתח מהר יותר בכ-34% וה-Drawing מהר יותר בכ-43%, והאנימציה ב-Drawing חלקה יותר.",
+        "**כללי NovaStar:** שורת Output חדשה בתיבת Wiring (8-bit 650,000, 10/12-bit HDR 320,000 או 3D 325,000 פיקסלים לכל יציאת Ethernet) ו-Free topology.",
+        "**Connection ו-Drawing:** סריקה שמגיעה למסך אחר ממשיכה ככבל, רצועת ה-Pixel Mapping מציגה את יציאות ה-RJ45 שבשימוש, ומחיקת ה-Custom device כבר לא מציגה Device 1 שני.",
+        "**אנימציה:** תיבת מהירות חדשה עם חצים שמתקדמים צעד אחד בכל פעם, הטכנאים עוזרים זה לזה בלי למתוח את היד, ולחיצת היד קצרה יותר. מסכים חדשים מתחילים ב-1 × 1."
+      ],
+      "lv": [
+        "**Ātrums:** Connection atveras aptuveni par 34% ātrāk un Drawing aptuveni par 43% ātrāk, un Drawing animācija ir plūdenāka.",
+        "**NovaStar noteikumi:** jauna rinda Output lodziņā Wiring (8-bit 650 000, 10/12-bit HDR 320 000 vai 3D 325 000 pikseļu uz Ethernet portu) un Free topology.",
+        "**Connection un Drawing:** vilkšana, kas sasniedz citu ekrānu, turpinās kā kabelis, Pixel Mapping josla rāda izmantotos RJ45 portus, un Custom device dzēšana vairs nerāda otru Device 1.",
+        "**Animācija:** jauns ātruma lodziņš ar bultiņām, kas pārvietojas pa vienam solim, tehniķi palīdz viens otram, nestiepjot roku, un rokasspiediens ir īsāks. Jauni ekrāni sākas ar 1 × 1."
+      ],
+      "fa": [
+        "**سرعت:** Connection حدود 34% و Drawing حدود 43% سریع‌تر باز می‌شوند و انیمیشن Drawing روان‌تر است.",
+        "**قوانین NovaStar:** سطر جدید Output در کادر Wiring (8-bit 650,000، 10/12-bit HDR 320,000 یا 3D 325,000 پیکسل برای هر پورت Ethernet) و Free topology.",
+        "**Connection و Drawing:** کشیدنی که به صفحه‌ای دیگر برسد به‌صورت کابل ادامه می‌یابد، نوار Pixel Mapping پورت‌های RJ45 در حال استفاده را نشان می‌دهد و حذف Custom device دیگر Device 1 دوم نشان نمی‌دهد.",
+        "**انیمیشن:** کادر سرعت جدید با پیکان‌هایی که هر بار یک گام جلو می‌روند، تکنسین‌ها بدون کشیدن دست به هم کمک می‌کنند و دست دادن کوتاه‌تر شده است. صفحه‌های جدید از 1 × 1 شروع می‌شوند."
+      ],
+      "pl": [
+        "**Szybkość:** Connection otwiera się o około 34% szybciej, a Drawing o około 43% szybciej, a animacja w Drawing jest płynniejsza.",
+        "**Zasady NovaStar:** nowy wiersz Output w polu Wiring (8-bit 650 000, 10/12-bit HDR 320 000 lub 3D 325 000 pikseli na port Ethernet) oraz Free topology.",
+        "**Connection i Drawing:** przeciągnięcie, które dochodzi do innego ekranu, kontynuuje się jako kabel, pasek Pixel Mapping pokazuje używane porty RJ45, a usunięcie Custom device nie pokazuje już drugiego Device 1.",
+        "**Animacja:** nowe pole prędkości ze strzałkami przesuwającymi o jeden krok, technicy pomagają sobie bez wyciągania ręki, a uścisk dłoni jest krótszy. Nowe ekrany zaczynają się od 1 × 1."
+      ],
+      "uk": [
+        "**Швидкість:** Connection відкривається приблизно на 34% швидше, а Drawing — приблизно на 43% швидше; анімація в Drawing плавніша.",
+        "**Правила NovaStar:** новий рядок Output у блоці Wiring (8-bit 650 000, 10/12-bit HDR 320 000 або 3D 325 000 пікселів на порт Ethernet) і Free topology.",
+        "**Connection і Drawing:** виділення протягуванням, що доходить до іншого екрана, продовжується як кабель; смуга Pixel Mapping показує зайняті порти RJ45; видалення Custom device більше не показує другий Device 1.",
+        "**Анімація:** новий блок швидкості зі стрілками, що зсувають на один крок; техніки допомагають одне одному, не витягуючи руку, а рукостискання коротше. Нові екрани починаються з 1 × 1."
+      ],
+      "ca": [
+        "**Velocitat:** la Connection s’obre prop d’un 34% més ràpid i el Drawing prop d’un 43% més ràpid, i l’animació del Drawing és més fluida.",
+        "**Regles NovaStar:** nova línia Output al quadre Wiring (8-bit 650.000, 10/12-bit HDR 320.000 o 3D 325.000 píxels per port Ethernet) i Free topology.",
+        "**Connection i Drawing:** un escombratge que arriba a una altra pantalla continua com a cable, la franja del Pixel Mapping mostra els ports RJ45 en ús i esborrar el Custom device ja no mostra un segon Device 1.",
+        "**Animació:** nou quadre de velocitat amb fletxes que avancen un pas cada vegada, els tècnics s’ajuden sense estirar el braç i l’encaixada de mans és més curta. Les pantalles noves comencen en 1 × 1."
+      ],
+      "cs": [
+        "**Rychlost:** Connection se otevírá asi o 34 % rychleji a Drawing asi o 43 % rychleji a animace v Drawing je plynulejší.",
+        "**Pravidla NovaStar:** nový řádek Output v poli Wiring (8-bit 650 000, 10/12-bit HDR 320 000 nebo 3D 325 000 pixelů na port Ethernet) a Free topology.",
+        "**Connection a Drawing:** tažení, které dosáhne jiné obrazovky, pokračuje jako kabel, pruh Pixel Mapping ukazuje použité porty RJ45 a smazání Custom device už nezobrazí druhé Device 1.",
+        "**Animace:** nové pole rychlosti se šipkami, které posouvají o jeden krok, technici si pomáhají bez natahování paže a podání ruky je kratší. Nové obrazovky začínají na 1 × 1."
+      ],
+      "fi": [
+        "**Nopeus:** Connection avautuu noin 34 % ja Drawing noin 43 % nopeammin, ja Drawingin animaatio on sujuvampi.",
+        "**NovaStar-säännöt:** uusi Output-rivi Wiring-ruudussa (8-bit 650 000, 10/12-bit HDR 320 000 tai 3D 325 000 pikseliä Ethernet-porttia kohden) ja Free topology.",
+        "**Connection ja Drawing:** toiselle näytölle ulottuva pyyhkäisy jatkuu kaapelina, Pixel Mapping -nauha näyttää käytössä olevat RJ45-portit, eikä Custom devicen poistaminen enää näytä toista Device 1:tä.",
+        "**Animaatio:** uusi nopeusruutu nuolilla, jotka siirtyvät askeleen kerrallaan, teknikot auttavat toisiaan venyttämättä kättä, ja kättely on lyhyempi. Uudet näytöt alkavat koosta 1 × 1."
+      ],
+      "el": [
+        "**Ταχύτητα:** το Connection ανοίγει περίπου 34% πιο γρήγορα και το Drawing περίπου 43% πιο γρήγορα, και η κίνηση στο Drawing είναι πιο ομαλή.",
+        "**Κανόνες NovaStar:** νέα γραμμή Output στο πλαίσιο Wiring (8-bit 650.000, 10/12-bit HDR 320.000 ή 3D 325.000 pixel ανά θύρα Ethernet) και Free topology.",
+        "**Connection και Drawing:** μια σάρωση που φτάνει σε άλλη οθόνη συνεχίζει ως καλώδιο, η λωρίδα του Pixel Mapping δείχνει τις θύρες RJ45 σε χρήση, και η διαγραφή του Custom device δεν εμφανίζει πια δεύτερο Device 1.",
+        "**Κίνηση:** νέο πλαίσιο ταχύτητας με βέλη που προχωρούν ένα βήμα τη φορά, οι τεχνικοί βοηθούν ο ένας τον άλλον χωρίς να τεντώνουν το χέρι, και η χειραψία είναι πιο σύντομη. Οι νέες οθόνες ξεκινούν από 1 × 1."
+      ],
+      "ha": [
+        "**Sauri:** Connection yana buɗewa da kusan 34% da sauri, Drawing kuma da kusan 43%, kuma motsin Drawing ya fi santsi.",
+        "**Dokokin NovaStar:** sabon layin Output a akwatin Wiring (8-bit 650,000, 10/12-bit HDR 320,000 ko 3D 325,000 pikseli a kowace tashar Ethernet) da Free topology.",
+        "**Connection da Drawing:** jan zaɓi da ya kai wani allo yana ci gaba a matsayin kebul, zirin Pixel Mapping yana nuna tashoshin RJ45 da ake amfani da su, kuma share Custom device ba ya ƙara nuna Device 1 na biyu.",
+        "**Motsi:** sabon akwatin sauri mai kibiyoyi da ke tafiya mataki ɗaya a lokaci guda, masu fasaha suna taimakon juna ba tare da miƙa hannu ba, kuma musafaha ta fi gajarta. Sabbin allo suna farawa daga 1 × 1."
+      ],
+      "ro": [
+        "**Viteză:** Connection se deschide cu aproximativ 34% mai repede și Drawing cu aproximativ 43% mai repede, iar animația din Drawing este mai fluidă.",
+        "**Reguli NovaStar:** linie nouă Output în caseta Wiring (8-bit 650.000, 10/12-bit HDR 320.000 sau 3D 325.000 pixeli pe port Ethernet) și Free topology.",
+        "**Connection și Drawing:** o selecție prin glisare care ajunge la alt ecran continuă ca un cablu, banda Pixel Mapping arată porturile RJ45 folosite, iar ștergerea Custom device nu mai afișează un al doilea Device 1.",
+        "**Animație:** casetă nouă de viteză cu săgeți care avansează câte un pas, tehnicienii se ajută fără să-și întindă brațul, iar strângerea de mână este mai scurtă. Ecranele noi încep de la 1 × 1."
+      ],
+      "yo": [
+        "**Iyára:** Connection ń ṣí ní nǹkan bí 34% yára jù, Drawing sì ń ṣí ní nǹkan bí 43% yára jù, ìṣípòpadà Drawing sì ti dán mọ́rán sí i.",
+        "**Àwọn òfin NovaStar:** ìlà Output tuntun nínú àpótí Wiring (8-bit 650,000, 10/12-bit HDR 320,000 tàbí 3D 325,000 píksẹ́ẹ̀lì fún ibùdó Ethernet kọ̀ọ̀kan) àti Free topology.",
+        "**Connection àti Drawing:** fífà tí ó dé ojú-ìbòjú mìíràn ń tẹ̀síwájú bí kébù, ìlà Pixel Mapping ń fi àwọn ibùdó RJ45 tí a ń lò hàn, píparẹ́ Custom device kò sì tún fi Device 1 kejì hàn mọ́.",
+        "**Ìṣípòpadà:** àpótí iyára tuntun pẹ̀lú àwọn ọfà tí ń lọ ní ìgbésẹ̀ kan ní àkókò kan, àwọn onímọ̀-ẹ̀rọ ń ran ara wọn lọ́wọ́ láìna apá wọn, ìbọwọ́ sì ti kúrú sí i. Àwọn ojú-ìbòjú tuntun ń bẹ̀rẹ̀ ní 1 × 1."
+      ],
+      "zu": [
+        "**Isivinini:** i-Connection ivuleka cishe ngo-34% ngokushesha kanti i-Drawing cishe ngo-43%, futhi i-animation ye-Drawing ibushelelezi kakhulu.",
+        "**Imithetho ye-NovaStar:** umugqa omusha we-Output ebhokisini le-Wiring (8-bit 650,000, 10/12-bit HDR 320,000 noma 3D 325,000 amaphikseli ngembobo ngayinye ye-Ethernet) ne-Free topology.",
+        "**I-Connection ne-Drawing:** ukushanela okufika kwesinye isikrini kuqhubeka njengekhebula, umucu we-Pixel Mapping ukhombisa izimbobo ze-RJ45 ezisetshenziswayo, futhi ukususa i-Custom device akusabonisi i-Device 1 yesibili.",
+        "**I-animation:** ibhokisi elisha lesivinini elinemicibisholo ehamba isinyathelo esisodwa ngesikhathi, ochwepheshe basizana ngaphandle kokwelula ingalo, futhi ukubingelelana ngezandla kufushane. Izikrini ezintsha ziqala ku-1 × 1."
+      ],
+      "fil": [
+        "**Bilis:** mga 34% na mas mabilis bumukas ang Connection at mga 43% na mas mabilis ang Drawing, at mas makinis ang animation ng Drawing.",
+        "**Mga patakaran ng NovaStar:** bagong linyang Output sa kahon ng Wiring (8-bit 650,000, 10/12-bit HDR 320,000 o 3D 325,000 pixel bawat Ethernet port) at Free topology.",
+        "**Connection at Drawing:** ang sweep na umaabot sa ibang screen ay nagpapatuloy bilang kable, ipinapakita ng strip ng Pixel Mapping ang mga RJ45 port na ginagamit, at ang pagbura sa Custom device ay hindi na nagpapakita ng ikalawang Device 1.",
+        "**Animation:** bagong kahon ng bilis na may mga arrow na umuusad nang isang hakbang bawat pindot, nagtutulungan ang mga technician nang hindi iniuunat ang braso, at mas maikli ang pakikipagkamay. Nagsisimula sa 1 × 1 ang mga bagong screen."
+      ],
+      "ta": [
+        "**வேகம்:** Connection சுமார் 34% வேகமாகவும் Drawing சுமார் 43% வேகமாகவும் திறக்கின்றன; Drawing அனிமேஷன் மேலும் மென்மையாக உள்ளது.",
+        "**NovaStar விதிகள்:** Wiring பெட்டியில் புதிய Output வரி (ஒவ்வொரு Ethernet போர்ட்டிற்கும் 8-bit 650,000, 10/12-bit HDR 320,000 அல்லது 3D 325,000 பிக்சல்கள்) மற்றும் Free topology.",
+        "**Connection மற்றும் Drawing:** வேறொரு திரையை அடையும் இழுப்பு கேபிளாகத் தொடர்கிறது, Pixel Mapping பட்டை பயன்பாட்டில் உள்ள RJ45 போர்ட்களைக் காட்டுகிறது, Custom device-ஐ நீக்கினால் இரண்டாவது Device 1 இனி தோன்றாது.",
+        "**அனிமேஷன்:** ஒரு நேரத்தில் ஒரு படி நகரும் அம்புகளுடன் புதிய வேகப் பெட்டி, தொழில்நுட்பவியலாளர்கள் கையை நீட்டாமல் ஒருவருக்கொருவர் உதவுகிறார்கள், கைகுலுக்கல் சுருக்கமாகியுள்ளது. புதிய திரைகள் 1 × 1 இல் தொடங்குகின்றன."
+      ],
+      "te": [
+        "**వేగం:** Connection సుమారు 34% వేగంగా, Drawing సుమారు 43% వేగంగా తెరుచుకుంటాయి; Drawing యానిమేషన్ మరింత సాఫీగా ఉంటుంది.",
+        "**NovaStar నియమాలు:** Wiring పెట్టెలో కొత్త Output వరుస (ప్రతి Ethernet పోర్ట్‌కు 8-bit 650,000, 10/12-bit HDR 320,000 లేదా 3D 325,000 పిక్సెల్‌లు) మరియు Free topology.",
+        "**Connection, Drawing:** మరో స్క్రీన్‌ను చేరే స్వీప్ కేబుల్‌గా కొనసాగుతుంది, Pixel Mapping పట్టీ వాడుకలో ఉన్న RJ45 పోర్ట్‌లను చూపిస్తుంది, Custom device ను తొలగిస్తే ఇక రెండో Device 1 కనిపించదు.",
+        "**యానిమేషన్:** ఒక్కోసారి ఒక అడుగు కదిలే బాణాలతో కొత్త వేగం పెట్టె, సాంకేతిక నిపుణులు చేయి చాచకుండా ఒకరికొకరు సహాయం చేస్తారు, కరచాలనం చిన్నదైంది. కొత్త స్క్రీన్‌లు 1 × 1 నుండి మొదలవుతాయి."
+      ],
+      "mr": [
+        "**वेग:** Connection सुमारे 34% आणि Drawing सुमारे 43% वेगाने उघडतो, आणि Drawing चे अ‍ॅनिमेशन अधिक सहज आहे.",
+        "**NovaStar नियम:** Wiring चौकटीत नवी Output ओळ (प्रत्येक Ethernet पोर्टसाठी 8-bit 650,000, 10/12-bit HDR 320,000 किंवा 3D 325,000 पिक्सेल) आणि Free topology.",
+        "**Connection आणि Drawing:** दुसऱ्या स्क्रीनपर्यंत पोहोचणारा स्वीप केबल म्हणून पुढे चालू राहतो, Pixel Mapping पट्टी वापरात असलेले RJ45 पोर्ट दाखवते, आणि Custom device हटवल्यावर आता दुसरा Device 1 दिसत नाही.",
+        "**अ‍ॅनिमेशन:** एका वेळी एक पाऊल पुढे सरकणाऱ्या बाणांसह नवी वेग चौकट, तंत्रज्ञ हात न ताणता एकमेकांना मदत करतात, आणि हस्तांदोलन लहान झाले आहे. नवे स्क्रीन 1 × 1 पासून सुरू होतात."
+      ],
+      "da": [
+        "**Hastighed:** Connection åbner ca. 34 % hurtigere og Drawing ca. 43 % hurtigere, og animationen i Drawing er mere glidende.",
+        "**NovaStar-regler:** ny linje Output i Wiring-feltet (8-bit 650.000, 10/12-bit HDR 320.000 eller 3D 325.000 pixels pr. Ethernet-port) og Free topology.",
+        "**Connection og Drawing:** et træk, der når en anden skærm, fortsætter som kabel, Pixel Mapping-båndet viser de RJ45-porte, der er i brug, og sletning af Custom device viser ikke længere en anden Device 1.",
+        "**Animation:** nyt hastighedsfelt med pile, der går ét trin ad gangen, teknikerne hjælper hinanden uden at strække armen, og håndtrykket er kortere. Nye skærme starter på 1 × 1."
+      ],
+      "nb": [
+        "**Hastighet:** Connection åpnes omtrent 34 % raskere og Drawing omtrent 43 % raskere, og animasjonen i Drawing er jevnere.",
+        "**NovaStar-regler:** ny linje Output i Wiring-boksen (8-bit 650 000, 10/12-bit HDR 320 000 eller 3D 325 000 piksler per Ethernet-port) og Free topology.",
+        "**Connection og Drawing:** et sveip som når en annen skjerm, fortsetter som kabel, Pixel Mapping-stripen viser RJ45-portene som er i bruk, og sletting av Custom device viser ikke lenger en andre Device 1.",
+        "**Animasjon:** ny hastighetsboks med piler som går ett steg om gangen, teknikerne hjelper hverandre uten å strekke armen, og håndtrykket er kortere. Nye skjermer starter på 1 × 1."
+      ],
+      "lt": [
+        "**Greitis:** Connection atsidaro maždaug 34 % greičiau, o Drawing – maždaug 43 % greičiau, ir Drawing animacija sklandesnė.",
+        "**NovaStar taisyklės:** nauja eilutė Output langelyje Wiring (8-bit 650 000, 10/12-bit HDR 320 000 arba 3D 325 000 pikselių vienam Ethernet prievadui) ir Free topology.",
+        "**Connection ir Drawing:** braukimas, pasiekęs kitą ekraną, tęsiasi kaip kabelis, Pixel Mapping juosta rodo naudojamus RJ45 prievadus, o ištrynus Custom device nebeatsiranda antras Device 1.",
+        "**Animacija:** naujas greičio langelis su rodyklėmis, kurios juda po vieną žingsnį, technikai padeda vienas kitam neištiesdami rankos, o rankos paspaudimas trumpesnis. Nauji ekranai prasideda nuo 1 × 1."
+      ],
+      "et": [
+        "**Kiirus:** Connection avaneb umbes 34% ja Drawing umbes 43% kiiremini ning Drawingu animatsioon on sujuvam.",
+        "**NovaStari reeglid:** uus Output rida Wiring-kastis (8-bit 650 000, 10/12-bit HDR 320 000 või 3D 325 000 pikslit Etherneti pordi kohta) ja Free topology.",
+        "**Connection ja Drawing:** teise ekraanini ulatuv lohistus jätkub kaablina, Pixel Mapping riba näitab kasutusel olevaid RJ45 porte ning Custom device’i kustutamine ei näita enam teist Device 1.",
+        "**Animatsioon:** uus kiiruse kast nooltega, mis liiguvad ühe sammu korraga, tehnikud aitavad üksteist kätt välja sirutamata ja käepigistus on lühem. Uued ekraanid algavad suurusest 1 × 1."
+      ],
+      "sk": [
+        "**Rýchlosť:** Connection sa otvára asi o 34 % rýchlejšie a Drawing asi o 43 % rýchlejšie a animácia v Drawing je plynulejšia.",
+        "**Pravidlá NovaStar:** nový riadok Output v poli Wiring (8-bit 650 000, 10/12-bit HDR 320 000 alebo 3D 325 000 pixelov na port Ethernet) a Free topology.",
+        "**Connection a Drawing:** ťahanie, ktoré dosiahne inú obrazovku, pokračuje ako kábel, pás Pixel Mapping ukazuje používané porty RJ45 a zmazanie Custom device už nezobrazí druhé Device 1.",
+        "**Animácia:** nové pole rýchlosti so šípkami, ktoré posúvajú o jeden krok, technici si pomáhajú bez naťahovania ruky a podanie ruky je kratšie. Nové obrazovky začínajú na 1 × 1."
+      ],
+      "bg": [
+        "**Скорост:** Connection се отваря с около 34% по-бързо, а Drawing — с около 43% по-бързо, и анимацията в Drawing е по-плавна.",
+        "**Правила на NovaStar:** нов ред Output в полето Wiring (8-bit 650 000, 10/12-bit HDR 320 000 или 3D 325 000 пиксела на Ethernet порт) и Free topology.",
+        "**Connection и Drawing:** плъзгане, което достигне друг екран, продължава като кабел, лентата на Pixel Mapping показва използваните RJ45 портове, а изтриването на Custom device вече не показва втори Device 1.",
+        "**Анимация:** ново поле за скорост със стрелки, които местят с една стъпка, техниците си помагат, без да протягат ръка, а ръкостискането е по-кратко. Новите екрани започват от 1 × 1."
+      ],
+      "sr": [
+        "**Брзина:** Connection се отвара око 34% брже, а Drawing око 43% брже, и анимација у Drawing-у је глаткија.",
+        "**Правила NovaStar:** нови ред Output у пољу Wiring (8-bit 650.000, 10/12-bit HDR 320.000 или 3D 325.000 пиксела по Ethernet порту) и Free topology.",
+        "**Connection и Drawing:** превлачење које стигне до другог екрана наставља се као кабл, трака Pixel Mapping приказује RJ45 портове у употреби, а брисање Custom device више не приказује други Device 1.",
+        "**Анимација:** ново поље брзине са стрелицама које померају за један корак, техничари помажу један другом без истезања руке, а руковање је краће. Нови екрани почињу од 1 × 1."
+      ],
+      "hr": [
+        "**Brzina:** Connection se otvara oko 34 % brže, a Drawing oko 43 % brže, i animacija u Drawingu je glađa.",
+        "**Pravila NovaStar:** novi redak Output u okviru Wiring (8-bit 650.000, 10/12-bit HDR 320.000 ili 3D 325.000 piksela po Ethernet priključku) i Free topology.",
+        "**Connection i Drawing:** povlačenje koje dosegne drugi zaslon nastavlja se kao kabel, traka Pixel Mapping prikazuje RJ45 priključke u upotrebi, a brisanje Custom devicea više ne prikazuje drugi Device 1.",
+        "**Animacija:** novi okvir brzine sa strelicama koje pomiču za jedan korak, tehničari si pomažu bez istezanja ruke, a rukovanje je kraće. Novi zasloni počinju od 1 × 1."
+      ],
+      "gu": [
+        "**ઝડપ:** Connection લગભગ 34% અને Drawing લગભગ 43% ઝડપથી ખૂલે છે, અને Drawing નું એનિમેશન વધુ સરળ છે.",
+        "**NovaStar નિયમો:** Wiring બૉક્સમાં નવી Output પંક્તિ (દરેક Ethernet પોર્ટ માટે 8-bit 650,000, 10/12-bit HDR 320,000 અથવા 3D 325,000 પિક્સેલ) અને Free topology.",
+        "**Connection અને Drawing:** બીજી સ્ક્રીન સુધી પહોંચતી સ્વીપ કેબલ તરીકે ચાલુ રહે છે, Pixel Mapping પટ્ટી વપરાશમાં રહેલા RJ45 પોર્ટ બતાવે છે, અને Custom device કાઢી નાખવાથી હવે બીજું Device 1 દેખાતું નથી.",
+        "**એનિમેશન:** એક વખતમાં એક પગલું ખસતા તીર સાથે નવું ઝડપ બૉક્સ, ટેકનિશિયન હાથ ખેંચ્યા વગર એકબીજાને મદદ કરે છે, અને હાથ મિલાવવું ટૂંકું થયું છે. નવી સ્ક્રીન 1 × 1 થી શરૂ થાય છે."
+      ],
+      "pa": [
+        "**ਰਫ਼ਤਾਰ:** Connection ਲਗਭਗ 34% ਅਤੇ Drawing ਲਗਭਗ 43% ਤੇਜ਼ ਖੁੱਲ੍ਹਦਾ ਹੈ, ਅਤੇ Drawing ਦੀ ਐਨੀਮੇਸ਼ਨ ਹੋਰ ਸੁਚੱਜੀ ਹੈ।",
+        "**NovaStar ਨਿਯਮ:** Wiring ਡੱਬੇ ਵਿੱਚ ਨਵੀਂ Output ਲਾਈਨ (ਹਰ Ethernet ਪੋਰਟ ਲਈ 8-bit 650,000, 10/12-bit HDR 320,000 ਜਾਂ 3D 325,000 ਪਿਕਸਲ) ਅਤੇ Free topology।",
+        "**Connection ਅਤੇ Drawing:** ਦੂਜੀ ਸਕ੍ਰੀਨ ਤੱਕ ਪਹੁੰਚਣ ਵਾਲਾ ਸਵੀਪ ਕੇਬਲ ਵਜੋਂ ਜਾਰੀ ਰਹਿੰਦਾ ਹੈ, Pixel Mapping ਪੱਟੀ ਵਰਤੋਂ ਵਿੱਚ RJ45 ਪੋਰਟ ਦਿਖਾਉਂਦੀ ਹੈ, ਅਤੇ Custom device ਮਿਟਾਉਣ ਨਾਲ ਹੁਣ ਦੂਜਾ Device 1 ਨਹੀਂ ਦਿਸਦਾ।",
+        "**ਐਨੀਮੇਸ਼ਨ:** ਇੱਕ ਵਾਰ ਵਿੱਚ ਇੱਕ ਕਦਮ ਚੱਲਣ ਵਾਲੇ ਤੀਰਾਂ ਨਾਲ ਨਵਾਂ ਰਫ਼ਤਾਰ ਡੱਬਾ, ਤਕਨੀਸ਼ੀਅਨ ਬਾਂਹ ਖਿੱਚੇ ਬਿਨਾਂ ਇੱਕ-ਦੂਜੇ ਦੀ ਮਦਦ ਕਰਦੇ ਹਨ, ਅਤੇ ਹੱਥ ਮਿਲਾਉਣਾ ਛੋਟਾ ਹੋਇਆ। ਨਵੀਆਂ ਸਕ੍ਰੀਨਾਂ 1 × 1 ਤੋਂ ਸ਼ੁਰੂ ਹੁੰਦੀਆਂ ਹਨ।"
+      ],
+      "kn": [
+        "**ವೇಗ:** Connection ಸುಮಾರು 34% ಮತ್ತು Drawing ಸುಮಾರು 43% ವೇಗವಾಗಿ ತೆರೆಯುತ್ತವೆ, ಮತ್ತು Drawing ಅನಿಮೇಶನ್ ಇನ್ನಷ್ಟು ಸುಗಮವಾಗಿದೆ.",
+        "**NovaStar ನಿಯಮಗಳು:** Wiring ಪೆಟ್ಟಿಗೆಯಲ್ಲಿ ಹೊಸ Output ಸಾಲು (ಪ್ರತಿ Ethernet ಪೋರ್ಟ್‌ಗೆ 8-bit 650,000, 10/12-bit HDR 320,000 ಅಥವಾ 3D 325,000 ಪಿಕ್ಸೆಲ್‌ಗಳು) ಮತ್ತು Free topology.",
+        "**Connection ಮತ್ತು Drawing:** ಇನ್ನೊಂದು ಪರದೆಯನ್ನು ತಲುಪುವ ಸ್ವೀಪ್ ಕೇಬಲ್ ಆಗಿ ಮುಂದುವರಿಯುತ್ತದೆ, Pixel Mapping ಪಟ್ಟಿ ಬಳಕೆಯಲ್ಲಿರುವ RJ45 ಪೋರ್ಟ್‌ಗಳನ್ನು ತೋರಿಸುತ್ತದೆ, ಮತ್ತು Custom device ಅಳಿಸಿದರೆ ಇನ್ನು ಎರಡನೇ Device 1 ಕಾಣುವುದಿಲ್ಲ.",
+        "**ಅನಿಮೇಶನ್:** ಒಂದು ಬಾರಿಗೆ ಒಂದು ಹೆಜ್ಜೆ ಚಲಿಸುವ ಬಾಣಗಳೊಂದಿಗೆ ಹೊಸ ವೇಗದ ಪೆಟ್ಟಿಗೆ, ತಂತ್ರಜ್ಞರು ಕೈ ಚಾಚದೆ ಪರಸ್ಪರ ಸಹಾಯ ಮಾಡುತ್ತಾರೆ, ಮತ್ತು ಹಸ್ತಲಾಘವ ಚಿಕ್ಕದಾಗಿದೆ. ಹೊಸ ಪರದೆಗಳು 1 × 1 ರಿಂದ ಆರಂಭವಾಗುತ್ತವೆ."
+      ],
+      "ne": [
+        "**गति:** Connection लगभग 34% र Drawing लगभग 43% छिटो खुल्छ, र Drawing को एनिमेसन अझ सहज छ।",
+        "**NovaStar नियमहरू:** Wiring बाकसमा नयाँ Output पङ्क्ति (प्रत्येक Ethernet पोर्टमा 8-bit 650,000, 10/12-bit HDR 320,000 वा 3D 325,000 पिक्सेल) र Free topology।",
+        "**Connection र Drawing:** अर्को स्क्रिनसम्म पुग्ने स्वीप केबलको रूपमा जारी रहन्छ, Pixel Mapping पट्टीले प्रयोगमा रहेका RJ45 पोर्टहरू देखाउँछ, र Custom device मेटाउँदा अब दोस्रो Device 1 देखिँदैन।",
+        "**एनिमेसन:** एक पटकमा एक कदम सर्ने तीरसहितको नयाँ गति बाकस, प्राविधिकहरू हात नतानी एकअर्कालाई सहयोग गर्छन्, र हात मिलाउने छोटो भयो। नयाँ स्क्रिनहरू 1 × 1 बाट सुरु हुन्छन्।"
+      ],
+      "km": [
+        "**ល្បឿន:** Connection បើកលឿនជាងប្រហែល 34% ហើយ Drawing លឿនជាងប្រហែល 43% ហើយចលនានៅក្នុង Drawing រលូនជាងមុន។",
+        "**ច្បាប់ NovaStar:** បន្ទាត់ Output ថ្មីក្នុងប្រអប់ Wiring (8-bit 650,000, 10/12-bit HDR 320,000 ឬ 3D 325,000 ភីកសែលក្នុងមួយច្រក Ethernet) និង Free topology។",
+        "**Connection និង Drawing:** ការអូសដែលទៅដល់អេក្រង់ផ្សេងបន្តជាខ្សែកាប ឆ្នូត Pixel Mapping បង្ហាញច្រក RJ45 ដែលកំពុងប្រើ ហើយការលុប Custom device លែងបង្ហាញ Device 1 ទីពីរទៀតហើយ។",
+        "**ចលនា:** ប្រអប់ល្បឿនថ្មីមានព្រួញដែលផ្លាស់ទីម្តងមួយជំហាន អ្នកបច្ចេកទេសជួយគ្នាដោយមិនលាតដៃ ហើយការចាប់ដៃខ្លីជាងមុន។ អេក្រង់ថ្មីចាប់ផ្តើមពី 1 × 1។"
+      ],
+      "kk": [
+        "**Жылдамдық:** Connection шамамен 34%, Drawing шамамен 43% жылдамырақ ашылады, ал Drawing анимациясы бірқалыпты болды.",
+        "**NovaStar ережелері:** Wiring өрісінде жаңа Output жолы (әр Ethernet портына 8-bit 650 000, 10/12-bit HDR 320 000 немесе 3D 325 000 пиксель) және Free topology.",
+        "**Connection және Drawing:** басқа экранға жеткен сүйреу кабель ретінде жалғасады, Pixel Mapping жолағы пайдаланылып жатқан RJ45 порттарын көрсетеді, ал Custom device жойылғанда екінші Device 1 енді көрінбейді.",
+        "**Анимация:** бір қадамнан жылжитын көрсеткілері бар жаңа жылдамдық өрісі, техниктер қолын созбай бір-біріне көмектеседі, қол алысу қысқарды. Жаңа экрандар 1 × 1-ден басталады."
+      ],
+      "uz": [
+        "**Tezlik:** Connection taxminan 34% va Drawing taxminan 43% tezroq ochiladi, Drawing animatsiyasi esa silliqroq.",
+        "**NovaStar qoidalari:** Wiring oynasida yangi Output qatori (har bir Ethernet porti uchun 8-bit 650 000, 10/12-bit HDR 320 000 yoki 3D 325 000 piksel) va Free topology.",
+        "**Connection va Drawing:** boshqa ekranga yetgan surish kabel sifatida davom etadi, Pixel Mapping tasmasi ishlatilayotgan RJ45 portlarini ko‘rsatadi, Custom device o‘chirilganda endi ikkinchi Device 1 paydo bo‘lmaydi.",
+        "**Animatsiya:** bir vaqtda bir qadam suradigan o‘qli yangi tezlik oynasi, texniklar qo‘lini cho‘zmasdan bir-biriga yordam beradi, qo‘l berib ko‘rishish qisqardi. Yangi ekranlar 1 × 1 dan boshlanadi."
+      ],
+      "am": [
+        "**ፍጥነት:** Connection በግምት 34% እና Drawing በግምት 43% በፍጥነት ይከፈታሉ፣ የDrawing እንቅስቃሴም ይበልጥ ለስላሳ ሆኗል።",
+        "**የNovaStar ደንቦች:** በWiring ሳጥን ውስጥ አዲስ የOutput መስመር (ለእያንዳንዱ Ethernet ወደብ 8-bit 650,000፣ 10/12-bit HDR 320,000 ወይም 3D 325,000 ፒክሰል) እና Free topology።",
+        "**Connection እና Drawing:** ሌላ ማያ የሚደርስ መጥረግ እንደ ገመድ ይቀጥላል፣ የPixel Mapping ሰንበር በጥቅም ላይ ያሉትን RJ45 ወደቦች ያሳያል፣ Custom device ሲሰረዝም ሁለተኛ Device 1 ከእንግዲህ አይታይም።",
+        "**እንቅስቃሴ:** በአንድ ጊዜ አንድ እርምጃ የሚሄዱ ቀስቶች ያሉት አዲስ የፍጥነት ሳጥን፣ ቴክኒሻኖቹ ክንዳቸውን ሳይዘረጉ ይረዳዳሉ፣ መጨባበጡም አጭር ሆኗል። አዲስ ማያዎች ከ1 × 1 ይጀምራሉ።"
+      ],
+      "sl": [
+        "**Hitrost:** Connection se odpre približno 34 % hitreje, Drawing pa približno 43 % hitreje, animacija v Drawing pa je bolj gladka.",
+        "**Pravila NovaStar:** nova vrstica Output v polju Wiring (8-bit 650.000, 10/12-bit HDR 320.000 ali 3D 325.000 slikovnih pik na vrata Ethernet) in Free topology.",
+        "**Connection in Drawing:** vlečenje, ki doseže drug zaslon, se nadaljuje kot kabel, trak Pixel Mapping prikaže uporabljena vrata RJ45, brisanje Custom device pa ne prikaže več drugega Device 1.",
+        "**Animacija:** novo polje hitrosti s puščicami, ki se premikajo po en korak, tehniki si pomagajo, ne da bi raztegovali roko, rokovanje pa je krajše. Novi zasloni se začnejo pri 1 × 1."
+      ],
+      "kab": [
+        "**Tazzla:** Connection yetteldi azal n 34% s tazzla ugar, Drawing azal n 43%, yerna asmussu n Drawing yelha ugar.",
+        "**Ilugan n NovaStar:** izirig amaynut Output deg tenkult Wiring (8-bit 650 000, 10/12-bit HDR 320 000 neɣ 3D 325 000 n yipiksilen i yal tawwurt Ethernet) d Free topology.",
+        "**Connection d Drawing:** azuɣer yewwḍen ɣer ugdil-nniḍen ad ikemmel am cable, afeggag n Pixel Mapping yesskanay tiwwura RJ45 yettwasqedcen, yerna mi ara tekkseḍ Custom device ur d-yettban ara Device 1 wis sin.",
+        "**Asmussu:** tanaka tamaynut n tezzla s tneccabin i yetteddun yiwen n ukatar, imeskaren ttɛawanen war ma zelden afus, yerna asalam s ufus yewzel. Igdilen imaynuten bdan s 1 × 1."
+      ]
+    },
     "2.9.9": {
       "en": [
         "**Drawing:** fixed the crash when the Drawing opened after the first addressing. A port that already has a cable now selects that cable (Delete removes it).",
@@ -606,368 +968,6 @@
         "**Grid:** tanaka tamaynut n Effects s Radar s ttawil, initen iṣfan (azeggaɣ, azegzaw, anili, amellal) deg Pattern, ineccaben smuttin alugu yettwafernen. Afeggag n yifecka yuɣal zeddig yerna yeqqim deg umkan-is.",
         "**Alugu:** yetteddu akken kan deg Pixel Mapping, Drawing d Grid: ineccaben (Ctrl = s lemɣawla), amagnaṭis ɣer tnakatin d taṭṭuft n tuzzya.",
         "**Asuddes:** tagejdit n zelmeḍ ɣur-s yiwen n teɣzi deg yiccer akk, ur tettneggiz ara mi ara tbeddleḍ iccer."
-      ]
-    },
-    "2.9.7": {
-      "en": [
-        "**Pixel Mapping:** the screen logo moves freely over the whole canvas, rotates, snaps to the screens and moves with the arrow keys (Ctrl = faster). The port strip at the bottom is now one continuous strip with a thin scrollbar.",
-        "**Connection:** right-click a Device to choose how many ports it has. A new cable goes to the next port of the same Device until it is full.",
-        "**Drawing:** a single Tools panel (Center view turns on and off). An RJ45 dropped on a panel goes to the sending card of that panel, which lights up with its addressing. Double-click an RJ45 cable to add a text or a move handle. Insert logo adds only the logo.",
-        "**Grid, 3D Stage and Status:** the Grid logo snaps to the border and moves with the arrow keys; the RJ45 ports card scrolls when there are many Devices."
-      ],
-      "pt": [
-        "**Pixel Mapping:** o logo da tela anda livre por todo o canvas, gira, gruda nas telas (ímã) e anda com as setas do teclado (Ctrl = mais rápido). A faixa de portas embaixo virou uma faixa contínua com um scroll fininho.",
-        "**Connection:** clique com o botão direito num Device para escolher quantas portas ele tem. O cabo novo vai para a próxima porta do mesmo Device até ele encher.",
-        "**Drawing:** um painel Tools só (o Center view liga e desliga). Um RJ45 solto em cima de um painel vai para a sending card desse painel, que acende com o endereçamento. Dois cliques num cabo RJ45 põem um texto ou uma alça de mover. Insert logo traz só o logo.",
-        "**Grid, 3D Stage e Status:** o logo do Grid gruda na borda e anda com as setas; o quadro das portas RJ45 ganha scroll quando há muitos Devices."
-      ],
-      "es": [
-        "**Pixel Mapping:** el logo de la pantalla se mueve libre por todo el canvas, gira, se pega a las pantallas (imán) y se mueve con las flechas del teclado (Ctrl = más rápido). La franja de puertos de abajo ahora es una sola franja continua con una barra de desplazamiento fina.",
-        "**Connection:** haz clic derecho en un Device para elegir cuántos puertos tiene. Un cable nuevo va al siguiente puerto del mismo Device hasta llenarlo.",
-        "**Drawing:** un solo panel Tools (Center view se activa y desactiva). Un RJ45 soltado sobre un panel va a la sending card de ese panel, que se ilumina con su direccionamiento. Doble clic en un cable RJ45 para añadir un texto o un asa de mover. Insert logo añade solo el logo.",
-        "**Grid, 3D Stage y Status:** el logo del Grid se pega al borde y se mueve con las flechas; el cuadro de puertos RJ45 tiene desplazamiento cuando hay muchos Devices."
-      ],
-      "fr": [
-        "**Pixel Mapping :** le logo de l’écran se déplace librement sur tout le canvas, pivote, s’aimante aux écrans et se déplace avec les flèches du clavier (Ctrl = plus vite). La bande des ports en bas est désormais une bande continue avec une fine barre de défilement.",
-        "**Connection :** clic droit sur un Device pour choisir son nombre de ports. Un nouveau câble va au port suivant du même Device jusqu’à ce qu’il soit plein.",
-        "**Drawing :** un seul panneau Tools (Center view s’active et se désactive). Un RJ45 déposé sur un panneau va à la sending card de ce panneau, qui s’allume avec son adressage. Double-clic sur un câble RJ45 pour ajouter un texte ou une poignée de déplacement. Insert logo n’ajoute que le logo.",
-        "**Grid, 3D Stage et Status :** le logo du Grid s’aimante au bord et se déplace avec les flèches ; le cadre des ports RJ45 défile quand il y a beaucoup de Devices."
-      ],
-      "de": [
-        "**Pixel Mapping:** Das Screen-Logo bewegt sich frei über das ganze Canvas, dreht sich, rastet magnetisch an den Screens ein und lässt sich mit den Pfeiltasten verschieben (Ctrl = schneller). Die Port-Leiste unten ist jetzt eine durchgehende Leiste mit schmaler Bildlaufleiste.",
-        "**Connection:** Rechtsklick auf ein Device, um die Anzahl seiner Ports zu wählen. Ein neues Kabel geht an den nächsten Port desselben Device, bis es voll ist.",
-        "**Drawing:** ein einziges Tools-Panel (Center view lässt sich ein- und ausschalten). Ein RJ45, das auf ein Panel gezogen wird, geht an die Sending Card dieses Panels, die mit ihrer Adressierung aufleuchtet. Doppelklick auf ein RJ45-Kabel fügt einen Text oder einen Verschiebegriff hinzu. Insert logo fügt nur das Logo ein.",
-        "**Grid, 3D Stage und Status:** Das Grid-Logo rastet am Rand ein und bewegt sich mit den Pfeiltasten; die RJ45-Port-Karte scrollt bei vielen Devices."
-      ],
-      "it": [
-        "**Pixel Mapping:** il logo dello schermo si muove libero su tutto il canvas, ruota, si aggancia agli schermi (calamita) e si sposta con le frecce della tastiera (Ctrl = più veloce). La striscia delle porte in basso ora è un’unica striscia continua con una barra di scorrimento sottile.",
-        "**Connection:** clic destro su un Device per scegliere quante porte ha. Un nuovo cavo va alla porta successiva dello stesso Device finché non è pieno.",
-        "**Drawing:** un unico pannello Tools (Center view si accende e si spegne). Un RJ45 lasciato su un pannello va alla sending card di quel pannello, che si illumina con il suo indirizzamento. Doppio clic su un cavo RJ45 per aggiungere un testo o una maniglia di spostamento. Insert logo aggiunge solo il logo.",
-        "**Grid, 3D Stage e Status:** il logo del Grid si aggancia al bordo e si sposta con le frecce; il riquadro delle porte RJ45 scorre quando ci sono molti Device."
-      ],
-      "nl": [
-        "**Pixel Mapping:** het schermlogo beweegt vrij over het hele canvas, draait, klikt magnetisch vast aan de schermen en beweegt met de pijltjestoetsen (Ctrl = sneller). De poortstrook onderaan is nu één doorlopende strook met een smalle schuifbalk.",
-        "**Connection:** klik met rechts op een Device om te kiezen hoeveel poorten het heeft. Een nieuwe kabel gaat naar de volgende poort van hetzelfde Device tot het vol is.",
-        "**Drawing:** één Tools-paneel (Center view gaat aan en uit). Een RJ45 die op een paneel wordt losgelaten gaat naar de sending card van dat paneel, die oplicht met zijn adressering. Dubbelklik op een RJ45-kabel om een tekst of een verplaatsgreep toe te voegen. Insert logo voegt alleen het logo toe.",
-        "**Grid, 3D Stage en Status:** het Grid-logo klikt vast aan de rand en beweegt met de pijltjes; de RJ45-poortkaart scrolt bij veel Devices."
-      ],
-      "ru": [
-        "**Pixel Mapping:** логотип экрана свободно перемещается по всему canvas, вращается, прилипает к экранам (магнит) и двигается стрелками клавиатуры (Ctrl = быстрее). Полоса портов внизу теперь одна сплошная полоса с тонкой полосой прокрутки.",
-        "**Connection:** щёлкните правой кнопкой по Device, чтобы выбрать количество его портов. Новый кабель идёт на следующий порт того же Device, пока он не заполнится.",
-        "**Drawing:** одна панель Tools (Center view включается и выключается). RJ45, брошенный на панель, подключается к sending card этой панели, которая подсвечивается вместе с адресацией. Двойной щелчок по кабелю RJ45 добавляет текст или маркер перемещения. Insert logo добавляет только логотип.",
-        "**Grid, 3D Stage и Status:** логотип Grid прилипает к краю и двигается стрелками; блок портов RJ45 прокручивается, когда Device много."
-      ],
-      "tr": [
-        "**Pixel Mapping:** ekran logosu tüm canvas üzerinde serbestçe hareket eder, döner, ekranlara mıknatısla yapışır ve klavye oklarıyla kayar (Ctrl = daha hızlı). Alttaki port şeridi artık ince kaydırma çubuklu tek, kesintisiz bir şerit.",
-        "**Connection:** bir Device'ın port sayısını seçmek için üzerine sağ tıklayın. Yeni kablo, dolana kadar aynı Device'ın sonraki portuna gider.",
-        "**Drawing:** tek bir Tools paneli (Center view açılıp kapanır). Bir panelin üzerine bırakılan RJ45, o panelin sending card'ına bağlanır; kart adreslemesiyle birlikte yanar. Bir RJ45 kablosuna çift tıklayarak metin veya taşıma tutamacı ekleyin. Insert logo yalnızca logoyu ekler.",
-        "**Grid, 3D Stage ve Status:** Grid logosu kenara yapışır ve oklarla hareket eder; çok sayıda Device olduğunda RJ45 port kartı kaydırılır."
-      ],
-      "id": [
-        "**Pixel Mapping:** logo layar bergerak bebas di seluruh canvas, berputar, menempel ke layar (magnet) dan bergerak dengan tombol panah (Ctrl = lebih cepat). Strip port di bawah kini satu strip menyambung dengan bilah gulir tipis.",
-        "**Connection:** klik kanan pada Device untuk memilih jumlah port-nya. Kabel baru masuk ke port berikutnya pada Device yang sama sampai penuh.",
-        "**Drawing:** satu panel Tools (Center view bisa dinyalakan dan dimatikan). RJ45 yang dilepas di atas panel tersambung ke sending card panel itu, yang menyala bersama pengalamatannya. Klik ganda kabel RJ45 untuk menambah teks atau pegangan geser. Insert logo hanya menambahkan logo.",
-        "**Grid, 3D Stage dan Status:** logo Grid menempel ke tepi dan bergerak dengan panah; kartu port RJ45 bisa digulir saat Device banyak."
-      ],
-      "hu": [
-        "**Pixel Mapping:** a képernyő logója szabadon mozog az egész canvason, forog, mágnesesen a képernyőkhöz tapad, és a nyílbillentyűkkel mozgatható (Ctrl = gyorsabban). Az alsó portsáv most egyetlen folytonos sáv vékony görgetősávval.",
-        "**Connection:** jobb kattintás egy Device-on a portjai számának kiválasztásához. Az új kábel ugyanannak a Device-nak a következő portjára megy, amíg meg nem telik.",
-        "**Drawing:** egyetlen Tools panel (a Center view be- és kikapcsolható). Egy panelre ejtett RJ45 a panel sending cardjára kerül, amely a címzésével együtt kigyullad. Dupla kattintás egy RJ45 kábelre: szöveg vagy mozgató fogantyú hozzáadása. Az Insert logo csak a logót adja hozzá.",
-        "**Grid, 3D Stage és Status:** a Grid logója a szélhez tapad és a nyilakkal mozog; az RJ45 portok kártyája görgethető, ha sok a Device."
-      ],
-      "zh-Hans": [
-        "**Pixel Mapping：** 屏幕 logo 可在整个 canvas 上自由移动、旋转、吸附到屏幕（磁铁），并可用方向键移动（Ctrl = 更快）。底部的端口条现在是一条连续的条带，带细滚动条。",
-        "**Connection：** 右键单击 Device 可选择其端口数量。新线缆会接到同一 Device 的下一个端口，直到占满。",
-        "**Drawing：** 只有一个 Tools 面板（Center view 可开关）。拖到面板上的 RJ45 会连接到该面板的 sending card，并连同其寻址一起高亮。双击 RJ45 线缆可添加文本或移动手柄。Insert logo 只插入 logo。",
-        "**Grid、3D Stage 和 Status：** Grid 的 logo 会吸附到边框并可用方向键移动；Device 很多时，RJ45 端口卡片可以滚动。"
-      ],
-      "zh-Hant": [
-        "**Pixel Mapping：** 螢幕 logo 可在整個 canvas 上自由移動、旋轉、吸附到螢幕（磁鐵），並可用方向鍵移動（Ctrl = 更快）。底部的連接埠條現在是一條連續的條帶，附細捲軸。",
-        "**Connection：** 在 Device 上按右鍵可選擇其連接埠數量。新線材會接到同一 Device 的下一個連接埠，直到接滿。",
-        "**Drawing：** 只有一個 Tools 面板（Center view 可開關）。拖到面板上的 RJ45 會連接到該面板的 sending card，並連同其定址一起亮起。按兩下 RJ45 線材可加入文字或移動控點。Insert logo 只插入 logo。",
-        "**Grid、3D Stage 和 Status：** Grid 的 logo 會吸附到邊框並可用方向鍵移動；Device 很多時，RJ45 連接埠卡片可以捲動。"
-      ],
-      "ja": [
-        "**Pixel Mapping：** 画面のロゴが canvas 全体を自由に動き、回転し、画面に吸着（マグネット）し、矢印キーで移動できます（Ctrl = 速く）。下のポート帯は細いスクロールバー付きの 1 本の連続した帯になりました。",
-        "**Connection：** Device を右クリックしてポート数を選べます。新しいケーブルは、同じ Device がいっぱいになるまで次のポートにつながります。",
-        "**Drawing：** Tools パネルが 1 つに（Center view はオン／オフ切り替え）。パネルの上に落とした RJ45 はそのパネルの sending card につながり、アドレッシングと一緒に点灯します。RJ45 ケーブルをダブルクリックすると、テキストや移動ハンドルを追加できます。Insert logo はロゴだけを追加します。",
-        "**Grid、3D Stage、Status：** Grid のロゴが枠に吸着し、矢印キーで動きます。Device が多いと RJ45 ポートのカードがスクロールします。"
-      ],
-      "ko": [
-        "**Pixel Mapping:** 화면 로고가 canvas 전체를 자유롭게 움직이고, 회전하며, 화면에 자석처럼 붙고, 방향키로 이동합니다(Ctrl = 더 빠르게). 아래 포트 줄은 이제 가는 스크롤 막대가 있는 하나의 연속된 줄입니다.",
-        "**Connection:** Device를 오른쪽 클릭해 포트 수를 고르세요. 새 케이블은 같은 Device가 가득 찰 때까지 다음 포트로 연결됩니다.",
-        "**Drawing:** Tools 패널 하나로 정리(Center view 켜기/끄기). 패널 위에 놓은 RJ45는 그 패널의 sending card에 연결되고, 주소 지정과 함께 강조됩니다. RJ45 케이블을 두 번 클릭하면 텍스트나 이동 핸들을 넣을 수 있습니다. Insert logo는 로고만 넣습니다.",
-        "**Grid, 3D Stage, Status:** Grid 로고가 테두리에 붙고 방향키로 움직입니다. Device가 많으면 RJ45 포트 카드가 스크롤됩니다."
-      ],
-      "ar": [
-        "**Pixel Mapping:** يتحرك شعار الشاشة بحرية على كامل الـ canvas، ويدور، ويلتصق بالشاشات (مغناطيس)، ويتحرك بمفاتيح الأسهم (Ctrl = أسرع). أصبح شريط المنافذ في الأسفل شريطًا واحدًا متصلًا مع شريط تمرير رفيع.",
-        "**Connection:** انقر بزر الفأرة الأيمن على Device لاختيار عدد منافذه. يذهب الكابل الجديد إلى المنفذ التالي في نفس الـ Device حتى يمتلئ.",
-        "**Drawing:** لوحة Tools واحدة (يمكن تشغيل Center view وإيقافه). كابل RJ45 يُفلت فوق لوحة يتصل بالـ sending card الخاصة بها، فتضيء مع عنونتها. انقر نقرًا مزدوجًا على كابل RJ45 لإضافة نص أو مقبض تحريك. يضيف Insert logo الشعار فقط.",
-        "**Grid و3D Stage وStatus:** يلتصق شعار Grid بالحافة ويتحرك بالأسهم؛ وتصبح بطاقة منافذ RJ45 قابلة للتمرير عند كثرة الـ Devices."
-      ],
-      "th": [
-        "**Pixel Mapping:** โลโก้ของหน้าจอเลื่อนได้อิสระทั่วทั้ง canvas หมุนได้ ดูดติดกับหน้าจอ (แม่เหล็ก) และเลื่อนด้วยปุ่มลูกศร (Ctrl = เร็วขึ้น) แถบพอร์ตด้านล่างตอนนี้เป็นแถบต่อเนื่องเดียวพร้อมแถบเลื่อนบาง ๆ",
-        "**Connection:** คลิกขวาที่ Device เพื่อเลือกจำนวนพอร์ต สายใหม่จะไปที่พอร์ตถัดไปของ Device เดิมจนกว่าจะเต็ม",
-        "**Drawing:** มีแผง Tools แผงเดียว (Center view เปิด/ปิดได้) RJ45 ที่ปล่อยบนแผงจะต่อกับ sending card ของแผงนั้น ซึ่งจะสว่างพร้อมการกำหนดแอดเดรส ดับเบิลคลิกที่สาย RJ45 เพื่อเพิ่มข้อความหรือจุดจับสำหรับเลื่อน Insert logo จะเพิ่มเฉพาะโลโก้",
-        "**Grid, 3D Stage และ Status:** โลโก้ของ Grid ดูดติดขอบและเลื่อนด้วยลูกศรได้ การ์ดพอร์ต RJ45 เลื่อนดูได้เมื่อมี Device จำนวนมาก"
-      ],
-      "hi": [
-        "**Pixel Mapping:** स्क्रीन का लोगो पूरे canvas पर आज़ादी से चलता है, घूमता है, स्क्रीनों से चिपक जाता है (मैग्नेट) और तीर कुंजियों से खिसकता है (Ctrl = तेज़)। नीचे की पोर्ट पट्टी अब पतले स्क्रॉल बार वाली एक लगातार पट्टी है।",
-        "**Connection:** किसी Device पर राइट-क्लिक करके उसके पोर्ट की संख्या चुनें। नया केबल उसी Device के अगले पोर्ट पर जाता है, जब तक वह भर न जाए।",
-        "**Drawing:** एक ही Tools पैनल (Center view चालू/बंद होता है)। किसी पैनल पर छोड़ा गया RJ45 उस पैनल के sending card से जुड़ता है, जो अपनी एड्रेसिंग के साथ जगमगाता है। RJ45 केबल पर डबल-क्लिक करके टेक्स्ट या खिसकाने का हैंडल जोड़ें। Insert logo सिर्फ़ लोगो जोड़ता है।",
-        "**Grid, 3D Stage और Status:** Grid का लोगो किनारे से चिपकता है और तीरों से चलता है; बहुत Device होने पर RJ45 पोर्ट कार्ड स्क्रॉल होता है।"
-      ],
-      "vi": [
-        "**Pixel Mapping:** logo của màn hình di chuyển tự do trên toàn bộ canvas, xoay được, hút dính vào các màn hình (nam châm) và di chuyển bằng phím mũi tên (Ctrl = nhanh hơn). Dải cổng bên dưới giờ là một dải liền với thanh cuộn mảnh.",
-        "**Connection:** nhấp chuột phải vào một Device để chọn số cổng của nó. Cáp mới đi vào cổng kế tiếp của cùng Device cho đến khi đầy.",
-        "**Drawing:** chỉ một bảng Tools (Center view bật/tắt được). RJ45 thả lên một panel sẽ nối vào sending card của panel đó, sáng lên cùng phần định địa chỉ. Nhấp đúp vào cáp RJ45 để thêm văn bản hoặc tay nắm di chuyển. Insert logo chỉ thêm logo.",
-        "**Grid, 3D Stage và Status:** logo của Grid hút vào mép và di chuyển bằng phím mũi tên; thẻ cổng RJ45 cuộn được khi có nhiều Device."
-      ],
-      "bn": [
-        "**Pixel Mapping:** স্ক্রিনের লোগো পুরো canvas জুড়ে স্বাধীনভাবে সরে, ঘোরে, স্ক্রিনে চুম্বকের মতো আটকে যায় এবং অ্যারো কী দিয়ে সরে (Ctrl = দ্রুত)। নিচের পোর্ট স্ট্রিপ এখন সরু স্ক্রলবারসহ একটি টানা স্ট্রিপ।",
-        "**Connection:** কোনো Device-এ রাইট-ক্লিক করে তার পোর্টের সংখ্যা বেছে নিন। নতুন কেবল একই Device-এর পরের পোর্টে যায়, যতক্ষণ না সেটি ভরে যায়।",
-        "**Drawing:** একটিই Tools প্যানেল (Center view চালু/বন্ধ হয়)। প্যানেলের উপর ছাড়া RJ45 সেই প্যানেলের sending card-এ যুক্ত হয়, যা তার অ্যাড্রেসিংসহ জ্বলে ওঠে। RJ45 কেবলে ডাবল-ক্লিক করে টেক্সট বা সরানোর হ্যান্ডেল যোগ করুন। Insert logo শুধু লোগো যোগ করে।",
-        "**Grid, 3D Stage ও Status:** Grid-এর লোগো কিনারায় আটকে যায় এবং অ্যারো দিয়ে সরে; অনেক Device থাকলে RJ45 পোর্ট কার্ড স্ক্রল হয়।"
-      ],
-      "ms": [
-        "**Pixel Mapping:** logo skrin bergerak bebas di seluruh canvas, berputar, melekat pada skrin (magnet) dan bergerak dengan kekunci anak panah (Ctrl = lebih laju). Jalur port di bawah kini satu jalur berterusan dengan bar skrol nipis.",
-        "**Connection:** klik kanan pada Device untuk memilih bilangan portnya. Kabel baharu pergi ke port seterusnya pada Device yang sama sehingga penuh.",
-        "**Drawing:** satu panel Tools sahaja (Center view boleh dihidup dan dimatikan). RJ45 yang dilepaskan di atas panel bersambung ke sending card panel itu, yang menyala bersama pengalamatannya. Klik dua kali kabel RJ45 untuk menambah teks atau pemegang gerak. Insert logo hanya menambah logo.",
-        "**Grid, 3D Stage dan Status:** logo Grid melekat pada tepi dan bergerak dengan anak panah; kad port RJ45 boleh diskrol apabila Device banyak."
-      ],
-      "sv": [
-        "**Pixel Mapping:** skärmens logotyp rör sig fritt över hela canvas, roterar, fäster magnetiskt mot skärmarna och flyttas med piltangenterna (Ctrl = snabbare). Portremsan längst ned är nu en sammanhängande remsa med en smal rullningslist.",
-        "**Connection:** högerklicka på en Device för att välja hur många portar den har. En ny kabel går till nästa port på samma Device tills den är full.",
-        "**Drawing:** en enda Tools-panel (Center view slås på och av). En RJ45 som släpps på en panel kopplas till panelens sending card, som lyser upp med sin adressering. Dubbelklicka på en RJ45-kabel för att lägga till en text eller ett flytthandtag. Insert logo lägger bara till logotypen.",
-        "**Grid, 3D Stage och Status:** Grid-logotypen fäster mot kanten och flyttas med pilarna; RJ45-portkortet kan rullas när det finns många Devices."
-      ],
-      "ur": [
-        "**Pixel Mapping:** اسکرین کا لوگو پورے canvas پر آزادی سے چلتا ہے، گھومتا ہے، اسکرینوں سے مقناطیس کی طرح چپک جاتا ہے اور تیر والی کلیدوں سے کھسکتا ہے (Ctrl = تیز)۔ نیچے کی پورٹ پٹی اب باریک اسکرول بار والی ایک مسلسل پٹی ہے۔",
-        "**Connection:** کسی Device پر رائٹ کلک کر کے اس کے پورٹس کی تعداد چنیں۔ نیا کیبل اسی Device کے اگلے پورٹ پر جاتا ہے، جب تک وہ بھر نہ جائے۔",
-        "**Drawing:** ایک ہی Tools پینل (Center view آن/آف ہوتا ہے)۔ پینل پر چھوڑا گیا RJ45 اسی پینل کے sending card سے جڑتا ہے، جو اپنی ایڈریسنگ کے ساتھ روشن ہوتا ہے۔ RJ45 کیبل پر ڈبل کلک کر کے ٹیکسٹ یا کھسکانے کا ہینڈل لگائیں۔ Insert logo صرف لوگو لگاتا ہے۔",
-        "**Grid، 3D Stage اور Status:** Grid کا لوگو کنارے سے چپکتا ہے اور تیروں سے چلتا ہے؛ زیادہ Device ہوں تو RJ45 پورٹ کارڈ اسکرول ہوتا ہے۔"
-      ],
-      "sw": [
-        "**Pixel Mapping:** nembo ya skrini husogea huru kwenye canvas nzima, huzunguka, hunata kwenye skrini (sumaku) na husogea kwa vitufe vya mishale (Ctrl = haraka zaidi). Ukanda wa milango chini sasa ni ukanda mmoja unaoendelea wenye upau mwembamba wa kusogeza.",
-        "**Connection:** bofya kulia kwenye Device kuchagua idadi ya milango yake. Kebo mpya huenda kwenye mlango unaofuata wa Device hiyo hiyo hadi ijae.",
-        "**Drawing:** paneli moja ya Tools (Center view huwashwa na kuzimwa). RJ45 iliyoachwa juu ya paneli huunganishwa na sending card ya paneli hiyo, inayowaka pamoja na anwani zake. Bofya mara mbili kebo ya RJ45 kuongeza maandishi au kishikio cha kusogeza. Insert logo huongeza nembo pekee.",
-        "**Grid, 3D Stage na Status:** nembo ya Grid hunata ukingoni na husogea kwa mishale; kadi ya milango ya RJ45 husogezwa kunapokuwa na Device nyingi."
-      ],
-      "gn": [
-        "**Pixel Mapping:** pantalla logo oguata sãsõme canvas tuichakue rupi, ojere, oñembojoaju pantalla-kuérare (imán) ha oguata teclado flecha reheve (Ctrl = pya’eve). Puerto rysýi yvy gotyo ko’ága peteĩnte ha oguereko scroll po’i.",
-        "**Connection:** eikutu ipo akatúa gotyo peteĩ Device-pe eiporavo haĝua mbovy puerto oguereko. Cable pyahu oho upe Device puerto oúvape henyhẽ peve.",
-        "**Drawing:** peteĩnte panel Tools (Center view ojemyendy ha ojepeve). RJ45 ojeheja panel ári oñembojoaju upe panel sending card-pe, ohesape idirección ndive. Eikutu mokõi jey RJ45 cable-pe emoĩ haĝua haipyre térã po ñemomýi. Insert logo omoĩ logo añónte.",
-        "**Grid, 3D Stage ha Status:** Grid logo oñembojoaju hembe’ýre ha oguata flecha reheve; RJ45 puerto tarjeta ojeguata hetaramo Device."
-      ],
-      "he": [
-        "**Pixel Mapping:** הלוגו של המסך זז בחופשיות על כל ה-canvas, מסתובב, נצמד למסכים (מגנט) וזז עם מקשי החצים (Ctrl = מהר יותר). רצועת היציאות למטה היא עכשיו רצועה רציפה אחת עם פס גלילה דק.",
-        "**Connection:** לחצו לחיצה ימנית על Device כדי לבחור כמה יציאות יש לו. כבל חדש עובר ליציאה הבאה של אותו Device עד שהוא מתמלא.",
-        "**Drawing:** לוח Tools אחד בלבד (את Center view אפשר להפעיל ולכבות). RJ45 שמשחררים מעל פאנל מתחבר ל-sending card של אותו פאנל, שנדלק יחד עם הכתובות שלו. לחיצה כפולה על כבל RJ45 מוסיפה טקסט או ידית הזזה. Insert logo מוסיף רק את הלוגו.",
-        "**Grid, 3D Stage ו-Status:** הלוגו של Grid נצמד לשוליים וזז עם החצים; כרטיס יציאות RJ45 נגלל כשיש הרבה Devices."
-      ],
-      "lv": [
-        "**Pixel Mapping:** ekrāna logotips brīvi pārvietojas pa visu canvas, griežas, magnētiski pielīp ekrāniem un pārvietojas ar bultiņu taustiņiem (Ctrl = ātrāk). Portu josla apakšā tagad ir viena nepārtraukta josla ar plānu ritjoslu.",
-        "**Connection:** ar peles labo pogu noklikšķiniet uz Device, lai izvēlētos tā portu skaitu. Jauns kabelis iet uz tā paša Device nākamo portu, līdz tas ir pilns.",
-        "**Drawing:** viens Tools panelis (Center view var ieslēgt un izslēgt). Uz paneļa nomests RJ45 savienojas ar šī paneļa sending card, kas iedegas kopā ar tā adresāciju. Veiciet dubultklikšķi uz RJ45 kabeļa, lai pievienotu tekstu vai pārvietošanas turi. Insert logo pievieno tikai logotipu.",
-        "**Grid, 3D Stage un Status:** Grid logotips pielīp malai un pārvietojas ar bultiņām; RJ45 portu karte ritinās, ja Device ir daudz."
-      ],
-      "fa": [
-        "**Pixel Mapping:** لوگوی صفحه آزادانه روی کل canvas جابه‌جا می‌شود، می‌چرخد، مثل آهنربا به صفحه‌ها می‌چسبد و با کلیدهای جهت حرکت می‌کند (Ctrl = سریع‌تر). نوار پورت‌ها در پایین حالا یک نوار پیوسته با یک نوار پیمایش باریک است.",
-        "**Connection:** روی یک Device راست‌کلیک کنید تا تعداد پورت‌هایش را انتخاب کنید. کابل جدید تا پر شدن همان Device به پورت بعدی آن می‌رود.",
-        "**Drawing:** فقط یک پنل Tools (Center view روشن و خاموش می‌شود). RJ45ای که روی یک پنل رها شود به sending card همان پنل وصل می‌شود که همراه آدرس‌دهی‌اش روشن می‌شود. با دوبار کلیک روی کابل RJ45 متن یا دستگیره جابه‌جایی اضافه کنید. Insert logo فقط لوگو را اضافه می‌کند.",
-        "**Grid، 3D Stage و Status:** لوگوی Grid به لبه می‌چسبد و با کلیدهای جهت حرکت می‌کند؛ وقتی Device زیاد است کارت پورت‌های RJ45 پیمایش می‌شود."
-      ],
-      "pl": [
-        "**Pixel Mapping:** logo ekranu porusza się swobodnie po całym canvas, obraca się, przyciąga się do ekranów (magnes) i przesuwa się strzałkami (Ctrl = szybciej). Pasek portów na dole to teraz jeden ciągły pasek z cienkim paskiem przewijania.",
-        "**Connection:** kliknij prawym przyciskiem Device, aby wybrać liczbę jego portów. Nowy kabel trafia do następnego portu tego samego Device, aż się zapełni.",
-        "**Drawing:** jeden panel Tools (Center view można włączać i wyłączać). RJ45 upuszczony na panel łączy się z sending card tego panelu, która podświetla się razem z adresowaniem. Dwukrotne kliknięcie kabla RJ45 dodaje tekst lub uchwyt przesuwania. Insert logo dodaje tylko logo.",
-        "**Grid, 3D Stage i Status:** logo Grid przyciąga się do krawędzi i przesuwa strzałkami; karta portów RJ45 przewija się, gdy Device jest dużo."
-      ],
-      "uk": [
-        "**Pixel Mapping:** логотип екрана вільно рухається по всьому canvas, обертається, прилипає до екранів (магніт) і переміщується клавішами зі стрілками (Ctrl = швидше). Смуга портів унизу тепер одна суцільна смуга з тонкою смугою прокрутки.",
-        "**Connection:** клацніть правою кнопкою по Device, щоб вибрати кількість його портів. Новий кабель іде на наступний порт того самого Device, доки він не заповниться.",
-        "**Drawing:** одна панель Tools (Center view вмикається й вимикається). RJ45, кинутий на панель, підключається до sending card цієї панелі, яка підсвічується разом з адресацією. Подвійне клацання по кабелю RJ45 додає текст або маркер переміщення. Insert logo додає лише логотип.",
-        "**Grid, 3D Stage і Status:** логотип Grid прилипає до краю й рухається стрілками; блок портів RJ45 прокручується, коли Device багато."
-      ],
-      "ca": [
-        "**Pixel Mapping:** el logo de la pantalla es mou lliure per tot el canvas, gira, s’enganxa a les pantalles (imant) i es mou amb les fletxes del teclat (Ctrl = més ràpid). La franja de ports de baix ara és una sola franja contínua amb una barra de desplaçament fina.",
-        "**Connection:** fes clic dret en un Device per triar quants ports té. Un cable nou va al port següent del mateix Device fins que s’omple.",
-        "**Drawing:** un sol panell Tools (Center view s’activa i es desactiva). Un RJ45 deixat sobre un panell va a la sending card d’aquest panell, que s’il·lumina amb el seu adreçament. Doble clic en un cable RJ45 per afegir un text o una nansa de moure. Insert logo només afegeix el logo.",
-        "**Grid, 3D Stage i Status:** el logo del Grid s’enganxa a la vora i es mou amb les fletxes; el quadre de ports RJ45 es desplaça quan hi ha molts Devices."
-      ],
-      "cs": [
-        "**Pixel Mapping:** logo obrazovky se volně pohybuje po celém canvas, otáčí se, magneticky se přichytí k obrazovkám a posouvá se šipkami (Ctrl = rychleji). Pruh portů dole je teď jeden souvislý pruh s tenkým posuvníkem.",
-        "**Connection:** klikněte pravým tlačítkem na Device a vyberte počet jeho portů. Nový kabel jde na další port stejného Device, dokud se nezaplní.",
-        "**Drawing:** jediný panel Tools (Center view se zapíná a vypíná). RJ45 puštěný na panel se připojí k sending card tohoto panelu, která se rozsvítí i s adresováním. Dvojklikem na kabel RJ45 přidáte text nebo úchyt pro posun. Insert logo přidá jen logo.",
-        "**Grid, 3D Stage a Status:** logo Grid se přichytí k okraji a posouvá se šipkami; karta portů RJ45 se posouvá, když je Device hodně."
-      ],
-      "fi": [
-        "**Pixel Mapping:** näytön logo liikkuu vapaasti koko canvasilla, kääntyy, tarttuu näyttöihin magneetin tavoin ja liikkuu nuolinäppäimillä (Ctrl = nopeammin). Alareunan porttinauha on nyt yksi yhtenäinen nauha ohuella vierityspalkilla.",
-        "**Connection:** napsauta Device-laitetta hiiren kakkospainikkeella valitaksesi sen porttien määrän. Uusi kaapeli menee saman Device-laitteen seuraavaan porttiin, kunnes se on täynnä.",
-        "**Drawing:** yksi Tools-paneeli (Center view kytketään päälle ja pois). Paneelin päälle pudotettu RJ45 liittyy sen paneelin sending cardiin, joka syttyy osoitteistuksensa kanssa. Kaksoisnapsauta RJ45-kaapelia lisätäksesi tekstin tai siirtokahvan. Insert logo lisää vain logon.",
-        "**Grid, 3D Stage ja Status:** Gridin logo tarttuu reunaan ja liikkuu nuolilla; RJ45-porttikortti vierii, kun Device-laitteita on paljon."
-      ],
-      "el": [
-        "**Pixel Mapping:** το λογότυπο της οθόνης κινείται ελεύθερα σε όλο το canvas, περιστρέφεται, κολλάει μαγνητικά στις οθόνες και μετακινείται με τα βέλη του πληκτρολογίου (Ctrl = πιο γρήγορα). Η λωρίδα θυρών κάτω είναι πλέον μία συνεχής λωρίδα με λεπτή γραμμή κύλισης.",
-        "**Connection:** κάντε δεξί κλικ σε ένα Device για να επιλέξετε πόσες θύρες έχει. Ένα νέο καλώδιο πηγαίνει στην επόμενη θύρα του ίδιου Device μέχρι να γεμίσει.",
-        "**Drawing:** ένα μόνο πάνελ Tools (το Center view ανάβει και σβήνει). Ένα RJ45 που αφήνεται πάνω σε πάνελ συνδέεται στη sending card αυτού του πάνελ, που φωτίζεται μαζί με τη διευθυνσιοδότησή του. Διπλό κλικ σε καλώδιο RJ45 προσθέτει κείμενο ή λαβή μετακίνησης. Το Insert logo προσθέτει μόνο το λογότυπο.",
-        "**Grid, 3D Stage και Status:** το λογότυπο του Grid κολλάει στο περίγραμμα και κινείται με τα βέλη· η κάρτα θυρών RJ45 κυλάει όταν υπάρχουν πολλά Devices."
-      ],
-      "ha": [
-        "**Pixel Mapping:** tambarin allo yana motsi kyauta a duk canvas, yana juyawa, yana manne wa allunan (maganadisu) kuma yana motsi da maɓallan kibiya (Ctrl = da sauri). Zirin tashoshi na ƙasa yanzu zare ɗaya ne mai ci gaba tare da sandar gungurawa sirara.",
-        "**Connection:** danna dama a kan Device don zaɓar yawan tashoshinsa. Sabuwar waya tana zuwa tashar gaba ta Device ɗin har sai ya cika.",
-        "**Drawing:** fanel ɗaya na Tools (ana kunna da kashe Center view). RJ45 da aka saki a kan fanel yana haɗuwa da sending card na wannan fanel, wanda ke haske tare da adireshinsa. Danna sau biyu a kan wayar RJ45 don ƙara rubutu ko maƙallin motsi. Insert logo yana ƙara tambarin kawai.",
-        "**Grid, 3D Stage da Status:** tambarin Grid yana manne a gefe kuma yana motsi da kibiyoyi; katin tashoshin RJ45 yana gungurawa idan Device sun yi yawa."
-      ],
-      "ro": [
-        "**Pixel Mapping:** logoul ecranului se mișcă liber pe tot canvas-ul, se rotește, se lipește de ecrane (magnet) și se mută cu săgețile tastaturii (Ctrl = mai repede). Banda de porturi de jos este acum o singură bandă continuă cu o bară de derulare subțire.",
-        "**Connection:** clic dreapta pe un Device pentru a alege câte porturi are. Un cablu nou merge la portul următor al aceluiași Device până când se umple.",
-        "**Drawing:** un singur panou Tools (Center view se pornește și se oprește). Un RJ45 lăsat pe un panou se conectează la sending card-ul acelui panou, care se aprinde împreună cu adresarea sa. Dublu clic pe un cablu RJ45 pentru a adăuga un text sau un mâner de mutare. Insert logo adaugă doar logoul.",
-        "**Grid, 3D Stage și Status:** logoul din Grid se lipește de margine și se mută cu săgețile; cardul de porturi RJ45 se derulează când sunt multe Devices."
-      ],
-      "yo": [
-        "**Pixel Mapping:** àmì ìbojú ń rìn fàlàlà lórí gbogbo canvas, ó ń yí, ó ń lẹ̀ mọ́ àwọn ìbojú (mágínẹ́ẹ̀tì), ó sì ń rìn pẹ̀lú àwọn bọ́tìnnì ọfà (Ctrl = yára sí i). Ìlà àwọn pọ́ọ̀tì nísàlẹ̀ ti di ìlà kan tó ń bá a lọ pẹ̀lú ọ̀pá ìyílọ tínrín.",
-        "**Connection:** tẹ ọ̀tún lórí Device kan láti yan iye pọ́ọ̀tì rẹ̀. Wáyà tuntun ń lọ sí pọ́ọ̀tì tó kàn lórí Device kan náà títí yóò fi kún.",
-        "**Drawing:** páńẹ́lì Tools kan ṣoṣo (Center view ń tàn, ó sì ń kú). RJ45 tí a jù sórí páńẹ́lì máa so mọ́ sending card páńẹ́lì náà, tí yóò tàn pẹ̀lú àdírẹ́sì rẹ̀. Tẹ wáyà RJ45 lẹ́ẹ̀mejì láti fi ọ̀rọ̀ tàbí ìmú ìgbéra kún un. Insert logo ń fi àmì nìkan kún un.",
-        "**Grid, 3D Stage àti Status:** àmì Grid ń lẹ̀ mọ́ etí, ó sì ń rìn pẹ̀lú àwọn ọfà; káàdì pọ́ọ̀tì RJ45 ń yí lọ nígbà tí Device bá pọ̀."
-      ],
-      "zu": [
-        "**Pixel Mapping:** ilogo yesikrini ihamba ngokukhululeka kuyo yonke i-canvas, iyazungeza, inamathela ezikrinini (uzibuthe) futhi ihamba ngezinkinobho zemicibisholo (Ctrl = ngokushesha). Umugqa wezimbobo ngezansi manje ungumugqa owodwa oqhubekayo onebha yokuskrola encane.",
-        "**Connection:** chofoza kwesokudla ku-Device ukuze ukhethe ukuthi inezimbobo ezingaki. Ikhebula elisha liya embotsheni elandelayo ye-Device efanayo ize igcwale.",
-        "**Drawing:** iphaneli eyodwa ye-Tools (i-Center view iyavulwa iyavalwa). I-RJ45 elahlwe phezu kwephaneli ixhuma ku-sending card yaleyo phaneli, ekhanya kanye nokuhlelwa kwamakheli ayo. Chofoza kabili ikhebula le-RJ45 ukuze wengeze umbhalo noma isibambo sokuhambisa. I-Insert logo yengeza ilogo kuphela.",
-        "**Grid, 3D Stage ne-Status:** ilogo ye-Grid inamathela emaphethelweni futhi ihamba ngemicibisholo; ikhadi lezimbobo ze-RJ45 liyaskrola uma ama-Device emaningi."
-      ],
-      "fil": [
-        "**Pixel Mapping:** malayang gumagalaw ang logo ng screen sa buong canvas, umiikot, dumidikit sa mga screen (magnet) at gumagalaw gamit ang arrow keys (Ctrl = mas mabilis). Ang strip ng mga port sa ibaba ay isa nang tuloy-tuloy na strip na may manipis na scrollbar.",
-        "**Connection:** i-right-click ang isang Device para piliin kung ilang port mayroon ito. Ang bagong kable ay papunta sa susunod na port ng parehong Device hanggang mapuno.",
-        "**Drawing:** iisang panel na Tools (nabubuksan at napapatay ang Center view). Ang RJ45 na binitawan sa ibabaw ng panel ay kumokonekta sa sending card ng panel na iyon, na umiilaw kasama ang addressing nito. I-double-click ang RJ45 na kable para magdagdag ng text o hawakan sa paglipat. Logo lang ang idinadagdag ng Insert logo.",
-        "**Grid, 3D Stage at Status:** dumidikit sa gilid ang logo ng Grid at gumagalaw gamit ang arrow; nag-i-scroll ang card ng mga port ng RJ45 kapag maraming Device."
-      ],
-      "ta": [
-        "**Pixel Mapping:** திரையின் லோகோ முழு canvas-இலும் சுதந்திரமாக நகரும், சுழலும், திரைகளில் காந்தம் போல ஒட்டும், அம்புக்குறி விசைகளால் நகரும் (Ctrl = வேகமாக). கீழே உள்ள போர்ட் பட்டை இப்போது மெல்லிய உருள்பட்டியுடன் ஒரே தொடர் பட்டை.",
-        "**Connection:** ஒரு Device-இல் வலது கிளிக் செய்து அதன் போர்ட் எண்ணிக்கையைத் தேர்வுசெய்யவும். புதிய கேபிள் அதே Device நிரம்பும் வரை அதன் அடுத்த போர்ட்டுக்குச் செல்லும்.",
-        "**Drawing:** ஒரே Tools பலகம் (Center view இயக்கவும் அணைக்கவும் முடியும்). ஒரு பேனல் மீது விடப்பட்ட RJ45 அந்த பேனலின் sending card-உடன் இணைகிறது, அது தன் முகவரியிடலுடன் ஒளிரும். RJ45 கேபிளை இருமுறை கிளிக் செய்து உரை அல்லது நகர்த்தும் கைப்பிடியைச் சேர்க்கவும். Insert logo லோகோவை மட்டும் சேர்க்கும்.",
-        "**Grid, 3D Stage மற்றும் Status:** Grid லோகோ விளிம்பில் ஒட்டி அம்புகளால் நகரும்; Device அதிகமாக இருந்தால் RJ45 போர்ட் அட்டை உருளும்."
-      ],
-      "te": [
-        "**Pixel Mapping:** స్క్రీన్ లోగో మొత్తం canvas పై స్వేచ్ఛగా కదులుతుంది, తిరుగుతుంది, స్క్రీన్‌లకు అయస్కాంతంలా అతుక్కుంటుంది, బాణం కీలతో కదులుతుంది (Ctrl = వేగంగా). కింద ఉన్న పోర్ట్ పట్టీ ఇప్పుడు సన్నని స్క్రోల్‌బార్‌తో ఒకే నిరంతర పట్టీ.",
-        "**Connection:** ఒక Device పై కుడి-క్లిక్ చేసి దానికి ఎన్ని పోర్ట్‌లు ఉండాలో ఎంచుకోండి. కొత్త కేబుల్ అదే Device నిండే వరకు దాని తర్వాతి పోర్ట్‌కు వెళ్తుంది.",
-        "**Drawing:** ఒకే Tools ప్యానెల్ (Center view ఆన్/ఆఫ్ అవుతుంది). ప్యానెల్‌పై వదిలిన RJ45 ఆ ప్యానెల్ sending card కి కలుస్తుంది, అది తన అడ్రసింగ్‌తో వెలుగుతుంది. RJ45 కేబుల్‌పై డబుల్-క్లిక్ చేసి వచనం లేదా కదిలించే హ్యాండిల్ జోడించండి. Insert logo లోగోను మాత్రమే జోడిస్తుంది.",
-        "**Grid, 3D Stage మరియు Status:** Grid లోగో అంచుకు అతుక్కుని బాణాలతో కదులుతుంది; Device లు ఎక్కువగా ఉంటే RJ45 పోర్ట్ కార్డ్ స్క్రోల్ అవుతుంది."
-      ],
-      "mr": [
-        "**Pixel Mapping:** स्क्रीनचा लोगो संपूर्ण canvas वर मोकळेपणाने फिरतो, वळतो, स्क्रीनना चुंबकासारखा चिकटतो आणि बाण कळांनी सरकतो (Ctrl = जलद). खालची पोर्ट पट्टी आता पातळ स्क्रोलबार असलेली एकच सलग पट्टी आहे.",
-        "**Connection:** एखाद्या Device वर उजवे-क्लिक करून त्याचे पोर्ट किती ते निवडा. नवीन केबल तोच Device भरेपर्यंत त्याच्या पुढच्या पोर्टवर जाते.",
-        "**Drawing:** एकच Tools पॅनल (Center view चालू/बंद होते). पॅनलवर सोडलेला RJ45 त्या पॅनलच्या sending card ला जोडला जातो, जो त्याच्या अॅड्रेसिंगसह उजळतो. RJ45 केबलवर डबल-क्लिक करून मजकूर किंवा सरकवण्याचे हँडल जोडा. Insert logo फक्त लोगो जोडतो.",
-        "**Grid, 3D Stage आणि Status:** Grid चा लोगो कडेला चिकटतो आणि बाणांनी सरकतो; खूप Device असल्यास RJ45 पोर्ट कार्ड स्क्रोल होते."
-      ],
-      "da": [
-        "**Pixel Mapping:** skærmens logo bevæger sig frit over hele canvas, roterer, klikker magnetisk fast på skærmene og flyttes med piletasterne (Ctrl = hurtigere). Portstriben forneden er nu én sammenhængende stribe med en smal rullebjælke.",
-        "**Connection:** højreklik på en Device for at vælge, hvor mange porte den har. Et nyt kabel går til den næste port på samme Device, indtil den er fuld.",
-        "**Drawing:** ét Tools-panel (Center view tændes og slukkes). En RJ45, der slippes på et panel, forbindes til panelets sending card, som lyser op med sin adressering. Dobbeltklik på et RJ45-kabel for at tilføje en tekst eller et flyttehåndtag. Insert logo tilføjer kun logoet.",
-        "**Grid, 3D Stage og Status:** Grid-logoet klikker fast på kanten og flyttes med pilene; RJ45-portkortet kan rulles, når der er mange Devices."
-      ],
-      "nb": [
-        "**Pixel Mapping:** skjermlogoen beveger seg fritt over hele canvas, roterer, fester seg magnetisk til skjermene og flyttes med piltastene (Ctrl = raskere). Portstripen nederst er nå én sammenhengende stripe med et smalt rullefelt.",
-        "**Connection:** høyreklikk på en Device for å velge hvor mange porter den har. En ny kabel går til neste port på samme Device til den er full.",
-        "**Drawing:** ett Tools-panel (Center view slås av og på). En RJ45 som slippes på et panel kobles til panelets sending card, som lyser opp med adresseringen sin. Dobbeltklikk på en RJ45-kabel for å legge til en tekst eller et flyttehåndtak. Insert logo legger bare til logoen.",
-        "**Grid, 3D Stage og Status:** Grid-logoen fester seg til kanten og flyttes med pilene; RJ45-portkortet kan rulles når det er mange Devices."
-      ],
-      "lt": [
-        "**Pixel Mapping:** ekrano logotipas laisvai juda po visą canvas, sukasi, magnetiškai prilimpa prie ekranų ir juda rodyklių klavišais (Ctrl = greičiau). Prievadų juosta apačioje dabar yra viena ištisinė juosta su plona slinkties juosta.",
-        "**Connection:** dešiniuoju pelės mygtuku spustelėkite Device ir pasirinkite jo prievadų skaičių. Naujas kabelis eina į kitą to paties Device prievadą, kol jis prisipildo.",
-        "**Drawing:** vienas Tools skydelis (Center view įjungiamas ir išjungiamas). Ant skydo numestas RJ45 prisijungia prie to skydo sending card, kuri užsidega kartu su adresavimu. Dukart spustelėkite RJ45 kabelį, kad pridėtumėte tekstą arba perkėlimo rankenėlę. Insert logo prideda tik logotipą.",
-        "**Grid, 3D Stage ir Status:** Grid logotipas prilimpa prie krašto ir juda rodyklėmis; RJ45 prievadų kortelė slenka, kai Device yra daug."
-      ],
-      "et": [
-        "**Pixel Mapping:** ekraani logo liigub vabalt kogu canvasil, pöörleb, kinnitub magnetina ekraanide külge ja liigub nooleklahvidega (Ctrl = kiiremini). Allosas olev pordiriba on nüüd üks katkematu riba õhukese kerimisribaga.",
-        "**Connection:** paremklõpsake Device'il, et valida selle portide arv. Uus kaabel läheb sama Device'i järgmisse porti, kuni see on täis.",
-        "**Drawing:** üksainus Tools paneel (Center view lülitub sisse ja välja). Paneelile kukutatud RJ45 ühendub selle paneeli sending cardiga, mis süttib koos oma adresseerimisega. Topeltklõps RJ45-kaablil lisab teksti või liigutuskäepideme. Insert logo lisab ainult logo.",
-        "**Grid, 3D Stage ja Status:** Gridi logo kinnitub servale ja liigub nooltega; RJ45 portide kaart keritakse, kui Device'e on palju."
-      ],
-      "sk": [
-        "**Pixel Mapping:** logo obrazovky sa voľne pohybuje po celom canvas, otáča sa, magneticky sa prichytí k obrazovkám a posúva sa šípkami (Ctrl = rýchlejšie). Pás portov dole je teraz jeden súvislý pás s tenkým posúvačom.",
-        "**Connection:** kliknite pravým tlačidlom na Device a vyberte počet jeho portov. Nový kábel ide na ďalší port toho istého Device, kým sa nezaplní.",
-        "**Drawing:** jediný panel Tools (Center view sa zapína a vypína). RJ45 pustený na panel sa pripojí k sending card tohto panela, ktorá sa rozsvieti aj s adresovaním. Dvojklikom na kábel RJ45 pridáte text alebo úchyt na posun. Insert logo pridá iba logo.",
-        "**Grid, 3D Stage a Status:** logo Grid sa prichytí k okraju a posúva sa šípkami; karta portov RJ45 sa posúva, keď je Device veľa."
-      ],
-      "bg": [
-        "**Pixel Mapping:** логото на екрана се движи свободно по целия canvas, върти се, прилепва към екраните (магнит) и се мести със стрелките (Ctrl = по-бързо). Лентата с портове долу вече е една непрекъсната лента с тънка лента за превъртане.",
-        "**Connection:** щракнете с десния бутон върху Device, за да изберете колко порта има. Нов кабел отива на следващия порт на същия Device, докато се запълни.",
-        "**Drawing:** един панел Tools (Center view се включва и изключва). RJ45, пуснат върху панел, се свързва към sending card на този панел, който светва заедно с адресацията си. Двойно щракване върху RJ45 кабел добавя текст или дръжка за преместване. Insert logo добавя само логото.",
-        "**Grid, 3D Stage и Status:** логото на Grid прилепва към ръба и се мести със стрелките; картата с портове RJ45 се превърта, когато Device са много."
-      ],
-      "sr": [
-        "**Pixel Mapping:** лого екрана се слободно креће по целом canvas-у, окреће се, лепи се за екране (магнет) и помера се стрелицама (Ctrl = брже). Трака портова доле је сада једна непрекидна трака са танком траком за померање.",
-        "**Connection:** кликните десним тастером на Device да изаберете колико портова има. Нови кабл иде на следећи порт истог Device-а док се не попуни.",
-        "**Drawing:** један панел Tools (Center view се укључује и искључује). RJ45 спуштен на панел повезује се на sending card тог панела, који засветли заједно са адресирањем. Двоструки клик на RJ45 кабл додаје текст или ручку за померање. Insert logo додаје само лого.",
-        "**Grid, 3D Stage и Status:** лого Grid-а се лепи за ивицу и помера се стрелицама; картица RJ45 портова се помера када има много Device-а."
-      ],
-      "hr": [
-        "**Pixel Mapping:** logotip zaslona slobodno se kreće po cijelom canvasu, okreće se, lijepi se za zaslone (magnet) i pomiče se strelicama (Ctrl = brže). Traka priključaka dolje sada je jedna neprekinuta traka s tankom trakom za pomicanje.",
-        "**Connection:** desnom tipkom kliknite Device da odaberete koliko priključaka ima. Novi kabel ide na sljedeći priključak istog Devicea dok se ne popuni.",
-        "**Drawing:** jedna ploča Tools (Center view se uključuje i isključuje). RJ45 ispušten na panel spaja se na sending card tog panela, koji zasvijetli zajedno s adresiranjem. Dvostruki klik na RJ45 kabel dodaje tekst ili ručicu za pomicanje. Insert logo dodaje samo logotip.",
-        "**Grid, 3D Stage i Status:** logotip Grida lijepi se za rub i pomiče strelicama; kartica RJ45 priključaka se pomiče kad ima mnogo Devicea."
-      ],
-      "gu": [
-        "**Pixel Mapping:** સ્ક્રીનનો લોગો આખા canvas પર મુક્ત રીતે ખસે છે, ફરે છે, સ્ક્રીન સાથે ચુંબકની જેમ ચોંટી જાય છે અને તીર કી વડે ખસે છે (Ctrl = ઝડપી). નીચેની પોર્ટ પટ્ટી હવે પાતળા સ્ક્રોલબાર સાથે એક સતત પટ્ટી છે.",
-        "**Connection:** કોઈ Device પર જમણું-ક્લિક કરીને તેના પોર્ટની સંખ્યા પસંદ કરો. નવો કેબલ એ જ Device ભરાય ત્યાં સુધી તેના આગલા પોર્ટ પર જાય છે.",
-        "**Drawing:** એક જ Tools પેનલ (Center view ચાલુ/બંધ થાય છે). પેનલ પર મૂકેલો RJ45 તે પેનલના sending card સાથે જોડાય છે, જે તેના એડ્રેસિંગ સાથે ઝળકે છે. RJ45 કેબલ પર ડબલ-ક્લિક કરીને લખાણ અથવા ખસેડવાનું હેન્ડલ ઉમેરો. Insert logo ફક્ત લોગો ઉમેરે છે.",
-        "**Grid, 3D Stage અને Status:** Grid નો લોગો કિનારે ચોંટે છે અને તીરથી ખસે છે; ઘણા Device હોય ત્યારે RJ45 પોર્ટ કાર્ડ સ્ક્રોલ થાય છે."
-      ],
-      "pa": [
-        "**Pixel Mapping:** ਸਕ੍ਰੀਨ ਦਾ ਲੋਗੋ ਪੂਰੇ canvas 'ਤੇ ਖੁੱਲ੍ਹ ਕੇ ਚੱਲਦਾ ਹੈ, ਘੁੰਮਦਾ ਹੈ, ਸਕ੍ਰੀਨਾਂ ਨਾਲ ਚੁੰਬਕ ਵਾਂਗ ਚਿਪਕਦਾ ਹੈ ਅਤੇ ਤੀਰ ਕੁੰਜੀਆਂ ਨਾਲ ਖਿਸਕਦਾ ਹੈ (Ctrl = ਤੇਜ਼)। ਹੇਠਾਂ ਦੀ ਪੋਰਟ ਪੱਟੀ ਹੁਣ ਪਤਲੇ ਸਕ੍ਰੋਲਬਾਰ ਵਾਲੀ ਇੱਕ ਲਗਾਤਾਰ ਪੱਟੀ ਹੈ।",
-        "**Connection:** ਕਿਸੇ Device 'ਤੇ ਸੱਜਾ-ਕਲਿੱਕ ਕਰਕੇ ਉਸਦੇ ਪੋਰਟਾਂ ਦੀ ਗਿਣਤੀ ਚੁਣੋ। ਨਵੀਂ ਕੇਬਲ ਉਸੇ Device ਦੇ ਭਰਨ ਤੱਕ ਉਸਦੇ ਅਗਲੇ ਪੋਰਟ 'ਤੇ ਜਾਂਦੀ ਹੈ।",
-        "**Drawing:** ਇੱਕੋ Tools ਪੈਨਲ (Center view ਚਾਲੂ/ਬੰਦ ਹੁੰਦਾ ਹੈ)। ਪੈਨਲ 'ਤੇ ਛੱਡਿਆ RJ45 ਉਸ ਪੈਨਲ ਦੇ sending card ਨਾਲ ਜੁੜਦਾ ਹੈ, ਜੋ ਆਪਣੀ ਐਡਰੈਸਿੰਗ ਸਮੇਤ ਚਮਕਦਾ ਹੈ। RJ45 ਕੇਬਲ 'ਤੇ ਡਬਲ-ਕਲਿੱਕ ਕਰਕੇ ਲਿਖਤ ਜਾਂ ਖਿਸਕਾਉਣ ਵਾਲਾ ਹੈਂਡਲ ਜੋੜੋ। Insert logo ਸਿਰਫ਼ ਲੋਗੋ ਜੋੜਦਾ ਹੈ।",
-        "**Grid, 3D Stage ਅਤੇ Status:** Grid ਦਾ ਲੋਗੋ ਕਿਨਾਰੇ ਨਾਲ ਚਿਪਕਦਾ ਹੈ ਅਤੇ ਤੀਰਾਂ ਨਾਲ ਚੱਲਦਾ ਹੈ; ਬਹੁਤ Device ਹੋਣ 'ਤੇ RJ45 ਪੋਰਟ ਕਾਰਡ ਸਕ੍ਰੋਲ ਹੁੰਦਾ ਹੈ।"
-      ],
-      "kn": [
-        "**Pixel Mapping:** ಪರದೆಯ ಲೋಗೋ ಸಂಪೂರ್ಣ canvas ಮೇಲೆ ಮುಕ್ತವಾಗಿ ಚಲಿಸುತ್ತದೆ, ತಿರುಗುತ್ತದೆ, ಪರದೆಗಳಿಗೆ ಅಯಸ್ಕಾಂತದಂತೆ ಅಂಟಿಕೊಳ್ಳುತ್ತದೆ ಮತ್ತು ಬಾಣ ಕೀಲಿಗಳಿಂದ ಸರಿಯುತ್ತದೆ (Ctrl = ವೇಗವಾಗಿ). ಕೆಳಗಿನ ಪೋರ್ಟ್ ಪಟ್ಟಿ ಈಗ ತೆಳುವಾದ ಸ್ಕ್ರೋಲ್‌ಬಾರ್ ಇರುವ ಒಂದೇ ನಿರಂತರ ಪಟ್ಟಿ.",
-        "**Connection:** Device ಮೇಲೆ ಬಲ-ಕ್ಲಿಕ್ ಮಾಡಿ ಅದರ ಪೋರ್ಟ್‌ಗಳ ಸಂಖ್ಯೆಯನ್ನು ಆರಿಸಿ. ಹೊಸ ಕೇಬಲ್ ಅದೇ Device ತುಂಬುವವರೆಗೆ ಅದರ ಮುಂದಿನ ಪೋರ್ಟ್‌ಗೆ ಹೋಗುತ್ತದೆ.",
-        "**Drawing:** ಒಂದೇ Tools ಫಲಕ (Center view ಆನ್/ಆಫ್ ಆಗುತ್ತದೆ). ಪ್ಯಾನೆಲ್ ಮೇಲೆ ಬಿಟ್ಟ RJ45 ಆ ಪ್ಯಾನೆಲ್‌ನ sending card ಗೆ ಸಂಪರ್ಕಗೊಳ್ಳುತ್ತದೆ, ಅದು ತನ್ನ ವಿಳಾಸೀಕರಣದೊಂದಿಗೆ ಬೆಳಗುತ್ತದೆ. RJ45 ಕೇಬಲ್ ಮೇಲೆ ಡಬಲ್-ಕ್ಲಿಕ್ ಮಾಡಿ ಪಠ್ಯ ಅಥವಾ ಸರಿಸುವ ಹ್ಯಾಂಡಲ್ ಸೇರಿಸಿ. Insert logo ಲೋಗೋವನ್ನು ಮಾತ್ರ ಸೇರಿಸುತ್ತದೆ.",
-        "**Grid, 3D Stage ಮತ್ತು Status:** Grid ಲೋಗೋ ಅಂಚಿಗೆ ಅಂಟಿಕೊಂಡು ಬಾಣಗಳಿಂದ ಚಲಿಸುತ್ತದೆ; ಹೆಚ್ಚು Device ಇದ್ದಾಗ RJ45 ಪೋರ್ಟ್ ಕಾರ್ಡ್ ಸ್ಕ್ರೋಲ್ ಆಗುತ್ತದೆ."
-      ],
-      "ne": [
-        "**Pixel Mapping:** स्क्रिनको लोगो पूरै canvas मा स्वतन्त्र रूपमा चल्छ, घुम्छ, स्क्रिनहरूमा चुम्बकझैँ टाँसिन्छ र तीर कुञ्जीले सर्छ (Ctrl = छिटो)। तलको पोर्ट पट्टी अब पातलो स्क्रोलबार भएको एउटै निरन्तर पट्टी हो।",
-        "**Connection:** कुनै Device मा दायाँ-क्लिक गरेर त्यसका पोर्ट संख्या छान्नुहोस्। नयाँ केबल त्यही Device नभरिएसम्म त्यसको अर्को पोर्टमा जान्छ।",
-        "**Drawing:** एउटै Tools प्यानल (Center view खोल्न/बन्द गर्न सकिन्छ)। प्यानलमाथि छोडिएको RJ45 त्यो प्यानलको sending card मा जोडिन्छ, जुन आफ्नो एड्रेसिङसहित बल्छ। RJ45 केबलमा डबल-क्लिक गरेर पाठ वा सार्ने ह्यान्डल थप्नुहोस्। Insert logo ले लोगो मात्र थप्छ।",
-        "**Grid, 3D Stage र Status:** Grid को लोगो किनारमा टाँसिन्छ र तीरले सर्छ; धेरै Device हुँदा RJ45 पोर्ट कार्ड स्क्रोल हुन्छ।"
-      ],
-      "km": [
-        "**Pixel Mapping:** ឡូហ្គោនៃអេក្រង់ផ្លាស់ទីដោយសេរីលើ canvas ទាំងមូល បង្វិលបាន ជាប់នឹងអេក្រង់ (មេដែក) និងផ្លាស់ទីដោយគ្រាប់ចុចព្រួញ (Ctrl = លឿនជាង)។ របារព័រខាងក្រោមឥឡូវជារបារបន្តតែមួយ មានរបាររំកិលស្ដើង។",
-        "**Connection:** ចុចកណ្ដុរស្ដាំលើ Device ដើម្បីជ្រើសចំនួនព័ររបស់វា។ ខ្សែថ្មីទៅព័របន្ទាប់នៃ Device ដដែល រហូតដល់វាពេញ។",
-        "**Drawing:** ផ្ទាំង Tools តែមួយ (Center view បើក/បិទបាន)។ RJ45 ដែលទម្លាក់លើផ្ទាំងបន្ទះ ភ្ជាប់ទៅ sending card នៃផ្ទាំងនោះ ដែលភ្លឺជាមួយការកំណត់អាសយដ្ឋានរបស់វា។ ចុចពីរដងលើខ្សែ RJ45 ដើម្បីបន្ថែមអត្ថបទ ឬដៃចាប់សម្រាប់ផ្លាស់ទី។ Insert logo បន្ថែមតែឡូហ្គោ។",
-        "**Grid, 3D Stage និង Status:** ឡូហ្គោ Grid ជាប់នឹងគែម ហើយផ្លាស់ទីដោយព្រួញ; កាតព័រ RJ45 រំកិលបាន ពេលមាន Device ច្រើន។"
-      ],
-      "kk": [
-        "**Pixel Mapping:** экран логотипі бүкіл canvas бойымен еркін жылжиды, айналады, экрандарға магниттей жабысады және бағыт пернелерімен жылжиды (Ctrl = жылдамырақ). Төмендегі порт жолағы енді жіңішке айналдыру жолағы бар бір тұтас жолақ.",
-        "**Connection:** Device-ті тінтуірдің оң жақ батырмасымен басып, оның порт санын таңдаңыз. Жаңа кабель сол Device толғанша оның келесі портына барады.",
-        "**Drawing:** бір ғана Tools панелі (Center view қосылады және өшеді). Панель үстіне тасталған RJ45 сол панельдің sending card-ына қосылады, ол өз адрестеуімен бірге жанады. RJ45 кабелін екі рет басып, мәтін немесе жылжыту тұтқасын қосыңыз. Insert logo тек логотипті қосады.",
-        "**Grid, 3D Stage және Status:** Grid логотипі жиекке жабысады және бағыттармен жылжиды; Device көп болғанда RJ45 порт картасы айналдырылады."
-      ],
-      "uz": [
-        "**Pixel Mapping:** ekran logotipi butun canvas boʻylab erkin harakatlanadi, aylanadi, ekranlarga magnitdek yopishadi va strelka tugmalari bilan suriladi (Ctrl = tezroq). Pastdagi portlar tasmasi endi ingichka aylantirish chizigʻiga ega bitta uzluksiz tasma.",
-        "**Connection:** Device ustida oʻng tugmani bosib, uning portlari sonini tanlang. Yangi kabel oʻsha Device toʻlguncha uning keyingi portiga boradi.",
-        "**Drawing:** bitta Tools paneli (Center view yoqiladi va oʻchiriladi). Panel ustiga tashlangan RJ45 oʻsha panelning sending card'iga ulanadi, u oʻz manzillashi bilan birga yonadi. RJ45 kabelini ikki marta bosib, matn yoki surish tutqichini qoʻshing. Insert logo faqat logotipni qoʻshadi.",
-        "**Grid, 3D Stage va Status:** Grid logotipi chetga yopishadi va strelkalar bilan suriladi; Device koʻp boʻlsa, RJ45 portlar kartasi aylantiriladi."
-      ],
-      "am": [
-        "**Pixel Mapping፦** የስክሪኑ አርማ በመላው canvas ላይ በነፃነት ይንቀሳቀሳል፣ ይዞራል፣ ከስክሪኖች ጋር እንደ ማግኔት ይጣበቃል፣ በቀስት ቁልፎችም ይንቀሳቀሳል (Ctrl = ፈጣን)። ከታች ያለው የፖርት ረድፍ አሁን ቀጭን የማሸብለያ አሞሌ ያለው አንድ ቀጣይ ረድፍ ነው።",
-        "**Connection፦** የፖርቶቹን ብዛት ለመምረጥ Device ላይ በቀኝ ጠቅ ያድርጉ። አዲሱ ኬብል ያው Device እስኪሞላ ድረስ ወደ ቀጣዩ ፖርቱ ይሄዳል።",
-        "**Drawing፦** አንድ የ Tools ፓነል ብቻ (Center view ይበራል ይጠፋል)። በፓነል ላይ የተጣለ RJ45 ከዚያ ፓነል sending card ጋር ይገናኛል፣ እሱም ከአድራሻ አሰጣጡ ጋር ያበራል። ጽሑፍ ወይም የማንቀሳቀሻ መያዣ ለማከል RJ45 ኬብልን ሁለቴ ጠቅ ያድርጉ። Insert logo አርማውን ብቻ ያክላል።",
-        "**Grid፣ 3D Stage እና Status፦** የ Grid አርማ ከጠርዙ ጋር ይጣበቃል በቀስቶችም ይንቀሳቀሳል፤ Device ብዙ ሲሆን የ RJ45 ፖርቶች ካርድ ይሸበለላል።"
-      ],
-      "sl": [
-        "**Pixel Mapping:** logotip zaslona se prosto premika po celem canvasu, se vrti, se magnetno pripne na zaslone in se premika s puščičnimi tipkami (Ctrl = hitreje). Trak vrat spodaj je zdaj en neprekinjen trak s tankim drsnikom.",
-        "**Connection:** z desnim klikom na Device izberite, koliko vrat ima. Nov kabel gre na naslednja vrata istega Device, dokler se ne zapolni.",
-        "**Drawing:** ena sama plošča Tools (Center view se vklaplja in izklaplja). RJ45, spuščen na panel, se poveže s sending card tega panela, ki zasveti skupaj z naslavljanjem. Dvoklik na kabel RJ45 doda besedilo ali ročaj za premikanje. Insert logo doda samo logotip.",
-        "**Grid, 3D Stage in Status:** logotip Grid se pripne na rob in se premika s puščicami; kartica vrat RJ45 se pomika, ko je Device veliko."
-      ],
-      "kab": [
-        "**Pixel Mapping:** alugu n ugdil yetteddu s tlelli deg canvas akk, yettezzi, yettemlil d yigdilen (amagnaṭis) yerna yetteddu s tqeffalin n yineccaben (Ctrl = s lemɣawla). Tagnit n ports n wadda tuɣal d yiwet n tegnit yeddan s scrollbar arqaq.",
-        "**Connection:** sit s afus ayeffus ɣef Device akken ad tferneḍ amḍan n ports-ines. Kabel amaynut ad yeddu ɣer port i d-iteddun n Device-nni alamma yeččur.",
-        "**Drawing:** yiwen n upanel Tools kan (Center view yettwaxdem neɣ yettwakkes). RJ45 yettwaserrḥen ɣef panel ad yeqqen ɣer sending card n panel-nni, ara yeftilen s tansiwin-ines. Sit snat n tikkal ɣef kabel RJ45 akken ad ternuḍ aḍris neɣ taṭṭuft n usmutti. Insert logo yernu alugu kan.",
-        "**Grid, 3D Stage d Status:** alugu n Grid yettemlil d yiri yerna yetteddu s yineccaben; takarḍa n ports RJ45 tetteddu mi ara ilin aṭas n Devices."
       ]
     }
   }
