@@ -1,9 +1,371 @@
 {
-  "version": "2.9.95",
-  "windows": "https://github.com/renatorocha0934/RAGridrelease/releases/download/v2.9.95/RAGrid-Windows.zip",
-  "mac": "https://github.com/renatorocha0934/RAGridrelease/releases/download/v2.9.95/RAGrid-Mac.dmg",
+  "version": "2.9.99",
+  "windows": "https://github.com/renatorocha0934/RAGridrelease/releases/download/v2.9.99/RAGrid-Windows.zip",
+  "mac": "https://github.com/renatorocha0934/RAGridrelease/releases/download/v2.9.99/RAGrid-Mac.dmg",
   "notes": "System and performance improvements.",
   "changes": {
+    "2.9.99": {
+      "en": [
+        "**Redundancy:** new button in the Wiring box. Each port with a cable gets a backup port (Primary on the top row of the Device, Backup on the row below), in the Connection, the Pixel Mapping, the Drawing and the 3D.",
+        "**Grid:** the Lines box has Red, Green, Blue and White, and the Effects box is now Radar, with a black beam on white backgrounds (also on the extended screen) and MP4 recording in File format.",
+        "**Drawing and Connection:** print sheets (A4, A3, 1920 x 1080, 4K) with a Custom size in millimeters or centimeters, and Ctrl+C / Ctrl+V of screens copies their Devices with the exact number of ports.",
+        "**Speed and safety:** the Drawing is about 3 times faster and giant projects respond 4 to 5 times faster in the Connection. Very large projects no longer freeze the computer when memory runs low, and a crash report is saved to help support."
+      ],
+      "pt": [
+        "**Redundancy:** novo botão na caixa Wiring. Cada porta com cabo ganha uma porta reserva (Primary na fileira de cima do Device, Backup na de baixo), na Connection, no Pixel Mapping, no Drawing e no 3D.",
+        "**Grid:** a caixa Lines tem Red, Green, Blue e White, e a caixa Effects virou Radar, com o feixe preto nos fundos brancos (também na tela estendida) e gravação em MP4 no File format.",
+        "**Drawing e Connection:** folhas de impressão (A4, A3, 1920 x 1080, 4K) com o tamanho Custom em milímetros ou centímetros, e Ctrl+C / Ctrl+V de telas copia os Devices delas com o número exato de portas.",
+        "**Velocidade e segurança:** o Drawing ficou cerca de 3 vezes mais rápido e os projetos gigantes respondem de 4 a 5 vezes mais rápido na Connection. Projetos muito grandes não travam mais o computador quando falta memória, e um relatório de queda é salvo para ajudar o suporte."
+      ],
+      "es": [
+        "**Redundancy:** nuevo botón en el cuadro Wiring. Cada puerto con cable recibe un puerto de reserva (Primary en la fila de arriba del Device, Backup en la de abajo), en la Connection, el Pixel Mapping, el Drawing y el 3D.",
+        "**Grid:** el cuadro Lines tiene Red, Green, Blue y White, y el cuadro Effects ahora es Radar, con el haz negro sobre fondos blancos (también en la pantalla extendida) y grabación en MP4 en File format.",
+        "**Drawing y Connection:** hojas de impresión (A4, A3, 1920 x 1080, 4K) con tamaño Custom en milímetros o centímetros, y Ctrl+C / Ctrl+V de pantallas copia sus Devices con el número exacto de puertos.",
+        "**Velocidad y seguridad:** el Drawing es unas 3 veces más rápido y los proyectos gigantes responden de 4 a 5 veces más rápido en la Connection. Los proyectos muy grandes ya no bloquean la computadora cuando falta memoria, y se guarda un informe de fallos para ayudar al soporte."
+      ],
+      "fr": [
+        "**Redundancy :** nouveau bouton dans le cadre Wiring. Chaque port avec un câble reçoit un port de secours (Primary sur la rangée du haut du Device, Backup sur celle du bas), dans la Connection, le Pixel Mapping, le Drawing et la 3D.",
+        "**Grid :** le cadre Lines propose Red, Green, Blue et White, et le cadre Effects devient Radar, avec un faisceau noir sur les fonds blancs (aussi sur l’écran étendu) et l’enregistrement en MP4 dans File format.",
+        "**Drawing et Connection :** feuilles d’impression (A4, A3, 1920 x 1080, 4K) avec une taille Custom en millimètres ou en centimètres, et Ctrl+C / Ctrl+V d’écrans copie leurs Devices avec le nombre exact de ports.",
+        "**Vitesse et sécurité :** le Drawing est environ 3 fois plus rapide et les projets géants réagissent 4 à 5 fois plus vite dans la Connection. Les très grands projets ne bloquent plus l’ordinateur quand la mémoire manque, et un rapport de plantage est enregistré pour aider l’assistance."
+      ],
+      "de": [
+        "**Redundancy:** neue Schaltfläche im Wiring-Feld. Jeder Port mit Kabel erhält einen Reserve-Port (Primary in der oberen Reihe des Device, Backup in der Reihe darunter), in der Connection, im Pixel Mapping, im Drawing und im 3D.",
+        "**Grid:** das Lines-Feld bietet Red, Green, Blue und White, und das Effects-Feld heißt jetzt Radar, mit schwarzem Strahl auf weißem Hintergrund (auch auf dem erweiterten Bildschirm) und MP4-Aufnahme im File format.",
+        "**Drawing und Connection:** Druckblätter (A4, A3, 1920 x 1080, 4K) mit Custom-Größe in Millimetern oder Zentimetern, und Ctrl+C / Ctrl+V von Bildschirmen kopiert deren Devices mit der genauen Anzahl von Ports.",
+        "**Geschwindigkeit und Sicherheit:** das Drawing ist etwa 3-mal schneller und riesige Projekte reagieren in der Connection 4- bis 5-mal schneller. Sehr große Projekte frieren den Computer nicht mehr ein, wenn der Speicher knapp wird, und ein Absturzbericht wird gespeichert, um dem Support zu helfen."
+      ],
+      "it": [
+        "**Redundancy:** nuovo pulsante nel riquadro Wiring. Ogni porta con cavo riceve una porta di riserva (Primary nella fila superiore del Device, Backup in quella sotto), nella Connection, nel Pixel Mapping, nel Drawing e nel 3D.",
+        "**Grid:** il riquadro Lines offre Red, Green, Blue e White, e il riquadro Effects ora è Radar, con il fascio nero sugli sfondi bianchi (anche sullo schermo esteso) e la registrazione in MP4 in File format.",
+        "**Drawing e Connection:** fogli di stampa (A4, A3, 1920 x 1080, 4K) con formato Custom in millimetri o centimetri, e Ctrl+C / Ctrl+V di schermi copia i loro Device con il numero esatto di porte.",
+        "**Velocità e sicurezza:** il Drawing è circa 3 volte più veloce e i progetti giganti rispondono da 4 a 5 volte più velocemente nella Connection. I progetti molto grandi non bloccano più il computer quando la memoria scarseggia, e viene salvato un rapporto di arresto anomalo per aiutare l’assistenza."
+      ],
+      "nl": [
+        "**Redundancy:** nieuwe knop in het Wiring-vak. Elke poort met een kabel krijgt een reservepoort (Primary op de bovenste rij van het Device, Backup op de rij eronder), in de Connection, de Pixel Mapping, de Drawing en de 3D.",
+        "**Grid:** het Lines-vak heeft Red, Green, Blue en White, en het Effects-vak heet nu Radar, met een zwarte bundel op witte achtergronden (ook op het uitgebreide scherm) en opname als MP4 in File format.",
+        "**Drawing en Connection:** afdrukvellen (A4, A3, 1920 x 1080, 4K) met een Custom-formaat in millimeters of centimeters, en Ctrl+C / Ctrl+V van schermen kopieert hun Devices met het exacte aantal poorten.",
+        "**Snelheid en veiligheid:** de Drawing is ongeveer 3 keer sneller en gigantische projecten reageren 4 tot 5 keer sneller in de Connection. Zeer grote projecten laten de computer niet meer vastlopen als het geheugen opraakt, en er wordt een crashrapport opgeslagen om de ondersteuning te helpen."
+      ],
+      "ru": [
+        "**Redundancy:** новая кнопка в блоке Wiring. Каждый порт с кабелем получает резервный порт (Primary в верхнем ряду Device, Backup в ряду под ним) — в Connection, Pixel Mapping, Drawing и 3D.",
+        "**Grid:** в блоке Lines есть Red, Green, Blue и White, а блок Effects стал Radar: чёрный луч на белом фоне (и на расширенном экране) и запись в MP4 в File format.",
+        "**Drawing и Connection:** листы для печати (A4, A3, 1920 x 1080, 4K) с размером Custom в миллиметрах или сантиметрах, а Ctrl+C / Ctrl+V экранов копирует их Devices с точным числом портов.",
+        "**Скорость и надёжность:** Drawing работает примерно в 3 раза быстрее, а гигантские проекты откликаются в Connection в 4–5 раз быстрее. Очень большие проекты больше не подвешивают компьютер при нехватке памяти, а при сбое сохраняется отчёт, который помогает поддержке."
+      ],
+      "tr": [
+        "**Redundancy:** Wiring kutusunda yeni düğme. Kablolu her port bir yedek port alır (Device’ın üst sırasında Primary, alt sırasında Backup); Connection, Pixel Mapping, Drawing ve 3D’de.",
+        "**Grid:** Lines kutusunda Red, Green, Blue ve White var; Effects kutusu artık Radar: beyaz arka planlarda siyah ışın (genişletilmiş ekranda da) ve File format’ta MP4 kaydı.",
+        "**Drawing ve Connection:** milimetre veya santimetre cinsinden Custom boyutlu baskı sayfaları (A4, A3, 1920 x 1080, 4K) ve ekranların Ctrl+C / Ctrl+V ile kopyalanması Device’larını da tam port sayısıyla kopyalar.",
+        "**Hız ve güvenlik:** Drawing yaklaşık 3 kat daha hızlı, dev projeler Connection’da 4 ila 5 kat daha hızlı tepki veriyor. Çok büyük projeler bellek azaldığında artık bilgisayarı dondurmuyor ve desteğe yardımcı olmak için bir çökme raporu kaydediliyor."
+      ],
+      "id": [
+        "**Redundancy:** tombol baru di kotak Wiring. Setiap port yang berkabel mendapat port cadangan (Primary di baris atas Device, Backup di baris bawahnya), di Connection, Pixel Mapping, Drawing, dan 3D.",
+        "**Grid:** kotak Lines memiliki Red, Green, Blue, dan White, dan kotak Effects kini menjadi Radar, dengan sorotan hitam di latar putih (juga di layar yang diperluas) dan rekaman MP4 di File format.",
+        "**Drawing dan Connection:** lembar cetak (A4, A3, 1920 x 1080, 4K) dengan ukuran Custom dalam milimeter atau sentimeter, dan Ctrl+C / Ctrl+V layar juga menyalin Device-nya dengan jumlah port yang tepat.",
+        "**Kecepatan dan keamanan:** Drawing sekitar 3 kali lebih cepat dan proyek raksasa merespons 4 sampai 5 kali lebih cepat di Connection. Proyek yang sangat besar tidak lagi membuat komputer macet saat memori menipis, dan laporan crash disimpan untuk membantu dukungan."
+      ],
+      "hu": [
+        "**Redundancy:** új gomb a Wiring dobozban. Minden kábeles port tartalék portot kap (Primary a Device felső sorában, Backup az alatta lévőben), a Connectionben, a Pixel Mappingben, a Drawingban és a 3D-ben.",
+        "**Grid:** a Lines dobozban Red, Green, Blue és White van, az Effects doboz pedig Radar lett: fekete sugár fehér háttéren (a kiterjesztett képernyőn is) és MP4-felvétel a File formatban.",
+        "**Drawing és Connection:** nyomtatási lapok (A4, A3, 1920 x 1080, 4K) milliméteres vagy centiméteres Custom mérettel, a képernyők Ctrl+C / Ctrl+V másolása pedig a Device-okat is pontos portszámmal másolja.",
+        "**Sebesség és biztonság:** a Drawing kb. 3-szor gyorsabb, az óriási projektek pedig 4–5-ször gyorsabban reagálnak a Connectionben. A nagyon nagy projektek már nem fagyasztják le a gépet, ha fogy a memória, és összeomlási jelentés készül a támogatás segítésére."
+      ],
+      "zh-Hans": [
+        "**Redundancy：** Wiring 框中新增按钮。每个有线缆的端口都会获得一个备用端口（Primary 位于 Device 的上排，Backup 位于下排），在 Connection、Pixel Mapping、Drawing 和 3D 中都会显示。",
+        "**Grid：** Lines 框提供 Red、Green、Blue 和 White，Effects 框改为 Radar：白色背景上为黑色光束（扩展屏幕上也是），并可在 File format 中录制 MP4。",
+        "**Drawing 与 Connection：** 打印纸张（A4、A3、1920 x 1080、4K），Custom 尺寸可用毫米或厘米；用 Ctrl+C / Ctrl+V 复制屏幕时，会按准确的端口数复制其 Device。",
+        "**速度与安全：** Drawing 快约 3 倍，超大项目在 Connection 中的响应快 4 到 5 倍。内存不足时，超大项目不再让电脑卡死，并会保存崩溃报告以协助技术支持。"
+      ],
+      "zh-Hant": [
+        "**Redundancy：** Wiring 框中新增按鈕。每個有線材的連接埠都會獲得一個備用連接埠（Primary 位於 Device 的上排，Backup 位於下排），在 Connection、Pixel Mapping、Drawing 與 3D 中都會顯示。",
+        "**Grid：** Lines 框提供 Red、Green、Blue 與 White，Effects 框改為 Radar：白色背景上為黑色光束（延伸螢幕上也是），並可在 File format 中錄製 MP4。",
+        "**Drawing 與 Connection：** 列印紙張（A4、A3、1920 x 1080、4K），Custom 尺寸可用公釐或公分；以 Ctrl+C / Ctrl+V 複製螢幕時，會依準確的連接埠數複製其 Device。",
+        "**速度與安全：** Drawing 快約 3 倍，超大型專案在 Connection 中的反應快 4 到 5 倍。記憶體不足時，超大型專案不再讓電腦當機，並會儲存當機報告以協助技術支援。"
+      ],
+      "ja": [
+        "**Redundancy：** Wiring ボックスに新しいボタン。ケーブルのある各ポートに予備ポートが付きます（Device の上段に Primary、下段に Backup）。Connection、Pixel Mapping、Drawing、3D に表示されます。",
+        "**Grid：** Lines ボックスに Red、Green、Blue、White が加わり、Effects ボックスは Radar になりました。白い背景では黒いビーム（拡張画面でも）で、File format で MP4 録画もできます。",
+        "**Drawing と Connection：** 印刷用紙（A4、A3、1920 x 1080、4K）と、ミリまたはセンチで指定する Custom サイズ。画面を Ctrl+C / Ctrl+V すると、その Device も正確なポート数でコピーされます。",
+        "**速度と安全性：** Drawing は約 3 倍速くなり、巨大なプロジェクトの Connection での反応は 4〜5 倍速くなりました。メモリが不足しても非常に大きなプロジェクトでパソコンが固まらなくなり、サポートに役立つクラッシュレポートが保存されます。"
+      ],
+      "ko": [
+        "**Redundancy:** Wiring 상자에 새 버튼. 케이블이 있는 각 포트에 예비 포트가 생깁니다(Device 윗줄에 Primary, 아랫줄에 Backup). Connection, Pixel Mapping, Drawing, 3D에 표시됩니다.",
+        "**Grid:** Lines 상자에 Red, Green, Blue, White가 있고 Effects 상자는 Radar가 되었습니다. 흰 배경에서는 검은 빔(확장 화면에서도)이며 File format에서 MP4로 녹화할 수 있습니다.",
+        "**Drawing과 Connection:** 인쇄 용지(A4, A3, 1920 x 1080, 4K)와 밀리미터 또는 센티미터 단위의 Custom 크기, 그리고 화면을 Ctrl+C / Ctrl+V 하면 해당 Device도 정확한 포트 수로 복사됩니다.",
+        "**속도와 안전:** Drawing이 약 3배 빨라졌고 초대형 프로젝트는 Connection에서 4~5배 빠르게 반응합니다. 메모리가 부족해도 매우 큰 프로젝트 때문에 컴퓨터가 멈추지 않으며, 지원에 도움이 되는 충돌 보고서가 저장됩니다."
+      ],
+      "ar": [
+        "**Redundancy:** زر جديد في مربع Wiring. يحصل كل منفذ موصول بكابل على منفذ احتياطي (Primary في الصف العلوي من Device وBackup في الصف الذي تحته) في Connection وPixel Mapping وDrawing و3D.",
+        "**Grid:** يحتوي مربع Lines على Red وGreen وBlue وWhite، وأصبح مربع Effects باسم Radar، مع شعاع أسود على الخلفيات البيضاء (وعلى الشاشة الممتدة أيضًا) وتسجيل MP4 في File format.",
+        "**Drawing وConnection:** أوراق طباعة (A4 وA3 و1920 x 1080 و4K) بمقاس Custom بالمليمتر أو السنتيمتر، ونسخ الشاشات بـ Ctrl+C / Ctrl+V ينسخ أجهزة Device الخاصة بها بالعدد الدقيق من المنافذ.",
+        "**السرعة والأمان:** أصبح Drawing أسرع بنحو 3 مرات، وتستجيب المشاريع الضخمة في Connection أسرع بـ 4 إلى 5 مرات. لم تعد المشاريع الكبيرة جدًا تجمّد الحاسوب عند نقص الذاكرة، ويُحفظ تقرير عن الأعطال لمساعدة الدعم."
+      ],
+      "th": [
+        "**Redundancy:** ปุ่มใหม่ในกล่อง Wiring พอร์ตที่มีสายทุกพอร์ตจะได้พอร์ตสำรอง (Primary แถวบนของ Device และ Backup แถวล่าง) ใน Connection, Pixel Mapping, Drawing และ 3D",
+        "**Grid:** กล่อง Lines มี Red, Green, Blue และ White และกล่อง Effects กลายเป็น Radar โดยลำแสงเป็นสีดำบนพื้นหลังสีขาว (บนจอขยายด้วย) และบันทึก MP4 ได้ใน File format",
+        "**Drawing และ Connection:** แผ่นพิมพ์ (A4, A3, 1920 x 1080, 4K) พร้อมขนาด Custom เป็นมิลลิเมตรหรือเซนติเมตร และการ Ctrl+C / Ctrl+V จอจะคัดลอก Device ของจอนั้นด้วยจำนวนพอร์ตที่ถูกต้อง",
+        "**ความเร็วและความปลอดภัย:** Drawing เร็วขึ้นราว 3 เท่า และโปรเจกต์ขนาดยักษ์ตอบสนองใน Connection เร็วขึ้น 4 ถึง 5 เท่า โปรเจกต์ใหญ่มากไม่ทำให้คอมพิวเตอร์ค้างอีกเมื่อหน่วยความจำเหลือน้อย และจะบันทึกรายงานการขัดข้องไว้ช่วยฝ่ายสนับสนุน"
+      ],
+      "hi": [
+        "**Redundancy:** Wiring बॉक्स में नया बटन। केबल वाले हर पोर्ट को एक बैकअप पोर्ट मिलता है (Device की ऊपरी पंक्ति में Primary, नीचे की पंक्ति में Backup), Connection, Pixel Mapping, Drawing और 3D में।",
+        "**Grid:** Lines बॉक्स में Red, Green, Blue और White हैं, और Effects बॉक्स अब Radar है: सफ़ेद पृष्ठभूमि पर काली किरण (विस्तारित स्क्रीन पर भी) और File format में MP4 रिकॉर्डिंग।",
+        "**Drawing और Connection:** मिलीमीटर या सेंटीमीटर में Custom आकार वाली प्रिंट शीटें (A4, A3, 1920 x 1080, 4K), और स्क्रीनों को Ctrl+C / Ctrl+V करने पर उनके Device भी सही पोर्ट संख्या के साथ कॉपी होते हैं।",
+        "**गति और सुरक्षा:** Drawing लगभग 3 गुना तेज़ है और विशाल प्रोजेक्ट Connection में 4 से 5 गुना तेज़ प्रतिक्रिया देते हैं। मेमोरी कम होने पर बहुत बड़े प्रोजेक्ट अब कंप्यूटर को नहीं जमाते, और सहायता के लिए क्रैश रिपोर्ट सहेजी जाती है।"
+      ],
+      "vi": [
+        "**Redundancy:** nút mới trong hộp Wiring. Mỗi cổng có cáp nhận thêm một cổng dự phòng (Primary ở hàng trên của Device, Backup ở hàng dưới), trong Connection, Pixel Mapping, Drawing và 3D.",
+        "**Grid:** hộp Lines có Red, Green, Blue và White, hộp Effects nay là Radar, với chùm tia đen trên nền trắng (cả trên màn hình mở rộng) và ghi MP4 trong File format.",
+        "**Drawing và Connection:** khổ giấy in (A4, A3, 1920 x 1080, 4K) với kích thước Custom tính bằng milimét hoặc xentimét, và Ctrl+C / Ctrl+V màn hình sao chép cả các Device của chúng với đúng số cổng.",
+        "**Tốc độ và an toàn:** Drawing nhanh hơn khoảng 3 lần và các dự án khổng lồ phản hồi nhanh hơn 4 đến 5 lần trong Connection. Dự án rất lớn không còn làm treo máy tính khi thiếu bộ nhớ, và báo cáo sự cố được lưu lại để hỗ trợ."
+      ],
+      "bn": [
+        "**Redundancy:** Wiring বাক্সে নতুন বোতাম। কেবলযুক্ত প্রতিটি পোর্ট একটি ব্যাকআপ পোর্ট পায় (Device-এর উপরের সারিতে Primary, নিচের সারিতে Backup), Connection, Pixel Mapping, Drawing ও 3D-তে।",
+        "**Grid:** Lines বাক্সে Red, Green, Blue ও White আছে, আর Effects বাক্স এখন Radar: সাদা পটভূমিতে কালো রশ্মি (বর্ধিত স্ক্রিনেও) এবং File format-এ MP4 রেকর্ডিং।",
+        "**Drawing ও Connection:** মিলিমিটার বা সেন্টিমিটারে Custom আকারসহ মুদ্রণ পাতা (A4, A3, 1920 x 1080, 4K), এবং স্ক্রিন Ctrl+C / Ctrl+V করলে তাদের Device-ও সঠিক পোর্ট সংখ্যায় কপি হয়।",
+        "**গতি ও নিরাপত্তা:** Drawing প্রায় 3 গুণ দ্রুত, আর বিশাল প্রকল্প Connection-এ 4 থেকে 5 গুণ দ্রুত সাড়া দেয়। মেমরি কম থাকলে খুব বড় প্রকল্প আর কম্পিউটার আটকে দেয় না, এবং সহায়তার জন্য একটি ক্র্যাশ রিপোর্ট সংরক্ষিত হয়।"
+      ],
+      "ms": [
+        "**Redundancy:** butang baharu dalam kotak Wiring. Setiap port berkabel mendapat port sandaran (Primary di baris atas Device, Backup di baris bawahnya), dalam Connection, Pixel Mapping, Drawing dan 3D.",
+        "**Grid:** kotak Lines mempunyai Red, Green, Blue dan White, dan kotak Effects kini menjadi Radar, dengan alur hitam pada latar putih (juga pada skrin lanjutan) dan rakaman MP4 dalam File format.",
+        "**Drawing dan Connection:** helaian cetakan (A4, A3, 1920 x 1080, 4K) dengan saiz Custom dalam milimeter atau sentimeter, dan Ctrl+C / Ctrl+V skrin turut menyalin Device skrin itu dengan bilangan port yang tepat.",
+        "**Kelajuan dan keselamatan:** Drawing kira-kira 3 kali lebih pantas dan projek gergasi bertindak balas 4 hingga 5 kali lebih pantas dalam Connection. Projek yang sangat besar tidak lagi membekukan komputer apabila memori berkurangan, dan laporan ranap disimpan untuk membantu sokongan."
+      ],
+      "sv": [
+        "**Redundancy:** ny knapp i Wiring-rutan. Varje port med kabel får en reservport (Primary i den övre raden på Device, Backup i raden under) i Connection, Pixel Mapping, Drawing och 3D.",
+        "**Grid:** Lines-rutan har Red, Green, Blue och White, och Effects-rutan heter nu Radar, med svart stråle på vita bakgrunder (även på den utökade skärmen) och MP4-inspelning i File format.",
+        "**Drawing och Connection:** utskriftsark (A4, A3, 1920 x 1080, 4K) med Custom-storlek i millimeter eller centimeter, och Ctrl+C / Ctrl+V av skärmar kopierar även deras Devices med exakt antal portar.",
+        "**Hastighet och säkerhet:** Drawing är ungefär 3 gånger snabbare och jätteprojekt svarar 4 till 5 gånger snabbare i Connection. Mycket stora projekt låser inte längre datorn när minnet tar slut, och en kraschrapport sparas för att hjälpa supporten."
+      ],
+      "ur": [
+        "**Redundancy:** Wiring خانے میں نیا بٹن۔ کیبل والے ہر پورٹ کو ایک بیک اپ پورٹ ملتا ہے (Device کی اوپری قطار میں Primary اور نیچے والی قطار میں Backup)، Connection، Pixel Mapping، Drawing اور 3D میں۔",
+        "**Grid:** Lines خانے میں Red، Green، Blue اور White ہیں، اور Effects خانہ اب Radar ہے: سفید پس منظر پر سیاہ شعاع (توسیعی اسکرین پر بھی) اور File format میں MP4 ریکارڈنگ۔",
+        "**Drawing اور Connection:** ملی میٹر یا سینٹی میٹر میں Custom سائز کے ساتھ پرنٹ شیٹس (A4، A3، 1920 x 1080، 4K)، اور اسکرینوں کو Ctrl+C / Ctrl+V کرنے سے ان کے Device بھی درست پورٹ تعداد کے ساتھ کاپی ہوتے ہیں۔",
+        "**رفتار اور حفاظت:** Drawing تقریباً 3 گنا تیز ہے اور بہت بڑے پروجیکٹ Connection میں 4 سے 5 گنا تیزی سے جواب دیتے ہیں۔ میموری کم ہونے پر بہت بڑے پروجیکٹ اب کمپیوٹر کو منجمد نہیں کرتے، اور سپورٹ کی مدد کے لیے کریش رپورٹ محفوظ ہوتی ہے۔"
+      ],
+      "sw": [
+        "**Redundancy:** kitufe kipya kwenye kisanduku cha Wiring. Kila mlango wenye kebo hupata mlango wa akiba (Primary kwenye safu ya juu ya Device, Backup kwenye safu ya chini), katika Connection, Pixel Mapping, Drawing na 3D.",
+        "**Grid:** kisanduku cha Lines kina Red, Green, Blue na White, na kisanduku cha Effects sasa ni Radar, chenye mwali mweusi kwenye mandharinyuma meupe (pia kwenye skrini iliyopanuliwa) na kurekodi MP4 katika File format.",
+        "**Drawing na Connection:** karatasi za kuchapisha (A4, A3, 1920 x 1080, 4K) zenye ukubwa wa Custom kwa milimita au sentimita, na Ctrl+C / Ctrl+V ya skrini hunakili pia Device zake kwa idadi kamili ya milango.",
+        "**Kasi na usalama:** Drawing ni takriban mara 3 haraka zaidi na miradi mikubwa sana hujibu mara 4 hadi 5 haraka zaidi katika Connection. Miradi mikubwa mno haigandishi tena kompyuta kumbukumbu inapopungua, na ripoti ya hitilafu huhifadhiwa ili kusaidia usaidizi."
+      ],
+      "gn": [
+        "**Redundancy:** botón pyahu Wiring caja-pe. Opa puerto oguerekóva cable ohupyty peteĩ puerto reserva (Primary Device yvate gotyo, Backup iguýpe), Connection, Pixel Mapping, Drawing ha 3D-pe.",
+        "**Grid:** Lines caja oguereko Red, Green, Blue ha White, ha Effects caja ko’ág̃a Radar: rayo hũ pantalla morotĩ ári (avei pantalla extendida-pe) ha MP4 grabación File format-pe.",
+        "**Drawing ha Connection:** kuatia imprimir haguã (A4, A3, 1920 x 1080, 4K) Custom tamaño milímetro térã centímetro-pe, ha Ctrl+C / Ctrl+V pantalla-kuéra ombohasa avei hikuái Device puerto papapy hekopete.",
+        "**Pya’ekue ha seguridad:** Drawing 3 vese pya’eve ha proyecto tuichaitéva ombohovái 4 guive 5 peve vese pya’eve Connection-pe. Proyecto tuichaitéva ndojokovéima computadora memoria oñembyaívo, ha oñeñongatu peteĩ informe falla rehegua oipytyvõ haguã soporte-pe."
+      ],
+      "he": [
+        "**Redundancy:** כפתור חדש בתיבת Wiring. כל יציאה עם כבל מקבלת יציאת גיבוי (Primary בשורה העליונה של ה-Device, Backup בשורה שמתחתיה), ב-Connection, ב-Pixel Mapping, ב-Drawing וב-3D.",
+        "**Grid:** בתיבת Lines יש Red, Green, Blue ו-White, ותיבת Effects הפכה ל-Radar, עם אלומה שחורה על רקע לבן (גם במסך המורחב) והקלטת MP4 ב-File format.",
+        "**Drawing ו-Connection:** דפי הדפסה (A4, A3, 1920 x 1080, 4K) עם גודל Custom במילימטרים או בסנטימטרים, ו-Ctrl+C / Ctrl+V של מסכים מעתיק גם את ה-Devices שלהם עם מספר היציאות המדויק.",
+        "**מהירות ובטיחות:** ה-Drawing מהיר פי 3 בערך, ופרויקטים ענקיים מגיבים ב-Connection מהר פי 4 עד 5. פרויקטים גדולים מאוד כבר לא מקפיאים את המחשב כשהזיכרון אוזל, ונשמר דוח קריסה שעוזר לתמיכה."
+      ],
+      "lv": [
+        "**Redundancy:** jauna poga lodziņā Wiring. Katrs ports ar kabeli saņem rezerves portu (Primary Device augšējā rindā, Backup rindā zem tās) – Connection, Pixel Mapping, Drawing un 3D.",
+        "**Grid:** lodziņā Lines ir Red, Green, Blue un White, un lodziņš Effects tagad ir Radar: melns stars uz balta fona (arī paplašinātajā ekrānā) un MP4 ieraksts File format.",
+        "**Drawing un Connection:** drukas lapas (A4, A3, 1920 x 1080, 4K) ar Custom izmēru milimetros vai centimetros, un ekrānu Ctrl+C / Ctrl+V kopē arī to Devices ar precīzu portu skaitu.",
+        "**Ātrums un drošība:** Drawing ir aptuveni 3 reizes ātrāks, un milzu projekti Connection reaģē 4 līdz 5 reizes ātrāk. Ļoti lieli projekti vairs neiesaldē datoru, kad pietrūkst atmiņas, un tiek saglabāts avārijas pārskats, kas palīdz atbalstam."
+      ],
+      "fa": [
+        "**Redundancy:** دکمهٔ جدید در کادر Wiring. هر پورت دارای کابل یک پورت پشتیبان می‌گیرد (Primary در ردیف بالای Device و Backup در ردیف پایین)، در Connection، Pixel Mapping، Drawing و 3D.",
+        "**Grid:** کادر Lines گزینه‌های Red، Green، Blue و White را دارد و کادر Effects اکنون Radar است: پرتو سیاه روی پس‌زمینهٔ سفید (در صفحهٔ گسترش‌یافته هم) و ضبط MP4 در File format.",
+        "**Drawing و Connection:** برگه‌های چاپ (A4، A3، 1920 x 1080، 4K) با اندازهٔ Custom به میلی‌متر یا سانتی‌متر، و Ctrl+C / Ctrl+V صفحه‌ها Deviceهای آن‌ها را هم با تعداد دقیق پورت کپی می‌کند.",
+        "**سرعت و ایمنی:** Drawing حدود 3 برابر سریع‌تر است و پروژه‌های عظیم در Connection 4 تا 5 برابر سریع‌تر پاسخ می‌دهند. پروژه‌های بسیار بزرگ دیگر هنگام کمبود حافظه رایانه را قفل نمی‌کنند و برای کمک به پشتیبانی، گزارش خرابی ذخیره می‌شود."
+      ],
+      "pl": [
+        "**Redundancy:** nowy przycisk w polu Wiring. Każdy port z kablem dostaje port zapasowy (Primary w górnym rzędzie Device, Backup w rzędzie poniżej) w Connection, Pixel Mapping, Drawing i 3D.",
+        "**Grid:** pole Lines ma Red, Green, Blue i White, a pole Effects to teraz Radar: czarna wiązka na białym tle (także na ekranie rozszerzonym) i nagrywanie MP4 w File format.",
+        "**Drawing i Connection:** arkusze do druku (A4, A3, 1920 x 1080, 4K) z rozmiarem Custom w milimetrach lub centymetrach, a Ctrl+C / Ctrl+V ekranów kopiuje także ich Devices z dokładną liczbą portów.",
+        "**Szybkość i bezpieczeństwo:** Drawing jest około 3 razy szybszy, a gigantyczne projekty reagują w Connection 4–5 razy szybciej. Bardzo duże projekty nie zawieszają już komputera, gdy brakuje pamięci, a raport o awarii jest zapisywany, aby pomóc wsparciu."
+      ],
+      "uk": [
+        "**Redundancy:** нова кнопка в блоці Wiring. Кожен порт із кабелем отримує резервний порт (Primary у верхньому ряду Device, Backup у ряду під ним) — у Connection, Pixel Mapping, Drawing і 3D.",
+        "**Grid:** у блоці Lines є Red, Green, Blue і White, а блок Effects став Radar: чорний промінь на білому тлі (і на розширеному екрані) та запис у MP4 у File format.",
+        "**Drawing і Connection:** аркуші для друку (A4, A3, 1920 x 1080, 4K) з розміром Custom у міліметрах або сантиметрах, а Ctrl+C / Ctrl+V екранів копіює і їхні Devices з точною кількістю портів.",
+        "**Швидкість і надійність:** Drawing працює приблизно втричі швидше, а гігантські проєкти реагують у Connection у 4–5 разів швидше. Дуже великі проєкти більше не підвішують комп’ютер, коли бракує пам’яті, а у разі збою зберігається звіт, який допомагає підтримці."
+      ],
+      "ca": [
+        "**Redundancy:** nou botó al quadre Wiring. Cada port amb cable rep un port de reserva (Primary a la fila de dalt del Device, Backup a la de sota), a la Connection, el Pixel Mapping, el Drawing i el 3D.",
+        "**Grid:** el quadre Lines té Red, Green, Blue i White, i el quadre Effects ara és Radar, amb el feix negre sobre fons blancs (també a la pantalla estesa) i gravació en MP4 a File format.",
+        "**Drawing i Connection:** fulls d’impressió (A4, A3, 1920 x 1080, 4K) amb mida Custom en mil·límetres o centímetres, i Ctrl+C / Ctrl+V de pantalles copia també els seus Devices amb el nombre exacte de ports.",
+        "**Velocitat i seguretat:** el Drawing és unes 3 vegades més ràpid i els projectes gegants responen de 4 a 5 vegades més ràpid a la Connection. Els projectes molt grans ja no bloquegen l’ordinador quan falta memòria, i es desa un informe d’error per ajudar el suport."
+      ],
+      "cs": [
+        "**Redundancy:** nové tlačítko v poli Wiring. Každý port s kabelem dostane záložní port (Primary v horní řadě Device, Backup v řadě pod ní) v Connection, Pixel Mapping, Drawing a 3D.",
+        "**Grid:** pole Lines má Red, Green, Blue a White a pole Effects je teď Radar: černý paprsek na bílém pozadí (i na rozšířené obrazovce) a nahrávání MP4 ve File format.",
+        "**Drawing a Connection:** tiskové listy (A4, A3, 1920 x 1080, 4K) s velikostí Custom v milimetrech nebo centimetrech a Ctrl+C / Ctrl+V obrazovek zkopíruje i jejich Devices s přesným počtem portů.",
+        "**Rychlost a bezpečnost:** Drawing je asi 3krát rychlejší a obří projekty reagují v Connection 4 až 5krát rychleji. Velmi velké projekty už při nedostatku paměti nezamrazí počítač a ukládá se zpráva o pádu, která pomáhá podpoře."
+      ],
+      "fi": [
+        "**Redundancy:** uusi painike Wiring-ruudussa. Jokainen kaapeloitu portti saa varaportin (Primary Devicen ylärivillä, Backup sen alla olevalla rivillä) Connectionissa, Pixel Mappingissa, Drawingissa ja 3D:ssä.",
+        "**Grid:** Lines-ruudussa on Red, Green, Blue ja White, ja Effects-ruutu on nyt Radar: musta säde valkoisella taustalla (myös laajennetulla näytöllä) ja MP4-tallennus File formatissa.",
+        "**Drawing ja Connection:** tulostusarkit (A4, A3, 1920 x 1080, 4K) Custom-koolla millimetreinä tai senttimetreinä, ja näyttöjen Ctrl+C / Ctrl+V kopioi myös niiden Devicet tarkalla porttimäärällä.",
+        "**Nopeus ja turvallisuus:** Drawing on noin 3 kertaa nopeampi, ja jättiprojektit reagoivat Connectionissa 4–5 kertaa nopeammin. Hyvin suuret projektit eivät enää jumita tietokonetta muistin loppuessa, ja tukea varten tallennetaan kaatumisraportti."
+      ],
+      "el": [
+        "**Redundancy:** νέο κουμπί στο πλαίσιο Wiring. Κάθε θύρα με καλώδιο αποκτά εφεδρική θύρα (Primary στην επάνω σειρά του Device, Backup στη σειρά από κάτω), στο Connection, στο Pixel Mapping, στο Drawing και στο 3D.",
+        "**Grid:** το πλαίσιο Lines έχει Red, Green, Blue και White, και το πλαίσιο Effects έγινε Radar, με μαύρη δέσμη σε λευκό φόντο (και στην εκτεταμένη οθόνη) και εγγραφή MP4 στο File format.",
+        "**Drawing και Connection:** φύλλα εκτύπωσης (A4, A3, 1920 x 1080, 4K) με μέγεθος Custom σε χιλιοστά ή εκατοστά, και το Ctrl+C / Ctrl+V οθονών αντιγράφει και τα Devices τους με τον ακριβή αριθμό θυρών.",
+        "**Ταχύτητα και ασφάλεια:** το Drawing είναι περίπου 3 φορές πιο γρήγορο και τα τεράστια έργα αποκρίνονται 4 έως 5 φορές πιο γρήγορα στο Connection. Τα πολύ μεγάλα έργα δεν παγώνουν πια τον υπολογιστή όταν λείπει μνήμη, και αποθηκεύεται αναφορά σφάλματος για να βοηθήσει την υποστήριξη."
+      ],
+      "ha": [
+        "**Redundancy:** sabon maɓalli a akwatin Wiring. Kowace tashar da ke da kebul tana samun tashar ajiya (Primary a layin sama na Device, Backup a layin ƙasa), a Connection, Pixel Mapping, Drawing da 3D.",
+        "**Grid:** akwatin Lines yana da Red, Green, Blue da White, kuma akwatin Effects yanzu Radar ne, da haske baƙi a kan bango fari (har ma a allon da aka faɗaɗa) da rikodin MP4 a File format.",
+        "**Drawing da Connection:** takardun bugawa (A4, A3, 1920 x 1080, 4K) masu girman Custom a milimita ko santimita, kuma Ctrl+C / Ctrl+V na allo yana kwafin Device ɗinsu da daidai adadin tashoshi.",
+        "**Sauri da tsaro:** Drawing ya fi sauri kusan sau 3, kuma manyan ayyuka suna amsawa sau 4 zuwa 5 da sauri a Connection. Manyan ayyuka ba sa daskarar da kwamfuta idan ƙwaƙwalwa ta yi ƙasa, kuma ana adana rahoton faɗuwa don taimaka wa tallafi."
+      ],
+      "ro": [
+        "**Redundancy:** buton nou în caseta Wiring. Fiecare port cu cablu primește un port de rezervă (Primary pe rândul de sus al Device-ului, Backup pe rândul de dedesubt), în Connection, Pixel Mapping, Drawing și 3D.",
+        "**Grid:** caseta Lines are Red, Green, Blue și White, iar caseta Effects a devenit Radar, cu fascicul negru pe fundaluri albe (și pe ecranul extins) și înregistrare MP4 în File format.",
+        "**Drawing și Connection:** coli de tipărire (A4, A3, 1920 x 1080, 4K) cu dimensiune Custom în milimetri sau centimetri, iar Ctrl+C / Ctrl+V pe ecrane copiază și Device-urile lor cu numărul exact de porturi.",
+        "**Viteză și siguranță:** Drawing este de aproximativ 3 ori mai rapid, iar proiectele uriașe răspund de 4 până la 5 ori mai repede în Connection. Proiectele foarte mari nu mai blochează calculatorul când memoria e pe terminate, iar un raport de eroare este salvat pentru a ajuta asistența."
+      ],
+      "yo": [
+        "**Redundancy:** bọ́tìnnì tuntun nínú àpótí Wiring. Gbogbo ibùdó tí ó ní kébù ń gba ibùdó àfipamọ́ kan (Primary ní ìlà òkè Device, Backup ní ìlà ìsàlẹ̀), nínú Connection, Pixel Mapping, Drawing àti 3D.",
+        "**Grid:** àpótí Lines ní Red, Green, Blue àti White, àpótí Effects sì ti di Radar, pẹ̀lú ìtànná dúdú lórí ẹ̀yìn funfun (lórí ojú-ìbòjú tí a fẹ̀ sí i náà) àti gbígba MP4 sílẹ̀ nínú File format.",
+        "**Drawing àti Connection:** àwọn ìwé ìtẹ̀wé (A4, A3, 1920 x 1080, 4K) pẹ̀lú ìwọ̀n Custom ní milimita tàbí sẹntimita, Ctrl+C / Ctrl+V àwọn ojú-ìbòjú sì ń da àwọn Device wọn kọ pẹ̀lú iye ibùdó tó péye.",
+        "**Iyára àti ààbò:** Drawing yára ní nǹkan bí ìlọ́po 3, àwọn iṣẹ́ àkànṣe ńláńlá sì ń dáhùn ní ìlọ́po 4 sí 5 yára jù nínú Connection. Àwọn iṣẹ́ àkànṣe tó tóbi gan-an kò dí kọ̀ǹpútà mọ́ nígbà tí ìrántí bá kéré, a sì ń fi ìròyìn ìjàǹbá pamọ́ láti ran ìrànlọ́wọ́ lọ́wọ́."
+      ],
+      "zu": [
+        "**I-Redundancy:** inkinobho entsha ebhokisini le-Wiring. Itheku ngalinye elinekhebula lithola itheku lokulondoloza (i-Primary emgqeni ongaphezulu we-Device, i-Backup emgqeni ongezansi), ku-Connection, ku-Pixel Mapping, ku-Drawing naku-3D.",
+        "**I-Grid:** ibhokisi le-Lines line-Red, Green, Blue ne-White, futhi ibhokisi le-Effects manje li-Radar, linomsebe omnyama ezingemuva ezimhlophe (nasesikrinini esinwetshiwe) nokuqopha kwe-MP4 ku-File format.",
+        "**I-Drawing ne-Connection:** amashidi okuphrinta (A4, A3, 1920 x 1080, 4K) anosayizi we-Custom ngamamilimitha noma ngamasentimitha, futhi i-Ctrl+C / Ctrl+V yezikrini ikopisha nama-Device azo ngenani elifanele lamatheku.",
+        "**Isivinini nokuphepha:** i-Drawing ishesha cishe kathathu, futhi amaphrojekthi amakhulu kakhulu aphendula ngokushesha okuphindwe ka-4 kuya ku-5 ku-Connection. Amaphrojekthi amakhulu kakhulu awasayiqandisi ikhompyutha uma inkumbulo incipha, futhi kugcinwa umbiko wokuphahlazeka ukuze kusizwe abasekeli."
+      ],
+      "fil": [
+        "**Redundancy:** bagong button sa kahon ng Wiring. Bawat port na may kable ay nagkakaroon ng backup port (Primary sa itaas na hanay ng Device, Backup sa hanay sa ibaba), sa Connection, Pixel Mapping, Drawing at 3D.",
+        "**Grid:** may Red, Green, Blue at White ang kahon ng Lines, at Radar na ang kahon ng Effects, na may itim na sinag sa puting background (pati sa extended screen) at pag-record ng MP4 sa File format.",
+        "**Drawing at Connection:** mga print sheet (A4, A3, 1920 x 1080, 4K) na may Custom na laki sa milimetro o sentimetro, at kinokopya ng Ctrl+C / Ctrl+V ng mga screen pati ang kanilang mga Device nang may eksaktong bilang ng port.",
+        "**Bilis at kaligtasan:** mga 3 beses na mas mabilis ang Drawing at 4 hanggang 5 beses na mas mabilis tumugon ang malalaking proyekto sa Connection. Hindi na nagpapa-freeze ng computer ang napakalalaking proyekto kapag kulang ang memory, at may sine-save na crash report para makatulong sa support."
+      ],
+      "ta": [
+        "**Redundancy:** Wiring பெட்டியில் புதிய பொத்தான். கேபிள் உள்ள ஒவ்வொரு போர்ட்டுக்கும் ஒரு காப்பு போர்ட் கிடைக்கிறது (Device-இன் மேல் வரிசையில் Primary, கீழ் வரிசையில் Backup), Connection, Pixel Mapping, Drawing மற்றும் 3D-இல்.",
+        "**Grid:** Lines பெட்டியில் Red, Green, Blue, White உள்ளன; Effects பெட்டி இப்போது Radar: வெள்ளைப் பின்னணியில் கருப்புக் கதிர் (விரிவாக்கப்பட்ட திரையிலும்) மற்றும் File format-இல் MP4 பதிவு.",
+        "**Drawing மற்றும் Connection:** மில்லிமீட்டர் அல்லது சென்டிமீட்டரில் Custom அளவுடன் அச்சுத் தாள்கள் (A4, A3, 1920 x 1080, 4K), மேலும் திரைகளை Ctrl+C / Ctrl+V செய்தால் அவற்றின் Device-களும் சரியான போர்ட் எண்ணிக்கையுடன் நகலெடுக்கப்படும்.",
+        "**வேகமும் பாதுகாப்பும்:** Drawing சுமார் 3 மடங்கு வேகமானது, மிகப் பெரிய திட்டங்கள் Connection-இல் 4 முதல் 5 மடங்கு வேகமாகப் பதிலளிக்கின்றன. நினைவகம் குறையும்போது மிகப் பெரிய திட்டங்கள் இனி கணினியை உறையச் செய்யாது, ஆதரவுக்கு உதவ ஒரு செயலிழப்பு அறிக்கை சேமிக்கப்படுகிறது."
+      ],
+      "te": [
+        "**Redundancy:** Wiring పెట్టెలో కొత్త బటన్. కేబుల్ ఉన్న ప్రతి పోర్ట్‌కు ఒక బ్యాకప్ పోర్ట్ వస్తుంది (Device పై వరుసలో Primary, కింది వరుసలో Backup), Connection, Pixel Mapping, Drawing, 3Dలో.",
+        "**Grid:** Lines పెట్టెలో Red, Green, Blue, White ఉన్నాయి, Effects పెట్టె ఇప్పుడు Radar: తెలుపు నేపథ్యాలపై నల్లని కిరణం (విస్తరించిన తెరపై కూడా) మరియు File formatలో MP4 రికార్డింగ్.",
+        "**Drawing, Connection:** మిల్లీమీటర్లు లేదా సెంటీమీటర్లలో Custom పరిమాణంతో ముద్రణ షీట్లు (A4, A3, 1920 x 1080, 4K), తెరలను Ctrl+C / Ctrl+V చేస్తే వాటి Deviceలు కూడా సరైన పోర్ట్‌ల సంఖ్యతో కాపీ అవుతాయి.",
+        "**వేగం, భద్రత:** Drawing సుమారు 3 రెట్లు వేగంగా ఉంది, భారీ ప్రాజెక్ట్‌లు Connectionలో 4 నుంచి 5 రెట్లు వేగంగా స్పందిస్తాయి. మెమరీ తక్కువైనప్పుడు చాలా పెద్ద ప్రాజెక్ట్‌లు ఇక కంప్యూటర్‌ను స్తంభింపజేయవు, సపోర్ట్‌కు సహాయపడేందుకు క్రాష్ నివేదిక సేవ్ అవుతుంది."
+      ],
+      "mr": [
+        "**Redundancy:** Wiring चौकटीत नवे बटण. केबल असलेल्या प्रत्येक पोर्टला एक बॅकअप पोर्ट मिळतो (Device च्या वरच्या ओळीत Primary, खालच्या ओळीत Backup), Connection, Pixel Mapping, Drawing आणि 3D मध्ये.",
+        "**Grid:** Lines चौकटीत Red, Green, Blue आणि White आहेत, आणि Effects चौकट आता Radar आहे: पांढऱ्या पार्श्वभूमीवर काळा किरण (विस्तारित स्क्रीनवरही) आणि File format मध्ये MP4 रेकॉर्डिंग.",
+        "**Drawing आणि Connection:** मिलिमीटर किंवा सेंटिमीटरमध्ये Custom आकारासह छपाई पत्रके (A4, A3, 1920 x 1080, 4K), आणि स्क्रीनचे Ctrl+C / Ctrl+V केल्यावर त्यांचे Device देखील अचूक पोर्ट संख्येसह कॉपी होतात.",
+        "**वेग आणि सुरक्षितता:** Drawing सुमारे 3 पट वेगवान आहे आणि प्रचंड प्रकल्प Connection मध्ये 4 ते 5 पट वेगाने प्रतिसाद देतात. मेमरी कमी पडल्यावर खूप मोठे प्रकल्प आता संगणक गोठवत नाहीत, आणि सहाय्यासाठी क्रॅश अहवाल जतन केला जातो."
+      ],
+      "da": [
+        "**Redundancy:** ny knap i Wiring-feltet. Hver port med kabel får en reserveport (Primary i den øverste række på Device, Backup i rækken nedenunder) i Connection, Pixel Mapping, Drawing og 3D.",
+        "**Grid:** Lines-feltet har Red, Green, Blue og White, og Effects-feltet hedder nu Radar, med sort stråle på hvide baggrunde (også på den udvidede skærm) og MP4-optagelse i File format.",
+        "**Drawing og Connection:** udskriftsark (A4, A3, 1920 x 1080, 4K) med Custom-størrelse i millimeter eller centimeter, og Ctrl+C / Ctrl+V af skærme kopierer også deres Devices med det præcise antal porte.",
+        "**Hastighed og sikkerhed:** Drawing er cirka 3 gange hurtigere, og kæmpeprojekter reagerer 4 til 5 gange hurtigere i Connection. Meget store projekter låser ikke længere computeren, når hukommelsen slipper op, og der gemmes en nedbrudsrapport, der hjælper supporten."
+      ],
+      "nb": [
+        "**Redundancy:** ny knapp i Wiring-boksen. Hver port med kabel får en reserveport (Primary i øverste rad på Device, Backup i raden under) i Connection, Pixel Mapping, Drawing og 3D.",
+        "**Grid:** Lines-boksen har Red, Green, Blue og White, og Effects-boksen heter nå Radar, med svart stråle på hvite bakgrunner (også på den utvidede skjermen) og MP4-opptak i File format.",
+        "**Drawing og Connection:** utskriftsark (A4, A3, 1920 x 1080, 4K) med Custom-størrelse i millimeter eller centimeter, og Ctrl+C / Ctrl+V av skjermer kopierer også deres Devices med nøyaktig antall porter.",
+        "**Hastighet og sikkerhet:** Drawing er omtrent 3 ganger raskere, og kjempeprosjekter reagerer 4 til 5 ganger raskere i Connection. Svært store prosjekter fryser ikke lenger datamaskinen når minnet tar slutt, og en krasjrapport lagres for å hjelpe kundestøtten."
+      ],
+      "lt": [
+        "**Redundancy:** naujas mygtukas langelyje Wiring. Kiekvienas prievadas su kabeliu gauna atsarginį prievadą (Primary viršutinėje Device eilėje, Backup eilėje po ja) – Connection, Pixel Mapping, Drawing ir 3D.",
+        "**Grid:** langelyje Lines yra Red, Green, Blue ir White, o langelis Effects dabar yra Radar: juodas spindulys ant balto fono (ir išplėstiniame ekrane) bei MP4 įrašymas File format.",
+        "**Drawing ir Connection:** spausdinimo lapai (A4, A3, 1920 x 1080, 4K) su Custom dydžiu milimetrais arba centimetrais, o ekranų Ctrl+C / Ctrl+V nukopijuoja ir jų Devices su tiksliu prievadų skaičiumi.",
+        "**Greitis ir saugumas:** Drawing yra maždaug 3 kartus greitesnis, o milžiniški projektai Connection reaguoja 4–5 kartus greičiau. Labai dideli projektai nebeužšaldo kompiuterio, kai trūksta atminties, ir išsaugoma strigties ataskaita, padedanti palaikymui."
+      ],
+      "et": [
+        "**Redundancy:** uus nupp Wiring-kastis. Iga kaabliga port saab varupordi (Primary Device’i ülemises reas, Backup selle all olevas reas) – Connectionis, Pixel Mappingus, Drawingus ja 3D-s.",
+        "**Grid:** Lines-kastis on Red, Green, Blue ja White ning Effects-kast on nüüd Radar: must kiir valgel taustal (ka laiendatud ekraanil) ja MP4-salvestus File formatis.",
+        "**Drawing ja Connection:** prindilehed (A4, A3, 1920 x 1080, 4K) Custom-suurusega millimeetrites või sentimeetrites ning ekraanide Ctrl+C / Ctrl+V kopeerib ka nende Device’id täpse pordiarvuga.",
+        "**Kiirus ja ohutus:** Drawing on umbes 3 korda kiirem ning hiiglaslikud projektid reageerivad Connectionis 4–5 korda kiiremini. Väga suured projektid ei hangu enam arvutit, kui mälu jääb väheks, ja kokkujooksmise aruanne salvestatakse toe abistamiseks."
+      ],
+      "sk": [
+        "**Redundancy:** nové tlačidlo v poli Wiring. Každý port s káblom dostane záložný port (Primary v hornom rade Device, Backup v rade pod ním) v Connection, Pixel Mapping, Drawing a 3D.",
+        "**Grid:** pole Lines má Red, Green, Blue a White a pole Effects je teraz Radar: čierny lúč na bielom pozadí (aj na rozšírenej obrazovke) a nahrávanie MP4 vo File format.",
+        "**Drawing a Connection:** tlačové hárky (A4, A3, 1920 x 1080, 4K) s veľkosťou Custom v milimetroch alebo centimetroch a Ctrl+C / Ctrl+V obrazoviek skopíruje aj ich Devices s presným počtom portov.",
+        "**Rýchlosť a bezpečnosť:** Drawing je asi 3-krát rýchlejší a obrovské projekty reagujú v Connection 4- až 5-krát rýchlejšie. Veľmi veľké projekty už pri nedostatku pamäte nezamrazia počítač a ukladá sa správa o páde, ktorá pomáha podpore."
+      ],
+      "bg": [
+        "**Redundancy:** нов бутон в полето Wiring. Всеки порт с кабел получава резервен порт (Primary на горния ред на Device, Backup на реда под него) — в Connection, Pixel Mapping, Drawing и 3D.",
+        "**Grid:** полето Lines има Red, Green, Blue и White, а полето Effects вече е Radar: черен лъч на бял фон (и на разширения екран) и запис в MP4 във File format.",
+        "**Drawing и Connection:** листове за печат (A4, A3, 1920 x 1080, 4K) с размер Custom в милиметри или сантиметри, а Ctrl+C / Ctrl+V на екрани копира и техните Devices с точния брой портове.",
+        "**Скорост и сигурност:** Drawing е около 3 пъти по-бърз, а гигантските проекти реагират в Connection 4 до 5 пъти по-бързо. Много големите проекти вече не блокират компютъра при недостиг на памет, а при срив се записва отчет, който помага на поддръжката."
+      ],
+      "sr": [
+        "**Redundancy:** ново дугме у пољу Wiring. Сваки порт са каблом добија резервни порт (Primary у горњем реду Device-а, Backup у реду испод) — у Connection-у, Pixel Mapping-у, Drawing-у и 3D-у.",
+        "**Grid:** поље Lines има Red, Green, Blue и White, а поље Effects је сада Radar: црни сноп на белој позадини (и на проширеном екрану) и снимање у MP4 у File format-у.",
+        "**Drawing и Connection:** листови за штампу (A4, A3, 1920 x 1080, 4K) са величином Custom у милиметрима или центиметрима, а Ctrl+C / Ctrl+V екрана копира и њихове Device-е са тачним бројем портова.",
+        "**Брзина и безбедност:** Drawing је око 3 пута бржи, а огромни пројекти у Connection-у реагују 4 до 5 пута брже. Веома велики пројекти више не замрзавају рачунар када понестане меморије, а чува се извештај о паду који помаже подршци."
+      ],
+      "hr": [
+        "**Redundancy:** novi gumb u okviru Wiring. Svaki priključak s kabelom dobiva pričuvni priključak (Primary u gornjem redu Devicea, Backup u redu ispod), u Connectionu, Pixel Mappingu, Drawingu i 3D-u.",
+        "**Grid:** okvir Lines ima Red, Green, Blue i White, a okvir Effects sada je Radar: crni snop na bijeloj pozadini (i na proširenom zaslonu) i snimanje MP4 u File formatu.",
+        "**Drawing i Connection:** listovi za ispis (A4, A3, 1920 x 1080, 4K) s veličinom Custom u milimetrima ili centimetrima, a Ctrl+C / Ctrl+V zaslona kopira i njihove Deviceove s točnim brojem priključaka.",
+        "**Brzina i sigurnost:** Drawing je oko 3 puta brži, a golemi projekti u Connectionu reagiraju 4 do 5 puta brže. Vrlo veliki projekti više ne zamrzavaju računalo kad ponestane memorije, a sprema se izvješće o rušenju koje pomaže podršci."
+      ],
+      "gu": [
+        "**Redundancy:** Wiring બૉક્સમાં નવું બટન. કેબલવાળા દરેક પોર્ટને એક બૅકઅપ પોર્ટ મળે છે (Device ની ઉપરની હરોળમાં Primary, નીચેની હરોળમાં Backup), Connection, Pixel Mapping, Drawing અને 3D માં.",
+        "**Grid:** Lines બૉક્સમાં Red, Green, Blue અને White છે, અને Effects બૉક્સ હવે Radar છે: સફેદ પૃષ્ઠભૂમિ પર કાળું કિરણ (વિસ્તૃત સ્ક્રીન પર પણ) અને File format માં MP4 રેકોર્ડિંગ.",
+        "**Drawing અને Connection:** મિલીમીટર અથવા સેન્ટીમીટરમાં Custom કદ સાથેની પ્રિન્ટ શીટ્સ (A4, A3, 1920 x 1080, 4K), અને સ્ક્રીનને Ctrl+C / Ctrl+V કરવાથી તેના Device પણ ચોક્કસ પોર્ટ સંખ્યા સાથે કૉપિ થાય છે.",
+        "**ઝડપ અને સલામતી:** Drawing લગભગ 3 ગણું ઝડપી છે અને વિશાળ પ્રોજેક્ટ Connection માં 4 થી 5 ગણા ઝડપથી પ્રતિભાવ આપે છે. મેમરી ઓછી હોય ત્યારે બહુ મોટા પ્રોજેક્ટ હવે કમ્પ્યુટરને થીજવતા નથી, અને સપોર્ટને મદદ માટે ક્રેશ રિપોર્ટ સાચવવામાં આવે છે."
+      ],
+      "pa": [
+        "**Redundancy:** Wiring ਡੱਬੇ ਵਿੱਚ ਨਵਾਂ ਬਟਨ। ਕੇਬਲ ਵਾਲੇ ਹਰ ਪੋਰਟ ਨੂੰ ਇੱਕ ਬੈਕਅੱਪ ਪੋਰਟ ਮਿਲਦਾ ਹੈ (Device ਦੀ ਉੱਪਰਲੀ ਕਤਾਰ ਵਿੱਚ Primary, ਹੇਠਲੀ ਕਤਾਰ ਵਿੱਚ Backup), Connection, Pixel Mapping, Drawing ਅਤੇ 3D ਵਿੱਚ।",
+        "**Grid:** Lines ਡੱਬੇ ਵਿੱਚ Red, Green, Blue ਅਤੇ White ਹਨ, ਅਤੇ Effects ਡੱਬਾ ਹੁਣ Radar ਹੈ: ਚਿੱਟੇ ਪਿਛੋਕੜ ’ਤੇ ਕਾਲੀ ਕਿਰਨ (ਵਿਸਤ੍ਰਿਤ ਸਕ੍ਰੀਨ ’ਤੇ ਵੀ) ਅਤੇ File format ਵਿੱਚ MP4 ਰਿਕਾਰਡਿੰਗ।",
+        "**Drawing ਅਤੇ Connection:** ਮਿਲੀਮੀਟਰ ਜਾਂ ਸੈਂਟੀਮੀਟਰ ਵਿੱਚ Custom ਆਕਾਰ ਵਾਲੀਆਂ ਪ੍ਰਿੰਟ ਸ਼ੀਟਾਂ (A4, A3, 1920 x 1080, 4K), ਅਤੇ ਸਕ੍ਰੀਨਾਂ ਨੂੰ Ctrl+C / Ctrl+V ਕਰਨ ’ਤੇ ਉਨ੍ਹਾਂ ਦੇ Device ਵੀ ਸਹੀ ਪੋਰਟ ਗਿਣਤੀ ਨਾਲ ਕਾਪੀ ਹੁੰਦੇ ਹਨ।",
+        "**ਰਫ਼ਤਾਰ ਅਤੇ ਸੁਰੱਖਿਆ:** Drawing ਲਗਭਗ 3 ਗੁਣਾ ਤੇਜ਼ ਹੈ ਅਤੇ ਵਿਸ਼ਾਲ ਪ੍ਰੋਜੈਕਟ Connection ਵਿੱਚ 4 ਤੋਂ 5 ਗੁਣਾ ਤੇਜ਼ ਜਵਾਬ ਦਿੰਦੇ ਹਨ। ਮੈਮਰੀ ਘੱਟ ਹੋਣ ’ਤੇ ਬਹੁਤ ਵੱਡੇ ਪ੍ਰੋਜੈਕਟ ਹੁਣ ਕੰਪਿਊਟਰ ਨੂੰ ਜਾਮ ਨਹੀਂ ਕਰਦੇ, ਅਤੇ ਸਹਾਇਤਾ ਲਈ ਕ੍ਰੈਸ਼ ਰਿਪੋਰਟ ਸੰਭਾਲੀ ਜਾਂਦੀ ਹੈ।"
+      ],
+      "kn": [
+        "**Redundancy:** Wiring ಪೆಟ್ಟಿಗೆಯಲ್ಲಿ ಹೊಸ ಬಟನ್. ಕೇಬಲ್ ಇರುವ ಪ್ರತಿ ಪೋರ್ಟ್‌ಗೆ ಒಂದು ಬ್ಯಾಕಪ್ ಪೋರ್ಟ್ ಸಿಗುತ್ತದೆ (Device ನ ಮೇಲಿನ ಸಾಲಿನಲ್ಲಿ Primary, ಕೆಳಗಿನ ಸಾಲಿನಲ್ಲಿ Backup), Connection, Pixel Mapping, Drawing ಮತ್ತು 3D ಯಲ್ಲಿ.",
+        "**Grid:** Lines ಪೆಟ್ಟಿಗೆಯಲ್ಲಿ Red, Green, Blue ಮತ್ತು White ಇವೆ, ಮತ್ತು Effects ಪೆಟ್ಟಿಗೆ ಈಗ Radar: ಬಿಳಿ ಹಿನ್ನೆಲೆಯಲ್ಲಿ ಕಪ್ಪು ಕಿರಣ (ವಿಸ್ತೃತ ಪರದೆಯಲ್ಲೂ) ಮತ್ತು File format ನಲ್ಲಿ MP4 ರೆಕಾರ್ಡಿಂಗ್.",
+        "**Drawing ಮತ್ತು Connection:** ಮಿಲಿಮೀಟರ್ ಅಥವಾ ಸೆಂಟಿಮೀಟರ್‌ನಲ್ಲಿ Custom ಗಾತ್ರದ ಮುದ್ರಣ ಹಾಳೆಗಳು (A4, A3, 1920 x 1080, 4K), ಮತ್ತು ಪರದೆಗಳನ್ನು Ctrl+C / Ctrl+V ಮಾಡಿದರೆ ಅವುಗಳ Device ಗಳೂ ನಿಖರ ಪೋರ್ಟ್ ಸಂಖ್ಯೆಯೊಂದಿಗೆ ನಕಲಾಗುತ್ತವೆ.",
+        "**ವೇಗ ಮತ್ತು ಸುರಕ್ಷತೆ:** Drawing ಸುಮಾರು 3 ಪಟ್ಟು ವೇಗವಾಗಿದೆ ಮತ್ತು ಬೃಹತ್ ಯೋಜನೆಗಳು Connection ನಲ್ಲಿ 4 ರಿಂದ 5 ಪಟ್ಟು ವೇಗವಾಗಿ ಸ್ಪಂದಿಸುತ್ತವೆ. ಮೆಮೊರಿ ಕಡಿಮೆಯಾದಾಗ ತುಂಬಾ ದೊಡ್ಡ ಯೋಜನೆಗಳು ಇನ್ನು ಕಂಪ್ಯೂಟರ್ ಅನ್ನು ಸ್ಥಗಿತಗೊಳಿಸುವುದಿಲ್ಲ, ಮತ್ತು ಬೆಂಬಲಕ್ಕೆ ನೆರವಾಗಲು ಕ್ರ್ಯಾಶ್ ವರದಿ ಉಳಿಸಲಾಗುತ್ತದೆ."
+      ],
+      "ne": [
+        "**Redundancy:** Wiring बाकसमा नयाँ बटन। केबल भएको हरेक पोर्टले एउटा ब्याकअप पोर्ट पाउँछ (Device को माथिल्लो पङ्क्तिमा Primary, तल्लो पङ्क्तिमा Backup), Connection, Pixel Mapping, Drawing र 3D मा।",
+        "**Grid:** Lines बाकसमा Red, Green, Blue र White छन्, र Effects बाकस अब Radar हो: सेतो पृष्ठभूमिमा कालो किरण (विस्तारित स्क्रिनमा पनि) र File format मा MP4 रेकर्डिङ।",
+        "**Drawing र Connection:** मिलिमिटर वा सेन्टिमिटरमा Custom आकारसहित प्रिन्ट पानाहरू (A4, A3, 1920 x 1080, 4K), र स्क्रिनहरू Ctrl+C / Ctrl+V गर्दा तिनका Device पनि सही पोर्ट सङ्ख्यासहित प्रतिलिपि हुन्छन्।",
+        "**गति र सुरक्षा:** Drawing लगभग 3 गुणा छिटो छ र विशाल परियोजनाहरूले Connection मा 4 देखि 5 गुणा छिटो प्रतिक्रिया दिन्छन्। मेमोरी कम हुँदा धेरै ठूला परियोजनाले अब कम्प्युटर जाम गर्दैनन्, र सहयोगका लागि क्र्यास रिपोर्ट सुरक्षित गरिन्छ।"
+      ],
+      "km": [
+        "**Redundancy:** ប៊ូតុងថ្មីក្នុងប្រអប់ Wiring។ ច្រកនីមួយៗដែលមានខ្សែកាបទទួលបានច្រកបម្រុងមួយ (Primary នៅជួរខាងលើនៃ Device និង Backup នៅជួរខាងក្រោម) នៅក្នុង Connection, Pixel Mapping, Drawing និង 3D។",
+        "**Grid:** ប្រអប់ Lines មាន Red, Green, Blue និង White ហើយប្រអប់ Effects ឥឡូវជា Radar៖ កាំរស្មីខ្មៅលើផ្ទៃខាងក្រោយពណ៌ស (ក៏នៅលើអេក្រង់ពង្រីកដែរ) និងការថត MP4 ក្នុង File format។",
+        "**Drawing និង Connection:** សន្លឹកបោះពុម្ព (A4, A3, 1920 x 1080, 4K) ដែលមានទំហំ Custom ជាមិល្លីម៉ែត្រ ឬសង់ទីម៉ែត្រ ហើយការ Ctrl+C / Ctrl+V អេក្រង់ចម្លង Device របស់វាផងដែរ ជាមួយចំនួនច្រកត្រឹមត្រូវ។",
+        "**ល្បឿន និងសុវត្ថិភាព:** Drawing លឿនជាងប្រហែល 3 ដង ហើយគម្រោងធំៗឆ្លើយតបក្នុង Connection លឿនជាង 4 ទៅ 5 ដង។ គម្រោងធំខ្លាំងលែងធ្វើឱ្យកុំព្យូទ័រគាំងពេលអង្គចងចាំខ្វះ ហើយរបាយការណ៍គាំងត្រូវបានរក្សាទុកដើម្បីជួយផ្នែកជំនួយ។"
+      ],
+      "kk": [
+        "**Redundancy:** Wiring өрісінде жаңа батырма. Кабелі бар әр порт резервтік порт алады (Device-тің жоғарғы қатарында Primary, астыңғы қатарында Backup) — Connection, Pixel Mapping, Drawing және 3D ішінде.",
+        "**Grid:** Lines өрісінде Red, Green, Blue және White бар, ал Effects өрісі енді Radar: ақ фонда қара сәуле (кеңейтілген экранда да) және File format ішінде MP4 жазу.",
+        "**Drawing және Connection:** миллиметр немесе сантиметрмен берілетін Custom өлшемді басып шығару парақтары (A4, A3, 1920 x 1080, 4K), ал экрандарды Ctrl+C / Ctrl+V арқылы көшіру олардың Device-терін де дәл порт санымен көшіреді.",
+        "**Жылдамдық және қауіпсіздік:** Drawing шамамен 3 есе жылдам, ал алып жобалар Connection ішінде 4–5 есе жылдам жауап береді. Жад жетпегенде өте үлкен жобалар енді компьютерді қатырмайды, ал қолдауға көмектесу үшін ақау туралы есеп сақталады."
+      ],
+      "uz": [
+        "**Redundancy:** Wiring oynasida yangi tugma. Kabelli har bir port zaxira port oladi (Device’ning yuqori qatorida Primary, pastki qatorida Backup) — Connection, Pixel Mapping, Drawing va 3D’da.",
+        "**Grid:** Lines oynasida Red, Green, Blue va White bor, Effects oynasi esa endi Radar: oq fonda qora nur (kengaytirilgan ekranda ham) va File format’da MP4 yozib olish.",
+        "**Drawing va Connection:** millimetr yoki santimetrda Custom o‘lchamli chop etish varaqlari (A4, A3, 1920 x 1080, 4K), ekranlarni Ctrl+C / Ctrl+V qilish esa ularning Device’larini ham aniq portlar soni bilan nusxalaydi.",
+        "**Tezlik va xavfsizlik:** Drawing taxminan 3 baravar tezroq, ulkan loyihalar esa Connection’da 4–5 baravar tezroq javob beradi. Xotira kamayganda juda katta loyihalar endi kompyuterni qotirmaydi va yordam xizmatiga ko‘maklashish uchun nosozlik hisoboti saqlanadi."
+      ],
+      "am": [
+        "**Redundancy:** በWiring ሳጥን ውስጥ አዲስ አዝራር። ገመድ ያለው እያንዳንዱ ወደብ የመጠባበቂያ ወደብ ያገኛል (Primary በDevice የላይኛው ረድፍ፣ Backup ከሱ በታች ባለው ረድፍ)፣ በConnection፣ በPixel Mapping፣ በDrawing እና በ3D።",
+        "**Grid:** የLines ሳጥን Red፣ Green፣ Blue እና White አለው፣ የEffects ሳጥንም አሁን Radar ሆኗል፤ በነጭ ዳራ ላይ ጥቁር ጨረር (በተዘረጋው ማያ ላይም) እና በFile format ውስጥ የMP4 ቀረጻ።",
+        "**Drawing እና Connection:** በሚሊሜትር ወይም በሴንቲሜትር የCustom መጠን ያላቸው የሕትመት ወረቀቶች (A4፣ A3፣ 1920 x 1080፣ 4K)፣ ማያዎችን በCtrl+C / Ctrl+V መቅዳትም የDevice ዎቻቸውን በትክክለኛ የወደብ ብዛት ይቀዳል።",
+        "**ፍጥነት እና ደህንነት:** Drawing በግምት 3 እጥፍ ፈጣን ነው፣ ግዙፍ ፕሮጀክቶችም በConnection ውስጥ ከ4 እስከ 5 እጥፍ በፍጥነት ምላሽ ይሰጣሉ። ማህደረ ትውስታ ሲያንስ በጣም ትላልቅ ፕሮጀክቶች ከእንግዲህ ኮምፒውተሩን አያቀዘቅዙም፣ ድጋፍን ለመርዳትም የብልሽት ሪፖርት ይቀመጣል።"
+      ],
+      "sl": [
+        "**Redundancy:** nov gumb v polju Wiring. Vsaka vrata s kablom dobijo rezervna vrata (Primary v zgornji vrsti Device, Backup v vrsti pod njo), v Connection, Pixel Mapping, Drawing in 3D.",
+        "**Grid:** polje Lines ima Red, Green, Blue in White, polje Effects pa je zdaj Radar: črn žarek na belem ozadju (tudi na razširjenem zaslonu) in snemanje MP4 v File format.",
+        "**Drawing in Connection:** listi za tiskanje (A4, A3, 1920 x 1080, 4K) z velikostjo Custom v milimetrih ali centimetrih, Ctrl+C / Ctrl+V zaslonov pa kopira tudi njihove Devices s točnim številom vrat.",
+        "**Hitrost in varnost:** Drawing je približno 3-krat hitrejši, ogromni projekti pa se v Connection odzivajo 4- do 5-krat hitreje. Zelo veliki projekti ne zamrznejo več računalnika, ko zmanjka pomnilnika, shrani pa se poročilo o sesutju, ki pomaga podpori."
+      ],
+      "kab": [
+        "**Redundancy:** taqeffalt tamaynut deg tenkult Wiring. Yal tawwurt s cable ad tawi tawwurt n uḥraz (Primary deg yizirig n ufella n Device, Backup deg yizirig n wadda), deg Connection, Pixel Mapping, Drawing d 3D.",
+        "**Grid:** tanaka Lines tesɛa Red, Green, Blue d White, yerna tanaka Effects tuɣal d Radar: afeggag n tafat aberkan ɣef ugilal amellal (ula deg ugdil yettwasnernin) d usekles MP4 deg File format.",
+        "**Drawing d Connection:** tiferkiwin n usiggez (A4, A3, 1920 x 1080, 4K) s tiddi Custom s milimitr neɣ s santimitr, yerna Ctrl+C / Ctrl+V n igdilen ad yessenɣel ula d Device-nsen s umḍan ameɣtu n tewwura.",
+        "**Tazzla d tɣellist:** Drawing yettazzal azal n 3 n tikkal ugar, yerna isenfaren imeqqranen ttarran-d deg Connection 4 ar 5 n tikkal s tazzla ugar. Isenfaren imeqqranen aṭas ur ssegrasen ara akk aselkim mi ara tneqqes tkatut, yerna aneqqis n uɣelluy yettwasekles i wakken ad yeɛiwen tallalt."
+      ]
+    },
     "2.9.95": {
       "en": [
         "**Speed:** the Connection opens about 34% faster and the Drawing about 43% faster, and the Drawing animation is smoother.",
@@ -666,308 +1028,6 @@
         "**Drawing:** yettwaseggem usekker n wahil mi ara yeldi Drawing deffir n tansa tamezwarut. Tawwurt yesεan yakan cable tetteffren tura cable-nni (Delete yekkes-it).",
         "**Connection d Drawing mtawan:** yal iccer yesskanay wayeḍ deg PiP srid (sit akken ad tbeddleḍ). Clear, Clear all d Clear all devices amaynut gezmen ula d Drawing, yerna asiti s ufus ayeffus ɣef Device yefka-d Delete.",
         "**Grid d usuddes:** Radar yetteddu s 30 FPS yerkden s uskan n FPS srid, Delete yekkes alugu yettwafernen, iccaren ur ttembiwilen ara, ur d-sskanayen ara afeggag n usenkez mi ara ldin."
-      ]
-    },
-    "2.9.8": {
-      "en": [
-        "**Grid:** new Effects box with a slow Radar sweep, solid colors (red, green, blue, white) in Pattern, and the arrow keys move the selected logo. The toolbar is cleaner and stays still.",
-        "**Logo:** works the same in Pixel Mapping, Drawing and Grid: arrow keys (Ctrl = faster), magnet to the boxes and a rotate handle.",
-        "**Layout:** the left column has the same size in every tab and no longer jumps when you change tabs."
-      ],
-      "pt": [
-        "**Grid:** nova caixa Effects com um Radar lento, cores sólidas (vermelho, verde, azul, branco) na Pattern, e as setas movem o logo escolhido. A barra de ferramentas ficou mais limpa e parada.",
-        "**Logo:** funciona igual no Pixel Mapping, no Drawing e no Grid: setas (Ctrl = mais rápido), ímã nas caixas e alça para girar.",
-        "**Tela:** a coluna da esquerda tem o mesmo tamanho em todas as abas e não pula mais ao trocar de aba."
-      ],
-      "es": [
-        "**Grid:** nueva caja Effects con un Radar lento, colores sólidos (rojo, verde, azul, blanco) en Pattern, y las flechas mueven el logo elegido. La barra de herramientas es más limpia y queda fija.",
-        "**Logo:** funciona igual en Pixel Mapping, Drawing y Grid: flechas (Ctrl = más rápido), imán a las cajas y asa para girar.",
-        "**Diseño:** la columna izquierda tiene el mismo tamaño en todas las pestañas y ya no salta al cambiar de pestaña."
-      ],
-      "fr": [
-        "**Grid :** nouvelle boîte Effects avec un Radar lent, couleurs unies (rouge, vert, bleu, blanc) dans Pattern, et les flèches déplacent le logo choisi. La barre d’outils est plus nette et reste fixe.",
-        "**Logo :** fonctionne pareil dans Pixel Mapping, Drawing et Grid : flèches (Ctrl = plus vite), aimant sur les boîtes et poignée de rotation.",
-        "**Disposition :** la colonne de gauche a la même taille dans tous les onglets et ne saute plus au changement d’onglet."
-      ],
-      "de": [
-        "**Grid:** neue Effects-Box mit langsamem Radar, Volltonfarben (Rot, Grün, Blau, Weiß) in Pattern, und die Pfeiltasten bewegen das gewählte Logo. Die Werkzeugleiste ist aufgeräumter und bleibt ruhig.",
-        "**Logo:** funktioniert gleich in Pixel Mapping, Drawing und Grid: Pfeiltasten (Ctrl = schneller), Magnet an den Boxen und Drehgriff.",
-        "**Layout:** die linke Spalte ist in allen Tabs gleich groß und springt beim Tabwechsel nicht mehr."
-      ],
-      "it": [
-        "**Grid:** nuovo riquadro Effects con un Radar lento, colori pieni (rosso, verde, blu, bianco) in Pattern, e le frecce spostano il logo scelto. La barra degli strumenti è più pulita e resta ferma.",
-        "**Logo:** funziona allo stesso modo in Pixel Mapping, Drawing e Grid: frecce (Ctrl = più veloce), calamita sui riquadri e maniglia di rotazione.",
-        "**Layout:** la colonna di sinistra ha la stessa misura in tutte le schede e non salta più al cambio di scheda."
-      ],
-      "nl": [
-        "**Grid:** nieuw Effects-vak met een trage Radar, effen kleuren (rood, groen, blauw, wit) in Pattern, en de pijltjestoetsen verplaatsen het gekozen logo. De werkbalk is rustiger en blijft stil staan.",
-        "**Logo:** werkt hetzelfde in Pixel Mapping, Drawing en Grid: pijltjes (Ctrl = sneller), magneet aan de vakken en een draaigreep.",
-        "**Indeling:** de linkerkolom is in alle tabbladen even groot en springt niet meer bij het wisselen van tabblad."
-      ],
-      "ru": [
-        "**Grid:** новый блок Effects с медленным Радаром, сплошные цвета (красный, зелёный, синий, белый) в Pattern, а стрелки двигают выбранный логотип. Панель инструментов стала чище и больше не сдвигается.",
-        "**Логотип:** работает одинаково в Pixel Mapping, Drawing и Grid: стрелки (Ctrl = быстрее), магнит к блокам и маркер поворота.",
-        "**Интерфейс:** левая колонка одного размера во всех вкладках и больше не прыгает при смене вкладки."
-      ],
-      "tr": [
-        "**Grid:** yavaş bir Radar içeren yeni Effects kutusu, Pattern'de düz renkler (kırmızı, yeşil, mavi, beyaz) ve oklar seçili logoyu taşır. Araç çubuğu daha sade ve sabit.",
-        "**Logo:** Pixel Mapping, Drawing ve Grid'de aynı çalışır: oklar (Ctrl = daha hızlı), kutulara mıknatıs ve döndürme tutamacı.",
-        "**Düzen:** sol sütun tüm sekmelerde aynı boyutta ve sekme değiştirirken artık zıplamıyor."
-      ],
-      "id": [
-        "**Grid:** kotak Effects baru dengan Radar yang pelan, warna solid (merah, hijau, biru, putih) di Pattern, dan tombol panah menggeser logo yang dipilih. Toolbar lebih rapi dan tetap diam.",
-        "**Logo:** bekerja sama di Pixel Mapping, Drawing dan Grid: tombol panah (Ctrl = lebih cepat), magnet ke kotak dan pegangan putar.",
-        "**Tata letak:** kolom kiri berukuran sama di semua tab dan tidak lagi melompat saat berganti tab."
-      ],
-      "hu": [
-        "**Grid:** új Effects doboz lassú Radarral, egyszínű színek (piros, zöld, kék, fehér) a Patternben, és a nyilak a kiválasztott logót mozgatják. Az eszköztár letisztultabb és nem mozdul.",
-        "**Logó:** ugyanúgy működik a Pixel Mappingben, a Drawingban és a Gridben: nyilak (Ctrl = gyorsabban), mágnes a dobozokhoz és forgató fogantyú.",
-        "**Elrendezés:** a bal oldali oszlop minden fülön azonos méretű, és fülváltáskor már nem ugrik."
-      ],
-      "zh-Hans": [
-        "**Grid：** 新的 Effects 框带有缓慢的雷达扫描，Pattern 中新增纯色（红、绿、蓝、白），方向键可移动选中的 logo。工具栏更简洁且保持固定。",
-        "**Logo：** 在 Pixel Mapping、Drawing 和 Grid 中用法相同：方向键（Ctrl = 更快）、吸附到方框以及旋转手柄。",
-        "**布局：** 左侧栏在所有标签页中大小相同，切换标签页时不再跳动。"
-      ],
-      "zh-Hant": [
-        "**Grid：** 新的 Effects 方塊帶有緩慢的雷達掃描，Pattern 中新增純色（紅、綠、藍、白），方向鍵可移動選取的 logo。工具列更簡潔且保持固定。",
-        "**Logo：** 在 Pixel Mapping、Drawing 和 Grid 中用法相同：方向鍵（Ctrl = 更快）、吸附到方塊以及旋轉控點。",
-        "**版面：** 左側欄在所有分頁中大小相同，切換分頁時不再跳動。"
-      ],
-      "ja": [
-        "**Grid：** ゆっくりしたレーダーの新しい Effects ボックス、Pattern に単色（赤・緑・青・白）を追加、矢印キーで選んだロゴを移動できます。ツールバーはすっきりして動かなくなりました。",
-        "**ロゴ：** Pixel Mapping・Drawing・Grid で同じ操作：矢印キー（Ctrl = 速く）、ボックスへの吸着、回転ハンドル。",
-        "**レイアウト：** 左の列はすべてのタブで同じサイズになり、タブを切り替えても動きません。"
-      ],
-      "ko": [
-        "**Grid:** 느린 레이더가 있는 새 Effects 상자, Pattern의 단색(빨강, 초록, 파랑, 흰색), 방향키로 선택한 로고를 이동합니다. 도구 막대가 더 깔끔해지고 움직이지 않습니다.",
-        "**로고:** Pixel Mapping, Drawing, Grid에서 똑같이 동작합니다: 방향키(Ctrl = 더 빠르게), 상자에 자석처럼 붙기, 회전 핸들.",
-        "**레이아웃:** 왼쪽 열은 모든 탭에서 크기가 같고 탭을 바꿀 때 더 이상 움직이지 않습니다."
-      ],
-      "ar": [
-        "**Grid:** مربع Effects جديد مع رادار بطيء، وألوان صلبة (أحمر، أخضر، أزرق، أبيض) في Pattern، ومفاتيح الأسهم تحرك الشعار المختار. شريط الأدوات أبسط ويبقى ثابتًا.",
-        "**الشعار:** يعمل بنفس الطريقة في Pixel Mapping وDrawing وGrid: الأسهم (Ctrl = أسرع)، والالتصاق بالمربعات، ومقبض التدوير.",
-        "**التخطيط:** العمود الأيسر بنفس الحجم في كل التبويبات ولم يعد يقفز عند تغيير التبويب."
-      ],
-      "th": [
-        "**Grid:** กล่อง Effects ใหม่พร้อมเรดาร์ที่หมุนช้า สีทึบ (แดง เขียว น้ำเงิน ขาว) ใน Pattern และปุ่มลูกศรเลื่อนโลโก้ที่เลือก แถบเครื่องมือดูสะอาดขึ้นและอยู่นิ่ง",
-        "**โลโก้:** ใช้งานเหมือนกันใน Pixel Mapping, Drawing และ Grid: ปุ่มลูกศร (Ctrl = เร็วขึ้น) ดูดติดกล่อง และจุดจับหมุน",
-        "**เลย์เอาต์:** คอลัมน์ซ้ายมีขนาดเท่ากันทุกแท็บ และไม่กระโดดเมื่อเปลี่ยนแท็บอีกต่อไป"
-      ],
-      "hi": [
-        "**Grid:** धीमे रडार वाला नया Effects बॉक्स, Pattern में ठोस रंग (लाल, हरा, नीला, सफ़ेद), और तीर कुंजियाँ चुने हुए लोगो को खिसकाती हैं। टूलबार साफ़ है और अपनी जगह रहता है।",
-        "**लोगो:** Pixel Mapping, Drawing और Grid में एक जैसा काम करता है: तीर (Ctrl = तेज़), बॉक्स से चिपकना और घुमाने का हैंडल।",
-        "**लेआउट:** बाईं कॉलम हर टैब में एक ही आकार की है और टैब बदलने पर अब नहीं उछलती।"
-      ],
-      "vi": [
-        "**Grid:** hộp Effects mới với Radar quét chậm, màu đơn sắc (đỏ, xanh lá, xanh dương, trắng) trong Pattern, và phím mũi tên di chuyển logo đang chọn. Thanh công cụ gọn hơn và đứng yên.",
-        "**Logo:** hoạt động giống nhau trong Pixel Mapping, Drawing và Grid: phím mũi tên (Ctrl = nhanh hơn), hút vào các hộp và tay nắm xoay.",
-        "**Bố cục:** cột bên trái có cùng kích thước ở mọi tab và không còn nhảy khi đổi tab."
-      ],
-      "bn": [
-        "**Grid:** ধীর রাডারসহ নতুন Effects বক্স, Pattern-এ একরঙা রং (লাল, সবুজ, নীল, সাদা), আর অ্যারো কী দিয়ে বাছাই করা লোগো সরে। টুলবার আরও পরিষ্কার এবং স্থির থাকে।",
-        "**লোগো:** Pixel Mapping, Drawing ও Grid-এ একইভাবে কাজ করে: অ্যারো কী (Ctrl = দ্রুত), বক্সে চুম্বকের মতো আটকানো এবং ঘোরানোর হ্যান্ডেল।",
-        "**লেআউট:** বাঁ দিকের কলাম সব ট্যাবে একই মাপের এবং ট্যাব বদলালে আর লাফায় না।"
-      ],
-      "ms": [
-        "**Grid:** kotak Effects baharu dengan Radar yang perlahan, warna padu (merah, hijau, biru, putih) dalam Pattern, dan kekunci anak panah menggerakkan logo yang dipilih. Bar alat lebih kemas dan kekal tetap.",
-        "**Logo:** berfungsi sama dalam Pixel Mapping, Drawing dan Grid: anak panah (Ctrl = lebih laju), magnet pada kotak dan pemegang putar.",
-        "**Susun atur:** lajur kiri sama saiz dalam semua tab dan tidak lagi melompat apabila bertukar tab."
-      ],
-      "sv": [
-        "**Grid:** ny Effects-ruta med en långsam Radar, enfärgade färger (röd, grön, blå, vit) i Pattern, och piltangenterna flyttar den valda logotypen. Verktygsfältet är renare och står still.",
-        "**Logotyp:** fungerar likadant i Pixel Mapping, Drawing och Grid: piltangenter (Ctrl = snabbare), magnet mot rutorna och ett rotationshandtag.",
-        "**Layout:** vänsterkolumnen har samma storlek i alla flikar och hoppar inte längre när du byter flik."
-      ],
-      "ur": [
-        "**Grid:** سست ریڈار والا نیا Effects باکس، Pattern میں ٹھوس رنگ (سرخ، سبز، نیلا، سفید)، اور تیر والی کلیدیں منتخب لوگو کو کھسکاتی ہیں۔ ٹول بار صاف ہے اور اپنی جگہ رہتا ہے۔",
-        "**لوگو:** Pixel Mapping، Drawing اور Grid میں ایک جیسا کام کرتا ہے: تیر (Ctrl = تیز)، باکسوں سے چپکنا اور گھمانے کا ہینڈل۔",
-        "**ترتیب:** بائیں کالم ہر ٹیب میں ایک ہی سائز کا ہے اور ٹیب بدلنے پر اب نہیں اچھلتا۔"
-      ],
-      "sw": [
-        "**Grid:** kisanduku kipya cha Effects chenye Rada ya polepole, rangi kamili (nyekundu, kijani, bluu, nyeupe) kwenye Pattern, na vitufe vya mishale husogeza nembo iliyochaguliwa. Upau wa zana ni safi zaidi na hukaa tuli.",
-        "**Nembo:** hufanya kazi sawa kwenye Pixel Mapping, Drawing na Grid: mishale (Ctrl = haraka zaidi), sumaku kwa visanduku na kishikio cha kuzungusha.",
-        "**Mpangilio:** safu ya kushoto ina ukubwa sawa kwenye vichupo vyote na hairuki tena unapobadilisha kichupo."
-      ],
-      "gn": [
-        "**Grid:** caja Effects pyahu oguerekóva Radar mbeguekatúva, sa’y peteĩchagua (pytã, hovyũ, hovy, morotĩ) Pattern-pe, ha flecha omomýi logo ojeporavóva. Barra de herramientas ipotĩve ha opyta peteĩ hendápe.",
-        "**Logo:** omba’apo peteĩchaite Pixel Mapping, Drawing ha Grid-pe: flecha (Ctrl = pya’eve), imán caja-kuérare ha po ojere haĝua.",
-        "**Ñemohenda:** columna asúpe oguereko peteĩ tamaño opaite pestaña-pe ha ndopoivéima eñemoambuévo pestaña."
-      ],
-      "he": [
-        "**Grid:** תיבת Effects חדשה עם מכ״ם איטי, צבעים אחידים (אדום, ירוק, כחול, לבן) ב-Pattern, ומקשי החצים מזיזים את הלוגו שנבחר. סרגל הכלים נקי יותר ונשאר יציב.",
-        "**לוגו:** עובד אותו דבר ב-Pixel Mapping, ב-Drawing וב-Grid: חצים (Ctrl = מהר יותר), הצמדה לתיבות וידית סיבוב.",
-        "**פריסה:** העמודה השמאלית באותו גודל בכל הלשוניות ולא קופצת יותר במעבר בין לשוניות."
-      ],
-      "lv": [
-        "**Grid:** jauns Effects lodziņš ar lēnu Radaru, vienkrāsas krāsas (sarkana, zaļa, zila, balta) Pattern sadaļā, un bultiņas pārvieto izvēlēto logotipu. Rīkjosla ir tīrāka un paliek uz vietas.",
-        "**Logotips:** darbojas vienādi Pixel Mapping, Drawing un Grid: bultiņas (Ctrl = ātrāk), magnēts pie lodziņiem un pagriešanas turis.",
-        "**Izkārtojums:** kreisā kolonna visās cilnēs ir vienāda izmēra un vairs nelēkā, mainot cilni."
-      ],
-      "fa": [
-        "**Grid:** جعبه Effects جدید با یک رادار آهسته، رنگ‌های یکدست (قرمز، سبز، آبی، سفید) در Pattern، و کلیدهای جهت لوگوی انتخاب‌شده را جابه‌جا می‌کنند. نوار ابزار مرتب‌تر است و ثابت می‌ماند.",
-        "**لوگو:** در Pixel Mapping، Drawing و Grid یکسان کار می‌کند: کلیدهای جهت (Ctrl = سریع‌تر)، چسبیدن به جعبه‌ها و دستگیره چرخش.",
-        "**چیدمان:** ستون چپ در همه زبانه‌ها یک اندازه است و هنگام تعویض زبانه دیگر نمی‌پرد."
-      ],
-      "pl": [
-        "**Grid:** nowe pole Effects z wolnym Radarem, jednolite kolory (czerwony, zielony, niebieski, biały) w Pattern, a strzałki przesuwają wybrane logo. Pasek narzędzi jest czytelniejszy i się nie przesuwa.",
-        "**Logo:** działa tak samo w Pixel Mapping, Drawing i Grid: strzałki (Ctrl = szybciej), przyciąganie do pól i uchwyt obrotu.",
-        "**Układ:** lewa kolumna ma ten sam rozmiar na wszystkich kartach i nie skacze już przy zmianie karty."
-      ],
-      "uk": [
-        "**Grid:** новий блок Effects з повільним Радаром, суцільні кольори (червоний, зелений, синій, білий) у Pattern, а стрілки рухають вибраний логотип. Панель інструментів стала охайнішою й не зсувається.",
-        "**Логотип:** працює однаково в Pixel Mapping, Drawing і Grid: стрілки (Ctrl = швидше), магніт до блоків і маркер повороту.",
-        "**Макет:** ліва колонка має однаковий розмір у всіх вкладках і більше не стрибає під час зміни вкладки."
-      ],
-      "ca": [
-        "**Grid:** nova caixa Effects amb un Radar lent, colors sòlids (vermell, verd, blau, blanc) a Pattern, i les fletxes mouen el logo triat. La barra d’eines és més neta i queda fixa.",
-        "**Logo:** funciona igual a Pixel Mapping, Drawing i Grid: fletxes (Ctrl = més ràpid), imant a les caixes i nansa per girar.",
-        "**Disseny:** la columna esquerra té la mateixa mida a totes les pestanyes i ja no salta en canviar de pestanya."
-      ],
-      "cs": [
-        "**Grid:** nové pole Effects s pomalým Radarem, plné barvy (červená, zelená, modrá, bílá) v Pattern a šipky posouvají vybrané logo. Panel nástrojů je přehlednější a nehýbe se.",
-        "**Logo:** funguje stejně v Pixel Mapping, Drawing i Grid: šipky (Ctrl = rychleji), přichycení k polím a úchyt pro otáčení.",
-        "**Rozvržení:** levý sloupec má ve všech kartách stejnou velikost a při přepnutí karty už neposkakuje."
-      ],
-      "fi": [
-        "**Grid:** uusi Effects-ruutu hitaalla Tutkalla, tasavärit (punainen, vihreä, sininen, valkoinen) Patternissa, ja nuolinäppäimet siirtävät valittua logoa. Työkalupalkki on selkeämpi ja pysyy paikallaan.",
-        "**Logo:** toimii samoin Pixel Mappingissa, Drawingissa ja Gridissä: nuolet (Ctrl = nopeammin), magneetti ruutuihin ja kiertokahva.",
-        "**Asettelu:** vasen sarake on kaikilla välilehdillä samankokoinen eikä enää hypi välilehteä vaihdettaessa."
-      ],
-      "el": [
-        "**Grid:** νέο πλαίσιο Effects με αργό Ραντάρ, συμπαγή χρώματα (κόκκινο, πράσινο, μπλε, λευκό) στο Pattern, και τα βέλη μετακινούν το επιλεγμένο λογότυπο. Η γραμμή εργαλείων είναι πιο καθαρή και μένει σταθερή.",
-        "**Λογότυπο:** λειτουργεί το ίδιο σε Pixel Mapping, Drawing και Grid: βέλη (Ctrl = πιο γρήγορα), μαγνήτης στα πλαίσια και λαβή περιστροφής.",
-        "**Διάταξη:** η αριστερή στήλη έχει το ίδιο μέγεθος σε όλες τις καρτέλες και δεν πηδάει πια όταν αλλάζετε καρτέλα."
-      ],
-      "ha": [
-        "**Grid:** sabon akwatin Effects mai Radar a hankali, launuka masu ƙarfi (ja, kore, shuɗi, fari) a Pattern, kuma maɓallan kibiya suna motsa tambarin da aka zaɓa. Sandar kayan aiki ta fi tsabta kuma tana tsayawa a wuri ɗaya.",
-        "**Tambari:** yana aiki iri ɗaya a Pixel Mapping, Drawing da Grid: kibiyoyi (Ctrl = da sauri), maganadisu zuwa akwatuna da maƙallin juyawa.",
-        "**Tsari:** ginshiƙin hagu yana da girma ɗaya a duk shafuka kuma baya tsalle idan aka canza shafi."
-      ],
-      "ro": [
-        "**Grid:** casetă Effects nouă cu un Radar lent, culori pline (roșu, verde, albastru, alb) în Pattern, iar săgețile mută logoul ales. Bara de instrumente e mai curată și stă pe loc.",
-        "**Logo:** funcționează la fel în Pixel Mapping, Drawing și Grid: săgeți (Ctrl = mai repede), magnet la casete și mâner de rotire.",
-        "**Aspect:** coloana din stânga are aceeași mărime în toate filele și nu mai sare la schimbarea filei."
-      ],
-      "yo": [
-        "**Grid:** àpótí Effects tuntun pẹ̀lú Radar tó lọ́ra, àwọn àwọ̀ kíkún (pupa, ewé, búlúù, funfun) nínú Pattern, àwọn bọ́tìnnì ọfà sì ń gbé àmì tí a yàn. Ọ̀pá irinṣẹ́ ti mọ́ sí i, ó sì dúró sójú kan.",
-        "**Àmì:** ń ṣiṣẹ́ bákan náà ní Pixel Mapping, Drawing àti Grid: àwọn ọfà (Ctrl = yára sí i), mágínẹ́ẹ̀tì sí àwọn àpótí àti ìmú yíyí.",
-        "**Ìtò:** òpó òsì ní ìwọ̀n kan náà ní gbogbo táàbù, kò sì fò mọ́ nígbà tí a bá yí táàbù padà."
-      ],
-      "zu": [
-        "**Grid:** ibhokisi elisha le-Effects elinoRadar ehamba kancane, imibala eqinile (obomvu, oluhlaza, oluhlaza okwesibhakabhaka, omhlophe) ku-Pattern, futhi imicibisholo ihambisa ilogo ekhethiwe. Ibha yamathuluzi ihlanzekile futhi ihlala imile.",
-        "**Ilogo:** isebenza ngendlela efanayo ku-Pixel Mapping, Drawing naku-Grid: imicibisholo (Ctrl = ngokushesha), uzibuthe emabhokisini nesibambo sokuzungezisa.",
-        "**Isakhiwo:** ikholomu yesobunxele inosayizi ofanayo kuwo wonke amathebhu futhi ayisagxumi uma ushintsha ithebhu."
-      ],
-      "fil": [
-        "**Grid:** bagong Effects box na may mabagal na Radar, solid na kulay (pula, berde, asul, puti) sa Pattern, at ginagalaw ng arrow keys ang napiling logo. Mas malinis ang toolbar at nananatiling nakapirmi.",
-        "**Logo:** pareho ang gamit sa Pixel Mapping, Drawing at Grid: arrow keys (Ctrl = mas mabilis), magnet sa mga box at hawakan para iikot.",
-        "**Layout:** pareho ang laki ng kaliwang column sa lahat ng tab at hindi na tumatalon kapag nagpalit ng tab."
-      ],
-      "ta": [
-        "**Grid:** மெதுவான ரேடாருடன் புதிய Effects பெட்டி, Pattern-இல் திட நிறங்கள் (சிவப்பு, பச்சை, நீலம், வெள்ளை), அம்புக்குறி விசைகள் தேர்ந்த லோகோவை நகர்த்தும். கருவிப்பட்டி தெளிவாகவும் அசையாமலும் உள்ளது.",
-        "**லோகோ:** Pixel Mapping, Drawing, Grid ஆகியவற்றில் ஒரே மாதிரி வேலை செய்கிறது: அம்புகள் (Ctrl = வேகமாக), பெட்டிகளில் காந்தம், சுழற்றும் கைப்பிடி.",
-        "**அமைப்பு:** இடது நெடுவரிசை எல்லா தாவல்களிலும் ஒரே அளவு; தாவல் மாற்றும்போது இனி குதிக்காது."
-      ],
-      "te": [
-        "**Grid:** నెమ్మదైన రాడార్‌తో కొత్త Effects బాక్స్, Pattern లో ఘన రంగులు (ఎరుపు, ఆకుపచ్చ, నీలం, తెలుపు), బాణం కీలు ఎంచుకున్న లోగోను కదిలిస్తాయి. టూల్‌బార్ మరింత శుభ్రంగా ఉండి కదలదు.",
-        "**లోగో:** Pixel Mapping, Drawing, Grid లో ఒకేలా పనిచేస్తుంది: బాణాలు (Ctrl = వేగంగా), బాక్స్‌లకు అయస్కాంతం, తిప్పే హ్యాండిల్.",
-        "**అమరిక:** ఎడమ కాలమ్ అన్ని ట్యాబ్‌లలో ఒకే పరిమాణంలో ఉంటుంది, ట్యాబ్ మార్చినప్పుడు ఇక ఎగరదు."
-      ],
-      "mr": [
-        "**Grid:** हळू रडार असलेला नवीन Effects बॉक्स, Pattern मध्ये ठोस रंग (लाल, हिरवा, निळा, पांढरा), आणि बाण कळा निवडलेला लोगो सरकवतात. टूलबार अधिक स्वच्छ असून जागेवर राहतो.",
-        "**लोगो:** Pixel Mapping, Drawing आणि Grid मध्ये सारखाच चालतो: बाण (Ctrl = जलद), बॉक्सना चुंबक आणि फिरवण्याचे हँडल.",
-        "**मांडणी:** डावा स्तंभ सर्व टॅबमध्ये एकाच आकाराचा आहे आणि टॅब बदलताना आता उडी मारत नाही."
-      ],
-      "da": [
-        "**Grid:** ny Effects-boks med en langsom Radar, ensfarvede farver (rød, grøn, blå, hvid) i Pattern, og piletasterne flytter det valgte logo. Værktøjslinjen er renere og står stille.",
-        "**Logo:** virker ens i Pixel Mapping, Drawing og Grid: piletaster (Ctrl = hurtigere), magnet til boksene og et rotationshåndtag.",
-        "**Layout:** venstre kolonne har samme størrelse i alle faner og hopper ikke længere, når du skifter fane."
-      ],
-      "nb": [
-        "**Grid:** ny Effects-boks med en langsom Radar, ensfargede farger (rød, grønn, blå, hvit) i Pattern, og piltastene flytter den valgte logoen. Verktøylinjen er ryddigere og står stille.",
-        "**Logo:** fungerer likt i Pixel Mapping, Drawing og Grid: piltaster (Ctrl = raskere), magnet mot boksene og et rotasjonshåndtak.",
-        "**Oppsett:** venstre kolonne har samme størrelse i alle faner og hopper ikke lenger når du bytter fane."
-      ],
-      "lt": [
-        "**Grid:** naujas Effects langelis su lėtu Radaru, vientisos spalvos (raudona, žalia, mėlyna, balta) Pattern skiltyje, o rodyklės perkelia pasirinktą logotipą. Įrankių juosta tvarkingesnė ir nejuda.",
-        "**Logotipas:** veikia vienodai Pixel Mapping, Drawing ir Grid: rodyklės (Ctrl = greičiau), magnetas prie langelių ir pasukimo rankenėlė.",
-        "**Išdėstymas:** kairysis stulpelis visuose skirtukuose yra vienodo dydžio ir nebešokinėja keičiant skirtuką."
-      ],
-      "et": [
-        "**Grid:** uus Effects kast aeglase Radariga, ühtlased värvid (punane, roheline, sinine, valge) Patternis ja nooled liigutavad valitud logo. Tööriistariba on puhtam ja püsib paigal.",
-        "**Logo:** töötab ühtemoodi Pixel Mappingus, Drawingus ja Gridis: nooled (Ctrl = kiiremini), magnet kastide külge ja pööramiskäepide.",
-        "**Paigutus:** vasak veerg on kõigil vahekaartidel sama suur ega hüppa enam vahekaarti vahetades."
-      ],
-      "sk": [
-        "**Grid:** nové pole Effects s pomalým Radarom, plné farby (červená, zelená, modrá, biela) v Pattern a šípky posúvajú vybrané logo. Panel nástrojov je prehľadnejší a nehýbe sa.",
-        "**Logo:** funguje rovnako v Pixel Mapping, Drawing aj Grid: šípky (Ctrl = rýchlejšie), prichytenie k poliam a úchyt na otáčanie.",
-        "**Rozloženie:** ľavý stĺpec má na všetkých kartách rovnakú veľkosť a pri prepnutí karty už neposkakuje."
-      ],
-      "bg": [
-        "**Grid:** ново поле Effects с бавен Радар, плътни цветове (червено, зелено, синьо, бяло) в Pattern, а стрелките местят избраното лого. Лентата с инструменти е по-изчистена и стои неподвижно.",
-        "**Лого:** работи еднакво в Pixel Mapping, Drawing и Grid: стрелки (Ctrl = по-бързо), магнит към полетата и дръжка за завъртане.",
-        "**Оформление:** лявата колона е с еднакъв размер във всички раздели и вече не подскача при смяна на раздела."
-      ],
-      "sr": [
-        "**Grid:** ново поље Effects са спорим Радаром, пуне боје (црвена, зелена, плава, бела) у Pattern, а стрелице померају изабрани лого. Трака са алаткама је прегледнија и стоји мирно.",
-        "**Лого:** ради исто у Pixel Mapping, Drawing и Grid: стрелице (Ctrl = брже), магнет на поља и ручица за ротацију.",
-        "**Распоред:** лева колона је исте величине на свим картицама и више не скаче при промени картице."
-      ],
-      "hr": [
-        "**Grid:** novi okvir Effects sa sporim Radarom, pune boje (crvena, zelena, plava, bijela) u Patternu, a strelice pomiču odabrani logotip. Alatna traka je preglednija i miruje.",
-        "**Logotip:** radi jednako u Pixel Mappingu, Drawingu i Gridu: strelice (Ctrl = brže), magnet na okvire i ručica za okretanje.",
-        "**Raspored:** lijevi stupac iste je veličine na svim karticama i više ne skače pri promjeni kartice."
-      ],
-      "gu": [
-        "**Grid:** ધીમા રડાર સાથે નવું Effects બોક્સ, Pattern માં ઘન રંગો (લાલ, લીલો, વાદળી, સફેદ), અને તીર કી પસંદ કરેલો લોગો ખસેડે છે. ટૂલબાર વધુ સ્વચ્છ છે અને સ્થિર રહે છે.",
-        "**લોગો:** Pixel Mapping, Drawing અને Grid માં એકસરખું કામ કરે છે: તીર (Ctrl = ઝડપી), બોક્સ સાથે ચુંબક અને ફેરવવાનું હેન્ડલ.",
-        "**ગોઠવણ:** ડાબી કૉલમ બધા ટેબમાં એક જ માપની છે અને ટેબ બદલતાં હવે કૂદતી નથી."
-      ],
-      "pa": [
-        "**Grid:** ਹੌਲੀ ਰਡਾਰ ਵਾਲਾ ਨਵਾਂ Effects ਬਕਸਾ, Pattern ਵਿੱਚ ਠੋਸ ਰੰਗ (ਲਾਲ, ਹਰਾ, ਨੀਲਾ, ਚਿੱਟਾ), ਅਤੇ ਤੀਰ ਕੁੰਜੀਆਂ ਚੁਣੇ ਲੋਗੋ ਨੂੰ ਖਿਸਕਾਉਂਦੀਆਂ ਹਨ। ਟੂਲਬਾਰ ਹੋਰ ਸਾਫ਼ ਹੈ ਅਤੇ ਟਿਕਿਆ ਰਹਿੰਦਾ ਹੈ।",
-        "**ਲੋਗੋ:** Pixel Mapping, Drawing ਅਤੇ Grid ਵਿੱਚ ਇੱਕੋ ਜਿਹਾ ਕੰਮ ਕਰਦਾ ਹੈ: ਤੀਰ (Ctrl = ਤੇਜ਼), ਬਕਸਿਆਂ ਨਾਲ ਚੁੰਬਕ ਅਤੇ ਘੁਮਾਉਣ ਵਾਲਾ ਹੈਂਡਲ।",
-        "**ਖਾਕਾ:** ਖੱਬਾ ਕਾਲਮ ਸਾਰੀਆਂ ਟੈਬਾਂ ਵਿੱਚ ਇੱਕੋ ਆਕਾਰ ਦਾ ਹੈ ਅਤੇ ਟੈਬ ਬਦਲਣ ਤੇ ਹੁਣ ਨਹੀਂ ਉਛਲਦਾ।"
-      ],
-      "kn": [
-        "**Grid:** ನಿಧಾನ ರೇಡಾರ್ ಇರುವ ಹೊಸ Effects ಪೆಟ್ಟಿಗೆ, Pattern ನಲ್ಲಿ ಘನ ಬಣ್ಣಗಳು (ಕೆಂಪು, ಹಸಿರು, ನೀಲಿ, ಬಿಳಿ), ಬಾಣದ ಕೀಲಿಗಳು ಆಯ್ಕೆ ಮಾಡಿದ ಲೋಗೋವನ್ನು ಸರಿಸುತ್ತವೆ. ಟೂಲ್‌ಬಾರ್ ಹೆಚ್ಚು ಸ್ವಚ್ಛವಾಗಿದ್ದು ಸ್ಥಿರವಾಗಿರುತ್ತದೆ.",
-        "**ಲೋಗೋ:** Pixel Mapping, Drawing ಮತ್ತು Grid ನಲ್ಲಿ ಒಂದೇ ರೀತಿ ಕೆಲಸ ಮಾಡುತ್ತದೆ: ಬಾಣಗಳು (Ctrl = ವೇಗವಾಗಿ), ಪೆಟ್ಟಿಗೆಗಳಿಗೆ ಅಯಸ್ಕಾಂತ ಮತ್ತು ತಿರುಗಿಸುವ ಹಿಡಿಕೆ.",
-        "**ವಿನ್ಯಾಸ:** ಎಡ ಕಾಲಮ್ ಎಲ್ಲಾ ಟ್ಯಾಬ್‌ಗಳಲ್ಲಿ ಒಂದೇ ಗಾತ್ರದಲ್ಲಿದೆ ಮತ್ತು ಟ್ಯಾಬ್ ಬದಲಿಸುವಾಗ ಇನ್ನು ಜಿಗಿಯುವುದಿಲ್ಲ."
-      ],
-      "ne": [
-        "**Grid:** ढिलो रडार भएको नयाँ Effects बक्स, Pattern मा ठोस रङ (रातो, हरियो, निलो, सेतो), र तीर कुञ्जीले छानिएको लोगो सार्छ। टुलबार सफा छ र स्थिर रहन्छ।",
-        "**लोगो:** Pixel Mapping, Drawing र Grid मा उस्तै काम गर्छ: तीर (Ctrl = छिटो), बक्समा चुम्बक र घुमाउने ह्यान्डल।",
-        "**लेआउट:** बायाँ स्तम्भ सबै ट्याबमा एउटै आकारको छ र ट्याब बदल्दा अब उफ्रिँदैन।"
-      ],
-      "km": [
-        "**Grid:** ប្រអប់ Effects ថ្មីដែលមានរ៉ាដាវិលយឺត ពណ៌ដិត (ក្រហម បៃតង ខៀវ ស) ក្នុង Pattern ហើយគ្រាប់ចុចព្រួញផ្លាស់ទីឡូហ្គោដែលបានជ្រើស។ របារឧបករណ៍ស្អាតជាងមុន ហើយនៅនឹងថ្កល់។",
-        "**ឡូហ្គោ:** ដំណើរការដូចគ្នានៅក្នុង Pixel Mapping, Drawing និង Grid៖ ព្រួញ (Ctrl = លឿនជាង) ការស្អិតនឹងប្រអប់ និងដងសម្រាប់បង្វិល។",
-        "**ប្លង់:** ជួរឈរខាងឆ្វេងមានទំហំដូចគ្នានៅគ្រប់ផ្ទាំង ហើយលែងលោតនៅពេលប្តូរផ្ទាំង។"
-      ],
-      "kk": [
-        "**Grid:** баяу Радары бар жаңа Effects блогы, Pattern ішінде тұтас түстер (қызыл, жасыл, көк, ақ), ал көрсеткі пернелер таңдалған логотипті жылжытады. Құралдар тақтасы ықшам әрі қозғалмайды.",
-        "**Логотип:** Pixel Mapping, Drawing және Grid ішінде бірдей жұмыс істейді: көрсеткілер (Ctrl = жылдамырақ), блоктарға магнит және бұру тұтқасы.",
-        "**Орналасу:** сол жақ баған барлық қойындыда бірдей өлшемде және қойынды ауыстырғанда енді секірмейді."
-      ],
-      "uz": [
-        "**Grid:** sekin Radarli yangi Effects qutisi, Pattern'da yaxlit ranglar (qizil, yashil, ko‘k, oq), strelka tugmalari esa tanlangan logotipni suradi. Asboblar paneli ixchamroq va joyida turadi.",
-        "**Logotip:** Pixel Mapping, Drawing va Grid'da bir xil ishlaydi: strelkalar (Ctrl = tezroq), qutilarga magnit va aylantirish dastagi.",
-        "**Joylashuv:** chap ustun barcha yorliqlarda bir xil o‘lchamda va yorliq almashtirilganda endi sakramaydi."
-      ],
-      "am": [
-        "**Grid:** ቀስ ያለ ራዳር ያለው አዲስ Effects ሳጥን፣ በ Pattern ውስጥ ሙሉ ቀለሞች (ቀይ፣ አረንጓዴ፣ ሰማያዊ፣ ነጭ)፣ የቀስት ቁልፎችም የተመረጠውን ሎጎ ያንቀሳቅሳሉ። የመሣሪያ አሞሌው ይበልጥ ንፁህ ሲሆን በቦታው ይቆያል።",
-        "**ሎጎ:** በ Pixel Mapping፣ Drawing እና Grid በተመሳሳይ ይሰራል፦ ቀስቶች (Ctrl = በፍጥነት)፣ ከሳጥኖች ጋር ማግኔት እና የማዞሪያ እጀታ።",
-        "**አቀማመጥ:** የግራው ዓምድ በሁሉም ትሮች ተመሳሳይ መጠን ያለው ሲሆን ትር ሲቀየር ከእንግዲህ አይዘልም።"
-      ],
-      "sl": [
-        "**Grid:** novo polje Effects s počasnim Radarjem, polne barve (rdeča, zelena, modra, bela) v Pattern, puščice pa premikajo izbrani logotip. Orodna vrstica je preglednejša in miruje.",
-        "**Logotip:** deluje enako v Pixel Mapping, Drawing in Grid: puščice (Ctrl = hitreje), magnet na polja in ročica za vrtenje.",
-        "**Postavitev:** levi stolpec je na vseh zavihkih enake velikosti in ne poskakuje več ob menjavi zavihka."
-      ],
-      "kab": [
-        "**Grid:** tanaka tamaynut n Effects s Radar s ttawil, initen iṣfan (azeggaɣ, azegzaw, anili, amellal) deg Pattern, ineccaben smuttin alugu yettwafernen. Afeggag n yifecka yuɣal zeddig yerna yeqqim deg umkan-is.",
-        "**Alugu:** yetteddu akken kan deg Pixel Mapping, Drawing d Grid: ineccaben (Ctrl = s lemɣawla), amagnaṭis ɣer tnakatin d taṭṭuft n tuzzya.",
-        "**Asuddes:** tagejdit n zelmeḍ ɣur-s yiwen n teɣzi deg yiccer akk, ur tettneggiz ara mi ara tbeddleḍ iccer."
       ]
     }
   }
